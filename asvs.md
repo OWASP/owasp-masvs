@@ -17,21 +17,19 @@ Copyright © 2008 – 2015 The OWASP Foundation. This document is released under
 
 | Project Leads | Lead Authors | Contributors and Reviewers |
 | --- | --- | --- |
-| Andrew van der StockDaniel Cuthbert | Jim Manico | Boy Baukema, Ari Kesäniemi, Colin Watson, François-Eric Guyomarc'h, Cristinel Dumitru, James Holland, Gary Robinson, Stephen de Vries, Glenn Ten Cate, Riccardo Ten Cate, Martin Knobloch, Abhinav Sejpal, David Ryan, Steven van der Baan, Ryan Dewhurst, Raoul Endres, Roberto Martelloni |
+| Andrew van der Stock, Daniel Cuthbert | Jim Manico | Boy Baukema, Ari Kesäniemi, Colin Watson, François-Eric Guyomarc'h, Cristinel Dumitru, James Holland, Gary Robinson, Stephen de Vries, Glenn Ten Cate, Riccardo Ten Cate, Martin Knobloch, Abhinav Sejpal, David Ryan, Steven van der Baan, Ryan Dewhurst, Raoul Endres, Roberto Martelloni |
 
 ### Version 2.0, 2014
 
 | Project Leads | Lead Authors | Contributors and Reviewers |
 | --- | --- | --- |
-| Daniel Cuthbert        Sahba Kazerooni | Andrew van der Stock        Krishna Raja | Antonio FontesColin Watson        Jeff Sergeant        Pekka SillanpääArchangel Cuison        Dr Emin Tatli        Jerome Athias        Safuat HamdyAri Kesäniemi        Etienne Stalmans        Jim Manico        Scott LucBoy Baukema        Evan Gaustad        Mait Peekma        Sebastien Deleersnyder |
+| Daniel Cuthbert, Sahba Kazerooni | Andrew van der Stock, Krishna Raja | Antonio Fontes, Colin Watson, Jeff Sergeant, Pekka Sillanpää, Archangel Cuison, Dr Emin Tatli, Jerome Athias, Safuat Hamdy, Ari Kesäniemi, Etienne Stalmans, Jim Manico, Scott Luc, Boy Baukema, Evan Gaustad, Mait Peekma, Sebastien Deleersnyder |
 
 ### Version 1.0, 2009
 
 | Project Leads | Lead Authors | Contributors and Reviewers |
 | --- | --- | --- |
-| Mike Boberski        Jeff Williams        Dave Wichers | Jim Manico | Andrew van der Stock        Dr. Sarbari Gupta        John Steven        Pierre ParrendBarry BoydDr. Thomas Braun        Ken Huang        Richard CampbellBedirhan Urgun        Eoin Keary        Ketan Dilipkumar Vyas        Scott MatsumotoColin Watson        Gaurang Shah        Liz Fong        Shouvik BardhanDan Cornell        George Lawless        Mandeep Khera         Stan WissemanDave Hausladen        Jeff LoSapio        Matt Presson        Stephen de VriesTheodore WinogradJeremiah Grossman        Nam Nguyen        Steve CoyleDave van Stein        John Martin        Paul Douthit        Terrie Diaz |
-
-
+| Mike Boberski, Jeff Williams, Dave Wichers | Jim Manico | Andrew van der Stock, Dr. Sarbari Gupta, John Steven, Pierre Parrend, Barry Boyd, Dr. Thomas Braun, Ken Huang, Richard Campbell, Bedirhan Urgun, Eoin Keary, Ketan Dilipkumar Vyas, Scott Matsumoto, Colin Watson, Gaurang Shah, Liz Fong, Shouvik Bardhan, Dan Cornell, George Lawless,  Mandeep Khera, Stan Wisseman, Dave Hausladen, Jeff LoSapio, Matt Presson, Stephen de Vries, Theodore Winograd, Jeremiah Grossman, Nam Nguyen, Steve Coyle, Dave van Stein, John Martin, Paul Douthit, Terrie Diaz |
 
 # Preface
 
