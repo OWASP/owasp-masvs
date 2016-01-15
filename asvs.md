@@ -587,9 +587,9 @@ Ensure that a verified application satisfies the following high level requiremen
 | **10.11** | Verify that HTTP Strict Transport Security headers are included on all requests and for all subdomains, such as Strict-Transport-Security: max-age=15724800; includeSubdomains | ✓ | ✓ | ✓ | 3.0 |
 | **10.12** | Verify that production website URL has been submitted to preloaded list of Strict Transport Security domains maintained by web browser vendors. Please see the references below. |   |   | ✓ | 3.0 |
 | **10.13** | Ensure forward secrecy ciphers are in use to mitigate passive attackers recording traffic. | ✓ | ✓ | ✓ | 3.0 |
-| **V10.14** | Verify that proper certification revocation, such as Online Certificate Status Protocol (OSCP) Stapling, is enabled and configured. | ✓ | ✓ | ✓ | 3.0 |
-| **V10.15** | Verify that only strong algorithms, ciphers, and protocols are used, through all the certificate hierarchy, including root and intermediary certificates of your selected certifying authority. | ✓ | ✓ | ✓ | 3.0 |
-| **V10.16** | Verify that the TLS settings are in line with current leading practice, particularly as common configurations, ciphers, and algorithms become insecure. | ✓ | ✓ | ✓ | 3.0 |
+| **10.14** | Verify that proper certification revocation, such as Online Certificate Status Protocol (OSCP) Stapling, is enabled and configured. | ✓ | ✓ | ✓ | 3.0 |
+| **10.15** | Verify that only strong algorithms, ciphers, and protocols are used, through all the certificate hierarchy, including root and intermediary certificates of your selected certifying authority. | ✓ | ✓ | ✓ | 3.0 |
+| **10.16** | Verify that the TLS settings are in line with current leading practice, particularly as common configurations, ciphers, and algorithms become insecure. | ✓ | ✓ | ✓ | 3.0 |
 
 ## References
 
@@ -681,8 +681,8 @@ Ensure that a verified application satisfies the following high level requiremen
 
 | # | Description | 1 | 2 | 3 | Since |
 | --- | --- | --- | --- | --- | --- |
-| **V15.1** | Verify the application will only process business logic flows in sequential step order, with all steps being processed in realistic human time, and not process out of order, skipped steps, process steps from another user, or too quickly submitted transactions. |   | ✓ | ✓ | 2.0 |
-| **V15.2** | Verify the application has business limits and correctly enforces on a per user basis, with configurable alerting and automated reactions to automated or unusual attack. |   | ✓ | ✓ | 2.0 |
+| **15.1** | Verify the application will only process business logic flows in sequential step order, with all steps being processed in realistic human time, and not process out of order, skipped steps, process steps from another user, or too quickly submitted transactions. |   | ✓ | ✓ | 2.0 |
+| **15.2** | Verify the application has business limits and correctly enforces on a per user basis, with configurable alerting and automated reactions to automated or unusual attack. |   | ✓ | ✓ | 2.0 |
 
 ## References
 
@@ -867,42 +867,42 @@ For more information, please see:
 | **10.2** | Verify that failed TLS connections do not fall back to an insecure HTTP connection | Merged | 3.0 | Merged with 10.3 |
 | **10.7** | Verify that all connections to external systems that involve sensitive information or functions use an account that has been set up to have the minimum privileges necessary for the application to function properly |   |   |   |
 | **10.9** | Verify that specific character encodings are defined for all connections (e.g., UTF-8). |   |   |   |
-| **V11.1** | Deprecated |   |   |   |
-| **V11.4** | Deprecated |   |   |   |
-| **V11.5** | Deprecated |   |   |   |
-| **V11.6** | Deprecated |   |   |   |
-| **V11.7** | Deprecated |   |   |   |
-| **V11.8** | Deprecated |   |   |   |
-| **V11.4** | Deprecated |   |   |   |
-| **V13.1** | Deprecated |   |   |   |
-| **V13.2** | Deprecated |   |   |   |
-| **V13.3** | Deprecated |   |   |   |
-| **V13.4** | Deprecated |   |   |   |
-| **V13.5** | Deprecated |   |   |   |
-| **V13.6** | Deprecated |   |   |   |
-| **V13.7** | Deprecated |   |   |   |
-| **V13.8** | Deprecated |   |   |   |
-| **V13.9** | Deprecated |   |   |   |
+| **11.1** | Deprecated |   |   |   |
+| **11.4** | Deprecated |   |   |   |
+| **11.5** | Deprecated |   |   |   |
+| **11.6** | Deprecated |   |   |   |
+| **11.7** | Deprecated |   |   |   |
+| **11.8** | Deprecated |   |   |   |
+| **11.4** | Deprecated |   |   |   |
+| **13.1** | Deprecated |   |   |   |
+| **13.2** | Deprecated |   |   |   |
+| **13.3** | Deprecated |   |   |   |
+| **13.4** | Deprecated |   |   |   |
+| **13.5** | Deprecated |   |   |   |
+| **13.6** | Deprecated |   |   |   |
+| **13.7** | Deprecated |   |   |   |
+| **13.8** | Deprecated |   |   |   |
+| **13.9** | Deprecated |   |   |   |
 | **15.1-15.7 15.9** | Business Logic Section. | Merged | 3.0 | Most of section 15 has been merged into 15.8 and 15.10. |
 | **15.11** | Verify that the application covers off risks associated with Spoofing, Tampering, Repudiation, Information Disclosure, and Elevation of privilege (STRIDE). | Duplicate | 3.0 | Duplicated requirement. Captured by V1.6 |
 | **16.4** | Verify that parameters obtained from untrusted sources are not used in manipulating filenames, pathnames or any file system object without first being canonicalized and input validated to prevent local file inclusion attacks. | Moved | 3.0 | Moved to V16.2 |
 | **17.1** | Verify that the client validates SSL certificates | Deprecated | 3.0 | Duplicated requirement. General requirement already captured by V10. |
-| **V17.7** | Deprecated |   |   |   |
-| **V17.8** | Deprecated |   |   |   |
-| **V17.10** | Deprecated |   |   |   |
-| **V17.11** | Deprecated |   |   |   |
-| **V17.12** | Deprecated |   |   |   |
-| **V17.13** | Deprecated |   |   |   |
-| **V17.14** | Deprecated |   |   |   |
-| **V17.15** | Deprecated |   |   |   |
-| **V17.16** | Deprecated |   |   |   |
-| **V17.17** | Deprecated |   |   |   |
-| **V17.18** | Deprecated |   |   |   |
-| **V17.19** | Deprecated |   |   |   |
-| **V17.20** | Deprecated |   |   |   |
-| **V17.22** | Deprecated |   |   |   |
-| **V17.23** | Deprecated |   |   |   |
-| **V17.24** | Deprecated |   |   |   |
+| **17.7** | Deprecated |   |   |   |
+| **17.8** | Deprecated |   |   |   |
+| **17.10** | Deprecated |   |   |   |
+| **17.11** | Deprecated |   |   |   |
+| **17.12** | Deprecated |   |   |   |
+| **17.13** | Deprecated |   |   |   |
+| **17.14** | Deprecated |   |   |   |
+| **17.15** | Deprecated |   |   |   |
+| **17.16** | Deprecated |   |   |   |
+| **17.17** | Deprecated |   |   |   |
+| **17.18** | Deprecated |   |   |   |
+| **17.19** | Deprecated |   |   |   |
+| **17.20** | Deprecated |   |   |   |
+| **17.22** | Deprecated |   |   |   |
+| **17.23** | Deprecated |   |   |   |
+| **17.24** | Deprecated |   |   |   |
 
 # Appendix B: Glossary
 
