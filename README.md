@@ -8,7 +8,7 @@ Why use Markdown? Here is one of many blog posts online which explains the benef
 
 ## Convert .docx to .md
 
-You will need Open Office installed as the gem used uses Open Office as a dependency.
+You will need Libre Office installed as the gem used uses Libre Office as a dependency.
 
 ```
 gem install word-to-markdown
