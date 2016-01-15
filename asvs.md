@@ -256,16 +256,16 @@ Note: This section has been re-introduced in version 3.0, but is essentially the
 
 | # | Description | 1 | 2 | 3 | Since |
 | --- | --- | --- | --- | --- | --- |
-| 1.1 | Verify that all application components are identified and are known to be needed. |  |  |  | 1.0 |
-| 1.2 | Verify that all components, such as libraries, modules, and external systems, that are not part of the application but that the application relies on to operate are identified. |   |  |  | 1.0 |
-| 1.3 | Verify that a high-level architecture for the application has been defined. |   |  |  | 1.0 |
-| 1.4 | Verify that all application components are defined in terms of the business functions and/or security functions they provide. |   |   |  | 1.0 |
-| 1.5 | Verify that all components that are not part of the application but that the application relies on to operate are defined in terms of the functions, and/or security functions, they provide. |   |   |  | 1.0 |
-| 1.6 | Verify that a threat model for the target application has been produced and covers off risks associated with Spoofing, Tampering, Repudiation, Information Disclosure, and Elevation of privilege (STRIDE). |   |   |  | 1.0 |
-| 1.7 | Verify all security controls (including libraries that call external security services) have a centralized implementation. |   |  |  | 3.0 |
-| 1.8 | Verify that components are segregated from each other via a defined security control, such as network segmentation, firewall rules, or cloud based security groups. |   |  |  | 3.0 |
-| 1.9 | Verify the application has a clear separation between the data layer, controller layer and the display layer, such that security decisions can be enforced on trusted systems. |   |  |  | 3.0 |
-| 1.10 | Verify that there is no sensitive business logic, secret keys or other proprietary information in client side code. |   |  |  | 3.0 |
+| 1.1 | Verify that all application components are identified and are known to be needed. | ✓ | ✓ | ✓ | 1.0 |
+| 1.2 | Verify that all components, such as libraries, modules, and external systems, that are not part of the application but that the application relies on to operate are identified. |   | ✓ | ✓ | 1.0 |
+| 1.3 | Verify that a high-level architecture for the application has been defined. |   | ✓ | ✓ | 1.0 |
+| 1.4 | Verify that all application components are defined in terms of the business functions and/or security functions they provide. |   |   | ✓ | 1.0 |
+| 1.5 | Verify that all components that are not part of the application but that the application relies on to operate are defined in terms of the functions, and/or security functions, they provide. |   |   | ✓ | 1.0 |
+| 1.6 | Verify that a threat model for the target application has been produced and covers off risks associated with Spoofing, Tampering, Repudiation, Information Disclosure, and Elevation of privilege (STRIDE). |   |   | ✓ | 1.0 |
+| 1.7 | Verify all security controls (including libraries that call external security services) have a centralized implementation. |   | ✓ | ✓ | 3.0 |
+| 1.8 | Verify that components are segregated from each other via a defined security control, such as network segmentation, firewall rules, or cloud based security groups. |   | ✓ | ✓ | 3.0 |
+| 1.9 | Verify the application has a clear separation between the data layer, controller layer and the display layer, such that security decisions can be enforced on trusted systems. |   | ✓ | ✓ | 3.0 |
+| 1.10 | Verify that there is no sensitive business logic, secret keys or other proprietary information in client side code. |   | ✓ | ✓ | 3.0 |
 
 ## References
 
@@ -287,32 +287,32 @@ Authentication is the act of establishing, or confirming, something (or someone)
 
 | # | Description | 1 | 2 | 3 | Since |
 | --- | --- | --- | --- | --- | --- |
-| 2.1 | Verify all pages and resources by default require authentication except those specifically intended to be public (Principle of complete mediation). |  |  |  | 1.0 |
-| 2.2 | Verify that all password fields do not echo the user's password when it is entered. |  |  |  | 1.0 |
-| 2.4 | Verify all authentication controls are enforced on the server side. |  |  |  | 1.0 |
-| 2.6 | Verify all authentication controls fail securely to ensure attackers cannot log in. |  |  |  | 1.0 |
-| 2.7 | Verify password entry fields allow, or encourage, the use of passphrases, and do not prevent long passphrases/highly complex passwords being entered. |  |  |  | 3.0 |
-| 2.8 | Verify all account identity authentication functions (such as update profile, forgot password, disabled / lost token, help desk or IVR) that might regain access to the account are at least as resistant to attack as the primary authentication mechanism. |  |  |  | 2.0 |
-| 2.9 | Verify that the changing password functionality includes the old password, the new password, and a password confirmation. |  |  |  | 1.0 |
-| 2.12 | Verify that all suspicious authentication decisions are logged. This should include requests with relevant metadata needed for security investigations. |   |  |  | 2.0 |
-| 2.13 | Verify that account passwords make use of a sufficient strength encryption routine and that it withstands brute force attack against the encryption routine. |   |  |  | 3.0 |
-| 2.16 | Verify that credentials are transported using a suitable encrypted link and that all pages/functions that require a user to enter credentials are done so using an encrypted link. |  |  |  | 3.0 |
-| 2.17 | Verify that the forgotten password function and other recovery paths do not reveal the current password and that the new password is not sent in clear text to the user. |  |  |  | 2.0 |
-| 2.18 | Verify that information enumeration is not possible via login, password reset, or forgot account functionality. |  |  |  | 2.0 |
-| 2.19 | Verify there are no default passwords in use for the application framework or any components used by the application (such as "admin/password"). |  |  |  | 2.0 |
-| 2.20 | Verify that request throttling is in place to prevent automated attacks against common authentication attacks such as brute force attacks or denial of service attacks. |  |  |  | 3.0 |
-| 2.21 | Verify that all authentication credentials for accessing services external to the application are encrypted and stored in a protected location. |   |  |  | 2.0 |
-| 2.22 | Verify that forgotten password and other recovery paths use a soft token, mobile push, or an offline recovery mechanism. |  |  |  | 3.0 |
-| 2.23 | Verify that account lockout is divided into soft and hard lock status, and these are not mutually exclusive. If an account is temporarily soft locked out due to a brute force attack, this should not reset the hard lock status. |   |  |  | 3.0 |
-| 2.24 | Verify that if knowledge based questions (also known as "secret questions") are required, the questions should be strong enough to protect the application. |  |  |  | 2.0 |
-| 2.25 | Verify that the system can be configured to disallow the use of a configurable number of previous passwords. |   |  |  | 2.0 |
-| 2.26 | Verify re-authentication, step up or adaptive authentication, two factor authentication, or transaction signing is required before any application-specific sensitive operations are permitted as per the risk profile of the application. |   |  |  | 2.0 |
-| 2.27 | Verify that measures are in place to block the use of commonly chosen passwords and weak passphrases. |  |  |  | 3.0 |
-| 2.28 | Verify that all authentication challenges, whether successful or failed, should respond in the same average response time. |   |   |  | 3.0 |
-| 2.29 | Verify that secrets, API keys, and passwords are not included in the source code, or online source code repositories. |   |   |  | 3.0 |
-| 2.30 | Verify that if an application allows users to authenticate, they use a proven secure authentication mechanism. |  |  |  | 3.0 |
-| 2.31 | Verify that if an application allows users to authenticate, they can authenticate using two-factor authentication or other strong authentication, or any similar scheme that provides protection against username + password disclosure. |   |  |  | 3.0 |
-| 2.32 | Verify that administrative interfaces are not accessible to untrusted parties |  |  |  | 3.0 |
+| 2.1 | Verify all pages and resources by default require authentication except those specifically intended to be public (Principle of complete mediation). | ✓ | ✓ | ✓ | 1.0 |
+| 2.2 | Verify that all password fields do not echo the user's password when it is entered. | ✓ | ✓ | ✓ | 1.0 |
+| 2.4 | Verify all authentication controls are enforced on the server side. | ✓ | ✓ | ✓ | 1.0 |
+| 2.6 | Verify all authentication controls fail securely to ensure attackers cannot log in. | ✓ | ✓ | ✓ | 1.0 |
+| 2.7 | Verify password entry fields allow, or encourage, the use of passphrases, and do not prevent long passphrases/highly complex passwords being entered. | ✓ | ✓ | ✓ | 3.0 |
+| 2.8 | Verify all account identity authentication functions (such as update profile, forgot password, disabled / lost token, help desk or IVR) that might regain access to the account are at least as resistant to attack as the primary authentication mechanism. | ✓ | ✓ | ✓ | 2.0 |
+| 2.9 | Verify that the changing password functionality includes the old password, the new password, and a password confirmation. | ✓ | ✓ | ✓ | 1.0 |
+| 2.12 | Verify that all suspicious authentication decisions are logged. This should include requests with relevant metadata needed for security investigations. |   | ✓ | ✓ | 2.0 |
+| 2.13 | Verify that account passwords make use of a sufficient strength encryption routine and that it withstands brute force attack against the encryption routine. |   | ✓ | ✓ | 3.0 |
+| 2.16 | Verify that credentials are transported using a suitable encrypted link and that all pages/functions that require a user to enter credentials are done so using an encrypted link. | ✓ | ✓ | ✓ | 3.0 |
+| 2.17 | Verify that the forgotten password function and other recovery paths do not reveal the current password and that the new password is not sent in clear text to the user. | ✓ | ✓ | ✓ | 2.0 |
+| 2.18 | Verify that information enumeration is not possible via login, password reset, or forgot account functionality. | ✓ | ✓ | ✓ | 2.0 |
+| 2.19 | Verify there are no default passwords in use for the application framework or any components used by the application (such as "admin/password"). | ✓ | ✓ | ✓ | 2.0 |
+| 2.20 | Verify that request throttling is in place to prevent automated attacks against common authentication attacks such as brute force attacks or denial of service attacks. | ✓ | ✓ | ✓ | 3.0 |
+| 2.21 | Verify that all authentication credentials for accessing services external to the application are encrypted and stored in a protected location. |   | ✓ | ✓ | 2.0 |
+| 2.22 | Verify that forgotten password and other recovery paths use a soft token, mobile push, or an offline recovery mechanism. | ✓ | ✓ | ✓ | 3.0 |
+| 2.23 | Verify that account lockout is divided into soft and hard lock status, and these are not mutually exclusive. If an account is temporarily soft locked out due to a brute force attack, this should not reset the hard lock status. |   | ✓ | ✓ | 3.0 |
+| 2.24 | Verify that if knowledge based questions (also known as "secret questions") are required, the questions should be strong enough to protect the application. | ✓ | ✓ | ✓ | 2.0 |
+| 2.25 | Verify that the system can be configured to disallow the use of a configurable number of previous passwords. |   | ✓ | ✓ | 2.0 |
+| 2.26 | Verify re-authentication, step up or adaptive authentication, two factor authentication, or transaction signing is required before any application-specific sensitive operations are permitted as per the risk profile of the application. |   | ✓ | ✓ | 2.0 |
+| 2.27 | Verify that measures are in place to block the use of commonly chosen passwords and weak passphrases. | ✓ | ✓ | ✓ | 3.0 |
+| 2.28 | Verify that all authentication challenges, whether successful or failed, should respond in the same average response time. |   |   | ✓ | 3.0 |
+| 2.29 | Verify that secrets, API keys, and passwords are not included in the source code, or online source code repositories. |   |   | ✓ | 3.0 |
+| 2.30 | Verify that if an application allows users to authenticate, they use a proven secure authentication mechanism. | ✓ | ✓ | ✓ | 3.0 |
+| 2.31 | Verify that if an application allows users to authenticate, they can authenticate using two-factor authentication or other strong authentication, or any similar scheme that provides protection against username + password disclosure. |   | ✓ | ✓ | 3.0 |
+| 2.32 | Verify that administrative interfaces are not accessible to untrusted parties | ✓ | ✓ | ✓ | 3.0 |
 
 ## References
 
