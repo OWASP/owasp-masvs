@@ -20,3 +20,9 @@ Thanks to the incredibly awesome [word-to-markdown](https://github.com/benbalter
 ## Convert Markdown to other formats
 
 Markdown can be converted to a multitude of different formats. There are many free / Open Source converters which can be found online.
+
+## Future Suggestions
+
+1. Use continuous integration to run things like spell checkers - https://travis-ci.org/
+2. Split each chapter or section into its own file.
+3. Create a commit hook to join all the separate chapters/sections into 1 file for consumption.
