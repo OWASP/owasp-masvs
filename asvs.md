@@ -19,76 +19,60 @@ Copyright © 2016 The OWASP Foundation. This document is released under the Crea
 
 # Preface
 
-Welcome to the Application Security Verification Standard (ASVS) version 3.0. The ASVS is a community-effort to establish a framework of security requirements and controls that focus on normalising the functional and non-functional security controls required when designing, developing and testing modern web applications.
+Welcome to the Mobile Application Security Verification Standard (MASVS) version 1.0. The MASVS is a community-effort to establish a framework of security requirements and controls that focus on normalising the functional and non-functional security controls required when designing, developing and testing mobile applications on iOS and Android.
 
-ASVS v3.0 is a culmination of community effort and industry feedback. In this release, we felt it was important to qualify the experiences of real world use cases relating to ASVS adoption. This will help newcomers to the standard plan their adoption of the ASVS, whilst assisting existing companies in learning from the experience of others.
+MASVS v1.0 is a culmination of community effort and industry feedback.
 
-We expect that there will most likely never be 100% agreement on this standard. Risk analysis is always subjective to some extent, which creates a challenge when attempting to generalize in a one size fits all standard. However, we hope that the latest updates made in this version are a step in the right direction, and respectfully enhance the concepts introduced in this important industry standard.
+-- TODO - Further introduction --
 
-## What's new in 3.0?
+# Using the Mobile Application Security Verification Standard
 
-In version 3.0, we have added several new sections, including Configuration, Web Services, Modern (Client) based applications, to make the Standard more applicable to modern applications, which are commonly responsive applications, with an extensive HTML5 front end or mobile client that calls a common set of RESTful web services using SAML authentication.
+MASVS has two main goals:
+·      to help organizations develop and maintain secure mobile applications
+·      to allow security service, security tools vendors, and consumers to align their requirements and offerings
 
-We have also de-duplicated the standard, for example, to ensure that a mobile developer does not need to re-test the same items multiple times.
+Figure 1 - Uses of MASVS for organizations and tool/service providers
 
-We have provided a mapping to the CWE common weakness enumeration (CWE) dictionary. The CWE mapping can be used to identify information such as likelihood of exploitation, consequence of a successful exploitation and broadly speaking to gain insight on what could go wrong if a security control is not used or implemented effectively and how to mitigate the weakness.
+## Mobile Application Security Verification Levels
 
-Lastly, we reached out to the community and held peer review sessions at AppSec EU 2015 and a final working session at AppSec USA 2015 to include a massive amount of community feedback. During peer review, if edits to the meaning of a control changed substantially, we created a new control and deprecated the old one. We have deliberately chosen to not reuse any deprecated control requirements, as this could be a source of confusion. We have provided a comprehensive mapping of what has changed in Appendix A.
+The Mobile Application Security Verification Standard defines three security verification levels, with each level increasing in depth. 
 
-Taken together, v3.0 is the single largest change to the Standard in its history. We hope that you find the update to the standard useful, and use it in ways we can only imagine.
+- MASVS Level 1 -- todo --
+- MASVS Level 2 -- todo --
+- MASVS Level 3 -- todo --
 
-# Using the Application Security Verification Standard
+Each MASVS level contains a list of security requirements. Each of these requirements can also be mapped to security-specific features and capabilities that must be built into software by developers.
 
-ASVS has two main goals:
-
-- to help organizations develop and maintain secure applications
-- to allow security service, security tools vendors, and consumers to align their requirements and offerings
-
-Figure 1 - Uses of ASVS for organizations and tool/service providers
-
-## Application Security Verification Levels
-
-The Application Security Verification Standard defines three security verification levels, with each level increasing in depth.
-
-- ASVS Level 1 is meant for all software.
-- ASVS Level 2 is for applications that contain sensitive data, which requires protection.
-- ASVS Level 3 is for the most critical applications - applications that perform high value transactions, contain sensitive medical data, or any application that requires the highest level of trust.
-
-Each ASVS level contains a list of security requirements. Each of these requirements can also be mapped to security-specific features and capabilities that must be built into software by developers.
-
-Figure 2 - OWASP Application Security Verification Standard 3.0 Levels
+Figure 2 - OWASP Mobile Application Security Verification Standard 1.0 Levels
 
 ## How to use this standard
 
-One of the best ways to use the Application Security Verification Standard is to use it as blueprint create a Secure Coding Checklist specific to your application, platform or organization. Tailoring the ASVS to your use cases will increase the focus on the security requirements that are most important to your projects and environments.
+One of the best ways to use the Mobile Application Security Verification Standard is to use it as blueprint create a Secure Coding Checklist specific to your application, platform or organization. Tailoring the MASVS to your use cases will increase the focus on the security requirements that are most important to your projects and environments.
 
 ### Level 1: Opportunistic
 
-An application achieves ASVS Level 1 (or Opportunistic) if it adequately defends against application security vulnerabilities that are easy to discover, and included in the OWASP Top 10 and other similar checklists.
-
-Level 1 is typically appropriate for applications where low confidence in the correct use of security controls is required, or to provide a quick analysis of a fleet of enterprise applications, or assisting in developing a prioritized list of security requirements as part of a multi-phase effort. Level 1 controls can be ensured either automatically by tools or simply manually without access to source code. We consider Level 1 the minimum required for all applications.
-
-Threats to the application will most likely be from attackers who are using simple and low effort techniques to identify easy-to-find and easy-to-exploit vulnerabilities. This is in contrast to a determined attacker who will spend focused energy to specifically target the application. If data processed by your application has high value, you would rarely want to stop at a Level 1 review.
+-- TODO: Describe the levels
 
 ### Level 2: Standard
 
-An application achieves ASVS Level 2 (or Standard) if it adequately defends against most of the risks associated with software today.
-
-Level 2 ensures that security controls are in place, effective, and used within the application. Level 2 is typically appropriate for applications that handle significant business-to-business transactions, including those that process healthcare information, implement business-critical or sensitive functions, or process other sensitive assets.
-
-Threats to Level 2 applications will typically be skilled and motivated attackers focusing on specific targets using tools and techniques that are highly practiced and effective at discovering and exploiting weaknesses within applications.
-
 ### Level 3: Advanced
 
-ASVS Level 3 is the highest level of verification within the ASVS. This level is typically reserved for applications that require significant levels of security verification, such as those that may be found within areas of military, health and safety, critical infrastructure, etc. Organisations may require ASVS Level 3 for applications that perform critical functions, where failure could significantly impact the organization's operations, and even its survivability. Example guidance on the application of ASVS Level 3 is provided below. An application achieves ASVS Level 3 (or Advanced) if it adequately defends against advanced application security vulnerabilities and also demonstrates principles of good security design.
+### Optional Software Protections
 
-An application at ASVS Level 3 requires more in depth analysis, architecture, coding, and testing than all the other levels. A secure application is modularized in a meaningful way (to facilitate e.g. resiliency, scalability, and most of all, layers of security), and each module (separated by network connection and/or physical instance) takes care of its own security responsibilities (defence in depth), that need to be properly documented. Responsibilities include controls for ensuring confidentiality (e.g. encryption), integrity (e.g. transactions, input validation), availability (e.g. handling load gracefully), authentication (including between systems), non-repudiation, authorization, and auditing (logging).
+Depending on the threat model and sensitivity of the data processed by the app, developers may opt to add software protection mechanisms that make it more difficult for adversaries to extract data or comprehend some or all functionality performed by the app. To verify the effectiveness of such defenses, an optional set of test cases known as resiliency tests can be performed. The MASVS defines four resiliency grades as follows:
 
-## Applying ASVS in Practice
+#### Grade 1
+#### Grade 2
+#### Grade 3
+#### Grade 4
+
+Fulfilling these requirements adds additional layers of protection to sensitive data when the mobile device is compromised and increase the effort adversaries need to invest to reverse engineer the app.
+
+## Applying MASVS in Practice
 
 Different threats have different motivations. Some industries have unique information and technology assets and domain specific regulatory compliance requirements.
 
-Below we provide industry-specific guidance regarding recommended ASVS levels. Although some unique criteria and some differences in threats exist for each industry, a common theme throughout all industry segments is that opportunistic attackers will look for any easily exploitable vulnerable applications, which is why ASVS Level 1 is recommended for all applications regardless of industry. This is a suggested starting point to manage the easiest to find risks. Organizations are strongly encouraged to look more deeply at their unique risk characteristics based on the nature of their business. At the other end of the spectrum is ASVS Level 3, which is reserved for those cases that might endanger human safety or when a full application breach could severely impact the organization.
+Below we provide industry-specific guidance regarding recommended MASVS levels. Although some unique criteria and some differences in threats exist for each industry, a common theme throughout all industry segments is that opportunistic attackers will look for any easily exploitable vulnerable applications, which is why MASVS Level 1 is recommended for all applications regardless of industry. This is a suggested starting point to manage the easiest to find risks. Organizations are strongly encouraged to look more deeply at their unique risk characteristics based on the nature of their business. At the other end of the spectrum is MASVS Level 3, which is reserved for those cases that might endanger human safety or when a full application breach could severely impact the organization.
 
 | Industry | Threat Profile | L1 Recommendation | L2 Recommendation | L3 Recommendation |
 | --- | --- | --- | --- | --- |
@@ -102,29 +86,6 @@ Accountability Act (HIPAA) Privacy, Security, Breach Notification
 Rules and Patient Safety Rule ( [http://www.hhs.gov/ocr/privacy/](http://www.hhs.gov/ocr/privacy/)= [.](http://www.hhs.gov/ocr/privacy/) | All network accessible applications | Applications with small or moderate amounts of sensitive medical information (Protected Health Information), Personally Identifiable Information, or payment data. | Applications used to control medical equipment, devices, or records that may endanger human life. Payment and Point of Sale systems (POS) that contain large amounts of transaction data that could be used to commit fraud. This includes any administrative interfaces for these applications |
 | Retail, food, hospitality | Many of the attackers in this segment utilize opportunistic "smash and grab" tactics. However, there is also a regular threat of specific attacks on applications known to contain payment information, perform financial transactions, or store personally identifiable information. Although less likely than the threats mentioned above, there is also the possibility of more advanced threats attacking this industry segment to steal intellectual property, gain competitive intelligence, or gain an advantage with the target organization or a business partner in negotiations. | All network accessible applications. | Suitable for business applications, product catalogue information, internal corporate information, and applications with limited user information (e.g. contact information). Applications with small or moderate amounts of payment data or checkout functionality. | Payment and Point of Sale systems (POS) that contain large amounts of transaction data that could be used to commit fraud. This includes any administrative interfaces for these applications. Applications with a large volume of sensitive information like full credit card numbers, mother's maiden name, social security numbers etc. |
 
-# Case Studies
-
-## Case Study 1: As a Security Testing Guide
-
-At a private university in Utah, USA, the campus Red Team uses the OWASP ASVS as a guide when performing application penetration tests. It is used throughout the penetration testing process, from initial planning and scoping meetings to guidance for testing activities, and as a way to frame the findings of the final report to clients. The Red Team also organizes training for the team using the ASVS.
-
-The campus Red Team performs network and application penetration testing for various departments on campus as part of the overall university's information security strategy. During initial planning meetings, clients are often reticent to give permission for their application to be tested by a team of students. By introducing the ASVS and explaining to stakeholders that testing activities will be guided by this standard, and that the final report will include how the application performed against the standard, many concerns are immediately resolved. The ASVS is then used during scoping to help determine how much time and effort will be spent on the test. By using the predefined verification levels of the ASVS, the Red Team explains risk-based testing. This helps the client, stakeholders, and the team to come to an agreement on an appropriate scope for the application in question.
-
-Once testing begins, the Red Team uses the ASVS to organize activities and divide up the workload. By tracking which verification requirements have been tested and which are still pending, project managers for the team can easily see how the test is progressing. This leads to improved communication with clients and gives project managers the ability to better manage resources. Because the Red Team is composed primarily of students, most team members have multiple demands on their time from different courses. Well-defined tasks, based on individual verification requirements or entire categories, help team members know exactly what needs to be tested and allow them to provide accurate estimations on how long a task will take to complete. Reporting also benefits from the clear organization of the ASVS, as team members can write up a finding before moving on to the next task, effectively performing the majority of report writing concurrently with the penetration test.
-
-The Red Team organizes the final report around the ASVS, reporting the status of each verification requirement and providing further details where appropriate. This gives clients and stakeholders a good idea of where their application stands as measured by the standard, and is extremely valuable on follow-up engagements because it allows them to see how security has improved or regressed over time. Furthermore, stakeholders interested in how the application performed a specific category or categories can easily find out that information because the report format aligns so closely with the ASVS. The clear organization of the ASVS has also made it easier to train new team members on how to write a report when compared to the previous report format.
-
-Finally, training of the Red Team has improved after adopting the ASVS. Previously, weekly trainings were centered on a topic chosen by the team lead or project manager. These were selected based on requests by team members and perceived need. Training based on these criteria had the potential to broaden the skills of team members, but did not necessarily relate to core Red Team activities. In other words, the team did not get significantly better at penetration testing. After adopting the ASVS, team training now focuses on how to test individual verification requirements. This has led to a significant improvement in the measurable skills of individual team members and the quality of final reports.
-
-## Case Study 2: As a secure SDLC
-
-A start up looking to provide big data analytics to financial institutions realises that security in development is on top of the list of requirements in order to obtain access to and process financial metadata. In this instance, the start up has chosen to use the ASVS as the basis of their agile secure development lifecycle.
-
-The start up uses the ASVS to generate epics and use cases for functional security issues, such as how best to implement login functionality. The start up uses ASVS in a different way than most - it looks through ASVS, picking the requirements that suit the current sprint, and adds them directly to the sprint backlog if it's a functional requirement, or as a constraint to existing use cases if non-functional. For example, adding TOTP two factor authentication was selected, along with password policies and a web service regulator that doubles as a brute force detection and prevention mechanism. In future sprints, additional requirements will be selected based upon a "just in time", "you ain't gonna need it" basis.
-
-The developers use the ASVS as a peer review checklist, which ensures unsafe code does not get checked in, and in retrospective plans to challenge developers who have checked in a new feature to ensure that they have considered likely ASVS requirements and if anything can be improved or reduced in future sprints.
-
-Lastly, the developers use the ASVS as part of their automated verification secure unit and integration test suites to test for use, abuse, and fuzz testing cases. The aim is to reduce the risk from waterfall methodology "penetration testing at the end" causing expensive refactoring when delivering milestone builds into production. As new builds could be promoted after every sprint, it is not sufficient to rely upon a single assurance activity, and so by automating their testing regime, there should be no significant issues that can be found by even a skilled penetration tester with weeks to test the application.
 
 # Assessing software has achieved a verification level
 
@@ -172,25 +133,6 @@ The ASVS is designed to highly testable, with the sole exception of architectura
 
 ASVS can also be used to define characteristics of secure software. Many "secure coding" courses are simply ethical hacking courses with a light smear of coding tips. This does not help developers. Instead, secure development courses can use the ASVS with a strong focus on the proactive controls found in the ASVS, rather than the Top 10 negative things not to do.
 
-# OWASP Projects using ASVS
-
-## Security Knowledge Framework
-
-[https://www.owasp.org/index.php/OWASP\_Security\_Knowledge\_Framework](https://www.owasp.org/index.php/OWASP_Security_Knowledge_Framework)
-
-Training developers in writing secure code - SKF is a fully open-source Python-Flask web-application that uses the OWASP Application Security Verification Standard to train you and your team in writing secure code, by design.
-
-## OWASP Zed Attack Proxy
-
-[https://www.owasp.org/index.php/OWASP\_Zed\_Attack\_Proxy\_Project](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)
-
-The OWASP Zed Attack Proxy (ZAP) is an easy to use integrated penetration testing tool for finding vulnerabilities in web applications. It is designed to be used by people with a wide range of security experience and as such is ideal for developers and functional testers who are new to penetration testing. ZAP provides automated scanners as well as a set of tools that allow you to find security vulnerabilities manually.
-
-## OWASP Cornucopia
-
-[https://www.owasp.org/index.php/OWASP\_Cornucopia](https://www.owasp.org/index.php/OWASP_Cornucopia)
-
-OWASP Cornucopia is a mechanism in the form of a card game to assist software development teams identify security requirements in Agile, conventional and formal development processes. It is language, platform and technology agnostic. Cornucopia suits were selected based on the structure of the OWASP Secure Coding Practices - Quick Reference Guide (SCP), but with additional consideration of sections in the OWASP Application Security Verification Standard, the OWASP Testing Guide and David Rook's Principles of Secure Development.
 
 # Detailed Verification Requirements
 
