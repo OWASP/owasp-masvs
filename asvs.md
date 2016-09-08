@@ -37,13 +37,22 @@ Figure 1 - Uses of MASVS for organizations and tool/service providers
 
 The Mobile Application Security Verification Standard defines three security verification levels, with each level increasing in depth. 
 
-- MASVS Level 1 -- todo --
-- MASVS Level 2 -- todo --
-- MASVS Level 3 -- todo --
+- MASVS Level 1 -- Basic Security
+- MASVS Level 2 -- Standard Security
+- MASVS Level 3 -- Defense-in-Depth
 
-Each MASVS level contains a list of security requirements. Each of these requirements can also be mapped to security-specific features and capabilities that must be built into software by developers.
+Each MASVS level contains a list of security requirements. Each of these requirements can also be mapped to security-specific features and capabilities that must be built into software by developers. The MASVS level reflects the overall security of the app, and an app that fullfills the level 3 requirements is considered to have state-of-the-art security.
 
 Figure 2 - OWASP Mobile Application Security Verification Standard 1.0 Levels
+
+Depending on the threat model and sensitivity of the data processed by the app, developers may opt to implement additional software protection mechanisms. To verify these optional defenses, MASVS offers a separate set of requirements and defines four resiliency grades as follows. 
+
+- Resiliency Grade 1 -- Light Protection
+- Resiliency Grade 2 -- Medium Protection
+- Resiliency Grade 3 -- Strong Protection
+- Resiliency Grade 4 -- Very Strong Protection
+
+Figure 3 - OWASP Mobile Application Security Verification Standard 1.0 Resliency Grades
 
 ## How to use this standard
 
@@ -57,16 +66,7 @@ One of the best ways to use the Mobile Application Security Verification Standar
 
 ### Level 3: Advanced
 
-### Optional Software Protections
 
-Depending on the threat model and sensitivity of the data processed by the app, developers may opt to add software protection mechanisms that make it more difficult for adversaries to extract data or comprehend some or all functionality performed by the app. To verify the effectiveness of such defenses, an optional set of test cases known as resiliency tests can be performed. The MASVS defines four resiliency grades as follows:
-
-#### Grade 1
-#### Grade 2
-#### Grade 3
-#### Grade 4
-
-Fulfilling these requirements adds additional layers of protection to sensitive data when the mobile device is compromised and increase the effort adversaries need to invest to reverse engineer the app.
 
 ## Applying MASVS in Practice
 
