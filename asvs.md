@@ -1,5 +1,5 @@
 #
-# Mobile Application Security Verification Standard 0.0.1
+# Mobile Application Security Verification Standard
 
 [date]
 
@@ -89,7 +89,7 @@ Rules and Patient Safety Rule ( [http://www.hhs.gov/ocr/privacy/](http://www.hhs
 
 # Assessing software has achieved a verification level
 
-## OWASP's stance on ASVS Certifications and Trust Marks
+## OWASP's stance on MASVS Certifications and Trust Marks
 
 OWASP, as a vendor-neutral not-for-profit organisation, does not certify any vendors, verifiers or software.
 
@@ -136,39 +136,26 @@ ASVS can also be used to define characteristics of secure software. Many "secure
 
 # Detailed Verification Requirements
 
-V1.         Architecture, design and threat modelling
+V1.        Architecture, design and threat modelling
 
-V2.        Authentication
+V2.        Data storage and privacy
 
-V3.        Session management
+V3.        Cryptography
 
-V4.        Access control
+V4.        Authentication and session management
 
-V5.        Malicious input handling
+V5.        Network communication
 
-V7.        Cryptography at rest
+V6.        Interaction with the environment
 
-V8.        Error handling and logging
+V7.        Secure coding
 
-V9.        Data protection
+V8.        Defense-in-depth
 
-V10.        Communications
+V9.        Resiliency against reverse engineering
 
-V11.        HTTP security configuration
 
-V13.        Malicious controls
-
-V15.        Business logic
-
-V16.        File and resources
-
-V17.        Mobile
-
-V18.        Web services (NEW for 3.0)
-
-V19.        Configuration (NEW for 3.0)
-
-# V1: Architecture, design and threat modelling
+# V1: Architecture, design and threat modelling requirements
 
 ## Control objective
 
@@ -199,10 +186,9 @@ Note: This section has been re-introduced in version 3.0, but is essentially the
 
 For more information, please see:
 
-- Threat Modeling Cheat Sheet [https://www.owasp.org/index.php/Application\_Security\_Architecture\_Cheat\_Sheet](https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet)
-- Attack Surface Analysis Cheat Sheet: [https://www.owasp.org/index.php/Attack\_Surface\_Analysis\_Cheat\_Sheet](https://www.owasp.org/index.php/Attack_Surface_Analysis_Cheat_Sheet)
+[TODO]
 
-# V2: Authentication Verification Requirements
+# V2: Data Storage and Privacy requirements
 
 ## Control objective
 
@@ -213,45 +199,22 @@ Authentication is the act of establishing, or confirming, something (or someone)
 
 ## Requirements
 
+-- TODO --
+
 | # | Description | 1 | 2 | 3 | Since |
 | --- | --- | --- | --- | --- | --- |
 | **2.1** | Verify all pages and resources by default require authentication except those specifically intended to be public (Principle of complete mediation). | ✓ | ✓ | ✓ | 1.0 |
 | **2.2** | Verify that all password fields do not echo the user's password when it is entered. | ✓ | ✓ | ✓ | 1.0 |
 | **2.4** | Verify all authentication controls are enforced on the server side. | ✓ | ✓ | ✓ | 1.0 |
-| **2.6** | Verify all authentication controls fail securely to ensure attackers cannot log in. | ✓ | ✓ | ✓ | 1.0 |
-| **2.7** | Verify password entry fields allow, or encourage, the use of passphrases, and do not prevent long passphrases/highly complex passwords being entered. | ✓ | ✓ | ✓ | 3.0 |
-| **2.8** | Verify all account identity authentication functions (such as update profile, forgot password, disabled / lost token, help desk or IVR) that might regain access to the account are at least as resistant to attack as the primary authentication mechanism. | ✓ | ✓ | ✓ | 2.0 |
-| **2.9** | Verify that the changing password functionality includes the old password, the new password, and a password confirmation. | ✓ | ✓ | ✓ | 1.0 |
-| **2.12** | Verify that all suspicious authentication decisions are logged. This should include requests with relevant metadata needed for security investigations. |   | ✓ | ✓ | 2.0 |
-| **2.13** | Verify that account passwords make use of a sufficient strength encryption routine and that it withstands brute force attack against the encryption routine. |   | ✓ | ✓ | 3.0 |
-| **2.16** | Verify that credentials are transported using a suitable encrypted link and that all pages/functions that require a user to enter credentials are done so using an encrypted link. | ✓ | ✓ | ✓ | 3.0 |
-| **2.17** | Verify that the forgotten password function and other recovery paths do not reveal the current password and that the new password is not sent in clear text to the user. | ✓ | ✓ | ✓ | 2.0 |
-| **2.18** | Verify that information enumeration is not possible via login, password reset, or forgot account functionality. | ✓ | ✓ | ✓ | 2.0 |
-| **2.19** | Verify there are no default passwords in use for the application framework or any components used by the application (such as "admin/password"). | ✓ | ✓ | ✓ | 2.0 |
-| **2.20** | Verify that request throttling is in place to prevent automated attacks against common authentication attacks such as brute force attacks or denial of service attacks. | ✓ | ✓ | ✓ | 3.0 |
-| **2.21** | Verify that all authentication credentials for accessing services external to the application are encrypted and stored in a protected location. |   | ✓ | ✓ | 2.0 |
-| **2.22** | Verify that forgotten password and other recovery paths use a soft token, mobile push, or an offline recovery mechanism. | ✓ | ✓ | ✓ | 3.0 |
-| **2.23** | Verify that account lockout is divided into soft and hard lock status, and these are not mutually exclusive. If an account is temporarily soft locked out due to a brute force attack, this should not reset the hard lock status. |   | ✓ | ✓ | 3.0 |
-| **2.24** | Verify that if knowledge based questions (also known as "secret questions") are required, the questions should be strong enough to protect the application. | ✓ | ✓ | ✓ | 2.0 |
-| **2.25** | Verify that the system can be configured to disallow the use of a configurable number of previous passwords. |   | ✓ | ✓ | 2.0 |
-| **2.26** | Verify re-authentication, step up or adaptive authentication, two factor authentication, or transaction signing is required before any application-specific sensitive operations are permitted as per the risk profile of the application. |   | ✓ | ✓ | 2.0 |
-| **2.27** | Verify that measures are in place to block the use of commonly chosen passwords and weak passphrases. | ✓ | ✓ | ✓ | 3.0 |
-| **2.28** | Verify that all authentication challenges, whether successful or failed, should respond in the same average response time. |   |   | ✓ | 3.0 |
-| **2.29** | Verify that secrets, API keys, and passwords are not included in the source code, or online source code repositories. |   |   | ✓ | 3.0 |
-| **2.30** | Verify that if an application allows users to authenticate, they use a proven secure authentication mechanism. | ✓ | ✓ | ✓ | 3.0 |
-| **2.31** | Verify that if an application allows users to authenticate, they can authenticate using two-factor authentication or other strong authentication, or any similar scheme that provides protection against username + password disclosure. |   | ✓ | ✓ | 3.0 |
-| **2.32** | Verify that administrative interfaces are not accessible to untrusted parties | ✓ | ✓ | ✓ | 3.0 |
 
 ## References
 
 For more information, please see:
 
-- OWASP Testing Guide 4.0: Testing for Authentication [https://www.owasp.org/index.php/Testing\_for\_authentication](https://www.owasp.org/index.php/Testing_for_authentication)
-- Password storage cheat sheet [https://www.owasp.org/index.php/Password\_Storage\_Cheat\_Sheet](https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet)
-- Forgot password cheat sheet [https://www.owasp.org/index.php/Forgot\_Password\_Cheat\_Sheet](https://www.owasp.org/index.php/Forgot_Password_Cheat_Sheet)
-- Choosing and Using Security Questions at [https://www.owasp.org/index.php/Choosing\_and\_Using\_Security\_Questions\_Cheat\_Sheet](https://www.owasp.org/index.php/Choosing_and_Using_Security_Questions_Cheat_Sheet)
+-- TODO --
 
-# V3: Session Management Verification Requirements
+
+# V3: Cryptography Verificiation Requirements
 
 ## Control objective
 
@@ -271,14 +234,6 @@ Ensure that a verified application satisfies the following high level session ma
 | **3.3** | Verify that sessions timeout after a specified period of inactivity. | ✓ | ✓ | ✓ | 1.0 |
 | **3.4** | Verify that sessions timeout after an administratively-configurable maximum time period regardless of activity (an absolute timeout). |   |   | ✓ | 1.0 |
 | **3.5** | Verify that all pages that require authentication have easy and visible access to logout functionality. | ✓ | ✓ | ✓ | 1.0 |
-| **3.6** | Verify that the session id is never disclosed in URLs, error messages, or logs. This includes verifying that the application does not support URL rewriting of session cookies. | ✓ | ✓ | ✓ | 1.0 |
-| **3.7** | Verify that all successful authentication and re-authentication generates a new session and session id. | ✓ | ✓ | ✓ | 1.0 |
-| **3.10** | Verify that only session ids generated by the application framework are recognized as active by the application. |   | ✓ | ✓ | 1.0 |
-| **3.11** | Verify that session ids are sufficiently long, random and unique across the correct active session base. | ✓ | ✓ | ✓ | 1.0 |
-| **3.12** | Verify that session ids stored in cookies have their path set to an appropriately restrictive value for the application, and authentication session tokens additionally set the "HttpOnly" and "secure" attributes | ✓ | ✓ | ✓ | 3.0 |
-| **3.16** | Verify that the application limits the number of active concurrent sessions. | ✓ | ✓ | ✓ | 3.0 |
-| **3.17** | Verify that an active session list is displayed in the account profile or similar of each user. The user should be able to terminate any active session. | ✓ | ✓ | ✓ | 3.0 |
-| **3.18** | Verify the user is prompted with the option to terminate all other active sessions after a successful change password process. | ✓ | ✓ | ✓ | 3.0 |
 
 ## References
 
@@ -287,7 +242,7 @@ For more information, please see:
 - OWASP Testing Guide 4.0: Session Management Testing [https://www.owasp.org/index.php/Testing\_for\_Session\_Management](https://www.owasp.org/index.php/Testing_for_Session_Management)
 - OWASP Session Management Cheat Sheet: [https://www.owasp.org/index.php/Session\_Management\_Cheat\_Sheet](https://www.owasp.org/index.php/Session_Management_Cheat_Sheet)
 
-# V4: Access Control Verification Requirements
+# V4: Authentication and Session Management Requirements
 
 ## Control objective
 
@@ -323,7 +278,7 @@ For more information, please see:
 
 
 
-# V5: Malicious input handling verification requirements
+# V5: Network communication requirements
 
 ## Control objective
 
@@ -336,6 +291,8 @@ Ensure that a verified application satisfies the following high level requiremen
 
 ## Requirements
 
+-- TODO --
+
 | # | Description | 1 | 2 | 3 | Since |
 | --- | --- | --- | --- | --- | --- |
 | **5.1** | Verify that the runtime environment is not susceptible to buffer overflows, or that security controls prevent buffer overflows. | ✓ | ✓ | ✓ | 1.0 |
@@ -343,22 +300,7 @@ Ensure that a verified application satisfies the following high level requiremen
 | **5.5** | Verify that input validation routines are enforced on the server side. | ✓ | ✓ | ✓ | 1.0 |
 | **5.6** | Verify that a single input validation control is used by the application for each type of data that is accepted. |   |   | ✓ | 1.0 |
 | **5.10** | Verify that all SQL queries, HQL, OSQL, NOSQL and stored procedures, calling of stored procedures are protected by the use of prepared statements or query parameterization, and thus not susceptible to SQL injection | ✓ | ✓ | ✓ | 2.0 |
-| **5.11** | Verify that the application is not susceptible to LDAP Injection, or that security controls prevent LDAP Injection. | ✓ | ✓ | ✓ | 2.0 |
-| **5.12** | Verify that the application is not susceptible to OS Command Injection, or that security controls prevent OS Command Injection. | ✓ | ✓ | ✓ | 2.0 |
-| **5.13** | Verify that the application is not susceptible to Remote File Inclusion (RFI) or Local File Inclusion (LFI) when content is used that is a path to a file. | ✓ | ✓ | ✓ | 3.0 |
-| **5.14** | Verify that the application is not susceptible to common XML attacks, such as XPath query tampering, XML External Entity attacks, and XML injection attacks. | ✓ | ✓ | ✓ | 2.0 |
-| **5.15** | Ensure that all string variables placed into HTML or other web client code is either properly contextually encoded manually, or utilize templates that automatically encode contextually to ensure the application is not susceptible to reflected, stored and DOM Cross-Site Scripting (XSS) attacks. | ✓ | ✓ | ✓ | 2.0 |
-| **5.16** | If the application framework allows automatic mass parameter assignment (also called automatic variable binding) from the inbound request to a model, verify that security sensitive fields such as "_accountBalance_", "_role_" or "_password_" are protected from malicious automatic binding. |   | ✓ | ✓ | 2.0 |
-| **5.17** | Verify that the application has defenses against HTTP parameter pollution attacks, particularly if the application framework makes no distinction about the source of request parameters (GET, POST, cookies, headers, environment, etc.) |   | ✓ | ✓ | 2.0 |
-| **5.18** | Verify that client side validation is used as a second line of defense, in addition to server side validation. |   | ✓ | ✓ | 3.0 |
-| **5.19** | Verify that all input data is validated, not only HTML form fields but all sources of input such as REST calls, query parameters, HTTP headers, cookies, batch files, RSS feeds, etc; using positive validation (whitelisting), then lesser forms of validation such as greylisting (eliminating known bad strings), or rejecting bad inputs (blacklisting). |   | ✓ | ✓ | 3.0 |
-| **5.20** | Verify that structured data is strongly typed and validated against a defined schema including allowed characters, length and pattern (e.g. credit card numbers or telephone, or validating that two related fields are reasonable, such as validating suburbs and zip or post codes match). |   | ✓ | ✓ | 3.0 |
-| **5.21** | Verify that unstructured data is sanitized to enforce generic safety measures such as allowed characters and length, and characters potentially harmful in given context should be escaped (e.g. natural names with Unicode or apostrophes, such as ねこ or O'Hara) |   | ✓ | ✓ | 3.0 |
-| **5.22** | Make sure untrusted HTML from WYSIWYG editors or similar are properly sanitized with an HTML sanitizer and handle it appropriately according to the input validation task and encoding task. | ✓ | ✓ | ✓ | 3.0 |
-| **5.23** | For auto-escaping template technology, if UI escaping is disabled, ensure that HTML sanitization is enabled instead. |   | ✓ | ✓ | 3.0 |
-| **5.24** | Verify that data transferred from one DOM context to another, uses safe JavaScript methods, such as using .innerText and .val. |   | ✓ | ✓ | 3.0 |
-| **5.25** | Verify when parsing JSON in browsers, that JSON.parse is used to parse JSON on the client. Do not use eval() to parse JSON on the client. |   | ✓ | ✓ | 3.0 |
-| **5.26** | Verify that authenticated data is cleared from client storage, such as the browser DOM, after the session is terminated. |   | ✓ | ✓ | 3.0 |
+
 
 ## References
 
@@ -369,21 +311,12 @@ For more information, please see:
 - OWASP Cheat Sheet: Input Validation       [https://www.owasp.org/index.php/Input\_Validation\_Cheat\_Sheet](https://www.owasp.org/index.php/Input_Validation_Cheat_Sheet)
 - OWASP Testing Guide 4.0: Testing for HTTP Parameter Pollution [https://www.owasp.org/index.php/Testing\_for\_HTTP\_Parameter\_pollution\_%28OTG-INPVAL-004%29](https://www.owasp.org/index.php/Testing_for_HTTP_Parameter_pollution_%28OTG-INPVAL-004%29)
 - OWASP LDAP Injection Cheat Sheet [https://www.owasp.org/index.php/LDAP\_Injection\_Prevention\_Cheat\_Sheet](https://www.owasp.org/index.php/LDAP_Injection_Prevention_Cheat_Sheet)
-- OWASP Testing Guide 4.0: Client Side Testing [https://www.owasp.org/index.php/Client\_Side\_Testing](https://www.owasp.org/index.php/Client_Side_Testing)
-- OWASP Cross Site Scripting Prevention Cheat Sheet [https://www.owasp.org/index.php/XSS\_%28Cross\_Site\_Scripting%29\_Prevention\_Cheat\_Sheet](https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet)
-- OWASP Java Encoding Project
- [https://www.owasp.org/index.php/OWASP\_Java\_Encoder\_Project](https://www.owasp.org/index.php/OWASP_Java_Encoder_Project)
 
-For more information on auto-escaping, please see
-
-- Reducing XSS by way of Automatic Context-Aware Escaping in Template Systems [http://googleonlinesecurity.blogspot.com/2009/03/reducing-xss-by-way-of-automatic.html](http://googleonlinesecurity.blogspot.com/2009/03/reducing-xss-by-way-of-automatic.html)
-- AngularJS Strict Contextual Escaping [https://docs.angularjs.org/api/ng/service/$sce](https://docs.angularjs.org/api/ng/service/%24sce)
-
-# V6: Output encoding / escaping
+# V6: Interaction with the environment
 
 **This section was incorporated into V5 in Application Security Verification Standard 2.0. ASVS requirement 5.16 addresses contextual output encoding to help prevent Cross Site Scripting.**
 
-# V7: Cryptography at rest verification requirements
+# V7: Secure coding requirements
 
 ## Control objective
 
@@ -417,7 +350,7 @@ For more information, please see:
 
 
 
-# V8: Error handling and logging verification requirements
+# V8: Defense-in-depth requirements
 
 ## Control objective
 
@@ -439,14 +372,6 @@ If logs contain private or sensitive data, the definition of which varies from c
 | **8.2** | Verify that error handling logic in security controls denies access by default. |   | ✓ | ✓ | 1.0 |
 | **8.3** | Verify security logging controls provide the ability to log success and particularly failure events that are identified as security-relevant. |   | ✓ | ✓ | 1.0 |
 | **8.4** | Verify that each log event includes necessary information that would allow for a detailed investigation of the timeline when an event happens. |   | ✓ | ✓ | 1.0 |
-| **8.5** | Verify that all events that include untrusted data will not execute as code in the intended log viewing software. |   |   | ✓ | 1.0 |
-| **8.6** | Verify that security logs are protected from unauthorized access and modification. |   | ✓ | ✓ | 1.0 |
-| **8.7** | Verify that the application does not log sensitive data as defined under local privacy laws or regulations, organizational sensitive data as defined by a risk assessment, or sensitive authentication data that could assist an attacker, including user's session identifiers, passwords, hashes, or API tokens. |   | ✓ | ✓ | 3.0 |
-| **8.8** | Verify that all non-printable symbols and field separators are properly encoded in log entries, to prevent log injection. |   |   | ✓ | 2.0 |
-| **8.9** | Verify that log fields from trusted and untrusted sources are distinguishable in log entries. |   |   | ✓ | 2.0 |
-| **8.10** | Verify that an audit log or similar allows for non-repudiation of key transactions. |   | ✓ | ✓ | 3.0 |
-| **8.11** | Verify that security logs have some form of integrity checking or controls to prevent unauthorized modification. |   |   | ✓ | 3.0 |
-| **8.12** | Verify that the logs are stored on a different partition than the application is running with proper log rotation. |   |   | ✓ | 3.0 |
 
 ## References
 
@@ -455,8 +380,7 @@ For more information, please see:
 - OWASP Testing Guide 4.0 content: Testing for Error Handling [https://www.owasp.org/index.php/Testing\_for\_Error\_Handling](https://www.owasp.org/index.php/Testing_for_Error_Handling)
 
 
-
-# V9: Data protection verification requirements
+# V9: Resiliency Against Reverse Engineering Requirements
 
 ## Control objective
 
@@ -529,310 +453,9 @@ For more information, please see:
 - **Pre-loading HTTP Strict Transport Security**
  [https://www.chromium.org/hsts](https://www.chromium.org/hsts)
 
-# V11: HTTP security configuration verification requirements
 
-## Control objective
 
-Ensure that a verified application satisfies the following high level requirements:
-
-- The application server is suitably hardened from a default configuration
-- HTTP responses contain a safe character set in the content type header.
-
-## Requirements
-
-| **#** | **Description** | **1** | **2** | **3** | **Since** |
-| --- | --- | --- | --- | --- | --- |
-| **11.1** | Verify that the application accepts only a defined set of required HTTP request methods, such as GET and POST are accepted, and unused methods (e.g. TRACE, PUT, and DELETE) are explicitly blocked. | ✓ | ✓ | ✓ | 1.0 |
-| **11.2** | Verify that every HTTP response contains a content type header specifying a safe character set (e.g., UTF-8, ISO 8859-1). | ✓ | ✓ | ✓ | 1.0 |
-| **11.3** | Verify that HTTP headers added by a trusted proxy or SSO devices, such as a bearer token, are authenticated by the application. |   | ✓ | ✓ | 2.0 |
-| **11.4** | Verify that the Content Security Policy V2 (CSP) is in use for sites where content should not be viewed in a 3rd-party X-Frame. |   | ✓ | ✓ | 2.0 |
-| **11.5** | Verify that the HTTP headers or any part of the HTTP response do not expose detailed version information of system components. | ✓ | ✓ | ✓ | 2.0 |
-| **11.6** | Verify that all API responses contain X-Content-Type-Options: nosniff and Content-Disposition: attachment; filename="api.json" (or other appropriate filename for the content type). | ✓ | ✓ | ✓ | 3.0 |
-| **11.7** | Verify that the Content Security Policy V2 (CSP) is in use in a way that either disables inline JavaScript or provides an integrity check on inline JavaScript with CSP noncing or hashing. | ✓ | ✓ | ✓ | 3.0 |
-| **11.8** | Verify that the X-XSS-Protection: 1; mode=block header is in place. | ✓ | ✓ | ✓ | 3.0 |
-
-
-
-## References
-
-For more information, please see:
-
-- OWASP Testing Guide 4.0: Testing for HTTP Verb Tampering [https://www.owasp.org/index.php/Testing\_for\_HTTP\_Verb\_Tampering\_%28OTG-INPVAL-003%29](https://www.owasp.org/index.php/Testing_for_HTTP_Verb_Tampering_%28OTG-INPVAL-003%29)
-- Adding Content-Disposition to API responses helps prevent many attacks based on misunderstanding on the MIME type between client and server, and the "filename" option specifically helps prevent Reflected File Download attacks.
- [https://www.blackhat.com/docs/eu-14/materials/eu-14-Hafif-Reflected-File-Download-A-New-Web-Attack-Vector.pdf](https://www.blackhat.com/docs/eu-14/materials/eu-14-Hafif-Reflected-File-Download-A-New-Web-Attack-Vector.pdf)
-
-# V12: Security configuration verification requirements
-
-**This section was incorporated into V11 in Application Security Verification Standard 2.0.**
-
-# V13: Malicious controls verification requirements
-
-## Control objective
-
-Ensure that a verified application satisfies the following high level requirements:
-
-- Malicious activity is handled securely and properly as to not affect the rest of the application.
-- Do not have time bombs or other time based attacks built into them
-- do not "phone home" to malicious or unauthorized destinations
-- Applications do not have back doors, Easter eggs, salami attacks, or logic flaws that can be controlled by an attacker
-
-Malicious code is extremely rare, and is difficult to detect. Manual line by line code review can assist looking for logic bombs, but even the most experienced code reviewer will struggle to find malicious code even if they know it exists.
-
-## Requirements
-
-| # | Description | 1 | 2 | 3 | Since |
-| --- | --- | --- | --- | --- | --- |
-| **13.1** | Verify all malicious activity is adequately sandboxed, containerized or isolated to delay and deter attackers from attacking other applications. |   |   | ✓ | 2.0 |
-| **13.2** | Verify that a code review looks for malicious code, back doors, Easter eggs, and logic flaws. |   |   | ✓ | 3.0 |
-
-## References
-
-For more information, please see:
-
-- [http://www.dwheeler.com/essays/apple-goto-fail.html](http://www.dwheeler.com/essays/apple-goto-fail.html)
-
-# V14: Internal security verification requirements
-
-**This section was incorporated into V13 in Application Security Verification Standard 2.0.**
-
-# V15: Business logic verification requirements
-
-## Control objective
-
-Ensure that a verified application satisfies the following high level requirements:
-
-- The business logic flow is sequential and in order
-- Business logic includes limits to detect and prevent automated attacks, such as continuous small funds transfers, or adding a million friends one at a time, and so on.
-- High value business logic flows have considered abuse cases and malicious actors, and have protections against spoofing, tampering, repudiation, information disclosure, and elevation of privilege attacks.
-
-## Requirements
-
-| # | Description | 1 | 2 | 3 | Since |
-| --- | --- | --- | --- | --- | --- |
-| **15.1** | Verify the application will only process business logic flows in sequential step order, with all steps being processed in realistic human time, and not process out of order, skipped steps, process steps from another user, or too quickly submitted transactions. |   | ✓ | ✓ | 2.0 |
-| **15.2** | Verify the application has business limits and correctly enforces on a per user basis, with configurable alerting and automated reactions to automated or unusual attack. |   | ✓ | ✓ | 2.0 |
-
-## References
-
-For more information, please see:
-
-- OWASP Testing Guide 4.0: Business Logic Testing [https://www.owasp.org/index.php/Testing\_for\_business\_logic](https://www.owasp.org/index.php/Testing_for_business_logic)
-- OWASP Cheat Sheet: [https://www.owasp.org/index.php/Business\_Logic\_Security\_Cheat\_Sheet](https://www.owasp.org/index.php/Business_Logic_Security_Cheat_Sheet)
-
-
-
-# V16: Files and resources verification requirements
-
-## Control objective
-
-Ensure that a verified application satisfies the following high level requirements:
-
-- Untrusted file data should be handled accordingly and in a secure manner
-- Obtained from untrusted sources are stored outside the webroot and limited permissions.
-
-## Requirements
-
-| **#** | **Description** | **1** | **2** | **3** | **Since** |
-| --- | --- | --- | --- | --- | --- |
-| **16.1** | Verify that URL redirects and forwards only allow whitelisted destinations, or show a warning when redirecting to potentially untrusted content. | ✓ | ✓ | ✓ | 2.0 |
-| **16.2** | Verify that untrusted file data submitted to the application is not used directly with file I/O commands, particularly to protect against path traversal, local file include, file mime type, and OS command injection vulnerabilities. | ✓ | ✓ | ✓ | 2.0 |
-| **16.3** | Verify that files obtained from untrusted sources are validated to be of expected type and scanned by antivirus scanners to prevent upload of known malicious content. | ✓ | ✓ | ✓ | 2.0 |
-| **16.4** | Verify that untrusted data is not used within inclusion, class loader, or reflection capabilities to prevent remote/local file inclusion vulnerabilities. | ✓ | ✓ | ✓ | 2.0 |
-| **16.5** | Verify that untrusted data is not used within cross-domain resource sharing (CORS) to protect against arbitrary remote content. | ✓ | ✓ | ✓ | 2.0 |
-| **16.6** | Verify that files obtained from untrusted sources are stored outside the webroot, with limited permissions, preferably with strong validation. |   | ✓ | ✓ | 3.0 |
-| **16.7** | Verify that the web or application server is configured by default to deny access to remote resources or systems outside the web or application server. |   | ✓ | ✓ | 2.0 |
-| **16.8** | Verify the application code does not execute uploaded data obtained from untrusted sources. | ✓ | ✓ | ✓ | 3.0 |
-| **16.9** | Do not use Flash, Active-X, Silverlight, NACL, client-side Java or other client side technologies not supported natively via W3C browser standards. | ✓ | ✓ | ✓ | 2.0 |
-
-## References
-
-For more information, please see:
-
-- File Extension Handling for Sensitive Information: [https://www.owasp.org/index.php/Unrestricted\_File\_Upload](https://www.owasp.org/index.php/Unrestricted_File_Upload)
-
-
-
-# V17: Mobile verification requirements
-
-## Control objective
-
-This section contains controls that are mobile application specific. These controls have been de-duplicated from 2.0, so must be taken in conjunction with all other sections of the relevant ASVS Verification Level.
-
-Mobile applications should:
-
-- Should have the same level of security controls within the mobile client as found in the server, by enforcing security controls in a trusted environment
-- Sensitive information assets stored on the device should be done so in a secure manner
-- All sensitive data transmitted from the device should be done so with transport layer security in mind.
-
-## Requirements
-
-| # | Description | 1 | 2 | 3 | Since |
-| --- | --- | --- | --- | --- | --- |
-| **17.1** | Verify that ID values stored on the device and retrievable by other applications, such as the UDID or IMEI number are not used as authentication tokens. | ✓ | ✓ | ✓ | 2.0 |
-| **17.2** | Verify that the mobile app does not store sensitive data onto potentially unencrypted shared resources on the device (e.g. SD card or shared folders). | ✓ | ✓ | ✓ | 2.0 |
-| **17.3** | Verify that sensitive data is not stored unprotected on the device, even in system protected areas such as key chains. | ✓ | ✓ | ✓ | 2.0 |
-| **17.4** | Verify that secret keys, API tokens, or passwords are dynamically generated in mobile applications. |   | ✓ | ✓ | 2.0 |
-| **17.5** | Verify that the mobile app prevents leaking of sensitive information (for example, screenshots are saved of the current application as the application is backgrounded or writing sensitive information in console) . |   | ✓ | ✓ | 2.0 |
-| **17.6** | Verify that the application is requesting minimal permissions for required functionality and resources. |   | ✓ | ✓ | 2.0 |
-| **17.7** | Verify that the application sensitive code is laid out unpredictably in memory (For example ASLR). | ✓ | ✓ | ✓ | 2.0 |
-| **17.8** | Verify that there are anti-debugging techniques present that are sufficient enough to deter or delay likely attackers from injecting debuggers into the mobile app (For example GDB). |   |   | ✓ | 2.0 |
-| **17.9** | Verify that the app does not export sensitive activities, intents, content providers etc., for other mobile apps on the same device to exploit. | ✓ | ✓ | ✓ | 2.0 |
-| **17.10** | Verify that mutable structures have been used for sensitive strings such as account numbers and are overwritten when not used. (Mitigate damage from memory analysis attacks). |   |   | ✓ | 2.0 |
-| **17.11** |  Verify that the app's exposed activities, intents, content providers etc. validate all inputs.   | ✓ | ✓ | ✓ | 2.0 |
-
-## References
-
-For more information, please see:
-
-- OWASP Mobile Security Project: [https://www.owasp.org/index.php/OWASP\_Mobile\_Security\_Project](https://www.owasp.org/index.php/OWASP_Mobile_Security_Project)
-- iOS Developer Cheat Sheet: [https://www.owasp.org/index.php/IOS\_Developer\_Cheat\_Sheet](https://www.owasp.org/index.php/IOS_Developer_Cheat_Sheet)
-
-
-
-
-
-# V18: Web services verification requirements
-
-## Control objective
-
-Ensure that a verified application that uses RESTful or SOAP based web services has:
-
-- Adequate authentication, session management and authorization of all web services
-- Input validation of all parameters that transit from a lower to higher trust level
-- Basic interoperability of SOAP web services layer to promote API use
-
-## Requirements
-
-| # | Description | 1 | 2 | 3 | Since |
-| --- | --- | --- | --- | --- | --- |
-| **18.1** | Verify that the same encoding style is used between the client and the server. | ✓ | ✓ | ✓ | 3.0 |
-| **18.2** | Verify that access to administration and management functions within the Web Service Application is limited to web service administrators. | ✓ | ✓ | ✓ | 3.0 |
-| **18.3** | Verify that XML or JSON schema is in place and verified before accepting input. | ✓ | ✓ | ✓ | 3.0 |
-| **18.4** | Verify that all input is limited to an appropriate size limit. | ✓ | ✓ | ✓ | 3.0 |
-| **18.5** | Verify that SOAP based web services are compliant with Web Services-Interoperability (WS-I) Basic Profile at minimum. | ✓ | ✓ | ✓ | 3.0 |
-| **18.6** | Verify the use of session-based authentication and authorization. Please refer to sections 2, 3 and 4 for further guidance. Avoid the use of static "API keys" and similar. | ✓ | ✓ | ✓ | 3.0 |
-| **18.7** | Verify that the REST service is protected from Cross-Site Request Forgery. | ✓ | ✓ | ✓ | 3.0 |
-| **18.8** | Verify the REST service explicitly check the incoming Content-Type to be the expected one, such as application/xml or application/json. |   | ✓ | ✓ | 3.0 |
-| **18.9** | Verify that the message payload is signed to ensure reliable transport between client and service. |   | ✓ | ✓ | 3.0 |
-| **18.10** | Verify that alternative and less secure access paths do not exist. |   | ✓ | ✓ | 3.0 |
-
-## References
-
-For more information, please see:
-
-- OWASP Testing Guide 4.0: Configuration and Deployment Management Testing [https://www.owasp.org/index.php/Testing\_for\_configuration\_management](https://www.owasp.org/index.php/Testing_for_configuration_management)
-
-# V19. Configuration
-
-## Control objective
-
-Ensure that a verified application has:
-
-- Up to date libraries and platform(s).
-- A secure by default configuration.
-- Sufficient hardening that user initiated changes to default configuration do not unnecessarily expose or create security weaknesses or flaws to underlying systems.
-
-## Requirements
-
-| # | Description | 1 | 2 | 3 | Since |
-| --- | --- | --- | --- | --- | --- |
-| **19.1** | All components should be up to date with proper security configuration(s) and version(s). This should include removal of unneeded configurations and folders such as sample applications, platform documentation, and default or example users. | ✓ | ✓ | ✓ | 3.0 |
-| **19.2** | Communications between components, such as between the application server and the database server, should be encrypted, particularly when the components are in different containers or on different systems. |   | ✓ | ✓ | 3.0 |
-| **19.3** | Communications between components, such as between the application server and the database server should be authenticated using an account with the least necessary privileges. |   | ✓ | ✓ | 3.0 |
-| **19.4** | Verify application deployments are adequately sandboxed, containerized or isolated to delay and deter attackers from attacking other applications. |   | ✓ | ✓ | 3.0 |
-| **19.5** | Verify that the application build and deployment processes are performed in a secure fashion. |   | ✓ | ✓ | 3.0 |
-| **19.6** | Verify that authorised administrators have the capability to verify the integrity of all security-relevant configurations to ensure that they have not been tampered with. |   |   | ✓ | 3.0 |
-| **19.7** | Verify that all application components are signed. |   |   | ✓ | 3.0 |
-| **19.8** | Verify that third party components come from trusted repositories. |   |   | ✓ | 3.0 |
-| **19.9** | Ensure that build processes for system level languages have all security flags enabled, such as ASLR, DEP, and security checks. |   |   | ✓ | 3.0 |
-
-## References
-
-For more information, please see:
-
-- OWASP Testing Guide 4.0: Configuration and Deployment Management Testing [https://www.owasp.org/index.php/Testing\_for\_configuration\_management](https://www.owasp.org/index.php/Testing_for_configuration_management)
-
-
-
-# Appendix A: What ever happened to…
-
-| **Original #** | **Description** | **Status** | **Removed** | **Reason** |
-| --- | --- | --- | --- | --- |
-| **2.3** | Verify that if a maximum number of authentication attempts is exceeded, the account is locked for a period of time long enough to deter brute force attacks. | Deprecated | 2.0 | A more complex requirement replaced it (v2.20) |
-| **2.5** | Verify that all authentication controls (including libraries that call external authentication services) have a centralized implementation. | Merged | 3.0 | Genericized to include all security controls and moved to 1.10 |
-| **2.10** | Verify that re-authentication is required before any application- specific sensitive operations are permitted. | Deprecated | 2.0 | Re-authentication is so rarely observed that we decided to remove the control |
-| **2.11** | Verify that after an administratively- configurable period of time, authentication credentials expire. | Deprecated | 2.0 | Absolute timeouts and credential expiry removed as not being an effective control. |
-| **2.14** | Verify that all authentication credentials for accessing services external to the application are encrypted and stored in a protected location (not in source code). | Updated | 2.0 | Became V2.21 |
-| **2.15** | Verify that all code implementing or using authentication controls is not affected by any malicious code. | Moved | 2.0 | Moved to V13 - Malicious Code |
-| **3.8** | Verify that the session id is changed upon re-authentication | Updated | 3.0 | Rolled into 3.7 |
-| **3.9** | Verify that the session id is changed or cleared on logout | Updated | 3.0 | Rolled into 3.7 |
-| **3.13** | Verify that all code implementing or using session management controls is not affected by any malicious code | Moved | 2.0 | Moved to V13 - Malicious code |
-| **3.14** | Verify that authenticated session tokens using cookies are protected by the use of "HttpOnly". | Updated | 3.0 | Moved into 3.13 |
-| **3.15** | Verify that authenticated session tokens using cookies are protected with the "secure" attribute. | Updated | 3.0 | Moved into 3.13 |
-| **4.2** | Verify that users can only access secured URLs for which they possess specific authorization. | Updated | 3.0 | Rolled into 4.1 |
-| **4.3** | Verify that users can only access secured data files for which they possess specific authorization. | Updated | 3.0 | Rolled into 4.1 |
-| **4.13** | Verify that limitations on input and access imposed by the business on the application (such as daily transaction limits or sequencing of tasks) cannot be bypassed. | Moved | 3.0 | Moved to V15 Business Logic |
-| **4.15** | Verify that all code implementing or using access controls is not affected by any malicious code. | Moved | 2.0 | Moved to V13 Malicious Controls |
-| **5.2** | Verify that a positive validation pattern is defined and applied to all input | Deprecated | 2.0 | Removed as too difficult to implement particularly for free form text inputs |
-| **5.4** | Verify that a character set, such as UTF-8, is specified for all sources of input | Deprecated | 3.0 | Removed as too difficult to implement in most languages |
-| **5.7** | Verify that all input validation failures are logged. | Deprecated | 3.0 | Removed as would create too many useless logs that would be ignored |
-| **5.8** | Verify that all input data is canonicalized for all downstream decoders or interpreters prior to validation. | Deprecated | 3.0 | Removed as Type 1 JSP technology specific and not an issue for most modern frameworks |
-| **5.9** | Verify that all input validation controls are not affected by any malicious code | Moved | 2.0 | Moved to V13 Malicious controls |
-| **5.14** | Verify that the runtime environment is not susceptible to XML Injections or that security controls prevents XML Injections | Merged | 3.0 | Merged with V5.13 |
-| **5.15** | -- EMPTY REQUIREMENT -- | Deleted | 3.0 | This requirement never existed |
-| **5.19** | Verify that for each type of output encoding/escaping performed by the application, there is a single security control for that type of output for the intended destination | Merged | 3.0 | Genericized to include all security controls and moved to 1.10 |
-| **7.1** | Verify that all cryptographic functions used to protect secrets from the application user are implemented server side | Deprecated | 3.0 | Many modern responsive and mobile apps include this by design |
-| **7.3** | Verify that access to any master secret(s) is protected from unauthorized access (A master secret is an application credential stored as plaintext on disk that is used to protect access to security configuration information). | Moved | 3.0 | Moved to V2.29 |
-| **7.4** | Verify that password hashes are salted when they are created | Moved | 2.0 | Moved to V2.13 |
-| **7.5** | Verify that cryptographic module failures are logged | Deprecated | 2.0 | Creating unnecessary logs that are never reviewed is counterproductive |
-| **7.10** | Verify that all code supporting or using a cryptographic module is not affected by any malicious code | Moved | 2.0 | Moved to V13 |
-| **8.2** | Verify that all error handling is performed on trusted devices |   | 3.0 | Deprecated |
-| **8.3** | Verify that all logging controls are implemented on the server. | Moved | 3.0 | Became a more generic architectural control V1.13 |
-| **8.9** | Verify that there is a single application-level logging implementation that is used by the software. | Moved | 3.0 | Became a more generic architectural control V1.13 |
-| **8.11** | Verify that a log analysis tool is available which allows the analyst to search for log events based on combinations of search criteria across all fields in the log record format supported by this system. | Deprecated | 3.0 | Removed as not required for secure software |
-| **8.12** | Verify that all code implementing or using error handling and logging controls is not affected by any ￼￼￼malicious code. | Moved | 2.0 | Moved to V13 Malicious Controls |
-| **8.15** | Verify that logging is performed before executing the transaction. If logging was unsuccessful (e.g. disk full, insufficient permissions) the application fails safe. This is for when integrity and non-repudiation are a must. | Deprecated | 3.0 | Removed as too detailed a control that would only be applicable to small percentage of all apps |
-| **10.2** | Verify that failed TLS connections do not fall back to an insecure HTTP connection | Merged | 3.0 | Merged with 10.3 |
-| **10.7** | Verify that all connections to external systems that involve sensitive information or functions use an account that has been set up to have the minimum privileges necessary for the application to function properly |   |   |   |
-| **10.9** | Verify that specific character encodings are defined for all connections (e.g., UTF-8). |   |   |   |
-| **11.1** | Deprecated |   |   |   |
-| **11.4** | Deprecated |   |   |   |
-| **11.5** | Deprecated |   |   |   |
-| **11.6** | Deprecated |   |   |   |
-| **11.7** | Deprecated |   |   |   |
-| **11.8** | Deprecated |   |   |   |
-| **11.4** | Deprecated |   |   |   |
-| **13.1** | Deprecated |   |   |   |
-| **13.2** | Deprecated |   |   |   |
-| **13.3** | Deprecated |   |   |   |
-| **13.4** | Deprecated |   |   |   |
-| **13.5** | Deprecated |   |   |   |
-| **13.6** | Deprecated |   |   |   |
-| **13.7** | Deprecated |   |   |   |
-| **13.8** | Deprecated |   |   |   |
-| **13.9** | Deprecated |   |   |   |
-| **15.1-15.7 15.9** | Business Logic Section. | Merged | 3.0 | Most of section 15 has been merged into 15.8 and 15.10. |
-| **15.11** | Verify that the application covers off risks associated with Spoofing, Tampering, Repudiation, Information Disclosure, and Elevation of privilege (STRIDE). | Duplicate | 3.0 | Duplicated requirement. Captured by V1.6 |
-| **16.4** | Verify that parameters obtained from untrusted sources are not used in manipulating filenames, pathnames or any file system object without first being canonicalized and input validated to prevent local file inclusion attacks. | Moved | 3.0 | Moved to V16.2 |
-| **17.1** | Verify that the client validates SSL certificates | Deprecated | 3.0 | Duplicated requirement. General requirement already captured by V10. |
-| **17.7** | Deprecated |   |   |   |
-| **17.8** | Deprecated |   |   |   |
-| **17.10** | Deprecated |   |   |   |
-| **17.11** | Deprecated |   |   |   |
-| **17.12** | Deprecated |   |   |   |
-| **17.13** | Deprecated |   |   |   |
-| **17.14** | Deprecated |   |   |   |
-| **17.15** | Deprecated |   |   |   |
-| **17.16** | Deprecated |   |   |   |
-| **17.17** | Deprecated |   |   |   |
-| **17.18** | Deprecated |   |   |   |
-| **17.19** | Deprecated |   |   |   |
-| **17.20** | Deprecated |   |   |   |
-| **17.22** | Deprecated |   |   |   |
-| **17.23** | Deprecated |   |   |   |
-| **17.24** | Deprecated |   |   |   |
-
-# Appendix B: Glossary
+# Appendix A: Glossary
 
 - **Access Control** – A means of restricting access to files, referenced functions, URLs, and data based on the identity of users and/or groups to which they belong.
 - **Address Space Layout Randomization (ASLR)** – A technique to help protect against buffer overflow attacks.
@@ -880,7 +503,7 @@ For more information, please see:
 - **Whitelist** – A list of permitted data or operations, for example a list of characters that are allowed to perform input validation.
 - **XML** – A markup language that defines a set of rules for encoding documents.
 
-# Appendix C: References
+# Appendix B: References
 
 The following OWASP projects are most likely to be useful to users/adopters of this standard:
 
