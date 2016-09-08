@@ -1,35 +1,21 @@
 #
-# Application Security Verification Standard 3.0.1
+# Mobile Application Security Verification Standard 0.0.1
 
-December 2015
+[date]
 
 # Acknowledgements
 
 ## About the Standard
 
-The Application Security Verification Standard is a list of application security requirements or tests that can be used by architects, developers, testers, security professionals, and even consumers to define what a secure application is.
+The Mobile Application Security Verification Standard is a list of security requirements for mobile apps that can be used by architects, developers, testers, security professionals, and consumers to define what a secure mobile application is.
 
 ## Copyright and License
 
-Copyright © 2008 – 2015 The OWASP Foundation. This document is released under the Creative Commons Attribution ShareAlike 3.0 license. For any reuse or distribution, you must make clear to others the license terms of this work.
-
-### Version 3.0, 2015
+Copyright © 2016 The OWASP Foundation. This document is released under the Creative Commons Attribution ShareAlike 3.0 license. For any reuse or distribution, you must make clear to others the license terms of this work.
 
 | Project Leads | Lead Authors | Contributors and Reviewers |
 | --- | --- | --- |
-| Andrew van der Stock, Daniel Cuthbert | Jim Manico | Boy Baukema, Ari Kesäniemi, Colin Watson, François-Eric Guyomarc'h, Cristinel Dumitru, James Holland, Gary Robinson, Stephen de Vries, Glenn Ten Cate, Riccardo Ten Cate, Martin Knobloch, Abhinav Sejpal, David Ryan, Steven van der Baan, Ryan Dewhurst, Raoul Endres, Roberto Martelloni |
-
-### Version 2.0, 2014
-
-| Project Leads | Lead Authors | Contributors and Reviewers |
-| --- | --- | --- |
-| Daniel Cuthbert, Sahba Kazerooni | Andrew van der Stock, Krishna Raja | Antonio Fontes, Colin Watson, Jeff Sergeant, Pekka Sillanpää, Archangel Cuison, Dr Emin Tatli, Jerome Athias, Safuat Hamdy, Ari Kesäniemi, Etienne Stalmans, Jim Manico, Scott Luc, Boy Baukema, Evan Gaustad, Mait Peekma, Sebastien Deleersnyder |
-
-### Version 1.0, 2009
-
-| Project Leads | Lead Authors | Contributors and Reviewers |
-| --- | --- | --- |
-| Mike Boberski, Jeff Williams, Dave Wichers | Jim Manico | Andrew van der Stock, Dr. Sarbari Gupta, John Steven, Pierre Parrend, Barry Boyd, Dr. Thomas Braun, Ken Huang, Richard Campbell, Bedirhan Urgun, Eoin Keary, Ketan Dilipkumar Vyas, Scott Matsumoto, Colin Watson, Gaurang Shah, Liz Fong, Shouvik Bardhan, Dan Cornell, George Lawless,  Mandeep Khera, Stan Wisseman, Dave Hausladen, Jeff LoSapio, Matt Presson, Stephen de Vries, Theodore Winograd, Jeremiah Grossman, Nam Nguyen, Steve Coyle, Dave van Stein, John Martin, Paul Douthit, Terrie Diaz |
+| Bernhard Mueller, Sven Schleier | T.b.d. | T.b.d. |
 
 # Preface
 
