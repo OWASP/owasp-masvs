@@ -25,7 +25,7 @@ Depending on the threat model and sensitivity of the data processed by the app, 
 - Resiliency Grade 3 -- Strong Protection
 - Resiliency Grade 4 -- Very Strong Protection
 
-Figure 3 - OWASP Mobile Application Security Verification Standard 1.0 Resliency Grades
+Figure 3 - OWASP Mobile Application Security Verification Standard 1.0 Resiliency Grades
 
 ## How to use this standard
 
