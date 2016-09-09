@@ -1,50 +1,47 @@
 # Using the Mobile Application Security Verification Standard
 
-MASVS has two main goals:
+MASVS has a few goals:
 ·      to help organizations develop and maintain secure mobile applications
-·      to allow security service, security tools vendors, and consumers to align their requirements and offerings
+·      to normalize the range in the coverage and level of rigor available in the market when it comes to performing mobile application security verification
+·      to allow security services, security-tool vendors, and consumers to align their requirements and offerings
+
+This standard can be used to establish a level of confidence in the security of Web applications. The requirements were developed with the following objectives in mind:
+
+·      Use as a metric - To provide application developers and application owners with a framework wich allows to measure the security, and thus the degree of trust that can be placed in their mobile applications.
+·      Use as guidance - To provide guidance in regards to security controls necessary to implement in order to satisfy application security requirements
+·      Use during procurement - Provide a baseline for application security verification requirements.
 
 Figure 1 - Uses of MASVS for organizations and tool/service providers
 
 ## Mobile Application Security Verification Levels
 
-The Mobile Application Security Verification Standard defines five security verification levels, with each level increasing in depth. 
+The Mobile Application Security Verification Standard defines five security verification levels, with each level increasing in depth.
 
 ### MASVS Level 1 -- Standard Security
 
-An application that achieves MASVS level 1 adheres to mobile appsec best practices. It fulfills basic requirements in terms of code quality, handling of sensitive data, and interaction with the mobile environment. A testing process must be in place to verify the security controls. This level is approriate for all mobile apps.
+An application that achieves MASVS level 1 adheres to mobile application security best practices. It fulfills basic requirements in terms of code quality, handling of sensitive data, and interaction with the mobile environment. A testing process must be in place to verify the security controls. This level is appropriate for all mobile applications.
 
 ### MASVS Level 2 -- Defense-in-Depth
 
-Level 2 introduces advanced security controls that go beyond the standard requirements. To fulfill level 2, a threat model must exist, and security must be considered as part of the design phase. This level is appropriate for apps that handle sensitive data, such as mobile banking.
+Level 2 introduces advanced security controls that go beyond the standard requirements. To fulfill level 2, a threat model must exist, and security must be considered during the design phase. This level is appropriate for applications that handle sensitive data, such as mobile banking.
 
 ### MASVS Level 3 -- Defense-in-Depth and Resiliency
 
-In addition to state-of-the-art security and defense-in-depth, level 3 defines mechanisms that increase the cost of reverse engineering the app. It can be applied to add an additional layer of protection for apps that process sensitive data. Vendors may also opt to implement these requirements a means of protection the IP contained in the app.
+In addition to state-of-the-art security and defense-in-depth, level 3 defines mechanisms that increase the cost of reverse engineering the application. It can be applied to add an additional layer of protection for applications that process sensitive data. Vendors may also opt to implement these requirements as a means of IP protection.
 
 ### MASVS Level 4 -- Defense-in-Depth and Strong Resiliency
 
-An application that achieves MASVS level 4 has both state-of-the-art security controls and software protection. Such an app is highly resilient against attacks and reverse engineering attempts. Level 4 is meant to be applied to apps that handle highly sensitive data. In addition, it can be used as a means of IP protection.
+An application that achieves MASVS level 4 has both state-of-the-art security controls and software protection. Such an application is highly resilient against attacks and reverse engineering attempts. Level 4 is meant to be applied to applications that handle highly sensitive data. In addition, it can be used as a means of IP protection.
 
 ## How to use this standard
 
-One of the best ways to use the Mobile Application Security Verification Standard is to use it as blueprint create a Secure Coding Checklist specific to your application, platform or organization. Tailoring the MASVS to your use cases will increase the focus on the security requirements that are most important to your projects and environments.
-
-### Level 1: Opportunistic
-
--- TODO: Describe the levels
-
-### Level 2: Standard
-
-### Level 3: Advanced
-
-
+One of the best ways to use the Mobile Application Security Verification Standard is to use it as blueprint to create a Secure Coding Checklist specific to your application, platform or organization. Tailoring the MASVS to your use cases will increase the focus on the security requirements that are most important to your projects and environments.
 
 ## Applying MASVS in Practice
 
 Different threats have different motivations. Some industries have unique information and technology assets and domain specific regulatory compliance requirements.
 
-Below we provide industry-specific guidance regarding recommended MASVS levels. Although some unique criteria and some differences in threats exist for each industry, a common theme throughout all industry segments is that opportunistic attackers will look for any easily exploitable vulnerable applications, which is why MASVS Level 1 is recommended for all applications regardless of industry. This is a suggested starting point to manage the easiest to find risks. Organizations are strongly encouraged to look more deeply at their unique risk characteristics based on the nature of their business. At the other end of the spectrum is MASVS Level 3, which is reserved for those cases that might endanger human safety or when a full application breach could severely impact the organization.
+Below we provide industry-specific guidance regarding recommended MASVS levels. Although some unique criteria and some differences in threats exist for each industry, a common theme throughout all industry segments is that opportunistic attackers will look for any easily exploitable vulnerable applications, which is why MASVS Level 1 is recommended for all applications regardless of industry. This is a suggested starting point to manage the easiest in order to find risks. Organizations are strongly encouraged to look more deeply at their unique risk characteristics based on the nature of their business. At the other end of the spectrum is MASVS Level 3, which is reserved for those cases that might endanger human safety or when a full application breach could severely impact the organization.
 
 | Industry | Threat Profile | L1 Recommendation | L2 Recommendation | L3 Recommendation |
 | --- | --- | --- | --- | --- |

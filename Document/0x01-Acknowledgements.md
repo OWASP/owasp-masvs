@@ -2,7 +2,7 @@
 
 ## About the Standard
 
-The Mobile Application Security Verification Standard is a list of security requirements for mobile apps that can be used by architects, developers, testers, security professionals, and consumers to define what a secure mobile application is.
+The Mobile Application Security Verification Standard is a list of security requirements for mobile applications that can be used by architects, developers, testers, security professionals, and consumers to define what a secure mobile application is.
 
 ## Copyright and License
 
