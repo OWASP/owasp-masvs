@@ -1,4 +1,4 @@
-# V3: Cryptography Verificiation Requirements
+# V3: Cryptography Verification Requirements
 
 ## Control objective
 
