@@ -10,19 +10,19 @@ Figure 1 - Uses of MASVS for organizations and tool/service providers
 
 The Mobile Application Security Verification Standard defines five security verification levels, with each level increasing in depth. 
 
-- MASVS Level 1 -- Standard Security
+### MASVS Level 1 -- Standard Security
 
-An application that achieves MASVS level 1 adheres to mobile appsec best practices. It fulfills basic requirements in terms of code quality, handling of sensitive data, and interaction with the mobile environment. A testing process must be in place to verify the securit controls. This level is approriate for all mobile apps.
+An application that achieves MASVS level 1 adheres to mobile appsec best practices. It fulfills basic requirements in terms of code quality, handling of sensitive data, and interaction with the mobile environment. A testing process must be in place to verify the security controls. This level is approriate for all mobile apps.
 
-- MASVS Level 2 -- Defense-in-Depth
+### MASVS Level 2 -- Defense-in-Depth
 
 Level 2 introduces advanced security controls that go beyond the standard requirements. To fulfill level 2, a threat model must exist, and security must be considered as part of the design phase. This level is appropriate for apps that handle sensitive data, such as mobile banking.
 
-- MASVS Level 3 -- Defense-in-Depth and Resiliency
+### MASVS Level 3 -- Defense-in-Depth and Resiliency
 
 In addition to state-of-the-art security and defense-in-depth, level 3 defines mechanisms that increase the cost of reverse engineering the app. It can be applied to add an additional layer of protection for apps that process sensitive data. Vendors may also opt to implement these requirements a means of protection the IP contained in the app.
 
-- MASVS Level 4 -- Defense-in-Depth and Strong Resiliency
+### MASVS Level 4 -- Defense-in-Depth and Strong Resiliency
 
 An application that achieves MASVS level 4 has both state-of-the-art security controls and software protection. Such an app is highly resilient against attacks and reverse engineering attempts. Level 4 is meant to be applied to apps that handle highly sensitive data. In addition, it can be used as a means of IP protection.
 
