@@ -21,7 +21,6 @@ It started as a fork of ethicalhack3r's Markdown version of the OWASP ASVS 3.0.
 * [V7: Secure coding requirements](Document/0x12-V7-Secure_coding_requirements.md)
 * [V8: Defense-in-depth requirements](Document/0x13-V8-Defense-in-depth_requirements.md)
 * [V9: Resiliency Against Reverse Engineering Requirements](Document/0x14-V9-Resiliency_Against_Reverse_Engineering Requirements.md)
-* [V10: Communications security verification requirements](Document/0x15-V10-Communications_security verification_requirements.md)
 * [Appendix A: Glossary](Document/0x90-Appendix-A_Glossary.md)
 * [Appendix B: References](Document/0x91-Appendix-B_References.md)
 * [Appendix C: Standards Mappings](Document/0x92-Appendix-C_Standards_Mappings.md)
