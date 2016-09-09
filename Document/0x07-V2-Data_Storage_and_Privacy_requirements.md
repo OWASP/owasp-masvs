@@ -2,10 +2,7 @@
 
 ## Control objective
 
-Authentication is the act of establishing, or confirming, something (or someone) as authentic, that is, that claims made by or about the thing are true. Ensure that a verified application satisfies the following high level requirements:
-
-- Verifies the digital identity of the sender of a communication.
-- Ensures that only those authorised are able to authenticate and credentials are transported in a secure manner.
+Handling of sensitive data is a central topic in mobile security. First of all, sensitive data processed by a mobile app can be unintentionally exposed to other apps running on the same device if operating system APIs are used improperly. Sensitive data may leak to cloud storage, backups, or the keyboard cache. Additionally, mobile devices can be lost or stolen more easily compared to other types of devices, such as web servers and desktop PCs, so an adversary gaining physical access to a device is a more likely scenario. In that case, additional protections can be implemented to make retrieving the sensitive data more difficult.
 
 ## Requirements
 
