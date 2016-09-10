@@ -27,6 +27,11 @@ Ensure that a verified application satisfies the following high level data prote
 | **9.9** | Verify that data stored in client side storage - such as HTML5 local storage, session storage, IndexedDB, regular cookies or Flash cookies - does not contain sensitive or PII). | ✓ | ✓ | ✓ | ✓ | 3.0 |
 | **9.10** | Verify accessing sensitive data is logged, if the data is collected under relevant data protection directives or where logging of accesses is required. |   | ✓ | ✓ | ✓ | 3.0 |
 | **9.11** | Verify that sensitive data is rapidly sanitized from memory as soon as it is no longer needed and handled in accordance to functions and techniques supported by the framework/library/operating system. |   | ✓ | ✓ | ✓ | 3.0 |
+| **9.12** | Verify that a form of source code obfuscation is implemented, to increase the cost of reverse engineering attacks on protocols or application components |   |   | ✓ | ✓ | 3.0 |
+| **9.13** | Verify that anti-debugging and anti-emulator functionalities are implemented, to increase the cost of reverse engineering attacks on the application as well as protecting runtime data streams |   |   | ✓ | ✓ | 3.0 |
+
+
+
 
 ## References
 
