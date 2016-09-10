@@ -12,6 +12,10 @@ Ensure that a verified application satisfies the following high level data prote
 - **Integrity** : Data should be protected being maliciously created, altered or deleted by unauthorized attackers.
 - **Availability** : Data should be available to authorized users as required
 
+
+
+These requirements describe protections mechanisms against known reverse engineering attacks and techniques.
+
 ## Requirements
 
 | # | Description | 1 | 2 | 3 | 4 |
