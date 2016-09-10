@@ -10,7 +10,7 @@ Authorization is the concept of allowing access to resources only to those permi
 
 ## Requirements
 
-| # | Description | 1 | 2 | 3 |
+| # | Description | 1 | 2 | 3 | 4 | 
 | --- | --- | --- | --- | --- | --- |
 | **4.1** | Verify that the principle of least privilege exists - users should only be able to access functions, data files, URLs, controllers, services, and other resources, for which they possess specific authorization. This implies protection against spoofing and elevation of privilege. | ✓ | ✓ | ✓ | ✓ |
 | **4.4** | Verify that access to sensitive records is protected, such that only authorized objects or data is accessible to each user (for example, protect against users tampering with a parameter to see or alter another user's account). | ✓ | ✓ | ✓ | ✓ |
