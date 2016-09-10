@@ -2,12 +2,7 @@
 
 ## Control objective
 
-Ensure that a verified application satisfies the following high level requirements:
-
-- At level 1, components of the application are identified and have a reason for being in the app
-- At level 2, the architecture has been defined and the code adheres to the architecture
-- At level 3, the architecture and design is in place, in use, and effective
-- At level 4, the architecture implements requirements to protect against advances attacks
+todo
 
 ## Requirements
 
