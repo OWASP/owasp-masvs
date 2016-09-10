@@ -15,7 +15,7 @@ Ensure that a verified application satisfies the following high level requiremen
 | --- | --- | --- | --- | --- | --- |
 | **1.1** | Verify that all application components are identified and are known to be needed. | ✓ | ✓ | ✓ | ✓ |
 | **1.2** | Verify that all components, such as libraries, modules, and external systems, that are not part of the application but that the application relies on to operate are identified. |   | ✓ | ✓ | ✓ |
-| **1.3** | Verify that all third party components are assessed and evaluated (associated risks) before being used or implemented. Whenever a security update is published of an implemented third party component, tge change has to be inspected and the risk has to be evaluated. In the case a third party component causes the application itself to be vulnerable, the application has to be fixed as soo, as possible. |   | ✓ | ✓ | ✓ |
+| **1.3** | Verify that all third party components are assessed and evaluated (associated risks) before being used or implemented. Whenever a security update is published of an implemented third party component, the change has to be inspected and the risk has to be evaluated. In the case a third party component causes the application itself to be vulnerable, the application has to be fixed as soon as possible. Therefore it is also recommended to limit the integration of third party components. |   | ✓ | ✓ | ✓ |
 
 
 
