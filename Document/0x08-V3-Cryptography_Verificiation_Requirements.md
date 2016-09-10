@@ -35,7 +35,7 @@ Ensure that a verified application uses cryptography according to industry best 
 
 * Verify that the certificates used by an application are not revoked. This could be done by implementing and checking a CRL (Certificate Revocation List).
 
-* Verify that he certificate chain is validated using the trusted root certificate store present on the mobile device. Verify that the application doesn't use self-signed certificates.
+* Verify that the certificates are not expired and that their chain is validated using the trusted root certificate store present on the mobile device. Verify that the application doesn't use self-signed certificates. 
 
 ## References
 
