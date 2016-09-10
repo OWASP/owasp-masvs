@@ -22,8 +22,6 @@ If logs contain private or sensitive data, the definition of which varies from c
 | **8.4** | Verify that each log event includes necessary information that would allow for a detailed investigation of the timeline when an event happens. |   | ✓ | ✓ | ✓ |
 | **8.5** | Verify that the application implements a timeout functionality. The purpose of this timeout is to protect the application against unwanted actions or against data leakage. This could be the case when an application is used by another user (e.g. stolen or leaved unattended). When a timout occurs, all the data has to be removed from memory and the application should be closed or at least the views should be refreshed or replaced. Session timout delays depend on business requirements and the nature of the data contained in it. (e.g. finanical, medical, etc. |   |   | ✓ | ✓ |
 
-The timeout session could for example be triggered after 10 minutes of inactivity for the User Application version and after 1 hour of 
-
 ## References
 
 For more information, please see:
