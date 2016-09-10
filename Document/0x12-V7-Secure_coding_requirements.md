@@ -25,7 +25,11 @@ Ensure that a verified application satisfies the following high level requiremen
 
 
 
-| **X** | Verify that no confidential as well as 'secret' data is stored in the application code. Examples of this kind of data are credentials, keys, etc. Reverse engineering techniques allow extraction of this data. | ✓ | ✓ | ✓ | ✓ |
+| **X** | Verify that no confidential data is stored in the application code. Examples of this kind of data are credentials, keys, etc. Reverse engineering techniques allow extraction of this data. | ✓ | ✓ | ✓ | ✓ |
+
+| **X** | Verify that no confidential data is cached on the client device. Examples of this kind of data are credentials, keys, etc. Examples of caching vectors are keyboard key-presses, network requests, cookies, etc. Reverse engineering techniques allow extraction of this cached data. |   | ✓ | ✓ | ✓ |
+
+
 
 ## References
 
