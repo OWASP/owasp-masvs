@@ -23,10 +23,11 @@ Ensure that a verified application satisfies the following high level requiremen
 | **7.14** | Verify that all keys and passwords are replaceable, and are generated or replaced at installation time. |   | ✓ | ✓ | ✓ |
 | **7.15** | Verify that random numbers are created with proper entropy even when the application is under heavy load, or that the application degrades gracefully in such circumstances. |   |   | ✓ | ✓ |
 
+
+
+| **X** | Verify that no confidential as well as 'secret' data is stored in the application code. Examples of this kind of data are credentials, keys, etc. Reverse engineering techniques allow extraction of this data. | ✓ | ✓ | ✓ | ✓ |
+
 ## References
 
-For more information, please see:
-
-- OWASP Testing Guide 4.0: Testing for weak Cryptography [https://www.owasp.org/index.php/Testing\_for\_weak\_Cryptography](https://www.owasp.org/index.php/Testing_for_weak_Cryptography)
-- OWASP Cheat Sheet: Cryptographic Storage [https://www.owasp.org/index.php/Cryptographic\_Storage\_Cheat\_Sheet](https://www.owasp.org/index.php/Cryptographic_Storage_Cheat_Sheet)
+TODO
 
