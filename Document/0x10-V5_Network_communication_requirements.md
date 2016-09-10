@@ -15,7 +15,8 @@ Ensure that a verified application satisfies the following high level requiremen
 | # | Description | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
 | **5.1** | Verify that sensitive data is encrypted on the network using secure communication protocols. This guarantees integrity of the data as well as authenticity. For the HTTP protocol, this means that only HTTPS should be used| ✓ | ✓ | ✓ | ✓ |
-
+| **5.2** | Verify the authenticity of the rest/web backend before any acton or data is send to it.| ✓ | ✓ | ✓ | ✓ |
+| **5.2** | Verify that the rest/Web server authenticates the application before any data is send back to it. Parameters collected during the device binding process should be used to identify the devie itself. In the best case, this process is part of mutual authentication. | ✓ | ✓ | ✓ | ✓ |
 
 
 (todo)
