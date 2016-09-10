@@ -27,6 +27,13 @@ Ensure that a verified application uses cryptography according to industry best 
 | **3.11** | Verify that where possible, keys and secrets are zeroed when destroyed. |   | ✓ | ✓ | ✓ |
 | **3.12** | Verify that all keys and passwords are replaceable, and are generated or replaced at installation time. |   | ✓ | ✓ | ✓ |
 | **3.13** | Verify that random numbers are created with proper entropy even when the application is under heavy load, or that the application degrades gracefully in such circumstances. |   |   | ✓ | ✓ |
+| **3.14** | Verify that random numbers are created with proper entropy even when the application is under heavy load, or that the application degrades gracefully in such circumstances. |   |   | ✓ | ✓ |
+
+
+=Certificate specifc things, not sure yet were to put it. Belongs close to :use HTTPS and close to :do SSL pining. Needs to be discussed
+* Verify that the certificates private keys are build using strong encryption algorithms.
+
+* Verify that the certificates used by an application are not revoked. This could be done by implementing and checking a CRL (Certificate Revocation List).
 
 
 ## References
