@@ -29,6 +29,11 @@ Ensure that a verified application satisfies the following high level data prote
 | **9.11** | Verify that sensitive data is rapidly sanitized from memory as soon as it is no longer needed and handled in accordance to functions and techniques supported by the framework/library/operating system. |   | ✓ | ✓ | ✓ | 3.0 |
 | **9.12** | Verify that a form of source code obfuscation is implemented, to increase the cost of reverse engineering attacks on protocols or application components |   |   | ✓ | ✓ | 3.0 |
 | **9.13** | Verify that anti-debugging and anti-emulator functionalities are implemented, to increase the cost of reverse engineering attacks on the application as well as protecting runtime data streams |   |   |   | ✓ | 3.0 |
+| **9.13** | Verify that application doesn't implement easy logic testing, escpecially for security specific functionalities. This could enable runtime attacks allowing  , to increase the cost of reverse engineering attacks on the application as well as protecting runtime data streams |   |   |   | ✓ | 3.0 |
+
+
+Developers shall avoid using simple logic tests and variables. Attackers could manage reading and altering these values and modify the behavior of the application.
+
 
 
 ## References
