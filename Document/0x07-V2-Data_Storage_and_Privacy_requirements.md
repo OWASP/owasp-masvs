@@ -24,6 +24,9 @@ Handling of sensitive data is a central topic in mobile security. First of all, 
 | **2.12** | Verify that sensitive data does not leak via IPC facilities | ✓ | ✓ | ✓ | ✓ |
 | **2.13** | Verify that data backup via ADB is disabled (Android) | ✓ | ✓ | ✓ | ✓ |
 
+
+| **X** | In the case sensitive data needs to be stored (business requirement) verify that aplication provides a way to remotely disconnect the device from an account. In the case a disconnected device is quering the server, the application should locally clear the application's storage. |   |   |   | ✓ |
+
 ## References
 
 For more information, please see:
