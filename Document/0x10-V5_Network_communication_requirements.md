@@ -15,11 +15,11 @@ Ensure that a verified application satisfies the following high level requiremen
 
 | # | Description | 1 | 2 | 3 | Since |
 | --- | --- | --- | --- | --- | --- |
-| **5.1** | Verify that the runtime environment is not susceptible to buffer overflows, or that security controls prevent buffer overflows. | ✓ | ✓ | ✓ | 1.0 |
-| **5.3** | Verify that server side input validation failures result in request rejection and are logged. | ✓ | ✓ | ✓ | 1.0 |
-| **5.5** | Verify that input validation routines are enforced on the server side. | ✓ | ✓ | ✓ | 1.0 |
-| **5.6** | Verify that a single input validation control is used by the application for each type of data that is accepted. |   |   | ✓ | 1.0 |
-| **5.10** | Verify that all SQL queries, HQL, OSQL, NOSQL and stored procedures, calling of stored procedures are protected by the use of prepared statements or query parameterization, and thus not susceptible to SQL injection | ✓ | ✓ | ✓ | 2.0 |
+| **5.1** | Verify that the runtime environment is not susceptible to buffer overflows, or that security controls prevent buffer overflows. | ✓ | ✓ | ✓ |
+| **5.3** | Verify that server side input validation failures result in request rejection and are logged. | ✓ | ✓ | ✓ |
+| **5.5** | Verify that input validation routines are enforced on the server side. | ✓ | ✓ | ✓ |
+| **5.6** | Verify that a single input validation control is used by the application for each type of data that is accepted. |   |   | ✓ |
+| **5.10** | Verify that all SQL queries, HQL, OSQL, NOSQL and stored procedures, calling of stored procedures are protected by the use of prepared statements or query parameterization, and thus not susceptible to SQL injection | ✓ | ✓ | ✓ |
 
 
 ## References
