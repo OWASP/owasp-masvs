@@ -10,8 +10,6 @@ Ensure that a verified application satisfies the following high level requiremen
 
 ## Requirements
 
--- TODO --
-
 | # | Description | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
 | **5.1** | Verify that sensitive data is encrypted on the network using secure communication protocols. This guarantees integrity of the data as well as authenticity. For the HTTP protocol, this means that only HTTPS should be used| ✓ | ✓ | ✓ | ✓ |
@@ -20,15 +18,9 @@ Ensure that a verified application satisfies the following high level requiremen
 | **5.4** | Verify that the the application implements an addition layer of security on top of the secure channel, when sending and receiving data. In the case that the secure channel is compromised (e.g. hartbleed, Drown, Poodle), the application still has a way to ensure integrity and confidentiality is preserved. This layer has to be implemented using proven and appropriate cryptograhic algorithms and methods (e.g. HMAC)|   |   |   | ✓ |
 | **5.5** | Verify that the Application doens't rely on external (to the application) unsecure communication (e.g email, SMS, etc.) for critical operations (enrollment, device binding, One time passwords, etc.). Unsecure communication channels could be used as an attack vector to circumvent application security mechanisms. |   |   |   | ✓ | 
 
-(todo)
-
 
 ## References
 
 For more information, please see:
 
-- OWASP Testing Guide 4.0: Input Validation Testing
- [https://www.owasp.org/index.php/Testing\_for\_Input\_Validation](https://www.owasp.org/index.php/Testing_for_Input_Validation)
-- OWASP Cheat Sheet: Input Validation       [https://www.owasp.org/index.php/Input\_Validation\_Cheat\_Sheet](https://www.owasp.org/index.php/Input_Validation_Cheat_Sheet)
-- OWASP Testing Guide 4.0: Testing for HTTP Parameter Pollution [https://www.owasp.org/index.php/Testing\_for\_HTTP\_Parameter\_pollution\_%28OTG-INPVAL-004%29](https://www.owasp.org/index.php/Testing_for_HTTP_Parameter_pollution_%28OTG-INPVAL-004%29)
-- OWASP LDAP Injection Cheat Sheet [https://www.owasp.org/index.php/LDAP\_Injection\_Prevention\_Cheat\_Sheet](https://www.owasp.org/index.php/LDAP_Injection_Prevention_Cheat_Sheet)
+TODO
