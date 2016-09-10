@@ -38,6 +38,4 @@ These requirements describe protections mechanisms against known reverse enginee
 
 ## References
 
-For more information, please see:
-
-- User Privacy Protection Cheat Sheet: [https://www.owasp.org/index.php/User\_Privacy\_Protection\_Cheat\_Sheet](https://www.owasp.org/index.php/User_Privacy_Protection_Cheat_Sheet)
+TODO
