@@ -26,6 +26,7 @@ Handling of sensitive data is a central topic in mobile security. First of all, 
 
 
 | **X** | In the case sensitive data needs to be stored (business requirement) verify that aplication provides a way to remotely disconnect the device from an account. In the case a disconnected device is quering the server, the application should locally clear the application's storage. |   |   |   | ✓ |
+| **X** | Verify that sensitive data is not shared via IPC facilities. An attacker could use another application as an attack vector to gain access to (shared) confidential and/or sensitive data. |   |   |   | ✓ |
 
 ## References
 
