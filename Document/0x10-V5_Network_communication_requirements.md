@@ -2,12 +2,11 @@
 
 ## Control objective
 
-The most common web application security weakness is the failure to properly validate input coming from the client or from the environment before using it. This weakness leads to almost all of the major vulnerabilities in web applications, such as cross site scripting, SQL injection, interpreter injection, locale/Unicode attacks, file system attacks, and buffer overflows.
+{overview)
 
 Ensure that a verified application satisfies the following high level requirements:
 
-- All input is validated to be correct and fit for the intended purpose.
-- Data from an external entity or client should never be trusted and should be handled accordingly.
+(list)
 
 ## Requirements
 
@@ -15,11 +14,9 @@ Ensure that a verified application satisfies the following high level requiremen
 
 | # | Description | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
-| **5.1** | Verify that the runtime environment is not susceptible to buffer overflows, or that security controls prevent buffer overflows. | ✓ | ✓ | ✓ | ✓ |
-| **5.3** | Verify that server side input validation failures result in request rejection and are logged. | ✓ | ✓ | ✓ | ✓ |
-| **5.5** | Verify that input validation routines are enforced on the server side. | ✓ | ✓ | ✓ | ✓ |
-| **5.6** | Verify that a single input validation control is used by the application for each type of data that is accepted. |   |   | ✓ | ✓ |
-| **5.10** | Verify that all SQL queries, HQL, OSQL, NOSQL and stored procedures, calling of stored procedures are protected by the use of prepared statements or query parameterization, and thus not susceptible to SQL injection | ✓ | ✓ | ✓ | ✓ |
+| **5.1** | Verify that sensitive data is encrypted on the network. | ✓ | ✓ | ✓ | ✓ |
+
+(todo)
 
 
 ## References
