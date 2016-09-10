@@ -13,9 +13,10 @@ Ensure that a verified application uses cryptography according to industry best 
 
 | # | Description | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
-| **3.1** | Verify that that the app does not use symmetric cryptography with hardcoded secret keys. | ✓ | ✓ | ✓ | ✓ |
-| **3.2** | Verify that the cryptographic primitives used adhere to industry standards. | ✓ | ✓ | ✓ | ✓ |
+| **3.1** | Verify that that the application does not use symmetric cryptography with hardcoded secret keys. | ✓ | ✓ | ✓ | ✓ |
+| **3.2** | Verify that the cryptographic primitives used adhere to industry standards. (e.g. Block size, digest size, key length, etc. )| ✓ | ✓ | ✓ | ✓ |
 | **3.3** | Verify that the application doesn't contain self-written cryptographical functions and algorithms . This could introduction of cryptographical vulnerabilities | ✓ | ✓ | ✓ | ✓ |
+| **3.4** | Verify that the application doesn't re-use the same cryptograhical key for multiple purposes. Each purpose should have a different key. | ✓ | ✓ | ✓ | ✓ |
 
 
 ## References
