@@ -19,11 +19,16 @@ Handling of sensitive data is a central topic in mobile security. First of all, 
 | **2.7** | Verify that no sensitive data leaks via the keyboard cache. | ✓ | ✓ | ✓ | ✓ |
 | **2.8** | Verify that the clipboard is deactivated on sensitive input fields | ✓ | ✓ | ✓ | ✓ |
 | **2.9** | Verify that sensitive data is obscured in the user interface | ✓ | ✓ | ✓ | ✓ |
+
+
+| # | Verified | 1 | 2 | 3 | 4 |
+| --- | --- | --- | --- | --- | --- |
 | **2.10** | Verify that sensitive data does not leak via application snapshots (iOS) |  | ✓ | ✓ | ✓ |
 | **2.11** | Verify that sensitive data does not leak via the task switcher (Android) | ✓ | ✓ | ✓ | ✓ |
 | **2.12** | Verify that sensitive data does not leak via IPC facilities | ✓ | ✓ | ✓ | ✓ |
 | **2.13** | Verify that data backup via ADB is disabled (Android) | ✓ | ✓ | ✓ | ✓ |
 | **2.14** | Verify that a way of remotely locking an account, and ensure that local storage is wiped upon locking |   |   |   | ✓ |
+| **2.15** | Verify that no sensitive data is stored in the device. |   |   |   | ✓ |
 
 ## References
 
