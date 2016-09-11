@@ -34,7 +34,6 @@ These requirements describe protections mechanisms against known reverse enginee
 
 | # | Verified | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
-| **9.11** | Verify that application properly handles issues. Errors should be catched and handled with correctly.|   |   | ✓ | ✓ |
 | **9.11** | Verify that sensitive data is rapidly sanitized from memory as soon as it is no longer needed and handled in accordance to functions and techniques supported by the framework/library/operating system. Once malware gains root privileges, or a malicious actor gains physical access to the device, the memory could be dumped and analysed. |   |   | ✓ | ✓ |
 | **9.12** | Verify that a form of source code obfuscation is implemented, to increase the cost of reverse engineering attacks on protocols or application components. On Android this could be proguard or dexguard. On iOS some implementations exist, but there is less need because of the increased complexity (higher cost) of reverse engineering. |   |   | ✓ | ✓ |
 | **9.13** | Verify that anti-debugging and anti-emulator functionalities are implemented, to increase the cost of reverse engineering attacks on the application as well as protecting runtime data streams |   |   |   | ✓ |
