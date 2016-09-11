@@ -30,8 +30,13 @@ These requirements describe protections mechanisms against known reverse enginee
 | **9.8** | Verify the application has the ability to detect and alert on abnormal numbers of requests for data harvesting for an example screen scraping. |   |   | ✓ | ✓ |
 | **9.9** | Verify that data stored in client side storage - such as HTML5 local storage, session storage, IndexedDB, regular cookies or Flash cookies - does not contain sensitive or PII). | ✓ | ✓ | ✓ | ✓ |
 | **9.10** | Verify accessing sensitive data is logged, if the data is collected under relevant data protection directives or where logging of accesses is required. |   | ✓ | ✓ | ✓ |
+
+
+| # | Verified | 1 | 2 | 3 | 4 |
+| --- | --- | --- | --- | --- | --- |
+| **9.11** | Verify that application properly handles issues. Errors should be catched and handled with correctly.|   |   | ✓ | ✓ |
 | **9.11** | Verify that sensitive data is rapidly sanitized from memory as soon as it is no longer needed and handled in accordance to functions and techniques supported by the framework/library/operating system. Once malware gains root privileges, or a malicious actor gains physical access to the device, the memory could be dumped and analysed. |   |   | ✓ | ✓ |
-| **9.12** | Verify that a form of source code obfuscation is implemented, to increase the cost of reverse engineering attacks on protocols or application components |   |   | ✓ | ✓ |
+| **9.12** | Verify that a form of source code obfuscation is implemented, to increase the cost of reverse engineering attacks on protocols or application components. On Android this could be proguard or dexguard. On iOS some implementations exist, but there is less need because of the increased complexity (higher cost) of reverse engineering. |   |   | ✓ | ✓ |
 | **9.13** | Verify that anti-debugging and anti-emulator functionalities are implemented, to increase the cost of reverse engineering attacks on the application as well as protecting runtime data streams |   |   |   | ✓ |
 | **9.13** | Verify that the application doesn't implement easy logic testing, especially for enabling or disabling security specific functionalities. By simply writing to these variables in memory, the application's logic could be tampered with. Furthermore, the possibility of reading these variables could help an attacker understanding the application's logic while reverse engineering it |   |   |   | ✓ |
 
