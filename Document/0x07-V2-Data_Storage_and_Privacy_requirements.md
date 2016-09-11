@@ -23,10 +23,7 @@ Handling of sensitive data is a central topic in mobile security. First of all, 
 | **2.11** | Verify that sensitive data does not leak via the task switcher (Android) | ✓ | ✓ | ✓ | ✓ |
 | **2.12** | Verify that sensitive data does not leak via IPC facilities | ✓ | ✓ | ✓ | ✓ |
 | **2.13** | Verify that data backup via ADB is disabled (Android) | ✓ | ✓ | ✓ | ✓ |
-
-
-| **X** | In the case sensitive data needs to be stored (business requirement) verify that aplication provides a way to remotely disconnect the device from an account. In the case a disconnected device is quering the server, the application should locally clear the application's storage. |   |   |   | ✓ |
-| **X** | Verify that sensitive data is not shared via IPC facilities. An attacker could use another application as an attack vector to gain access to (shared) confidential and/or sensitive data. |   |   |   | ✓ |
+| **2.14** | Verify that a way of remotely locking an account, and ensure that local storage is wiped upon locking |   |   |   | ✓ |
 
 ## References
 
