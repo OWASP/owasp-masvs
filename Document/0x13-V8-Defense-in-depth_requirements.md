@@ -14,18 +14,19 @@ If logs contain private or sensitive data, the definition of which varies from c
 
 ## Requirements
 
-| # | Description | 1 | 2 | 3 | 4 |
+
+| # | Logging | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
 | **8.1** | Verify that the application does not output error messages or stack traces containing sensitive data that could assist an attacker, including session id, software/framework versions and personal information | ✓ | ✓ | ✓ | ✓ |
 | **8.2** | Verify that error handling logic in security controls denies access by default. |   | ✓ | ✓ | ✓ |
-| **8.3** | Verify security logging controls provide the ability to log success and particularly failure events that are identified as security-relevant. Any anomalies are disruptions in the normal application flow should be detected and reported back to the application server along with a state report of the device (rooted/jailbroken, user identifier, device fingerprint, etc.) . The server then decides the appropriate actions|   |   | ✓ | ✓ |
+| **8.3** | Verify security logging controls provide the ability to log success and particularly failure events that are identified as security-relevant. Any anomalies and disruptions in the normal application flow should be detected and reported back to the application server along with a state report of the device (rooted/jailbroken, user identifier, device fingerprint, etc.) . The server then decides the appropriate actions in accordance with the business requirements|   |   | ✓ | ✓ |
 | **8.4** | Verify that each log event includes necessary information that would allow for a detailed investigation of the timeline when an event happens. |   | ✓ | ✓ | ✓ |
-| **8.5** | Verify that the application implements a timeout functionality. The purpose of this timeout is to protect the application against unwanted actions or against data leakage. This could be the case when an application is used by another user (e.g. stolen or leaved unattended). When a timout occurs, all the data has to be removed from memory and the application should be closed or at least the views should be refreshed or replaced. Session timout delays depend on business requirements and the nature of the data contained in it. (e.g. finanical, medical, etc.) |   |   | ✓ | ✓ |
-| **8.6** | Verify that the application implements a lockout functionality. The purpose of this lockout is to protect the application when it is send to the background (other application opened) or when the device itself is locked. When the device is locked, all the data has to be removed from memory and the application's session should be closed. The need for a lockout functionality depends on business requirements and the nature of the data contained in the application. (e.g. finanical, medical, etc.) |   |   | ✓ | ✓ |
-| **8.7** | Verify that an application which requires to be unlocked, implements a protection against bruteforce attacks. If the locking mechanism depends on server side api calls, then this can easily be implemented on server/api level. A remote session should either way be setup via server side interaction, and should never be done on the client side. If the application is "offline" in nature, a counter mechanism should be implemented to protect against brute-force attacks. |   |   | ✓ | ✓ |
+
+
+| # | Rooting | 1 | 2 | 3 | 4 |
+| --- | --- | --- | --- | --- | --- |
 | **8.8** | Verify that the application is capable of detecting it is being executed on a rooted (Android) or jailbroken (iOS) device. Depending on business requirements and the nature of the data contained in the application, the decision could be made to eiter warn the user or to deny the application from normal usage. |   |   | ✓ | ✓ |
 | **8.9** | Verify that the application is capable of detecting when cloacking tools are used to hide the rooted (Android) or jailbroken (iOS) status of a  device. If this is a business critical requirement, use a thrid party trust provider to 'measure' the status. |   |   | ✓ | ✓ |
-
 
 
 | # | Device Binding | 1 | 2 | 3 | 4 |
@@ -34,6 +35,13 @@ If logs contain private or sensitive data, the definition of which varies from c
 | **8.10** | Verify that the device's fingerprint matches the stored value on the backend server, every time the application is launched. This is necessary to detect if an application has e.g. been copied from one device to another. |   |   | ✓ | ✓ |
 | **8.11** | Verify that a device fingerprint is not stored in the device. It should be computed at runtime and based on multiple device properties. A stored fingerprint value could allow for easy spoofing, as the fingerprint is actualy only one parameter.|   |   | ✓ | ✓ |
 | **8.11** | Verify that the attributes and properties used to compute the device fingerprint make it unique. Ensure enough parameters are used to prevent easy spoofing of these values. On the other hand, if a device is updated or the configuration changes, the fingerprint could change. The application should be able to handle these changes and take appropriate actions. |   |   | ✓ | ✓ |
+
+
+| # | Data Leakage | 1 | 2 | 3 | 4 |
+| --- | --- | --- | --- | --- | --- |
+| **8.5** | Verify that the application implements a timeout functionality. The purpose of this timeout is to protect the application against unwanted actions or against data leakage. This could be the case when an application is used by another user (e.g. stolen or leaved unattended). When a timout occurs, all the data has to be removed from memory and the application should be closed or at least the views should be refreshed or replaced. Session timout delays depend on business requirements and the nature of the data contained in it. (e.g. finanical, medical, etc.) |   |   | ✓ | ✓ |
+| **8.6** | Verify that the application implements a lockout functionality. The purpose of this lockout is to protect the application when it is send to the background (other application opened) or when the device itself is locked. When the device is locked, all the data has to be removed from memory and the application's session should be closed. The need for a lockout functionality depends on business requirements and the nature of the data contained in the application. (e.g. finanical, medical, etc.) |   |   | ✓ | ✓ |
+| **8.7** | Verify that an application which requires to be unlocked, implements a protection against bruteforce attacks. If the locking mechanism depends on server side API calls, then this can easily be implemented on server/API level. A remote session should either way be setup via server side interaction, and should never be done on the client side. If the application is "offline" in nature, a counter mechanism should be implemented to protect against brute-force attacks. |   |   | ✓ | ✓ |
 | **8.12** | Verify that all sensitive data shown in the application views are properly protected. Passwords for example should always be replaced with stars (*) in order to prevent data leakage. Whenever a lockout, timeout, application backgrounding occures, the sensitive data should always be removed from the views|   |   | ✓ | ✓ |
 
 ## References
