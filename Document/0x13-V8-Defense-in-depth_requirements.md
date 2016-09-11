@@ -17,6 +17,7 @@ If logs contain private or sensitive data, the definition of which varies from c
 
 | # | Logging | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
+| **9.11** | Verify that the application properly handles issues in the code. Errors should be catched and handled with correctly.|   |   | ✓ | ✓ |
 | **8.1** | Verify that the application does not output error messages or stack traces containing sensitive data that could assist an attacker, including session id, software/framework versions and personal information | ✓ | ✓ | ✓ | ✓ |
 | **8.2** | Verify that error handling logic in security controls denies access by default. |   | ✓ | ✓ | ✓ |
 | **8.3** | Verify security logging controls provide the ability to log success and particularly failure events that are identified as security-relevant. Any anomalies and disruptions in the normal application flow should be detected and reported back to the application server along with a state report of the device (rooted/jailbroken, user identifier, device fingerprint, etc.) . The server then decides the appropriate actions in accordance with the business requirements|   |   | ✓ | ✓ |
