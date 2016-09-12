@@ -1,4 +1,4 @@
-# V9: Resiliency Against Reverse Engineering Requirements
+# V8: Resiliency Against Reverse Engineering Requirements
 
 ## Control objective
 
