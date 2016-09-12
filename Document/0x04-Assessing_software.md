@@ -16,21 +16,21 @@ Historically, penetration testing and secure code reviews have included issues "
 
 Keeping detailed work papers, screenshots or movies, scripts to reliably and repeatedly exploit an issue, and electronic records of testing, such as intercepting proxy logs and associated notes such as a cleanup list, is considered standard industry practice and can be really useful as proofs of the findings for the most doubts developers. It is not sufficient to simply run a tool and report on the failures; this does not (at all) provide sufficient evidence that all issues at a certifying level have been tested and tested thoroughly. In case of dispute, there should be sufficient assurance evidence to demonstrate each and every verified requirement has indeed been tested.
 
-## The role of automated penetration testing tools
+## The role of automated security testing tools
 
-Automated penetration tools are encouraged to provide as much as possible coverage and to exercise as many parameters as possible with many different forms of malicious inputs as possible.
+The use of source code scanners and blackbox testing tools is encouraged to provide as much as possible coverage and to exercise as many parameters as possible with many different forms of malicious inputs as possible.
 
-It is not possible to fully complete ASVS verification using automated penetration testing tools alone. Whilst a large majority of requirements in L1 can be performed using automated tests, the overall majority of requirements are not amenable to automated penetration testing.
+It is not however not possible to fully complete ASVS verification using automated tools alone. (... todo - why? ...)
 
 Please note that the lines between automated and manual testing have blurred as the application security industry matures. Automated tools are often manually tuned by experts and manual testers often leverage a wide variety of automated tools.
 
-## The role of penetration testing
+## Black-box versus white-box testing
 
-It is possible to perform a manual penetration test and verify all L1 issues without requiring access to source code, but this is not a leading practice. L2 requires at least some access to developers, documentation, code, and authenticated access to the system. Complete penetration testing coverage at Level 3 is not possible, as most of the additional issues involve review of system configuration, malicious code review, threat modelling, and other non-penetration testing artefacts.
+(...) todo - describe what methodologies are required at each level. (...)
 
 ## As detailed security architecture guidance
 
-One of the more common uses for the Application Security Verification Standard is as a resource for security architects. The two major security architecture frameworks, SABSA or TOGAF, are missing a great deal of information that is necessary to complete application security architecture review. ASVS can be used to fill in those gaps by allowing security architects to choose better controls for common problems, such as data protection patterns and input validation strategies.
+One of the more common uses for the Mobile Application Security Verification Standard is as a resource for security architects. The two major security architecture frameworks, SABSA or TOGAF, are missing a great deal of information that is necessary to complete mobile application security architecture review. MASVS can be used to fill in those gaps by allowing security architects to choose better controls for issues common to mobile apps.
 
 ## As a replacement for off the shelf secure coding checklists
 
@@ -38,8 +38,8 @@ Many organizations can benefit from adopting the ASVS, by choosing one of the th
 
 ## As a guide for automated unit and integration tests
 
-The ASVS is designed to highly testable, with the sole exception of architectural and malicious code requirements. By building unit and integration tests that test for specific and relevant fuzz and abuse cases, the application becomes nearly self-verifying with each and every build. For example, additional tests can be crafted for the test suite for a login controller, testing the username parameter for common usernames, account enumeration, brute forcing, LDAP and SQL injection, and XSS. Similarly, a test on the password parameter should include common passwords, password length, null byte injection, removing the parameter, XSS, account enumeration, and more.
+The MASVS is designed to highly testable, with the sole exception of architectural and malicious code requirements. By building unit and integration tests that test for specific and relevant fuzz and abuse cases, the mobile app becomes nearly self-verifying with each and every build. For example, additional tests can be crafted for the test suite for (...) todo (...).
 
-## As secure development training
+## For secure development training
 
-ASVS can also be used to define characteristics of secure software. Many "secure coding" courses are simply ethical hacking courses with a light smear of coding tips. This does not help developers. Instead, secure development courses can use the ASVS with a strong focus on the proactive controls found in the ASVS, rather than the Top 10 negative things not to do.
+MASVS can also be used to define characteristics of secure mobile apps. Many "secure coding" courses are simply ethical hacking courses with a light smear of coding tips. This does not help developers. Instead, secure development courses can use the MASVS with a strong focus on the proactive controls found in the MASVS, rather than the Top 10 negative things not to do.
