@@ -8,7 +8,6 @@
 
 | # | Verified | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
-
 | **9.1** | Verify that debugging symbols have been removed from native binaries. |   | ✓ | ✓ | ✓ |
 | **9.2** | On Android, verify that the release bytecode has been minified with ProGuard.  |   | ✓ | ✓ | ✓ |
 | **9.3** | Verify that the application detects whether it is being executed on a rooted (Android) or jailbroken (iOS) device. Depending on business requirement, users should be warned, or the app should terminate if the device is rooted. |   | ✓ | ✓ | ✓ |
