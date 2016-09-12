@@ -12,8 +12,7 @@ V5.        Network communication
 
 V6.        Interaction with the environment
 
-V7.        Secure coding
+V7.        Coding practices and build process
 
-V8.        Defense-in-depth
+V8.        Resiliency against reverse engineering
 
-V9.        Resiliency against reverse engineering
