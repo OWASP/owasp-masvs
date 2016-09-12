@@ -1,16 +1,10 @@
 # Using the Mobile Application Security Verification Standard
 
-MASVS has a few goals:
-
-* to help organizations develop and maintain secure mobile applications
-* to normalize the range in the coverage and level of rigor available in the market when it comes to performing mobile application security verification
-* to allow security services, security-tool vendors, and consumers to align their requirements and offerings
-
-This standard can be used to establish a level of confidence in the security of Web applications. The requirements were developed with the following objectives in mind:
+The MASVS can be used to establish a level of confidence in the security of mobile apps. The requirements were developed with the following objectives in mind:
 
 * Use as a metric - To provide application developers and application owners with a framework wich allows to measure the security, and thus the degree of trust that can be placed in their mobile applications.
 * Use as guidance - To provide guidance in regards to security controls necessary to implement in order to satisfy application security requirements
-* Use during procurement - Provide a baseline for application security verification requirements.
+* Use during procurement - Provide a baseline for mobile app security verification requirements.
 
 Figure 1 - Uses of MASVS for organizations and tool/service providers
 
@@ -36,7 +30,7 @@ An application that achieves MASVS level 4 has both state-of-the-art security co
 
 ## How to use this standard
 
-One of the best ways to use the Mobile Application Security Verification Standard is to use it as blueprint to create a Secure Coding Checklist specific to your application, platform or organization. Tailoring the MASVS to your use cases will increase the focus on the security requirements that are most important to your projects and environments.
+One of the best ways to use the Mobile Application Security Verification Standard is to use it as blueprint to create a secure coding checklist specific to your application, platform or organization. Tailoring the MASVS to your use cases will increase the focus on the security requirements that are most important to your projects and environments.
 
 ## Applying MASVS in Practice
 
