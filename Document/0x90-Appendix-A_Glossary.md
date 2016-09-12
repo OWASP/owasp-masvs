@@ -1,47 +1,32 @@
 # Appendix A: Glossary
 
-- **Access Control** – A means of restricting access to files, referenced functions, URLs, and data based on the identity of users and/or groups to which they belong.
-- **Address Space Layout Randomization (ASLR)** – A technique to help protect against buffer overflow attacks.
+(.. todo ...)
+
+- **Address Space Layout Randomization (ASLR)** – A technique to make exploiting memory corruption bugs more difficult.
 - **Application Security** – Application-level security focuses on the analysis of components that comprise the application layer of the Open Systems Interconnection Reference Model (OSI Model), rather than focusing on for example the underlying operating system or connected networks.
-- **Application Security Verification** – The technical assessment of an application against the OWASP ASVS.
+- **Application Security Verification** – The technical assessment of an application against the OWASP MASVS.
 - **Application Security Verification Report** – A report that documents the overall results and supporting analysis produced by the verifier for a particular application.
 - **Authentication** – The verification of the claimed identity of an application user.
 - **Automated Verification** – The use of automated tools (either dynamic analysis tools, static analysis tools, or both) that use vulnerability signatures to find problems.
-- **Back Doors** – A type of malicious code that allows unauthorized access to an application.
-- **Blacklist** – A list of data or operations that are not permitted, for example a list of characters that are not allowed as input.
-- **Cascading Style Sheets** (CSS) - A style sheet language used for describing the presentation semantics of document written in a markup language, such as HTML.
-- **Certificate Authority** (CA) – An entity that issues digital certificates.
-- **Communication Security** – The protection of application data when it is transmitted between application components, between clients and servers, and between external systems and the application.
 - **Component** – a self-contained unit of code, with associated disk and network interfaces that communicates with other components.
 - **Cross-Site Scripting** (XSS) – A security vulnerability typically found in web applications allowing the injection of client-side scripts into content.
 - **Cryptographic module** – Hardware, software, and/or firmware that implements cryptographic algorithms and/or generates cryptographic keys.
-- **Denial of Service (DoS) Attacks** – The flooding of an application with more requests than it can handle.
 - **Design Verification** – The technical assessment of the security architecture of an application.
 - **Dynamic Verification** – The use of automated tools that use vulnerability signatures to find problems during the execution of an application.
-- **Easter Eggs** – A type of malicious code that does not run until a specific user input event occurs.
-- **External Systems** – A server-side application or service that is not part of the application.
-- **FIPS 140-2** – A standard that can be used as the basis for the verification of the design and implementation of cryptographic modules
 - **Globally Unique Identifier** (GUID) – a unique reference number used as an identifier in software.
-- **HyperText Markup Language (HTML)** - The main markup language for the creation of web pages and other information displayed in a web browser.
 - **Hyper Text Transfer Protocol** (HTTP) – An application protocol for distributed, collaborative, hypermedia information systems. It is the foundation of data communication for the World Wide Web.
 - **Input Validation** – The canonicalization and validation of untrusted user input.
-- **Lightweight Directory Access Protocol (LDAP)** – An application protocol for accessing and maintaining distributed directory information services over a network.
 - **Malicious Code** – Code introduced into an application during its development unbeknownst to the application owner, which circumvents the application's intended security policy. Not the same as malware such as a virus or worm!
 - **Malware** – Executable code that is introduced into an application during runtime without the knowledge of the application user or administrator.
 - **Open Web Application Security Project** (OWASP) – The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security "visible," so that people and organizations can make informed decisions about application security risks. See: http://www.owasp.org/
-- **Output encoding** – The canonicalization and validation of application output to Web browsers and to external systems.
 - **Personally Identifiable Information** (PII) - is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
-- **Positive**** validation** – See whitelist.
 - **Security Architecture** – An abstraction of an application's design that identifies and describes where and how security controls are used, and also identifies and describes the location and sensitivity of both user and application data.
 - **Security Configuration** – The runtime configuration of an application that affects how security controls are used.
 - **Security Control** – A function or component that performs a security check (e.g. an access control check) or when called results in a security effect (e.g. generating an audit record).
 - **SQL Injection (SQLi)** – A code injection technique used to attack data driven applications, in which malicious SQL statements are inserted into an entry point.
-- **Static Verification** – The use of automated tools that use vulnerability signatures to find problems in application source code.
-- **Target of Verification (TOV)** – If you are performing application security verification according to the OWASP ASVS requirements, the verification will be of a particular application. This application is called the "Target of Verification" or simply the TOV.
 - **Threat Modeling** - A technique consisting of developing increasingly refined security architectures to identify threat agents, security zones, security controls, and important technical and business assets.
 - **Transport Layer Security** – Cryptographic protocols that provide communication security over the Internet
 - **URI/URL/URL fragments** – A Uniform Resource Identifier is a string of characters used to identify a name or a web resource. A Uniform Resource Locator is often used as a reference to a resource.
 - **User acceptance testing (UAT)**– Traditionally a test environment that behaves like the production environment where all software testing is performed before going live.
 - **Verifier** - The person or team that is reviewing an application against the OWASP ASVS requirements.
 - **Whitelist** – A list of permitted data or operations, for example a list of characters that are allowed to perform input validation.
-- **XML** – A markup language that defines a set of rules for encoding documents.
