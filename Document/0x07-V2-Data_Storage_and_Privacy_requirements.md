@@ -10,7 +10,7 @@ Handling of sensitive data is a central topic in mobile security. First of all, 
 
 | # | Description | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
-| **2.1** | Verify that secure credential storage factilites are used to store sensitive data, such as user credentials or cryptographic keys. | ✓ | ✓ | ✓ | ✓ |
+| **2.1** | Verify that secure credential storage facilities are used to store sensitive data, such as user credentials or cryptographic keys. | ✓ | ✓ | ✓ | ✓ |
 | **2.2** | Verify that no sensitive data is written to log files. | ✓ | ✓ | ✓ | ✓ |
 | **2.3** | Verify that no sensitive data is synced to cloud storage in plaintext. | ✓ | ✓ | ✓ | ✓ |
 | **2.4** | Verify that no sensitive data is sent to third parties. | ✓ | ✓ | ✓ | ✓ |
