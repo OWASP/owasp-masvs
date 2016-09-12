@@ -1,4 +1,4 @@
-# V7: Secure coding requirements
+# V7: Code quality and build setting requirements
 
 ## Control objective
 
