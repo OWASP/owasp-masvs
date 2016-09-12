@@ -21,7 +21,7 @@ Handling of sensitive data is a central topic in mobile security. First of all, 
 | **2.9** | Verify that sensitive data does not leak via application snapshots (iOS). |  | ✓ | ✓ | ✓ |
 | **2.10** | Verify that sensitive data does not leak via the task switcher (Android). | ✓ | ✓ | ✓ | ✓ |
 | **2.11** | Verify that data backup via ADB is disabled (Android). | ✓ | ✓ | ✓ | ✓ |
-| **2.12** | Verify that the app does not hold sensitive data in memory longer than necessary (e.g. during the login process). |   | ✓ | ✓ | ✓ |
+| **2.12** | Verify that the app does not hold sensitive data in memory longer than necessary (e.g. during the login process). | ✓ | ✓ | ✓ | ✓ |
 | **2.13** | Verify that sensitive data is explicitly cleared from memory after use. |   | ✓ | ✓ | ✓ |
 | **2.14** | If a remote locking mechansim exists, ensure that local storage is wiped upon locking. |  | ✓ | ✓ | ✓ |
 
