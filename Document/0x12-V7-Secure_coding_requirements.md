@@ -8,7 +8,6 @@ todo
 
 | # | Description | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
-
 | **7.1** | Verify that the application catches and handles possible exceptions.| ✓ | ✓ | ✓ | ✓ |
 | **7.2** | Verify that all debugging code is removed from the release build, and that the app does log detailed error messages. | ✓ | ✓ | ✓ | ✓ |
 | **7.3** | Verify that error handling logic in security controls denies access by default. | ✓ | ✓ | ✓ | ✓ |
