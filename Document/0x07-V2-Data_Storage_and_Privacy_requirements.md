@@ -18,7 +18,7 @@ Handling of sensitive data is a central topic in mobile security. First of all, 
 | **2.6** | Verify that the clipboard is deactivated on text fields that may contain sensitive data. | ✓ | ✓ | ✓ | ✓ |
 | **2.7** | Verify that sensitive data is obscured in the user interface | ✓ | ✓ | ✓ | ✓ |
 | **2.8** | Verify that no sensitive data is exposed via IPC facilities. | ✓ | ✓ | ✓ | ✓ |
-| **2.9** | Verify that sensitive data does not leak via application snapshots (iOS). |  | ✓ | ✓ | ✓ |
+| **2.9** | Verify that sensitive data does not leak via application snapshots (iOS). | ✓ | ✓ | ✓ | ✓ |
 | **2.10** | Verify that sensitive data does not leak via the task switcher (Android). | ✓ | ✓ | ✓ | ✓ |
 | **2.11** | Verify that data backup via ADB is disabled (Android). | ✓ | ✓ | ✓ | ✓ |
 | **2.12** | Verify that the app does not hold sensitive data in memory longer than necessary (e.g. during the login process). | ✓ | ✓ | ✓ | ✓ |
