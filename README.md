@@ -10,23 +10,25 @@ This is the official Github Repository of the OWASP Mobile Application Security 
 
 The MASVS is an open source effort and we welcome contributions and feedback. Please follow the processes below.
 
-## Suggestions and feedback
+## Committing changes
 
-To report and error or suggest an improvement, please create an [issue](issues).
+When working on the MASVS, please commit your changes to a new branch, and create a pull request when you are finished. We'll review the changes before merge them with the master branch. 
 
-## Authoring and Review
+**Changes committed directly to master will be reverted.**
 
-If you want to write or review content, please contact us on the OWASP MSTG channel on slack:
+## Becoming an author
+
+If you want to become a collaborator, please contact us on the OWASP MSTG channel on slack:
 
 https://owasp.slack.com/messages/project-mobile_omtg/details/
- 
+
 You can sign up here:
  
 http://owasp.herokuapp.com/
 
-## Committing changes
+## Suggestions and feedback
 
-When working on the MASVS, please commit your changes to a new branch, and create a pull request when you are finished. We'll review the changes before merge them with the master branch. **All changes committed directly to master will be reverted.**
+To report and error or suggest an improvement, please create an [issue](https://github.com/b-mueller/owasp-masvs/issues).
 
 # Read Individual Sections of the MASVS Here
 
@@ -47,5 +49,3 @@ When working on the MASVS, please commit your changes to a new branch, and creat
 * [Appendix A: Glossary](Document/0x90-Appendix-A_Glossary.md)
 * [Appendix B: References](Document/0x91-Appendix-B_References.md)
 * [Appendix C: Standards Mappings](Document/0x92-Appendix-C_Standards_Mappings.md)
-
-
