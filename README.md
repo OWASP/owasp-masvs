@@ -1,8 +1,28 @@
 # OWASP MASVS
 
-This is the official Github Repository of the OWASP Mobile Application Security Verification Standard (ASVS).
-It started as a fork of ethicalhack3r's Markdown version of the OWASP ASVS 3.0.
+This is the official Github Repository of the OWASP Mobile Application Security Verification Standard (MASVS). It started as a fork of ethicalhack3r's Markdown version of the OWASP ASVS 3.0. The MASVS can be used to establish a level of confidence in the security of mobile apps. The MASVS is intended to be used in the following ways:
 
+- Use as a metric - To provide application developers and application owners with a framework wich allows to measure the security, and thus the degree of trust that can be placed in their mobile applications.
+- Use as guidance - To provide guidance in regards to security controls necessary to implement in order to satisfy application security requirements
+- Use during procurement - Provide a baseline for mobile app security verification requirements.
+
+# How to Contribute
+
+The MASVS is an open source effort and we welcome contributions and feedback. Please follow the processes below.
+
+## Suggestions and feedback
+
+To report and error or suggest an improvement, please create an [issue](issues).
+
+## Authoring and Review
+
+If you want to write or review content, please contact us on the OWASP MSTG channel on slack:
+
+https://owasp.slack.com/messages/project-mobile_omtg/details/
+ 
+You can sign up here:
+ 
+http://owasp.herokuapp.com/
 
 # Read Individual Sections of the MASVS Here
 
