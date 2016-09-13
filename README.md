@@ -12,7 +12,7 @@ The MASVS is an open source effort and we welcome contributions and feedback. Pl
 
 ## Suggestions and feedback
 
-To report and error or suggest an improvement, please create an [issue](/issues).
+To report and error or suggest an improvement, please create an [issue](issues).
 
 ## Authoring and Review
 
