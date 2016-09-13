@@ -12,7 +12,7 @@ To report and error or suggest an improvement, please create an [issue](https://
 
 # How to Contribute
 
-The MASVS is an open source effort and we welcome contributions and feedback. If you want to contribute additional content, or improve exsting content, we suggest that you first contact us on on the OWASP MSTG Slack channel:
+The MASVS is an open source effort and we welcome contributions and feedback. If you want to contribute additional content, or improve exsting content, we suggest that you first contact us on the OWASP MSTG Slack channel:
 
 https://owasp.slack.com/messages/project-mobile_omtg/details/
 
