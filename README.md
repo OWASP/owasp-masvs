@@ -6,19 +6,13 @@ This is the official Github Repository of the OWASP Mobile Application Security 
 - Use as guidance - To provide guidance in regards to security controls necessary to implement in order to satisfy application security requirements
 - Use during procurement - Provide a baseline for mobile app security verification requirements.
 
+## Suggestions and feedback
+
+To report and error or suggest an improvement, please create an [issue](https://github.com/b-mueller/owasp-masvs/issues).
+
 # How to Contribute
 
-The MASVS is an open source effort and we welcome contributions and feedback. Please follow the processes below.
-
-## Committing changes
-
-When working on the MASVS, please commit your changes to a new branch, and create a pull request when you are finished. We'll review the changes before merge them with the master branch. 
-
-**Changes committed directly to master will be reverted.**
-
-## Becoming an author
-
-If you want to become a collaborator, please contact us on the OWASP MSTG channel on slack:
+The MASVS is an open source effort and we welcome contributions and feedback. If you want to contribute additional content, or improve exsting content, we suggest that you first contact us on on the OWASP MSTG Slack channel:
 
 https://owasp.slack.com/messages/project-mobile_omtg/details/
 
@@ -26,9 +20,7 @@ You can sign up here:
  
 http://owasp.herokuapp.com/
 
-## Suggestions and feedback
-
-To report and error or suggest an improvement, please create an [issue](https://github.com/b-mueller/owasp-masvs/issues).
+To add or edit content, simply fork the repository and make your changes, then create a pull request when you are finished. We'll review the changes before we merge them with the master branch in the main repo. In case there's conflicting opinions, we'll create an issue for discussing the changes.
 
 # Read Individual Sections of the MASVS Here
 
