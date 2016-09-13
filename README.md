@@ -24,6 +24,10 @@ You can sign up here:
  
 http://owasp.herokuapp.com/
 
+## Committing changes
+
+When working on the MASVS, please commit your changes to a new branch, and create a pull request when you are finished. We'll review the changes before merge them with the master branch. **All changes committed directly to master will be reverted.**
+
 # Read Individual Sections of the MASVS Here
 
 * [Header](Document/0x00-Header.md)
