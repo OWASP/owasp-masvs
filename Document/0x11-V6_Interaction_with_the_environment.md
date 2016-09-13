@@ -9,10 +9,14 @@
 | # | Description | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
 | **3.1** | Verify that that the app does not request any unnecessary permissions. | ✓ | ✓ | ✓ | ✓ |
-| **3.2** | Verify that all inputs from external sources is validated. This includes data reveived via the GUI, IPC, and network communication.| ✓ | ✓ | ✓ | ✓ |
-| **3.3** | If the app installs custom URL schemes, make sure that the URLs are processed securely.  | ✓ | ✓ | ✓ | ✓ |
-| **3.4** | Verify that web views used by the app are securely configured. | ✓ | ✓ | ✓ | ✓ |
-| **3.5** | (...) todo (...) | ✓ | ✓ | ✓ | ✓ |
+| **3.2** | Verify that all inputs from external sources is validated. This includes data reveived via the GUI, IPC mechanisms such as intents, custom URLs, and network communication.| ✓ | ✓ | ✓ | ✓ |
+| **3.3** | Verify that the app does not export sensitive functionality via custom URL schemes. | ✓ | ✓ | ✓ | ✓ |
+| **3.4** | Verify that the app does not export sensitive activities through intent filters (Android). | ✓ | ✓ | ✓ | ✓ |
+| **3.5** | Verify that Javascript is disabled in all WebViews unless explicitly required. | ✓ | ✓ | ✓ | ✓ |
+| **3.6** | Verify that file access is disabled in all WebViews unless explicitly required. | ✓ | ✓ | ✓ | ✓ |
+| **3.7** | If Javascript is required in a WebView, ensure that the WebView is restricted to a specific URL, and that no unfiltered user input is rendered in the WebView. | ✓ | ✓ | ✓ | ✓ |
+| **3.8** | Verify that the app updates the Security Provider if needed (Android)|   | ✓ | ✓ | ✓ |
+| **3.9** | Verify that the app provides a custom keyboard whenever sensitive data is entered. |   |   | ✓ | ✓ |
 
 ## References
 
