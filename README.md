@@ -8,12 +8,21 @@ This is the official Github Repository of the OWASP Mobile Application Security 
 
 # How to Contribute
 
+The MASVS is an open source effort and we welcome contributions and feedback. Please follow the processes below.
+
 ## Suggestions and feedback
 
 To report and error or suggest an improvement, please create an [issue](/issues).
 
+## Authoring and Review
 
+If you want to write or review content, please contact us on the OWASP MSTG channel on slack:
 
+https://owasp.slack.com/messages/project-mobile_omtg/details/
+ 
+You can sign up here:
+ 
+http://owasp.herokuapp.com/
 
 # Read Individual Sections of the MASVS Here
 
