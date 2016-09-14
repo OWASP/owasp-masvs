@@ -23,7 +23,8 @@ Handling of sensitive data is a central topic in mobile security. First of all, 
 | **2.11** | Verify that sensitive data, such as passwords and credit card numbers, are masked in the user interface. | ✓ | ✓ | ✓ | ✓ |
 | **2.12** | Verify that data backup via ADB is disabled (Android). |   | ✓ | ✓ | ✓ |
 | **2.13** | Verify that the app does not hold sensitive data in memory longer than necessary (e.g. during the login process), and that the memory is cleared explicitly after use. |  | ✓ | ✓ | ✓ |
-| **2.14** | If a remote locking mechansim exists, ensure that local storage is wiped upon locking. |  | ✓ | ✓ | ✓ |
+| **2.14** | Verify that sensitive data is encrypted when storing it locally, by using standard encryption APIs or libraries like SQLCipher. |  | ✓ | ✓ | ✓ |
+| **2.15** | If a remote locking mechansim exists, ensure that local storage is wiped upon locking. |  |  | ✓ | ✓ |
 
 ## References
 
