@@ -8,7 +8,7 @@ This is the official Github Repository of the OWASP Mobile Application Security 
 
 ## Suggestions and feedback
 
-To report and error or suggest an improvement, please create an [issue](https://github.com/b-mueller/owasp-masvs/issues).
+To report and error or suggest an improvement, please create an [issue](https://github.com/OWASP/owasp-masvs/issues).
 
 # How to Contribute
 
