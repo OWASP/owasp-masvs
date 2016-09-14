@@ -2,17 +2,7 @@
 
 The following OWASP projects are most likely to be useful to users/adopters of this standard:
 
-- OWASP Testing Guide
- [https://www.owasp.org/index.php/OWASP\_Testing\_Project](https://www.owasp.org/index.php/OWASP_Testing_Project)
-- OWASP Code Review Guide
- [http://www.owasp.org/index.php/Category:OWASP\_Code\_Review\_Project](http://www.owasp.org/index.php/Category:OWASP_Code_Review_Project)
-- OWASP Cheat Sheets
- [https://www.owasp.org/index.php/OWASP\_Cheat\_Sheet\_Series](https://www.owasp.org/index.php/OWASP_Cheat_Sheet_Series)
-- OWASP Proactive Controls
- [https://www.owasp.org/index.php/OWASP\_Proactive\_Controls](https://www.owasp.org/index.php/OWASP_Proactive_Controls)
-- OWASP Top 10
- [https://www.owasp.org/index.php/Top\_10\_2013-Top\_10](https://www.owasp.org/index.php/Top_10_2013-Top_10)
-- OWASP Mobile Top 10
+(...) TODO (...)
  [https://www.owasp.org/index.php/Projects/OWASP\_Mobile\_Security\_Project\_-\_Top\_Ten\_Mobile\_Risks](https://www.owasp.org/index.php/Projects/OWASP_Mobile_Security_Project_-_Top_Ten_Mobile_Risks)
 
 Similarly, the following web sites are most likely to be useful to users/adopters of this standard:
