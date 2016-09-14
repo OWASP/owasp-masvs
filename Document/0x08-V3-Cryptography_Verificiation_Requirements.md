@@ -2,11 +2,13 @@
 
 ## Control objective
 
-Ensure that a verified application uses cryptography according to industry best practices.
+Cryptography is an essential ingredient for protecting the user's data. It is also category where things can go horribly wrong, especially when standard conventions are not followed. The purpose of the following controls is to ensure that the verified application uses cryptography according to industry best practices, including:
 
-- All cryptographic modules fail in a secure manner and errors are handled correctly.
-- A suitable random number generator is used when randomness is required.
-- Access to keys is managed in a secure way.
+- Use of proven cryptographic libraries;
+- Proper choice and configuration of cryptographic primitives;
+- Handling of errors, so that cryptographic modules fail in a secure manner;
+- Suitable random number generator wherever randomness is required;
+- Access management for cryptographic keys.
 
 ## Requirements
 
@@ -28,5 +30,4 @@ Ensure that a verified application uses cryptography according to industry best 
 
 For more information, please see:
 
-- OWASP Mobile Testing Guide 1.0: Testing for Weak Implementations of Cryptography
-(Link)
+(Link to appropriate chapter in the OMTG and other resources).
