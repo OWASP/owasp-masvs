@@ -14,6 +14,7 @@
 | **4.4** | Verify that sessions are terminated at the remote end after a predefined period of inactivity. | ✓ | ✓ | ✓ | ✓ |
 | **4.5** | Verify that the remote service blocks login attempts in response to an excessive number of unsuccessful attempts. | ✓ | ✓ | ✓ | ✓ |
 | **4.6** | Verify that a second factor of authentication exists at the remote endpoint, and that the 2FA requirement is enforced at the remote end.  |   | ✓ | ✓ | ✓ |
+| **4.7** | Verify that local biometric mechanisms, like fingerprint authentication are implemented accordingly to best practices and that it is not used as the only authentication control for critical functionalities.  |   | ✓ | ✓ | ✓ |
 
 ## References
 
