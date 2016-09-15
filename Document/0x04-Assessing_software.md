@@ -1,4 +1,4 @@
-# About Verification and Certifiation
+# Assessment and Certification
 
 ## OWASP's stance on MASVS Certifications and Trust Marks
 
