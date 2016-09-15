@@ -22,11 +22,11 @@ Level 2 introduces advanced security controls that go beyond the standard requir
 
 ### MASVS Level 3 - Defense-in-Depth and Resiliency
 
-In addition to state-of-the-art security and defense-in-depth, level 3 defines mechanisms that increase the cost of reverse engineering the application. It can be applied to add an additional layer of protection for applications that process sensitive data. Vendors may also opt to implement these requirements as a means of IP protection.
+In addition to state-of-the-art security and defense-in-depth, level 3 defines mechanisms that increase the cost of reverse engineering the application. It can be applied to add an additional layer of protection for applications that process sensitive data. Vendors may also opt to fulfill these requirements as a means of protecting intellectual property.
 
 ### MASVS Level 4 - Defense-in-Depth and Strong Resiliency
 
-An application that achieves MASVS level 4 has both state-of-the-art security controls and software protection. Such an application is highly resilient against attacks and reverse engineering attempts. Level 4 is meant to be applied to applications that handle highly sensitive data. In addition, it can be used as a means of IP protection.
+An application that achieves MASVS level 4 has both state-of-the-art security controls and software protection. Such an application is highly resilient against attacks and reverse engineering attempts. Level 4 is meant to be applied to applications that handle highly sensitive data. Vendors may also opt to fulfill these requirements as a means of protecting intellectual property.
 
 ## How to use this standard
 
