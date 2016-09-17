@@ -2,7 +2,7 @@
 
 ## Control objective
 
-(... todo ...)
+The controls in group this ensure that the app uses operation system APIs and standard components in a secure manner. Additionally, the controls cover communication between apps (IPC).
 
 ## Requirements
 
@@ -20,7 +20,9 @@
 
 ## References
 
+https://developer.android.com/training/articles/security-tips.html#IPC
+https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html
+
 For more information, please see:
 
-- OWASP Mobile Testing Guide 1.0: Testing for Weak Interaction with the Environment
-(Link)
+(...) TODO - Link to MSTG (...)
