@@ -15,8 +15,9 @@
 | **3.5** | Verify that Javascript is disabled in all WebViews unless explicitly required. | ✓ | ✓ | ✓ | ✓ |
 | **3.6** | Verify that file access is disabled in all WebViews unless explicitly required. | ✓ | ✓ | ✓ | ✓ |
 | **3.7** | If Javascript is required in a WebView, ensure that the WebView is restricted to a specific URL, and that no unfiltered user input is rendered in the WebView. | ✓ | ✓ | ✓ | ✓ |
-| **3.8** | Verify that the app updates the Security Provider if needed (Android)|   | ✓ | ✓ | ✓ |
-| **3.9** | Verify that the app provides a custom keyboard whenever sensitive data is entered. |   |   | ✓ | ✓ |
+| **3.8** | Verify that JavaScriptInterface is not used, unless explicitly required (Android). | ✓ | ✓ | ✓ | ✓ |
+| **3.9** | Verify that the app updates the Security Provider if needed (Android)|   | ✓ | ✓ | ✓ |
+| **3.10** | Verify that the app provides a custom keyboard whenever sensitive data is entered. |   |   | ✓ | ✓ |
 
 ## References
 
@@ -24,3 +25,4 @@ For more information, please see:
 
 - OWASP Mobile Testing Guide 1.0: Testing for Weak Interaction with the Environment
 (Link)
+- JavaScriptInterface (Android): https://developer.android.com/reference/android/webkit/JavascriptInterface.html
