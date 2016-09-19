@@ -26,6 +26,7 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 | **3.10** | Verify that random numbers are created with proper entropy even when the application is under heavy load, or that the application degrades gracefully in such circumstances. |   |   | ✓ | ✓ |
 | **3.11** | Verify that consumers of cryptographic services do not have direct access to key material. Isolate cryptographic processes, including master secrets through the use of strong software protections or a hardware key vault (HSM). |   |   |   | ✓ |
 
+
 ## References
 
 For more information, please see:
