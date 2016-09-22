@@ -15,13 +15,16 @@ The controls in group this ensure that the app uses operation system APIs and st
 | **3.5** | Verify that Javascript is disabled in all WebViews unless explicitly required. | ✓ | ✓ | ✓ | ✓ |
 | **3.6** | Verify that file access is disabled in all WebViews unless explicitly required. | ✓ | ✓ | ✓ | ✓ |
 | **3.7** | If Javascript is required in a WebView, ensure that the WebView is restricted to a specific URL, and that no unfiltered user input is rendered in the WebView. | ✓ | ✓ | ✓ | ✓ |
-| **3.8** | Verify that the app updates the Security Provider if needed (Android)|   | ✓ | ✓ | ✓ |
-| **3.9** | Verify that the app provides a custom keyboard whenever sensitive data is entered. |   |   | ✓ | ✓ |
+| **3.8** | When implementing addJavaScriptInterface ensure that it is only exposed to JavaScript contained within your APK. (Android). | ✓ | ✓ | ✓ | ✓ |
+| **3.9** | Verify that the app updates the Security Provider if needed (Android)|   | ✓ | ✓ | ✓ |
+| **3.10** | Verify that the app provides a custom keyboard whenever sensitive data is entered. |   |   | ✓ | ✓ |
+
 
 ## References
 
 https://developer.android.com/training/articles/security-tips.html#IPC
 https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html
+JavaScriptInterface (Android): https://developer.android.com/reference/android/webkit/JavascriptInterface.html
 
 For more information, please see:
 
