@@ -23,10 +23,11 @@ Fortunately, the vast majority of data disclosure issues can be prevented by fol
 | **2.11** | Verify that data backup via ADB is disabled (Android). | ✓ | ✓ | ✓ | ✓ |
 | **2.12** | Verify that the app does not hold sensitive data in memory longer than necessary (e.g. during the login process), and that the memory is cleared explicitly after use. |  | ✓ | ✓ | ✓ |
 | **2.13** | If a remote locking mechansim exists, ensure that local storage is wiped upon locking. |  |  | ✓ | ✓ |
+| **2.14** | If the Android keystore is used in Android 6 or higher, ensure that the Android patch level is properly updated. |  |  | | ✓ |
+
 
 ## References
 
 For more information, please see:
 
 -- TODO --
-
