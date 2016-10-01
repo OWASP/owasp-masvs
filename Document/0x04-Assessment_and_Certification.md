@@ -30,6 +30,10 @@ One of the more common uses for the Mobile Application Security Verification Sta
 
 Many organizations can benefit from adopting the MASVS, by choosing one of the four levels, or by forking MASVS and changing what is required for each application risk level in a domain-specific way. We encourage this type of forking as long as traceability is maintained, so that if an app has passed requirement 4.1, this means the same thing for forked copies as the standard evolves.
 
+### As a basis for security testing methodologies
+
+A good mobile app security testing methodology should cover all requirements listed in the MASVS. The OWASP Mobile Security Testing Guide (MSTG) describes black-box and white-box test cases for each verification requirement.
+
 ### As a guide for automated unit and integration tests
 
 The MASVS is designed to highly testable, with the sole exception of architectural requirements. By building unit and integration tests that test for specific requirements, the mobile app becomes nearly self-verifying with each and every build. For example, additional tests can be crafted for the test suite for (...) todo (...).
