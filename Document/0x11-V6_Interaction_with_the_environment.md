@@ -2,7 +2,7 @@
 
 ## Control objective
 
-(... todo ...)
+The controls in group this ensure that the app uses operation system APIs and standard components in a secure manner. Additionally, the controls cover communication between apps (IPC).
 
 ## Requirements
 
@@ -15,12 +15,17 @@
 | **3.5** | Verify that Javascript is disabled in all WebViews unless explicitly required. | ✓ | ✓ | ✓ | ✓ |
 | **3.6** | Verify that file access is disabled in all WebViews unless explicitly required. | ✓ | ✓ | ✓ | ✓ |
 | **3.7** | If Javascript is required in a WebView, ensure that the WebView is restricted to a specific URL, and that no unfiltered user input is rendered in the WebView. | ✓ | ✓ | ✓ | ✓ |
-| **3.8** | Verify that the app updates the Security Provider if needed (Android)|   | ✓ | ✓ | ✓ |
-| **3.9** | Verify that the app provides a custom keyboard whenever sensitive data is entered. |   |   | ✓ | ✓ |
+| **3.8** | Verify that the app provides a custom keyboard whenever sensitive data is entered. |   |   | ✓ | ✓ |
+| **3.9** | Verify that custom ui-components are used when sensitive data is displayed. The UI-component should not rely on immutable data structures. |   |   | ✓ | ✓ |
+| **3.10** | If Java objects are exposed in a WebView, verify that the WebView only renders JavaScript contained within the APK (Android). | ✓ | ✓ | ✓ | ✓ |
+| **3.11** | Verify that the app updates the Security Provider if needed (Android). |   | ✓ | ✓ | ✓ |
 
 ## References
 
+https://developer.android.com/training/articles/security-tips.html#IPC
+https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html
+https://developer.android.com/reference/android/webkit/JavascriptInterface.html
+
 For more information, please see:
 
-- OWASP Mobile Testing Guide 1.0: Testing for Weak Interaction with the Environment
-(Link)
+(...) TODO - Link to MSTG (...)

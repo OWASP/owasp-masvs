@@ -8,11 +8,11 @@ This is the official Github Repository of the OWASP Mobile Application Security 
 
 ## Suggestions and feedback
 
-To report and error or suggest an improvement, please create an [issue](https://github.com/b-mueller/owasp-masvs/issues).
+To report and error or suggest an improvement, please create an [issue](https://github.com/OWASP/owasp-masvs/issues).
 
 # How to Contribute
 
-The MASVS is an open source effort and we welcome contributions and feedback. If you want to contribute additional content, or improve exsting content, we suggest that you first contact us on the OWASP MSTG Slack channel:
+The MASVS is an open source effort and we welcome contributions and feedback. If you want to contribute additional content, or improve existing content, we suggest that you first contact us on the OWASP MSTG Slack channel:
 
 https://owasp.slack.com/messages/project-mobile_omtg/details/
 
@@ -28,7 +28,7 @@ To add or edit content, simply fork the repository and make your changes, then c
 * [Acknowledgements](Document/0x01-Acknowledgements.md)
 * [Preface](Document/0x02-Preface.md)
 * [Using the Mobile Application Security Verification Standard](Document/0x03-Using_the_MASVS.md)
-* [Assessing Software](Document/0x04-Assessing_software.md)
+* [Assessment and Verification](Document/0x04-Assessment_and_Verification.md)
 * [Detailed Verification Requirements](Document/0x05-Detailed_Verification_Requirements.md)
 * [V1: Architecture, Design and Threat Modelling Requirements](Document/0x06-V1-Architecture_design_and_threat_modelling_requireme.md)
 * [V2: Data Storage and Privacy Requirements](Document/0x07-V2-Data_Storage_and_Privacy_requirements.md)
