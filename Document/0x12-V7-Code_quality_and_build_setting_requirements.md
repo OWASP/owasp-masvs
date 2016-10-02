@@ -15,7 +15,7 @@ The goal of this control is to ensure that basic security coding practices are f
 | **7.5** | If the app contains unmanaged code, verify that memory is allocated, freed and used securely.  | ✓ | ✓ | ✓ | ✓ |
 | **7.6** | Verify that the app is marked as a release build. | ✓ | ✓ | ✓ | ✓ |
 | **7.7** | Verify that security features offered by the compiler, such as stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ | ✓ | ✓ |
-| **7.8** | Verify that quality is reassured using either a peer-to-peer review system, or a set of quality tools such as Checkstyle, findbugs, pmd, etc. | ✓ | ✓ | ✓ | ✓ |
+| **7.8** | Verify that static and dynamic application security testing are performed as part of the development lifecycle, and that the configuration of the SAST and DAST tools is tailored to the app. |   | ✓ | ✓ | ✓ |
 
 ## References
 
