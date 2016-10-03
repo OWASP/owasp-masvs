@@ -14,7 +14,7 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 
 | # | Description | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
-| **3.1** | Verify that that the application does not use any hardcoded cryptographic keys as a sole method of encryption.| ✓ | ✓ | ✓ | ✓ |
+| **3.1** | Verify that that the application does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption.| ✓ | ✓ | ✓ | ✓ |
 | **3.2** | Verify that the cryptographic primitives used adhere to industry standards. Algorithms that are widely considered weak should not be used.| ✓ | ✓ | ✓ | ✓ |
 | **3.3** | Verify that cryptographic modules operate using parameters that are considered secure (e.g. mode, key length). | ✓ | ✓| ✓ | ✓ |
 | **3.4** | If proprietary cryptographic algorithms are used, verify the security of these algorithms. Note that proven standard algorithms are recommended over self-written ones, except when concealing the algorithm is a design goal. | ✓ | ✓ | ✓ | ✓ |
