@@ -22,7 +22,7 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 | **3.6** | Verify that all random numbers, random file names, random GUIDs, and random strings are generated using a secure random number generator. |   | ✓ | ✓ | ✓ |
 | **3.7** | Verify that all keys and passwords are changeable, and are generated or replaced at installation time. |   | ✓ | ✓ | ✓ |
 | **3.8** | Verify that there is an explicit policy for how cryptographic keys are managed (e.g. generated, distributed, revoked, and expired). Verify that this key lifecycle is properly enforced. |   | ✓ | ✓ | ✓ |
-| **3.9** | Verify that random numbers are created with proper entropy even when the application is under heavy load, or that the application degrades gracefully in such circumstances. |   |   | ✓ | ✓ |
+| **3.9** | Verify that random numbers are created with proper entropy during the application lifecycle. |   |   | ✓ | ✓ |
 | **3.10** | Verify that consumers of cryptographic services do not have direct access to key material. Isolate cryptographic processes, including master secrets through the use of strong software protections or a hardware key vault (HSM). |   |   |   | ✓ |
 | **3.11** | Verify that cryptographic controls do not keep any reference to a key in memory (e.g. bouncy castle's working key). |   |   | ✓ | ✓ |
 
