@@ -16,7 +16,7 @@ This chapter covers defense-in-depth measures that are recommended for apps that
 | **9.6** | Verify that the app either prevents, or detects and responds to, the presence of debuggers using at least two additional, functionally different methods that don't rely on library calls or well-known high-level APIs. |   |   | ✓ | ✓ |
 | **9.7** | Verify that the app detects and responds to file tampering. |   |   | ✓ | ✓ |
 | **9.8** | Verify that the app detects the presence of common reverse engineering tools, such as hooking frameworks and debugging servers. |   |   | ✓ | ✓ |
-| **9.9** | Verify that the app detects whether it is run inside an emulator using any method, and terminates when an emulator is detected.  |   |   | ✓ | ✓ |
+| **9.9** | Verify that the app detects whether it is run inside an emulator/simulator using any method, and terminates when an emulator is detected.  |   |   | ✓ | ✓ |
 | **9.10** | Verify that that the app implements multiple different responses to tampering, debugging and emulation, including stealthy responses that don't simply terminate the app. |   |   | ✓ | ✓ |
 | **9.11** | Verify that all executable files and libraries belonging to the app are either encrypted on the file level and/or code and data segments inside the executables are encrypted or packed. Trivial static analysis should not reveal important code or data. |   |   | ✓ | ✓ |
 | **9.12**| Verify that the application implements a 'device binding' functionality when a mobile device is treated as being trusted. Verify that the device fingerprint is derived from multiple device properties, without violating the rules provided by Apple and Google  |   |   | ✓ | ✓ |
@@ -24,7 +24,7 @@ This chapter covers defense-in-depth measures that are recommended for apps that
 | **9.14** | Verify that obfuscating transformations and reactive defenses are interdependent and well-integrated throughout the app.  |   |   | ✓ | ✓ |
 | **9.15** | Verify that the app uses at least two additional, functionally different checks to detect whether it is running in an emulator, and responds appropriately when an emulator is detected.|   |   |   | ✓ |
 | **9.16** | Verify that sensitive computations are obfuscated, and that the obfuscating transformations significantly increase the algorithmic complexity of the relevant code and/or data. |   |   |   | ✓ |
-| **9.17** | Verify on Android that only legitimate sources are used for installation | 
+| **9.17** | Verify that only legitimat sources have been used for installation | 
 
 ## References
 
