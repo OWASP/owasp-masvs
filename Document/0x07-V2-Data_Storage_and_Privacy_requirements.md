@@ -16,12 +16,12 @@ Fortunately, the vast majority of data disclosure issues can be prevented by fol
 | **2.4** | Verify that no sensitive data is sent to third parties. | ✓ | ✓ | ✓ | ✓ |
 | **2.5** | Verify that the keyboard cache is disabled on text inputs that process sensitive data. | ✓ | ✓ | ✓ | ✓ |
 | **2.6** | Verify that the clipboard is deactivated on text fields that may contain sensitive data. | ✓ | ✓ | ✓ | ✓ |
-| **2.7** | Verify that sensitive data does not leak via automatic snapshots features. | ✓ | ✓ | ✓ | ✓ |
-| **2.8** | Verify that no sensitive data is exposed via IPC mechanisms. | ✓ | ✓ | ✓ | ✓ |
-| **2.10** | Verify that sensitive data, such as passwords and credit card numbers, are masked in the user interface. | ✓ | ✓ | ✓ | ✓ |
-| **2.11** | Verify that sensitive data does not leak to backups. | ✓ | ✓ | ✓ | ✓ |
-| **2.12** | Verify that the app does not hold sensitive data in memory longer than necessary, and that the memory is cleared explicitly after use. |  | ✓ | ✓ | ✓ |
-| **2.13** | If a remote locking mechansim exists, ensure that local storage is wiped upon locking. |  |  | ✓ | ✓ |
+| **2.7** | Verify that no sensitive data is exposed via IPC mechanisms. | ✓ | ✓ | ✓ | ✓ |
+| **2.8** | Verify that sensitive data, such as passwords and credit card numbers, is not exposed through the user interface, and does not leak to screenshots. | ✓ | ✓ | ✓ | ✓ |
+| **2.9** | Verify that sensitive data does not leak to backups. | ✓ | ✓ | ✓ | ✓ |
+| **2.10** | Verify that the app does not hold sensitive data in memory longer than necessary, and that the memory is cleared explicitly after use. |  | ✓ | ✓ | ✓ |
+| **2.11** | Verify that the app only runs on operating system versions that offer a hardware-backed keystore, and that the device supports the hardware-backed keystore. Alternatively, verify that encryption has been implemented according to the controls in MASVS V5. |  |  | ✓ | ✓ |
+| **2.12** | If a remote locking mechansim exists, ensure that local storage is wiped upon locking. |  |  | ✓ | ✓ |
 
 ## References
 
