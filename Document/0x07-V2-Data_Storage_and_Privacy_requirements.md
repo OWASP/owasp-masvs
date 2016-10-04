@@ -20,7 +20,7 @@ Fortunately, the vast majority of data disclosure issues can be prevented by fol
 | **2.8** | Verify that sensitive data, such as passwords and credit card numbers, is not exposed through the user interface, and does not leak to screenshots. | ✓ | ✓ | ✓ | ✓ |
 | **2.9** | Verify that sensitive data does not leak to backups. | ✓ | ✓ | ✓ | ✓ |
 | **2.10** | Verify that the app does not hold sensitive data in memory longer than necessary, and that the memory is cleared explicitly after use. |  | ✓ | ✓ | ✓ |
-| **2.11** | Verify that the app only runs on operating system versions that offer a hardware-backed keystore, and that the device supports the hardware-backed keystore. Alternatively, verify that encryption has been implemented according to the controls in MASVS V5. |  |  | ✓ | ✓ |
+| **2.11** | Verify that the app only runs on operating system versions that offer a hardware-backed keystore, and that the device supports the hardware-backed keystore. Alternatively, verify that encryption has been implemented according to the controls in MASVS V3. |  |  | ✓ | ✓ |
 | **2.12** | If a remote locking mechansim exists, ensure that local storage is wiped upon locking. |  |  | ✓ | ✓ |
 
 ## References
