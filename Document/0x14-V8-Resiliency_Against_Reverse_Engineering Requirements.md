@@ -16,7 +16,7 @@ This chapter covers defense-in-depth measures that are recommended for apps that
 | **8.6** | Verify that the app either prevents, or detects and responds to, the presence of debuggers using at least two additional, functionally different methods that don't rely on library calls or well-known high-level APIs. |   |   | ✓ | ✓ |
 | **8.7** | Verify that the app detects and responds to file tampering. |   |   | ✓ | ✓ |
 | **8.8** | Verify that the app detects the presence of common reverse engineering tools, such as hooking frameworks and debugging servers. |   |   | ✓ | ✓ |
-| **8.9** | Verify that the app detects whether it is run inside an emulator/simulator using any method, and terminates when an emulator/simulator is detected.  |   |   | ✓ | ✓ |
+| **8.9** | Verify that the app detects whether it is run inside an emulator using any method, and terminates when an emulator is detected.  |   |   | ✓ | ✓ |
 | **8.10** | Verify that that the app implements multiple different responses to tampering, debugging and emulation, including stealthy responses that don't simply terminate the app. |   |   | ✓ | ✓ |
 | **8.11** | Verify that all executable files and libraries belonging to the app are either encrypted on the file level and/or code and data segments inside the executables are encrypted or packed. Trivial static analysis should not reveal important code or data. |   |   | ✓ | ✓ |
 | **8.12**| Verify that the application implements a 'device binding' functionality when a mobile device is treated as being trusted. Verify that the device fingerprint is derived from multiple device properties.  |   |   | ✓ | ✓ |
