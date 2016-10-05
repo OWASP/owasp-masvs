@@ -14,9 +14,8 @@ The purpose of this control is to ensure the confidentiality and integrity of in
 | **5.4** | Verify that the app either uses its own certificate store, or pins the endpoint certificate. |   | ✓  | ✓ | ✓ |
 | **5.5** | Verify that the app doesn't rely on insecure communication channels (e.g email and SMS) for critical operations, such as enrollments and OTPs. |   | ✓ | ✓ | ✓ |
 | **5.6** | Verify that the app pins the endpoint certificate, and subsequently does not establish connections with endpoints that offer a different certificate, even if signed by a trusted CA. |   |   | ✓ | ✓ |
-| **5.7** | Verify that the app uses its own certificate store. Make sure that the CA certificate in the device trust store are ignored. |   |   | ✓ | ✓ |
-| **5.8** | Confirm that the remote endpoint verifies the identity of the app when secure channel is established (PKI mutual authentication). |   |   | ✓ | ✓ |
-| **5.9** | Verify that the app uses additional payload encryption in case of a broken SSL implementation on the device. |   |   |  | ✓ |
+| **5.7** | Confirm that the remote endpoint verifies the identity of the app when secure channel is established (PKI mutual authentication). |   |   | ✓ | ✓ |
+| **5.8** | Verify that the app uses additional payload encryption in case of a broken SSL implementation on the device. |   |   |  | ✓ |
 ## References
 
 SSL Pinning  - https://www.owasp.org/index.php/Certificate_and_Public_Key_Pinning
