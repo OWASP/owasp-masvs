@@ -11,7 +11,7 @@ The controls in group this ensure that the app uses operation system APIs and st
 | **6.1** | Verify that that the app does not request any unnecessary permissions. | ✓ | ✓ | ✓ | ✓ |
 | **6.2** | Verify that all inputs from external sources is validated. This includes data reveived via the GUI, IPC mechanisms such as intents, custom URLs, and network communication.| ✓ | ✓ | ✓ | ✓ |
 | **6.3** | Verify that the app does not export sensitive functionality via custom URL schemes. | ✓ | ✓ | ✓ | ✓ |
-| **6.4** | Verify that the app does not export sensitive activities through intent filters (Android). | ✓ | ✓ | ✓ | ✓ |
+| **6.4** | Verify that the app does not export sensitive functionality through IPC facilities. | ✓ | ✓ | ✓ | ✓ |
 | **6.5** | Verify that Javascript is disabled in all WebViews unless explicitly required. | ✓ | ✓ | ✓ | ✓ |
 | **6.6** | Verify that file access is disabled in all WebViews unless explicitly required. | ✓ | ✓ | ✓ | ✓ |
 | **6.7** | If Javascript is required in a WebView, ensure that the WebView is restricted to a specific URL, and that no unfiltered user input is rendered in the WebView. | ✓ | ✓ | ✓ | ✓ |
