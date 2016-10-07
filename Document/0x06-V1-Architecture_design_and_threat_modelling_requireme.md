@@ -27,4 +27,4 @@ The high level requirements are as follows:
 
 For more information, please see:
 
-[TODO]
+-  OWASP: https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet
