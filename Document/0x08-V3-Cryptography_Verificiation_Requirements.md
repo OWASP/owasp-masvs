@@ -29,5 +29,5 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 
 For more information, please see:
 
-OWASP Mobile Top 10: M5 - Insufficient Cryptography
-CWE: https://cwe.mitre.org/data/definitions/310.html
+- OWASP Mobile Top 10: M5 - Insufficient Cryptography
+- CWE: https://cwe.mitre.org/data/definitions/310.html
