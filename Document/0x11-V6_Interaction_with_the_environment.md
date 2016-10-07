@@ -23,10 +23,8 @@ The controls in group this ensure that the app uses operation system APIs and st
 
 ## References
 
-https://developer.android.com/training/articles/security-tips.html#IPC
-https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html
-https://developer.android.com/reference/android/webkit/JavascriptInterface.html
+For more information, see also:
 
-For more information, please see:
-
-(...) TODO - Link to MSTG (...)
+- OWASP Mobile Top 10:  M1 - Improper Platform Usage
+- CWE: https://cwe.mitre.org/data/definitions/20.html
+- CWE: https://cwe.mitre.org/data/definitions/749.html

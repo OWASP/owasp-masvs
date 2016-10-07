@@ -16,12 +16,11 @@ The purpose of this control is to ensure the confidentiality and integrity of in
 | **5.6** | Verify that the app pins the endpoint certificate, and subsequently does not establish connections with endpoints that offer a different certificate, even if signed by a trusted CA. |   |   | ✓ | ✓ |
 | **5.7** | Confirm that the remote endpoint verifies the identity of the app when secure channel is established (PKI mutual authentication). |   |   | ✓ | ✓ |
 | **5.8** | Verify that the app uses additional payload encryption in case of a broken SSL implementation on the device. |   |   |  | ✓ |
+
 ## References
 
-SSL Pinning  - https://www.owasp.org/index.php/Certificate_and_Public_Key_Pinning
+For more information, see also:
 
-(...) TODO (...)
-
-For more information, please see:
-
-TODO
+- OWASP Mobile Top 10:  M3 - Insecure Communication
+- CWE: https://cwe.mitre.org/data/definitions/319.html
+- CWE: https://cwe.mitre.org/data/definitions/295.html
