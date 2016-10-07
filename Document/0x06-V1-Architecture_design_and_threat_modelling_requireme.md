@@ -25,6 +25,6 @@ The high level requirements are as follows:
 
 ## References
 
-For more information, please see:
+For more information, see also:
 
 -  OWASP: https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet
