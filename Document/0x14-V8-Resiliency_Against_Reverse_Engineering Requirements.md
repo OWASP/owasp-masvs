@@ -24,7 +24,7 @@ This chapter covers defense-in-depth measures that are recommended for apps that
 | **8.14** | Verify that all executable files and libraries belonging to the app are either encrypted on the file level and/or code and data segments inside the executables are encrypted or packed. Trivial static analysis should not reveal important code or data. |   |   | ✓ | ✓ |
 | **8.15** | Verify that obfuscating transformations and reactive defenses are interdependent and well-integrated throughout the app.  |   |   | ✓ | ✓ |
 | **8.16** | Verify that the app uses at least two additional, functionally different checks to detect whether it is running in an emulator, and responds appropriately when an emulator is detected.|   |   |   | ✓ |
-| **8.17** | Verify that sensitive computations are obfuscated, and that the obfuscating transformations significantly increase the algorithmic complexity of the relevant code and/or data. |   |   |   | ✓ |
+| **8.17** | Verify that sensitive computations are obfuscated using advanced methods, and that the obfuscating transformations significantly increase the algorithmic complexity and apparent randomness of the relevant code and/or data. |   |   |   | ✓ |
 
 ## References
 
