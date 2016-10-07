@@ -19,4 +19,10 @@ The goal of this control is to ensure that basic security coding practices are f
 
 ## References
 
-TODO
+For more information, see also:
+
+- OWASP Mobile Top 10:  M7 - Client Code Quality
+- CWE: https://cwe.mitre.org/data/definitions/119.html
+- CWE: https://cwe.mitre.org/data/definitions/89.html
+- CWE: https://cwe.mitre.org/data/definitions/388.html
+- CWE: https://cwe.mitre.org/data/definitions/489.html
