@@ -21,6 +21,7 @@ The high level requirements are as follows:
 | **1.6** | Verify that all security controls (including libraries that call external security services) have a centralized implementation. |   | ✓ | ✓ | ✓ |
 | **1.7** | Verify that all application components are defined in terms of the business functions and/or security functions they provide. |   | ✓ | ✓ | ✓ |
 | **1.8** | Verify that all components that are not part of the application but that the application relies on to operate are defined in terms of the functions, and/or security functions, they provide. |   | ✓ | ✓ | ✓ |
+| **1.9** | If the app uses cryptography, verify that there is an explicit policy for how cryptographic keys are managed (e.g. generated, distributed, revoked, and expired), and verify that the key lifecycle is properly enforced. |   | ✓ | ✓ | ✓ |
 
 ## References
 
