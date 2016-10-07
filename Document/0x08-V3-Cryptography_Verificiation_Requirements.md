@@ -29,4 +29,4 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 
 For more information, please see:
 
-(Link to appropriate chapter in the OMTG and other resources).
+OWASP Mobile Top 10: M5 - Insufficient Cryptography
