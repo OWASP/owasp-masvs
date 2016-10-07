@@ -27,4 +27,5 @@ The high level requirements are as follows:
 
 For more information, see also:
 
--  OWASP: https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet
+- OWASP Mobile Top 10: M10 - Extraneous Functionality
+- OWASP: https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet
