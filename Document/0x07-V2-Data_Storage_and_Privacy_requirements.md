@@ -26,4 +26,8 @@ Fortunately, the vast majority of data disclosure issues can be prevented by fol
 
 ## References
 
+For more information, see also:
+
+- OWASP Mobile Top 10: M2  - Insecure Data Storage
 - CWE: https://cwe.mitre.org/data/definitions/922.html
+

@@ -18,7 +18,9 @@ In most cases, user login to a remote service is an integral part of the overall
 
 ## References
 
-For more information, please see:
+For more information, see also:
 
-(...) TODO (...)
+- OWASP Mobile Top 10: M4 - Insecure Authentication, M6 - Insecure Authorization
+- CWE:  https://cwe.mitre.org/data/definitions/287.html
+
 
