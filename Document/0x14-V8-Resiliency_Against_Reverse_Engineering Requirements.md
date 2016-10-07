@@ -28,4 +28,6 @@ This chapter covers defense-in-depth measures that are recommended for apps that
 
 ## References
 
-... (todo) ...
+For more information, see also:
+
+- OWASP Mobile Top 10: M8 - Code Tampering, M9 - Reverse Engineering
