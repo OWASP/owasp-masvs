@@ -10,23 +10,23 @@ Figure 1 - Uses of MASVS for organizations and tool/service providers
 
 ## Mobile Application Security Verification Levels
 
-The Mobile Application Security Verification Standard defines five security verification levels, with each level increasing in depth.
+The Mobile Application Security Verification Standard defines four security verification levels, with each level increasing in depth. Fulfilling the requirements in L1 results in a solid app that handles sensitive data securely and doesn't suffer from common vulnerabilities. L2 adds additional controls, resulting in an app that is resilient against sophisticated attacks. L3 and L4 add software protections that make an app somehwat (L3) or highly (L4) resilient against reverse engineering. 
 
-### MASVS Level 1 - Standard Security
+### Level 1: Standard Security
 
 An application that achieves MASVS level 1 adheres to mobile application security best practices. It fulfills basic requirements in terms of code quality, handling of sensitive data, and interaction with the mobile environment. A testing process must be in place to verify the security controls. This level is appropriate for all mobile applications.
 
-### MASVS Level 2 - Defense-in-Depth
+### Level 2: Defense-in-Depth
 
 Level 2 introduces advanced security controls that go beyond the standard requirements. To fulfill level 2, a threat model must exist, and security must be considered during the design phase. This level is appropriate for applications that handle sensitive data, such as mobile banking.
 
-### MASVS Level 3 - Defense-in-Depth and Resiliency
+### Level 3: Defense-in-Depth and Resiliency
 
 In addition to state-of-the-art security and defense-in-depth, level 3 defines mechanisms that increase the cost of reverse engineering the application. It can be applied to add an additional layer of protection for applications that process sensitive data. Vendors may also opt to fulfill these requirements as a means of protecting intellectual property.
 
-### MASVS Level 4 - Defense-in-Depth and Strong Resiliency
+### Level 4: Defense-in-Depth and Strong Resiliency
 
-An application that achieves MASVS level 4 has both state-of-the-art security controls and software protection. Such an application is highly resilient against attacks and reverse engineering attempts. Level 4 is meant to be applied to applications that handle highly sensitive data. Vendors may also opt to fulfill these requirements as a means of protecting intellectual property.
+An application that achieves MASVS level 4 has both state-of-the-art security controls and software protections. Such an application is highly resilient against attacks and reverse engineering attempts. Level 4 is meant to be applied to applications that handle highly sensitive data. Vendors may also opt to implement these requirements as a means of protecting their intellectual property.
 
 ## How to use this standard
 
