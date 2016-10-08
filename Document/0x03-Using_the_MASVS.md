@@ -18,15 +18,15 @@ An application that achieves MASVS level 1 adheres to mobile application securit
 
 ### Level 2: Defense-in-Depth
 
-Level 2 introduces advanced security controls that go beyond the standard requirements. To fulfill level 2, a threat model must exist, and security must be considered during the design phase. This level is appropriate for applications that handle sensitive data, such as mobile banking.
+Level 2 introduces advanced security controls that go beyond the standard requirements. To fulfill L2, a threat model must exist, and security must be considered during the design phase. The effectiveness of the controls must be verified using white-box testing. This level is appropriate for applications that handle sensitive data, such as mobile banking.
 
 ### Level 3: Defense-in-Depth and Resiliency
 
-In addition to state-of-the-art security and defense-in-depth, level 3 defines mechanisms that increase the cost of reverse engineering the application. It can be applied to add an additional layer of protection for applications that process sensitive data. Vendors may also opt to fulfill these requirements as a means of protecting intellectual property.
+Level 3 adds mechanisms that increase the cost of reverse engineering the application. It can be applied to add an additional layer of protection for apps that process sensitive data. Vendors may also opt to implement the L3 requirements as a means of protecting their intellectual property and prevent tampering with the app.
 
 ### Level 4: Defense-in-Depth and Strong Resiliency
 
-An application that achieves MASVS level 4 has both state-of-the-art security controls and software protections. Such an application is highly resilient against attacks and reverse engineering attempts. Level 4 is meant to be applied to applications that handle highly sensitive data. Vendors may also opt to implement these requirements as a means of protecting their intellectual property.
+An application that achieves MASVS level 4 has both state-of-the-art security and strong software protections. Such an application is highly resilient against attacks and reverse engineering attempts. L4 is applicable to apps that handle highly sensitive data. The L4 controls may also serve as a means of protecting intellectual property or tamper-proofing an app.
 
 ## How to use this standard
 
