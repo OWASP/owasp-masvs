@@ -38,7 +38,7 @@ One of the best ways to use the Mobile Application Security Verification Standar
 
 Different threats have different motivations. Some industries have unique information and technology assets and domain specific regulatory compliance requirements.
 
-Below we provide industry-specific guidance regarding recommended MASVS levels. Although some unique criteria and some differences in threats exist for each industry, a common theme throughout all industry segments is that opportunistic attackers will look for any easily exploitable vulnerable applications, which is why MASVS Level 1 is recommended for all applications regardless of industry. (... todo ...)
+Below we provide industry-specific guidance regarding recommended MASVS levels. Although some unique criteria and some differences in threats exist for each industry, a common theme throughout all industry segments is that opportunistic attackers will look for any easily exploitable vulnerable applications, which is why MASVS L1 is recommended for all applications regardless of industry. L2 and higher are recommended where compromising an app grants access to highly sensitive data or functionality. The following tables shows how the levels are intended to be used.
 
 | Industry | Threat Profile | L2 Recommendation | L3+ Recommendation |
 | --- | --- | --- | --- | --- |
