@@ -2,8 +2,7 @@
 
 The following OWASP projects are most likely to be useful to users/adopters of this standard:
 
-(...) TODO (...)
- [https://www.owasp.org/index.php/Projects/OWASP\_Mobile\_Security\_Project\_-\_Top\_Ten\_Mobile\_Risks](https://www.owasp.org/index.php/Projects/OWASP_Mobile_Security_Project_-_Top_Ten_Mobile_Risks)
+[https://www.owasp.org/index.php/Projects/OWASP\_Mobile\_Security\_Project\_-\_Top\_Ten\_Mobile\_Risks](https://www.owasp.org/index.php/Projects/OWASP_Mobile_Security_Project_-_Top_Ten_Mobile_Risks)
 
 Similarly, the following web sites are most likely to be useful to users/adopters of this standard:
 
