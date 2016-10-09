@@ -22,7 +22,7 @@ Level 2 introduces advanced security controls that go beyond the standard requir
 
 ### Level 3: Defense-in-Depth and Resiliency
 
-Level 3 adds mechanisms that increase the cost of reverse engineering the application. It can be applied to add an additional layer of protection for apps that process sensitive data. Vendors may also opt to implement the L3 requirements as a means of protecting their intellectual property and prevent tampering with the app.
+Level 3 adds mechanisms that increase the cost of reverse engineering the application. It can be applied to add an additional layer of protection for apps that process sensitive data. Vendors may also opt to implement the L3 requirements as a means of protecting their intellectual property and to prevent tampering with the app.
 
 ### Level 4: Defense-in-Depth and Strong Resiliency
 
