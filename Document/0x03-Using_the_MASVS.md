@@ -6,11 +6,11 @@ The MASVS can be used to establish a level of confidence in the security of mobi
 * Use as guidance - To provide guidance in regards to security controls necessary to implement in order to satisfy application security requirements
 * Use during procurement - Provide a baseline for mobile app security verification requirements.
 
-Figure 1 - Uses of MASVS for organizations and tool/service providers
-
 ## Mobile Application Security Verification Levels
 
 The Mobile Application Security Verification Standard defines four security verification levels, with each level increasing in depth. Fulfilling the requirements in L1 results in a solid app that handles sensitive data securely and doesn't suffer from common vulnerabilities. L2 adds additional controls, resulting in an app that is resilient against sophisticated attacks. L3 and L4 add software protections that make an app somewhat (L3) or highly (L4) resilient against reverse engineering. 
+
+![Verification Levels](images/MASVS-levels.png)
 
 ### Level 1: Standard Security
 
