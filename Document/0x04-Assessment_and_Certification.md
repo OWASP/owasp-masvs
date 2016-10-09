@@ -36,7 +36,7 @@ A good mobile app security testing methodology should cover all requirements lis
 
 ### As a guide for automated unit and integration tests
 
-The MASVS is designed to highly testable, with the sole exception of architectural requirements. By building unit and integration tests that test for specific requirements, the mobile app becomes nearly self-verifying with each and every build. For example, additional tests can be crafted for the test suite for (...) todo (...).
+The MASVS is designed to highly testable, with the sole exception of architectural requirements. Automated unit, integration and acceptance based on the MASVS requirements can be intergrated in the continuous delivery pipeline. This not only increases developer security awarenes, but also improves the overall quality of the resulting apps, and reduces the need for security testing in the pre-release phase.
 
 ### For secure development training
 
