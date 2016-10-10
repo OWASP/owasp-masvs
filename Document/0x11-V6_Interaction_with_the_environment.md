@@ -1,4 +1,4 @@
-# V6: Interaction with the environment
+# V6: Environmental interaction requirements
 
 ## Control objective
 
