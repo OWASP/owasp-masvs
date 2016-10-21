@@ -15,6 +15,8 @@ In most cases, user login to a remote service is an integral part of the overall
 | **4.5** | Verify that the remote service blocks login attempts in response to an excessive number of unsuccessful attempts. | ✓ | ✓ | ✓ | ✓ |
 | **4.6** | Verify that a second factor of authentication exists at the remote endpoint, and that the 2FA requirement is enforced at the remote end.  |   | ✓ | ✓ | ✓ |
 | **4.7** | Verify that the remote service generate short-lived access token to authenticate client requests without sending the user's credentials.  |   | ✓ | ✓ | ✓ |
+| **4.8** | Verify that the app is bound to a device and a user during authentication and registration. |   |   |  | ✓ |
+| **4.9** | Verify that the app can be blocked by a user if it is registered by that user. And can only be blocked by that user only. |   |   | ✓ | ✓ |
 
 ## References
 
