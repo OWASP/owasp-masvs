@@ -17,6 +17,9 @@ In most cases, user login to a remote service is an integral part of the overall
 | **4.7** | Verify that the remote service generate short-lived access token to authenticate client requests without sending the user's credentials.  |   | ✓ | ✓ | ✓ |
 | **4.8** | Verify that the app is bound to a device and a user during authentication and registration. |   |   |  | ✓ |
 | **4.9** | Verify that the app can be blocked by a user if it is registered by that user. And can only be blocked by that user only. |   |   | ✓ | ✓ |
+| **4.10** | Verify that there is an exponential back-off when sending invalid authentication tokens to the server. Eventually the user should be blocked if necessary |   |   | ✓ | ✓ |
+| **4.11** | If the registration of the user is dependent on existing information from another channel, make sure that there is an exponential back-off and a limitted amount of retries implemented |   |   | | ✓ |
+
 
 ## References
 
