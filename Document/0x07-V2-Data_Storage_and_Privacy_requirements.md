@@ -11,7 +11,7 @@ Fortunately, the vast majority of data disclosure issues can be prevented by fol
 | # | Description | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
 | **2.1** | Verify that system credential storage facilities are used appropriately to store sensitive data, such as user credentials or cryptographic keys. | ✓ | ✓ | ✓ | ✓ |
-| **2.2** | Verify that no sensitive data is written to log files. | ✓ | ✓ | ✓ | ✓ |
+| **2.2** | Verify that no sensitive data is written to application logs. | ✓ | ✓ | ✓ | ✓ |
 | **2.3** | Verify that no sensitive data leaks to cloud storage. | ✓ | ✓ | ✓ | ✓ |
 | **2.4** | Verify that no sensitive data is sent to third parties. | ✓ | ✓ | ✓ | ✓ |
 | **2.5** | Verify that the keyboard cache is disabled on text inputs that process sensitive data. | ✓ | ✓ | ✓ | ✓ |
