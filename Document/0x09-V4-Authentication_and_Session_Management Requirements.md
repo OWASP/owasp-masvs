@@ -12,7 +12,7 @@ In most cases, user login to a remote service is an integral part of the overall
 | **4.2** | Verify that a password policy exists and is enforced at the remote endpoint. | ✓ | ✓ | ✓ | ✓ |
 | **4.3** | Verify that the remote service terminates an existing session when the user logs out. | ✓ | ✓ | ✓ | ✓ |
 | **4.4** | Verify that sessions are terminated at the remote end after a predefined period of inactivity. | ✓ | ✓ | ✓ | ✓ |
-| **4.5** | Verify that the remote service blocks login attempts in response to an excessive number of unsuccessful attempts. | ✓ | ✓ | ✓ | ✓ |
+| **4.5** | Verify that the remote service implements an exponential back-off, or temporarily locks the user account, when incorrect authentication credentials are submitted an excessive number of times . | ✓ | ✓ | ✓ | ✓ |
 | **4.6** | Verify that a second factor of authentication exists at the remote endpoint, and that the 2FA requirement is enforced at the remote end.  |   | ✓ | ✓ | ✓ |
 | **4.7** | Verify that the remote service generate short-lived access token to authenticate client requests without sending the user's credentials.  |   | ✓ | ✓ | ✓ |
 | **4.8** | Verify that there is a step-up authentication implemented in case it is required because of actions dealing with sensitive data or transactions.  |   |  | ✓ | ✓ |
