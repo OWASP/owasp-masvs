@@ -16,6 +16,7 @@ In most cases, user login to a remote service is an integral part of the overall
 | **4.6** | Verify that a second factor of authentication exists at the remote endpoint, and that the 2FA requirement is enforced at the remote end.  |   | ✓ | ✓ | ✓ |
 | **4.7** | Verify that the remote service generate short-lived access token to authenticate client requests without sending the user's credentials.  |   | ✓ | ✓ | ✓ |
 | **4.8** | Verify that there is a step-up authentication implemented in case it is required because of actions dealing with sensitive data or transactions.  |   |  | ✓ | ✓ |
+| **4.9** | Verify that the app prevents session hijacking by a remote adversary (e.g. by binding the session to the client IP address, or indirectly by using payload encryption).  |   |  | ✓ | ✓ |
 ## References
 
 For more information, see also:
