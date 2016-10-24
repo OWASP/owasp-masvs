@@ -23,7 +23,7 @@ Fortunately, the vast majority of data disclosure issues can be prevented by fol
 | **2.11** | Verify that the app does not hold sensitive data in memory longer than necessary, and that the memory is cleared explicitly after use. |  | ✓ | ✓ | ✓ |
 | **2.12** | Verify that the app only runs on operating system versions that offer a hardware-backed keystore, and that the device supports the hardware-backed keystore. Alternatively, verify that encryption has been implemented according to the controls in MASVS V3. |  |  | ✓ | ✓ |
 | **2.13** | If a remote locking mechansim exists, ensure that local storage is wiped upon locking. |  |  | ✓ | ✓ |
-| **2.14** | Verify that the app enforces the minimal device access-security policy (e.g. lockscreen/passcode/etc.) |  |  |  | ✓ |
+| **2.14** | Verify that the app enforces the minimal device access-security policy (e.g. lockscreen/passcode/etc.) |  |  | ✓ | ✓ |
 ## References
 
 For more information, see also:
