@@ -18,7 +18,7 @@ In most cases, user login to a remote service is an integral part of the overall
 | **4.8** | Verify that there is a step-up authentication implemented in case it is required because of actions dealing with sensitive data or transactions.  |   |  | ✓ | ✓ |
 | **4.9** | Verify that the app prevents session hijacking by a remote adversary (e.g. by binding the session to the client IP address, or indirectly by using payload encryption).  |   |  | ✓ | ✓ |
 | **4.10** | Verify that the app informs the user of another activity on his/her profile somewhere else. |   |  | ✓ | ✓ |
-
+| **4.11** | In the case of biometric based authentication, verify that it is not "event-bound" (e.g.: "fingerprint verification passed"), but that the actual authentication happens based on keying material which can only be unlocked by that specific biometric authentication method.
 ## References
 
 For more information, see also:
