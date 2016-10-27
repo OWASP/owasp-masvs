@@ -6,7 +6,7 @@ In a perfect world, security would be considered throughout all phases of develo
 
 The high level requirements are as follows:
 
-- At level 1, components of the application are identified and have a reason for being in the app 
+- At level 1, components of the application are identified and have a reason for being in the app
 - At level 2 and higher, the architecture has been defined and the code adheres to the architecture. Additionally, a threat model exists that identifies potential threats.
 
 ## Requirements
@@ -25,6 +25,8 @@ The high level requirements are as follows:
 | **1.10** | Verify that security controls are not only enforced on an app, but on the respective endpoints as well. |   | ✓ | ✓ | ✓ |
 | **1.11** | Verify that application blacklisting (or whitelisting) is in place based on the application version & identifiers.  |   |  | ✓ | ✓ |
 | **1.12** | Verify that authentication information for other channels is not reused in the mobile implementation to prevent cross-platform account compromise. |   |  |  | ✓ |
+| **1.13** | Verify that there is a process in place to watch (third party & first party) app stores for copies of the app and for fake apps using a similar brand or name. |   |  | ✓ | ✓ |
+
 
 ## References
 
