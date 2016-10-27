@@ -9,7 +9,7 @@ This chapter covers additional controls from an educational perspective. The con
 
 | # | Verified | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
-| **9.1** | Verify that the user can verify which PII is stored on the device by the app. | ✓ | ✓ | ✓ | ✓ |
+| **9.1** | Verify that the user is informed about which PII is stored on the device by the app and by the server. | ✓ | ✓ | ✓ | ✓ |
 | **9.2** | Verify that the app educates the user on his/her responsibility regarding the data stored on the device. | ✓ | ✓ | ✓ | ✓ |
 | **9.3** | Verify that the app educates the user to remove the app from the device when no longer in use |  |  |  | ✓ |
 | **9.4** | Verify that the app educates the user on how it should be used (e.g.: whether you can manage active devices somewhere, whether it is allowed to use it with multiple devices in parallel).|  |  |  | ✓ |
