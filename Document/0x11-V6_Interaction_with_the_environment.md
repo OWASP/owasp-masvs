@@ -20,6 +20,7 @@ The controls in group this ensure that the app uses operation system APIs and st
 | **6.10** | Verify that the app leverages operating system features that allow updating of outdated system components. |   | ✓ | ✓ | ✓ |
 | **6.11** | Verify that the app provides a custom keyboard whenever sensitive data is entered. |   |   | ✓ | ✓ |
 | **6.12** | Verify that custom ui-components are used when sensitive data is displayed. The UI-component should not rely on immutable data structures. |   |   | ✓ | ✓ |
+| **6.13** | Verify that all user input is always sanitized and verified (both when using input fields, as well as barcode/QR code data, NFC-related data, etc.).| ✓ | ✓ | ✓ | ✓ |
 
 ## References
 
