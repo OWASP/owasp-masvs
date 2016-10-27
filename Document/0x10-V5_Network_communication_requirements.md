@@ -15,8 +15,9 @@ The purpose of this control is to ensure the confidentiality and integrity of in
 | **5.5** | Verify that the app pins the endpoint certificate or the public key, and subsequently does not establish connections with endpoints that offer a different certificate or key, even if signed by a trusted CA. |   |   | ✓ | ✓ |
 | **5.6** | Confirm that the remote endpoint verifies the identity of the app when secure channel is established (PKI mutual authentication). |   |   | ✓ | ✓ |
 | **5.7** | Verify that the app uses additional payload encryption in case of a broken SSL implementation on the device. |   |   |  | ✓ |
-| **5.8** | Verify that the app provides 2FA for on-boarding a user and for executing critical functionality doesn't rely on insecure communication channels (e.g email and SMS) for critical operations, such as enrollments and OTPs. |   | ✓ | ✓ | ✓ |
-| **5.9** | Verify that the app doesn't rely on insecure communication channels (e.g email and SMS) for critical operations, such as enrollments and OTPs. |   |  | ✓ | ✓ |
+| **5.8** | Verify that patched communication libraries are used to protect against existing CVEs in the communication stack. |   |   | ✓ | ✓ |
+| **5.9** | Verify that the app provides 2FA for on-boarding a user and for executing critical functionality doesn't rely on insecure communication channels (e.g email and SMS) for critical operations, such as enrollments and OTPs. |   | ✓ | ✓ | ✓ |
+| **5.10** | Verify that the app doesn't rely on insecure communication channels (e.g email and SMS) for critical operations, such as enrollments and OTPs. |   |  | ✓ | ✓ |
 
 ## References
 
