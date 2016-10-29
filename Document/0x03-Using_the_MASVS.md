@@ -10,7 +10,7 @@ The MASVS can be used to establish a level of confidence in the security of mobi
 
 The Mobile Application Security Verification Standard defines four security verification levels, with each level increasing in depth. Fulfilling the requirements in L1 results in a secure app that handles sensitive data appropriately and doesn't suffer from common vulnerabilities. L2 adds additional controls, resulting in an app that is resilient against sophisticated attacks. L3 and L4 add further protections that make an application more resilient against reverse engineering. 
 
-An app that is compliant to the requirements in L2 can be considered *highly secure*, in that it follows security best practices that are considered state-of-the-art. L3-L4 are useful in cases where tampering with the app poses a serious risk, or an additional layer of protection for sensitive data or the intellectual property is desired.
+An app that is compliant to the requirements in L2 can be considered *highly secure*, in that it follows security best practices that are considered state-of-the-art. L3-L4 are useful in cases where tampering with the app poses a serious risk, or additional layers of protection for sensitive data or the intellectual property is desired. L4 adds protection for highly sensitive functions by requiring  the use of hardware-based isolation features, such as SEE or TEE (when present), or strong, verifiable sofware protections.
 
 ![Verification Levels](images/MASVS-levels.png)
 
