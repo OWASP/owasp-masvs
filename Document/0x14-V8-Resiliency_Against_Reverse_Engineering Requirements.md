@@ -23,7 +23,8 @@ This chapter covers defense-in-depth measures that are recommended for apps that
 | **8.13**| Verify that the application implements a 'device binding' functionality when a mobile device is treated as being trusted. Verify that the device fingerprint is derived from multiple device properties.  |   |   | ✓ | ✓ |
 | **8.14** | Verify that obfuscating transformations and reactive defenses are interdependent and well-integrated throughout the app.  |   |   | ✓ | ✓ |
 | **8.15** | Verify that the app uses at least two additional, functionally different checks to detect whether it is running in an emulator, and responds appropriately when an emulator is detected.|   |   |   | ✓ |
-| **8.16** | Verify that sensitive computations are obfuscated using advanced methods, and that the obfuscating transformations significantly increase the algorithmic complexity and apparent randomness of the relevant code and/or data. |   |   |   | ✓ |
+| **8.16** | Verify that sensitive computations take place in a trusted environment that is isolated from the mobile operating system. Hardware-based SE or TEE should be used whenever available. |   |   |   | ✓ |
+| **8.17** | If hardware-based isolation is unavailable, verify that an acceptable form of obfuscation is being used to isolate sensitve data and computations, and verify that the obfuscation parameters result in a sufficient increase in algorithmic complexity of the obfuscated function.  |   |   |   | ✓ |
 
 ## References
 
