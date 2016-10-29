@@ -21,10 +21,10 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 | **3.5** | Verify that all random numbers, random file names, random GUIDs, and random strings are generated using a secure random number generator. | ✓ | ✓ | ✓ | ✓ |
 | **3.6** | Verify that all keys and passwords are changeable, and are generated or replaced at installation time. |   | ✓ | ✓ | ✓ |
 | **3.7** | Verify that random numbers are created with proper entropy during the application lifecycle. |   |   | ✓ | ✓ |
-| **3.8** | Verify that cryptographic controls do not keep any reference to (or a copy of) a (working)key in memory. |   |   | ✓ | ✓ |
-| **3.9** | Verify that consumers of cryptographic services do not have direct access to key material if the keying material is locally generated. Isolate cryptographic processes, including master secrets through the use of strong software protections or a hardware key vault (HSM).  |   |   |   | ✓ |
-| **3.10** | Verify that keying materials are refreshed per session and stored at the server for non-repudiation instead of on the device. |   |   |   | ✓ |
-| **3.11** | Verify that keying materials have been applied as such that forward secrecy is provided.|   |   | ✓ | ✓ |
+| **3.8** | Verify that cryptographic controls explicitly clear memory containing (working-)keys after they have been used. |   |   | ✓ | ✓ |
+| **3.9** | Verify that consumers of cryptographic services do not have direct access to key material if the keying material is locally generated. Isolate cryptographic processes, including master secrets through the use of strong software protections (MASVS L4) or a hardware key vault (HSM). |   |   |   | ✓ |
+| **3.10** | Verify that keying materials have been used such that forward secrecy is provided. |   |   | ✓ | ✓ |
+| **3.11** | Verify that keying materials are newly generated for each session and stored at the server for non-repudiation instead of on the device. |   |   |   | ✓ |
 
 ## References
 
