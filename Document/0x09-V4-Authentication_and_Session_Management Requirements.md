@@ -6,7 +6,7 @@ In most cases, user login to a remote service is an integral part of the overall
 
 ## Requirements
 
-| # | Description | 1 | 2 | 3 | 4 | 
+| # | Description | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- | --- |
 | **4.1** | If the app requires access to a remote service, verify that an acceptable form of authentication such as username/password authentication is performed at service endpoints. | ✓ | ✓ | ✓ | ✓ |
 | **4.2** | Verify that a password policy exists and is enforced at the remote endpoint. | ✓ | ✓ | ✓ | ✓ |
@@ -17,11 +17,13 @@ In most cases, user login to a remote service is an integral part of the overall
 | **4.7** | Verify that the remote service generate short-lived access token to authenticate client requests without sending the user's credentials.  |   | ✓ | ✓ | ✓ |
 | **4.8** | Verify that step-up authentication is required to enable actions that deal with sensitive data or transactions.  |   |  | ✓ | ✓ |
 | **4.9** | Verify that the app prevents session hijacking by a remote adversary (e.g. by binding the session to the client IP address, or indirectly by using payload encryption).  |   |  | ✓ | ✓ |
+| **4.10** | Verify that the app informs the user of another activity on his/her profile somewhere else. |   |  | ✓ | ✓ |
+| **4.11** | In the case of biometric based authentication, verify that it is not "event-bound" (e.g.: "fingerprint verification passed"), but that the actual authentication happens based on keying material which can only be unlocked by that specific biometric authentication method. | ✓  | ✓ | ✓ | ✓ |
+| **4.12** | Verify that the user can manage a set of whitelisted/blacklisted devices (both web & apps) on which sessions have taken place (e.g. view session-origin history, blacklist certain origins from which a session took place). |  |  | ✓ | ✓ |
+
 ## References
 
 For more information, see also:
 
 - OWASP Mobile Top 10: M4 - Insecure Authentication, M6 - Insecure Authorization
 - CWE:  https://cwe.mitre.org/data/definitions/287.html
-
-
