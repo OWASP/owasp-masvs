@@ -23,10 +23,9 @@ The high level requirements are as follows:
 | **1.8** | Verify that all components that are not part of the application but that the application relies on to operate, are defined in terms of the functions, and/or security functions, they provide. |   | ✓ | ✓ | ✓ |
 | **1.9** | If the app uses cryptography, verify that there is an explicit policy for how cryptographic keys are managed (e.g. generated, distributed, revoked, and expired), and verify that the key lifecycle is properly enforced. |   | ✓ | ✓ | ✓ |
 | **1.10** | Verify that security controls are not only enforced on an app, but on the respective endpoints as well. |   | ✓ | ✓ | ✓ |
-| **1.11** | Verify that application blacklisting (or whitelisting) is in place based on the application version & identifiers.  |   |  | ✓ | ✓ |
-| **1.12** | Verify that authentication information for other channels is not reused in the mobile implementation to prevent cross-platform account compromise. |   |  |  | ✓ |
-| **1.13** | Verify that there is a process in place to watch (third party & first party) app stores for copies of the app and for fake apps using a similar brand or name. |   |  | ✓ | ✓ |
-
+| **1.11** | Verify that there is a process in place to monitor first and third party app stores for copies of the app and for fake apps using a similar brand or name. |   |  | ✓ | ✓ |
+| **1.12** | Verify that application blacklisting (or whitelisting) is in place based on the application version & identifiers.  |   |  | ✓ | ✓ |
+| **1.13** | Verify that authentication information for other channels is not reused in the mobile implementation to prevent cross-platform account compromise. |   |  | ✓ | ✓ |
 
 ## References
 
