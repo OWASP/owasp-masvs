@@ -28,7 +28,7 @@ Level 3 adds mechanisms that increase the cost of reverse engineering the applic
 
 ### Level 4: Defense-in-Depth and Strong Resiliency
 
-An application that achieves MASVS level 4 has both state-of-the-art security and strong software protections. Such an application is highly resilient against attacks and reverse engineering attempts. L4 is applicable to apps that handle highly sensitive data. The L4 controls may also serve as a means of protecting intellectual property or tamper-proofing an app.
+An application that achieves MASVS level 4 has both state-of-the-art security and strong software protections. Such an application leverages hardware security features or strong obuscation techniques and is highly resilient against attacks and reverse engineering attempts. L4 is applicable to apps that handle highly sensitive data. The L4 controls may also serve as a means of protecting intellectual property or tamper-proofing an app.
 
 ## How to use this standard
 
