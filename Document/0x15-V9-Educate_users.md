@@ -1,9 +1,8 @@
-# V9: Educating the end-user
+# V9: User Education Requirements
 
 ## Control objective
 
-This chapter covers additional controls from an educational perspective. The controls in this chapter attempt to let the user take responsibility over the device and the context in which the app is installed. By educating the users properly, the user can take actions to reduce the risk of data exposure.
-
+Data security is highly dependant on the configuration of the device as well as the context in which the app is installed. To help limit risk, an app that stores sensitive data should inform the user about security best practices. The goal is to encourage users to take actions that reduce the risk of data exposure.
 
 ## Requirements
 
