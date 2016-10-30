@@ -16,7 +16,7 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 | --- | --- | --- | --- | --- | --- |
 | **3.1** | Verify that that the application does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption.| ✓ | ✓ | ✓ | ✓ |
 | **3.2** | Verify that the app uses proven implementations of cryptographic functions. | ✓ | ✓ | ✓ | ✓ |
-| **3.3** | Verify that the app does not use cryptograpic protocols or algorithms are used that are widely considered depreciated,  | ✓ | ✓| ✓ | ✓ |
+| **3.3** | Verify that the app does not use cryptograpic protocols or algorithms are used that are widely considered depreciated. | ✓ | ✓| ✓ | ✓ |
 | **3.3** | Verify that cryptographic modules use parameters that adhere to current industry best practices. This includes key length and modes of operation. | ✓ | ✓| ✓ | ✓ |
 | **3.4** | Verify that the application doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ | ✓ | ✓ |
 | **3.5** | Verify that all random numbers, random file names, random GUIDs, and random strings are generated using a secure random number generator. | ✓ | ✓ | ✓ | ✓ |
