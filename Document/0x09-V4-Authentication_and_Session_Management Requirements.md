@@ -13,13 +13,12 @@ In most cases, user login to a remote service is an integral part of the overall
 | **4.3** | Verify that the remote service terminates an existing session when the user logs out. | ✓ | ✓ | ✓ | ✓ |
 | **4.4** | Verify that sessions are terminated at the remote end after a predefined period of inactivity. | ✓ | ✓ | ✓ | ✓ |
 | **4.5** | Verify that the remote service implements an exponential back-off, or temporarily locks the user account, when incorrect authentication credentials are submitted an excessive number of times . | ✓ | ✓ | ✓ | ✓ |
-| **4.6** | Verify that a second factor of authentication exists at the remote endpoint, and that the 2FA requirement is enforced at the remote end.  |   | ✓ | ✓ | ✓ |
-| **4.7** | Verify that the remote service generate short-lived access token to authenticate client requests without sending the user's credentials.  |   | ✓ | ✓ | ✓ |
-| **4.8** | Verify that step-up authentication is required to enable actions that deal with sensitive data or transactions.  |   |  | ✓ | ✓ |
-| **4.9** | Verify that the app prevents session hijacking by a remote adversary (e.g. by binding the session to the client IP address, or indirectly by using payload encryption).  |   |  | ✓ | ✓ |
-| **4.10** | Verify that the app informs the user of another activity on his/her profile somewhere else. |   |  | ✓ | ✓ |
-| **4.11** | In the case of biometric based authentication, verify that it is not "event-bound" (e.g.: "fingerprint verification passed"), but that the actual authentication happens based on keying material which can only be unlocked by that specific biometric authentication method. | ✓  | ✓ | ✓ | ✓ |
-| **4.12** | Verify that the user can manage a set of whitelisted/blacklisted devices (both web & apps) on which sessions have taken place (e.g. view session-origin history, blacklist certain origins from which a session took place). |  |  | ✓ | ✓ |
+| **4.6** | If biometric authentication is used, verify that it is not event-bound (e.g.: "fingerprint verification passed"), but that the actual authentication happens based on keying material which can only be unlocked by that specific biometric authentication method. | ✓  | ✓ | ✓ | ✓ |
+| **4.7** | Verify that a second factor of authentication exists at the remote endpoint, and that the 2FA requirement is enforced at the remote end.  |   | ✓ | ✓ | ✓ |
+| **4.8** | Verify that the remote service generate short-lived access token to authenticate client requests without sending the user's credentials.  |   | ✓ | ✓ | ✓ |
+| **4.9** | Verify that step-up authentication is required to enable actions that deal with sensitive data or transactions.  |   |  | ✓ | ✓ |
+| **4.10** | Verify that the app prevents session hijacking by a remote adversary (e.g. by binding the session to the client IP address, or indirectly by using payload encryption).  |   |  | ✓ | ✓ |
+| **4.11** |  Verify that the app informs the user of all login activities with his/her account. Users should be able view a list of devices used to access the account, and to block specific devices (e.g. view session history, blacklist certain origins from which logins took place). |  |  | ✓ | ✓ |
 
 ## References
 
