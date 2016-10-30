@@ -24,6 +24,8 @@ Fortunately, the vast majority of data disclosure issues can be prevented by fol
 | **2.12** | Verify that the app only runs on operating system versions that offer a hardware-backed keystore, and that the device supports the hardware-backed keystore. Alternatively, verify that encryption has been implemented according to the controls in MASVS V3. |  |  | ✓ | ✓ |
 | **2.13** | If a remote locking mechansim exists, ensure that local storage is wiped upon locking. |  |  | ✓ | ✓ |
 | **2.14** | Verify that the app enforces a minimum device access-security policy (e.g. lockscreen/passcode/etc.) |  |  | ✓ | ✓ |
+| **2.15** | Verify that highly sensitive cryptographic functionality is isolated from the operating system by using a hardware-based SE or TEE. If specialized hardware is unavailable, verify that strong software protections are applied in accordance to MASVS L4. |  |  |   | ✓ |
+
 ## References
 
 For more information, see also:
