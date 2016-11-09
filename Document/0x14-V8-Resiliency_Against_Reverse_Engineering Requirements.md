@@ -10,8 +10,8 @@ This chapter covers defense-in-depth measures that are recommended for apps that
 | --- | --- | --- | --- | --- | --- |
 | **8.1** | Verify that debugging symbols have been removed from native binaries. |   | ✓ | ✓ | ✓ |
 | **8.2** | Verify that Java bytecode has been obscured through identifier renaming.  |   | ✓ | ✓ | ✓ |
-| **8.3** | Verify that the application detects whether it is being executed on a rooted or jailbroken device. Depending on the business requirement, users should be warned, or the app should terminate if the device is rooted. |   | ✓ | ✓ | ✓ |
-| **8.4** | Verify that the app checks its installation source, and only runs if installed from a trusted source. |   | ✓ | ✓ | ✓ |
+| **8.3** | Verify that the application detects whether it is being executed on a rooted or jailbroken device. Depending on the business requirement, users should be warned, or the app should terminate if the device is rooted or jailbroken. |   | ✓ | ✓ | ✓ |
+| **8.4** | Verify that the app checks its installation source, and only runs if installed from a trusted source (e.g. Google Play Store / Apple App Store). |   | ✓ | ✓ | ✓ |
 | **8.5** | Verify that the app has some form of debugger detection and terminates when a debugger is detected, or prevents attaching a debugger using any method. All available means of debugging must be covered (e.g. JDWP and native). |   | ✓ | ✓ | ✓ |
 | **8.6** | Verify that the app implements two or more functionally independent methods of root detection and responds to the presence of a rooted device either by alerting the user or terminating the app. |   |  | ✓ | ✓ |
 | **8.7** | Verify that the app implements multiple defenses that result in *strong* resiliency against debugging. All available means of debugging must be covered (e.g. JDWP and native).\* |   |  | ✓ | ✓ |
