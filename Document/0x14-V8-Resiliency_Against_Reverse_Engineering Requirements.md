@@ -15,7 +15,7 @@ This chapter covers defense-in-depth measures that are recommended for apps that
 | **8.5** | Verify that the app has some form of debugger detection and terminates when a debugger is detected, or prevents attaching a debugger using any method. All available means of debugging must be covered (e.g. JDWP and native). |   | ✓ | ✓ | ✓ |
 | **8.6** | Verify that the app implements two or more functionally different methods of root detection and responds to the presence of a rooted device.  |   |  | ✓ | ✓ |
 | **8.7** | Verify that the app either prevents, or detects and responds to, the presence of debuggers using at least two functionally different methods that don't rely on library calls or well-known high-level APIs. |   |   | ✓ | ✓ |
-| **8.8** | Verify that the app detects and responds to tampering with its own files. |   |   | ✓ | ✓ |
+| **8.8** | Verify that the app detects and responds to tampering(repackaging) with its own files. |   |   | ✓ | ✓ |
 | **8.9** | Verify that the app detects the presence of common reverse engineering tools, such as hooking frameworks and debugging servers. |   |   | ✓ | ✓ |
 | **8.10** | Verify that the app detects whether it is run inside an emulator using any method, and responds when an emulator is detected.  |   |   | ✓ | ✓ |
 | **8.11** | Verify that that the app implements multiple different responses to tampering, debugging and emulation, including stealthy responses that don't simply terminate the app. |   |   | ✓ | ✓ |
