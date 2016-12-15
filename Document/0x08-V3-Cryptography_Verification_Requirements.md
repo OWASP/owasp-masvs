@@ -17,13 +17,13 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 | **3.1** | Verify that that the application does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption.| ✓ | ✓ | ✓ | ✓ |
 | **3.2** | Verify that the app uses proven implementations of cryptographic functions. | ✓ | ✓ | ✓ | ✓ |
 | **3.3** | Verify that the app does not use cryptograpic protocols or algorithms are used that are widely considered depreciated. | ✓ | ✓| ✓ | ✓ |
-| **3.3** | Verify that cryptographic modules use parameters that adhere to current industry best practices. This includes key length and modes of operation. | ✓ | ✓| ✓ | ✓ |
-| **3.4** | Verify that the application doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ | ✓ | ✓ |
-| **3.5** | Verify that all random numbers, random file names, random GUIDs, and random strings are generated using a secure random number generator. | ✓ | ✓ | ✓ | ✓ |
-| **3.6** | Verify that all keys and passwords are changeable, and are generated or replaced at installation time. |   | ✓ | ✓ | ✓ |
-| **3.7** | Verify that random numbers are created with proper entropy during the application lifecycle. |   |   | ✓ | ✓ |
-| **3.8** | Verify that cryptographic controls explicitly clear memory containing (working-)keys after they have been used. |   |   | ✓ | ✓ |
-| **3.9** | Verify that consumers of cryptographic services do not have direct access to key material if the keying material is locally generated. Isolate cryptographic processes, including master secrets through the use of strong software protections (MASVS L4) or a hardware key vault (HSM). |   |   |   | ✓ |
+| **3.4** | Verify that cryptographic modules use parameters that adhere to current industry best practices. This includes key length and modes of operation. | ✓ | ✓| ✓ | ✓ |
+| **3.5** | Verify that the application doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ | ✓ | ✓ |
+| **3.6** | Verify that all random numbers, random file names, random GUIDs, and random strings are generated using a secure random number generator. | ✓ | ✓ | ✓ | ✓ |
+| **3.7** | Verify that all keys and passwords are changeable, and are generated or replaced at installation time. |   | ✓ | ✓ | ✓ |
+| **3.8** | Verify that random numbers are created with proper entropy during the application lifecycle. |   |   | ✓ | ✓ |
+| **3.9** | Verify that cryptographic controls explicitly clear memory containing (working-)keys after they have been used. |   |   | ✓ | ✓ |
+| **3.10** | Verify that consumers of cryptographic services do not have direct access to key material if the keying material is locally generated. Isolate cryptographic processes, including master secrets through the use of strong software protections (MASVS L4) or a hardware key vault (HSM). |   |   |   | ✓ |
 
 ## References
 
