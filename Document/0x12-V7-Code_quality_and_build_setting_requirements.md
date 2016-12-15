@@ -16,6 +16,7 @@ The goal of this control is to ensure that basic security coding practices are f
 | **7.6** | Verify that the app is marked as a release build. | ✓ | ✓ | ✓ | ✓ |
 | **7.7** | Verify that security features offered by the compiler, such as stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ | ✓ | ✓ |
 | **7.8** | Verify that static and dynamic application security testing are performed as part of the development lifecycle, and that the configuration of the SAST and DAST tools is tailored to the app. |   | ✓ | ✓ | ✓ |
+| **7.9** | Verify that App must be code signed and provisioned with valid certificate. |   | ✓ | ✓ | ✓ |
 
 ## References
 
