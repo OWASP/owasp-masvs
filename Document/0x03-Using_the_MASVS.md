@@ -1,4 +1,4 @@
-# Using the Mobile Application Security Verification Standard
+# The Mobile Application Security Verification Standard
 
 The MASVS can be used to establish a level of confidence in the security of mobile apps. The requirements were developed with the following objectives in mind:
 
@@ -6,15 +6,15 @@ The MASVS can be used to establish a level of confidence in the security of mobi
 * Use as guidance - To provide guidance in regards to security controls necessary to implement and test in order to satisfy application security requirements
 * Use during procurement - Provide a baseline for mobile app security verification requirements.
 
-## Mobile Application Security Verification Levels
+## Mobile AppSec Model
 
-The Mobile Application Security Verification Standard defines two strict *security verification levels (L1 and L2)*, as well as a more flexible reverse engineering resiliency level (MASVS-R). MASVS-L1 and MASVS-L2 contain generic security requirements and are recommended for all mobile apps (L1) and apps that handle highly sensitive data (L2). MASVS-R covers additional software protection controls that can be applied if preventing reverse engineering and/or tampering is a goal.
+The MASVS defines two strict *security verification levels (L1 and L2)*, as well as a more "flexible" reverse engineering resiliency level (MASVS-R). MASVS-L1 and MASVS-L2 contain generic security requirements and are recommended for all mobile apps (L1) and apps that handle highly sensitive data (L2). MASVS-R covers additional software protection controls that can be applied if preventing reverse engineering and/or tampering is a goal.
 
-Fulfilling the requirements in MASVS-L1 results in a secure app that uses operating system APIs appropriately and doesn't suffer from common vulnerabilities. MASVS-L2 adds additional controls, resulting in an app that is resilient against more sophisticated attacks in a "normal" environment, assuming the mobile operating system and end user are trusted. Fulfilling all, or subsets of, the software protection requirements in MASVS-R helps defend against specific threats when the end user is seen as a potential adversary, and adds protection in cases where the mobile OS is compromised.
+Fulfilling the requirements in MASVS-L1 results in a secure app that follows security best practices appropriately and doesn't suffer from common vulnerabilities. MASVS-L2 adds additional controls, resulting in an app that is resilient against more sophisticated attacks in a regular environment, assuming the security controls of the mobile operating system are assumed to be intact and the end user is not viewed as a potential adversary. Fulfilling all, or subsets of, the software protection requirements in MASVS-R helps defend against specific threats when the end user is malicious and/or the mobile OS is compromised.
 
 ![Verification Levels](images/masvs-levels-new.jpg)
 
-### The MASVS Levels in Detail
+### Verification Levels in Detail
 
 #### MASVS-L1: Standard Security
 
@@ -28,11 +28,7 @@ MASVS-L2 introduces advanced security controls that go beyond the standard requi
 
 The app has both state-of-the-art security and strong software protections. Such an application leverages hardware security features or strong obfuscation techniques and is highly resilient against attacks and reverse engineering attempts. MASVS-R is applicable to apps that handle highly sensitive data and may serve as a means of protecting intellectual property or tamper-proofing an app.
 
-## How to Use This Standard
-
-One of the best ways to use the Mobile Application Security Verification Standard is to use it as blueprint to create a secure coding checklist specific to your application, platform or organization. Tailoring the MASVS to your use cases will increase the focus on the security requirements that are most important to your projects and environments.
-
-## Applying MASVS in Practice
+### Recommended Use
 
 Different threats have different motivations. Some industries have unique information and technology assets and domain specific regulatory compliance requirements.
 

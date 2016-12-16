@@ -1,6 +1,6 @@
 # Assessment and Certification
 
-## OWASP's stance on MASVS Certifications and Trust Marks
+## OWASP's Stance on MASVS Certifications and Trust Marks
 
 OWASP, as a vendor-neutral not-for-profit organization, does not certify any vendors, verifiers or software.
 
@@ -8,7 +8,7 @@ All such assurance assertions, trust marks, or certifications are not officially
 
 This should not inhibit organizations from offering such assurance services, as long as they do not claim official OWASP certification.
 
-## Guidance for certifying organizations
+## Guidance for Certifying Mobile Apps
 
 The Application Security Verification Standard can be used as an open book verification of the application, including open and unfettered access to key resources such as architects and developers, project documentation, source code, authenticated access to test systems (including access to at least one account in each role), particularly for L2 and higher.
 
@@ -16,9 +16,11 @@ Historically, black-box security testing and secure code reviews have included i
 
 Keeping detailed work papers, screenshots or movies, scripts to reliably and repeatedly exploit an issue, and electronic records of testing, such as intercepting proxy logs and associated notes such as a cleanup list, is considered standard industry practice and can be really useful as proofs of the findings as well as for reproduction. It is not sufficient to simply run a tool and report on the failures; this does not provide sufficient evidence that all issues at a certifying level have been tested and tested thoroughly. In case of dispute, there should be sufficient supportive evidence to demonstrate each and every verified requirement has indeed been tested.
 
+### Using the OWASP Mobile Security Testing Guide (MSTG)
+
 ### The role of automated security testing tools
 
-The use of source code scanners and black-box testing tools is encouraged in order to increase efficiency whenever possible. It is however not possible to complete MASVS verification using automated tools alone: Every mobile app is different, and understanding the overall architecture, business logic, and technical pitfalls of the specific technologies and frameworks being used, is a mandatory requirement to verify security of the app. 
+The use of source code scanners and black-box testing tools is encouraged in order to increase efficiency whenever possible. It is however not possible to complete MASVS verification using automated tools alone: Every mobile app is different, and understanding the overall architecture, business logic, and technical pitfalls of the specific technologies and frameworks being used, is a mandatory requirement to verify security of the app.
 
 ## Other uses
 
