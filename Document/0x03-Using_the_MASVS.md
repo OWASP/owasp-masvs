@@ -8,29 +8,27 @@ The MASVS can be used to establish a level of confidence in the security of mobi
 
 ## Mobile Application Security Verification Levels
 
-The Mobile Application Security Verification Standard defines four security verification levels, with each level increasing in depth. Fulfilling the requirements in L1 results in a secure app that handles sensitive data appropriately and doesn't suffer from common vulnerabilities. L2 adds additional controls, resulting in an app that is resilient against sophisticated attacks. L3 and L4 add further protections that make an application more resilient against reverse engineering.
+The Mobile Application Security Verification Standard defines two strict *security verification levels (L1 and L2)*, as well as a more flexible reverse engineering resiliency level (MASVS-R). MASVS-L1 and MASVS-L2 contain generic security requirements and are recommended for all mobile apps (L1) and apps that handle highly sensitive data (L2). MASVS-R covers additional software protection controls that can be applied if preventing reverse engineering and/or tampering is a goal.
 
-An app that is compliant to the requirements in L2 can be considered *highly secure*, in that it follows security best practices that are considered state-of-the-art. L3-L4 are useful in cases where tampering with the app poses a serious risk, or additional layers of protection for sensitive data or the intellectual property is desired. L4 adds protection for highly sensitive functions by requiring  the use of hardware-based isolation features, such as SEE or TEE (when present), or strong, verifiable sofware protections.
+Fulfilling the requirements in MASVS-L1 results in a secure app that uses operating system APIs appropriately and doesn't suffer from common vulnerabilities. MASVS-L2 adds additional controls, resulting in an app that is resilient against more sophisticated attacks in a "normal" environment, assuming the mobile operating system and end user are trusted. Fulfilling all, or subsets of, the software protection requirements in MASVS-R helps defend against specific threats when the end user is seen as a potential adversary, and adds protection in cases where the mobile OS is compromised.
 
 ![Verification Levels](images/masvs-levels-new.jpg)
 
-### Level 1: Standard Security
+### The MASVS Levels in Detail
 
-An application that achieves MASVS level 1 adheres to mobile application security best practices. It fulfills basic requirements in terms of code quality, handling of sensitive data, and interaction with the mobile environment. A testing process must be in place to verify the security controls. This level is appropriate for all mobile applications.
+#### MASVS-L1: Standard Security
 
-### Level 2: Defense-in-Depth
+A mobile app that achieves MASVS-L1 adheres to mobile application security best practices. It fulfills basic requirements in terms of code quality, handling of sensitive data, and interaction with the mobile environment. A testing process must be in place to verify the security controls. This level is appropriate for all mobile applications.
 
-Level 2 introduces advanced security controls that go beyond the standard requirements. To fulfill L2, a threat model must exist, and security must be considered during the design phase. The effectiveness of the controls must be verified using white-box testing. This level is appropriate for applications that handle sensitive data, such as mobile banking.
+#### MASVS-L2: Defense-in-Depth
 
-### Level 3: Defense-in-Depth and Resiliency
+MASVS-L2 introduces advanced security controls that go beyond the standard requirements. To fulfill L2, a threat model must exist, and security must be considered during the design phase. The effectiveness of the controls must be verified using white-box testing. This level is appropriate for applications that handle sensitive data, such as mobile banking.
 
-Level 3 adds mechanisms that increase the cost of reverse engineering the application. It can be applied to add an additional layer of protection for apps that process sensitive data. Vendors may also opt to implement the L3 requirements as a means of protecting their intellectual property and to prevent tampering with the app.
+#### MASVS-R: Resiliency Against Reverse Engineering and Tampering
 
-### Level 4: Defense-in-Depth and Strong Resiliency
+The app has both state-of-the-art security and strong software protections. Such an application leverages hardware security features or strong obfuscation techniques and is highly resilient against attacks and reverse engineering attempts. MASVS-R is applicable to apps that handle highly sensitive data and may serve as a means of protecting intellectual property or tamper-proofing an app.
 
-An application that achieves MASVS level 4 has both state-of-the-art security and strong software protections. Such an application leverages hardware security features or strong obfuscation techniques and is highly resilient against attacks and reverse engineering attempts. L4 is applicable to apps that handle highly sensitive data. The L4 controls may also serve as a means of protecting intellectual property or tamper-proofing an app.
-
-## How to use this standard
+## How to Use This Standard
 
 One of the best ways to use the Mobile Application Security Verification Standard is to use it as blueprint to create a secure coding checklist specific to your application, platform or organization. Tailoring the MASVS to your use cases will increase the focus on the security requirements that are most important to your projects and environments.
 
@@ -40,7 +38,7 @@ Different threats have different motivations. Some industries have unique inform
 
 Below we provide industry-specific guidance regarding recommended MASVS levels. Although some unique criteria and some differences in threats exist for each industry, a common theme throughout all industry segments is that opportunistic attackers will look for any easily exploitable vulnerable applications, which is why MASVS L1 is recommended for all applications regardless of industry. L2 and higher are recommended where compromising an app grants access to highly sensitive data or functionality. The following tables shows how the levels are intended to be used.
 
-| Industry | Threat Profile | L2 Recommendation | L3+ Recommendation |
+| Industry | Threat Profile | MASVS-L2 Recommendation | MASVS-R Recommendation |
 | --- | --- | --- | --- | --- |
 | Finance and Insurance | Although this segment will experience attempts from opportunistic attackers, it is often viewed as a high value target by motivated attackers and attacks are often financially motivated. Commonly, attackers are looking for sensitive data or account credentials that can be used to commit fraud or to benefit directly by leveraging money movement functionality built into applications. Techniques often include stolen credentials, application-level attacks, and social engineering. Some major compliance considerations include Payment Card Industry Data Security Standard (PCI DSS), Gramm Leech Bliley Act and Sarbanes-Oxley Act (SOX). | Apps that enable access to highly sensitive information like credit card numbers, personal information, or that can move limited amounts of money in limited ways. Examples include: (i) transfer money between accounts at the same institution or(ii) a slower form of money movement (e.g. ACH) with transaction limits or(iii) wire transfers with hard transfer limits within a period of time. | Apps that enable access to large amounts of sensitive information or that allow either rapid transfer of large sums of money (e.g. wire transfers) and/or transfer of large sums of money in the form of individual transactions or as a batch of smaller transfers. |
 | Healthcare | Most attackers are looking for sensitive data like personally identifiable information (PII) and payment data that can be used for financial gain. Often the data can be used for identity theft, fraudulent payments, or a variety of fraud schemes. For the US healthcare sector, the Health Insurance Portability and Accountability Act (HIPAA) Privacy, Security, Breach Notification Rules and Patient Safety Rule. | Apps that enable access to sensitive medical information (Protected Health Information), Personally Identifiable Information, or payment data. | Apps used to control medical equipment, devices, or records that may endanger human life. Payment and Point of Sale systems (POS) that contain large amounts of transaction data that could be used to commit fraud.
