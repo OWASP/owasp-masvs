@@ -19,7 +19,6 @@ Keeping detailed work papers, screenshots or movies, scripts to reliably and rep
 ### Using the OWASP Mobile Security Testing Guide (MSTG)
 
 
-
 ### The Role of Automated Security Testing Tools
 
 The use of source code scanners and black-box testing tools is encouraged in order to increase efficiency whenever possible. It is however not possible to complete MASVS verification using automated tools alone: Every mobile app is different, and understanding the overall architecture, business logic, and technical pitfalls of the specific technologies and frameworks being used, is a mandatory requirement to verify security of the app.

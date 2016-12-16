@@ -1,4 +1,4 @@
-# V1: Architecture, design and threat modelling requirements
+# V1: Architecture, design and threat modeling requirements
 
 ## Control objective
 
