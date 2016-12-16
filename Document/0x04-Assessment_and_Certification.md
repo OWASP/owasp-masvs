@@ -18,28 +18,30 @@ Keeping detailed work papers, screenshots or movies, scripts to reliably and rep
 
 ### Using the OWASP Mobile Security Testing Guide (MSTG)
 
-### The role of automated security testing tools
+
+
+### The Role of Automated Security Testing Tools
 
 The use of source code scanners and black-box testing tools is encouraged in order to increase efficiency whenever possible. It is however not possible to complete MASVS verification using automated tools alone: Every mobile app is different, and understanding the overall architecture, business logic, and technical pitfalls of the specific technologies and frameworks being used, is a mandatory requirement to verify security of the app.
 
-## Other uses
+## Other Uses
 
-### As detailed security architecture guidance
+### As Detailed Security Architecture Guidance
 
 One of the more common uses for the Mobile Application Security Verification Standard is as a resource for security architects. The two major security architecture frameworks, SABSA or TOGAF, are missing a great deal of information that is necessary to complete mobile application security architecture reviews. MASVS can be used to fill in those gaps by allowing security architects to choose better controls for issues common to mobile apps.
 
-### As a replacement for off the shelf secure coding checklists
+### As a Replacement for Off-the-shelf Secure Coding Checklists
 
 Many organizations can benefit from adopting the MASVS, by choosing one of the four levels, or by forking MASVS and changing what is required for each application's risk level in a domain-specific way. We encourage this type of forking as long as traceability is maintained, so that if an app has passed requirement 4.1, this means the same thing for forked copies as the standard evolves.
 
-### As a basis for security testing methodologies
+### As a Basis for Security Testing Methodologies
 
 A good mobile app security testing methodology should cover all requirements listed in the MASVS. The OWASP Mobile Security Testing Guide (MSTG) describes black-box and white-box test cases for each verification requirement.
 
-### As a guide for automated unit and integration tests
+### As a Guide for Automated Unit and Integration Tests
 
 The MASVS is designed to be highly testable, with the sole exception of architectural requirements. Automated unit, integration and acceptance testing based on the MASVS requirements can be integrated in the continuous development lifecycle. This not only increases developer security awareness, but also improves the overall quality of the resulting apps, and reduces the amount of findings during security testing in the pre-release phase.
 
-### For secure development training
+### For Secure Development Training
 
 MASVS can also be used to define characteristics of secure mobile apps. Many "secure coding" courses are simply ethical hacking courses with a light smear of coding tips. This does not help developers. Instead, secure development courses can use the MASVS, with a strong focus on the proactive controls documented in the MASVS, rather than e.g. the Top 10 code security issues.
