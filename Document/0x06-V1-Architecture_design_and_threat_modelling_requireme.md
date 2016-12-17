@@ -25,9 +25,10 @@ The high level requirements are as follows:
 | **1.9** | All components that are not part of the application but that the application relies on to operate, are defined in terms of the functions, and/or security functions, they provide. |   | ✓ | ✓ |
 | **1.10** | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. |   | ✓ | ✓ |
 | **1.11** | A process is in place to monitor first and third party app stores for copies of the app and for fake apps using a similar brand or name. |   | ✓ | ✓ |
-| **1.12** | Application blacklisting (or whitelisting) is in place based on the application version & identifiers.  |   | ✓ | ✓ |
+| **1.12** | Application blacklisting (or whitelisting) is in place based on the application version & identifiers. |   | ✓ | ✓ |
 | **1.13** | To prevent cross-platform account compromise, authentication information for other channels is not reused in the mobile app. |   | ✓ | ✓ |
-| **1.14** | The threat model extends to app-specific client-side attacks where the mobile operating system and/or end user are untrusted.  |   |   | ✓ |
+| **1.14** | Static and dynamic application security testing are performed as part of the development lifecycle. If some or all of the testing is automated, the configuration of the testing tools must be tailored to the specific app. |   | ✓ | ✓ |
+| **1.15** | The threat model extends to app-specific client-side attacks where the mobile operating system and/or end user are untrusted.  |   |   | ✓ |
 
 ## References
 
