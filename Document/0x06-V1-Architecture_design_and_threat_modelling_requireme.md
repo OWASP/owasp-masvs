@@ -1,6 +1,6 @@
-# V1: Architecture, design and threat modeling requirements
+# V1: Architecture, Design and Threat Modeling Requirements
 
-## Control objective
+## Control Objective
 
 In a perfect world, security would be considered throughout all phases of development. In reality however, security is often only a consideration at a late stage in the SDLC. Besides the technical controls, the MASVS requires processes to be in place that ensure that the security has been explicitly addressed when planning the architecture of the mobile app, and that the functional and security roles of all components are known. Since most mobile applications act as clients to remote services, it must be ensured that appropriate security standards are also applied to those services - testing the mobile app in isolation is not sufficient.
 
