@@ -6,17 +6,15 @@ The purpose of this control is to ensure the confidentiality and integrity of in
 
 ## Requirements
 
-| # | Description | 1 | 2 | 3 | 4 |
-| --- | --- | --- | --- | --- | --- |
-| **5.1** | Verify that sensitive data is encrypted on the network using secure communication protocols. Verify that the secure channel is used consistently throughout the app. | ✓ | ✓ | ✓ | ✓ |
-| **5.2** | Confirm that the app verifies the identity of the remote endpoint when the secure channel is established. Verify that this is done using X.509 certificates, and that only certificates signed by a valid CA are accepted. | ✓ | ✓ | ✓ | ✓ |
-| **5.3** | Confirm that communication of 3rd party libraries that send data to their own hosts (e.g. tracking libraries, crash reporter) uses secure communication protocols. | ✓ | ✓ | ✓ | ✓ |
-| **5.4** | Verify that the app either uses its own certificate store, or pins the endpoint certificate or the public key. |   | ✓ | ✓ | ✓ |
-| **5.5** | Verify that the secure communcation protocol used enables perfect forward secrecy. |   | ✓ | ✓ | ✓ |
-| **5.6** | Verify that the app pins the endpoint certificate or the public key, and subsequently does not establish connections with endpoints that offer a different certificate or key, even if signed by a trusted CA. |   |   | ✓ | ✓ |
-| **5.7** | Confirm that the remote endpoint verifies the identity of the app when secure channel is established (PKI mutual authentication). |   |   | ✓ | ✓ |
-| **5.8** | Verify that the app doesn't rely on a single insecure communication channel (email or SMS) for critical operations, such as enrollments and step-up authentication. |   |  | ✓ | ✓ |
-| **5.9** | Verify that the app uses additional payload encryption. |   |   |  | ✓ |
+| # | Description | 1 | 2 | 3 |
+| --- | --- | --- | --- | --- |
+| **5.1** | Sensitive data is encrypted on the network using TLS. The secure channel is used consistently throughout the app. | ✓ | ✓ | ✓ |
+| **5.2** | The app verifies the X.509 certificate of the remote endpoint when the secure channel is established. Only certificates signed by a valid CA are accepted. | ✓ | ✓ | ✓ |
+| **5.3** | Communication of 3rd party libraries that send data to their own hosts (e.g. tracking libraries, crash reporter) uses secure communication protocols. | ✓ | ✓ | ✓ |
+| **5.4** | The app either uses its own certificate store, or pins the endpoint certificate or public key, and subsequently does not establish connections with endpoints that offer a different certificate or key, even if signed by a trusted CA. |   | ✓ | ✓ |
+| **5.5** | The cipher suite used to encrypt network data enables perfect forward secrecy. |   | ✓ | ✓ |
+| **5.6** | The app doesn't rely on a single insecure communication channel (email or SMS) for critical operations, such as enrollments and step-up authentication. |  | ✓ | ✓ |
+| **5.7** | The remote endpoint verifies the identity of the client when the secure channel is established (PKI mutual authentication). |   | ✓ | ✓ |
 
 ## References
 
