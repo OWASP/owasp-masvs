@@ -1,6 +1,6 @@
-# V5: Network communication requirements
+# V5: Network Communication Requirements
 
-## Control objective
+## Control Objective
 
 The purpose of this control is to ensure the confidentiality and integrity of information exchanged between the mobile app and remote service endpoints. At the very least, a mobile app must set up a secure, encrypted channel for network communication using regular PKI infrastructure. For level two or higher, additional defense-in-depth measure such as SSL pinning are required.
 

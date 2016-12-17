@@ -1,6 +1,6 @@
-# V6: Environmental interaction requirements
+# V6: Environmental Interaction Requirements
 
-## Control objective
+## Control Objective
 
 The controls in group this ensure that the app uses operation system APIs and standard components in a secure manner. Additionally, the controls cover communication between apps (IPC).
 

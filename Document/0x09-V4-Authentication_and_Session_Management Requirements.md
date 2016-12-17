@@ -1,6 +1,6 @@
 # V4: Authentication and Session Management Requirements
 
-## Control objective
+## Control Objective
 
 In most cases, user login to a remote service is an integral part of the overall mobile app architecture. Even though most of the logic happens at the endpoint, MASVS defines some basic requirements regarding how user accounts and sessions are managed. The requirements can be easily verified without access to the source code of the service endpoint.
 
