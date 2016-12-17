@@ -1,22 +1,22 @@
 # V7: Code quality and build setting requirements
 
-## Control objective
+## Control Objective
 
 The goal of this control is to ensure that basic security coding practices are followed in developing the app, and that "free" security features offered by the compiler are activated.
 
 ## Requirements
 
-| # | Description | 1 | 2 | 3 | 4 |
-| --- | --- | --- | --- | --- | --- |
-| **7.1** | Verify that the application catches and handles possible exceptions.| ✓ | ✓ | ✓ | ✓ |
-| **7.2** | Verify that all debugging code is removed from the release build, and that the app does not log detailed error messages. | ✓ | ✓ | ✓ | ✓ |
-| **7.3** | Verify that error handling logic in security controls denies access by default. | ✓ | ✓ | ✓ | ✓ |
-| **7.4** | Do not concatenate untrusted external input into database queries or dynamically executed code. | ✓ | ✓ | ✓ | ✓ |
-| **7.5** | If the app contains unmanaged code, verify that memory is allocated, freed and used securely.  | ✓ | ✓ | ✓ | ✓ |
-| **7.6** | Verify that the app is marked as a release build. | ✓ | ✓ | ✓ | ✓ |
-| **7.7** | Verify that security features offered by the compiler, such as stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ | ✓ | ✓ |
-| **7.8** | Verify that static and dynamic application security testing are performed as part of the development lifecycle, and that the configuration of the SAST and DAST tools is tailored to the app. |   | ✓ | ✓ | ✓ |
-| **7.9** | Verify that App must be code signed and provisioned with valid certificate. |   | ✓ | ✓ | ✓ |
+| # | Description | L1 | L2 | R |
+| --- | --- | --- | --- | --- |
+| **7.1** | The app is signed and provisioned with valid certificate. | ✓ | ✓ | ✓ |
+| **7.2** | The app has been built in release mode, with settings appropriate for a release build (e.g. non-debuggable). | ✓ | ✓ | ✓ |
+| **7.3** | Debugging code has been removed, and the app does not log verbose errors or debugging messages. | ✓ | ✓ | ✓ |
+| **7.4** | The app catches and handles possible exceptions.| ✓ | ✓ | ✓ |
+| **7.5** | Error handling logic in security controls denies access by default. | ✓ | ✓ | ✓ |
+| **7.6** | No untrusted external input is concatenated into database queries or dynamically executed code. | ✓ | ✓ | ✓ |
+| **7.7** | In unmanaged code, memory is allocated, freed and used securely.  | ✓ | ✓ | ✓ |
+| **7.8** | Security features offered by the compiler, such as stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ | ✓ |
+
 
 ## References
 
