@@ -13,7 +13,7 @@ The high level requirements are as follows:
 ## Requirements
 
 | # | Description | L1 | L2 | R |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | **1.1** | All app components are identified and known to be needed. | ✓ | ✓ | ✓ |
 | **1.2** | All third party components used by the application, such as libraries and frameworks, are identified, and tested for known vulnerabilities. | ✓ | ✓ | ✓ |
 | **1.3** | Security controls are never enforced only on the client-side, but on the respective remote endpoints. | ✓ | ✓ | ✓ |

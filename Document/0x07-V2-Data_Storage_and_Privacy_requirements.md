@@ -8,23 +8,23 @@ The protection of sensitive data, such as user credentials and private informati
 
 Fortunately, the vast majority of data disclosure issues can be prevented by following simple rules. Most of the controls listed in this chapter are mandatory for all verification levels.
 
-| # | Description | 1 | 2 | 3 | 4 |
-| --- | --- | --- | --- | --- | --- |
-| **2.1** | Verify that system credential storage facilities are used appropriately to store sensitive data, such as user credentials or cryptographic keys. | ✓ | ✓ | ✓ | ✓ |
-| **2.2** | Verify that no sensitive data is written to application logs. | ✓ | ✓ | ✓ | ✓ |
-| **2.3** | Verify that no sensitive data leaks to cloud storage. | ✓ | ✓ | ✓ | ✓ |
-| **2.4** | Verify that no sensitive data is sent to third parties. | ✓ | ✓ | ✓ | ✓ |
-| **2.5** | Verify that the keyboard cache is disabled on text inputs that process sensitive data. | ✓ | ✓ | ✓ | ✓ |
-| **2.6** | Verify that the clipboard is deactivated on text fields that may contain sensitive data. | ✓ | ✓ | ✓ | ✓ |
-| **2.7** | Verify that no sensitive data is exposed via IPC mechanisms. | ✓ | ✓ | ✓ | ✓ |
-| **2.8** | Verify that sensitive data, such as passwords and credit card numbers, is not exposed through the user interface, and does not leak to screenshots. | ✓ | ✓ | ✓ | ✓ |
-| **2.9** | Verify that sensitive data does not leak to backups. |   | ✓ | ✓ | ✓ |
-| **2.10** | Verify that the app removes sensitive data from views when backgrounded. |  | ✓ | ✓ | ✓ |
-| **2.11** | Verify that the app does not hold sensitive data in memory longer than necessary, and that the memory is cleared explicitly after use. |  | ✓ | ✓ | ✓ |
-| **2.12** | Verify that the app only runs on operating system versions that offer a hardware-backed keystore, and that the device supports the hardware-backed keystore. Alternatively, verify that encryption has been implemented according to the controls in MASVS V3. |  |  | ✓ | ✓ |
-| **2.13** | If a remote locking mechansim exists, ensure that local storage is wiped upon locking. |  |  | ✓ | ✓ |
-| **2.14** | Verify that the app enforces a minimum device access-security policy (e.g. lockscreen/passcode/etc.) |  |  | ✓ | ✓ |
-| **2.15** | Verify that highly sensitive cryptographic functionality is isolated from the operating system by using a hardware-based SE or TEE. If specialized hardware is unavailable, verify that strong software protections are applied in accordance to MASVS L4. |  |  |   | ✓ |
+| # | Description | L1 | L2 | R |
+| --- | --- | --- | --- | --- |
+| **2.1** | System credential storage facilities are used appropriately to store sensitive data, such as user credentials or cryptographic keys. | ✓ | ✓ | ✓ |
+| **2.2** | No sensitive data is written to application logs. | ✓ | ✓ | ✓ |
+| **2.3** | No sensitive data is synced cloud storage. | ✓ | ✓ | ✓ |
+| **2.4** | No sensitive data is sent to third parties. | ✓ | ✓ | ✓ |
+| **2.5** | The keyboard cache is disabled on text inputs that process sensitive data. | ✓ | ✓ | ✓ |
+| **2.6** | The clipboard is deactivated on text fields that may contain sensitive data. | ✓ | ✓ | ✓ |
+| **2.7** | No sensitive data is exposed via IPC mechanisms. | ✓ | ✓ | ✓ |
+| **2.8** | No sensitive data, such as passwords and credit card numbers, is exposed through the user interface or leaks to screenshots. | ✓ | ✓ | ✓ |
+| **2.9** | No sensitive data is included in backups. |   | ✓ | ✓ |
+| **2.10** | The app removes sensitive data from views when backgrounded. |  | ✓ | ✓ |
+| **2.11** | The app does not hold sensitive data in memory longer than necessary, and memory is cleared explicitly after use. |  | ✓ | ✓ |
+| **2.12** | If a remote locking mechanism exists, local storage is wiped upon locking. |  | ✓ | ✓ |
+| **2.13** | The app enforces a minimum device-access-security policy, such as requiring the user to set a device passcode. |  | ✓ | ✓ |
+| **2.14** | If the architecture requires sensitive information be stored on the device, the app only runs on operating system versions and devices that offer hardware-backed key storage. Alternatively, the information is protected using state-of-the-art software protection measures (see MASVS-V8). |  |  | ✓ |
+| **2.15** | If the architecture requires sensitive computations be performed on the client-side, these computations are isolated from the operating system by using a hardware-based SE or TEE. If specialized hardware is unavailable, these operations are protected using state-of-the-art software protection measures (see MASVS-V8). |  |  | ✓ |
 
 ## References
 
@@ -32,4 +32,3 @@ For more information, see also:
 
 - OWASP Mobile Top 10: M2  - Insecure Data Storage
 - CWE: https://cwe.mitre.org/data/definitions/922.html
-
