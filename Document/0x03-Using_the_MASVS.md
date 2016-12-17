@@ -26,7 +26,7 @@ MASVS-L2 introduces advanced security controls that go beyond the standard requi
 
 #### MASVS-R: Resiliency Against Reverse Engineering and Tampering
 
-The app has both state-of-the-art security and strong software protections. Such an application leverages hardware security features or strong obfuscation techniques and is highly resilient against attacks and reverse engineering attempts. MASVS-R is applicable to apps that handle highly sensitive data and may serve as a means of protecting intellectual property or tamper-proofing an app.
+The app has state-of-the-art security, and is also resilient against specific, clearly defined client-side binary-level attacks, such as tampering, modding, or reverse engineering to extract sensitive code or data. Such an app either leverages hardware security features or sufficiently strong software protection techniques. MASVS-R is applicable to apps that handle highly sensitive data and may serve as a means of protecting intellectual property or tamper-proofing an app.
 
 ### Recommended Use
 
