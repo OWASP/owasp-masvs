@@ -10,19 +10,18 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 - Suitable random number generator wherever randomness is required;
 - Access management for cryptographic keys.
 
-## Requirements
+## Security Verification Requirements
 
-| # | Description | L1 | L2 | R |
-| --- | --- | --- | --- | --- |
-| **3.1** | The app does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption.| ✓ | ✓ | ✓ |
-| **3.2** | The app uses proven implementations of cryptographic primitives. | ✓ | ✓ | ✓ |
-| **3.3** | The app does not use cryptographic protocols or algorithms that are widely considered depreciated. | ✓ | ✓| ✓ |
-| **3.4** | Cryptographic modules use parameters that adhere to current industry best practices. This includes key length and modes of operation. | ✓ | ✓| ✓ |
-| **3.5** | The app doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ | ✓ |
-| **3.6** | All random values are generated using a sufficiently secure random number generator. | ✓ | ✓ | ✓ |
-| **3.7** | All keys and passwords are changeable, and are generated or replaced at installation time. |   | ✓ | ✓ |
-| **3.8** | Cryptographic controls explicitly clear memory containing (working-)keys after they have been used. |   | ✓ | ✓ |
-| **3.9** | Consumers of cryptographic services do not have direct access to key material. Cryptographic processes are isolated from the OS using hardware security modules or state-of-the-art software protection measures. |   |   | ✓ |
+| # | Description | L1 | L2 |
+| --- | --- | --- | --- |
+| **3.1** | The app does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption.| ✓ | ✓ |
+| **3.2** | The app uses proven implementations of cryptographic primitives. | ✓ | ✓ |
+| **3.3** | The app does not use cryptographic protocols or algorithms that are widely considered depreciated. | ✓ | ✓|
+| **3.4** | Cryptographic modules use parameters that adhere to current industry best practices. This includes key length and modes of operation. | ✓ | ✓|
+| **3.5** | The app doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ |
+| **3.6** | All random values are generated using a sufficiently secure random number generator. | ✓ | ✓ |
+| **3.7** | All keys and passwords are changeable, and are generated or replaced at installation time. |   | ✓ |
+| **3.8** | Cryptographic controls explicitly clear memory containing (working-)keys after they have been used. |   | ✓ |
 
 ## References
 
