@@ -4,27 +4,25 @@
 
 The protection of sensitive data, such as user credentials and private information, is a key focus in mobile security. Firstly, sensitive data can be unintentionally exposed to other apps running on the same device if operating system mechanisms like IPC are used improperly. Data may also unintentionally leak to cloud storage, backups, or the keyboard cache. Additionally, mobile devices can be lost or stolen more easily compared to other types of devices, so an adversary gaining physical access is a more likely scenario. In that case, additional protections can be implemented to make retrieving the sensitive data more difficult.
 
-## Requirements
+## Security Verification Requirements
 
 Fortunately, the vast majority of data disclosure issues can be prevented by following simple rules. Most of the controls listed in this chapter are mandatory for all verification levels.
 
-| # | Description | L1 | L2 | R |
-| --- | --- | --- | --- | --- |
-| **2.1** | System credential storage facilities are used appropriately to store sensitive data, such as user credentials or cryptographic keys. | ✓ | ✓ | ✓ |
-| **2.2** | No sensitive data is written to application logs. | ✓ | ✓ | ✓ |
-| **2.3** | No sensitive data is synced cloud storage. | ✓ | ✓ | ✓ |
-| **2.4** | No sensitive data is sent to third parties. | ✓ | ✓ | ✓ |
-| **2.5** | The keyboard cache is disabled on text inputs that process sensitive data. | ✓ | ✓ | ✓ |
-| **2.6** | The clipboard is deactivated on text fields that may contain sensitive data. | ✓ | ✓ | ✓ |
-| **2.7** | No sensitive data is exposed via IPC mechanisms. | ✓ | ✓ | ✓ |
-| **2.8** | No sensitive data, such as passwords and credit card numbers, is exposed through the user interface or leaks to screenshots. | ✓ | ✓ | ✓ |
-| **2.9** | No sensitive data is included in backups. |   | ✓ | ✓ |
-| **2.10** | The app removes sensitive data from views when backgrounded. |  | ✓ | ✓ |
-| **2.11** | The app does not hold sensitive data in memory longer than necessary, and memory is cleared explicitly after use. |  | ✓ | ✓ |
-| **2.12** | If a remote locking mechanism exists, local storage is wiped upon locking. |  | ✓ | ✓ |
-| **2.13** | The app enforces a minimum device-access-security policy, such as requiring the user to set a device passcode. |  | ✓ | ✓ |
-| **2.14** | If the architecture requires sensitive information be stored on the device, the app only runs on operating system versions and devices that offer hardware-backed key storage. Alternatively, the information is protected using state-of-the-art software protection measures (see MASVS-V8). |  |  | ✓ |
-| **2.15** | If the architecture requires sensitive computations be performed on the client-side, these computations are isolated from the operating system by using a hardware-based SE or TEE. If specialized hardware is unavailable, these operations are protected using state-of-the-art software protection measures (see MASVS-V8). |  |  | ✓ |
+| # | Description | L1 | L2 |
+| --- | --- | --- | --- |
+| **2.1** | System credential storage facilities are used appropriately to store sensitive data, such as user credentials or cryptographic keys. | ✓ | ✓ |
+| **2.2** | No sensitive data is written to application logs. | ✓ | ✓ |
+| **2.3** | No sensitive data is synced cloud storage. | ✓ | ✓ |
+| **2.4** | No sensitive data is sent to third parties. | ✓ | ✓ |
+| **2.5** | The keyboard cache is disabled on text inputs that process sensitive data. | ✓ | ✓ |
+| **2.6** | The clipboard is deactivated on text fields that may contain sensitive data. | ✓ | ✓ |
+| **2.7** | No sensitive data is exposed via IPC mechanisms. | ✓ | ✓ |
+| **2.8** | No sensitive data, such as passwords and credit card numbers, is exposed through the user interface or leaks to screenshots. | ✓ | ✓ |
+| **2.9** | No sensitive data is included in backups. |   | ✓ |
+| **2.10** | The app removes sensitive data from views when backgrounded. |  | ✓ |
+| **2.11** | The app does not hold sensitive data in memory longer than necessary, and memory is cleared explicitly after use. |  | ✓ |
+| **2.12** | If a remote locking mechanism exists, local storage is wiped upon locking. |  | ✓ |
+| **2.13** | The app enforces a minimum device-access-security policy, such as requiring the user to set a device passcode. |  | ✓ |
 
 ## References
 

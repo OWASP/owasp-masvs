@@ -8,9 +8,11 @@ The MASVS can be used to establish a level of confidence in the security of mobi
 
 ## Mobile AppSec Model
 
-The MASVS defines two strict *security verification levels (L1 and L2)*, as well a reverse engineering resiliency level (MASVS-R) that is flexible, i.e. adaptable to an app-specific threat model. MASVS-L1 and MASVS-L2 contain generic security requirements and are recommended for all mobile apps (L1) and apps that handle highly sensitive data (L2). MASVS-R covers additional software protection controls that can be applied if preventing reverse engineering and/or tampering is a goal.
+The MASVS defines two strict *security verification levels (L1 and L2)*, as well a reverse engineering resiliency level (MASVS-R) that is "flexible", i.e. adaptable to an app-specific threat model. MASVS-L1 and MASVS-L2 contain generic security requirements and are recommended for all mobile apps (L1) and apps that handle highly sensitive data (L2). MASVS-R covers additional software protection controls that can be applied if preventing reverse engineering and/or tampering is a goal.
 
 Fulfilling the requirements in MASVS-L1 results in a secure app that follows security best practices appropriately and doesn't suffer from common vulnerabilities. MASVS-L2 adds additional controls, resulting in an app that is resilient against more sophisticated attacks in a regular environment, assuming the security controls of the mobile operating system are assumed to be intact and the end user is not viewed as a potential adversary. Fulfilling all, or subsets of, the software protection requirements in MASVS-R helps defend against specific threats when the end user is malicious and/or the mobile OS is compromised.
+
+** Note that software protections (MASVS-R) must never be used as a replacement for security controls. The controls listed in MASVR-R are intended to add threat-specific, additional protective controls to apps that also fulfill the MASVS requirements in MASVS L1 or L2. **
 
 ![Verification Levels](images/masvs-levels-new.jpg)
 
@@ -30,9 +32,18 @@ The app has state-of-the-art security, and is also resilient against specific, c
 
 ### Recommended Use
 
-Different threats have different motivations. Some industries have unique information and technology assets and domain specific regulatory compliance requirements.
+Apps are verified against MASVS L1 or L2 depending on business risk. L1 is applicable to all mobile apps, while L2 is generally recommended for apps that handle sensitive data and/or functionality. MASVS-R (or parts of it) can be applied *in addition* to proper security verification, to counter specific threats, such as repackaging or extraction of sensitive data.
 
-Below we provide industry-specific guidance regarding recommended MASVS levels. Although some unique criteria and some differences in threats exist for each industry, a common theme throughout all industry segments is that opportunistic attackers will look for any easily exploitable vulnerable applications, which is why **MASVS L1 is recommended for all applications regardless of industry.** L2 and higher are recommended where compromising an app grants access to highly sensitive data or functionality. The following tables shows how the levels are intended to be used.
+In summary, The following verification modes are available:
+
+- MASVS L1
+- MASVS L1+R
+- MASVS L2
+- MASVS L2+R
+
+The different combinations reflect different grades of security and resiliency. The goal is to allow for flexibility: For example, a mobile game might not warrant adding MASVS-L2 measures such as 2FA for usability reasons, but have a strong business need for tampering prevention.
+
+Different threats have different motivations. Some industries have unique information and technology assets and domain specific regulatory compliance requirements. Below we provide industry-specific guidance regarding recommended MASVS levels.
 
 | Industry | Threat Profile | MASVS-L2 Recommendation | MASVS-R Recommendation |
 | --- | --- | --- | --- | --- |

@@ -4,19 +4,20 @@
 
 The goal of this control is to ensure that basic security coding practices are followed in developing the app, and that "free" security features offered by the compiler are activated.
 
-## Requirements
+## Security Verification Requirements
 
-| # | Description | L1 | L2 | R |
-| --- | --- | --- | --- | --- |
-| **7.1** | The app is signed and provisioned with valid certificate. | ✓ | ✓ | ✓ |
-| **7.2** | The app has been built in release mode, with settings appropriate for a release build (e.g. non-debuggable). | ✓ | ✓ | ✓ |
-| **7.3** | Debugging code has been removed, and the app does not log verbose errors or debugging messages. | ✓ | ✓ | ✓ |
-| **7.4** | The app catches and handles possible exceptions.| ✓ | ✓ | ✓ |
-| **7.5** | Error handling logic in security controls denies access by default. | ✓ | ✓ | ✓ |
-| **7.6** | No untrusted external input is concatenated into database queries or dynamically executed code. | ✓ | ✓ | ✓ |
-| **7.7** | In unmanaged code, memory is allocated, freed and used securely.  | ✓ | ✓ | ✓ |
-| **7.8** | Security features offered by the compiler, such as stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ | ✓ |
-
+| # | Description | L1 | L2 |
+| --- | --- | --- | --- |
+| **7.1** | The app is signed and provisioned with valid certificate. | ✓ | ✓ |
+| **7.2** | The app has been built in release mode, with settings appropriate for a release build (e.g. non-debuggable). | ✓ | ✓ |
+| **7.3** | Debugging symbols have been removed from native binaries. | ✓ | ✓ |
+| **7.4** | Debugging code has been removed, and the app does not log verbose errors or debugging messages. | ✓ | ✓ |
+| **7.5** | The app catches and handles possible exceptions.| ✓ | ✓ |
+| **7.6** | Error handling logic in security controls denies access by default. | ✓ | ✓ |
+| **7.7** | No untrusted external input is concatenated into database queries or dynamically executed code. | ✓ | ✓ |
+| **7.8** | In unmanaged code, memory is allocated, freed and used securely.  | ✓ | ✓ |
+| **7.9** | Security features offered by the compiler, such as stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ |
+| **7.10** | Verify that Java bytecode has been minified.  | ✓ | ✓ |
 
 ## References
 
