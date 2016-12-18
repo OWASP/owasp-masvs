@@ -20,4 +20,5 @@ Data security is highly dependent on the configuration of the device as well as 
 
 For more information, see also:
 
-- TBD
+- https://www.owasp.org/index.php/OWASP_Top_10_Privacy_Risks_Project
+- http://www.oecd.org/sti/ieconomy/2013-oecd-privacy-guidelines.pdf
