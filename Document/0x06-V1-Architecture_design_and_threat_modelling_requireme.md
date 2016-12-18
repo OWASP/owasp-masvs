@@ -8,7 +8,6 @@ The high level requirements are as follows:
 
 - At MASVS-L1, components of the application are identified and have a reason for being in the app. All security controls are properly enforced on remote endpoints.
 - At MASVS-L2, the architecture and threat model have been formally defined, and the code adheres to the architecture.
-- With MASVS-R, the threat model extends to app-specific client-side attacks where the mobile operating system and/or end user are untrusted (e.g. stealing sensitive information that *must* be stored on the client, or cheating in an online game).
 
 ## Security Verification Requirements
 
