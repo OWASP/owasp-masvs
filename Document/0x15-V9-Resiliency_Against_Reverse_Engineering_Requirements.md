@@ -6,7 +6,7 @@ This chapter covers defense-in-depth measures that are recommended for apps that
 
 The controls in this section differ from previous sections in that they do not apply to all mobile apps generically. Rather, the controls described here should be applied as needed, based on a risk assessment as per the unauthorized modification and/or reverse engineering of the app.
 
-The OWASP document [Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention](https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification) lists business risks as well as dependent technical threats. In the section below, we refer to the technical threats countered by each of the controls.
+The OWASP document "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" (see references below) lists business risks as well as dependent technical threats related to tampering and reverse engineering. In the sections below, we refer to the technical threats described in that document.
 
 In most scenarios, implementing any of the controls on the list below implies that all prior controls be implemented as well. For example, "advanced" obfuscation as required in V9.14 and V9.15 is effective only when the app also fulfills V9.1 - V9.13.
 
@@ -75,4 +75,5 @@ Not applicable.
 For more information, see also:
 
 - OWASP Mobile Top 10: M8 - Code Tampering, M9 - Reverse Engineering
+- WASP Reverse Engineering Threats -https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification
 - OWASP Reverse Engineering and Code Modification Prevention - https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project
