@@ -12,7 +12,7 @@ The MASVS defines two strict *security verification levels (L1 and L2)*, as well
 
 Fulfilling the requirements in MASVS-L1 results in a secure app that follows security best practices appropriately and doesn't suffer from common vulnerabilities. MASVS-L2 adds additional controls, resulting in an app that is resilient against more sophisticated attacks in a regular environment, assuming the security controls of the mobile operating system are assumed to be intact and the end user is not viewed as a potential adversary. Fulfilling all, or subsets of, the software protection requirements in MASVS-R helps defend against specific threats when the end user is malicious and/or the mobile OS is compromised.
 
-** Note that software protections (MASVS-R) must never be used as a replacement for security controls. The controls listed in MASVR-R are intended to add threat-specific, additional protective controls to apps that also fulfill the MASVS requirements in MASVS L1 or L2. **
+**Note that software protections (MASVS-R) must never be used as a replacement for security controls. The controls listed in MASVR-R are intended to add threat-specific, additional protective controls to apps that also fulfill the MASVS requirements in MASVS L1 or L2.**
 
 ![Verification Levels](images/masvs-levels-new.jpg)
 
