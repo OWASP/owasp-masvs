@@ -21,7 +21,6 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 | **3.5** | The app doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ |
 | **3.6** | All random values are generated using a sufficiently secure random number generator. | ✓ | ✓ |
 | **3.7** | All keys and passwords are changeable, and are generated or replaced at installation time. |   | ✓ |
-| **3.8** | Cryptographic controls explicitly clear memory containing (working-)keys after they have been used. |   | ✓ |
 
 ## References
 
