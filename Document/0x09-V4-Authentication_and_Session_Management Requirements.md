@@ -10,9 +10,9 @@ In most cases, user login to a remote service is an integral part of the overall
 | --- | --- | --- | --- | --- |
 | **4.1** | If the app provides users with access to a remote service, an acceptable form of authentication such as username/password authentication is performed at the remote endpoint. | ✓ | ✓ |
 | **4.2** | The remote endpoint generates short-lived access tokens to authenticate client requests without sending the user's credentials.  | ✓ | ✓ |
-| **4.3** | A password policy exists and is enforced at the remote endpoint. | ✓ | ✓ |
-| **4.4** | The remote endpoint terminates the existing session when the user logs out. | ✓ | ✓ |
-| **4.5** | Sessions are terminated at the remote endpoint after a predefined period of inactivity. | ✓ | ✓ |
+| **4.3** | The remote endpoint terminates the existing session when the user logs out. | ✓ | ✓ |
+| **4.4** | Sessions are terminated at the remote endpoint after a predefined period of inactivity. | ✓ | ✓ |
+| **4.5** | A password policy exists and is enforced at the remote endpoint. | ✓ | ✓ |
 | **4.6** | The remote endpoint implements an exponential back-off, or temporarily locks the user account, when incorrect authentication credentials are submitted an excessive number of times . | ✓ | ✓ |
 | **4.7** | Biometric authentication, if any, is not event-bound, but is based on keying material being unlocked by the specific biometric authentication method. | ✓  | ✓ |
 | **4.8** | A second factor of authentication exists at the remote endpoint and the 2FA requirement is consistently enforced.  |   | ✓ |
