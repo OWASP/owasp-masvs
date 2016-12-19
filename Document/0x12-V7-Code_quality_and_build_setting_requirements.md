@@ -1,4 +1,4 @@
-# V7: Code quality and build setting requirements
+# V7: Code Quality and Build Setting Requirements
 
 ## Control Objective
 
