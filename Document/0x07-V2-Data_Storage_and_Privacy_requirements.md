@@ -12,7 +12,7 @@ Fortunately, the vast majority of data disclosure issues can be prevented by fol
 | --- | --- | --- | --- |
 | **2.1** | System credential storage facilities are used appropriately to store sensitive data, such as user credentials or cryptographic keys. | ✓ | ✓ |
 | **2.2** | No sensitive data is written to application logs. | ✓ | ✓ |
-| **2.3** | No sensitive data is synced cloud storage. | ✓ | ✓ |
+| **2.3** | No sensitive data is synced with cloud storage. | ✓ | ✓ |
 | **2.4** | No sensitive data is sent to third parties. | ✓ | ✓ |
 | **2.5** | The keyboard cache is disabled on text inputs that process sensitive data. | ✓ | ✓ |
 | **2.6** | The clipboard is deactivated on text fields that may contain sensitive data. | ✓ | ✓ |
