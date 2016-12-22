@@ -21,7 +21,8 @@ Fortunately, the vast majority of data disclosure issues can be prevented by fol
 | **2.9** | No sensitive data is included in backups. |   | ✓ |
 | **2.10** | The app removes sensitive data from views when backgrounded. |  | ✓ |
 | **2.11** | The app does not hold sensitive data in memory longer than necessary, and memory is cleared explicitly after use. |  | ✓ |
-| **2.12** | The app enforces a minimum device-access-security policy, such as requiring the user to set a device passcode. |  | ✓ |
+| **2.12** | If a remote locking mechanism exists, local storage is wiped upon locking. |  | ✓ |		 
+| **2.13** | The app enforces a minimum device-access-security policy, such as requiring the user to set a device passcode. |  | ✓ |
 
 ## References
 
