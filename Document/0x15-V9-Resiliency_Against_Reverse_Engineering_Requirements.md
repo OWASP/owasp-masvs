@@ -42,7 +42,7 @@ For any of the controls in the list below to be effective, the app must fulfill 
 
 | # | Description | R |
 | --- | --- | --- | --- |
-| **9.13** | Verify that the app uses multiple functionally independent means of emulator detection that, in context of the overall protection scheme, force adversaries to invest significant manual effort to run the app in an emulator (supersedes requirement 9.5). | ✓ 
+| **9.13** | The app uses multiple functionally independent means of emulator detection that, in context of the overall protection scheme, force adversaries to invest significant manual effort to run the app in an emulator (supersedes requirement 9.5). | ✓ 
 | **9.14** | If the architecture requires sensitive information be stored on the device, the app only runs on operating system versions and devices that offer hardware-backed key storage. Alternatively, the information is protected using obfuscation. Considering current published research, the obfuscation type and parameters are sufficient to cause significant manual effort to reverse engineers seeking to comprehend or extract the sensitive data. | ✓ |
 | **9.15** | If the architecture requires sensitive computations be performed on the client-side, these computations are isolated from the operating system by using a hardware-based SE or TEE. Alternatively, the information is protected using obfuscation. Considering current published research, the obfuscation type and parameters are sufficient to cause significant manual effort to reverse engineers seeking to comprehend the sensitive portions of the code and/or data.  | ✓ |
 
