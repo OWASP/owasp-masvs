@@ -20,7 +20,7 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 | **3.4** | Cryptographic modules use parameters that adhere to current industry best practices. This includes key length and modes of operation. | ✓ | ✓|
 | **3.5** | The app doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ |
 | **3.6** | All random values are generated using a sufficiently secure random number generator. | ✓ | ✓ |
-| **3.7** | All keys and passwords are changeable, and are generated or replaced at installation time. |   | ✓ |
+| **3.7** | All cryptographic keys are changeable, and are generated or replaced at installation time. |   | ✓ |
 
 ## References
 
