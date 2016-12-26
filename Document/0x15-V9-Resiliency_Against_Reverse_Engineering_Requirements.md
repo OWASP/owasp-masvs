@@ -12,19 +12,13 @@ For any of the controls in the list below to be effective, the app must fulfill 
 
 **Note that software protections must never be used as a replacement for security controls. The controls listed in MASVR-R are intended to add threat-specific, additional protective controls to apps that also fulfill the MASVS security requirements.**
 
-### Impede Extraction of Sensitive Data
+### App Isolation
 
 | # | Description | R |
 | --- | --- | --- | --- |
 | **9.1** | The app provides a custom keyboard whenever sensitive data is entered. | ✓ |
 | **9.2** | Custom UI components are used to display sensitive data. The UI components should not rely on immutable data structures. | ✓ |
-
-#### Threat References
-
-- API Monitoring
-- Swizzle with Behavioral Change
-
-### Impede Comprehension and Modification
+### Impede Dynamic Analysis and Tampering
 
 | # | Description | R |
 | --- | --- | --- | --- |
@@ -38,37 +32,19 @@ For any of the controls in the list below to be effective, the app must fulfill 
 | **9.10** |All executable files and libraries belonging to the app are either encrypted on the file level and/or important code and data segments inside the executables are encrypted or packed. Trivial static analysis should not reveal important code or data. | ✓ |
 | **9.11** | Obfuscating transformations and functional defenses are interdependent and well-integrated throughout the app. | ✓ |
 
-#### Threat References
-
-- Repackaging
-- Swizzle with Behavioral Change
-- Security Control Bypass
-- Presentation Layer Modification
-- API Monitoring
-
-### Impede Code Lifting
+### Device Binding
 
 | # | Description | R |
 | --- | --- | --- | --- |
 | **9.12**| The app implements a 'device binding' functionality when a mobile device is treated as being trusted. Verify that the device fingerprint is derived from multiple device properties.  | ✓ |
 
-#### Threat References
-
-Not applicable.
-
-### Protect Highly Sensitive Computations
+### Impede Comprehension
 
 | # | Description | R |
 | --- | --- | --- | --- |
-| **9.13** | Verify that the app uses multiple functionally independent means of emulator detection that, in context of the overall protection scheme, force adversaries to invest significant manual effort to run the app in an emulator (supersedes requirement 9.5). | ✓ |
+| **9.13** | Verify that the app uses multiple functionally independent means of emulator detection that, in context of the overall protection scheme, force adversaries to invest significant manual effort to run the app in an emulator (supersedes requirement 9.5). | ✓ 
 | **9.14** | If the architecture requires sensitive information be stored on the device, the app only runs on operating system versions and devices that offer hardware-backed key storage. Alternatively, the information is protected using obfuscation. Considering current published research, the obfuscation type and parameters are sufficient to cause significant manual effort to reverse engineers seeking to comprehend or extract the sensitive data. | ✓ |
 | **9.15** | If the architecture requires sensitive computations be performed on the client-side, these computations are isolated from the operating system by using a hardware-based SE or TEE. Alternatively, the information is protected using obfuscation. Considering current published research, the obfuscation type and parameters are sufficient to cause significant manual effort to reverse engineers seeking to comprehend the sensitive portions of the code and/or data.  | ✓ |
-
-#### Threat References
-
-- Cryptographic Key Replacement
-- Cryptographic Key Interception
-- Algorithm Decompilation and Analysis
 
 ## References
 
