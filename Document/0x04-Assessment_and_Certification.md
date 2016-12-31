@@ -18,7 +18,7 @@ A certifying organization must include in any report the scope of the verificati
 
 ### Using the OWASP Mobile Security Testing Guide (MSTG)
 
-The Mobile Security Testing Guide is a manual for testing the security of mobile apps. It describes the technical processes for verifying the requirements listed in the MASVS.The MSTG includes a list of test cases, each of which map to a requirement in the MASVS. For example, OWASP MASVS V2 "Data Storage and Privacy Requirements" maps to the "OMTG-DATAST" section of the MSTG. The MSTG test case OMTG-DATAST-009 describes how to verify the requirement OWASP MASVS V2.9:
+The Mobile Security Testing Guide is a manual for testing the security of mobile apps. It describes the technical processes for verifying the requirements listed in the MASVS. The MSTG includes a list of test cases, each of which map to a requirement in the MASVS. For example, OWASP MASVS V2 "Data Storage and Privacy Requirements" maps to the "OMTG-DATAST" section of the MSTG. The MSTG test case OMTG-DATAST-009 describes how to verify the requirement OWASP MASVS V2.9:
 
 - OWASP MASVS V2.9 "Verify that sensitive data does not leak to backups."
 - OMTG-DATAST-009: "Test for Sensitive Data in Backups"
