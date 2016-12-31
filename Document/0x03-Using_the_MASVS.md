@@ -16,6 +16,13 @@ Fulfilling the requirements in MASVS-L1 results in a secure app that follows sec
 
 ![Verification Levels](images/masvs-levels-new.jpg)
 
+### Document Structure
+
+The first part of the MASVS contains a description of the security model and available verification levels, followed by recommendations on how to use the standard in practice. The detailed security requirements, along with a mapping to the verification levels, are listed in the second part. The requirements have been grouped into nine categories (V1.. V9) based on technical objective / scope. The following nomenclature is used throughout the MASVS and MSTG:
+
+- Requirement category: MASVS-Vx, e.g. MASVS-V2: Data Storage and Privacy
+- Specific requirement: MASVS-Vx.y, e.g. MASVS-V2.2: "No sensitive data is written to application logs."  
+
 ### Verification Levels in Detail
 
 #### MASVS-L1: Standard Security
