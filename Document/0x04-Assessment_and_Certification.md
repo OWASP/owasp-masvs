@@ -10,7 +10,7 @@ This should not inhibit organizations from offering such assurance services, as 
 
 ## Guidance for Certifying Mobile Apps
 
-The Mobile Application Security Verification Standard can be used as an open book verification of a mobile app, including open and unfettered access to key resources such as architects and developers of the app, project documentation, source code, and authenticated access to endpoints (including access to at least one account in each role).
+The recommended way of verifying compliance of a mobile app with the MASVS is by performing an "open book" review, meaning that the testers are granted access to key resources such as architects and developers of the app, project documentation, source code, and authenticated access to endpoints (including access to at least one user account for each role).
 
 It is important to note that the MASVS only covers security of the (client-side) mobile app and the network communication between the app and its remote endpoint(s). It does not contain specific requirements for the remote services (e.g. web services) associated with the app, safe for a limited set of generic requirements pertaining to authentication and session management. However, MASVS V1 specifies that remote services must be covered by the overall threat model, and be tested using appropriate standards (such as the OWASP ASVS).
 
