@@ -22,7 +22,7 @@ The high level requirements are as follows:
 | **1.7** | All security controls (including libraries that call external security services) have a centralized implementation. |   | ✓ |
 | **1.8** | All application components are defined in terms of the business functions and/or security functions they provide. |   | ✓ |
 | **1.9** | All components that are not part of the application but that the application relies on to operate, are defined in terms of the functions, and/or security functions, they provide. |   | ✓ |
-| **1.10** | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. |   | ✓ |
+| **1.10** | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |   | ✓ |
 | **1.11** | A process is in place to monitor first and third party app stores for copies of the app and for fake apps using a similar brand or name. |   | ✓ |
 | **1.12** | Application blacklisting (or whitelisting) is in place based on the application version & identifiers. |   | ✓ |
 | **1.13** | To prevent cross-platform account compromise, authentication information for other channels is not reused in the mobile app. |   | ✓ |
