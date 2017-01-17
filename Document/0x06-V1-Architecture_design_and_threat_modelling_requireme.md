@@ -18,7 +18,7 @@ The high level requirements are as follows:
 | **1.3** | Security controls are never enforced only on the client-side, but on the respective remote endpoints. | ✓ | ✓ |
 | **1.4** | A high-level architecture for the mobile application and all connected remote services has been defined and security has been addressed in that architecture. | ✓ | ✓ |
 | **1.5** | A threat model for the mobile app and the associated remote services has been produced that identifies potential threats and countermeasures. |   | ✓ |
-| **1.6** | All third party components have been assessed (associated risks) before being used or implemented. A process is in place to ensure that each time a security update for a third party component is published, the change is inspected and the risk evaluated. |   | ✓ |
+| **1.6** | All third party components have been assessed (associated risks) before being used or integrated. A process is in place to ensure that each time a security update for a third party component is published, the change is inspected and the risk evaluated. |   | ✓ |
 | **1.7** | All security controls (including libraries that call external security services) have a centralized implementation. |   | ✓ |
 | **1.8** | All application components are defined in terms of the business functions and/or security functions they provide. |   | ✓ |
 | **1.9** | All components that are not part of the application but that the application relies on to operate, are defined in terms of the functions, and/or security functions, they provide. |   | ✓ |
