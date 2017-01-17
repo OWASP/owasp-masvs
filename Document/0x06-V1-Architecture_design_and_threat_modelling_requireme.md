@@ -21,7 +21,7 @@ The high level requirements are as follows:
 | **1.6** | All third party components have been assessed (associated risks) before being used or integrated. A process is in place to ensure that each time a security update for a third party component is published, the change is inspected and the risk evaluated. |   | ✓ |
 | **1.7** | All security controls (including libraries that call external security services) have a centralized implementation. |   | ✓ |
 | **1.8** | All application components are defined in terms of the business functions and/or security functions they provide. |   | ✓ |
-| **1.9** | All components that are not part of the application but that the application relies on to operate, are defined in terms of the functions, and/or security functions, they provide. |   | ✓ |
+| **1.9** | All components that are not part of the application but that the application relies on to operate, are defined regarding the business functions, and/or security functions, they provide. |   | ✓ |
 | **1.10** | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |   | ✓ |
 | **1.11** | A process is in place to monitor first and third party app stores for copies of the app and for fake apps using a similar brand or name. |   | ✓ |
 | **1.12** | Application blacklisting (or whitelisting) is in place based on the application version & identifiers. |   | ✓ |
