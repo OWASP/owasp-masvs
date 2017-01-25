@@ -14,19 +14,18 @@ The high level requirements are as follows:
 | # | Description | L1 | L2 |
 | --- | --- | --- | --- |
 | **1.1** | All app components are identified and known to be needed. | ✓ | ✓ |
-| **1.2** | All third party components used by the application, such as libraries and frameworks, are identified, and tested for known vulnerabilities. | ✓ | ✓ |
-| **1.3** | Security controls are never enforced only on the client-side, but on the respective remote endpoints. | ✓ | ✓ |
-| **1.4** | A high-level architecture for the mobile application and all connected remote services has been defined and security has been addressed in that architecture. | ✓ | ✓ |
-| **1.5** | A threat model for the mobile app and the associated remote services has been produced that identifies potential threats and countermeasures. |   | ✓ |
-| **1.6** | All third party components have been assessed (associated risks) before being used or implemented. A process is in place to ensure that each time a security update for a third party component is published, the change is inspected and the risk evaluated. |   | ✓ |
-| **1.7** | All security controls (including libraries that call external security services) have a centralized implementation. |   | ✓ |
-| **1.8** | All application components are defined in terms of the business functions and/or security functions they provide. |   | ✓ |
-| **1.9** | All components that are not part of the application but that the application relies on to operate, are defined in terms of the functions, and/or security functions, they provide. |   | ✓ |
-| **1.10** | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. |   | ✓ |
-| **1.11** | A process is in place to monitor first and third party app stores for copies of the app and for fake apps using a similar brand or name. |   | ✓ |
-| **1.12** | Application blacklisting (or whitelisting) is in place based on the application version & identifiers. |   | ✓ |
-| **1.13** | To prevent cross-platform account compromise, authentication information for other channels is not reused in the mobile app. |   | ✓ |
-| **1.14** | Static and dynamic application security testing are performed as part of the development lifecycle. If some or all of the testing is automated, the configuration of the testing tools must be tailored to the specific app. |   | ✓ |
+| **1.2** | All third party components used by the mobile app, such as libraries and frameworks, are identified, and checked for known vulnerabilities. | ✓ | ✓ |
+| **1.3** | Security controls are never enforced only on the client side, but on the respective remote endpoints. | ✓ | ✓ |
+| **1.4** | A high-level architecture for the mobile app and all connected remote services has been defined and security has been addressed in that architecture. | ✓ | ✓ |
+| **1.5** | Data considered sensitive in the context of the mobile app is clearly identified. | ✓ | ✓ |
+| **1.6** | All app components are defined in terms of the business functions and/or security functions they provide. |   | ✓ |
+| **1.7** | A threat model for the mobile app and the associated remote services has been produced that identifies potential threats and countermeasures. |   | ✓ |
+| **1.8** | All third party components have been assessed (associated risks) before being used or implemented. A process is in place to ensure that each time a security update for a third party component is published, the change is inspected and the risk evaluated. |   | ✓ |
+| **1.9** | All security controls have a centralized implementation. |   | ✓ |
+| **1.10** | All components that are not part of the application but that the application relies on to operate, are clearly identified and the security implications of using those components are known. |   | ✓ |
+| **1.11** | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |   | ✓ |
+| **1.12** | Remote endoints verify that connecting clients use the current version of the mobile app. |   | ✓ |
+| **1.13** | Security testing is performed as part of the development lifecycle. If some or all of the testing is automated, the configuration of the testing tools must be tailored to the specific app. |   | ✓ |
 
 ## References
 
