@@ -13,7 +13,7 @@ In most cases, user login to a remote service is an integral part of the overall
 | **4.3** | The remote endpoint terminates the existing session when the user logs out. | ✓ | ✓ |
 | **4.4** | A password policy exists and is enforced at the remote endpoint. | ✓ | ✓ |
 | **4.5** | The remote endpoint implements an exponential back-off, or temporarily locks the user account, when incorrect authentication credentials are submitted an excessive number of times . | ✓ | ✓ |
-| **4.6** | Biometric authentication, if any, is not event-bound (i.e. using an API that simply returns "true" or "false"), but rather based on unlocking an item from the keychain/keystore. |   | ✓ |
+| **4.6** | Biometric authentication, if any, is not event-bound (i.e. using an API that simply returns "true" or "false"). Instead, it is based on unlocking the keychain/keystore. |   | ✓ |
 | **4.7** | Sessions are terminated at the remote endpoint after a predefined period of inactivity. |   | ✓ |
 | **4.8** | A second factor of authentication exists at the remote endpoint and the 2FA requirement is consistently enforced.  |   | ✓ |
 | **4.9** | Step-up authentication is required to enable actions that deal with sensitive data or transactions.  |   | ✓ |
