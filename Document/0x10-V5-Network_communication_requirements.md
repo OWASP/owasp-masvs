@@ -13,7 +13,6 @@ The purpose of this control is to ensure the confidentiality and integrity of in
 | **5.3** | The app either uses its own certificate store, or pins the endpoint certificate or public key, and subsequently does not establish connections with endpoints that offer a different certificate or key, even if signed by a trusted CA. |   | ✓ |
 | **5.4** | The cipher suite used to encrypt network data enables perfect forward secrecy. |   | ✓ |
 | **5.5** | The app doesn't rely on a single insecure communication channel (email or SMS) for critical operations, such as enrollments and account recovery. |  | ✓ |
-| **5.6** | The remote endpoint verifies the identity of the client when the secure channel is established (PKI mutual authentication). |   | ✓ |
 
 ## References
 
