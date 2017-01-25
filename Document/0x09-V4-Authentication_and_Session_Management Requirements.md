@@ -17,8 +17,7 @@ In most cases, user login to a remote service is an integral part of the overall
 | **4.7** | Sessions are terminated at the remote endpoint after a predefined period of inactivity. |   | ✓ |
 | **4.8** | A second factor of authentication exists at the remote endpoint and the 2FA requirement is consistently enforced.  |   | ✓ |
 | **4.9** | Step-up authentication is required to enable actions that deal with sensitive data or transactions.  |   | ✓ |
-| **4.10** | The remote endpoint prevents session hijacking (e.g. by binding the session to the client IP address, or indirectly by using payload encryption).  |   | ✓ |
-| **4.11** |  The app informs the user of all login activities with his or her account. Users are able view a list of devices used to access the account, and to block specific devices. |  | ✓ |
+| **4.10** |  The app informs the user of all login activities with his or her account. Users are able view a list of devices used to access the account, and to block specific devices. |  | ✓ |
 
 ## References
 
