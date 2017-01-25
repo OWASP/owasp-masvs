@@ -23,7 +23,7 @@ The high level requirements are as follows:
 | **1.8** | All third party components have been assessed (associated risks) before being used or implemented. A process is in place to ensure that each time a security update for a third party component is published, the change is inspected and the risk evaluated. |   | ✓ |
 | **1.9** | All security controls have a centralized implementation. |   | ✓ |
 | **1.10** | All components that are not part of the application but that the application relies on to operate, are clearly identified and the security implications of using those components are known. |   | ✓ |
-| **1.11** | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. |   | ✓ |
+| **1.11** | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |   | ✓ |
 | **1.12** | Remote endoints verify that connecting clients use the current version of the mobile app. |   | ✓ |
 | **1.13** | Security testing is performed as part of the development lifecycle. If some or all of the testing is automated, the configuration of the testing tools must be tailored to the specific app. |   | ✓ |
 
