@@ -2,15 +2,15 @@
 
 The MASVS can be used to establish a level of confidence in the security of mobile apps. The requirements were developed with the following objectives in mind:
 
-* Use as a metric - To provide application developers and application owners with a framework which allows to measure the security, and thus the degree of trust that can be placed in their mobile applications.
-* Use as guidance - To provide guidance on what security controls are necessary to implement and test.
+* Use as a metric - To provide a security standard against which existing mobile apps can be compared by developers and application owners;
+* Use as guidance - To provide guidance during all phases of mobile app development and testing;
 * Use during procurement - To provide a baseline for mobile app security verification.
 
 ## Mobile AppSec Model
 
-The MASVS defines two strict *security verification levels (L1 and L2)*, as well a reverse engineering resiliency level (MASVS-R) that is "flexible", i.e. adaptable to an app-specific threat model. MASVS-L1 and MASVS-L2 contain generic security requirements and are recommended for all mobile apps (L1) and apps that handle highly sensitive data (L2). MASVS-R covers additional software protection controls that can be applied if preventing reverse engineering and/or tampering is a goal.
+The MASVS defines two strict *security verification levels (L1 and L2)*, as well a set of reverse engineering resiliency requirements (MASVS-R) that is "flexible", i.e. adaptable to an app-specific threat model. MASVS-L1 and MASVS-L2 contain generic security requirements and are recommended for all mobile apps (L1) and apps that handle highly sensitive data (L2). MASVS-R covers additional software protection controls that can be applied if preventing reverse engineering and/or tampering is a goal.
 
-Fulfilling the requirements in MASVS-L1 results in a secure app that follows security best practices appropriately and doesn't suffer from common vulnerabilities. MASVS-L2 adds additional controls, resulting in an app that is resilient against more sophisticated attacks in a regular environment, assuming the security controls of the mobile operating system are assumed to be intact and the end user is not viewed as a potential adversary. Fulfilling all, or subsets of, the software protection requirements in MASVS-R helps defend against specific threats when the end user is malicious and/or the mobile OS is compromised.
+Fulfilling the requirements in MASVS-L1 results in a secure app that follows security best practices appropriately and doesn't suffer from common vulnerabilities. MASVS-L2 adds additional controls, resulting in an app that is resilient against more sophisticated attacks in a regular environment, assuming the security controls of the mobile operating system are assumed to be intact and the end user is not viewed as a potential adversary. Fulfilling all, or subsets of, the software protection requirements in MASVS-R helps impede specific client-side threats where the end user is malicious and/or the mobile OS is compromised.
 
 **Note that software protections (MASVS-R) must never be used as a replacement for security controls. The controls listed in MASVR-R are intended to add threat-specific, additional protective controls to apps that also fulfill the MASVS requirements in MASVS L1 or L2.**
 
@@ -31,7 +31,7 @@ A mobile app that achieves MASVS-L1 adheres to mobile application security best 
 
 #### MASVS-L2: Defense-in-Depth
 
-MASVS-L2 introduces advanced security controls that go beyond the standard requirements. To fulfill L2, a threat model must exist, and security must be considered during the design phase. The effectiveness of the controls must be verified using white-box testing. This level is appropriate for applications that handle sensitive data, such as mobile banking.
+MASVS-L2 introduces advanced security controls that go beyond the standard requirements. To fulfill L2, a threat model must exist, and security must be an integral part of the app's architecture and design. Security must be verified using white-box testing. This level is appropriate for applications that handle sensitive data, such as mobile banking.
 
 #### MASVS-R: Resiliency Against Reverse Engineering and Tampering
 
