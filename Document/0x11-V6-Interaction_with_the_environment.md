@@ -15,12 +15,11 @@ The controls in this group ensure that the app uses platform APIs and standard c
 | **6.5** | The app does not export sensitive functionality through IPC facilities. | ✓ | ✓ |
 | **6.6** | JavaScript is disabled in WebViews unless explicitly required. | ✓ | ✓ |
 | **6.7** | File access is disabled in WebViews unless explicitly required. | ✓ | ✓ |
-| **6.8** | If JavaScript is required in a WebView, the WebView is restricted to a specific URL, and no unfiltered user input is rendered in the WebView. | ✓ | ✓ |
-| **6.9** | The app does not load user-supplied local resources into WebViews. | ✓ | ✓ |
-| **6.10** | If Java objects are exposed in a WebView, verify that the WebView can only render JavaScript contained within the app package. | ✓ | ✓ |
-| **6.11** | The app leverages operating system features that allow updating of outdated system components. |   | ✓ |
-| **6.12** | The app checks its installation source, and only runs if installed from a trusted source (e.g. Google Play Store / Apple App Store). |  | ✓ |
-| **6.13** | The app detects whether it is being executed on a rooted or jailbroken device. Depending on the business requirement, users are warned, or the app is terminated if the device is rooted or jailbroken. |  | ✓ |
+| **6.8** | The app does not load user-supplied local resources into WebViews. | ✓ | ✓ |
+| **6.9** | If Java objects are exposed in a WebView, verify that the WebView only renders JavaScript contained within the app package. | ✓ | ✓ |
+| **6.10** | The app leverages operating system features that allow updating of outdated system components. |   | ✓ |
+| **6.11** | The app checks its installation source, and only runs if installed from a trusted source (e.g. Google Play Store / Apple App Store). |  | ✓ |
+| **6.12** | The app detects whether it is being executed on a rooted or jailbroken device. Depending on the business requirement, users are warned, or the app is terminated if the device is rooted or jailbroken. |  | ✓ |
 
 ## References
 
