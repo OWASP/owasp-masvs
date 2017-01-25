@@ -2,7 +2,7 @@
 
 ## Control Objective
 
-The controls in group this ensure that the app uses operation system APIs and standard components in a secure manner. Additionally, the controls cover communication between apps (IPC).
+The controls in this group ensure that the app uses platform APIs and standard components in a secure manner. Additionally, the controls cover communication between apps (IPC).
 
 ## Security Verification Requirements
 
@@ -25,6 +25,6 @@ The controls in group this ensure that the app uses operation system APIs and st
 
 For more information, see also:
 
-- OWASP Mobile Top 10:  M1 - Improper Platform Usage
+- OWASP Mobile Top 10: M1 - Improper Platform Usage
 - CWE: https://cwe.mitre.org/data/definitions/20.html
 - CWE: https://cwe.mitre.org/data/definitions/749.html
