@@ -10,7 +10,7 @@ The controls in this group ensure that the app uses platform APIs and standard c
 | --- | --- | --- | --- |
 | **6.1** | The app only requires the minimum set of permissions necessary. | ✓ | ✓ |
 | **6.2** | All inputs from external sources are validated. This includes data received via the GUI, IPC mechanisms such as intents, custom URLs, and network sources. | ✓ | ✓ |
-| **6.3** | User input processed is sanitized using an appropriate sanitization mechanism depending on the context (e.g. preventing XPath injection or code injection). | ✓ | ✓ |
+| **6.3** | User input is sanitized using an appropriate sanitization mechanism depending on the context (e.g. preventing XPath injection or code injection). | ✓ | ✓ |
 | **6.4** | The app does not export sensitive functionality via custom URL schemes. | ✓ | ✓ |
 | **6.5** | The app does not export sensitive functionality through IPC facilities. | ✓ | ✓ |
 | **6.6** | JavaScript is disabled in WebViews unless explicitly required. | ✓ | ✓ |
