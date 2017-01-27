@@ -22,17 +22,16 @@ The vast majority of data disclosure issues can be prevented by following simple
 | --- | --- | --- | --- |
 | **2.1** | System credential storage facilities are used appropriately to store sensitive data, such as user credentials or cryptographic keys. | ✓ | ✓ |
 | **2.2** | No sensitive data is written to application logs. | ✓ | ✓ |
-| **2.3** | No sensitive data is synced with cloud storage. | ✓ | ✓ |
-| **2.4** | No sensitive data is shared with third parties unless it is a necessary part of the architecture. | ✓ | ✓ |
-| **2.5** | The keyboard cache is disabled on text inputs that process sensitive data. | ✓ | ✓ |
-| **2.6** | The clipboard is deactivated on text fields that may contain sensitive data. | ✓ | ✓ |
-| **2.7** | No sensitive data is exposed via IPC mechanisms. | ✓ | ✓ |
-| **2.8** | No sensitive data, such as passwords and credit card numbers, is exposed through the user interface or leaks to screenshots. | ✓ | ✓ |
-| **2.9** | No sensitive data is included in backups. |   | ✓ |
-| **2.10** | The app removes sensitive data from views when backgrounded. |  | ✓ |
-| **2.11** | The app does not hold sensitive data in memory longer than necessary, and memory is cleared explicitly after use. |  | ✓ |
-| **2.12** | The app enforces a minimum device-access-security policy, such as requiring the user to set a device passcode. |  | ✓ |
-| **2.13** | The app educates the user about the types of personally identifiable information processed, as well as security best practices the user should follow in using the app. |  | ✓ |
+| **2.3** | No sensitive data is shared with third parties unless it is a necessary part of the architecture. | ✓ | ✓ |
+| **2.4** | The keyboard cache is disabled on text inputs that process sensitive data. | ✓ | ✓ |
+| **2.5** | The clipboard is deactivated on text fields that may contain sensitive data. | ✓ | ✓ |
+| **2.6** | No sensitive data is exposed via IPC mechanisms. | ✓ | ✓ |
+| **2.7** | No sensitive data, such as passwords and credit card numbers, is exposed through the user interface or leaks to screenshots. | ✓ | ✓ |
+| **2.8** | No sensitive data is included in backups. |   | ✓ |
+| **2.9** | The app removes sensitive data from views when backgrounded. |  | ✓ |
+| **2.10** | The app does not hold sensitive data in memory longer than necessary, and memory is cleared explicitly after use. |  | ✓ |
+| **2.11** | The app enforces a minimum device-access-security policy, such as requiring the user to set a device passcode. |  | ✓ |
+| **2.12** | The app educates the user about the types of personally identifiable information processed, as well as security best practices the user should follow in using the app. |  | ✓ |
 
 ## References
 
