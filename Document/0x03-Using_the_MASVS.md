@@ -74,4 +74,4 @@ Implementing the requirements of MASVS L2 increases security, while at the same 
 
 ###### MASVS L2+R
 
-- Financial Industry: Online banking apps that allow the user to move funds, where root malware is a potential issue. For example, a banking app uses SMS-OTP for step-up authentication, and local root malware could automate and instrument the app to perform transactions. In this case, controls from MASVS-R can be used to impede tampering, increasing the effort for malware authors.
+- Financial Industry: Online banking apps that allow the user to move funds, where root malware is a potential issue. For example, a banking app uses SMS-OTP for step-up authentication, and local root malware could automate and instrument the app to perform transactions. In this case, controls from MASVS-R can be used to impede tampering, raising the bar for malware authors.
