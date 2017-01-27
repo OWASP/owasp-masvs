@@ -8,9 +8,15 @@ The controls in this section differ from previous sections in that they do not a
 
 The OWASP document "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" (see references below) lists business risks as well as dependent technical threats related to tampering and reverse engineering. In the sections below, we refer to the technical threats described in that document.
 
-For any of the controls in the list below to be effective, the app must fulfill at least all of MASVS-L1, as well as all lower-numbered requriements in V9.
+For any of the controls in the list below to be effective, the app must fulfill at least all of MASVS-L1, as well as all lower-numbered requriements in V8. For examples, the obfuscation controls listed in under "impede comprehension" must be combined with "app isolation", "impede dynamic analysis and tampering" and "device binding".
 
 **Note that software protections must never be used as a replacement for security controls. The controls listed in MASVR-R are intended to add threat-specific, additional protective controls to apps that also fulfill the MASVS security requirements.**
+
+The following considerations apply:
+
+1. A threat model must be defined that clearly outlines the attacker's goals. Additionally, a targets must be set that specifies the level of protection the protection scheme is meant to provide (e.g., cause an effort of at least 20 man-days for a skilled reverse engineer to reach defined goal X using state-of-the-art tools and processes).
+
+2. The protection scheme should be verified using manual resiliency testing by a subject matter expert (see also the "reverse engineering" and "assessing software protections" chapters in the Mobile Security Testing Guide).
 
 ### App Isolation
 
@@ -42,9 +48,10 @@ For any of the controls in the list below to be effective, the app must fulfill 
 
 | # | Description | R |
 | --- | --- | --- | --- |
-| **8.13** | The app uses multiple functionally independent means of emulator detection that, in context of the overall protection scheme, force adversaries to invest significant manual effort to run the app in an emulator (supersedes requirement 9.5). | ✓ 
+| **8.13** | The app uses multiple functionally independent means of emulator detection that, in context of the overall protection scheme, force adversaries to invest significant manual effort to run the app in an emulator (supersedes requirement 8.5). | ✓ 
 | **8.14** | If the architecture requires sensitive information be stored on the device, the app only runs on operating system versions and devices that offer hardware-backed key storage. Alternatively, the information is protected using obfuscation. Considering current published research, the obfuscation type and parameters are sufficient to cause significant manual effort to reverse engineers seeking to comprehend or extract the sensitive data. | ✓ |
 | **8.15** | If the architecture requires sensitive computations be performed on the client-side, these computations are isolated from the operating system by using a hardware-based SE or TEE. Alternatively, the information is protected using obfuscation. Considering current published research, the obfuscation type and parameters are sufficient to cause significant manual effort to reverse engineers seeking to comprehend the sensitive portions of the code and/or data.  | ✓ |
+
 
 ## References
 
