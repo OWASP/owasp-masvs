@@ -39,4 +39,3 @@ To add or edit content, simply fork the repository and make your changes, then c
 * [V8: Resiliency Against Reverse Engineering Requirements](Document/0x15-V8-Resiliency_Against_Reverse_Engineering_Requirements.md)
 * [Appendix A: Glossary](Document/0x90-Appendix-A_Glossary.md)
 * [Appendix B: References](Document/0x91-Appendix-B_References.md)
-* [Appendix C: Standards Mappings](Document/0x92-Appendix-C_Standards_Mappings.md)
