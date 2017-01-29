@@ -34,7 +34,7 @@ The following considerations apply:
 | **8.6** | The app detects the presence of widely used reverse engineering tools, such as code injection tools, hooking frameworks and debugging servers. | ✓ |
 | **8.7** | The app detects, and response to, being run in an emulator using any method.   | ✓ |
 | **8.8** | The app detects, and responds to, modifications of process memory, including relocation table patches and injected code.  | ✓ |
-| **8.9** | The app implements multiple different responses to tampering, debugging and emulation (requirements 9.2 - 9.6), including stealthy responses that don't simply terminate the app. | ✓ |
+| **8.9** | The app implements multiple different responses to tampering, debugging and emulation, including stealthy responses that don't simply terminate the app. | ✓ |
 | **8.10** |All executable files and libraries belonging to the app are either encrypted on the file level and/or important code and data segments inside the executables are encrypted or packed. Trivial static analysis should not reveal important code or data. | ✓ |
 | **8.11** | Obfuscating transformations and functional defenses are interdependent and well-integrated throughout the app. | ✓ |
 
