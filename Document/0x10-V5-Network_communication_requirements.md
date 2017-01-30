@@ -16,6 +16,13 @@ The purpose of this control is to ensure the confidentiality and integrity of in
 
 ## References
 
+The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section, as well as best practices by mobile operating system:
+
+(...TODO... link this to v1.0 instead of master once tagged).
+
+- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x01d_OMTG-NET_Android.md
+- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x01d_OMTG-NET_iOS.md
+
 For more information, see also:
 
 - OWASP Mobile Top 10:  M3 - Insecure Communication
