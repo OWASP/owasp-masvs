@@ -35,6 +35,13 @@ The vast majority of data disclosure issues can be prevented by following simple
 
 ## References
 
+The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requriements listed in this chapter, as well as recommended best practices for each mobile operating system:
+
+(...TODO... link this to v1.0 instead of master once tagged).
+
+- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x01a_OMTG-DATAST_Android.md
+- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x01a_OMTG-DATAST_iOS.md
+
 For more information, see also:
 
 - OWASP Mobile Top 10: M2  - Insecure Data Storage
