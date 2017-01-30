@@ -25,7 +25,7 @@ The high level requirements are as follows:
 | **1.10** | All components that are not part of the application but that the application relies on to operate, are clearly identified and the security implications of using those components are known. |   | ✓ |
 | **1.11** | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |   | ✓ |
 | **1.12** | Remote endoints verify that connecting clients use the current version of the mobile app. |   | ✓ |
-| **1.13** | Security testing is performed as part of the development lifecycle. If some or all of the testing is automated, the configuration of the testing tools must be tailored to the specific app. |   | ✓ |
+| **1.13** | Security is addressed within all parts of the software development lifecycle.  |   | ✓ |
 
 ## References
 
@@ -34,3 +34,5 @@ For more information, see also:
 - OWASP Mobile Top 10: M10 - Extraneous Functionality
 - OWASP Security Architecture cheat sheet: https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet
 - OWASP Thread modelling: https://www.owasp.org/index.php/Application_Threat_Modeling
+- OWASP Secure SDLC Cheat Sheet: https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet
+- Microsoft SDL: https://www.microsoft.com/en-us/sdl/
