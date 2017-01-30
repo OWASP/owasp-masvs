@@ -21,6 +21,13 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 
 ## References
 
+The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section, as well as best practices by mobile operating system:
+
+(...TODO... link this to v1.0 instead of master once tagged).
+
+- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x01b_OMTG-CRYPTO_Android.md
+- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x01b_OMTG-CRYPTO_iOS.md
+
 For more information, see also:
 
 - OWASP Mobile Top 10: [M6 - Broken Cryptography](https://www.owasp.org/index.php/Mobile_Top_10_2014-M6)
