@@ -31,7 +31,7 @@ The vast majority of data disclosure issues can be prevented by following simple
 | **2.9** | The app removes sensitive data from views when backgrounded. |  | ✓ |
 | **2.10** | The app does not hold sensitive data in memory longer than necessary, and memory is cleared explicitly after use. |  | ✓ |
 | **2.11** | The app enforces a minimum device-access-security policy, such as requiring the user to set a device passcode. |  | ✓ |
-| **2.12** | The app educates the user about the types of personally identifiable information processed, as well as security best practices the user should follow in using the app. |  | ✓ |
+| **2.12** | The app educates the user about the types of personally identifiable information processed and/or stored, as well as security best practices the user should follow in using the app (e.g. no rooting/jailbreaking, only install the app from a legitimate source, log out when you're done, etc.). |  | ✓ |
 
 ## References
 
