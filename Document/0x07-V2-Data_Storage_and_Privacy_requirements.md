@@ -35,7 +35,7 @@ The vast majority of data disclosure issues can be prevented by following simple
 
 ## References
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requriements listed in this chapter, as well as recommended best practices for each mobile operating system:
+The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section, as well as best practices by mobile operating system:
 
 (...TODO... link this to v1.0 instead of master once tagged).
 
