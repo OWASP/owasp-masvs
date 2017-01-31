@@ -4,10 +4,7 @@
 
 In a perfect world, security would be considered throughout all phases of development. In reality however, security is often only a consideration at a late stage in the SDLC. Besides the technical controls, the MASVS requires processes to be in place that ensure that the security has been explicitly addressed when planning the architecture of the mobile app, and that the functional and security roles of all components are known. Since most mobile applications act as clients to remote services, it must be ensured that appropriate security standards are also applied to those services - testing the mobile app in isolation is not sufficient.
 
-The high level requirements are as follows:
-
-- At MASVS-L1, components of the application are identified and have a reason for being in the app. All security controls are properly enforced on remote endpoints.
-- At MASVS-L2, the architecture and threat model have been formally defined, and the code adheres to the architecture.
+The category “V1” lists requirements pertaining to architecture and design of the app. As such, this is the only category that does not map to technical test cases in the OWASP Mobile Testing Guide. To cover topics such as threat modelling, secure SDLC, key management, users of the MASVS should consult the respective OWASP projects and/or other standards such as the ones linked below.
 
 ## Security Verification Requirements
 
@@ -36,3 +33,4 @@ For more information, see also:
 - OWASP Thread modelling: https://www.owasp.org/index.php/Application_Threat_Modeling
 - OWASP Secure SDLC Cheat Sheet: https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet
 - Microsoft SDL: https://www.microsoft.com/en-us/sdl/
+- NIST SP 800-57: http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf
