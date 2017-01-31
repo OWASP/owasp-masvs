@@ -2,9 +2,9 @@
 
 ## About the Standard
 
-The Mobile Application Security Verification Standard is a list of security requirements for mobile applications that can be used by architects, developers, testers, security professionals, and consumers to define what a secure mobile application is. Together with the Mobile Security Testing Guide (MSTG), it provides a comprehensive set of requirements and test cases for mobile app security verification. WStandalone use of the MASVS requirements within all phases of the mobile app SDLC is also encouraged.
+The Mobile Application Security Verification Standard contains a comprehensive list of mobile app security requirements. It can be used in combination with the closely related Mobile Security Testing Guide (MSTG) to verify the security of mobile apps. Standalone use of the MASVS requirements for implementing a Secure mobile SDLC is also encouraged.
 
-This document is a fork of the OWASP Application Security Verification Standard written by Jim Manico.
+This document was started as a fork of the OWASP Application Security Verification Standard written by Jim Manico.
 
 ## Copyright and License
 
