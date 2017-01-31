@@ -25,8 +25,8 @@ To add or edit content, simply fork the repository and make your changes, then c
 # Read Individual Sections of the MASVS Here
 
 * [Header](Document/0x00-Header.md)
-* [Acknowledgements](Document/0x01-Acknowledgements.md)
-* [Preface](Document/0x02-Preface.md)
+* [Foreword](Document/0x01-Foreworkd.md)
+* [Frontispiece](Document/0x02-Frontispiece.md)
 * [Using the Mobile Application Security Verification Standard](Document/0x03-Using_the_MASVS.md)
 * [Assessment and Verification](Document/0x04-Assessment_and_Certification.md)
 * [V1: Architecture, Design and Threat Modeling Requirements](Document/0x06-V1-Architecture_design_and_threat_modelling_requireme.md)
