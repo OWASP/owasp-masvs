@@ -42,7 +42,7 @@ The following considerations apply:
 
 | # | Description | R |
 | --- | --- | --- | --- |
-| **8.12**| The app implements a 'device binding' functionality when a mobile device is treated as being trusted. Verify that the device fingerprint is derived from multiple device properties.  | ✓ |
+| **8.12**| The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device. | ✓ |
 
 ### Impede Comprehension
 
