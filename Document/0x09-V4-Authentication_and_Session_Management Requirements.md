@@ -26,7 +26,7 @@ The OWASP Mobile Security Testing Guide provides detailed instructions for verif
 (...TODO... link this to v1.0 instead of master once tagged).
 
 - Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x01c_OMTG-AUTH_Android.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x01c_OMTG-AUTH_iOS.md
+- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x02c_OMTG-AUTH_iOS.md
 
 For more information, see also:
 
