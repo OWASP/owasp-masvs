@@ -10,9 +10,9 @@ This should not inhibit organizations from offering such assurance services, as 
 
 ## Guidance for Certifying Mobile Apps
 
-The recommended way of verifying compliance of a mobile app with the MASVS is by performing an "open book" review, meaning that the testers are granted access to key resources such as architects and developers of the app, project documentation, source code, and authenticated access to endpoints (including access to at least one user account for each role).
+The recommended way of verifying compliance of a mobile app with the MASVS is by performing an "open book" review, meaning that the testers are granted access to key resources such as architects and developers of the app, project documentation, source code, and authenticated access to endpoints, including access to at least one user account for each role.
 
-It is important to note that the MASVS only covers security of the (client-side) mobile app and the network communication between the app and its remote endpoint(s). It does not contain specific requirements for the remote services (e.g. web services) associated with the app, safe for a limited set of generic requirements pertaining to authentication and session management. However, MASVS V1 specifies that remote services must be covered by the overall threat model, and be tested using appropriate standards (such as the OWASP ASVS).
+It is important to note that the MASVS only covers security of the (client-side) mobile app and the network communication between the app and its remote endpoint(s), as well as a few basic and generic requirements related to user authentication and session management. It does not contain specific requirements for the remote services (e.g. web services) associated with the app, safe for a limited set of generic requirements pertaining to authentication and session management. However, MASVS V1 specifies that remote services must be covered by the overall threat model, and be verified against appropriate standards, such as the OWASP ASVS.
 
 A certifying organization must include in any report the scope of the verification (particularly if a key component is out of scope), a summary of verification findings, including passed and failed tests, with clear indications of how to resolve the failed tests. Keeping detailed work papers, screenshots or movies, scripts to reliably and repeatedly exploit an issue, and electronic records of testing, such as intercepting proxy logs and associated notes such as a cleanup list, is considered standard industry practice. It is not sufficient to simply run a tool and report on the failures; this does not provide sufficient evidence that all issues at a certifying level have been tested and tested thoroughly. In case of dispute, there should be sufficient supportive evidence to demonstrate each and every verified requirement has indeed been tested.
 
@@ -22,6 +22,8 @@ The Mobile Security Testing Guide is a manual for testing the security of mobile
 
 - OWASP MASVS V2.9 "Verify that sensitive data does not leak to backups."
 - OMTG-DATAST-009: "Test for Sensitive Data in Backups"
+
+While many of the MASVS requirements are high-level and generic, the MSTG provides in-depth recommendations and testing procedures on a per-mobile-OS basis.
 
 ### The Role of Automated Security Testing Tools
 
