@@ -29,7 +29,7 @@ The following considerations apply:
 | # | Description | R |
 | --- | --- | --- | --- |
 | **8.3** | The app implements two or more functionally independent methods of root detection and responds to the presence of a rooted device either by alerting the user or terminating the app. | ✓ |
-| **8.4** | The app implements multiple functionally independent debugging defenses that, in context of the overall protection scheme, force adversaries to invest significant manual effort to enable debugging. All available debugging protocols must be covered (e.g. JDWP and native). | ✓ |
+| **8.4** | The app implements multiple functionally independent debugging defenses that, in context of the overall protection scheme, force adversaries to invest considerable manual effort to enable debugging. All available debugging protocols must be covered (e.g. JDWP and native). | ✓ |
 | **8.5** | The app detects, and responds to, tampering with executable files and critical data. | ✓ |
 | **8.6** | The app detects the presence of widely used reverse engineering tools, such as code injection tools, hooking frameworks and debugging servers. | ✓ |
 | **8.7** | The app detects, and response to, being run in an emulator using any method.   | ✓ |
