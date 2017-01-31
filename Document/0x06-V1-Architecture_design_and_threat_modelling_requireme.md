@@ -8,6 +8,8 @@ The category “V1” lists requirements pertaining to architecture and design o
 
 ## Security Verification Requirements
 
+The requirements for MASVS-L1 and MASVS-L2 are listed below.
+
 | # | Description | L1 | L2 |
 | --- | --- | --- | --- |
 | **1.1** | All app components are identified and known to be needed. | ✓ | ✓ |
