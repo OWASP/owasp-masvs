@@ -8,9 +8,9 @@ The controls in this section differ from previous sections in that they do not a
 
 The OWASP document "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" (see references below) lists business risks as well as dependent technical threats related to tampering and reverse engineering. In the sections below, we refer to the technical threats described in that document.
 
-For any of the controls in the list below to be effective, the app must fulfill at least all of MASVS-L1, as well as all lower-numbered requriements in V8. For examples, the obfuscation controls listed in under "impede comprehension" must be combined with "app isolation", "impede dynamic analysis and tampering" and "device binding".
+For any of the controls in the list below to be effective, the app must fulfil at least all of MASVS-L1, as well as all lower-numbered requriements in V8. For examples, the obfuscation controls listed in under "impede comprehension" must be combined with "app isolation", "impede dynamic analysis and tampering" and "device binding".
 
-**Note that software protections must never be used as a replacement for security controls. The controls listed in MASVR-R are intended to add threat-specific, additional protective controls to apps that also fulfill the MASVS security requirements.**
+**Note that software protections must never be used as a replacement for security controls. The controls listed in MASVR-R are intended to add threat-specific, additional protective controls to apps that also fulfil the MASVS security requirements.**
 
 The following considerations apply:
 
