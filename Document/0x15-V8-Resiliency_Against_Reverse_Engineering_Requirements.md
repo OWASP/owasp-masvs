@@ -48,7 +48,7 @@ The following considerations apply:
 
 | # | Description | R |
 | --- | --- | --- | --- |
-| **8.13** | The app uses multiple functionally independent means of emulator detection that, in context of the overall protection scheme, force adversaries to invest significant manual effort to run the app in an emulator (supersedes requirement 8.5). | ✓ 
+| **8.13** | The app uses multiple functionally independent means of emulator detection that, in context of the overall protection scheme, force adversaries to invest significant manual effort to run the app in an emulator (supersedes requirement 8.5). | ✓
 | **8.14** | If the architecture requires sensitive information be stored on the device, the app only runs on operating system versions and devices that offer hardware-backed key storage. Alternatively, the information is protected using obfuscation. Considering current published research, the obfuscation type and parameters are sufficient to cause significant manual effort to reverse engineers seeking to comprehend or extract the sensitive data. | ✓ |
 | **8.15** | If the architecture requires sensitive computations be performed on the client-side, these computations are isolated from the operating system by using a hardware-based SE or TEE. Alternatively, the information is protected using obfuscation. Considering current published research, the obfuscation type and parameters are sufficient to cause significant manual effort to reverse engineers seeking to comprehend the sensitive portions of the code and/or data.  | ✓ |
 
@@ -59,8 +59,8 @@ The OWASP Mobile Security Testing Guide provides detailed instructions for verif
 
 (...TODO... link this to v1.0 instead of master once tagged).
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x01g_OMTG-RARE_Android.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x02g_OMTG-RARE_iOS.md
+- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md
+- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md
 
 For more information, see also:
 
