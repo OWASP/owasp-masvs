@@ -21,7 +21,7 @@ The following considerations apply:
 ### Impede Dynamic Analysis and Tampering
 
 | # | Description | R |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | **8.1** | The app implements two or more functionally independent methods of root detection and responds to the presence of a rooted device either by alerting the user or terminating the app. | ✓ |
 | **8.2** | The app implements multiple functionally independent debugging defenses that, in context of the overall protection scheme, force adversaries to invest considerable manual effort to enable debugging. All available debugging protocols must be covered (e.g. JDWP and native). | ✓ |
 | **8.3** | The app detects, and responds to, tampering with executable files and critical data. | ✓ |
@@ -35,13 +35,13 @@ The following considerations apply:
 ### Device Binding
 
 | # | Description | R |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | **8.10**| The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device. | ✓ |
 
 ### Impede Comprehension
 
 | # | Description | R |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | **8.11** | The app uses multiple functionally independent means of emulator detection that, in context of the overall protection scheme, force adversaries to invest significant manual effort to run the app in an emulator (supersedes requirement 8.5). | ✓
 | **8.12** | If the architecture requires sensitive information be stored on the device, the app only runs on operating system versions and devices that offer hardware-backed key storage. Alternatively, the information is protected using obfuscation. Considering current published research, the obfuscation type and parameters are sufficient to cause significant manual effort to reverse engineers seeking to comprehend or extract the sensitive data. | ✓ |
 | **8.13** | If the architecture requires sensitive computations be performed on the client-side, these computations are isolated from the operating system by using a hardware-based SE or TEE. Alternatively, the information is protected using obfuscation. Considering current published research, the obfuscation type and parameters are sufficient to cause significant manual effort to reverse engineers seeking to comprehend the sensitive portions of the code and/or data.  | ✓ |
