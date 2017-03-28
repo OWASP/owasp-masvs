@@ -7,7 +7,7 @@ In most cases, user login to a remote service is an integral part of the overall
 ## Security Verification Requirements
 
 | # | Description | L1 | L2 |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | **4.1** | If the app provides users with access to a remote service, an acceptable form of authentication such as username/password authentication is performed at the remote endpoint. | ✓ | ✓ |
 | **4.2** | The remote endpoint uses randomly generated access tokens to authenticate client requests without sending the user's credentials.  | ✓ | ✓ |
 | **4.3** | The remote endpoint terminates the existing session when the user logs out. | ✓ | ✓ |
