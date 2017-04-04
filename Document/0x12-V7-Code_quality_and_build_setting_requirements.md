@@ -15,8 +15,7 @@ The goal of this control is to ensure that basic security coding practices are f
 | **7.5** | The app catches and handles possible exceptions.| ✓ | ✓ |
 | **7.6** | Error handling logic in security controls denies access by default. | ✓ | ✓ |
 | **7.7** | In unmanaged code, memory is allocated, freed and used securely.  | ✓ | ✓ |
-| **7.8** | Security features offered by the compiler, such as stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ |
-| **7.9** | Java bytecode has been minified.  | ✓ | ✓ |
+| **7.8** | Security features offered by the toolchain, such as byte-code minification, stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ |
 
 ## References
 
