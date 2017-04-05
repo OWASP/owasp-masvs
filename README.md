@@ -1,4 +1,8 @@
+
+
 # OWASP Mobile Application Security Verification Standard
+
+<img width=220px align="right" style="float: right;" src="Document/images/masvs-mini-cover.jpg">
 
 This is the official Github Repository of the OWASP Mobile Application Security Verification Standard (MASVS). The MASVS establishes baseline security requirements for mobile apps that are useful in many scenarios, including:
 
