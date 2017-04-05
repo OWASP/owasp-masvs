@@ -1,4 +1,4 @@
-# V6: Environmental Interaction Requirements
+# V6: Platform Interaction Requirements
 
 ## Control Objective
 
