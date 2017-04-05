@@ -2,7 +2,7 @@
 
 ## Control Objective
 
-The purpose of this control is to ensure the confidentiality and integrity of information exchanged between the mobile app and remote service endpoints. At the very least, a mobile app must set up a secure, encrypted channel for network communication using the TLS protocol with appropriate settings. For level two or higher, additional defense-in-depth measure such as SSL pinning are required.
+The purpose of the controls listed in this section is to ensure the confidentiality and integrity of information exchanged between the mobile app and remote service endpoints. At the very least, a mobile app must set up a secure, encrypted channel for network communication using the TLS protocol with appropriate settings. Level 2 lists additional defense-in-depth measure such as SSL pinning.
 
 ## Security Verification Requirements
 
@@ -16,9 +16,7 @@ The purpose of this control is to ensure the confidentiality and integrity of in
 
 ## References
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section, as well as best practices by mobile operating system:
-
-(...TODO... link this to v1.0 instead of master once tagged).
+The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
 
 - Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md
 - iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md
