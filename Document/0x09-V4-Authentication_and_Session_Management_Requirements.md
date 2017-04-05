@@ -21,12 +21,10 @@ In most cases, user login to a remote service is an integral part of the overall
 
 ## References
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section, as well as best practices by mobile operating system:
+The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
 
-(...TODO... link this to v1.0 instead of master once tagged).
-
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Authentication.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Authentication-and-Session-Management.md
+- Fopr Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Authentication.md
+- For iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Authentication-and-Session-Management.md
 
 For more information, see also:
 
