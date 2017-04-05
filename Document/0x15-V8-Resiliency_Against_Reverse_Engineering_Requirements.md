@@ -49,9 +49,7 @@ The following considerations apply:
 
 ## References
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section, as well as best practices by mobile operating system:
-
-(...TODO... link this to v1.0 instead of master once tagged).
+The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
 
 - Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md
 - iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md
