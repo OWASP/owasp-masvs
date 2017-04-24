@@ -21,8 +21,8 @@ The requirements for MASVS-L1 and MASVS-L2 are listed below.
 | **1.7** | A threat model for the mobile app and the associated remote services has been produced that identifies potential threats and countermeasures. |   | ✓ |
 | **1.8** | All security controls have a centralized implementation. |   | ✓ |
 | **1.9** | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |   | ✓ |
-| **1.10** | Remote endoints verify that connecting clients use the current version of the mobile app. |   | ✓ |
-| **1.11** | Security is addressed within all parts of the software development lifecycle.  |   | ✓ |
+| **1.10** | A mechanism for enforcing updates of the mobile app exists. |   | ✓ |
+| **1.11** | Security is addressed within all parts of the software development lifecycle. |   | ✓ |
 
 ## References
 
