@@ -29,7 +29,7 @@ The following considerations apply:
 | **8.3** | The app detects, and responds to, tampering with executable files and critical data within its own container. | ✓ |
 | **8.4** | The app detects the presence of widely used reverse engineering tools, such as code injection tools, hooking frameworks and debugging servers. | ✓ |
 | **8.5** | The app detects, and responds to, being run in an emulator.  | ✓ |
-| **8.6** | The app detects, and responds to, modifications of process memory, including relocation table patches and code injection | ✓ |
+| **8.6** | The app detects, and responds to, modifications of process memory, including relocation table patches and code injection. | ✓ |
 | **8.7** | The app implements multiple mechanisms to fulfil requirements 8.1 to 8.6. Note that resiliency scales with the amount, diversity of the originality of the mechanisms used. | ✓ |
 | **8.8** | The detection mechanisms trigger different responses, including stealthy ones that don't simply terminate the app. | ✓ |
 | **8.9** |All executable files and libraries belonging to the app are either encrypted on the file level and/or important code and data segments inside the executables are encrypted or packed. Trivial static analysis does not reveal important code or data. | ✓ |
