@@ -25,15 +25,15 @@ The following considerations apply:
 | # | Description | R |
 | --- | --- | --- |
 | **8.1** | The app detects, and responds to, the presence of a rooted or jailbroken device either by alerting the user or terminating the app. | ✓ |
-| **8.2** | The app implements prevents debugging and/or detects, and responds to, a debugger being attached. All available debugging protocols must be covered (e.g. JDWP / ptrace an Android and Mach IPC / ptrace on iOS). | ✓ |
-| **8.3** | The app detects, and responds to, tampering with executable files and critical data within its own container. | ✓ |
-| **8.4** | The app detects the presence of widely used reverse engineering tools, such as code injection tools, hooking frameworks and debugging servers. | ✓ |
+| **8.2** | The app implements prevents debugging and/or detects, and responds to, a debugger being attached. All available debugging protocols must be covered. | ✓ |
+| **8.3** | The app detects, and responds to, tampering with executable files and critical data within its own sandbox. | ✓ |
+| **8.4** | The app detects, and responds to, the presence of widely used reverse engineering tools and frameworks on the device.| ✓ |
 | **8.5** | The app detects, and responds to, being run in an emulator.  | ✓ |
-| **8.6** | The app detects, and responds to, modifications of process memory, including relocation table patches and code injection | ✓ |
-| **8.7** | The app implements multiple mechanisms to fulfil requirements 8.1 to 8.6. Note that resiliency scales with the amount, diversity of the originality of the mechanisms used. | ✓ |
-| **8.8** | The detection mechanisms trigger different responses, including stealthy ones that don't simply terminate the app. | ✓ |
-| **8.9** |All executable files and libraries belonging to the app are either encrypted on the file level and/or important code and data segments inside the executables are encrypted or packed. Trivial static analysis does not reveal important code or data. | ✓ |
-| **8.10** | Obfuscating transformations and functional defenses are interdependent and well-integrated throughout the app. | ✓ |
+| **8.6** | The app detects, and responds to, tampering the code and data in its own memory space. | ✓ |
+| **8.7** | The app implements multiple mechanisms in each defense category (8.1 to 8.6). Note that resiliency scales with the amount, diversity of the originality of the mechanisms used. | ✓ |
+| **8.8** | The detection mechanisms trigger responses of different types, including delayed and stealthy responses. | ✓ |
+| **8.9** | All executable files and libraries belonging to the app are either encrypted on the file level and/or important code and data segments inside the executables are encrypted or packed. Trivial static analysis does not reveal important code or data. | ✓ |
+| **8.10** | Obfuscation is applied to most programmatic defenses, which in turn impede de-obfuscation via dynamic analysis (integration).  | ✓ |
 
 ### Device Binding
 
@@ -45,7 +45,7 @@ The following considerations apply:
 
 | # | Description | R |
 | --- | --- | --- |
-| **8.12** | If the architecture requires sensitive computations be performed on the client-side, these computations are isolated from the operating system by using a hardware-based SE or TEE. Alternatively, the computations are protected using obfuscation. Considering current published research, the obfuscation type and parameters are sufficient to cause significant manual effort to reverse engineers seeking to comprehend the sensitive portions of the code and/or data. | ✓ |
+| **8.12** | If the architecture requires sensitive computations be performed on the client-side, these computations are isolated from the operating system by using a hardware-based SE or TEE. If hardware-based isolation is unavailable, the computations are protected using obfuscation. Considering current published research, the obfuscation types and parameters are sufficient to cause significant manual effort to reverse engineers seeking to comprehend the sensitive portions of the code and/or data. | ✓ |
 
 ## References
 
