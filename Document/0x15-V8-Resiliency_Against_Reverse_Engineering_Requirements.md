@@ -12,11 +12,11 @@ For any of the controls in the list below to be effective, the app must fulfil a
 
 The following considerations apply:
 
-1. A threat model must be defined that clearly outlines the attacker's goals. Additionally, a targets must be set that specifies the level of protection the protection scheme is meant to provide (e.g., cause significant manual effort to a skilled reverse engineer using state-of-the-art tools and processes to reach their goal).
+1. A threat model must be defined that clearly outlines the client-side threats defended against. Additionally, the grade of protection the scheme is meant to provide must be specified. For example, a stated goal could be to force authors of targeted malware seeking to instrument the app to invest significant manual reverse engineering effort.
 
 2. The threat model must be sensical. For example, hiding a cryptographic key in a white-box implementation is besides the point if the attacker can simply code-lift the white-box as a whole. 
 
-3. The protection scheme should be subjected to manual testing by a subject matter expert (see also the "reverse engineering" and "assessing software protections" chapters in the Mobile Security Testing Guide).
+3. The effectiveness of the protection should always be verified by a human expert with experience in testing the particular types of anti-tampering and obfuscation used (see also the "reverse engineering" and "assessing software protections" chapters in the Mobile Security Testing Guide).
 
 ### Impede Dynamic Analysis and Tampering
 
