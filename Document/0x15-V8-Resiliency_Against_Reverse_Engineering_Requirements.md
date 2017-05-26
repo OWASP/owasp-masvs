@@ -25,9 +25,9 @@ The following considerations apply:
 | # | Description | R |
 | --- | --- | --- |
 | **8.1** | The app detects, and responds to, the presence of a rooted or jailbroken device either by alerting the user or terminating the app. | ✓ |
-| **8.2** | The app implements prevents debugging and/or detects, and responds to, a debugger being attached. All available debugging protocols must be covered (e.g. JDWP / ptrace an Android and Mach IPC / ptrace on iOS). | ✓ |
+| **8.2** | The app implements prevents debugging and/or detects, and responds to, a debugger being attached. All available debugging protocols must be covered (Android: JDWP and ptrace, iOS: Mach IPC and ptrace). | ✓ |
 | **8.3** | The app detects, and responds to, tampering with executable files and critical data within its own container. | ✓ |
-| **8.4** | The app detects the presence of widely used reverse engineering tools, such as code injection tools, hooking frameworks and debugging servers. | ✓ |
+| **8.4** | The app detects the presence of widely used reverse engineering tools and frameworks that support code injection, hooking, instrumentation and debugging. | ✓ |
 | **8.5** | The app detects, and responds to, being run in an emulator.  | ✓ |
 | **8.6** | The app continually verifies the integrity of critical code and data structures within its own memory space. | ✓ |
 | **8.7** | The app implements multiple mechanisms to fulfil requirements 8.1 to 8.6. Note that resiliency scales with the amount, diversity of the originality of the mechanisms used. | ✓ |
