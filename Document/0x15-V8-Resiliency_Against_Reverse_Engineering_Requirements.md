@@ -2,7 +2,7 @@
 
 ## Control objective
 
-This section covers defense-in-depth measures that are recommended for apps that process, or give access to, sensitive data or functionality. Lack of any of these controls does not cause a vulnerability - instead, they are meant to increase the app's resiliency against reverse engineering and specific client-side attacks.
+This section covers defense-in-depth measures that are recommended for apps that process, or give access to, sensitive data or functionality. Lack of any of these controls does not cause a vulnerability - instead, they are meant to increase the app's resilience against reverse engineering and specific client-side attacks.
 
 The controls in this section differ from previous sections in that they do not apply to all mobile apps generically. Rather, the controls described here should be applied as needed, based on a risk assessment as per the unauthorized tampering with the app and/or reverse engineering of the code.
 
