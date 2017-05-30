@@ -30,19 +30,19 @@ The following considerations apply:
 | **8.6** | The app continually verifies the integrity of critical code and data structures within its own memory space. | ✓ |
 | **8.7** | The app implements multiple mechanisms to fulfil requirements 8.1 to 8.6. Note that resilience scales with the amount, diversity of the originality of the mechanisms used. | ✓ |
 | **8.8** | The detection mechanisms trigger different responses, including stealthy ones that don't simply terminate the app. | ✓ |
-| **8.9** |All executable files and libraries belonging to the app are either encrypted on the file level and/or important code and data segments inside the executables are encrypted or packed. Trivial static analysis does not reveal important code or data. | ✓ |
-| **8.10** | Obfuscating transformations and functional defenses are interdependent and well-integrated throughout the app. | ✓ |
+| **8.9** | Obfuscating transformations and functional defenses are interdependent and well-integrated throughout the app. | ✓ |
 
 ### Device Binding
 
 | # | Description | R |
 | --- | --- | --- |
-| **8.11**| The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device. | ✓ |
+| **8.10**| The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device. | ✓ |
 
 ### Impede Comprehension
 
 | # | Description | R |
 | --- | --- | --- |
+| **8.11** |All executable files and libraries belonging to the app are either encrypted on the file level and/or important code and data segments inside the executables are encrypted or packed. Trivial static analysis does not reveal important code or data. | ✓ |
 | **8.12** | If the architecture requires sensitive computations be performed on the client-side, these computations are isolated from the operating system by using a hardware-based SE or TEE. Alternatively, the computations are protected using obfuscation. Considering current published research, the obfuscation type and parameters are sufficient to cause significant manual effort to reverse engineers seeking to comprehend the sensitive portions of the code and/or data. | ✓ |
 
 ## References
