@@ -1,12 +1,10 @@
-# V8: Resiliency Against Reverse Engineering Requirements
+# V8: Resilience Requirements
 
 ## Control objective
 
-This section covers defense-in-depth measures that are recommended for apps that process, or give access to, sensitive data or functionality. Lack of any of these controls does not cause a vulnerability - instead, they are meant to increase the app's resiliency against reverse engineering and specific client-side attacks.
+This section covers defense-in-depth measures recommended for apps that process, or give access to, sensitive data or functionality. Lack of any of these controls does not cause a vulnerability - instead, they are meant to increase the app's resilience against reverse engineering and specific client-side attacks.
 
-The controls in this section differ from previous sections in that they do not apply to all mobile apps generically. Rather, the controls described here should be applied as needed, based on a risk assessment as per the unauthorized tampering with the app and/or reverse engineering of the code.
-
-We suggest consulting the OWASP document "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" (see references below) for a list business risks as well as dependent technical threats. 
+ The controls in this section should be applied as needed, based on an assessment of the risks caused by unauthorized tampering with the app and/or reverse engineering of the code. We suggest consulting the OWASP document "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" (see references below) for a list business risks as well as associated technical threats. 
 
 For any of the controls in the list below to be effective, the app must fulfil at least all of MASVS-L1 (i.e., solid security controls must be in place), as well as all lower-numbered requriements in V8. For examples, the obfuscation controls listed in under "impede comprehension" must be combined with "app isolation", "impede dynamic analysis and tampering" and "device binding".
 
@@ -14,11 +12,11 @@ For any of the controls in the list below to be effective, the app must fulfil a
 
 The following considerations apply:
 
-1. A threat model must be defined that clearly outlines the attacker's goals. Additionally, a targets must be set that specifies the level of protection the protection scheme is meant to provide (e.g., cause significant manual effort to a skilled reverse engineer using state-of-the-art tools and processes to reach their goal).
+1. A threat model must be defined that clearly outlines the client-side threats defended against. Additionally, the grade of protection the scheme is meant to provide must be specified. For example, a stated goal could be to force authors of targeted malware seeking to instrument the app to invest significant manual reverse engineering effort.
 
 2. The threat model must be sensical. For example, hiding a cryptographic key in a white-box implementation is besides the point if the attacker can simply code-lift the white-box as a whole. 
 
-3. The protection scheme should be subjected to manual testing by a subject matter expert (see also the "reverse engineering" and "assessing software protections" chapters in the Mobile Security Testing Guide).
+3. The effectiveness of the protection should always be verified by a human expert with experience in testing the particular types of anti-tampering and obfuscation used (see also the "reverse engineering" and "assessing software protections" chapters in the Mobile Security Testing Guide).
 
 ### Impede Dynamic Analysis and Tampering
 
@@ -33,19 +31,20 @@ The following considerations apply:
 | **8.7** | The app implements multiple mechanisms in each defense category (8.1 to 8.6). Note that resiliency scales with the amount, diversity of the originality of the mechanisms used. | ✓ |
 | **8.8** | The detection mechanisms trigger responses of different types, including delayed and stealthy responses. | ✓ |
 | **8.9** | All executable files and libraries belonging to the app are either encrypted on the file level and/or important code and data segments inside the executables are encrypted or packed. Trivial static analysis does not reveal important code or data. | ✓ |
-| **8.10** | Obfuscation is applied to most programmatic defenses, which in turn impede de-obfuscation via dynamic analysis (integration).  | ✓ |
+| **8.10** | Obfuscation is applied to programmatic defenses, which in turn impede de-obfuscation via dynamic analysis.  | ✓ |
 
 ### Device Binding
 
 | # | Description | R |
 | --- | --- | --- |
-| **8.11**| The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device. | ✓ |
+| **8.10**| The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device. | ✓ |
 
 ### Impede Comprehension
 
 | # | Description | R |
 | --- | --- | --- |
-| **8.12** | If the architecture requires sensitive computations be performed on the client-side, these computations are isolated from the operating system by using a hardware-based SE or TEE. If hardware-based isolation is unavailable, the computations are protected using obfuscation. Considering current published research, the obfuscation types and parameters are sufficient to cause significant manual effort to reverse engineers seeking to comprehend the sensitive portions of the code and/or data. | ✓ |
+| **8.11** |All executable files and libraries belonging to the app are either encrypted on the file level and/or important code and data segments inside the executables are encrypted or packed. Trivial static analysis does not reveal important code or data. | ✓ |
+| **8.12** | If the goal of obfuscation is to protect sensitive computations, an obfuscation scheme is used that is both appropriate for the particular task and robust against manual and automated de-obfuscation methods, considering currently published research. The effectiveness of the obfuscation scheme must be verified through manual testing. Note that hardware-based isolation features are prefered over obfuscation whenever possible. | ✓ |
 
 ## References
 
