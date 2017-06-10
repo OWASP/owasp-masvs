@@ -13,11 +13,23 @@ This is the official Github Repository of the OWASP Mobile Application Security 
 
 Thee MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg).
 
-# Official Releases
+# Getting the MASVS
 
 PDF downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases). The current release is [MASVS version 0.9.3](https://github.com/OWASP/owasp-masvs/releases/download/0.9.3/OWASP_Mobile_AppSec_Verification_Standard_v0.9.3.pdf).
 
-## Suggestions and feedback
+## Creating a Word Doc
+
+Run <code>generate_document.sh</code> from the repository root directory. This will create a word document in the same directory. Requires [pandoc](http://pandoc.org).
+
+## Exporting to JSON, XML and CSV
+
+The repository contains a Python tool for converting the requirements into various formats. Clone the repo and run <code>export.py</code> from the repository root.
+
+```
+export.py [-h] [--format {json,xml,csv}]
+```
+
+## Suggestions and Feedback
 
 To report and error or suggest an improvement, please create an [issue](https://github.com/OWASP/owasp-masvs/issues).
 
