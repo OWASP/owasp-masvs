@@ -4,6 +4,7 @@
 
 import os
 
+
 def fromFilenameToArea(filename):
     splittedFilename = filename.split("-")
     id = splittedFilename[1]
