@@ -4,6 +4,8 @@
 
 In most cases, user login to a remote service is an integral part of the overall mobile app architecture. Even though most of the logic happens at the endpoint, MASVS defines some basic requirements regarding how user accounts and sessions are managed. The requirements can be easily verified without access to the source code of the service endpoint.
 
+To cover the shift in mobile apps to token based authentication the requirements cover both,stateful (classical session management) and also stateless authentication mechanisms. 
+
 ## Security Verification Requirements
 
 | # | Description | L1 | L2 |
