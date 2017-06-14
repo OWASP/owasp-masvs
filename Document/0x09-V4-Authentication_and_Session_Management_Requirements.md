@@ -9,7 +9,7 @@ In most cases, user login to a remote service is an integral part of the overall
 | # | Description | L1 | L2 |
 | --- | --- | --- | --- |
 | **4.1** | If the app provides users with access to a remote service, an acceptable form of authentication such as username/password authentication is performed at the remote endpoint. | ✓ | ✓ |
-| **4.2** | The remote endpoint uses randomly generated access tokens, if classical server side session management is used, to authenticate client requests without sending the user's credentials.  | ✓ | ✓ |
+| **4.2** | The remote endpoint uses randomly generated session identifier, if classical server side session management is used, to authenticate client requests without sending the user's credentials.  | ✓ | ✓ |
 | **4.3** | The remote endpoint uses server side signed tokens, if stateless authentication is used, to authenticate client requests without sending the user's credentials.  | ✓ | ✓ |
 | **4.4** | The remote endpoint terminates the existing session when the user logs out. | ✓ | ✓ |
 | **4.5** | A password policy exists and is enforced at the remote endpoint. | ✓ | ✓ |
