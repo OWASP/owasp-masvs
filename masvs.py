@@ -53,7 +53,6 @@ class MASVS:
                         req = {}
                         req['id'] = m.group(1)
                         req['text'] = m.group(2)
-                        req['file'] = file
 
                         self.requirements.append(req)
 
