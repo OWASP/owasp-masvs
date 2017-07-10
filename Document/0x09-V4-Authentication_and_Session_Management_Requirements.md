@@ -26,7 +26,7 @@ To cover the shift in mobile apps to token based authentication the requirements
 
 The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
 
-- Fopr Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Authentication.md
+- For Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Authentication.md
 - For iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Authentication-and-Session-Management.md
 
 For more information, see also:
