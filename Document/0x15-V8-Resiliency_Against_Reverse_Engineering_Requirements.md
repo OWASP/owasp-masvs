@@ -23,7 +23,7 @@ The following considerations apply:
 | # | Description | R |
 | --- | --- | --- |
 | **8.1** | The app detects, and responds to, the presence of a rooted or jailbroken device either by alerting the user or terminating the app. | ✓ |
-| **8.2** | The app implements prevents debugging and/or detects, and responds to, a debugger being attached. All available debugging protocols must be covered. | ✓ |
+| **8.2** | The app prevents debugging and/or detects, and responds to, a debugger being attached. All available debugging protocols must be covered. | ✓ |
 | **8.3** | The app detects, and responds to, tampering with executable files and critical data within its own sandbox. | ✓ |
 | **8.4** | The app detects, and responds to, the presence of widely used reverse engineering tools and frameworks on the device.| ✓ |
 | **8.5** | The app detects, and responds to, being run in an emulator.  | ✓ |
