@@ -44,5 +44,5 @@ The OWASP Mobile Security Testing Guide provides detailed instructions for verif
 
 For more information, see also:
 
-- OWASP Mobile Top 10: M2  - Insecure Data Storage
+- OWASP Mobile Top 10: M2  - Insecure Data Storage: https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage
 - CWE: https://cwe.mitre.org/data/definitions/922.html
