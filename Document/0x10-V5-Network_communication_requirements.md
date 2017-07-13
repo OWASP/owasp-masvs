@@ -6,7 +6,7 @@ The purpose of this control is to ensure the confidentiality and integrity of in
 
 ## Security Verification Requirements
 
-| # | Description | 1 | 2 |
+| # | Description | L1 | L2 |
 | --- | --- | --- | --- |
 | **5.1** | Data is encrypted on the network using TLS. The secure channel is used consistently throughout the app. | ✓ | ✓ |
 | **5.2** | The TLS settings are in line with current best practices, or as close as possible if the mobile operating system does not support the recommended standards. | ✓ | ✓ |
