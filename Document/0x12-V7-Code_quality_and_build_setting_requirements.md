@@ -22,7 +22,7 @@ The goal of this control is to ensure that basic security coding practices are f
 
 For more information, see also:
 
-- OWASP Mobile Top 10:  M7 - Client Code Quality
+- OWASP Mobile Top 10:  M7 - Client Code Quality: https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality
 - CWE: https://cwe.mitre.org/data/definitions/119.html
 - CWE: https://cwe.mitre.org/data/definitions/89.html
 - CWE: https://cwe.mitre.org/data/definitions/388.html
