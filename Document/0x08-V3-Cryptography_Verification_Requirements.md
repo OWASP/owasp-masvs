@@ -30,5 +30,5 @@ The OWASP Mobile Security Testing Guide provides detailed instructions for verif
 
 For more information, see also:
 
-- OWASP Mobile Top 10: [M6 - Broken Cryptography](https://www.owasp.org/index.php/Mobile_Top_10_2014-M6)
+- OWASP Mobile Top 10: [M5 - Insufficient Cryptography](https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography)
 - CWE: https://cwe.mitre.org/data/definitions/310.html
