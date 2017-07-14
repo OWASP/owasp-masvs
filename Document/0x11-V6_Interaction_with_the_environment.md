@@ -6,7 +6,7 @@ The controls in group this ensure that the app uses operation system APIs and st
 
 ## Requirements
 
-| # | Description | 1 | 2 | 3 | 4 |
+| # | Description | L1 | L2 | L3 | L4 |
 | --- | --- | --- | --- | --- | --- |
 | **6.1** | Verify that that the app does not request any unnecessary permissions. | ✓ | ✓ | ✓ | ✓ |
 | **6.2** | Verify that all inputs from external sources is validated. This includes data received via the GUI, IPC mechanisms such as intents, custom URLs, and network communication.| ✓ | ✓ | ✓ | ✓ |
@@ -27,6 +27,6 @@ The controls in group this ensure that the app uses operation system APIs and st
 
 For more information, see also:
 
-- OWASP Mobile Top 10:  M1 - Improper Platform Usage
+- OWASP Mobile Top 10:  M1 - Improper Platform Usage: https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage
 - CWE: https://cwe.mitre.org/data/definitions/20.html
 - CWE: https://cwe.mitre.org/data/definitions/749.html
