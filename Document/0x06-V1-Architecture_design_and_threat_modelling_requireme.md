@@ -19,12 +19,10 @@ The requirements for MASVS-L1 and MASVS-L2 are listed below.
 | **1.5** | Data considered sensitive in the context of the mobile app is clearly identified. | ✓ | ✓ |
 | **1.6** | All app components are defined in terms of the business functions and/or security functions they provide. |   | ✓ |
 | **1.7** | A threat model for the mobile app and the associated remote services has been produced that identifies potential threats and countermeasures. |   | ✓ |
-| **1.8** | All third party components have been assessed (associated risks) before being used or implemented. A process is in place to ensure that each time a security update for a third party component is published, the change is inspected and the risk evaluated. |   | ✓ |
-| **1.9** | All security controls have a centralized implementation. |   | ✓ |
-| **1.10** | All components that are not part of the application but that the application relies on to operate, are clearly identified and the security implications of using those components are known. |   | ✓ |
-| **1.11** | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |   | ✓ |
-| **1.12** | Remote endoints verify that connecting clients use the current version of the mobile app. |   | ✓ |
-| **1.13** | Security is addressed within all parts of the software development lifecycle.  |   | ✓ |
+| **1.8** | All security controls have a centralized implementation. |   | ✓ |
+| **1.9** | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |   | ✓ |
+| **1.10** | A mechanism for enforcing updates of the mobile app exists. |   | ✓ |
+| **1.11** | Security is addressed within all parts of the software development lifecycle. |   | ✓ |
 
 ## References
 

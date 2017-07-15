@@ -2,7 +2,7 @@
 
 ## Control Objective
 
-The purpose of this control is to ensure the confidentiality and integrity of information exchanged between the mobile app and remote service endpoints. At the very least, a mobile app must set up a secure, encrypted channel for network communication using the TLS protocol with appropriate settings. For level two or higher, additional defense-in-depth measure such as SSL pinning are required.
+The purpose of the controls listed in this section is to ensure the confidentiality and integrity of information exchanged between the mobile app and remote service endpoints. At the very least, a mobile app must set up a secure, encrypted channel for network communication using the TLS protocol with appropriate settings. Level 2 lists additional defense-in-depth measure such as SSL pinning.
 
 ## Security Verification Requirements
 
@@ -13,15 +13,14 @@ The purpose of this control is to ensure the confidentiality and integrity of in
 | **5.3** | The app verifies the X.509 certificate of the remote endpoint when the secure channel is established. Only certificates signed by a valid CA are accepted. | ✓ | ✓ |
 | **5.4** | The app either uses its own certificate store, or pins the endpoint certificate or public key, and subsequently does not establish connections with endpoints that offer a different certificate or key, even if signed by a trusted CA. |   | ✓ |
 | **5.5** | The app doesn't rely on a single insecure communication channel (email or SMS) for critical operations, such as enrollments and account recovery. |  | ✓ |
+| **5.6** | The app only depends on up-to-date connectivity and security libraries. |  | ✓ |
 
 ## References
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section, as well as best practices by mobile operating system:
+The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
 
-(...TODO... link this to v1.0 instead of master once tagged).
-
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x01d_OMTG-NET_Android.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x02d_OMTG-NET_iOS.md
+- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md
+- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md
 
 For more information, see also:
 

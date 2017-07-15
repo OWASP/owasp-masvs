@@ -2,7 +2,10 @@
 
 ## Control Objective
 
-In most cases, user login to a remote service is an integral part of the overall mobile app architecture. Even though most of the logic happens at the endpoint, MASVS defines some basic requirements regarding how user accounts and sessions are managed. The requirements can be easily verified without access to the source code of the service endpoint.
+In most cases, users logging into a remote service is an integral part of the overall mobile app architecture. Even though most of the logic happens at the endpoint, MASVS defines some basic requirements regarding how user accounts and sessions are managed. The requirements can be easily verified without access to the source code of the service endpoint.
+
+To cover the shift in mobile apps to token based authentication the requirements cover both, stateful (classical session management) and also stateless authentication mechanisms. 
+
 
 ## Security Verification Requirements
 
@@ -22,12 +25,10 @@ In most cases, user login to a remote service is an integral part of the overall
 
 ## References
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section, as well as best practices by mobile operating system:
+The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
 
-(...TODO... link this to v1.0 instead of master once tagged).
-
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x01c_OMTG-AUTH_Android.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x02c_OMTG-AUTH_iOS.md
+- For Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Authentication.md
+- For iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Authentication-and-Session-Management.md
 
 For more information, see also:
 
