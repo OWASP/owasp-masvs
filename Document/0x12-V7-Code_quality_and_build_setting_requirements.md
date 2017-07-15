@@ -15,17 +15,14 @@ The goal of this control is to ensure that basic security coding practices are f
 | **7.5** | The app catches and handles possible exceptions.| ✓ | ✓ |
 | **7.6** | Error handling logic in security controls denies access by default. | ✓ | ✓ |
 | **7.7** | In unmanaged code, memory is allocated, freed and used securely.  | ✓ | ✓ |
-| **7.8** | Security features offered by the compiler, such as stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ |
-| **7.9** | Java bytecode has been minified.  | ✓ | ✓ |
+| **7.8** | Free security features offered by the toolchain, such as byte-code minification, stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ |
 
 ## References
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section, as well as best practices by mobile operating system:
+The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
 
-(...TODO... link this to v1.0 instead of master once tagged).
-
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x01f_OMTG-CODE_Android.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/Testcases/0x01f_OMTG-CODE_iOS.md
+- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md
+- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md
 
 For more information, see also:
 
