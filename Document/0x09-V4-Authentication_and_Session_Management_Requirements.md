@@ -6,6 +6,7 @@ In most cases, users logging into a remote service is an integral part of the ov
 
 To cover the shift in mobile apps to token based authentication the requirements cover both, stateful (classical session management) and also stateless authentication mechanisms. 
 
+
 ## Security Verification Requirements
 
 | # | Description | L1 | L2 |
@@ -31,5 +32,5 @@ The OWASP Mobile Security Testing Guide provides detailed instructions for verif
 
 For more information, see also:
 
-- OWASP Mobile Top 10: M4 - Insecure Authentication, M6 - Insecure Authorization
+- OWASP Mobile Top 10: [M4 - Insecure Authentication](https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication), [M6 - Insecure Authorization](https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization)
 - CWE:  https://cwe.mitre.org/data/definitions/287.html
