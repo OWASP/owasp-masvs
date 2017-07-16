@@ -12,16 +12,16 @@ To cover the shift in mobile apps to token based authentication the requirements
 | # | Description | L1 | L2 |
 | --- | --- | --- | --- |
 | **4.1** | If the app provides users with access to a remote service, an acceptable form of authentication such as username/password authentication is performed at the remote endpoint. | ✓ | ✓ |
-| **4.2** | The remote endpoint uses randomly generated session identifiers, if classical server side session management is used, to authenticate client requests without sending the user's credentials.  | ✓ | ✓ |
-| **4.3** | The remote endpoint uses server side signed tokens, if stateless authentication is used, to authenticate client requests without sending the user's credentials.  | ✓ | ✓ |
-| **4.4** | The remote endpoint terminates the existing session or server side signed tokens when the user logs out. | ✓ | ✓ |
+| **4.2** | If stateful session management is used, the remote endpoint uses randomly generated session identifiers to authenticate client requests without sending the user's credentials.  | ✓ | ✓ |
+| **4.3** | If stateless token-based autentication is used, the server provides a token signed using a secure algorithm. | ✓ | ✓ |
+| **4.4** | The remote endpoint terminates the existing stateful session or invalidates the stateless session token when the user logs out. | ✓ | ✓ |
 | **4.5** | A password policy exists and is enforced at the remote endpoint. | ✓ | ✓ |
 | **4.6** | The remote endpoint implements an exponential back-off, or temporarily locks the user account, when incorrect authentication credentials are submitted an excessive number of times. | ✓ | ✓ |
 | **4.7** | Biometric authentication, if any, is not event-bound (i.e. using an API that simply returns "true" or "false"). Instead, it is based on unlocking the keychain/keystore. |   | ✓ |
-| **4.8** | Sessions and server side signed tokens are terminated at the remote endpoint after a predefined period of inactivity. |   | ✓ |
+| **4.8** | The remote endpoint terminates the existing stateful session or invalidates the stateless session token when the user logs out. |   | ✓ |
 | **4.9** | A second factor of authentication exists at the remote endpoint and the 2FA requirement is consistently enforced.  |   | ✓ |
 | **4.10** | Step-up authentication is required to enable actions that deal with sensitive data or transactions.  |   | ✓ |
-| **4.11** |  The app informs the user of all login activities with his or her account. Users are able view a list of devices used to access the account, and to block specific devices. |  | ✓ |
+| **4.11** | The app informs the user of all login activities with their account. Users are able view a list of devices used to access the account, and to block specific devices. |  | ✓ |
 
 ## References
 
