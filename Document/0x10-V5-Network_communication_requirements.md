@@ -10,7 +10,7 @@ The purpose of the controls listed in this section is to ensure the confidential
 | --- | --- | --- | --- |
 | **5.1** | Data is encrypted on the network using TLS. The secure channel is used consistently throughout the app. | ✓ | ✓ |
 | **5.2** | The TLS settings are in line with current best practices, or as close as possible if the mobile operating system does not support the recommended standards. | ✓ | ✓ |
-| **5.3** | The app verifies the X.509 certificate of the remote endpoint when the secure channel is established. Only certificates signed by a valid CA are accepted. | ✓ | ✓ |
+| **5.3** | The app verifies the X.509 certificate of the remote endpoint when the secure channel is established. Only certificates signed by a trusted CA are accepted. | ✓ | ✓ |
 | **5.4** | The app either uses its own certificate store, or pins the endpoint certificate or public key, and subsequently does not establish connections with endpoints that offer a different certificate or key, even if signed by a trusted CA. |   | ✓ |
 | **5.5** | The app doesn't rely on a single insecure communication channel (email or SMS) for critical operations, such as enrollments and account recovery. |  | ✓ |
 | **5.6** | The app only depends on up-to-date connectivity and security libraries. |  | ✓ |
