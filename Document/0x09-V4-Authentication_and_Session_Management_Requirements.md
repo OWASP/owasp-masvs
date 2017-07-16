@@ -2,10 +2,7 @@
 
 ## Control Objective
 
-In most cases, users logging into a remote service is an integral part of the overall mobile app architecture. Even though most of the logic happens at the endpoint, MASVS defines some basic requirements regarding how user accounts and sessions are managed. The requirements can be easily verified without access to the source code of the service endpoint.
-
-To cover the shift in mobile apps to token based authentication the requirements cover both, stateful (classical session management) and also stateless authentication mechanisms. 
-
+In most cases, users logging into a remote service is an integral part of the overall mobile app architecture. Even though most of the logic happens at the endpoint, MASVS defines some basic requirements regarding how user accounts and sessions are to be managed.
 
 ## Security Verification Requirements
 
@@ -13,7 +10,7 @@ To cover the shift in mobile apps to token based authentication the requirements
 | --- | --- | --- | --- |
 | **4.1** | If the app provides users with access to a remote service, an acceptable form of authentication such as username/password authentication is performed at the remote endpoint. | ✓ | ✓ |
 | **4.2** | If stateful session management is used, the remote endpoint uses randomly generated session identifiers to authenticate client requests without sending the user's credentials.  | ✓ | ✓ |
-| **4.3** | If stateless token-based autentication is used, the server provides a token signed using a secure algorithm. | ✓ | ✓ |
+| **4.3** | If stateless token-based authentication is used, the server provides a token signed using a secure algorithm. | ✓ | ✓ |
 | **4.4** | The remote endpoint terminates the existing stateful session or invalidates the stateless session token when the user logs out. | ✓ | ✓ |
 | **4.5** | A password policy exists and is enforced at the remote endpoint. | ✓ | ✓ |
 | **4.6** | The remote endpoint implements an exponential back-off, or temporarily locks the user account, when incorrect authentication credentials are submitted an excessive number of times. | ✓ | ✓ |
