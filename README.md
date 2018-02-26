@@ -15,7 +15,7 @@ Thee MASVS is a sister project of the [OWASP Mobile Security Testing Guide](http
 
 # Getting the MASVS
 
-PDF downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases). The current release is [MASVS version 1.0](https://github.com/OWASP/owasp-masvs/releases/download/1.0/OWASP_Mobile_AppSec_Verification_Standard_v1.0.pdf).
+PDF downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases). The current release is [MASVS version 1.0](https://github.com/OWASP/owasp-masvs/releases/download/1.0/OWASP_Mobile_AppSec_Verification_Standard_v1.0.pdf). The MASVS is also available in [Spanish](https://github.com/OWASP/owasp-masvs/releases/download/1.0-ES/OWASP_Mobile_AppSec_Verification_Standard_v1.0-ES.pdf).  
 
 ## Creating a Word Doc
 
