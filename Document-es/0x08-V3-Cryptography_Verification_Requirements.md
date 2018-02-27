@@ -12,12 +12,12 @@ La criptografía es un componente esencial a la hora de proteger los datos almac
 
 | # | Descripción | L1 | L2 |
 | --- | --- | --- | --- |
-| **3.1** | ​La aplicación no depende de únicamente de criptografía simétrica con "claves a fuego".| ✓ | ✓ |
+| **3.1** | La aplicación no depende de únicamente de criptografía simétrica con "claves a fuego".| ✓ | ✓ |
 | **3.2** | La aplicación utiliza implementaciones de criptografía probadas. | ✓ | ✓ |
-| **3.3** | ​La aplicación utiliza primitivas de seguridad que son apropiadas para el caso particular y su configuración y sus parámetros siguen las mejores prácticas de la industria. | ✓ | ✓|
+| **3.3** | La aplicación utiliza primitivas de seguridad que son apropiadas para el caso particular y su configuración y sus parámetros siguen las mejores prácticas de la industria. | ✓ | ✓|
 | **3.4** | La aplicación no utiliza protocolos o algoritmos criptográficos que son considerados deprecados para aspectos de seguridad.	 | ✓ | ✓|
 | **3.5** | La aplicación no reutiliza una misma clave criptográfica para varios propósitos.	 | ✓ | ✓ |
-| **3.6** | ​Los valores aleatorios son generados utilizando un generador de números suficientemente aleatorios. | ✓ | ✓ |
+| **3.6** | Los valores aleatorios son generados utilizando un generador de números suficientemente aleatorios. | ✓ | ✓ |
 
 ## Referencias
 

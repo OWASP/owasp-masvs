@@ -21,14 +21,14 @@ La gran mayoría de las cuestiones relativas a la divulgación de datos pueden p
 | # | Descripción | L1 | L2 |
 | --- | --- | --- | --- |
 | **2.1** | Las funcionalidades de almacenamiento de credenciales del sistema son utilizadas para almacenar la información sensible, como credenciales del usuario y claves criptográficas. | ✓ | ✓ |
-| **2.2** | No se escribe información sensible en los registros de la aplicación.​ | ✓ | ✓ |
+| **2.2** | No se escribe información sensible en los registros de la aplicación. | ✓ | ✓ |
 | **2.3** | No se comparte información sensible con servicios externos salvo que sea una necesidad de la arquitectura. | ✓ | ✓ |
 | **2.4** | Se desactiva el caché del teclado en los campos de texto donde se maneja información sensible. | ✓ | ✓ |
-| **2.5** | ​Se desactiva el portapapeles en los campos de texto donde se maneja información sensible. | ✓ | ✓ |
-| **2.6** | No se expone información sensible mediante mecanismos entre procesos (IPC).​ | ✓ | ✓ |
-| **2.7** | No se expone información sensible como contraseñas y números de tarjetas de crédito a través de la interfaz o capturas de pantalla.​ | ✓ | ✓ |
-| **2.8** | ​No se incluye información sensible en los backups generados por el sistema operativo. |   | ✓ |
-| **2.9** | La aplicación remueve la información sensible de la vista cuando la aplicación pasa a un segundo plano.​ |  | ✓ |
+| **2.5** | Se desactiva el portapapeles en los campos de texto donde se maneja información sensible. | ✓ | ✓ |
+| **2.6** | No se expone información sensible mediante mecanismos entre procesos (IPC). | ✓ | ✓ |
+| **2.7** | No se expone información sensible como contraseñas y números de tarjetas de crédito a través de la interfaz o capturas de pantalla. | ✓ | ✓ |
+| **2.8** | No se incluye información sensible en los respaldos generados por el sistema operativo. |   | ✓ |
+| **2.9** | La aplicación remueve la información sensible de la vista cuando la aplicación pasa a un segundo plano. |  | ✓ |
 | **2.10** | La aplicación no conserva la información sensible en memoria más de lo necesario y la memoria es limpiada luego de su uso. |  | ✓ |
 | **2.11** | La aplicación obliga a que exista una política mínima de seguridad en el dispositivo, como que el usuario deba configurar un código de acceso. |  | ✓ |
 | **2.12** | La aplicación educa al usuario acerca de los tipos de información personal que procesa y de las mejores prácticas en seguridad que el usuario debería seguir al utilizar la aplicación.​ |  | ✓ |

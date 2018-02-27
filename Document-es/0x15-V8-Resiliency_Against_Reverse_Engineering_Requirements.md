@@ -2,7 +2,7 @@
 
 ## Objetivo de control
 
-​En esta sección se cubren protecciones recomendadas para aplicaciones que maneja o brindan acceso a información o funcionalidades sensibles. La falta de estos controles no generan vulnerabilidades - sino que, están pensados para incrementar la resistencia contra la ingeniería inversa de la aplicación, dificultandole al adversario el acceso a los datos o el entendimiento del modo de ejecución de la aplicación.
+​En esta sección se cubren protecciones recomendadas para aplicaciones que maneja o brindan acceso a información o funcionalidades sensibles. La falta de estos controles no generan vulnerabilidades - sino que, están pensados para incrementar la resistencia contra la ingeniería inversa de la aplicación, dificultándole al adversario el acceso a los datos o el entendimiento del modo de ejecución de la aplicación.
 
  Los controles de esta sección deben aplicarse según sea necesario, basándose en una evaluación de los riesgos causados por la manipulación no autorizada de la aplicación y/o la ingeniería inversa del código. Sugerimos consultar el documento de OWASP "Ingeniería Inversa - Amenazas de la Ingeniería Inversa de OWASP" (vea las referencias a continuación) para obtener una lista de los riesgos del negocio, así como las amenazas técnicas asociadas.
 
@@ -16,7 +16,7 @@ Se aplican las siguientes consideraciones:
 
 2. El modelo de amenaza debe ser sensato. Por ejemplo, ocultar una clave criptográfica en una implementación de caja blanca es un problema si el atacante puede simplemente utilizar la aplicación como un todo.
 
-3. La eficiencia de la protección siempre debe ser verificada por un experto con experiencia en el testeo de tipos particulares de anti manipulación y ofuscación utilizados (ver también los capítulos "ingeniería inversa" y "evaluación de protecciones del software" en la Guía de Pruebas de Seguridad Móvil).
+3. La eficiencia de la protección siempre debe ser verificada por un experto con experiencia en el testeo de tipos particulares de anti-manipulación y ofuscación utilizados (ver también los capítulos "ingeniería inversa" y "evaluación de protecciones del software" en la Guía de Pruebas de Seguridad Móvil).
 
 ### Impedir el Análisis Dinámico y la Manipulación
 
@@ -28,7 +28,7 @@ Se aplican las siguientes consideraciones:
 | **8.4** | La aplicación detecta la presencia de las herramientas de ingeniería reversa o frameworks mas utilizados.| ✓ |
 | **8.5** | La aplicación detecta y responde al ser ejecutada en un emulador.  | ✓ |
 | **8.6** | La aplicación detecta y responde ante modificaciones de código o datos en su propio espacio de memoria. | ✓ |
-| **8.7** | La aplicación implementa múltiples mecanismos de detección para los puntos del 8.1 al 8.6. Notese que a mayor cantidad y diversidad de mecanismos usados, mayor la resistencia. | ✓ |
+| **8.7** | La aplicación implementa múltiples mecanismos de detección para los puntos del 8.1 al 8.6. Nótese que a mayor cantidad y diversidad de mecanismos usados, mayor la resistencia. | ✓ |
 | **8.8** | Los mecanismos de detección disparan distintos tipos de respuestas, incluyendo respuestas retardadas y silenciosas. | ✓ |
 | **8.9** | La ofuscación es aplicada a las defensas del programa, lo que a su vez impide la des-ofuscación mediante el análisis dinámico. | ✓ |
 
@@ -36,13 +36,13 @@ Se aplican las siguientes consideraciones:
 
 | # | Descripción | R |
 | --- | --- | --- |
-| **8.10** | – La aplicación implementa un “enlace al dispositivo” utilizando una huella del dispositivo derivado de varias propiedades únicas al mismo. | ✓ |
+| **8.10** | La aplicación implementa un “enlace al dispositivo” utilizando una huella del dispositivo derivado de varias propiedades únicas al mismo. | ✓ |
 
-### Impede Comprehension
+### Impedir la comprensión
 
 | # | Descripción | R |
 | --- | --- | --- |
-| **8.11** | Todos los archivos ejecutables y bibliotecas correspondientes a la aplicación se encuentran cifrados, o bien los segmentos importantes de código se encuentran cifrados o empaquetados. De este modo el analisis estático trivial no revela código importante o datos. | ✓ |
+| **8.11** | Todos los archivos ejecutables y bibliotecas correspondientes a la aplicación se encuentran cifrados, o bien los segmentos importantes de código se encuentran cifrados o empaquetados. De este modo el análisis estático trivial no revela código importante o datos. | ✓ |
 | **8.12** | Si el objetivo de la ofuscación es proteger el código propietario, se utiliza un esquema de ofuscación que es apropiado tanto para la tarea particular como robusto contra los métodos de des-ofuscación manual y automatizada, considerando la investigación publicada actualmente. La eficacia del esquema de confusión debe verificarse mediante pruebas manuales. Tenga en cuenta que las características de aislamiento basadas en hardware son preferibles a la ofuscación siempre que sea posible. | ✓ |
 
 ## Referencias
