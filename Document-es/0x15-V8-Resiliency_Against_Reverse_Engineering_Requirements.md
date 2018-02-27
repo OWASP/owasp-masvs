@@ -22,7 +22,7 @@ Se aplican las siguientes consideraciones:
 
 | # | Descripción | R |
 | --- | --- | --- |
-| **8.1** | La aplicación detecta y responde a la presencia de un dispositivo ruteado, ya sea alertando al usuario o finalizando la ejecución de la aplicación. | ✓ |
+| **8.1** | La aplicación detecta y responde a la presencia de un dispositivo rooteado, ya sea alertando al usuario o finalizando la ejecución de la aplicación. | ✓ |
 | **8.2** | La aplicación previene el debugging o detecta y responde al debugging de la aplicación. Se deben cubrir todos los protocolos. | ✓ |
 | **8.3** | La aplicación detecta y responde a modificaciones de ejecutables y datos críticos de la propia aplicación. | ✓ |
 | **8.4** | La aplicación detecta la presencia de las herramientas de ingeniería reversa o frameworks mas utilizados.| ✓ |
