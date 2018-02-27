@@ -6,7 +6,7 @@ La criptografía es un componente esencial a la hora de proteger los datos almac
 
 - Uso de librerías conocidas y probadas;
 - Configuración y elección de primitivas criptográficas apropiado;
-- Cuando se requiere de randomización se selecciona el generador debido.
+- Cuando se requiere de aleatoriedad se selecciona el generador debido.
 
 ## Requerimientos de Verificación de Seguridad
 
@@ -17,7 +17,7 @@ La criptografía es un componente esencial a la hora de proteger los datos almac
 | **3.3** | ​La aplicación utiliza primitivas de seguridad que son apropiadas para el caso particular y su configuración y sus parámetros siguen las mejores prácticas de la industria. | ✓ | ✓|
 | **3.4** | La aplicación no utiliza protocolos o algoritmos criptográficos que son considerados deprecados para aspectos de seguridad.	 | ✓ | ✓|
 | **3.5** | La aplicación no reutiliza una misma clave criptográfica para varios propósitos.	 | ✓ | ✓ |
-| **3.6** | ​Los valores random son generados utilizando un generador de números suficientemente randómicos. | ✓ | ✓ |
+| **3.6** | ​Los valores aleatorios son generados utilizando un generador de números suficientemente aleatorios. | ✓ | ✓ |
 
 ## Referencias
 
