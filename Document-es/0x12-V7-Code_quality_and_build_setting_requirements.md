@@ -9,10 +9,10 @@ Estos controles buscan asegurar que se siguieron las prácticas de seguridad bá
 | # | Descripción | L1 | L2 |
 | --- | --- | --- | --- |
 | **7.1** | La aplicación es firmada y provista con un certificado válido. | ✓ | ✓ |
-| **7.2** | ​La aplicación fue liberada en modo release y con las configuraciones apropiadas para el mismo (ej. non-debuggable). | ✓ | ✓ |
-| **7.3** | ​Los símbolos de debug fueron removidos de los binarios nativos. | ✓ | ✓ |
+| **7.2** | La aplicación fue liberada en modo release y con las configuraciones apropiadas para el mismo (ej. non-debuggable). | ✓ | ✓ |
+| **7.3** | Los símbolos de debug fueron removidos de los binarios nativos. | ✓ | ✓ |
 | **7.4** | La aplicación no contiene código de prueba y no realiza log de errores o mensajes de debug. | ✓ | ✓ |
-| **7.5** | ​Todos los componentes de terceros se encuentran identificados y revisados por vulnerabilidades conocidas. | ✓ | ✓ |
+| **7.5** | Todos los componentes de terceros se encuentran identificados y revisados por vulnerabilidades conocidas. | ✓ | ✓ |
 | **7.6** | La aplicación captura y maneja debidamente las posibles excepciones.	 | ✓ | ✓ |
 | **7.7** | Los controles de seguridad deniegan el acceso por defecto.	 | ✓ | ✓ |
 | **7.8** | En código no administrado, la memoria es pedida, usada y liberada de manera correcta. | ✓ | ✓ |
