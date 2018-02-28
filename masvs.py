@@ -75,7 +75,7 @@ class MASVS:
         ''' Returns CSV '''
         si = StringIO()
 
-        writer = csv.DictWriter(si, ['id', 'text'])
+        writer = csv.DictWriter(si, ['id', 'text'], extrasaction='ignore')
         writer.writeheader()
         writer.writerows(self.requirements)
 
