@@ -38,7 +38,7 @@ Muchas organizaciones se pueden beneficiar de la adopción del MASVS, eligiendo 
 
 Una buena metodología de pruebas de seguridad para aplicaciones móviles debe cubrir todos los requerimientos listados en el MASVS. La Guía de Pruebas de Seguridad Móvil de OWASP (MSTG) describe los casos de prueba de caja negra y caja blanca para cada requerimiento de verificación.
 
-### Como guía para las automatización de pruebas unitarias y de integración
+### Como guía para la automatización de pruebas unitarias y de integración
 
 El MASVS está diseñado para ser altamente verificable, con la única excepción de los requerimientos de la arquitectura. Las pruebas unitarias, de integración y de aceptación automatizadas, basadas en los requerimientos del MASVS, pueden integrarse en el ciclo de vida de un desarrollo continuo. Esto no sólo aumenta la conciencia de seguridad de los desarrolladores, sino que también mejora la calidad general de las aplicaciones desarrolladas, y reduce la cantidad de hallazgos durante las pruebas de seguridad en la fase previa al lanzamiento.
 

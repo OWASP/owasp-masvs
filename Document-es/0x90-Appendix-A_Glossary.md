@@ -1,7 +1,7 @@
 # Apéndice A: Glosario
 
 - **2FA** - La Autenticación de Segundo Factor agrega un segundo nivel de autenticación al proceso de autenticación de una cuenta.
-- **Randomización del Espacio de Direcciones (ASLR)** - Una técnica para hacer más difícil la explotación de errores de corrupción de memoria.
+- **Aleatorización del Espacio de Direcciones (ASLR)** - Una técnica para hacer más difícil la explotación de errores de corrupción de memoria.
 - **Seguridad de Aplicación** - La seguridad a nivel de aplicación se centra en el análisis de los componentes que componen la capa de aplicación del modelo de referencia de interconexión de sistemas abiertos (modelo OSI), en lugar de centrarse, por ejemplo, en el sistema operativo subyacente o las redes conectadas.
 - **Verificación de la Seguridad de una Aplicación** - La evaluación técnica de una aplicación contra el OWASP MASVS.
 - **Reporte de la Verificación de la Seguridad de una aplicación** - Un informe que documenta los resultados generales y el análisis de apoyo producido por el verificador para una aplicación particular.
@@ -26,7 +26,7 @@
 - **Open Web Application Security Project** (OWASP) - El Open Web Application Security Project (OWASP) es una comunidad abierta y gratuita a nivel mundial enfocada en mejorar la seguridad del software de aplicaciones. Nuestra misión es hacer que la seguridad de las aplicaciones sea "visible" para que las personas y las organizaciones puedan tomar decisiones informadas sobre los riesgos de seguridad de las aplicaciones. Ver: http://www.owasp.org/
 - **Información de Identificación Personal** (Personally Identifiable Information - PII) - es la información que se puede utilizar por sí sola o con otra información para identificar, contactar o localizar a una sola persona, o para identificar a un individuo en su contexto.
 - **PIE** - es un código máquina que, al ser colocado en algún lugar de la memoria, se ejecuta correctamente independientemente de su dirección absoluta.
-- **PKI** - PKI es un acuerdo que vincula claves públicas con las identidades respectivas de las entidades. La vinculación se establece mediante un proceso de registro y expedición de certificados en y por una autoridad de certificación (CA). 
+- **PKI** - PKI es un acuerdo que vincula claves públicas con las identidades respectivas de las entidades. La vinculación se establece mediante un proceso de registro y expedición de certificados en y por una autoridad de certificación (CA).
 - **SAST** - Las pruebas de seguridad de aplicaciones estáticas (SAST) son un conjunto de tecnologías diseñadas para analizar el código fuente de la aplicación, el bytecode y los binarios del código y las condiciones del diseño que son indicativas de las vulnerabilidades de seguridad. Las soluciones SAST analizan una aplicación desde "dentro hacia fuera" en un estado reposo.
 - **SDLC** - Ciclo de desarrollo de una aplicación.
 - **Seguridad de la Arquitectura** - Una abstracción del diseño de una aplicación que identifica y describe dónde y cómo se utilizaran los controles de seguridad, e identifica y describe la ubicación y sensibilidad de los datos tanto del usuario como de la aplicación.
