@@ -21,7 +21,7 @@ The vast majority of data disclosure issues can be prevented by following simple
 | # | Description | L1 | L2 |
 | --- | --- | --- | --- |
 | **2.1** | System credential storage facilities are used appropriately to store sensitive data, such as user credentials or cryptographic keys. | ✓ | ✓ |
-| **2.2** | No sensitive data should be stored outside of the app container. | ✓ | ✓ |
+| **2.2** | No sensitive data should be stored outside of the app container or system credential storage facilities. | ✓ | ✓ |
 | **2.3** | No sensitive data is written to application logs. | ✓ | ✓ |
 | **2.4** | No sensitive data is shared with third parties unless it is a necessary part of the architecture. | ✓ | ✓ |
 | **2.5** | The keyboard cache is disabled on text inputs that process sensitive data. | ✓ | ✓ |
