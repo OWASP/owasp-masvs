@@ -1,6 +1,6 @@
 # Summary
 
-- [Foreword](0x01-Foreword.md)
+- [Foreword](Foreword.md)
 
 - [Frontispiece](0x02-Frontispiece.md)
 - [Using the MASVS](0x03-Using_the_MASVS.md)

@@ -1,5 +1,3 @@
-
-
 # OWASP Mobile Application Security Verification Standard
 
 <a href="https://github.com/OWASP/owasp-masvs/releases/download/1.1/OWASP_Mobile_AppSec_Verification_Standard_v1.1.pdf"><img width=220px align="right" style="float: right;" src="Document/images/masvs-mini-cover.png"></a>
@@ -22,9 +20,19 @@ PDF downloads are available on the [Releases page](https://github.com/OWASP/owas
 Read it on [Gitbook](https://mobile-security.gitbook.io/masvs/). The book is automatically synchronized with the main repo. 
 
 
+## Creating ePub
+
+You can use the gitbook command line tool to generate PDF, epub, and other e-book formats, once you have checked out this repo. To generate the epub version you can use the following command
+
+```bash
+$ gitbook epub ./ MASVS.epub
+```
+
+
 ## Creating a Word Doc
 
 Run <code>generate_document.sh</code> from the repository root directory. This will create a word document in the same directory. Requires [pandoc](http://pandoc.org).
+
 
 ## Exporting to JSON, XML and CSV
 
@@ -53,7 +61,7 @@ To add or edit content, simply fork the repository and make your changes, then c
 # Read Individual Sections of the MASVS Here
 
 * [Header](Document/0x00-Header.md)
-* [Foreword](Document/0x01-Foreword.md)
+* [Foreword](Document/Foreword.md)
 * [Frontispiece](Document/0x02-Frontispiece.md)
 * [The Mobile Application Security Verification Standard](Document/0x03-Using_the_MASVS.md)
 * [Assessment and Verification](Document/0x04-Assessment_and_Certification.md)
