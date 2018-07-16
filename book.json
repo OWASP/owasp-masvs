@@ -3,7 +3,7 @@
   "plugins" : [ "anchors" ],
 
   "structure": {
-    "readme": "0x01-Foreword.md"
+    "readme": "Foreword.md"
   }
 
 
