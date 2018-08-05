@@ -13,7 +13,7 @@ A continuación se enumeran los requerimientos para MASVS-L1 y MASVS-L2.
 | # | Descripción | L1 | L2 |
 | --- | --- | --- | --- |
 | **1.1** | Todos los componentes se encuentran identificados y asegurar que son necesarios. | ✓ | ✓ |
-| **1.2** | Los controles de seguridad nunca se aplican sólo en el lado del cliente, sino que también en los respectivos servidores remotos. | ✓ | ✓ |
+| **1.2** | Los controles de seguridad nunca se aplican sólo en el cliente, sino que también en los respectivos servidores. | ✓ | ✓ |
 | **1.3** | Se definió una arquitectura de alto nivel para la aplicación y los servicios y se incluyeron controles de seguridad en la misma. | ✓ | ✓ |
 | **1.4** | Se identificó claramente la información considerada sensible en el contexto de la aplicación móvil. | ✓ | ✓ |
 | **1.5** | Todos los componentes de la aplicación están definidos en términos de la lógica de negocio o las funciones de seguridad que proveen. |   | ✓ |
