@@ -17,7 +17,7 @@ http://owasp.herokuapp.com/.
 ![license](images/license.png)
 Copyright © 2018 The OWASP Foundation. This document is released under the Creative Commons Attribution ShareAlike 3.0 license. For any reuse or distribution, you must make clear to others the license terms of this work.
 
-| Project Lead | Lead Author | Contributors and Reviewers |
+| Project Lead | Lead Author | Contributors and Reviewers
 | --- | --- | --- |
 | Sven Schleier | Bernhard Mueller | Stephen Corbiaux, Sven Schleier, Jeroen Willemsen, Anant Shrivastava, Abdessamad Temmar, Alexander Antukh, Roberto Martelloni, Stefaan Seys, Prabhant Singh, Francesco Stillavato, Abhinav Sejpal |
 

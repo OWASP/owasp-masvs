@@ -17,7 +17,7 @@ En la mayoría de los casos, una parte esencial de la arquitectura global de apl
 | **4.7** | Las sesiones y los tokens de acceso expiran luego de un tiempo predefinido de inactividad. | ✓  | ✓ |
 | **4.8** | La autenticación biométrica, si hay, no está atada a un evento (usando una API que simplemente retorna "true" o "false"). Sino que está basado en el desbloqueo del keychain (iOS) o un keystore (Android). |   | ✓ |
 | **4.9** | Existe un mecanismo de segundo factor de autenticación (2FA) en el servidor y es aplicado consistentemente. |   | ✓ |
-| **4.10** | Para realizar transacciones o acciones que manejan información sensible se requiere una re-autenticación. |   | ✓ |
+| **4.10** | Para realizar transacciones se requiere una re-autenticación. |   | ✓ |
 | **4.11** | La aplicación informa al usuario acerca de los accesos a su cuenta. El usuario es capaz de ver una lista de los dispositivos conectados y bloquear el acceso desde ciertos dispositivos. |  | ✓ |
 
 ## Referencias
