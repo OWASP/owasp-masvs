@@ -8,7 +8,7 @@ The goal of this control is to ensure that basic security coding practices are f
 
 | # | Description | L1 | L2 |
 | --- | --- | --- | --- |
-| **7.1** | The app is signed and provisioned with valid certificate of which the private key is properly protected. | ✓ | ✓ |
+| **7.1** | The app is signed and provisioned with a valid certificate, of which the private key is properly protected. | ✓ | ✓ |
 | **7.2** | The app has been built in release mode, with settings appropriate for a release build (e.g. non-debuggable). | ✓ | ✓ |
 | **7.3** | Debugging symbols have been removed from native binaries. | ✓ | ✓ |
 | **7.4** | Debugging code has been removed, and the app does not log verbose errors or debugging messages. | ✓ | ✓ |
