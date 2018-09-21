@@ -12,18 +12,18 @@ This is the official Github Repository of the OWASP Mobile Application Security 
 - In procurement - as a measuring stick for mobile app security, e.g. in form of questionnaire for vendors;
 - Et cetera.
 
-Thee MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg, "MSTG").
+The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg "OWASP Mobile Security Testing Guide").
 
 # Getting the MASVS
 
-PDF downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases "Releases"). The current release is [MASVS version 1.1](https://github.com/OWASP/owasp-masvs/releases/download/1.1/OWASP_Mobile_AppSec_Verification_Standard_v1.1.pdf). The MASVS is also available in different languages: 
+PDF downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases "Releases"). The current release is [MASVS version 1.1](https://github.com/OWASP/owasp-masvs/releases/download/1.1/OWASP_Mobile_AppSec_Verification_Standard_v1.1.pdf). The MASVS is also available in different languages:
 
 - [Spanish](https://github.com/OWASP/owasp-masvs/releases/download/1.0-ES/OWASP_Mobile_AppSec_Verification_Standard_v1.0-ES.pdf)  
 - [Russian](https://github.com/OWASP/owasp-masvs/releases/download/1.1-RU/OWASP_Mobile_AppSec_Verification_Standard_v1.1-RU.pdf)
 
 ## Gitbook
 
-Read it on [Gitbook](https://mobile-security.gitbook.io/masvs/). The book is automatically synchronized with the main repo. 
+Read it on [Gitbook](https://mobile-security.gitbook.io/masvs/ "GitBook Mobile AppSec Verification Standard"). The book is automatically synchronized with the main repo.
 
 
 ## Creating ePub
@@ -37,7 +37,7 @@ $ gitbook epub ./ MASVS.epub
 
 ## Creating a Word Doc
 
-Run <code>generate_document.sh</code> from the repository root directory. This will create a word document in the same directory. Requires [pandoc](http://pandoc.org).
+Run <code>generate_document.sh</code> from the repository root directory. This will create a word document in the same directory. Requires [pandoc](http://pandoc.org "Pandoc").
 
 
 ## Exporting to JSON, XML and CSV
@@ -50,7 +50,7 @@ export.py [-h] [--format {json,xml,csv}]
 
 ## Suggestions and Feedback
 
-To report and error or suggest an improvement, please create an [issue](https://github.com/OWASP/owasp-masvs/issues).
+To report and error or suggest an improvement, please create an [issue](https://github.com/OWASP/owasp-masvs/issues "Github issues").
 
 # How to Contribute
 
@@ -59,8 +59,8 @@ The MASVS is an open source effort and we welcome contributions and feedback. If
 https://owasp.slack.com/messages/project-mobile_omtg/details/
 
 You can sign up here:
- 
-http://owasp.herokuapp.com/
+
+https://owaspslack.com/
 
 To add or edit content, simply fork the repository and make your changes, then create a pull request when you are finished. We'll review the changes before we merge them with the master branch in the main repo. In case there's conflicting opinions, we'll create an issue for discussing the changes.
 
