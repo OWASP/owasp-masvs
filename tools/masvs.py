@@ -43,10 +43,10 @@ class MASVS:
     requirements = []
 
     def __init__(self):
-        for file in os.listdir("Document"):
+        for file in os.listdir("../Document"):
 
             if re.match("0x\d{2}-V", file):
-                for line in open(os.path.join("Document", file)):
+                for line in open(os.path.join("../Document", file)):
                     regex = re.compile('\\*\\*(\d\.\d+)\\*\\*\s\|\s{0,1}(.*?)\s{0,1}\|')
                     m = re.search(regex, line)
                     if m:

@@ -33,14 +33,16 @@ from masvs import MASVS
 
 parser = argparse.ArgumentParser(description='Export the MASVS requirements.')
 parser.add_argument('--format', choices=['json', 'xml', 'csv'], default='json')
-
+parser.add_argument('--lang', choices=['es', 'ru', 'en'], default='en')
 args = parser.parse_args()
 
 m = MASVS()
 
+
+
 if args.format == "csv":
-    print(m.to_csv())
+    print(m.to_csv(args.lang))
 elif args.format == "xml":
-    print(m.to_xml())
+    print(m.to_xml(args.lang))
 else:
-    print(m.to_json())
+    print(m.to_json(args.lang))
