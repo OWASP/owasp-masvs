@@ -2,7 +2,7 @@
 
 ## Objetivo de control
 
-Estos controles revisan que se utilicen las APIs de la plataforma y componentes estándar de una manera segura. Además se cubre la comunicación entre aplicaciones (IPC).
+Estos controles revisan que se utilicen las APIs de la plataforma y componentes estándar de una manera segura. Además, se cubre la comunicación entre aplicaciones (IPC).
 
 ## Requerimientos de Verificación de Seguridad
 
