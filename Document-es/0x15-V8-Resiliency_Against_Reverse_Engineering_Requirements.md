@@ -2,7 +2,7 @@
 
 ## Objetivo de control
 
-​En esta sección se cubren protecciones recomendadas para aplicaciones que maneja o brindan acceso a información o funcionalidades sensibles. La falta de estos controles no generan vulnerabilidades - sino que, están pensados para incrementar la resistencia contra la ingeniería inversa de la aplicación, dificultándole al adversario el acceso a los datos o el entendimiento del modo de ejecución de la aplicación.
+En esta sección se cubren protecciones recomendadas para aplicaciones que maneja o brindan acceso a información o funcionalidades sensibles. La falta de estos controles no generan vulnerabilidades - sino que, están pensados para incrementar la resistencia contra la ingeniería inversa de la aplicación, dificultándole al adversario el acceso a los datos o el entendimiento del modo de ejecución de la aplicación.
 
  Los controles de esta sección deben aplicarse según sea necesario, basándose en una evaluación de los riesgos causados por la manipulación no autorizada de la aplicación y/o la ingeniería inversa del código. Sugerimos consultar el documento de OWASP "Ingeniería Inversa - Amenazas de la Ingeniería Inversa de OWASP" (vea las referencias a continuación) para obtener una lista de los riesgos del negocio, así como las amenazas técnicas asociadas.
 
@@ -28,7 +28,7 @@ Se aplican las siguientes consideraciones:
 | **8.4** | La aplicación detecta la presencia de las herramientas de ingeniería reversa o frameworks mas utilizados.| ✓ |
 | **8.5** | La aplicación detecta y responde al ser ejecutada en un emulador.  | ✓ |
 | **8.6** | La aplicación detecta y responde ante modificaciones de código o datos en su propio espacio de memoria. | ✓ |
-| **8.7** | La aplicación implementa múltiples mecanismos de detección para los puntos del 8.1 al 8.6. Nótese que a mayor cantidad y diversidad de mecanismos usados, mayor la resistencia. | ✓ |
+| **8.7** | La aplicación implementa múltiples mecanismos de detección para los puntos del 8.1 al 8.6. Nótese que, a mayor cantidad y diversidad de mecanismos usados, mayor la resistencia. | ✓ |
 | **8.8** | Los mecanismos de detección disparan distintos tipos de respuestas, incluyendo respuestas retardadas y silenciosas. | ✓ |
 | **8.9** | La ofuscación es aplicada a las defensas del programa, lo que a su vez impide la des-ofuscación mediante el análisis dinámico. | ✓ |
 
