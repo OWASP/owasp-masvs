@@ -16,7 +16,7 @@ MASVS - итог усилий сообщества и обратной связ�
 ![license](images/license.png) Copyright © 2018 The OWASP Foundation. Данный документ выпущен под лицензией Creative Commons Attribution ShareAlike 3.0 . Для использования или распространения необходимо разъяснить всем сторонам правила лицензии этой работы.
 
 | Руководитель проекта | Главные авторы | Авторы и рецензенты | Перевод на русский | Рецензенты перевода на русский |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | Bernhard Mueller, Sven Schleier | Bernhard Mueller | Stephen Corbiaux, Sven Schleier, Jeroen Willemsen, Anant Shrivastava, Abdessamad Temmar, Alexander Antukh, Roberto Martelloni, Stefaan Seys, Prabhant Singh, Francesco Stillavato, Abhinav Sejpal | [Gall Maxim](https://github.com/kysokzla) | [Oprya Egor](https://github.com/pr45opra), [Chelnokov Vladislav](https://github.com/redhothub), [Tereshin Dmitry](https://github.com/d0n473ll0) |
 
 Работа над документом была начата как ответвление OWASP Application Security Verification Standard, написанного Jim Manico.
