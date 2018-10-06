@@ -4,11 +4,11 @@
 
 La protección de datos sensibles, como las credenciales del usuario y la información privada, es un aspecto clave de la seguridad móvil. En primer lugar, los datos confidenciales pueden exponerse involuntariamente a otras aplicaciones que se ejecutan en el mismo dispositivo si se utilizan de forma inadecuada mecanismos de comunicación entre procesos del sistema operativo. Los datos también pueden filtrarse involuntariamente en el almacenamiento en la nube, las copias de seguridad o la caché del teclado. Además, los dispositivos móviles pueden perderse o robarse más fácilmente que otros tipos de dispositivos, por lo que un adversario que obtiene acceso físico al mismo es un escenario más probable. En ese caso, se pueden implementar protecciones adicionales para dificultar la recuperación de los datos sensibles.
 
-El MASVS se centra en las aplicaciones y por esto no cubre políticas para el dispositivo como Mobile Device Managment (MDM) (https://gsuite.google.com/products/admin/mobile/​) o Enter (EDM). Igualmente se recomienda utilizar estas soluciones en contextos empresariales.
+El MASVS se centra en las aplicaciones y por esto no cubre políticas para el dispositivo como Mobile Device Managment (MDM) (https://gsuite.google.com/products/admin/mobile/) o Enter (EDM). Igualmente se recomienda utilizar estas soluciones en contextos empresariales.
 
 ### Definición de Datos Sensibles
 
-Los datos sensibles en el contexto del MASVS se refieren tanto a las credenciales de usuario como a cualquier otros datos que se considere sensible en el contexto particular, por ejemplo:
+Los datos sensibles en el contexto del MASVS se refieren tanto a las credenciales de usuario como a cualquier otro dato que se considere sensible en el contexto particular, por ejemplo:
 
 - Información de identificación personal que puede ser usada para el robo de identidad: números de seguro social, números de tarjetas de crédito, números de cuentas bancarias, información médica;
 - Datos altamente confidenciales que, en caso de que se comprometieran, ocasionarían daños a la reputación y/o costes financieros: información contractual, información cubierta por acuerdos de confidencialidad, información de gestión;
@@ -21,7 +21,7 @@ La gran mayoría de las cuestiones relativas a la divulgación de datos pueden p
 | # | Descripción | L1 | L2 |
 | --- | --- | --- | --- |
 | **2.1** | Las funcionalidades de almacenamiento de credenciales del sistema son utilizadas para almacenar la información sensible, como la información personal, credenciales del usuario y claves criptográficas. | ✓ | ✓ |
-| **2.2** | No se debe almacenar información sensible fuera del contenedor de la aplicación o del alamacenamiento de credenciales del sistema. 
+| **2.2** | No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema. | ✓ | ✓ |
 | **2.3** | No se escribe información sensible en los registros de la aplicación. | ✓ | ✓ |
 | **2.4** | No se comparte información sensible con servicios externos salvo que sea una necesidad de la arquitectura. | ✓ | ✓ |
 | **2.5** | Se desactiva el caché del teclado en los campos de texto donde se maneja información sensible. | ✓ | ✓ |
@@ -31,7 +31,7 @@ La gran mayoría de las cuestiones relativas a la divulgación de datos pueden p
 | **2.9** | La aplicación remueve la información sensible de la vista cuando la aplicación pasa a un segundo plano. |  | ✓ |
 | **2.10** | La aplicación no conserva la información sensible en memoria más de lo necesario y la memoria es limpiada luego de su uso. |  | ✓ |
 | **2.11** | La aplicación obliga a que exista una política mínima de seguridad en el dispositivo, como que el usuario deba configurar un código de acceso. |  | ✓ |
-| **2.12** | La aplicación educa al usuario acerca de los tipos de información personal que procesa y de las mejores prácticas en seguridad que el usuario debería seguir al utilizar la aplicación.​ |  | ✓ |
+| **2.12** | La aplicación educa al usuario acerca de los tipos de información personal que procesa y de las mejores prácticas en seguridad que el usuario debería seguir al utilizar la aplicación. |  | ✓ |
 
 ## Referencias
 
