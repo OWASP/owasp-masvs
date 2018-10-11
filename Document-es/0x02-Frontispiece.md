@@ -15,11 +15,11 @@ http://owasp.herokuapp.com/.
 ## Copyright y Licencia
 
 ![license](images/license.png)
-Copyright © 2018 Fundación OWASP. Este documento está licenciado bajo la licencia Internacional 3.0 de Creative Commons Attribution-ShareAlike. Para cualquier reutilización o distribución, debe dejar claro los términos de la licencia de esta obra.
+Copyright © 2018 Fundación OWASP. Este documento está licenciado bajo la licencia Internacional 3.0 de Creative Commons Attribution-ShareAlike. Para cualquier reutilización o distribución, debe dejar claro los términos de la licencia de esta obra.
 
 | Líder del proyecto | Autor principal | Colaboradores y revisores
 | --- | --- | --- |
 | Sven Schleier | Bernhard Mueller | Stephen Corbiaux, Sven Schleier, Jeroen Willemsen, Anant Shrivastava, Abdessamad Temmar, Alexander Antukh, Roberto Martelloni, Stefaan Seys, Prabhant Singh, Francesco Stillavato, Abhinav Sejpal |
 | Traducción al español | --- | Martín Marsicano, Manuel Delgado |
 
-Este documento comenzó como un bifurcación del Estándar de Verificación de Seguridad de Aplicaciones de OWASP escrito por Jim Manico.
+Este documento comenzó como una bifurcación del Estándar de Verificación de Seguridad de Aplicaciones de OWASP escrito por Jim Manico.
