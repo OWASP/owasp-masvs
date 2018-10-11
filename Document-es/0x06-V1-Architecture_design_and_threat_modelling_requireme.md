@@ -8,7 +8,7 @@ La categoría V1 lista los requerimientos pertinentes a la arquitectura y al dis
 
 ## Requerimientos de Verificación de Seguridad
 
-A continuación se enumeran los requerimientos para MASVS-L1 y MASVS-L2.
+A continuación, se enumeran los requerimientos para MASVS-L1 y MASVS-L2.
 
 | # | Descripción | L1 | L2 |
 | --- | --- | --- | --- |
