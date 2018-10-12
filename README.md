@@ -1,4 +1,4 @@
-# OWASP Mobile Application Security Verification Standard
+# OWASP Mobile Application Security Verification Standard [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_MSTG.svg?style=social&label=Follow)](https://twitter.com/OWASP_MSTG)
 
 <a href="https://github.com/OWASP/owasp-masvs/releases/download/1.1/OWASP_Mobile_AppSec_Verification_Standard_v1.1.pdf"><img width=220px align="right" style="float: right;" src="Document/images/masvs-mini-cover.png"></a>
 
@@ -13,14 +13,14 @@ The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https
 
 # Getting the MASVS
 
-PDF downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases). The current release is [MASVS version 1.1](https://github.com/OWASP/owasp-masvs/releases/download/1.1/OWASP_Mobile_AppSec_Verification_Standard_v1.1.pdf). The MASVS is also available in different languages: 
+PDF downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases). The current release is [MASVS version 1.1](https://github.com/OWASP/owasp-masvs/releases/download/1.1/OWASP_Mobile_AppSec_Verification_Standard_v1.1.pdf). The MASVS is also available in different languages:
 
 - [Spanish](https://github.com/OWASP/owasp-masvs/releases/download/1.0-ES/OWASP_Mobile_AppSec_Verification_Standard_v1.0-ES.pdf)  
 - [Russian](https://github.com/OWASP/owasp-masvs/releases/download/1.1-RU/OWASP_Mobile_AppSec_Verification_Standard_v1.1-RU.pdf)
 
 ## Gitbook
 
-Read it on [Gitbook](https://mobile-security.gitbook.io/masvs/ "GitBook Mobile AppSec Verification Standard"). The book is automatically synchronized with the main repo. 
+Read it on [Gitbook](https://mobile-security.gitbook.io/masvs/ "GitBook Mobile AppSec Verification Standard"). The book is automatically synchronized with the main repo.
 
 
 ## Creating ePub
@@ -56,7 +56,7 @@ The MASVS is an open source effort and we welcome contributions and feedback. If
 https://owasp.slack.com/messages/project-mobile_omtg/details/
 
 You can sign up here:
- 
+
 https://owaspslack.com/
 
 To add or edit content, simply fork the repository and make your changes, then create a pull request when you are finished. We'll review the changes before we merge them with the master branch in the main repo. In case there's conflicting opinions, we'll create an issue for discussing the changes.
