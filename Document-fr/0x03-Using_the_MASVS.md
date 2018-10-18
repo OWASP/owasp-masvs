@@ -58,22 +58,22 @@ L'implémentation des exigences MASVS L2 améliore la sécurité, mais peut en m
 
 ###### MASVS-L1
 
-- All mobile apps. MASVS-L1 lists security best practices that can be followed with a reasonable impact on development cost and user experience. Apply the requirements in MASVS-L1 for any app that don't qualify for one of the higher levels.
+- Pour tout type d'application mobile. MASVS-L1 liste les bonnes pratiques de sécurité qui peuvent être suivies avec un impact raisonnable sur les coûts de développement et l'expérience utilisateur. Il est conseillé d'appliquer les exigences de MASVS-L1 pour toute application qui n'a pas vocation à implémenter les exigences des niveaux supérieurs.
 
 ###### MASVS-L2
 
-- Health-Care Industry: Mobile apps that store personally identifiable information that can be used for identity theft, fraudulent payments, or a variety of fraud schemes. For the US healthcare sector, compliance considerations include the Health Insurance Portability and Accountability Act (HIPAA) Privacy, Security, Breach Notification Rules and Patient Safety Rule. 
+- Industrie de la Santé : Applications mobiles qui stockent des données personnelles (PII) pouvant être utilisées pour du vol d'identité, des paiements frauduleux ou tout autre type de fraude. Pour le secteur de la santé américain, les considérations de conformité incluent Health Insurance Portability and Accountability Act (HIPAA) ainsi que les règlementations sur le respect de la vie privée, la sécurité, la notification des pertes de données et la sûreté des patients. 
 
-- Financial Industry: Apps that enable access to highly sensitive information like credit card numbers, personal information, or allow the user to move funds. These apps warrant additional security controls to prevent fraud. Financial apps need to ensure compliance to the Payment Card Industry Data Security Standard (PCI DSS), Gramm Leech Bliley Act and Sarbanes-Oxley Act (SOX).
+- Industrie Financière : Applications mobiles qui donnent accès à des informations hautement sensibles telles que des numéros de cartes de crédit, des informations personnelles ou permettent des mouvements de fonds. Ces applications justifient l'implémentation de contrôles de sécurité additionnels pour contrer la fraude. Les applications du monde de la finance doivent être conformes au standard Payment Card Industry Data Security Standard (PCI DSS), au Gramm Leech Bliley Act et au Sarbanes-Oxley Act (SOX).
 
 ###### MASVS L1+R
 
-- Mobile apps where IP protection is a business goal. The resiliency controls listed in MASVS-R can be used to increase the effort needed to obtain the original source code and to impede tampering / cracking.
+- Applications mobiles où la protection de la propriété intellectuelle est un objectif commercial. Les contrôles contribuant à la résistance listés dans MASVS-R peuvent être utilisés pour augmenter la quantité d'effort requis pour obtenir le code source d'origine et pour entraver les possibilités de manipulation / de piratage.
 
-- Gaming Industry: Games with an essential need to prevent modding and cheating, such as competitive online games. Cheating is an important issue in online games, as a large amount of cheaters leads to a disgruntled the player base and can ultimately cause a game to fail. MASVS-R provides basic anti-tampering controls to help increase the effort for cheaters.
+- Industrie du Jeu : Jeux présentant un fort besoin d'empêcher le moddage et la triche, tels que les jeux de compétition en ligne. La triche est un problème majeur pour les jeux en ligne dans la mesure où un nombre important de tricheurs peut amener à mécontenter la majorité des joueurs et peut entraîner l'échec d'un jeu. MASVS-R fournit des contrôles de base contre la manipulation pour rendre la possibilité de triche plus compliquée.
 
 ###### MASVS L2+R
 
-- Financial Industry: Online banking apps that allow the user to move funds, where techniques code injection and instrumentation on compromised devices pose a risk. In this case, controls from MASVS-R can be used to impede tampering, raising the bar for malware authors.
+- Industrie Financière : Applications de banque en ligne permettant aux utilisateurs de transférer des fonds et où les techniques d'injection de code et d'instrumentation sur des appareils mobiles compromis entraînent un risque. Dans ce cas, les contrôles du MASVS-R peuvent être mis en oeuvre pour empêcher la manipulation et rendre la vie des créateurs de logiciels malveillants (malwares) plus compliquée.
 
-- All mobile apps that, by design, need to store sensitive data on the mobile device, and at the same time must support a wide range of devices and operating system versions. In this case, resiliency controls can be used as an defense-in-depth measure to increase the effort for attackers aiming to extract the sensitive data. 
+- Toute application mobile qui, par design, doit stocker des données sensibles sur l'appareil mobile tout en devant fonctionner pour une large game d'appareils et de versions de systèmes d'exploitation. Dans ce cas, des contrôles de résistance peuvent être utilisés en tant que mesures de défense en profondeur pour augmenter la quantité d'effort que doivent fournir les attaquants voulant extraire les données sensibles. 
