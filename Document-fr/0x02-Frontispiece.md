@@ -1,32 +1,32 @@
-# Frontispiece
+# Frontispice
 
-## About the Standard
+## A propos Du Standard
 
-Welcome to the Mobile Application Security Verification Standard (MASVS) 1.1. The MASVS is a community effort to establish a framework of security requirements needed to design, develop and test secure mobile apps on iOS and Android.
+Bienvenue sur le Mobile Application Security Verification Standard (MASVS) 1.1, le Standard de Vérification de la Sécurité des Applications Mobiles. Le MASVS est un effort communautaire dont le but est d'établir un cadre concernant les exigences de sécurité pour le design, le développement et le test de sécurité des applications mobiles sur iOS et Android.
 
-The MASVS is a culmination of community effort and industry feedback. We expect this standard to evolve over time and welcome feedback from the community. The best way to get in contact with us is via the OWASP Mobile Project Slack channel:
+Le MASVS est l'aboutissement d'un effort communautaire et de retours d'expérience venant du monde de l'industrie. Le but de ce standard est d'évoluer dans le temps et, dans ce cadre, tout retour est le bienvenu. Le meilleur moyen de rentrer en contact avec nous est via le canal Slack OWASP Mobile Project :
 
 https://owasp.slack.com/messages/project-mobile_omtg/details/
 
-Accounts can be created at the following URL:
+Un compte peut être créé à l'endroit suivant :
 
 http://owasp.herokuapp.com/.
 
-## Copyright and License
+## Copyright et Licence
 
 ![license](images/license.png)
-Copyright © 2018 The OWASP Foundation. This document is released under the Creative Commons Attribution ShareAlike 3.0 license. For any reuse or distribution, you must make clear to others the license terms of this work.
+Copyright © 2018 The OWASP Foundation. Ce document est publié sous la licence Creative Commons Attribution ShareAlike 3.0. Pour toute ré-utilisation ou distribution, il est obligatoire d'attribuer la licence de ce travail aux auteurs.
 
-| Project Lead | Lead Author | Contributors and Reviewers
+| Chef de Projet | Auteur Principal | Contributeurs et Relecteurs
 | --- | --- | --- |
-| Sven Schleier & Jeroen Willemsen| Bernhard Mueller | Stephen Corbiaux, Sven Schleier, Anant Shrivastava, Abdessamad Temmar, Alexander Antukh, Roberto Martelloni, Stefaan Seys, Prabhant Singh, Francesco Stillavato, Abhinav Sejpal |
+| Sven Schleier & Jeroen Willemsen | Bernhard Mueller | Stephen Corbiaux, Sven Schleier, Anant Shrivastava, Abdessamad Temmar, Alexander Antukh, Roberto Martelloni, Stefaan Seys, Prabhant Singh, Francesco Stillavato, Abhinav Sejpal |
 
-This document started as a fork of the OWASP Application Security Verification Standard written by Jim Manico.
+Ce document est basé sur le Standard de Vérification de la Sécurité Applicative de l'OWASP, le OWASP Application Security Verification Standard écrit par Jim Manico.
 
 ## Sponsors
 
-While both the MASVS and the MSTG are created and maintained by the community on a voluntary basis, sometimes a little bit of outside help is required. We therefore thank our sponsors for providing the funds to be able to hire technical editors. Note that their sponsorship does not influence the content of the MASVS or MSTG in any way. The sponsorship packages are described on the [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
+Tant le MASVS que le MSTG ont été créés et sont maintenus par la communauté sur le principe du bénévolat ; ceci dit, un peu d'aide extérieure est parfois nécessaire. Par conséquent, nous remercions nos sponsors de nous avoir fourni les fonds pour pouvoir employer des éditeurs techniques. Il est toutefois important de souligner que leur aide financière n'influence pas le contenu des documents MASVS et MSTG de quelque manière que ce soit. Les conditions de parrainage sont décrites sur le [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
-### Honourable Benefactor
+### Bienfaiteurs Notables
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
