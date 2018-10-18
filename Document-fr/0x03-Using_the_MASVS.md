@@ -39,22 +39,22 @@ L'application implémente des contrôles au niveau de l'état de l'art en matiè
 
 ### Utilisation Recommandée
 
-Apps can be verified against MASVS L1 or L2 based on prior risk assessment and overall level of security required. L1 is applicable to all mobile apps, while L2 is generally recommended for apps that handle more sensitive data and/or functionality. MASVS-R (or parts of it) can be applied to verify resiliency against specific threats, such as repackaging or extraction of sensitive data, *in addition* to proper security verification.
+Les applications peuvent être validées par rapport à MASVS L1 ou L2 en fonction des évaluations de risque précédentes et du niveau de sécurité requis. L1 s'applique à tout type d'application mobile tandis que L2 est générallement recommandé pour des applications qui gèrent des données ou des fonctionnalités plus sensibles. MASVS-R (ou du moins une partie) peut être appliqué pour la validation de la résistance à des menaces spécifiques telles que le ré-empaquetage ou l'extraction de données sensibles, *en plus* d'une validation de sécurité appropriée.
 
-In summary, The following verification types are available:
+En résumé, les typologies de validation suivantes sont disponibles :
 
 - MASVS-L1
 - MASVS-L1+R
 - MASVS-L2
 - MASVS-L2+R
 
-The different combinations reflect different grades of security and resiliency. The goal is to allow for flexibility: For example, a mobile game might not warrant adding MASVS-L2 security controls such as 2-factor authentication for usability reasons, but have a strong business need for tampering prevention.
+Les différents combinaisons reflètent différents niveaux de sécurité et de résistance. Le but est de permettre une certaine flexibilité : par exemple, un jeu sur mobile pourrait se permettre de ne pas ajouter les contrôles de sécurité MASVS-L2 tels que l'authentification à 2 facteurs pour des considérations de facilité d'utilisation mais pourrait avoir de forts besoins commerciaux concernant la protection contre la manipulation.
 
-#### What Verification Type to Choose
+#### Quel Typologie de Validation Utiliser?
 
-Implementing the requirements of MASVS L2 increases security, while at the same time increasing cost of development and potentially worsening the end user experience (the classical trade-off). In general, L2 should be used for apps whenever it makes sense from a risk vs. cost perspective (i.e., where the potential loss caused by a compromise confidentiality or integrity is higher than the cost incurred by the additional security controls). A risk assessment should be the first step before applying the MASVS.
+L'implémentation des exigences MASVS L2 améliore la sécurité, mais peut en même temps augmenter les coûts de développement et dégrader potentiellement l'expérience utilisateur (un compromis classique). En général, L2 devrait être utilisé pour toute application où l'analyse risques vs coûts démontre le besoin d'atteindre ce niveau (i.e. lorsque les pertes potentielles causées par la compromission de la confidentialité ou de l'intégrité sont supérieures au coût induit par l'implémentation des contrôles de sécurité supplémentaires). L'évaluation des risques devrait être la première étape avant l'implémentation du MASVS.
 
-##### Examples
+##### Exemples
 
 ###### MASVS-L1
 
