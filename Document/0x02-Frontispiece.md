@@ -19,7 +19,7 @@ Copyright © 2018 The OWASP Foundation. This document is released under the Crea
 
 | Project Lead | Lead Author | Contributors and Reviewers
 | --- | --- | --- |
-| Sven Schleier & Jeroen Willemsen| Bernhard Mueller | Stephen Corbiaux, Sven Schleier, Jeroen Willemsen, Ryan Dewhurst, Anant Shrivastava, Yogesh Shamrma, Martin Marsicano, Sjoerd Langkemper, Abdessamad Temmar, Manuel Delgado, Jeroen Beckers, Alexander Antukh, Roberto Martelloni, Nikhil Soni, Ben Gardiner, Stefaan Seys, Vinícius Henrique Marangoni, Prabhant Singh, Francesco Stillavato, Abhinav Sejpal, Ben Cheney |
+| Sven Schleier & Jeroen Willemsen| Bernhard Mueller | Alexander Antukh, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Stephen Corbiaux, Manuel Delgado, Ryan Dewhurst, Tereshin Dmitry, Ben Gardiner, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Sven Schleier, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Abdessamad Temmar, Jeroen Willemsen |
 
 This document started as a fork of the OWASP Application Security Verification Standard written by Jim Manico.
 
