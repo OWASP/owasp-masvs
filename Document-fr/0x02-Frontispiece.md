@@ -19,7 +19,7 @@ Copyright © 2018 The OWASP Foundation. Ce document est publié sous la licence 
 
 | Chef de Projet | Auteur Principal | Contributeurs et Relecteurs
 | --- | --- | --- |
-| Sven Schleier & Jeroen Willemsen | Bernhard Mueller | Stephen Corbiaux, Sven Schleier, Anant Shrivastava, Abdessamad Temmar, Alexander Antukh, Roberto Martelloni, Stefaan Seys, Prabhant Singh, Francesco Stillavato, Abhinav Sejpal |
+| Sven Schleier & Jeroen Willemsen | Bernhard Mueller | Romuald Szkudlarek, Alexander Antukh, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Stephen Corbiaux, Manuel Delgado, Ryan Dewhurst, Tereshin Dmitry, Ben Gardiner, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Sven Schleier, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Abdessamad Temmar, Jeroen Willemsen |
 
 Ce document est basé sur le Standard de Validation de la Sécurité Applicative de l'OWASP, le OWASP Application Security Verification Standard écrit par Jim Manico.
 
