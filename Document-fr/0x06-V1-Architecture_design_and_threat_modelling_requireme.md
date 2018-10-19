@@ -1,33 +1,33 @@
-# V1: Architecture, Design and Threat Modeling Requirements
+# V1: Exigences concernant l'Architecture, le Design le Modèle de Menaces
 
-## Control Objective
+## Objectif de Contrôle
 
-In a perfect world, security would be considered throughout all phases of development. In reality however, security is often only a consideration at a late stage in the SDLC. Besides the technical controls, the MASVS requires processes to be in place that ensure that the security has been explicitly addressed when planning the architecture of the mobile app, and that the functional and security roles of all components are known. Since most mobile applications act as clients to remote services, it must be ensured that appropriate security standards are also applied to those services - testing the mobile app in isolation is not sufficient.
+Dans un monde parfait, la sécurité serait prise en compte tout au long du cycle de développement. Cependant, en réalité la sécurité n'est une considération que tardivement dans le SDLC. Au delà des contrôles techniques, le MASVS exige que des processus soient en place pour garantir que la sécurité a bien été explicitement prise en compte lors de la préparation de l'architecture de l'application mobile et que, pour l'ensemble des composants, les roles fonctionnels et liés à la sécurité sont connus. Dans la mesure où la plupart des applications mobiles agissent en tant que clients de services distants, il est nécessaire de s'assurer que des standards de sécurité pertinents sont aussi appliqués à ces services - tester l'application mobile de manière isolée n'est pas suffisant.
 
-The category “V1” lists requirements pertaining to architecture and design of the app. As such, this is the only category that does not map to technical test cases in the OWASP Mobile Testing Guide. To cover topics such as threat modelling, secure SDLC, key management, users of the MASVS should consult the respective OWASP projects and/or other standards such as the ones linked below.
+La catégorie “V1” liste les exigences relatives à l'architecture et au design de l'application. Par conséquent, c'est la seule catégorie qui n'est pas reliée à des cas de test techniques dans le Mobile Testing Guide de l'OWASP. Afin de traiter des sujets tels que le modèle de menaces, le SDLC de sécurité, la gestion des clés, le lecteur du MASVS est invité à consulter les projets de l'OWASP dédiés à ces sujets et/ou d'autres standards tel que ceux listés ci-dessous.
 
-## Security Verification Requirements
+## Validation des Exigences de Sécurité
 
-The requirements for MASVS-L1 and MASVS-L2 are listed below.
+Les exigences pour MASVS-L1 et MASVS-L2 sont listées ci-dessous.
 
 | # | Description | L1 | L2 |
 | --- | --- | --- | --- |
-| **1.1** | All app components are identified and known to be needed. | ✓ | ✓ |
-| **1.2** | Security controls are never enforced only on the client side, but on the respective remote endpoints. | ✓ | ✓ |
-| **1.3** | A high-level architecture for the mobile app and all connected remote services has been defined and security has been addressed in that architecture. | ✓ | ✓ |
-| **1.4** | Data considered sensitive in the context of the mobile app is clearly identified. | ✓ | ✓ |
-| **1.5** | All app components are defined in terms of the business functions and/or security functions they provide. |   | ✓ |
-| **1.6** | A threat model for the mobile app and the associated remote services has been produced that identifies potential threats and countermeasures. |   | ✓ |
-| **1.7** | All security controls have a centralized implementation. |   | ✓ |
-| **1.8** | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |   | ✓ |
-| **1.9** | A mechanism for enforcing updates of the mobile app exists. |   | ✓ |
-| **1.10** | Security is addressed within all parts of the software development lifecycle. |   | ✓ |
+| **1.1** | Tous les composants de l'application sont identifiés et leur besoin est confirmé. | ✓ | ✓ |
+| **1.2** | Les contrôles de sécurité ne sont jamais mis en oeuvre seulement côté client, mais aussi sur les points terminaux distants. | ✓ | ✓ |
+| **1.3** | Une architecture de haut niveau concernant l'application mobile et tous les services distants utilisés a été définie et la sécurité a été prise en compte dans cette architecture. | ✓ | ✓ |
+| **1.4** | Les données considérées comme sensibles dans le contexte de l'application mobile sont clairement identifiées. | ✓ | ✓ |
+| **1.5** | Tous les composants de l'application sont définis en termes des fonctions métier et/ou de sécurité qu'ils apportent. |   | ✓ |
+| **1.6** | Un modèle de menaces pour l'application mobile et les services distants associés a été livré et définit les menaces potentielles et les contre-mesures associées. |   | ✓ |
+| **1.7** | Tous les contrôles de sécurité ont une implémentation centralisée. |   | ✓ |
+| **1.8** | Il existe une politique explicite sur la façon de gérer les clés de cryptographie (dès qu'elles existent) tout au long de leur cycle de vie. Idéalement, un standard de gestion des clés est suivi (tel que NIST SP 800-57). |   | ✓ |
+| **1.9** | Un mécanisme pour permettre les mises à jour de l'application mobile existe. |   | ✓ |
+| **1.10** | La sécurité est prise en compte tout au long du cycle de développement. |   | ✓ |
 
-## References
+## Références
 
-For more information, see also:
+Pour de plus amples informations, il est possible de consulter aussi :
 
-- OWASP Mobile Top 10: M10 - Extraneous Functionality: https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality
+- OWASP Mobile Top 10: M10 - Fonctions superflues : https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality
 - OWASP Security Architecture cheat sheet: https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet
 - OWASP Thread modelling: https://www.owasp.org/index.php/Application_Threat_Modeling
 - OWASP Secure SDLC Cheat Sheet: https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet
