@@ -1,4 +1,4 @@
-# V1: Exigences concernant l'Architecture, le Design le Modèle de Menaces
+# V1: Exigences concernant l'Architecture, le Design et le Modèle de Menaces
 
 ## Objectif de Contrôle
 
