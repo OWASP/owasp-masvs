@@ -1,12 +1,12 @@
-# Assessment and Certification
+# Evaluation et Certification
 
-## OWASP's Stance on MASVS Certifications and Trust Marks
+## Position de l'OWASP concernant la certification selon le MASVS et les Labels de Confiance
 
-OWASP, as a vendor-neutral not-for-profit organization, does not certify any vendors, verifiers or software.
+L'OWASP, en tant qu'organisation à but non-lucratif et indépendante de toute influence commerciale, ne certifie aucun fournisseur, aucun organisme de référence ni aucun logiciel.
 
-All such assurance assertions, trust marks, or certifications are not officially vetted, registered, or certified by OWASP, so an organization relying upon such a view needs to be cautious of the trust placed in any third party or trust mark claiming ASVS certification.
+Toute sorte de garantie de confiance, label ou autre certification n'est pas cautionnée, soutenue ou donnée par l'OWASP ; ainsi toute organisation se reposant sur une telle approche doit être attentive à la confiance accordée à une tierce partie ou à un label de confiance affirmant avoir la certification ASVS.
 
-This should not inhibit organizations from offering such assurance services, as long as they do not claim official OWASP certification.
+Ceci ne doit pas empêcher les organisations d'offrir de tels services concernant la confiance, tant qu'elles ne revendiquent pas une certification officielle de la part de l'OWASP.
 
 ## Guidance for Certifying Mobile Apps
 
