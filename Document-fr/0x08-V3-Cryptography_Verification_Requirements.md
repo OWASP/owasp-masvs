@@ -1,12 +1,12 @@
-# V3: Cryptography Requirements
+# V3: Exigences Concernant la Cryptographie
 
-## Control Objective
+## Objectif de Contrôle
 
-Cryptography is an essential ingredient when it comes to protecting data stored on a mobile device. It is also a category where things can go horribly wrong, especially when standard conventions are not followed. The purpose of the controls in this chapter is to ensure that the verified application uses cryptography according to industry best practices, including:
+La cryptographie est un ingredient essentiel pour la protection des données stockées sur un appareil mobile. C'est aussi une catégorie pour laquelle les choses peuvent très mal se passer, en particulier quand les conventions standards ne sont pas suivies. Le but des contrôles de ce chapitre est de garantir que les applications à valider implémentent la cryptographie en suivant les bonnes pratiques de l'industrie, notamment :
 
-- Use of proven cryptographic libraries;
-- Proper choice and configuration of cryptographic primitives;
-- A suitable random number generator wherever randomness is required.
+- L'utilisation de librairies cryptographiques éprouvées ;
+- Le choix et la configuration pertinents des primitives cryptographiques ;
+- L'utilisation d'un générateur de nombres aléatoires convenable lorsque cela est nécessaire.
 
 ## Security Verification Requirements
 
@@ -19,14 +19,14 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 | **3.5** | The app doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ |
 | **3.6** | All random values are generated using a sufficiently secure random number generator. | ✓ | ✓ |
 
-## References
+## Références
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+Le Mobile Security Testing Guide de l'OWASP donne des instructions détaillées pour valider les exigences listées dans cette section.
 
 - Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md
 - iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md
 
-For more information, see also:
+Pour de plus amples informations, il est possible de consulter aussi :
 
-- OWASP Mobile Top 10: [M5 - Insufficient Cryptography](https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography)
+- OWASP Mobile Top 10: [M5 - Cryptographie Insuffisante](https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography)
 - CWE: https://cwe.mitre.org/data/definitions/310.html
