@@ -1,4 +1,4 @@
-# V2: Exigences Concernant le Stockage des données et le Respect de la Vie Privée
+# V2: Exigences Concernant le Stockage des Données et le Respect de la Vie Privée
 
 ## Objectif de Contrôle
 
