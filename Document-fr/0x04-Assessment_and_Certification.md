@@ -26,19 +26,19 @@ L'utilisation d'outils d'analyse de code source ou de test en boîte noire est e
 
 ## Autres Cas d'Utilisation
 
-### En Tant que Source de Conseils Détaillés Pour l'Architecture de Sécurité
+### En tant que Source de Conseils Détaillés pour l'Architecture de Sécurité
 
 L'une des utilisations les plus courantes du MASVS est en tant que ressource pour les arhitectes de sécurité. Les deux référentiels principaux d'architecture de sécurité, SABSA et TOGAF, ne fournissent pas beaucoup d'information qui serait nécessaire à la revue de l'architecture de sécurité des applications mobiles.  Le MASVS peut être utilisé pour combler ces manques en permettant aux architectes de sécurité de choisir de meilleurs contrôles par rapport aux problèmes courants des applications mobiles.
 
-### En Tant que Substitut aux Listes de Contrôle pour le Codage de Sécurité
+### En tant que Substitut aux Listes de Contrôle pour le Codage de Sécurité
 
 Un certain nombre d'organisations peuvent bénéficier de l'adoption du MASVS en choisissant l'un des deux niveaux, ou en s'appropriant le MASVS et en adaptant ce qui est nécessaire à chaque niveau de risque en fonction du domaine d'application ciblé. Nous encourageons ce type d'appropriation tant que la traçabilité est maintenue, de telle manière que si une application a passé l'exigence 4.1 la signification reste la même pour chaque copie lorsque le standard évolue.
 
-### En Tant que Base Méthodologique pour le Test de Sécurité
+### En tant que Base Méthodologique pour le Test de Sécurité
 
 Une bonne méthodologie de test de sécurité pour application mobile devrait couvrir l'ensemble des exigences listées dans le MASVS. Le Mobile Security Testing Guide (MSTG) de l'OWASP fournit des cas de test en boîte noire et en boîte blanche pour la validation de chaque exigence.
 
-### En Tant que Guide Pour les Tests Automatisés et les Tests d'Intégration
+### En tant que Guide pour les Tests Automatisés et les Tests d'Intégration
 
 Le MASVS a été créé pour être hautement testable, à la seule exception des exigences architecturales. Les tests unitaires, d'intégration et d'acceptation basés sur lex exigences du MASVS peuvent être intégrés dans le cycle de développement continu. Ceci permet d'une part d'améliorer la sensibilisation à la sécurité des développeurs, mais aussi d'autre part d'améliorer la qualité globale de l'application cible et de réduire la quantité de défauts détectés pendant la phase de tests de sécurité avant la mise sur le marché.
 
