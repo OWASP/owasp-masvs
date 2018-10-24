@@ -8,16 +8,16 @@ La cryptographie est un ingredient essentiel pour la protection des données sto
 - Le choix et la configuration pertinents des primitives cryptographiques ;
 - L'utilisation d'un générateur de nombres aléatoires convenable lorsque cela est nécessaire.
 
-## Security Verification Requirements
+## Exigences pour la Validation de la Sécurité
 
 | # | Description | L1 | L2 |
 | --- | --- | --- | --- |
-| **3.1** | The app does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption.| ✓ | ✓ |
-| **3.2** | The app uses proven implementations of cryptographic primitives. | ✓ | ✓ |
-| **3.3** | The app uses cryptographic primitives that are appropriate for the particular use-case, configured with parameters that adhere to industry best practices. | ✓ | ✓|
-| **3.4** | The app does not use cryptographic protocols or algorithms that are widely considered depreciated for security purposes. | ✓ | ✓|
-| **3.5** | The app doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ |
-| **3.6** | All random values are generated using a sufficiently secure random number generator. | ✓ | ✓ |
+| **3.1** | L'application n'utilise pas la cryptographie symétrique avec des clés codées en dur comme seule méthode de cryptage.| ✓ | ✓ |
+| **3.2** | L'application utilise des implémentations de primitives cryptographiques éprouvées. | ✓ | ✓ |
+| **3.3** | L'application utilise des primitives cryptographiques appropriées au cas d'utilisation, configurées en adéquation avec les bonnes pratiques de l'industrie. | ✓ | ✓|
+| **3.4** | L'application n'utilise pas de protocole ou d'algorithme de cryptographie considéré par la communauté comme déprécié pour des raisons de sécurité. | ✓ | ✓|
+| **3.5** | L'application ne ré-utilise pas la même clé de cryptographie à des fins différentes. | ✓ | ✓ |
+| **3.6** | Toute valeur aléatoire est générée par un générateur de nombre aléatoire offrant un bon niveau de sécurité. | ✓ | ✓ |
 
 ## Références
 
