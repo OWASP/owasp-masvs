@@ -25,7 +25,7 @@ PDF downloads are available on the [Releases page](https://github.com/OWASP/owas
 
 Read it on [Gitbook](https://mobile-security.gitbook.io/masvs/ "GitBook Mobile AppSec Verification Standard"). The book is automatically synchronized with the main repo.
 
-
+<TODO; CONTINUE HERE AND UPDATE AFTER UPDATING THE TOOLS!!! (MAKE THEM AVAIALBLE FOR ALL LANGUAGES AND MAKE THE TAG RESPOND TO THE LANGUAGE RELEASE!)>
 ## Creating ePub
 
 You can use the gitbook command line tool to generate PDF, epub, and other e-book formats, once you have checked out this repo. To generate the epub version you can use the following command
