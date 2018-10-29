@@ -60,7 +60,7 @@ https://owasp.slack.com/messages/project-mobile_omtg/details/
 
 You can sign up here:
 
-https://owaspslack.com/
+[https://owaspslack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNDI5MzgxMDQ2MTAwLTEyNzIzYWQ2NDZiMGIwNmJhYzYxZDJiNTM0ZmZiZmJlY2EwZmMwYjAyNmJjNzQxNzMyMWY4OTk3ZTQ0MzFhMDY)
 
 To add or edit content, simply fork the repository and make your changes, then create a pull request when you are finished. We'll review the changes before we merge them with the master branch in the main repo. In case there's conflicting opinions, we'll create an issue for discussing the changes.
 
