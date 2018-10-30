@@ -25,7 +25,7 @@ Dieses Dokument basiert auf einem Fork des OWASP Application Security Verificati
 
 ## Sponsors
 
-Obwohl beide Projekte, der MASVS und der MSTG, auf freiwilliger Basis im Rahmen der Community erarbeitet wurden und weiter gepflegt werden, ist manchmal ein wenig Hilfe von außen nötig. Wir danken deshalb den Sponsoren mit deren Hife wir technische Editoren aquirieren können. Der Inhalt des MASVS oder MSTG ist in keinster Weise durch etwaige Sponsoren beeinflusst. Nähere Beschreibung der Sponsoren-Pakete befinden sich unter [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
+Obwohl beide Projekte, der MASVS und der MSTG, auf freiwilliger Basis im Rahmen der Community erarbeitet wurden und weiter gepflegt werden, ist manchmal ein wenig Hilfe von außen nötig. Wir danken deshalb den Sponsoren mit deren Hilfe wir technische Editoren aquirieren können. Der Inhalt des MASVS oder MSTG ist in keinster Weise durch etwaige Sponsoren beeinflusst. Nähere Beschreibung der Sponsoren-Pakete befinden sich unter [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
 ### Besonderer Sponsor
 
