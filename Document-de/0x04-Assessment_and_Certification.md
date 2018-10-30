@@ -1,6 +1,6 @@
 # Bewertung and Zertifizierung
 
-## OWASP's Standpunkt zu MASVS Zertifizierungen and Gütesiegel
+## OWASP's Standpunkt zu MASVS Zertifizierungen und Gütesiegeln
 
 OWAPS ist eine herstellerunabhängige Non-Profit-Organisation und führt keine Zertifizierungen von Herstellern, Prüfern oder Software durch.
 
