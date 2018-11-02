@@ -8,19 +8,19 @@ Der MASVS kann genutzt werden um das Sicherheitsniveau von mobilen Apps nachweis
 
 ## Das Mobile AppSec Model
 
-Der MASVS definiert zwei strenge Security Verification Level (L1 and L2), sowie eine Reihe von Anforderungen zur Robustheit gegen Reverse Engineering (MASVS-R). Diese sind flexibel, d.h. adaptierbar an ein App-spezifisches Threat Model. MASVS-L1 and MASVS-L2 enthalten generische Security Anforderungen und werden für alle mobilen Apps (L1) und Apps die hochsensible Daten verarbeiten (L2) empfohlen. MASVS-R deckt zusätzliche Schutzmaßnahmen ab die anzuwenden sind um Client-seitigen Threats vorzubeugen.
+Der MASVS definiert zwei strikte Prüf-Level (L1 and L2), sowie eine Reihe von Sicherheitsmaßnahmen zur Robustheit gegen Reverse Engineering (MASVS-R). Diese sind flexibel, d.h. adaptierbar an ein App-spezifisches Threat Model. MASVS-L1 and MASVS-L2 enthalten generische Sicherheits-Anforderungen und werden für alle mobilen Apps (L1) und Apps die hochsensible Daten verarbeiten (L2) empfohlen. MASVS-R deckt zusätzliche Schutzmaßnahmen ab die anzuwenden sind um Client-seitigen Threats vorzubeugen.
 
 Eine App die alle Anforderungen aus MASVS-L1 erfüllt, folgt Security Best Practices und vermeidet damit typische Schwachstellen. MASVS-L2 fügt weitere Defense-In-Depth Maßnahmen wie SSL-Pinning hinzu um ein erhöhtes Schutzniveau gegen komplexere Angriffe zu bieten. Dabei gilt die Annahme, dass das mobile Betriebssystem intakt und der Endnutzer nicht als potentieller Angreifer betrachtet wird. Die Anforderungen aus dem MASVS-R ganz oder teilweise zu erfüllen, hilft dabei spezifische client-seitige Threats (böswilliger Nutzer o. kompromittiertes Betriebssystem) zu verhindern bzw. zu erschweren. 
 
 **Achtung - Die Schutzmaßnahmen enthalten in MASVS-R und beschrieben im OWASP Mobile Testing Guide können letztlich alle umgangen werden und dürfen nicht als Ersatz für Sicherheitsmaßnahmen (L1/L2) genutzt werden. Stattdessen sind sie dazu gedacht, um zusätzliche Threat-spezifische Schutzmaßnahmen zu Apps hinzuzufügen, die bereits die MASVS Anforderungen L1 oder L2 erfüllen.**
 
-![Verification Levels](images/masvs-levels-new.jpg)
+![Prüf-Level](images/masvs-levels-new.jpg)
 
 ### Dokumentstruktur
 
-Der erste Teil des MASVS enthält eine Beschreibung des Security Modells und der Verification Levels, gefolgt von Empfehlungen zur Nutzung des Standards in der Praxis. Die detaillierten Security Anforderungen und ihre Einordnung in die Verification Level befinden sich im zweiten Teil. Die Anforderungen wurden in acht Kategorien (V1 bis V8), basierend auf technischen Zielen/Scopes, eingeteilt. Die folgende Nomenklatur wird durchgehend im MASVS und MSTG genutzt:
+Der erste Teil des MASVS enthält eine Beschreibung des Security Modells und der Prüf-Level, gefolgt von Empfehlungen zur Nutzung des Standards in der Praxis. Die detaillierten Sicherheitsanforderungen und ihre Einordnung in die Prüf-Level befinden sich im zweiten Teil. Die Anforderungen wurden in acht Kategorien (V1 bis V8), basierend auf technischen Zielen/Scopes, eingeteilt. Die folgende Nomenklatur wird durchgehend im MASVS und MSTG genutzt:
 
-- *Anforderungs Kategorie:* MASVS-Vx, e.g. MASVS-V2: Datenspeicherung und Datenschutz
+- *Anforderungs Kategorie:* MASVS-Vx, z.B. MASVS-V2: Datenspeicherung und Datenschutz
 - *Anforderung:* MASVS-Vx.y, z.B. MASVS-V2.2: "Keine sensiblen Daten werden in Applikations Logs geschrieben."  
 
 ### Prüf-Level im Detail
@@ -35,7 +35,7 @@ MASVS-L2 führt erweiterte Sicherheitsmaßnahmen ein, die über die Standard Anf
 
 #### MASVS-R: Resilienz gegen Reverse Engineering and Manipulation
 
-Die App hat state-of-the-art Security und ist resilient (robust) gegen spezifische, klar definierte Client-seitige Angriffe wie Manipulation, Modifizierung oder Reverse Engineering um sensiblen Code oder Daten zu extrahieren. Solch eine App nutzt Hardware Security Funktionen oder ausreichend starke und überprüfbare Software-Schutzmaßnahmen. MASVS-R ist geeignet für Apps die hoch sensible Daten verarbeiten, um geistiges Eigentum zu schützen oder um eine App manipulationssicher zu machen.
+Die App hat state-of-the-art Security und ist resilient (robust) gegen spezifische, klar definierte Client-seitige Angriffe wie Manipulation, Modifizierung oder Reverse Engineering um sensiblen Quellcode oder Daten zu extrahieren. Solch eine App nutzt Hardware Security Funktionen oder ausreichend starke und überprüfbare Software-Schutzmaßnahmen. MASVS-R ist geeignet für Apps die hoch sensible Daten verarbeiten, um geistiges Eigentum zu schützen oder um eine App manipulationssicher zu machen.
 
 ### Empfohlene Nutzung
 
@@ -62,13 +62,13 @@ Die Anforderungen aus MASVS L2 zu implementieren erhöht die Sicherheit - dies k
 
 ###### MASVS-L2
 
-- Gesundheitswesen: Mobile Apps die personenbezogene Daten speichern die für Identitätsdiebstahl, Zahlungsbetrug und eine Reihe anderer Betrugsvorhaben genutzt werden können. Zu den für den US-Gesundheitsbereich geltenden Compliance-Regeln gehören der Health Insurance Portability Act (HIPAA), Datenschutz, Security und Vorgaben/Regeln zur Benachrichtigung bei Datenpannen sowie Patientensicherheit.
+- Gesundheitswesen: Mobile Apps die personenbezogene Daten speichern die für Identitätsdiebstahl, Zahlungsbetrug und eine Reihe anderer Betrugsvorhaben genutzt werden können. Zu den für den US-Gesundheitsbereich geltenden Compliance-Regeln gehören der Health Insurance Portability and Accountability Act (HIPAA), Datenschutz, Security und Vorgaben/Regeln zur Benachrichtigung bei Datenpannen sowie Patientensicherheit.
 - Banken/Finanzwesen: Apps mit Zugriff auf hochsensible Daten wie Kreditkarten, personenbezogene Daten oder die Zahlungsflüsse erlauben. Diese Apps erfordern erweiterte Security Maßnahmen um Betrug zu vermeiden. Finanz-Apps müssen Compliance-Anforderungen aus dem Payment Card Industry Data Security Standard (PCI DSS), Gramm Leech Bliley Act und Sarbanes-Oxley Act (SOX) erfüllen.
 
 ###### MASVS L1+R
 
 - Mobile Apps für die der Schutz des geistigen Eigentums geschäftskritisch ist. Die Resilienz-Maßnahmen aus MASVS-R dienen dazu, für Angreifer den Aufwand zu erhöhen um an den Original-Quellcode zu gelangen und Manipulation der Apps (Tampering/Cracking) zu erschweren.
-- Gaming Industrie: Spiele mit hohem Bedarf Modding und Cheating zu verhindern wie Online-Games. Cheating ist ein großes Problem in Online-Spielen, da ein hohe Anzahl von Cheatern die regulären Nutzer verärgern und ein erfolgreiches Game letztlich zum Scheitern bringen kann. MASVS-R bietet Basis-Maßnahmen um den Aufwand für Cheater zu erhöhen.
+- Gaming Industrie: Spiele mit hohem Bedarf Modding und Cheating zu verhindern, wie Online-Games. Cheating ist ein großes Problem in Online-Spielen, da eine hohe Anzahl von Cheatern die regulären Nutzer verärgern und ein erfolgreiches Game letztlich zum Scheitern bringen kann. MASVS-R bietet Basis-Maßnahmen um den Aufwand für Cheater zu erhöhen.
 
 ###### MASVS L2+R
 

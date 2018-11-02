@@ -1,12 +1,12 @@
 # Bewertung and Zertifizierung
 
-## OWASP's Standpunkt zu MASVS Zertifizierungen and Gütesiegel
+## OWASP's Standpunkt zu MASVS Zertifizierungen und Gütesiegeln
 
-OWAPS ist eine herstellerunabhängige Non-Profit-Organisation und führt keine Zertifizierungen von Herstellern, Prüfern oder Software durch.
+OWASP ist eine herstellerunabhängige Non-Profit-Organisation und führt keine Zertifizierungen von Herstellern, Prüfern oder Software durch.
 
-OWASP distanziert sich von derartigen Bescheinigungen, Qualitätssiegeln oder Zertifikaten. Diese sind in keinem Fall durch OWASP freigegeben, registriert oder zertifiziert. Eine Organisation/Unternehmen sollte vorsichtig und misstrauisch gegenüber derartigen Gütesiegeln/ASVS Zertifikaten sein.
+OWASP distanziert sich von derartigen Bescheinigungen, Qualitätssiegeln oder Zertifikaten. Diese sind in keinem Fall durch OWASP freigegeben, registriert oder zertifiziert. Eine Organisation/Unternehmen sollte vorsichtig und misstrauisch gegenüber derartigen Gütesiegeln sein.
 
-Dies sollte Organisationen nicht davon abhalten Dienstleistungen um ASVS Zertifikate anzubieten solange es keine offiziellen OWASP Zertifikate sind.
+Dies sollte Organisationen nicht davon abhalten Dienstleistungen auf Basis des (M)ASVS Standard anzubieten, solange keine offiziellen OWASP Zertifikate ausgestellt werden.
 
 ## Anleitung zur Zertifizierung von mobilen Apps
 
@@ -18,7 +18,7 @@ Eine Zertifizierungsstelle muss in jedem Report den Scope der Überprüfung (ins
 
 ### Nutzung des OWASP Mobile Security Testing Guide (MSTG)
 
-Der OWASP MSTG ist eine Anleitung zum Testen der Sicherheit von mobilen Apps. Der Guide beschreibt den technischen Prozess zur Überprüfung der Anforderungen aus dem MASVS. Der MSTG enthält eine Testfall-Liste. Jeder Testfall referenziert eine einzelne Anforderung im MASVS. Während der MASVS eher grobe und generische Anforderungen enthält, bietet der MSTG detaillierte Empfehlungen und Testprozeduren je mobilem Betriebssystem.
+Der OWASP MSTG ist eine Anleitung zum Testen der Sicherheit von mobilen Apps. Der Guide beschreibt den technischen Prozess zur Überprüfung der Anforderungen aus dem MASVS. Der MSTG enthält eine Liste von Testfällen. Jeder Testfall referenziert eine einzelne Anforderung im MASVS. Während der MASVS eher grobe und generische Anforderungen enthält, bietet der MSTG detaillierte Empfehlungen und Testprozeduren je mobilem Betriebssystem.
 
 ### Die Rolle von Werkzeugen für automatisierte Security Tests 
 
