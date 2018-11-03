@@ -1,7 +1,7 @@
 
 ![OWASP LOGO](images/OWASP_logo.png)
 
-# Standard de Validation de la Sécurité des Applications Mobiules (Mobile Application Security Verification Standard - MASVS) - Release 1.1
+# Standard de Validation de la Sécurité des Applications Mobiles (Mobile Application Security Verification Standard - MASVS) - Release 1.1
 
 14.07.2018
 
