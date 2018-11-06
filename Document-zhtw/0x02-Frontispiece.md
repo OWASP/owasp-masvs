@@ -2,7 +2,7 @@
 
 ## 關於本標準
 
-歡迎參閱 Mobile Application Security Verification Standard (MASVS) 1.1 版. MASVS is a community effort to establish a framework of security requirements needed to design, develop and test secure mobile apps on iOS and Android.
+歡迎參閱 Mobile Application Security Verification Standard (MASVS) 1.1 版. MASVS 是一個社群的成果，目的在於建立一個安全需求的架構給人們去設計、開發和測試iOS跟Android的安全行動應用程式。
 
 The MASVS is a culmination of community effort and industry feedback. We expect this standard to evolve over time and welcome feedback from the community. The best way to get in contact with us is via the OWASP Mobile Project Slack channel:
 
