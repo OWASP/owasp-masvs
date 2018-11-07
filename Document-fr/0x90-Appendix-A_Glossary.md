@@ -1,43 +1,43 @@
-# Appendix A: Glossary
+# Annexe A: Glossaire
 
-- **2FA** – Two-factor authentication(2FA) adds a second level of authentication to an account log-in.
-- **Address Space Layout Randomization (ASLR)** – A technique to make exploiting memory corruption bugs more difficult.
-- **Application Security** – Application-level security focuses on the analysis of components that comprise the application layer of the Open Systems Interconnection Reference Model (OSI Model), rather than focusing on for example the underlying operating system or connected networks.
-- **Application Security Verification** – The technical assessment of an application against the OWASP MASVS.
-- **Application Security Verification Report** – A report that documents the overall results and supporting analysis produced by the verifier for a particular application.
-- **Authentication** – The verification of the claimed identity of an application user.
-- **Automated Verification** – The use of automated tools (either dynamic analysis tools, static analysis tools, or both) that use vulnerability signatures to find problems.
-- **Black box testing** – It is a method of software testing that examines the functionality of an application without peering into its internal structures or workings.
-- **Component** – a self-contained unit of code, with associated disk and network interfaces that communicates with other components.
-- **Cross-Site Scripting** (XSS) – A security vulnerability typically found in web applications allowing the injection of client-side scripts into content.
-- **Cryptographic module** – Hardware, software, and/or firmware that implements cryptographic algorithms and/or generates cryptographic keys.
-- **CWE** - CWE is a community-developed list of common software security weaknesses. It serves as a common language, a measuring stick for software security tools, and as a baseline for weakness identification, mitigation, and prevention efforts.
-- **DAST** –Dynamic application security testing (DAST) technologies are designed to detect conditions indicative of a security vulnerability in an application in its running state.
-- **Design Verification** – The technical assessment of the security architecture of an application.
-- **Dynamic Verification** – The use of automated tools that use vulnerability signatures to find problems during the execution of an application.
-- **Globally Unique Identifier** (GUID) – a unique reference number used as an identifier in software.
-- **Hyper Text Transfer Protocol** (HTTP) – An application protocol for distributed, collaborative, hypermedia information systems. It is the foundation of data communication for the World Wide Web.
-- **Hardcoded keys** – Cryptographic keys which are stored in the device itself.
-- **IPC** – Inter Process Communications,In IPC Processes communicate with each other and with the kernel to coordinate their activities.
-- **Input Validation** – The canonicalization and validation of untrusted user input.
-- **JAVA Bytecode** - Java bytecode is the instruction set of the Java virtual machine(JVM). Each bytecode is composed of one, or in some cases two bytes that represent the instruction (opcode), along with zero or more bytes for passing parameters.
-- **Malicious Code** – Code introduced into an application during its development unbeknownst to the application owner, which circumvents the application's intended security policy. Not the same as malware such as a virus or worm!
-- **Malware** – Executable code that is introduced into an application during runtime without the knowledge of the application user or administrator.
-- **Open Web Application Security Project** (OWASP) – The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security "visible," so that people and organizations can make informed decisions about application security risks. See: http://www.owasp.org/
-- **Personally Identifiable Information** (PII) - is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
+- **2FA** – L'Authentification à Deux Facteurs ajoute un second niveau d'authentification lors de la connexion à un compte.
+- **Distribution Aléatoire de l'Espace D'adressage (ASLR)** – Une technique rendant plus difficiles l'exploitation de défauts permettant la corruption de la mémoire.
+- **Sécurité Applicative** – La sécurité de niveau applicatif se focalise sur l'analyse des composants qui constituent la couche applicative du modèle OSI (the Open Systems Interconnection Reference Model), plutôt que de se focaliser par exemple sur le système d'exploitation sous-jacent ou sur les réseaux connectés.
+- **Validation de la Sécurité Applicative** – Evaluation technique d'une application par rapport au MASVS de l'OWASP.
+- **Rapport de Validation de Sécurité Applicative** – Rapport qui documente les résultats dans leur ensemble ainsi que l'analyse sous-jacente réalisée par le validateur de l'application considérée.
+- **Authentification** – Vérification de l'identité clamée par l'utilisateur de l'application.
+- **Validation Automatique** – Utilisation d'outils automatisés (outils d'analyse dynamique ou outils d'analyse statique, ou les deux) qui utilisent les signatures des vulnérabilités pour identifier les problèmes.
+- **Test en Boîte Noire** – Méthode de test logiciel permettant l'analyse d'une application via ses fonctionnalités, sans avoir connaissance de ses structures internes ou de son fonctionnement.
+- **Composant** – Unité de code autonome avec ses interfaces de stockage et de réseau et qui communique avec d'autres composants.
+- **Cross-Site Scripting** (XSS) – Vulnérabilité de sécurité typiquement présente dans les applications web et permettant l'injection de script dans le contenu côté client.
+- **Module Cryptographique** – Matériel, logiciel et/ou micrologiciel qui implémente des algorithmes cryptographiques et/ou qui génère des clés de cryptographie.
+- **CWE** - Liste communautaire des faiblesses en sécurité communes dans le logiciel. Sert à établir un langage commun, de barème aux outils de sécurité logiciels et en tant que référentiel aux efforts d'identification, de réduction et de prévention des faiblesses.
+- **DAST** – Les technologies de test de sécurité des applications en mode dynamique sont conçues pour détecter les conditions indicatives d'une vulnérabilité de sécurité dans une application lors de son exécution.
+- **Validation du Design** – Evaluation technique de la sécurité de l'architecture d'une application.
+- **Validation Dynamique** – Utilisation d'outils automatisés qui utilisent les signatures des vulnérabilités pour identifier les problèmes pendant l'exécution d'une application.
+- **Globally Unique Identifier** (GUID) – Numéro de référence unique utilisé en tant qu'identifiant en logiciel.
+- **Hyper Text Transfer Protocol** (HTTP) – Prototole de niveau applicatif pour les systèmes d'information distribués, collaboratifs et hypermedia. Fondateur pour la communication de données sur le World Wide Web.
+- **Clés Codées en Dur** – Clés de cryptographie stockées sur l'appareil même.
+- **IPC** – Acronyme de Inter Process Communications. Sert aux processus à communiquer entre eux et avec le noyau pour coordonner leurs activités.
+- **Validation des Entrées** – Canonicalisation et validation de données considérées comme non-fiables saisies par l'utilisateur.
+- **Bytecode JAVA** - Le bytecode Java correspond au jeu d'instructions de la machine virtuelle Java (JVM). Chaque bytecode est composé d'un, ou parfois deux, octet(s) qui représente(nt) l'instruction (opcode), accompagné(s) de zéro octet ou plus pour le passage de paramètres.
+- **Code Malicieux** – Code introduit dans une application pendant son développement à l'insu du responsable de l'application et qui a pour finalité de contourner la politique de sécurité visée. Différent des logiciels malveillants tels que les virus ou les vers!
+- **Logiciel Malveillant (Malware)** – Code exécutable introduit dans une application au cours de son fonctionnement sans le consentement de l'utilisateur de l'application ou de son administrateur.
+- **Open Web Application Security Project** (OWASP) – L'Open Web Application Security Project (OWASP) est une communauté mondiale indépendante et gratuite oeuvrant pour l'amélioration de la sécurité des applications logicielles. Notre mission est de rendre la sécurité applicative "visible" afin que les particuliers et les organisations puissent prendre les bonnes décisions en incluant les risques liés à la sécurité applicative . Voir : http://www.owasp.org/
 - **PIE** – Position-independent executable (PIE) is a body of machine code that, being placed somewhere in the primary memory, executes properly regardless of its absolute address. 
-- **PKI** – A PKI is an arrangement that binds public keys with respective identities of entities. The binding is established through a process of registration and issuance of certificates at and by a certificate authority (CA). 
-- **SAST** – Static application security testing (SAST) is a set of technologies designed to analyze application source code, byte code and binaries for coding and design conditions that are indicative of security vulnerabilities. SAST solutions analyze an application from the “inside out” in a nonrunning state.
+- **Informations d'Identification Personnelles** (PII) - Informations pouvant, directement ou indirectement, mener à l'identification d'un individu ou permettre de contacter ou de localiser une personne dans un contexte donné.
+- **PKI** – Une PKI est une infrastructure permettant de lier une clé publique à l'identité de l'entité la possédant. Le lien est établi grâce à un processus d'enregistrement et de délivrance de certificats  par une autorité de certification (CA). 
 - **SDLC** – Software development lifecycle.
-- **Security Architecture** – An abstraction of an application's design that identifies and describes where and how security controls are used, and also identifies and describes the location and sensitivity of both user and application data.
-- **Security Configuration** – The runtime configuration of an application that affects how security controls are used.
-- **Security Control** – A function or component that performs a security check (e.g. an access control check) or when called results in a security effect (e.g. generating an audit record).
-- **SQL Injection (SQLi)** – A code injection technique used to attack data driven applications, in which malicious SQL statements are inserted into an entry point.
-- **SSO Authentication** – Single Sign On(SSO) occurs when a user logs in to one Client and is then signed in to other Clients automatically, regardless of the platform, technology, or domain the user is using. For example when you log in in google you automatically login in the youtube , docs and mail service.
-- **Threat Modeling** - A technique consisting of developing increasingly refined security architectures to identify threat agents, security zones, security controls, and important technical and business assets.
-- **Transport Layer Security** – Cryptographic protocols that provide communication security over the Internet
-- **URI/URL/URL fragments** – A Uniform Resource Identifier is a string of characters used to identify a name or a web resource. A Uniform Resource Locator is often used as a reference to a resource.
-- **User acceptance testing (UAT)**– Traditionally a test environment that behaves like the production environment where all software testing is performed before going live.
-- **Verifier** – The person or team that is reviewing an application against the OWASP ASVS requirements.
-- **Whitelist** – A list of permitted data or operations, for example a list of characters that are allowed to perform input validation.
-- **X.509 Certificate** – An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate.
+- **SAST** – Les technologies de test de sécurité des applications en mode statique (SAST) ont pour but d'analyser le code source d'une application, son bytecode ou son binaire afin de repérer les conditions indicatives de vulnérabilités de sécurité dans le code ou le design. Les solutions de SAST analysent les applications de l'intérieur et au repos.
+- **Architecture de Sécurité** – Abstraction du design de l'application qui identifie et décrit où et comment les contrôles de sécurité sont mis en oeuvre et identifie et décrit l'emplacement et le niveau de sensibilité des données de l'utilisateur et de l'application.
+- **Configuration de Sécurité** – Configuration de l'application lors de son exécution impactant directement la façon dont les contrôles de sécurité sont mis en oeuvre.
+- **Contrôle de Sécurité** – Fonction ou composant exécutant une vérification liée à la sécurité (par exemple une validation des droits d'accès) ou ayant un impact sur la sécurité (par exemple génération d'un enregistrement dans un journal).
+- **Injection SQL (SQLi)** – Technique d'injection de code utilisée dans l'attaque d'applications fortement consommatrices de données où des expressions SQL malicieuses sont insérées à des points d'entrée.
+- **Authentification par SSO** – L'authentification unique (SSO) intervient lorsqu'un utilisateur s'authentifie sur un client donné et est ensuite authentifié automatiquement sur d'autres clients indépendemment de la plateforme, de la technologie ou du domaine utilisé par l'utilisateur. Par exemple, lorsque vous vous authentifiez sous Google, vous êtes automatiquement authentifiés par la suite sous les services YouTube, Docs et Gmail.
+- **Modèle de Menaces** - Technique consistant dans le développement incrémental d'architectures de sécurité de plus en plus raffinées ayant pour but l'identification d'agents menaçants, de zones de sécurité, de contrôles de sécurité et des éléments importants concernant la technique et les affaires.
+- **Transport Layer Security** – Protocoles de cryptographie pour les communications sécurisées à travers Internet.
+- **Fragments URI/URL** – Un Uniform Resource Identifier (URI) est une chaîne de caractères utilisée pour l'identification d'un nom ou d'une ressource sur le web. Un Uniform Resource Locator (URL) est en général utilisé pour faire référence à une ressource.
+- **Tests d'Acceptance Utilisateur (UAT)**– Correspond traditionnellement à un environnement de test ayant les mêmes comportements que l'environnement de production et où les tests logiciels sont réalisés avant le passage en production.
+- **Validateur** – La personne ou l'équipe qui évalue une application par rapport aux exigences du MASVS de l'OWASP.
+- **Liste Blanche** – Liste de données ou d'opérations permises, par exemple une liste de caractères acceptés lors de la validation des entrées.
+- **Certificat X.509** – Un certificat X.509 est un certificat digital qui implémente le standard international largement utilisé concernant les infrastructures à clés publiques (PKI) X.509 dans le but de vérifier qu'une clé publique correspond bien à l'identité de l'utilisateur, de l'ordinateur ou du service indiqué sur le certificat.
