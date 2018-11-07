@@ -1,12 +1,12 @@
-# V1: Architecture, Design and Threat Modeling Requirements
+# V1: 架構, 設計與威脅建模要求
 
 ## 控制目標
 
-最理想的狀況，是在開發的每個階段都要把安全納入考量。然而，現實上，通常只有在軟體開發生命週期的後期才會考慮安全需求。 Besides the technical controls, the MASVS requires processes to be in place that ensure that the security has been explicitly addressed when planning the architecture of the mobile app, and that the functional and security roles of all components are known. Since most mobile applications act as clients to remote services, it must be ensured that appropriate security standards are also applied to those services - testing the mobile app in isolation is not sufficient.
+最理想的狀況，是在開發的每個階段都要把安全納入考量。然而，現實上，通常只有在軟體開發生命週期的後期才會考慮安全。 Besides the technical controls, the MASVS requires processes to be in place that ensure that the security has been explicitly addressed when planning the architecture of the mobile app, and that the functional and security roles of all components are known. Since most mobile applications act as clients to remote services, it must be ensured that appropriate security standards are also applied to those services - testing the mobile app in isolation is not sufficient.
 
 The category “V1” lists requirements pertaining to architecture and design of the app. As such, this is the only category that does not map to technical test cases in the OWASP Mobile Testing Guide. To cover topics such as threat modelling, secure SDLC, key management, users of the MASVS should consult the respective OWASP projects and/or other standards such as the ones linked below.
 
-## Security Verification Requirements
+## 安全驗證要求
 
 MASVS-L1 與 MASVS-L2 的要求詳列如下：
 
