@@ -12,7 +12,7 @@ MASVS-L1 與 MASVS-L2 的要求詳列如下：
 
 | # | 條款說明 | L1 | L2 |
 | --- | --- | --- | --- |
-| **1.1** | All app components are identified and known to be needed. | ✓ | ✓ |
+| **1.1** | 所有應用程式元件均需被識別以及確認其用途。 | ✓ | ✓ |
 | **1.2** | Security controls are never enforced only on the client side, but on the respective remote endpoints. | ✓ | ✓ |
 | **1.3** | A high-level architecture for the mobile app and all connected remote services has been defined and security has been addressed in that architecture. | ✓ | ✓ |
 | **1.4** | Data considered sensitive in the context of the mobile app is clearly identified. | ✓ | ✓ |
