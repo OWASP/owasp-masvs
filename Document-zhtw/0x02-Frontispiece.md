@@ -7,25 +7,25 @@
 MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期望這份標準能夠隨著時間演進不斷更新，也十分歡迎來自社群的意見反饋。透過OWASP Mobile Project的Slack channel與我們連絡是聯絡我們的最佳方式，以下是我們的Slack channel連結:
 https://owasp.slack.com/messages/project-mobile_omtg/details/
 
-Accounts can be created at the following URL:
+可以從以下的網址創建帳號：
 
 http://owasp.herokuapp.com/.
 
-## Copyright and License
+## 版權和許可
 
 ![license](images/license.png)
-Copyright © 2018 The OWASP Foundation. This document is released under the Creative Commons Attribution ShareAlike 3.0 license. For any reuse or distribution, you must make clear to others the license terms of this work.
+Copyright © 2018 The OWASP Foundation. 本文檔在 Creative Commons Attribution ShareAlike 3.0 協議許可下發布。 對於任何二次使用或發布，你必須向其他人說明清楚這項成果的版權。
 
-| Project Lead | Lead Author | Contributors and Reviewers
+| 項目負責人 | 主要作者 | 貢獻者和校稿
 | --- | --- | --- |
 | Sven Schleier & Jeroen Willemsen| Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry,  Oprya Egor, Ben Gardiner, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Sven Schleier, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Jeroen Willemsen |
 
-This document started as a fork of the OWASP Application Security Verification Standard written by Jim Manico.
+本文檔最初是 Jim Manico 撰寫的 OWASP Application Security Verification Standard 的一個分支。
 
-## Sponsors
+## 贊助者
 
-While both the MASVS and the MSTG are created and maintained by the community on a voluntary basis, sometimes a little bit of outside help is required. We therefore thank our sponsors for providing the funds to be able to hire technical editors. Note that their sponsorship does not influence the content of the MASVS or MSTG in any way. The sponsorship packages are described on the [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
+雖然 MASVS 和 MSTG 都是由社群自願創建和維護的，但有時仍需要一些外部的協助。因此，我們感謝我們的贊助者提供資金來聘請技術編輯。請注意，他們的贊助不會以任何方式影響 MASVS 或 MSTG 的內容。贊助方案可在[OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages")找到。
 
-### Honourable Benefactor
+### 特別感謝
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
