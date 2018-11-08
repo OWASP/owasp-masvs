@@ -2,9 +2,9 @@
 
 ## Zielsetzung
 
-Kryptographie ist eine wesentlicher Eckpfeiler zum Schutz von Daten, die auf mobilen Geräten gespeichert werden. Es ist aber auch eine Kategorie bei der Vieles fatal falsch laufen kann, besonders wenn man keine Standard-Konventionen einhält. Die Kategorie soll sicherstellen, dass eine überprüfte App Kryptographie-Best-Practices nach dem Stand der Technik nutzt:
+Kryptographie ist eine wesentlicher Eckpfeiler zum Schutz von Daten, die auf mobilen Geräten gespeichert werden. Es ist aber auch eine Kategorie bei der vieles fatal falsch laufen kann, besonders wenn man keine Standard-Konventionen einhält. Die Kategorie soll sicherstellen, dass eine überprüfte App Kryptographie-Best-Practices nach dem Stand der Technik nutzt:
 - Nutzung bewährter Krypto-Bibliotheken,
-- Dem Problem angepasste Wahl und Konfiguration kryptographischer Primitive,
+- Richtige Auswahl und Konfiguration kryptographischer Primitive,
 - Nutzung eines geeigneten Zufallszahlengenerators wenn kryptographisch sichere Zufallszahlen erforderlich sind.
 
 ## Anforderungen
@@ -15,7 +15,7 @@ Kryptographie ist eine wesentlicher Eckpfeiler zum Schutz von Daten, die auf mob
 | **3.2** | Die App nutzt bewährte Implementierungen zur Umsetzung kryptographischer Primitive. | ✓ | ✓ |
 | **3.3** | Die App nutzt kryptographische Primitive passend zum spezifischen Anwendungsfall, konfiguriert nach Best-Practice Vorgaben dem Stand der Technik entsprechend. | ✓ | ✓|
 | **3.4** | Die App nutzt keine kryptographischen Protokolle oder Algorithmen die allgemein als veraltet und unsicher gelten. | ✓ | ✓|
-| **3.5** | Die App verwendet einen kryptographischen Schlüssel für genau einen Zweck und nicht für mehrere Zwecke z.B. Verschlüsselung und Signaturenerzeugung. | ✓ | ✓ |
+| **3.5** | Die App verwendet einen kryptographischen Schlüssel für genau einen Zweck und nicht für mehrere Zwecke. | ✓ | ✓ |
 | **3.6** | Alle Zufallswerte werden über einen ausreichend sicheren kryptographischen Zufallszahlengenerator erzeugt. | ✓ | ✓ |
 
 ## Referenzen
