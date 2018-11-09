@@ -2,7 +2,7 @@
 
 ## Zielsetzung
 
-Kryptographie ist eine wesentlicher Eckpfeiler zum Schutz von Daten, die auf mobilen Geräten gespeichert werden. Es ist aber auch eine Kategorie bei der vieles fatal falsch laufen kann, besonders wenn man keine Standard-Konventionen einhält. Die Kategorie soll sicherstellen, dass eine überprüfte App Kryptographie-Best-Practices nach dem Stand der Technik nutzt:
+Kryptographie ist eine wesentlicher Eckpfeiler zum Schutz von Daten, die auf mobilen Geräten gespeichert werden. Es ist aber auch eine Kategorie bei der vieles falsch gemacht werden kann, besonders wenn man keine Standard-Konventionen einhält. Die Kategorie soll sicherstellen, dass eine überprüfte App Kryptographie-Best-Practices nach dem Stand der Technik nutzt:
 - Nutzung bewährter Krypto-Bibliotheken,
 - Richtige Auswahl und Konfiguration kryptographischer Primitive,
 - Nutzung eines geeigneten Zufallszahlengenerators wenn kryptographisch sichere Zufallszahlen erforderlich sind.
