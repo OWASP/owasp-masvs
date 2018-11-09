@@ -1,31 +1,31 @@
-# V1: Architecture, Design and Threat Modeling Requirements
+# V1: 架構、設計和威脅模型分析準則
 
-## Control Objective
+## 控制目標
 
-In a perfect world, security would be considered throughout all phases of development. In reality however, security is often only a consideration at a late stage in the SDLC. Besides the technical controls, the MASVS requires processes to be in place that ensure that the security has been explicitly addressed when planning the architecture of the mobile app, and that the functional and security roles of all components are known. Since most mobile applications act as clients to remote services, it must be ensured that appropriate security standards are also applied to those services - testing the mobile app in isolation is not sufficient.
+在一個完善的社會，整個開發階段都會考慮到安全性。 然而實際上，安全性常常只是 SDLC 後期的考慮因素。 除了技術控制之外， MASVS 需要制定流程，以確保在規劃行動應用程式的結構時明確考慮到安全性的問題，並確認所有元件的功能性和安全性是清楚的。 由於大多數行動應用程式是作為遠程服務的客戶端，因此必須確保妥善的安全標準也運用在這些服務 - 只是獨立測試行動應用程式是不夠的。
 
-The category “V1” lists requirements pertaining to architecture and design of the app. As such, this is the only category that does not map to technical test cases in the OWASP Mobile Testing Guide. To cover topics such as threat modelling, secure SDLC, key management, users of the MASVS should consult the respective OWASP projects and/or other standards such as the ones linked below.
+“V1”這個類別列出了與應用程式的架構和設計有關的要求。 因此，這是唯一沒有對應到 OWASP Mobile Testing Guide 裡的技術測資的類別。 為了涵蓋威脅模型分析，安全SDLC，密鑰管理等主題，MASVS 的用戶應參考相對應的OWASP項目 和/或 其他標準，例如下面連結所提到的。
 
-## Security Verification Requirements
+## 安全驗證準則
 
-The requirements for MASVS-L1 and MASVS-L2 are listed below.
+以下列出了 MASVS-L1 和 MASVS-L2 的要求。
 
-| # | Description | L1 | L2 |
+| # | 描述 | L1 | L2 |
 | --- | --- | --- | --- |
-| **1.1** | All app components are identified and known to be needed. | ✓ | ✓ |
-| **1.2** | Security controls are never enforced only on the client side, but on the respective remote endpoints. | ✓ | ✓ |
-| **1.3** | A high-level architecture for the mobile app and all connected remote services has been defined and security has been addressed in that architecture. | ✓ | ✓ |
-| **1.4** | Data considered sensitive in the context of the mobile app is clearly identified. | ✓ | ✓ |
-| **1.5** | All app components are defined in terms of the business functions and/or security functions they provide. |   | ✓ |
-| **1.6** | A threat model for the mobile app and the associated remote services has been produced that identifies potential threats and countermeasures. |   | ✓ |
-| **1.7** | All security controls have a centralized implementation. |   | ✓ |
-| **1.8** | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |   | ✓ |
-| **1.9** | A mechanism for enforcing updates of the mobile app exists. |   | ✓ |
-| **1.10** | Security is addressed within all parts of the software development lifecycle. |   | ✓ |
+| **1.1** | 所有應用程式組成元件都已歸類並且已知是必需的。 | ✓ | ✓ |
+| **1.2** | 安全控制永遠不會僅僅在客戶端強制執行，而是在相對應的遠程端點上也必須強制執行。 | ✓ | ✓ |
+| **1.3** | 行動應用程式的高級架構和所有連接的遠程服務已經被定義，並且該架構已解決了安全性的問題。 | ✓ | ✓ |
+| **1.4** | 在行動應用程式環境中被認為敏感的資料已被明確歸類。 | ✓ | ✓ |
+| **1.5** | 所有應用程式的組成都根據它們提供的業務功能 和/或 安全功能進行定義。 |   | ✓ |
+| **1.6** | 行動應用程式和相關遠程服務的威脅模型已經制定，以識別潛在的威脅和對策。 |   | ✓ |
+| **1.7** | 所有安全控制都有一個集中的管理。 |   | ✓ |
+| **1.8** | 如何管理加密金鑰（如果有）有明確方針，而且加密金鑰生命週期需強制實施。 理想情況下，遵循 NIST SP 800-57 等鑰匙管理標準。 |   | ✓ |
+| **1.9** | 存在強制行動應用程式更新的機制。 |   | ✓ |
+| **1.10** | 安全性在軟體開發生命週期的所有階段中仔細納入考量。 |   | ✓ |
 
-## References
+## 參考
 
-For more information, see also:
+更多資訊請參閱：
 
 - OWASP Mobile Top 10: M10 - Extraneous Functionality: https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality
 - OWASP Security Architecture cheat sheet: https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet
