@@ -17,7 +17,7 @@ Ein integraler Teil der Architektur einer mobilen App ist der Login eines Nutzer
 | **4.7** | Nach einer definierten Inaktivitätsdauer werden Nutzersitzungen am entfernten API-Endpunkt beendet und Zugriffs-Tokens werden nach Ablauf der Gültigkeitsdauer abgelehnt. | ✓ | ✓ |
 | **4.8** | Biometrische Authentifizierung basiert auf dem Betriebssystem-basierten Entsperren des Keystores (Android)/der Keychain (iOS) und nicht auf einer z.B. event-basierten API die einfach "true" oder "false" zurück liefert. |   | ✓ |
 | **4.9** | Es gibt einen 2. Authentifizierungsfaktor und er wird am entfernten API-Endpunkt konsistent erzwungen. |   | ✓ |
-| **4.10** | Sensible Transaktionen erfordern eine stärkere Authentifizierung (durch einen weiteren Authentifizierungsfaktor). |   | ✓ |
+| **4.10** | Sensible Transaktionen erfordern eine zusätzliche Authentifizierung (durch einen weiteren Authentifizierungsfaktor). |   | ✓ |
 | **4.11** | Die App informiert den Nutzer über alle Anmelde-Vorgänge am Nutzerkonto. Nutzer können eine Liste aller mit dem Konto verbundenen Geräte sehen und ausgewählte Geräte blockieren. |  | ✓ |
 
 ## Referenzen
