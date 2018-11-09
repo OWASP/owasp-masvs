@@ -1,6 +1,6 @@
-# 評估與認證
+# 評估與認證
 
-## OWASP 對 MASVS 認證與信任標誌聲明
+## OWASP 對 MASVS 認證與信任標誌聲明
 
 OWASP, as a vendor-neutral not-for-profit organization, does not certify any vendors, verifiers or software.
 
@@ -20,7 +20,7 @@ A certifying organization must include in any report the scope of the verificati
 
 The OWASP MSTG is a manual for testing the security of mobile apps. It describes the technical processes for verifying the requirements listed in the MASVS. The MSTG includes a list of test cases, each of which map to a requirement in the MASVS. While the MASVS requirements are high-level and generic, the MSTG provides in-depth recommendations and testing procedures on a per-mobile-OS basis. 
 
-### 自動化與檢測工具
+### 自動化與檢測工具
 
 The use of source code scanners and black-box testing tools is encouraged in order to increase efficiency whenever possible. It is however not possible to complete MASVS verification using automated tools alone: Every mobile app is different, and understanding the overall architecture, business logic, and technical pitfalls of the specific technologies and frameworks being used, is a mandatory requirement to verify security of the app.
 
@@ -42,6 +42,6 @@ A good mobile app security testing methodology should cover all requirements lis
 
 The MASVS is designed to be highly testable, with the sole exception of architectural requirements. Automated unit, integration and acceptance testing based on the MASVS requirements can be integrated in the continuous development lifecycle. This not only increases developer security awareness, but also improves the overall quality of the resulting apps, and reduces the amount of findings during security testing in the pre-release phase.
 
-### 安全性開發培訓課程
+### 安全性開發培訓課程
 
 MASVS can also be used to define characteristics of secure mobile apps. Many "secure coding" courses are simply ethical hacking courses with a light smear of coding tips. This does not help developers. Instead, secure development courses can use the MASVS, with a strong focus on the proactive controls documented in the MASVS, rather than e.g. the Top 10 code security issues.
