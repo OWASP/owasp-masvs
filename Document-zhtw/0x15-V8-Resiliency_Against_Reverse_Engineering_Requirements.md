@@ -6,7 +6,8 @@
 缺少任何這些控件不會導致漏洞 - 相反的，它們打算增加逆向工程及特定的客戶端攻擊對行動應用程式的彈性
 
 
- The controls in this section should be applied as needed, based on an assessment of the risks caused by unauthorized tampering with the app and/or reverse engineering of the code. We suggest consulting the OWASP document "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" (see references below) for a list business risks as well as associated technical threats. 
+基於對未經授權篡改應用程式和/或代碼逆向工程所導致的風險的評估，應根據需要應用本節中的控件。
+我們建議諮詢OWASP文件"逆向工程技術風險和未經授權的代碼修改逆向工程和代碼修改預防"(參考下面)列出的業務風險以及相關的技術威脅。
 
 For any of the controls in the list below to be effective, the app must fulfil at least all of MASVS-L1 (i.e., solid security controls must be in place), as well as all lower-numbered requirements in V8. For examples, the obfuscation controls listed in under "impede comprehension" must be combined with "app isolation", "impede dynamic analysis and tampering" and "device binding".
 
