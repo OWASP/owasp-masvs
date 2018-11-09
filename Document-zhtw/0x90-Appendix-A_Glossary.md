@@ -1,6 +1,6 @@
 # Appendix A: Glossary
 
-- **2FA** – Two-factor authentication(2FA) adds a second level of authentication to an account log-in.
+- **2FA** – 雙因子身份驗證(2FA) 在帳號登入時增加第二層的身份驗證。
 - **Address Space Layout Randomization (ASLR)** – A technique to make exploiting memory corruption bugs more difficult.
 - **Application Security** – Application-level security focuses on the analysis of components that comprise the application layer of the Open Systems Interconnection Reference Model (OSI Model), rather than focusing on for example the underlying operating system or connected networks.
 - **Application Security Verification** – The technical assessment of an application against the OWASP MASVS.
@@ -25,8 +25,8 @@
 - **Malware** – Executable code that is introduced into an application during runtime without the knowledge of the application user or administrator.
 - **Open Web Application Security Project** (OWASP) – The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security "visible," so that people and organizations can make informed decisions about application security risks. See: http://www.owasp.org/
 - **Personally Identifiable Information** (PII) - is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
-- **PIE** – Position-independent executable (PIE) is a body of machine code that, being placed somewhere in the primary memory, executes properly regardless of its absolute address. 
-- **PKI** – A PKI is an arrangement that binds public keys with respective identities of entities. The binding is established through a process of registration and issuance of certificates at and by a certificate authority (CA). 
+- **PIE** – Position-independent executable (PIE) is a body of machine code that, being placed somewhere in the primary memory, executes properly regardless of its absolute address.
+- **PKI** – A PKI is an arrangement that binds public keys with respective identities of entities. The binding is established through a process of registration and issuance of certificates at and by a certificate authority (CA).
 - **SAST** – Static application security testing (SAST) is a set of technologies designed to analyze application source code, byte code and binaries for coding and design conditions that are indicative of security vulnerabilities. SAST solutions analyze an application from the “inside out” in a nonrunning state.
 - **SDLC** – Software development lifecycle.
 - **Security Architecture** – An abstraction of an application's design that identifies and describes where and how security controls are used, and also identifies and describes the location and sensitivity of both user and application data.
