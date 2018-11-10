@@ -11,8 +11,8 @@ Das Ziel dieser Kategorie ist, sicherzustellen, dass bei der App-Entwicklung Bas
 | **7.1** | Die App ist signiert und mit einem gültigen Zertifikat provisioniert dessen privater Schlüssel angemessen geschützt ist. | ✓ | ✓ |
 | **7.2** | Die App wurde im Release-Modus gebaut und mit passenden Release-Einstellungen (kein Debugging). | ✓ | ✓ |
 | **7.3** | Debugging Symbole wurden von nativen Binärdateien entfernt. | ✓ | ✓ |
-| **7.4** | Debugging Code wurde entfernt und die App-Logdateien enthalten keine ausschweifenden Fehler oder Debug-Meldungen. | ✓ | ✓ |
-| **7.5** | Alle Drittbibliotheken und Frameworks die die App nutzt sind identifiziert und wurden auf Schwachstellen geprüft. | ✓ | ✓ |
+| **7.4** | Debugging Code wurde entfernt und die App-Logdateien enthalten keine ausführlichen Fehler oder Debug-Meldungen. | ✓ | ✓ |
+| **7.5** | Bibliotheken und Frameworks von Drittanbietern die die App nutzt wurden auf Schwachstellen geprüft. | ✓ | ✓ |
 | **7.6** | Die App führt eine sichere Fehlerbehandlung durch indem sie Exceptions abfängt und kontrolliert behandelt.| ✓ | ✓ |
 | **7.7** | Treten in Sicherheitsfunktionen Fehler auf lehnt die App-Fehlerbehandlung die Zugriffe standardmäßig ab. | ✓ | ✓ |
 | **7.8** | Das Speichermanagement (Allokation und Freigabe von Speicher) erfolgt in unmanaged code auf sichere Weise. | ✓ | ✓ |
