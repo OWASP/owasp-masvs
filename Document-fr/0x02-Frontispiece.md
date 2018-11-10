@@ -14,8 +14,8 @@ http://owasp.herokuapp.com/.
 
 ## Copyright et Licence
 
-![license](images/license.png)
-Copyright © 2018 The OWASP Foundation. Ce document est publié sous la licence Creative Commons Attribution ShareAlike 3.0. Pour toute ré-utilisation ou distribution, il est obligatoire d'attribuer la licence de ce travail aux auteurs.
+![license](images/CC-license.png)
+Copyright © 2018 The OWASP Foundation. Ce document est publié sous la licence Creative Commons Attribution ShareAlike 4.0 International. Pour toute ré-utilisation ou distribution, il est obligatoire d'attribuer la licence de ce travail aux auteurs.
 
 | Chef de Projet | Auteur Principal | Contributeurs et Relecteurs
 | --- | --- | --- |
