@@ -23,7 +23,7 @@ Darüber hinaus hat das Erscheinen von Root-Malware und Remote-Administrations-T
 
 Als Folge davon existieren zahlreiche mobile Sicherheitstestberichte bei denen die Tester fehlende Obfuskierung oder fehlende Root-Erkennung in einer Android-App als "Sicherheitslücke" werten. Auf der anderen Seite werden Maßnahmen wie Verschlüsselung von Zeichenketten, Erkennung von Debuggern oder Kontrollfluss-Obfuskierung nicht als verpflichtend erachtet. Letztlich ergibt dieses "schwarz-weiss Denken" keinen Sinn, denn Resilienz ist keine binäre Eigenschaft sondern hängt davon ab gegen welche konkreten Client-seitigen Bedrohungen man sich schützen möchte. Software-Schutzmaßnahmen zur Erhöhung der Resilienz bringen gewissen Nutzen jedoch können sie definitiv umgangen werden und dürfen deshalb niemals als Ersatz für Sicherheitsmaßnahmen dienen.
 
-Das übergeordnete Ziel des MASVS ist es mit dem MASVS-L1 ein solides Basis-Sicherheitsniveau und darüber hinaus mit dem MASVS-L2 ein erhöhtes Sicherheitsniveau für mobile App-Sicherheit, welches weitere Defense-in-Depth Maßnahmen beinhaltet sowie kontextbezogen Schutzmaßnahmen gegen Client-seitige Bedrohungen (MASVS-R) anzubieten.
+Das übergeordnete Ziel des MASVS ist es mit dem MASVS-L1 ein solides Basis-Sicherheitsniveau, mit dem MASVS-L2 ein erhöhtes Sicherheitsniveau sowie kontextbezogen weitere Defense-in-Depth-Maßnahmen gegen Client-seitige Bedrohungen (MASVS-R) für mobile App-Sicherheit anzubieten.
 
 
 Folgendes soll mit dem MASVS erreicht werden:
@@ -33,4 +33,4 @@ Folgendes soll mit dem MASVS erreicht werden:
 - Schärfung und Klarstellung der Rolle von Schutzmechanismen in der mobilen Sicherheit und Definition von Anforderungen um deren Effektivität zu prüfen;
 - Aussprechen von individuellen Empfehlungen zur Anwendung von mobilen Sicherheitsmechanismen für verschiedene Anwendungsfälle.  
 
-Wir sind uns bewußt dass ein 100% Konsens innerhalb der Sicherheitsbranche unmöglich zu erreichen ist. Nichtsdestotrotz hoffen wir dass der MASVS eine nützliche Hilfestellung für alle Phasen mobiler Softwareentwicklung und Tests darstellt. Als offener Standard soll der MASVS sich über die Zeit weiterentwickeln und wir begrüßen jede Unterstützung und Vorschläge.   
+Wir sind uns bewußt dass ein 100%-iger Konsens innerhalb der Sicherheitsbranche unmöglich zu erreichen ist. Nichtsdestotrotz hoffen wir dass der MASVS eine nützliche Hilfestellung für alle Phasen mobiler Softwareentwicklung und Tests darstellt. Als offener Standard soll der MASVS sich über die Zeit weiterentwickeln und wir begrüßen jede Unterstützung und Vorschläge.   
