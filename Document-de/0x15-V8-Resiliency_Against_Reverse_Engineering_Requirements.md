@@ -22,7 +22,7 @@ Folgende Eckpunkte gelten:
 
 | # | Beschreibung | R |
 | --- | --- | --- |
-| **8.1** | Die App erkennt und reagiert auf ein gerootetes Geräte oder Geräte mit jailbreak indem der Nutzer gewarnt oder die App beendet wird. | ✓ |
+| **8.1** | Die App erkennt und reagiert auf ein gerootetes Gerät oder Geräte mit jailbreak indem der Nutzer gewarnt oder die App beendet wird. | ✓ |
 | **8.2** | Die App verhindert Debugging und/oder erkennt und reagiert auf einen Debugger. Alle verfügbaren Debugging-Protokolle müssen abgedeckt werden. | ✓ |
 | **8.3** | Die App erkennt und reagiert auf Manipulationen an ausführbaren Dateien und kritischen Daten innerhalb der App-eigenen Sandbox. | ✓ |
 | **8.4** | Die App erkennt und reagiert auf typische und allgemein bekannte Reverse Engineering Tools und Frameworks auf dem Gerät.| ✓ |
@@ -30,7 +30,7 @@ Folgende Eckpunkte gelten:
 | **8.6** | Die App erkennt und reagiert auf Manipulation von Code und Daten im eigenen Arbeitsspeicherbereich. | ✓ |
 | **8.7** | Die App realisiert mehrere Mechanismen in jeder Kategorie (8.1 bis 8.6). Die Resilienz steigt mit der Anzahl, Vielfalt und Originalität der genutzten Mechanismen. | ✓ |
 | **8.8** | Die Erkennungsmechanismen der App lösen verschiedene Arten von Reaktionen aus z.B. verzögerte, versteckte oder heimliche Reaktionen. | ✓ |
-| **8.9** | Programmatische Abwehrmaßnahmen werden durch Obfuskierung geschützt was wiederum De-Obfuskierung mittels Dynamischer Analyse verhindert. | ✓ |
+| **8.9** | Programmatische Abwehrmaßnahmen werden durch Obfuskierung geschützt was wiederum De-Obfuskierung mittels dynamischer Analyse verhindert. | ✓ |
 
 ### Gerätebindung
 
