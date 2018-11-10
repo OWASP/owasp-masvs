@@ -21,7 +21,7 @@
 
 ## 參考
 
-OWASP 行動安全檢測指南列出相關要求，並且相關章節中有詳細說明。
+OWASP 行動安全檢測指南列出相關要求，並且相關章節中有詳細說明。
 
 - Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md
 - iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md
