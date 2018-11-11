@@ -1,33 +1,33 @@
-# V4: Authentication and Session Management Requirements
+# V4: 身份驗證和對談管理準則
 
-## Control Objective
+## 控制目標
 
-In most cases, users logging into a remote service is an integral part of the overall mobile app architecture. Even though most of the logic happens at the endpoint, MASVS defines some basic requirements regarding how user accounts and sessions are to be managed.
+在多數情況下，登錄遠程服務的用戶是整個行動應用程式架構整體的ㄧ部分。 即使大多數邏輯發生在端點，MASVS定義了有關如何管理用戶帳戶和對談的一些基本要求。
 
-## Security Verification Requirements
+## 安全驗證準則
 
-| # | Description | L1 | L2 |
+| # | 描述 | L1 | L2 |
 | --- | --- | --- | --- |
-| **4.1** | If the app provides users access to a remote service, some form of authentication, such as username/password authentication, is performed at the remote endpoint. | ✓ | ✓ |
-| **4.2** | If stateful session management is used, the remote endpoint uses randomly generated session identifiers to authenticate client requests without sending the user's credentials.  | ✓ | ✓ |
-| **4.3** | If stateless token-based authentication is used, the server provides a token that has been signed using a secure algorithm. | ✓ | ✓ |
-| **4.4** | The remote endpoint terminates the existing session when the user logs out. | ✓ | ✓ |
-| **4.5** | A password policy exists and is enforced at the remote endpoint. | ✓ | ✓ |
-| **4.6** | The remote endpoint implements a mechanism to protect against the submission of credentials an excessive number of times. | ✓ | ✓ |
-| **4.7** | Sessions are invalidated at the remote endpoint after a predefined period of inactivity and access tokens expire. | ✓ | ✓ |
-| **4.8** | Biometric authentication, if any, is not event-bound (i.e. using an API that simply returns "true" or "false"). Instead, it is based on unlocking the keychain/keystore. |   | ✓ |
-| **4.9** | A second factor of authentication exists at the remote endpoint and the 2FA requirement is consistently enforced.  |   | ✓ |
-| **4.10** | Sensitive transactions require step-up authentication.  |   | ✓ |
-| **4.11** | The app informs the user of all login activities with their account. Users are able view a list of devices used to access the account, and to block specific devices. |  | ✓ |
+| **4.1** | 如果應用程式向用戶提供對遠程服務的訪問權限，則用戶名/密碼驗證等一些形式的身份驗證會在遠程端點執行。 | ✓ | ✓ |
+| **4.2** | 如果使用有狀態的對談管理，則遠程端點使用隨機生成的交談識別碼來驗證客戶端請求，而不發送用戶憑據。  | ✓ | ✓ |
+| **4.3** | 如果使用無狀態token-based驗證方式，則服務器會提供使用安全算法簽名的token。 | ✓ | ✓ |
+| **4.4** | 當用戶登出時，遠程端點會終止現有對談。 | ✓ | ✓ |
+| **4.5** | 存在密碼方針，並在遠程端點強制實行。 | ✓ | ✓ |
+| **4.6** | 遠程端點實踐了一個可以防止多次提交憑據的機制。 | ✓ | ✓ |
+| **4.7** | 在事先定義的不活動時段和用來訪問的token過期後，對談在遠程端點將無效。 | ✓ | ✓ |
+| **4.8** | 生物辨識認證（如果有的話）不受事件限制（即是像簡單地返回“真”或“假”的API）。 相反，它是基於解鎖鑰匙串/密鑰庫。 |   | ✓ |
+| **4.9** | 遠程端點存在第二個驗證要素，並且始終強制執行2FA準則。  |   | ✓ |
+| **4.10** | 敏感的交易需要進一步認證。  |   | ✓ |
+| **4.11** | 應用程式通過其帳戶通知用戶所有登錄活動。 用戶可以查看用於訪問帳戶的裝置列表，以及阻檔特定裝置。 |  | ✓ |
 
-## References
+## 參考
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+OWASP Mobile Security Testing Guide 提供了有關驗證本章節中列出的準則的詳細使用說明。
 
 - For Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Authentication.md
 - For iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Authentication-and-Session-Management.md
 
-For more information, see also:
+更多資訊請參閱：
 
 - OWASP Mobile Top 10: [M4 - Insecure Authentication](https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication), [M6 - Insecure Authorization](https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization)
 - CWE:  https://cwe.mitre.org/data/definitions/287.html
