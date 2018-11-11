@@ -1,14 +1,14 @@
-# Appendix A: Glossary
+# 附錄 A ：專用術語
 
-- **2FA** – Two-factor authentication(2FA) adds a second level of authentication to an account log-in.
-- **Address Space Layout Randomization (ASLR)** – A technique to make exploiting memory corruption bugs more difficult.
-- **Application Security** – Application-level security focuses on the analysis of components that comprise the application layer of the Open Systems Interconnection Reference Model (OSI Model), rather than focusing on for example the underlying operating system or connected networks.
-- **Application Security Verification** – The technical assessment of an application against the OWASP MASVS.
-- **Application Security Verification Report** – A report that documents the overall results and supporting analysis produced by the verifier for a particular application.
-- **Authentication** – The verification of the claimed identity of an application user.
-- **Automated Verification** – The use of automated tools (either dynamic analysis tools, static analysis tools, or both) that use vulnerability signatures to find problems.
-- **Black box testing** – It is a method of software testing that examines the functionality of an application without peering into its internal structures or workings.
-- **Component** – a self-contained unit of code, with associated disk and network interfaces that communicates with other components.
+- **雙因素身份驗證(Two-factor Authentication, 2FA)** – 在帳號登入時增加第二層的身份驗證。
+- **位址空間組態隨機載入(Address Space Layout Randomization, ASLR)** – 一種能讓利用記憶體損壞漏洞的攻擊更加困難的技術。
+- **應用程式安全(Application Security)** – 應用層安全性是針對 OSI 模型應用層元件的分析，而非針對作業系統或是網路連線。
+- **應用程式安全驗證(Application Security Verification)** – 對應用程式利用 OWASP MASVS 進行技術評鑑。
+- **應用程式安全驗證報告(Application Security Verification Report)** – 一份針對特定應用程式，由檢驗者製作，紀錄所有結果與相關分析的報告。
+- **身份驗證(Authentication)** – 對應用程式使用者鑒別身分的驗證。
+- **自動化驗證(Automated Verification)** – 採用自動化工具(包括動態分析工具、靜態分析工具或兩者皆採用)以利用弱點特徵來發掘問題。
+- **黑箱測試(Black box testing)** – 一種軟體測試方法，能在未知內部結構與運作情形的狀況下檢驗應用程式功能。
+- **元件(Component)** – a self-contained unit of code, with associated disk and network interfaces that communicates with other components.
 - **Cross-Site Scripting** (XSS) – A security vulnerability typically found in web applications allowing the injection of client-side scripts into content.
 - **Cryptographic module** – Hardware, software, and/or firmware that implements cryptographic algorithms and/or generates cryptographic keys.
 - **CWE** - CWE is a community-developed list of common software security weaknesses. It serves as a common language, a measuring stick for software security tools, and as a baseline for weakness identification, mitigation, and prevention efforts.
@@ -25,8 +25,8 @@
 - **Malware** – Executable code that is introduced into an application during runtime without the knowledge of the application user or administrator.
 - **Open Web Application Security Project** (OWASP) – The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security "visible," so that people and organizations can make informed decisions about application security risks. See: http://www.owasp.org/
 - **Personally Identifiable Information** (PII) - is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
-- **PIE** – Position-independent executable (PIE) is a body of machine code that, being placed somewhere in the primary memory, executes properly regardless of its absolute address. 
-- **PKI** – A PKI is an arrangement that binds public keys with respective identities of entities. The binding is established through a process of registration and issuance of certificates at and by a certificate authority (CA). 
+- **PIE** – Position-independent executable (PIE) is a body of machine code that, being placed somewhere in the primary memory, executes properly regardless of its absolute address.
+- **PKI** – A PKI is an arrangement that binds public keys with respective identities of entities. The binding is established through a process of registration and issuance of certificates at and by a certificate authority (CA).
 - **SAST** – Static application security testing (SAST) is a set of technologies designed to analyze application source code, byte code and binaries for coding and design conditions that are indicative of security vulnerabilities. SAST solutions analyze an application from the “inside out” in a nonrunning state.
 - **SDLC** – Software development lifecycle.
 - **Security Architecture** – An abstraction of an application's design that identifies and describes where and how security controls are used, and also identifies and describes the location and sensitivity of both user and application data.
