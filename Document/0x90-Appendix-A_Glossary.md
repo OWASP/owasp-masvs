@@ -36,8 +36,8 @@
 - **SSO Authentication** – Single Sign On(SSO) occurs when a user logs in to one Client and is then signed in to other Clients automatically, regardless of the platform, technology, or domain the user is using. For example when you log in in google you automatically login in the youtube , docs and mail service.
 - **Threat Modeling** - A technique consisting of developing increasingly refined security architectures to identify threat agents, security zones, security controls, and important technical and business assets.
 - **Transport Layer Security** – Cryptographic protocols that provide communication security over the Internet
-- **URI/URL/URL fragments** – A Uniform Resource Identifier is a string of characters used to identify a name or a web resource. A Uniform Resource Locator is often used as a reference to a resource.
+- **URI and URL** – A Uniform Resource Identifier is a string of characters used to identify a name or a web resource. A Uniform Resource Locator is often used as a reference to a resource.
 - **User acceptance testing (UAT)**– Traditionally a test environment that behaves like the production environment where all software testing is performed before going live.
-- **Verifier** – The person or team that is reviewing an application against the OWASP ASVS requirements.
+- **Verifier** – The person or team that is reviewing an application against the OWASP MASVS requirements.
 - **Whitelist** – A list of permitted data or operations, for example a list of characters that are allowed to perform input validation.
 - **X.509 Certificate** – An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate.
