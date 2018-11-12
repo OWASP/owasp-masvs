@@ -1,7 +1,7 @@
 # Appendix A: Glossar
 - **2FA** – Zwei-Faktor-Authentifizierung bedeutet es wird ein zusätzlicher Authentifizierungsfaktor z.B. eine PIN oder ein Einmalpasswort zur Anmeldung am Nutzerkonto verlangt.
 - **Address Space Layout Randomization (ASLR)** – Eine Technik um Angriffe auf Arbeitsspeicherbereiche zu erschweren.
-- **Akzeptanztest** – Akzeptanztest (UAT) - Eine Testumgebung die sich ähnlich verhält wie die Produktivumgebung, in der Tests  vor dem go-live ausgeführt werden.
+- **Akzeptanztest (UAT)** - Eine Testumgebung die sich ähnlich verhält wie die Produktivumgebung, in der Tests vor dem go-live ausgeführt werden.
 - **Applikationssicherheit** – Applikationssicherheit ist fokussiert auf Sicherheitsaspekte und Angriffe auf Anwendungsebene d.h. Applikationskomponenten und -funktionen korrespondierend zur Anwendungsschicht im Open Systems Interconnection Reference Model (OSI Modell). Der Fokus liegt nicht auf Betriebssystem- oder Netzwerkaspekten.
 - **Authentifizierung** – Die Überprüfung der angegebenen Identität eines Nutzers.
 - **Automatisierte Prüfungen** – Die Nutzung automatisierter Werkzeuge (dynamische/statische Analyse oder beides) die Schwachstellen anhand von Signaturen identifizieren.
@@ -25,7 +25,7 @@
 - **Personenbezogene Daten** - Personenbezogene Daten sind Daten die genutzt werden können um eine Person direkt oder indirekt zu identifizieren, kontaktieren oder lokalisieren bzw. eine Person in einem Zusammenhang zu identifizieren.
 - **PIE** – Position-independent executable (PIE) - Positionsunabhängiger Code ist Maschinencode der an einer beliebigen Stelle im primären Speicher ausgeführt werden kann. (unabhängig von der absoluten Speicheradresse)
 - **PKI** – Public Key Infrastruktur - PKI basiert darauf, dass öffentliche Schlüssel an eine Identität gebunden werden. Die Bindung erfolgt durch einen Registrierungsprozess und das Ausstellen eines Zertifikats durch eine Zertifizierungsstelle, in englisch Certificate Authority (CA). 
-- **Prüfer** – Eine Person oder ein Team, dass eine Anwendung gegen den OWASP ASVS prüft.
+- **Prüfer** – Eine Person oder ein Team, dass eine Anwendung gegen den OWASP MASVS prüft.
 - **Prüfung zur Applikationssicherheit** – Die technische Prüfung einer Applikation gegen den OWASP MASVS.
 - **Prüfbericht zur Applikationssicherheit** – Ein Prüfbericht, für eine Applikation, der die Analyseschritte eines Prüfers sowie die Gesamtergebnisse dokumentiert.
 - **SAST** – Statische Applikations-Security-Tests (SAST) sind eine Reihe von Techniken, die dazu genutzt werden können potentielle Sicherheitsschwachstellen in Quellcode, Bytecode und Binärdateien zu identifizieren. SAST Lösungen analysieren eine Applikation typischerweise zur Entwicklungs- oder Buildzeit jedoch nicht zur Laufzeit.
