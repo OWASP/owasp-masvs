@@ -1,16 +1,20 @@
 # V8: Resilience Requirements
 
-## Control objective
+# 控制目標
 
-This section covers defense-in-depth measures recommended for apps that process, or give access to, sensitive data or functionality. Lack of any of these controls does not cause a vulnerability - instead, they are meant to increase the app's resilience against reverse engineering and specific client-side attacks.
+本節涵蓋對於存取機敏資料的功能的行動應用程序建議的縱身防禦措施。
+缺少任何這些控件不會導致漏洞 - 相反的，它們打算增加逆向工程及特定的客戶端攻擊對行動應用程式的彈性
 
- The controls in this section should be applied as needed, based on an assessment of the risks caused by unauthorized tampering with the app and/or reverse engineering of the code. We suggest consulting the OWASP document "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" (see references below) for a list business risks as well as associated technical threats. 
 
-For any of the controls in the list below to be effective, the app must fulfil at least all of MASVS-L1 (i.e., solid security controls must be in place), as well as all lower-numbered requirements in V8. For examples, the obfuscation controls listed in under "impede comprehension" must be combined with "app isolation", "impede dynamic analysis and tampering" and "device binding".
+基於對未經授權篡改應用程式和/或代碼逆向工程所導致的風險的評估，應根據需要應用本節中的控件。
+我們建議諮詢OWASP文件"逆向工程技術風險和未經授權的代碼修改逆向工程和代碼修改預防"(參考下面)列出的業務風險以及相關的技術威脅。
 
-**Note that software protections must never be used as a replacement for security controls. The controls listed in MASVR-R are intended to add threat-specific, additional protective controls to apps that also fulfil the MASVS security requirements.**
+對下面的列表中的任何控件是有效的，應用程式必須滿足至少所有的MASVS-L1(換句話說，實體安全控件一定是到位)，以及V8內所有低編號的要求，
+例如，下面的混淆控制列表"妨礙理解"一定是跟"應用程式隔離"結合，"妨礙動態分析和竄改"，和"設備綁定"
 
-The following considerations apply:
+注意: 軟體保護絕不是使用在一個安全控制元件替換，MASVR-R中列出的控件旨在增加特定威脅，對滿足MASVS安全要求的應用程式，提供額外的保護控制
+
+以下注意事項採用:
 
 1. A threat model must be defined that clearly outlines the client-side threats defended against. Additionally, the grade of protection the scheme is meant to provide must be specified. For example, a stated goal could be to force authors of targeted malware seeking to instrument the app to invest significant manual reverse engineering effort.
 
@@ -18,7 +22,7 @@ The following considerations apply:
 
 3. The effectiveness of the protection should always be verified by a human expert with experience in testing the particular types of anti-tampering and obfuscation used (see also the "reverse engineering" and "assessing software protections" chapters in the Mobile Security Testing Guide).
 
-### Impede Dynamic Analysis and Tampering
+### 阻礙動態分析和篡改
 
 | # | Description | R |
 | --- | --- | --- |
