@@ -2,11 +2,11 @@
 
 ## OWASP 對 MASVS 認證與信任標誌聲明
 
-OWASP, as a vendor-neutral not-for-profit organization, does not certify any vendors, verifiers or software.
+OWASP是一個中立無廠商偏好的非營利組織。OWASP本身並不會認證/授權任何廠商、認證機構或者軟體。
 
-All such assurance assertions, trust marks, or certifications are not officially vetted, registered, or certified by OWASP, so an organization relying upon such a view needs to be cautious of the trust placed in any third party or trust mark claiming ASVS certification.
+任何這樣的保證聲明、信任標誌或認證，都不會是OWASP官方正式審查、註冊或認證的！因此，任何組織都必須十分謹慎地看待，且不應輕易相信任何宣稱其擁有MASVS認證或信任標誌的第三方機構。
 
-This should not inhibit organizations from offering such assurance services, as long as they do not claim official OWASP certification.
+這段聲明並不是阻止任何組織去提供相關的認證服務，但任何組織不該宣稱擁有OWASP官方的認證。
 
 ## 行動應用程式認證指南
 
@@ -18,11 +18,11 @@ A certifying organization must include in any report the scope of the verificati
 
 ### OWASP 移動安全檢測操作指南 (MSTG)
 
-The OWASP MSTG is a manual for testing the security of mobile apps. It describes the technical processes for verifying the requirements listed in the MASVS. The MSTG includes a list of test cases, each of which map to a requirement in the MASVS. While the MASVS requirements are high-level and generic, the MSTG provides in-depth recommendations and testing procedures on a per-mobile-OS basis. 
+OWASP MSTG是測試行動應用程式安全的指導手冊。它描述了驗證被列在MASVS中相關準則的技術流程。MSTG提供了一個測試方案的列表，每一個測試方案都可以連結到一個MASVS的準則。雖然MASVS的準則都是概念性的和通用性的，MSTG提供了對不同行動作業系統的相對應深層次的建議以及測試流程。
 
-### 自動化與檢測工具
+### 自動化資訊安全檢測工具的使用
 
-The use of source code scanners and black-box testing tools is encouraged in order to increase efficiency whenever possible. It is however not possible to complete MASVS verification using automated tools alone: Every mobile app is different, and understanding the overall architecture, business logic, and technical pitfalls of the specific technologies and frameworks being used, is a mandatory requirement to verify security of the app.
+在可能的情況下，為了增加效率，程式碼掃描工具和黑箱測試工具的使用是被鼓勵的。然而，要完成MASVS的驗證是不可以只單獨依賴自動化工具的，因為每個行動應用程式都是不同的，而且了解應用程式的整體架構、商業邏輯和應用特定技術和框架帶來的缺點是驗證應用程式安全的必要條件。
 
 ## 其他用途
 
