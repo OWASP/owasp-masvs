@@ -42,5 +42,5 @@ Le Mobile Security Testing Guide de l'OWASP donne des instructions détaillées 
 
 Pour de plus amples informations, il est possible de consulter aussi :
 
-- OWASP Mobile Top 10: M2  - Stockage de données non-sécurisé: https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage
+- OWASP Mobile Top 10: M2 - Stockage de données non-sécurisé: https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage
 - CWE: https://cwe.mitre.org/data/definitions/922.html
