@@ -40,7 +40,7 @@ OWASP MSTG是測試行動應用程式安全的指導手冊。它描述了驗證�
 
 ### 自動化單元與和測試指南
 
-MASVS is designed to be highly testable, with the sole exception of architectural requirements. 自動化單元、整合測試和驗收測試基於MASVS準則，可以被整合到程式持續開發生命周期(continuous development lifecycle)中。這不僅增強了開發人員的資安意識，也增進了應用程式的整體品質，更減少了在程式發布前階段，資訊安全測試的工作量(因為有提前做了整體自動化測試，可以減少後續發現重複或明顯問題的機會)。
+MASVS被設計為擁有高度可測試性，除了架構上的需求以外，自動化單元、整合測試和驗收測試基於MASVS準則，可以被整合到程式持續開發生命周期(continuous development lifecycle)中。這不僅增強了開發人員的資安意識，也增進了應用程式的整體品質，更減少了在程式發布前階段，資訊安全測試的工作量(因為有提前做了整體自動化測試，可以減少後續發現重複或明顯問題的機會)。
 
 ### 安全性開發培訓課程
 
