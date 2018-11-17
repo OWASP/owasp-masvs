@@ -10,16 +10,16 @@ https://owasp.slack.com/messages/project-mobile_omtg/details/
 
 アカウントは以下の URL で作成できます。
 
-http://owasp.herokuapp.com/
+[http://owasp.herokuapp.com/](https://owasp.slack.com/join/shared_invite/enQtNDI5MzgxMDQ2MTAwLTEyNzIzYWQ2NDZiMGIwNmJhYzYxZDJiNTM0ZmZiZmJlY2EwZmMwYjAyNmJjNzQxNzMyMWY4OTk3ZTQ0MzFhMDY).
 
 ## 著作権とライセンス
 
-![license](images/license.png)
-Copyright © 2018 The OWASP Foundation. 本ドキュメントはクリエイティブコモンズ表示-継承 3.0 ライセンスに基づいて公開されています。再使用または配布する場合は、他者に対し本著作物のライセンス条項を明らかにする必要があります。
+![license](images/CC-license.png)
+Copyright © 2018 The OWASP Foundation. 本ドキュメントは Creative Commons Attribution-ShareAlike 4.0 International License に基づいて公開されています。再使用または配布する場合は、他者に対し本著作物のライセンス条項を明らかにする必要があります。
 
 | プロジェクトリーダー | 主執筆者 | 共同執筆者およびレビュー担当者 |
 | --- | --- | --- |
-| Sven Schleier & Jeroen Willemsen| Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry,  Oprya Egor, Ben Gardiner, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Sven Schleier, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Abdessamad Temmar, Chelnokov Vladislav, Jeroen Willemsen, Koki Takeyama |
+| Sven Schleier & Jeroen Willemsen| Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry,  Oprya Egor, Ben Gardiner, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Sven Schleier, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Jeroen Willemsen |
 
 本ドキュメントは Jim Manico により執筆された OWASP Web アプリケーションセキュリティ検証標準のフォークとして始まりました。
 
