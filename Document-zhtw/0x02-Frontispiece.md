@@ -10,12 +10,12 @@ https://owasp.slack.com/messages/project-mobile_omtg/details/
 
 Accounts can be created at the following URL:
 
-[http://owasp.herokuapp.com/](https://owasp.slack.com/join/shared_invite/enQtNDI5MzgxMDQ2MTAwLTEyNzIzYWQ2NDZiMGIwNmJhYzYxZDJiNTM0ZmZiZmJlY2EwZmMwYjAyNmJjNzQxNzMyMWY4OTk3ZTQ0MzFhMDY).
+http://owasp.herokuapp.com/.
 
 ## Copyright and License
 
 ![license](images/CC-license.png)
-Copyright © 2018 The OWASP Foundation. This document is released under the Creative Commons Attribution ShareAlike 4.0 International License. For any reuse or distribution, you must make clear to others the license terms of this work.
+Copyright © 2018 The OWASP Foundation. This document is released under the Creative Commons Attribution ShareAlike 4.0 International license. For any reuse or distribution, you must make clear to others the license terms of this work.
 
 | Project Lead | Lead Author | Contributors and Reviewers
 | --- | --- | --- |
