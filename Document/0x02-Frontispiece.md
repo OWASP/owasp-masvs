@@ -14,8 +14,8 @@ Accounts can be created at the following URL:
 
 ## Copyright and License
 
-![license](images/CC-license.png)
-Copyright © 2018 The OWASP Foundation. This document is released under the Creative Commons Attribution ShareAlike 4.0 International License. For any reuse or distribution, you must make clear to others the license terms of this work.
+![license](Images/CC-license.jpg)
+Copyright © 2018 The OWASP Foundation. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
 
 | Project Lead | Lead Author | Contributors and Reviewers
 | --- | --- | --- |
