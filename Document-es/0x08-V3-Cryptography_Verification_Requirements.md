@@ -28,5 +28,5 @@ La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detal
 
 Para más información, ver también:
 
-- Top 10 Móvil de OWASP: M5 - Criptografía Insuficiente: https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography
+- OWASP Top 10 Móvil: M5 - Criptografía Insuficiente: https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography
 - CWE: https://cwe.mitre.org/data/definitions/310.html

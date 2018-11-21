@@ -27,7 +27,7 @@ A continuación, se enumeran los requerimientos para MASVS-L1 y MASVS-L2.
 
 Para más información, ver también:
 
-- Top 10 Móvil de OWASP: M10 - Funcionalidades Extrañas: https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality
+- OWASP Top 10 Móvil: M10 - Funcionalidades Extrañas: https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality
 - "Cheat sheet" de la Seguridad en la Arquitectura de OWASP: https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet
 - Modelado de Amenazas de OWASP: https://www.owasp.org/index.php/Application_Threat_Modeling
 - "Cheat sheet" para el ciclo de desarrollo seguro de OWASP: https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet
