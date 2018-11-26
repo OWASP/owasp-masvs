@@ -19,6 +19,7 @@ PDF downloads are available on the [Releases page](https://github.com/OWASP/owas
 
 - [Spanish](https://github.com/OWASP/owasp-masvs/releases/download/1.0-ES/OWASP_Mobile_AppSec_Verification_Standard_v1.0-ES.pdf)  
 - [Russian](https://github.com/OWASP/owasp-masvs/releases/download/1.1-RU/OWASP_Mobile_AppSec_Verification_Standard_v1.1-RU.pdf)
+- [German](https://github.com/OWASP/owasp-masvs/tree/master/Document-de)
 
 ## Gitbook
 
