@@ -8,7 +8,7 @@ Le but des contrôles de ce groupe est de garantir que l'application utilise les
 
 | # | Description | L1 | L2 |
 | --- | --- | --- | --- |
-| **6.1** | L'application demande le jeu minimum de permissions nécessaires. | ✓ | ✓ |
+| **6.1** | L'application ne demande qu'une série minimum de permissions nécessaires. | ✓ | ✓ |
 | **6.2** | Toutes les entrées provenant de sources externes ainsi que des utilisateurs sont validées et si nécessaire assainies. Ceci inclut les données reçues via l'interface utilisateur, les mécanismes IPC tel que les intentions, les URL propres à l'application et les sources sur le réseau.| ✓ | ✓ |
 | **6.3** | L'application n'exporte pas de fonctionnalité sensible via des schémas d'URL propres à l'application, à moins que ces mécanismes ne soient correctement protégés. | ✓ | ✓ |
 | **6.4** | L'application n'exporte pas de fonctionnalité sensible à travers les possibilités IPC, à moins que ces mécanismes ne soient correctement protégés. | ✓ | ✓ |
