@@ -15,7 +15,7 @@ https://owasp.slack.com/messages/project-mobile_omtg/details/
 ## 著作権とライセンス
 
 ![license](images/CC-license.png)
-Copyright © 2018 The OWASP Foundation. 本ドキュメントは Creative Commons Attribution-ShareAlike 4.0 International License に基づいて公開されています。再使用または配布する場合は、他者に対し本著作物のライセンス条項を明らかにする必要があります。
+Copyright © 2018 The OWASP Foundation. 本作品は [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) に基づいてライセンスされています。再使用または配布する場合は、他者に対し本著作物のライセンス条項を明らかにする必要があります。
 
 | プロジェクトリーダー | 主執筆者 | 共同執筆者およびレビュー担当者 |
 | --- | --- | --- |
