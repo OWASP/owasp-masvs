@@ -17,7 +17,7 @@ Copyright © 2018 The OWASP Foundation. Dieses Dokument ist veröffentlicht unte
 
 | Project Lead | Lead Author | Mitwirkende and Reviewer | Übersetzung ins deutsche
 | --- | --- | --- | --- |
-| Sven Schleier & Jeroen Willemsen| Bernhard Mueller | Alexander Antukh, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Stephen Corbiaux, Manuel Delgado, Ryan Dewhurst, Tereshin Dmitry, Ben Gardiner, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Sven Schleier, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Abdessamad Temmar, Jeroen Willemsen | Rocco Gränitz |
+| Sven Schleier & Jeroen Willemsen| Bernhard Mueller | Alexander Antukh, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Stephen Corbiaux, Manuel Delgado, Ryan Dewhurst, Tereshin Dmitry, Ben Gardiner, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Sven Schleier, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Abdessamad Temmar, Jeroen Willemsen | Rocco Gränitz, Sven Schleier (Review) |
 
 Dieses Dokument basiert auf einem Fork des OWASP Application Security Verification Standard verfasst von Jim Manico.
 
