@@ -17,7 +17,7 @@
 
 ## 參考
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+OWASP Mobile Security Testing Guide 提供了有關驗證本章節中列出的準則的詳細使用說明。
 
 - Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md
 - iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md
