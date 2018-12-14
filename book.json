@@ -1,0 +1,13 @@
+{
+  "root" : ".",
+  "plugins" : [ "anchors" ],
+
+  "structure": {
+    "readme": "Foreword.md"
+  },
+
+  "title" : "OWASP Mobile Application Security Verification Standard ",
+  "language": "en",
+  "description": "The MASVS is The MASVS is a framework of security requirements needed to design, develop and test secure mobile apps."
+
+}
