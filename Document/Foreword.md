@@ -1,11 +1,6 @@
+# Foreword
 
-![OWASP LOGO](images/OWASP_logo.png)
-
-# Mobile Application Security Verification Standard - Release 1.1
-
-14.07.2018
-
-## Foreword by Bernhard Mueller, OWASP Mobile Project
+By Bernhard Mueller, OWASP Mobile Project
 
 Technological revolutions can happen quickly. Less than a decade ago, smartphones were clunky devices with little keyboards - expensive playthings for tech-savvy business users. Today, smartphones are an essential part of our lives. We've come to rely on them for information, navigation and communication, and they are ubiquitous both in business and in our social lives.
 
