@@ -2,11 +2,7 @@
 
 - [Changelog](../Changelog.md)
 - [Foreword](Foreword.md)
-
 - [Frontispiece](0x02-Frontispiece.md)
-
-### Overview
-
 - [Using the MASVS](0x03-Using_the_MASVS.md)
 - [Assessment and Certification](0x04-Assessment_and_Certification.md)
 
@@ -20,7 +16,6 @@
 - [V6: Platform Interaction Requirements](0x11-V6-Interaction_with_the_environment.md)
 - [V7: Code Quality and Build Setting Requirements](0x12-V7-Code_quality_and_build_setting_requirements.md)
 - [V8: Resilience Requirements](0x15-V8-Resiliency_Against_Reverse_Engineering_Requirements.md)
-
 
 ### Appendix
 
