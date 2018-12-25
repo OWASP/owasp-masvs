@@ -26,6 +26,6 @@ The OWASP Mobile Security Testing Guide provides detailed instructions for verif
 
 For more information, see also:
 
-- OWASP Mobile Top 10: M1 - Improper Platform Usage
+- OWASP Mobile Top 10: [M1 - Improper Platform Usage](https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage "M1 - Improper Platform Usage")
 - CWE: https://cwe.mitre.org/data/definitions/20.html
 - CWE: https://cwe.mitre.org/data/definitions/749.html
