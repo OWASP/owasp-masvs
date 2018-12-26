@@ -11,26 +11,28 @@ echo 'setting up new GLOSSARY.MD per language'
 cp ../Document/0x90-Appendix-A_Glossary.md ../Document/GLOSSARY.md
 sed -i.bak "s/\- \*\*/## /g" ../Document/GLOSSARY.md
 sed -i.bak "s/\*\* \– /\\`echo -e '\n\r'`/g" ../Document/GLOSSARY.md
+cp ../CHANGELOG.md ../Document/CHANGELOG.md
 
-update_glossary() {
+update_glossary_and_changelog() {
+  cp ../CHANGELOG.md ../Document-$2/CHANGELOG.md
   cp ../Document-$2/0x90-Appendix-A_Glossary.md ../Document-$2/GLOSSARY.md
   sed -i.bak "s/\- \*\*/## /g" ../Document-$2/GLOSSARY.md
   sed -i.bak "s/\*\* \– /\\`echo -e '\n\r'`/g" ../Document-$2/GLOSSARY.md
   rm ../Document-$2/GLOSSARY.md.bak
 }
 
-update_glossary $1 de
-update_glossary $1 es
-update_glossary $1 fr
-update_glossary $1 ja
-update_glossary $1 ru
-update_glossary $1 zhtw
+update_glossary_and_changelog $1 de
+update_glossary_and_changelog $1 es
+update_glossary_and_changelog $1 fr
+update_glossary_and_changelog $1 ja
+update_glossary_and_changelog $1 ru
+update_glossary_and_changelog $1 zhtw
 
 
 gitbook install ../
 
 gitbook pdf ../ ../Generated/MASVS.pdf
-gitbook epub ../ ../Generated/MASVS.epub
-gitbook mobi ../ ../Generated/MASVS.mobi
+# gitbook epub ../ ../Generated/MASVS.epub
+# gitbook mobi ../ ../Generated/MASVS.mobi
 
 echo "We are done: please do not forget to update the leanpub update!"
