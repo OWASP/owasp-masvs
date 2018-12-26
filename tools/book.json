@@ -7,7 +7,14 @@
   },
 
   "title" : "OWASP Mobile Application Security Verification Standard []",
-  "language": "en",
-  "description": "The MASVS is The MASVS is a framework of security requirements needed to design, develop and test secure mobile apps."
-
+  "description": "The MASVS is The MASVS is a framework of security requirements needed to design, develop and test secure mobile apps.",
+   "pdf": {
+     "margin": {
+           "right": 62,
+           "left": 62,
+           "top": 36,
+           "bottom": 36
+       },
+      "headertemplate":"_SECTION_ TEST"
+   }
 }

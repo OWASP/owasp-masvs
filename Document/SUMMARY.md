@@ -18,6 +18,5 @@
 - [V8: Resilience Requirements](0x15-V8-Resiliency_Against_Reverse_Engineering_Requirements.md)
 
 ### Appendix
-
-- [Appendix A - Glossary](0x90-Appendix-A_Glossary.md)
+- [Appendix A - Glossary](GLOSSARY.md)
 - [Appendix B - References](0x91-Appendix-B_References.md)
