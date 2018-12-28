@@ -17,7 +17,9 @@ Folgende Eckpunkte gelten:
 2. Die Bedrohungsanalyse muss realistisch und vernünftig erfolgen. Zum Beispiel nützt es nichts, einen kryptographischen Schlüssel in einer White-Box-Implementierung zu "verbergen" wenn doch der Angreifer ohne weiteres an den Code kommt.
 
 3. Die Effektivität der Schutzmaßnahmen sollte immer von einem Experten mit ausgewiesener Erfahrung im Bereich Anti-Code-Manipulation und Code-Obfuskierung überprüft werden (siehe auch Kapitel "reverse engineering" and "assessing software protections" im Mobile Security Testing Guide).
+
 <div style="page-break-after: always;"></div>
+
 ###  Dynamische Analyse und Manipulation verhindern
 
 | # | Beschreibung | R |

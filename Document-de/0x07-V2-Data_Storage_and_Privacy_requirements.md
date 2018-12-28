@@ -12,6 +12,7 @@ Sensible Daten im Kontext des MASVS sind jegliche Nutzer-Anmeldedaten sowie alle
 - Personenbezogene Daten die für Identitätsdiebstahl genutzt werden können: Sozialversicherungsnummern, Kreditkarteninformationen, Bankdaten und Gesundheitsdaten;
 - Hoch sensible Daten deren Kompromittierung zu hohem Reputationsverlust oder finanziellen Aufwänden führen würde: Vertragsinformationen, Informationen die durch Verschwiegenheitserklärungen geschützt sind, Management Informationen;
 - Alle Daten die durch gesetzliche Bestimmungen oder aufgrund regulatorischer Vorgaben (Compliance) zu schützen sind.
+
 <div style="page-break-after: always;"></div>
 
 ## Anforderungen

@@ -22,7 +22,7 @@ Die Anforderungen für MASVS-L1 und MASVS-L2 sind nachfolgend aufgelistet.
 | **1.9** | Es gibt einen Mechanismus in der mobilen App um App-Aktualisierungen zu erzwingen. |   | ✓ |
 | **1.10** | Security wird in allen Teilen des Softwareentwicklungszyklus berücksichtigt. |   | ✓ |
 
-<div style="page-break-after: always;"></div>
+
 ## Referenzen
 
 Für weitere Informationen:
