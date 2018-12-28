@@ -18,6 +18,8 @@ Le but de ce contrôle est d'assurer que les pratiques de codage de base concern
 | **7.8** | Dans le code non-géré, la mémoire est allouée, libérée et utilisée de façon sécurisée.  | ✓ | ✓ |
 | **7.9** | Les fonctionnalités de sécurité intégrées dans les outils de la chaîne de génération, par exemple ceux pour la minification de byte-code, pour la protection de la pile, pour le support PIE ou le comptage de références automatiques, sont activées. | ✓ | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## Références
 
 Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.

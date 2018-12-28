@@ -4,9 +4,7 @@
 
 Bienvenido al Estándar de Verificación de Seguridad de Aplicaciones Móviles (MASVS) 1.1. El MASVS es un esfuerzo comunitario para establecer un marco de requisitos de seguridad necesarios para diseñar, desarrollar y probar aplicaciones móviles seguras en iOS y Android.
 
-El MASVS es la culminación del esfuerzo de la comunidad y la retroalimentación con la industria. Esperamos que este estándar evolucione con el tiempo y agradecemos la retroalimentación de la comunidad. La mejor manera de ponerse en contacto con nosotros es a través del canal OWASP Mobile Project en Slack:
-
-https://owasp.slack.com/messages/project-mobile_omtg/details/
+El MASVS es la culminación del esfuerzo de la comunidad y la retroalimentación con la industria. Esperamos que este estándar evolucione con el tiempo y agradecemos la retroalimentación de la comunidad. La mejor manera de ponerse en contacto con nosotros es a través del canal OWASP Mobile Project en Slack: https://owasp.slack.com/messages/project-mobile_omtg/details/
 
 Las cuentas se pueden crear en la siguiente URL: http://owasp.herokuapp.com/.
 
