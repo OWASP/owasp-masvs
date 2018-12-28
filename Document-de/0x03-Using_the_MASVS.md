@@ -14,8 +14,10 @@ Eine App die alle Anforderungen aus MASVS-L1 erfüllt, folgt Security Best Pract
 
 **Achtung - Die Schutzmaßnahmen enthalten in MASVS-R und beschrieben im OWASP Mobile Testing Guide können letztlich alle umgangen werden und dürfen nicht als Ersatz für Sicherheitsmaßnahmen (L1/L2) genutzt werden. Stattdessen sind sie dazu gedacht, um zusätzliche Threat-spezifische Schutzmaßnahmen zu Apps hinzuzufügen, die bereits die MASVS Anforderungen L1 oder L2 erfüllen.**
 
+
 ![Prüf-Level](images/masvs-levels-new.jpg)
-<div style="page-break-after: always;"></div>
+
+
 ### Dokumentstruktur
 
 Der erste Teil des MASVS enthält eine Beschreibung des Security Modells und der Prüf-Level, gefolgt von Empfehlungen zur Nutzung des Standards in der Praxis. Die detaillierten Sicherheitsanforderungen und ihre Einordnung in die Prüf-Level befinden sich im zweiten Teil. Die Anforderungen wurden in acht Kategorien (V1 bis V8), basierend auf technischen Zielen/Scopes, eingeteilt. Die folgende Nomenklatur wird durchgehend im MASVS und MSTG genutzt:
