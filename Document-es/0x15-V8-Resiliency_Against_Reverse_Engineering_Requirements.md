@@ -54,6 +54,7 @@ La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detal
 
 Para más información, ver también:
 
-- Top 10 Móvil de OWASP: M8 - Modificación de Código, M9 - Ingeniería Inversa
-- Amenazas de la Ingeniería Inversa de OWASP -https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification
+- OWASP Top 10 Móvil: M8 - Modificación de Código: https://www.owasp.org/index.php/Mobile_Top_10_2016-M8-Code_Tampering
+- OWASP Top 10 Móvil: M9 - Ingeniería Inversa: https://www.owasp.org/index.php/Mobile_Top_10_2016-M9-Reverse_Engineering
+- Amenazas de la Ingeniería Inversa de OWASP - https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification
 - Ingeniería Inversa y Prevención de Modificación de Código de OWASP - https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project

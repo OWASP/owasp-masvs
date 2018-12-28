@@ -22,13 +22,13 @@
 
 OWASP MSTG содержит подробные инструкции по проверке требований, перечисленных в этом разделе.
 
-- Android - [https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md)
-- iOS - [https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md)
+- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md
+- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md
 
 Для получения дополнительной информации смотрите также:
 
-- OWASP Mobile Top 10:  M7 - Client Code Quality
-- CWE: [https://cwe.mitre.org/data/definitions/119.html](https://cwe.mitre.org/data/definitions/119.html)
-- CWE: [https://cwe.mitre.org/data/definitions/89.html](https://cwe.mitre.org/data/definitions/89.html)
-- CWE: [https://cwe.mitre.org/data/definitions/388.html](https://cwe.mitre.org/data/definitions/388.html)
-- CWE: [https://cwe.mitre.org/data/definitions/489.html](https://cwe.mitre.org/data/definitions/489.html)
+- OWASP Mobile Top 10: M7 - Poor Code Quality: https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality
+- CWE: https://cwe.mitre.org/data/definitions/119.html
+- CWE: https://cwe.mitre.org/data/definitions/89.html
+- CWE: https://cwe.mitre.org/data/definitions/388.html
+- CWE: https://cwe.mitre.org/data/definitions/489.html
