@@ -1,6 +1,7 @@
 # Vorwort
 
-Von Bernhard Mueller, OWASP Mobile Project
+Von Bernhard Mueller, OWASP Mobile Project.
+
 Technologierevolutionen können sehr schnell gehen. Noch vor 10 Jahren waren Smartphones klobige Geräte mit kleinen Tastaturen - teure Spielgeräte für technikverliebte Geschäftsleute. Heute sind Smartphones ein wesentlicher Bestandteil unseres Lebens. Wir hängen inzwischen von ihnen ab und nutzen sie zur Information, Navigation und Kommunikation. Sie sind allgegenwärtig - in der Geschäftswelt und im privaten Umfeld.
 
 Jede neue Technologie bringt neue Sicherheitsrisiken mit sich. Eine der größten Herausforderungen für alle die im Sicherheitsumfeld arbeiten, ist Schritt zu halten mit der fortlaufenden Weiterentwicklung. Das blaue Team (Verteidigerseite) liegt dabei immer einige Schritte hinter dem roten Team (Angreiferseite) zurück. Viele unterlagen deshalb zu Beginn dem Trugschluss, altbekannte Vorgehensweisen direkt auf das mobile Umfeld anzuwenden im Sinne von: "Smartphones sind im Prinzip nur kleine PCs und mobile Apps sind wie klassische Software - folglich gelten die gleichen Sicherheitsanforderungen". Jedoch funktioniert das so nicht.

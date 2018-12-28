@@ -27,6 +27,8 @@ Dieses Dokument basiert auf einem Fork des OWASP Application Security Verificati
 
 Obwohl beide Projekte, der MASVS und der MSTG, auf freiwilliger Basis im Rahmen der Community erarbeitet wurden und weiter gepflegt werden, ist manchmal ein wenig Hilfe von außen nötig. Wir danken deshalb den Sponsoren mit deren Hilfe wir technische Editoren aquirieren können. Der Inhalt des MASVS oder MSTG ist in keinster Weise durch etwaige Sponsoren beeinflusst. Eine nähere Beschreibung der Sponsoren-Pakete befindet sich sich im [OWASP Projekt Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
-### Besonderer Sponsor
+### Honourable Benefactor
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
+
+Als nächstes möchten wir uns beim OWASP Bay Area Chapter für das Sponsoring bedanken. Zum Schluss möchten wir uns bei allen bedanken, die das Buch von Leanpub gekauft und uns auf diese Weise gesponsert haben.

@@ -49,7 +49,7 @@
 ## Open Web Application Security Project (OWASP)
 The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security "visible," so that people and organizations can make informed decisions about application security risks. See: http://www.owasp.org/
 ## Personally Identifiable Information (PII)
-is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
+PII is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
 ## PIE
 Position-independent executable (PIE) is a body of machine code that, being placed somewhere in the primary memory, executes properly regardless of its absolute address.
 ## PKI
