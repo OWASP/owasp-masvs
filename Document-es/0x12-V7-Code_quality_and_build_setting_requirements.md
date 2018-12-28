@@ -18,6 +18,8 @@ Estos controles buscan asegurar que se siguieron las prácticas de seguridad bá
 | **7.8** | En código no administrado, la memoria es pedida, usada y liberada de manera correcta. | ✓ | ✓ |
 | **7.9** | Las funcionalidades de seguridad gratuitas de las herramientas, como minificación del byte-code, protección de la pila, soporte PIE y conteo automático de referencias, se encuentran activadas. | ✓ | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## Referencias
 
 La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detalladas para verificar los requisitos listados en esta sección.
