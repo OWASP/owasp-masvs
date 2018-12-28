@@ -31,8 +31,8 @@ update_glossary_and_changelog $1 zhtw
 
 gitbook install ../
 
-gitbook pdf ../ ../Generated/MASVS.pdf
+gitbook pdf ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.pdf
 # gitbook epub ../ ../Generated/MASVS.epub
 # gitbook mobi ../ ../Generated/MASVS.mobi
 
-echo "We are done: please do not forget to update the leanpub update!"
+echo "We are done: please do not forget to update the leanpub publication!"
