@@ -18,6 +18,8 @@ Se aplican las siguientes consideraciones:
 
 3. La eficiencia de la protección siempre debe ser verificada por un experto con experiencia en el testeo de tipos particulares de anti-manipulación y ofuscación utilizados (ver también los capítulos "ingeniería inversa" y "evaluación de protecciones del software" en la Guía de Pruebas de Seguridad Móvil).
 
+<div style="page-break-after: always;"></div>
+
 ### Impedir el Análisis Dinámico y la Manipulación
 
 | # | Descripción | R |
@@ -44,6 +46,8 @@ Se aplican las siguientes consideraciones:
 | --- | --- | --- |
 | **8.11** | Todos los archivos ejecutables y bibliotecas correspondientes a la aplicación se encuentran cifrados, o bien los segmentos importantes de código se encuentran cifrados o empaquetados. De este modo el análisis estático trivial no revela código importante o datos. | ✓ |
 | **8.12** | Si el objetivo de la ofuscación es proteger el código propietario, se utiliza un esquema de ofuscación que es apropiado tanto para la tarea particular como robusto contra los métodos de des-ofuscación manual y automatizada, considerando la investigación publicada actualmente. La eficacia del esquema de ofuscación debe verificarse mediante pruebas manuales. Tenga en cuenta que las características de aislamiento basadas en hardware son preferibles a la ofuscación siempre que sea posible. | ✓ |
+
+<div style="page-break-after: always;"></div>
 
 ## Referencias
 
