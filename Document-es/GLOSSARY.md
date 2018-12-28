@@ -18,7 +18,7 @@
 Es un método de verificación de software que examina la funcionalidad de una aplicación sin fijarse en sus estructuras internas ni en su funcionamiento.
 ## Componente
 Una unidad de código autónoma, asociado con un disco e interfaces de red que se comunican con otros componentes.
-## Cross-Site Scripting (XSS)**  - Una vulnerabilidad de seguridad que normalmente se encuentra en las aplicaciones web que permiten la inyección de scripts del lado del cliente en el contenido.
+## Cross-Site Scripting (XSS)** - Una vulnerabilidad de seguridad que normalmente se encuentra en las aplicaciones web que permiten la inyección de scripts del lado del cliente en el contenido.
 ## Módulo Criptográfico
 Hardware, software y/o firmware que implementa algoritmos criptográficos y/o genera claves criptográficas.
 ## CWE
@@ -47,7 +47,8 @@
 Código ejecutable que se introduce en una aplicación durante el tiempo de ejecución sin el conocimiento del usuario o administrador de la aplicación.
 ## Open Web Application Security Project (OWASP)
 El Open Web Application Security Project (OWASP) es una comunidad abierta y gratuita a nivel mundial enfocada en mejorar la seguridad del software de aplicaciones. Nuestra misión es hacer que la seguridad de las aplicaciones sea "visible" para que las personas y las organizaciones puedan tomar decisiones informadas sobre los riesgos de seguridad de las aplicaciones. Ver: http://www.owasp.org/
-## Información de Identificación Personal (Personally Identifiable Information - PII)** - es la información que se puede utilizar por sí sola o con otra información para identificar, contactar o localizar a una sola persona, o para identificar a un individuo en su contexto.
+## Información de Identificación Personal (Personally Identifiable Information - PII)
+es la información que se puede utilizar por sí sola o con otra información para identificar, contactar o localizar a una sola persona, o para identificar a un individuo en su contexto.
 ## PIE
 es un código máquina que, al ser colocado en algún lugar de la memoria, se ejecuta correctamente independientemente de su dirección absoluta.
 ## PKI
