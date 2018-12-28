@@ -1,6 +1,10 @@
 #!/bin/bash
 echo "Usage: ./gitbookepubandpdf VERSIONTAG"
 echo "Do not forget to install npm, gitbookcli (https://www.npmjs.com/package/gitbook-cli), calibre (brew cask install calibre on Mac OS X)"
+if [[ $# -eq 0 ]] ; then
+    echo 'Please give a VERSIONTAG (default/1.1.1)'
+    exit 0
+fi
 echo 'Versiontag is' $1
 echo 'setting up book.json for en/de/es/fr/ja/ru/zhtw'
 cp book.json ../book.json
@@ -32,7 +36,7 @@ update_glossary_and_changelog $1 zhtw
 gitbook install ../
 
 gitbook pdf ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.pdf
-# gitbook epub ../ ../Generated/MASVS.epub
-# gitbook mobi ../ ../Generated/MASVS.mobi
+gitbook epub ../ ../Generated/MASVS.epub
+gitbook mobi ../ ../Generated/MASVS.mobi
 
 echo "We are done: please do not forget to update the leanpub publication!"
