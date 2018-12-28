@@ -36,7 +36,7 @@ update_glossary_and_changelog $1 zhtw
 gitbook install ../
 
 gitbook pdf ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.pdf
-gitbook epub ../ ../Generated/MASVS.epub
-gitbook mobi ../ ../Generated/MASVS.mobi
+gitbook epub ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.epub
+gitbook mobi ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.mobi
 
 echo "We are done: please do not forget to update the leanpub publication!"
