@@ -28,5 +28,5 @@ Le Mobile Security Testing Guide de l'OWASP donne des instructions détaillées 
 
 Pour de plus amples informations, il est possible de consulter aussi :
 
-- OWASP Mobile Top 10: [M5 - Cryptographie Insuffisante](https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography)
+- OWASP Mobile Top 10: M5 - Cryptographie Insuffisante: https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography
 - CWE: https://cwe.mitre.org/data/definitions/310.html

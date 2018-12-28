@@ -27,7 +27,7 @@ Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobi
 
 Pour de plus amples informations, il est possible de consulter aussi :
 
-- OWASP Mobile Top 10:  M7 - Qualité du Code Client
+- OWASP Mobile Top 10: M7 - Qualité du Code Client: https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality
 - CWE: https://cwe.mitre.org/data/definitions/119.html
 - CWE: https://cwe.mitre.org/data/definitions/89.html
 - CWE: https://cwe.mitre.org/data/definitions/388.html

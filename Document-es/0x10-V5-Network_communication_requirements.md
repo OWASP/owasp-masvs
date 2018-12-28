@@ -24,6 +24,6 @@ La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detal
 
 Para más información, ver también:
 
-- OWASP Top 10 Móvil:  M3 - Comunicación Insegura: https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication
+- OWASP Top 10 Móvil: M3 - Comunicación Insegura: https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication
 - CWE: https://cwe.mitre.org/data/definitions/319.html
 - CWE: https://cwe.mitre.org/data/definitions/295.html
