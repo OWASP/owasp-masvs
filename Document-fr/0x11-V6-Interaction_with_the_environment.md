@@ -17,6 +17,8 @@ Le but des contrôles de ce groupe est de garantir que l'application utilise les
 | **6.7** | Dans le cas où des méthodes natives de l'application sont exposées à une WebView, il convient de valider que la WebView ne rend que le JavaScript contenu dans le package de l'application. | ✓ | ✓ |
 | **6.8** | La désérialisation des objets, s'il en existe, est implémentée à l'aide d'API de sérialisation de confiance. | ✓ | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## Références
 
 Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.

@@ -14,6 +14,8 @@ Dans le contexte du MASVS, les données sensibles ont trait aux deux aspects que
 - Information hautement sensible pouvant amener à une perte de réputation et/ou un coût financier si elle était divulguée : information contractuelle, information sous le coup de clauses de non-divulgation, information de gestion ;
 - Toute information devant être protégée légalement ou pour des raisons de conformité.
 
+<div style="page-break-after: always;"></div>
+
 ## Exigences pour la Validation de la Sécurité
 
 La grande majorité des problèmes de divulgation de données peuvent être empêchés en suivant des règles simples. La plupart des contrôles listés dans ce chapitre sont obligatoires pour tous les niveaux de validation.
@@ -32,6 +34,9 @@ La grande majorité des problèmes de divulgation de données peuvent être emp�
 | **2.10** | L'application ne garde pas les données sensibles en mémoire plus longtemps que nécessaire et la mémoire est explicitement nettoyée après son utilisation. |  | ✓ |
 | **2.11** | L'application met en oeuvre un minimum de politique concernant la sécurité de l'accès à l'appareil tel que l'obligation pour l'utilisateur de définir un code d'accès à l'appareil. |  | ✓ |
 | **2.12** | L'application instruit l'utilisateur sur les types d'information personnellement identifiable traités ainsi que sur les bonnes pratiques que l'utilisateur devrait suivre en utilisant l'application. |  | ✓ |
+
+<div style="page-break-after: always;"></div>
+
 
 ## Références
 
