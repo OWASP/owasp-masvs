@@ -9,7 +9,7 @@
 - **Verificación Automatizada** – El uso de herramientas automatizadas (herramientas de análisis dinámico, herramientas de análisis estático o ambas) que utilizan firmas de vulnerabilidades para encontrar problemas.
 - **Verificación de Caja Negra** – Es un método de verificación de software que examina la funcionalidad de una aplicación sin fijarse en sus estructuras internas ni en su funcionamiento.
 - **Componente** – Una unidad de código autónoma, asociado con un disco e interfaces de red que se comunican con otros componentes.
-- **Cross-Site Scripting (XSS)** - Una vulnerabilidad de seguridad que normalmente se encuentra en las aplicaciones web que permiten la inyección de scripts del lado del cliente en el contenido.
+- **Cross-Site Scripting (XSS)** – Una vulnerabilidad de seguridad que normalmente se encuentra en las aplicaciones web que permiten la inyección de scripts del lado del cliente en el contenido.
 - **Módulo Criptográfico** – Hardware, software y/o firmware que implementa algoritmos criptográficos y/o genera claves criptográficas.
 - **CWE** – CWE es una lista desarrollada por la comunidad de debilidades comunes de seguridad de software. Sirve como un lenguaje común, un instrumento de medición para las herramientas de seguridad de software, y como una línea base para la identificación de debilidades, mitigación y esfuerzos de prevención.
 - **DAST** – Las tecnologías de Pruebas de Seguridad de Aplicaciones Dinámicas (DAST) están diseñadas para detectar condiciones indicativas de una vulnerabilidad de seguridad en una aplicación mientras se está ejecutando.

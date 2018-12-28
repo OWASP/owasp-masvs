@@ -18,7 +18,8 @@
 Es un método de verificación de software que examina la funcionalidad de una aplicación sin fijarse en sus estructuras internas ni en su funcionamiento.
 ## Componente
 Una unidad de código autónoma, asociado con un disco e interfaces de red que se comunican con otros componentes.
-## Cross-Site Scripting (XSS)** - Una vulnerabilidad de seguridad que normalmente se encuentra en las aplicaciones web que permiten la inyección de scripts del lado del cliente en el contenido.
+## Cross-Site Scripting (XSS)
+Una vulnerabilidad de seguridad que normalmente se encuentra en las aplicaciones web que permiten la inyección de scripts del lado del cliente en el contenido.
 ## Módulo Criptográfico
 Hardware, software y/o firmware que implementa algoritmos criptográficos y/o genera claves criptográficas.
 ## CWE
