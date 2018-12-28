@@ -10,7 +10,7 @@ Dies sollte Organisationen nicht davon abhalten Dienstleistungen auf Basis des (
 
 ## Anleitung zur Zertifizierung von mobilen Apps
 
-Der empfohlene Weg um eine mobile App gegen den MASVS zu prüfen ist das offene Review-Format. Dabei erhalten Tester Zugriff auf Schlüsselressourcen wie Architekten und App-Entwickler, Projekt-Dokumentation, Quellcode und authentifizierten Zugriff auf API-Endpunkte (mindestens ein Nutzeraccount für jede Rolle) 
+Der empfohlene Weg um eine mobile App gegen den MASVS zu prüfen ist das offene Review-Format. Dabei erhalten Tester Zugriff auf Schlüsselressourcen wie Architekten und App-Entwickler, Projekt-Dokumentation, Quellcode und authentifizierten Zugriff auf API-Endpunkte (mindestens ein Nutzeraccount für jede Rolle)
 
 Es ist wichtig zu erwähnen, dass der MASVS nur die Security auf der client-seitigen mobilen App und der Netzwerkkommunikation zwischen App und API-Endpunkt(en) sowie einige Basisanforderungen in Bezug auf Nutzerauthentifizierung und Session Management abdeckt. Er enthält darüber hinaus keine spezifischen Security-Anforderungen für remote Services z.B. Webservices die von der App genutzt werden. Jedoch schreibt MASVS V1 vor, dass API-Endpunkte von einem übergreifenden Threat Model berücksichtigt und gegen entsprechende Standards wie ASVS geprüft werden müssen.
 
@@ -19,8 +19,8 @@ Eine Zertifizierungsstelle muss in jedem Report den Scope der Überprüfung (ins
 ### Nutzung des OWASP Mobile Security Testing Guide (MSTG)
 
 Der OWASP MSTG ist eine Anleitung zum Testen der Sicherheit von mobilen Apps. Der Guide beschreibt den technischen Prozess zur Überprüfung der Anforderungen aus dem MASVS. Der MSTG enthält eine Liste von Testfällen. Jeder Testfall referenziert eine einzelne Anforderung im MASVS. Während der MASVS eher grobe und generische Anforderungen enthält, bietet der MSTG detaillierte Empfehlungen und Testprozeduren je mobilem Betriebssystem.
-
-### Die Rolle von Werkzeugen für automatisierte Security Tests 
+<div style="page-break-after: always;"></div>
+### Die Rolle von Werkzeugen für automatisierte Security Tests
 
 Die Nutzung von Quellcode-Scannern und Black-Box-Test-Werkzeugen erhöht die Effizienz und wird klar empfohlen. Allerdings ist eine vollständige MASVS Überprüfung allein mit automatisierten Werkzeugen unmöglich. Jede mobile App ist unterschiedlich und ein Verständnis der Gesamtarchitektur, der Geschäftslogik und technischer Fallstricke genutzter Technologien und Frameworks ist eine zwingende Voraussetzung um die Sicherheit einer App zu prüfen.
 
@@ -40,7 +40,7 @@ Eine gute Testmethodik für Security Tests mobiler Apps sollte alle Anforderunge
 
 ### Als Vorgabe für automatisierte Unit- und Integrationstests
 
-Um die Anzahl von Findings in der Vorproduktions-Phase zu reduzieren sollten bereits während der Entwicklung automatische Unit-, Integrations- und Akzeptanztests durchgeführt werden. Um dies zu unterstützen wurde der MASVS mit starkem Fokus auf Testbarkeit entwickelt. Eine Ausnahme bilden die Anforderungen aus dem Bereich Architektur. Teams die die Anforderungen aus dem ASVS (über automatisierte Tests) umsetzen erhöhen dadurch nicht nur die Qualität der entwickelten Apps sondern verbessern auch die Security Awareness der Entwickler. 
+Um die Anzahl von Findings in der Vorproduktions-Phase zu reduzieren sollten bereits während der Entwicklung automatische Unit-, Integrations- und Akzeptanztests durchgeführt werden. Um dies zu unterstützen wurde der MASVS mit starkem Fokus auf Testbarkeit entwickelt. Eine Ausnahme bilden die Anforderungen aus dem Bereich Architektur. Teams die die Anforderungen aus dem ASVS (über automatisierte Tests) umsetzen erhöhen dadurch nicht nur die Qualität der entwickelten Apps sondern verbessern auch die Security Awareness der Entwickler.
 
 ### Zum Training für sichere Software-Entwicklung
 
