@@ -34,6 +34,8 @@ Ein Großteil von Datenpannen kann bereits durch Einhaltung einfacher Regeln ver
 | **2.11** | Die App erzwingt ein Minimum an Geräteschutz-Richtlinien wie das Definieren eines Gerätepassworts. |  | ✓ |
 | **2.12** | Die App klärt den Nutzer über die Art und Weise der verarbeiteten personenbezogenen Daten auf und gibt dem Nutzer Security-Best-Practice-Empfehlungen zum Umgang mit der App. |  | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## Referenzen
 
 Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die Anforderungen aus dieser Kategorie zu überprüfen.
