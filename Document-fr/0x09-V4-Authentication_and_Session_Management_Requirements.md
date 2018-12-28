@@ -19,10 +19,13 @@ Dans la plupart des cas, la connexion des utilisateurs à un service distant doi
 | **4.10** | Les transactions sensibles requièrent une authentification améliorée.  |   | ✓ |
 | **4.11** | L'application informe les utilisateurs de toutes les connexions sur leurs comptes. Les utilisateurs ont accès à la liste des appareils utilisés pour accéder à leurs comptes et peuvent en bloquer. |  | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## Références
 
 Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.
 
+- General - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md
 - Pour Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Authentication.md
 - Pour iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Authentication-and-Session-Management.md
 
@@ -30,4 +33,4 @@ Pour de plus amples informations, il est possible de consulter aussi :
 
 - OWASP Mobile Top 10: M4 - Authentification Non-Sécurisée: https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication
 - OWASP Mobile Top 10: M6 - Autorisation Non-Sécurisée: https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization
-- CWE:  https://cwe.mitre.org/data/definitions/287.html
+- CWE: https://cwe.mitre.org/data/definitions/287.html

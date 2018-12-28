@@ -50,7 +50,8 @@
 L'Open Web Application Security Project (OWASP) est une communauté mondiale indépendante et gratuite oeuvrant pour l'amélioration de la sécurité des applications logicielles. Notre mission est de rendre la sécurité applicative "visible" afin que les particuliers et les organisations puissent prendre les bonnes décisions en incluant les risques liés à la sécurité applicative . Voir : http://www.owasp.org/
 ## PIE
 Position-independent executable (PIE) is a body of machine code that, being placed somewhere in the primary memory, executes properly regardless of its absolute address.
-## Informations d'Identification Personnelles (PII)** - Informations pouvant, directement ou indirectement, mener à l'identification d'un individu ou permettre de contacter ou de localiser une personne dans un contexte donné.
+## Informations d'Identification Personnelles (PII)
+Informations pouvant, directement ou indirectement, mener à l'identification d'un individu ou permettre de contacter ou de localiser une personne dans un contexte donné.
 ## PKI
 Une PKI est une infrastructure permettant de lier une clé publique à l'identité de l'entité la possédant. Le lien est établi grâce à un processus d'enregistrement et de délivrance de certificats  par une autorité de certification (CA).
 ## SDLC
@@ -67,7 +68,8 @@
 Technique d'injection de code utilisée dans l'attaque d'applications fortement consommatrices de données où des expressions SQL malicieuses sont insérées à des points d'entrée.
 ## Authentification par SSO
 L'authentification unique (SSO) intervient lorsqu'un utilisateur s'authentifie sur un client donné et est ensuite authentifié automatiquement sur d'autres clients indépendemment de la plateforme, de la technologie ou du domaine utilisé par l'utilisateur. Par exemple, lorsque vous vous authentifiez sous Google, vous êtes automatiquement authentifiés par la suite sous les services YouTube, Docs et Gmail.
-## Modèle de Menaces** - Technique consistant dans le développement incrémental d'architectures de sécurité de plus en plus raffinées ayant pour but l'identification d'agents menaçants, de zones de sécurité, de contrôles de sécurité et des éléments importants concernant la technique et les affaires.
+## Modèle de Menaces
+Technique consistant dans le développement incrémental d'architectures de sécurité de plus en plus raffinées ayant pour but l'identification d'agents menaçants, de zones de sécurité, de contrôles de sécurité et des éléments importants concernant la technique et les affaires.
 ## Transport Layer Security
 Protocoles de cryptographie pour les communications sécurisées à travers Internet.
 ## Fragments URI/URL
