@@ -1,4 +1,5 @@
 # V1: Anforderungen an Architektur, Design und Bedrohungsanalysen
+
 ## Zielsetzung
 
 In einer perfekten Welt würde Security über alle Phasen der Softwareentwicklung berücksichtigt werden. In der Realität wird Security jedoch meist erst spät im Entwicklungsprozess berücksichtigt. Neben den technischen Maßnahmen fordert der MASVS auch organisatorische Maßnahmen die sicherstellen, dass Security in der Planungsphase sowie beim Design der mobilen App entsprechend Berücksichtigung gefunden hat. Für jede Komponente der App muss der fachliche Funktionsumfang und Sicherheitsfunktionen klar definiert und bekannt sein. Die meisten Apps kommunizieren mit entfernten Schnittstellen (API-Endpunkten). Deshalb müssen auch für diese API-Endpunkte angemessene Security Standards umgesetzt sein. Der isolierte Test einer mobilen App ohne die Endpunkte ist unzureichend!
