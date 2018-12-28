@@ -1,10 +1,12 @@
 # Résumé
 
+- [Changelog](Changelog.md)
 - [Avant-Propos](Foreword.md)
-
 - [Frontispice](0x02-Frontispiece.md)
 - [Utiliser le MASVS](0x03-Using_the_MASVS.md)
 - [Evaluation et Certification](0x04-Assessment_and_Certification.md)
+
+## Exigences Concernant Securite
 
 - [V1: Exigences Concernant l'Architecture, le Design et le Modèle de Menaces](0x06-V1-Architecture_design_and_threat_modelling_requireme.md)
 - [V2: Exigences Concernant le Stockage des Données et le Respect de la Vie Privée](0x07-V2-Data_Storage_and_Privacy_requirements.md)
@@ -15,5 +17,7 @@
 - [V7: Exigences Concernant la Qualité du Code et les Paramètres de Génération](0x12-V7-Code_quality_and_build_setting_requirements.md)
 - [V8: Exigences Concernant la Résilience](0x15-V8-Resiliency_Against_Reverse_Engineering_Requirements.md)
 
-- [Annexe A - Glossaire](0x90-Appendix-A_Glossary.md)
+## Annexes
+
+- [Annexe A - Glossaire](GLOSSARY.md)
 - [Annexe B - Références](0x91-Appendix-B_References.md)
