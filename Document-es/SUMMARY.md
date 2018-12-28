@@ -19,5 +19,5 @@
 
 ## Appendices
 
-- [Apéndice A: Glosario](0x90-Appendix-A_Glossary.md)
+- [Apéndice A: Glosario](GLOSSARY.md)
 - [Apéndice B: Referencias](0x91-Appendix-B_References.md)
