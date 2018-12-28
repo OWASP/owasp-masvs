@@ -19,12 +19,11 @@
 
 OWASP MSTG содержит подробные инструкции по верификации требований, перечисленных в этом разделе.
 
-- Android - [https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md)
-- iOS - [https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md)
+- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md
+- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md
 
 Для получения дополнительной информации смотрите также:
 
-- OWASP Mobile Top 10:  M3 - Insecure Communication: [https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md)
-- CWE: [https://cwe.mitre.org/data/definitions/319.html](https://cwe.mitre.org/data/definitions/319.html)
-- CWE: [https://cwe.mitre.org/data/definitions/295.html](https://cwe.mitre.org/data/definitions/295.html)
-
+- OWASP Mobile Top 10: M3 - Insecure Communication: https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication
+- CWE: https://cwe.mitre.org/data/definitions/319.html
+- CWE: https://cwe.mitre.org/data/definitions/295.html
