@@ -4,7 +4,7 @@
 
 Diese Kategorie behandelt Defense-in-Depth-Maßnahmen empfohlen für Apps die Zugriff auf sensible Daten oder sensible Funktionalitäten beinhalten. Sind diese Maßnahmen nicht umgesetzt, führt dies nicht unmittelbar zu einer Schwachstelle - jedoch erhöhen die Maßnahmen die Robustheit der App gegen Client-seitige Angriffe und Reverse Engineering.
 
-Die Schutzmechanismen in diesem Abschnitt sollten nach Bedarf angewendet werden. Anhand einer Risikoprüfung sollten Risiken wie unerlaubte Manipulation der App oder Reverse Engineering des Codes bewertet werden. Es wird empfohlen das OWASP Dokument "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" (siehe Referenzen) zu nutzen um eine Liste mit Geschäftsrisiken und zugeordneten technischen Bedrohungen zu identifizieren. 
+Die Schutzmechanismen in diesem Abschnitt sollten nach Bedarf angewendet werden. Anhand einer Risikoprüfung sollten Risiken wie unerlaubte Manipulation der App oder Reverse Engineering des Codes bewertet werden. Es wird empfohlen das OWASP Dokument "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" (siehe Referenzen) zu nutzen um eine Liste mit Geschäftsrisiken und zugeordneten technischen Bedrohungen zu identifizieren.
 
 Um die hier aufgeführten Schutzmechanismen effektiv umsetzen zu können muss eine App mindestens alle Anforderungen aus MASVS-L1 sowie die jeweiligen Anforderungen aus Kategorie V8 in aufsteigender Reihenfolge umsetzen. So setzen die Schutzmaßnahmen unter "Nachvollziehbarkeit verhindern" voraus, dass auch die Anforderungen aus "Dynamische Analyse und Manipulation verhindern" und "Gerätebindung" umgesetzt werden.
 
@@ -17,7 +17,7 @@ Folgende Eckpunkte gelten:
 2. Die Bedrohungsanalyse muss realistisch und vernünftig erfolgen. Zum Beispiel nützt es nichts, einen kryptographischen Schlüssel in einer White-Box-Implementierung zu "verbergen" wenn doch der Angreifer ohne weiteres an den Code kommt.
 
 3. Die Effektivität der Schutzmaßnahmen sollte immer von einem Experten mit ausgewiesener Erfahrung im Bereich Anti-Code-Manipulation und Code-Obfuskierung überprüft werden (siehe auch Kapitel "reverse engineering" and "assessing software protections" im Mobile Security Testing Guide).
-
+<div style="page-break-after: always;"></div>
 ###  Dynamische Analyse und Manipulation verhindern
 
 | # | Beschreibung | R |
@@ -44,7 +44,7 @@ Folgende Eckpunkte gelten:
 | --- | --- | --- |
 | **8.11** | Alle ausführbaren Dateien und Bibliotheken der App sind entweder auf Dateiebene verschlüsselt und/oder wichtige Code- und Datenabsegmente in ausführbaren Dateien sind verschlüsselt oder durch Packing obfuskiert. Triviale statische Analyse offenbart keinen wichtigen Code oder Daten. | ✓ |
 | **8.12** | Wenn das Ziel der Obfuskierung der Schutz sensibler Logik wie Algorithmen oder Berechnungen ist, so wird ein angemessener Obfuskierungsmechanismus, dem Stand der Technik entsprechend, genutzt der resilient gegen manuelle und automatisierte De-Obfuskierungsangriffe ist. Die Wirksamkeit der Obfuskierungsmethode muss durch manuelle Tests überprüft werden. Es ist zu beachten, dass hardware-basierte Isolations-Mechanismen softwarebasierter Obfuskierung vorzuziehen sind. | ✓ |
-
+<div style="page-break-after: always;"></div>
 ## Referenzen
 
 Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die Anforderungen aus dieser Kategorie zu überprüfen.
