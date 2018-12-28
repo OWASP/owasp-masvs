@@ -18,6 +18,8 @@ The goal of this control is to ensure that basic security coding practices are f
 | **7.8** | In unmanaged code, memory is allocated, freed and used securely.  | ✓ | ✓ |
 | **7.9** | Free security features offered by the toolchain, such as byte-code minification, stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## References
 
 The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed above.
@@ -32,5 +34,3 @@ For more information, see also:
 - CWE: https://cwe.mitre.org/data/definitions/89.html
 - CWE: https://cwe.mitre.org/data/definitions/388.html
 - CWE: https://cwe.mitre.org/data/definitions/489.html
-
-.
