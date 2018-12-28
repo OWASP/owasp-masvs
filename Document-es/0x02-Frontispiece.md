@@ -13,6 +13,7 @@ Las cuentas se pueden crear en la siguiente URL: http://owasp.herokuapp.com/.
 ## Copyright y Licencia
 
 ![license](images/CC-license.png)
+
 Copyright © 2018 Fundación OWASP. Este documento está licenciado bajo la licencia Internacional 4.0 de Creative Commons Attribution-ShareAlike. Para cualquier reutilización o distribución, debe dejar claro los términos de la licencia de esta obra.
 
 | Líder del proyecto | Autor principal | Colaboradores y revisores | Traductores de Español |
@@ -20,6 +21,8 @@ Copyright © 2018 Fundación OWASP. Este documento está licenciado bajo la lice
 | Sven Schleier | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Rio Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav |  Martín Marsicano, Manuel Delgado |
 
 Este documento comenzó como una bifurcación del Estándar de Verificación de Seguridad de Aplicaciones de OWASP escrito por Jim Manico.
+
+<div style="page-break-after: always;"></div>
 
 ## Sponsors
 
