@@ -42,5 +42,5 @@ OWASP 行動安全檢測指南列出相關要求，並且相關章節中有詳�
 
 更多相關信息，另請參閱：
 
-- OWASP Mobile Top 10: M2  - Insecure Data Storage: https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage
+- OWASP Mobile Top 10: M2 - Insecure Data Storage: https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage
 - CWE: https://cwe.mitre.org/data/definitions/922.html

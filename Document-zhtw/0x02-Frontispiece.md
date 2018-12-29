@@ -13,8 +13,10 @@ http://owasp.herokuapp.com/.
 
 ## 版權和許可
 
+
 ![license](images/license.png)
 Copyright © 2018 The OWASP Foundation. 本文檔在 Creative Commons Attribution ShareAlike 3.0 協議許可下發布。 對於任何二次使用或發布，你必須向其他人說明清楚這項成果的版權。
+
 
 | 項目負責人 | 主要作者 | 貢獻者和校稿
 | --- | --- | --- |

@@ -1,59 +1,60 @@
-# V8: Resilience Requirements
+# V8: Exigences Concernant la Résilience
 
-## Control objective
+## Objectif de Contrôle
 
-This section covers defense-in-depth measures recommended for apps that process, or give access to, sensitive data or functionality. Lack of any of these controls does not cause a vulnerability - instead, they are meant to increase the app's resilience against reverse engineering and specific client-side attacks.
+Cette section couvre des mesures de défense en profondeur recommandées dans les cas d'applications qui traitent ou donnent accès à des données ou des fonctionnalités sensibles. L'absence de l'un de ces contrôles n'entraîne pas une vulnérabilité dans la mesure où ils ont pour seul but d'améliorer la résilience de l'application envers la rétro-ingénierie et autres attaques spécifiques côté client.
 
- The controls in this section should be applied as needed, based on an assessment of the risks caused by unauthorized tampering with the app and/or reverse engineering of the code. We suggest consulting the OWASP document "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" (see references below) for a list business risks as well as associated technical threats. 
+Les contrôles de cette section devraient être mis en oeuvre autant qu'il est nécessaire, c'est-à-dire tel que requis par une évaluation des risques dûs à une modification non-autorisée de l'application et /ou une rétro-ingénierie du code. Nous ne pouvons que suggérer la consultation du document de l'OWASP "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" ("Risques Techniques Liés à la Rétro-Ingénierie et Modification de Code Non-Autorisée Rétro-Ingénierie et Prévention de Modification de Code", voir les références ci-dessous) pour une liste des risques liés aux affaires et des menaces techniques associées. 
 
-For any of the controls in the list below to be effective, the app must fulfil at least all of MASVS-L1 (i.e., solid security controls must be in place), as well as all lower-numbered requirements in V8. For examples, the obfuscation controls listed in under "impede comprehension" must be combined with "app isolation", "impede dynamic analysis and tampering" and "device binding".
+Pour que les contrôles de la liste ci-dessous soient effectifs, l'application doit implémenter au moins toutes les exigences de niveau MASVS-L1 (c'est-à-dire que des contrôles de sécurité robustes doivent être en place) ainsi que toutes les exigences de la partie V8. Par exemple, les contrôles concernant l'obscurcissement listés dans la partie "Entraver la Compréhension" doivent être combinés avec "Isolation de l'Application", "Entraver l'Analyse Dynamique et la Modification" et "Liaison avec un Appareil".
 
-**Note that software protections must never be used as a replacement for security controls. The controls listed in MASVR-R are intended to add threat-specific, additional protective controls to apps that also fulfil the MASVS security requirements.**
+**Il convient de noter que les mécanismes de protection logiciels ne doivent jamais être utilisés en tant que substituts aux contrôles de sécurité. Les contrôles listés dans le MASVR-R ont pour intention de rajouter aux applications des mécanismes de protection supplémentaires, spécifiques à une menace donnée, qui sont compatibles avec les exigences de sécurité du MASVS.**
 
-The following considerations apply:
+Il convient de prendre en compte les considérations suivantes :
 
-1. A threat model must be defined that clearly outlines the client-side threats defended against. Additionally, the grade of protection the scheme is meant to provide must be specified. For example, a stated goal could be to force authors of targeted malware seeking to instrument the app to invest significant manual reverse engineering effort.
+1. Un modèle de menace doit exister et souligner clairement les menaces côté client contre lesquelles il faut se défendre. De plus, le niveau de protection à atteindre doit être spécifié. Par exemple, un but bien défini pourrait être de forcer les auteurs d'un logiciel malveillant ciblant une application et cherchant à l'instrumenter de devoir investir un effort significatif de rétro-ingénierie manuelle.
 
-2. The threat model must be sensical. For example, hiding a cryptographic key in a white-box implementation is besides the point if the attacker can simply code-lift the white-box as a whole. 
+2. Le modèle de menaces doit être porteur de sens. Par exemple, cacher une clé de cryptographie dans une implémentation en boîte-blanche n'est pas cohérent dans le cas où l'attaquant a la possiblité de récupérer l'ensemble du code et de l'analyser dans son ensemble. 
 
-3. The effectiveness of the protection should always be verified by a human expert with experience in testing the particular types of anti-tampering and obfuscation used (see also the "reverse engineering" and "assessing software protections" chapters in the Mobile Security Testing Guide).
+3. L'efficacité de la protection devrait toujours être validée par un expert humain ayant l'expérience du test des moyens particuliers mis en oeuvre contre la modification du code ou son obscurcissement (voir aussi les chapitres liés à la "rétro-ingénierie" et à la "validation des protections logicielles" dans le Mobile Security Testing Guide).
 
-### Impede Dynamic Analysis and Tampering
-
-| # | Description | R |
-| --- | --- | --- |
-| **8.1** | The app detects, and responds to, the presence of a rooted or jailbroken device either by alerting the user or terminating the app. | ✓ |
-| **8.2** | The app prevents debugging and/or detects, and responds to, a debugger being attached. All available debugging protocols must be covered. | ✓ |
-| **8.3** | The app detects, and responds to, tampering with executable files and critical data within its own sandbox. | ✓ |
-| **8.4** | The app detects, and responds to, the presence of widely used reverse engineering tools and frameworks on the device.| ✓ |
-| **8.5** | The app detects, and responds to, being run in an emulator.  | ✓ |
-| **8.6** | The app detects, and responds to, tampering the code and data in its own memory space. | ✓ |
-| **8.7** | The app implements multiple mechanisms in each defense category (8.1 to 8.6). Note that resiliency scales with the amount, diversity of the originality of the mechanisms used. | ✓ |
-| **8.8** | The detection mechanisms trigger responses of different types, including delayed and stealthy responses. | ✓ |
-| **8.9** | Obfuscation is applied to programmatic defenses, which in turn impede de-obfuscation via dynamic analysis.  | ✓ |
-
-### Device Binding
+### Entraver l'Analyse Dynamique et la Modification
 
 | # | Description | R |
 | --- | --- | --- |
-| **8.10** | The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device. | ✓ |
+| **8.1** | L'application détecte et réagit à la présence d'appareils rootés ou jailbreakés soit en alertant l'utilisateur ou en mettant fin à l'application. | ✓ |
+| **8.2** | L'application empêche le déboggage et / ou réagit à la présence d'un déboggeur. Tous les protocoles de déboggage disponibles doivent être couverts. | ✓ |
+| **8.3** | L'application détecte et réagit à la modification de fichiers exécutables et de données critiques au sein de son bac à sable. | ✓ |
+| **8.4** | L'application détecte et réagit à la présence d'outils et de frameworks de rétro-ingénierie courants sur l'appareil.| ✓ |
+| **8.5** | L'application détecte et réagit à son exécution dans un émulateur.  | ✓ |
+| **8.6** | L'application détecte et réagit à la modification de code et de données dans son espace mémoire. | ✓ |
+| **8.7** | L'application implémente plusieurs mécanismes parmi les catégories de défense (8.1 à 8.6). Il convient de noter que la résilience augmente avec la quantité et la diversité de l'originalité des mécanismes utilisés. | ✓ |
+| **8.8** | Les mécanismes de détection déclenchent des réponses de différents types, notamment des réponses invisibles de retardement de l'attaque. | ✓ |
+| **8.9** | L'obscurcissement est mis en oeuvre par des défenses programmatiques qui, à leur tour, entravent le dé-obscurcissement via l'analyse dynamique.  | ✓ |
 
-### Impede Comprehension
+### Liaison avec un Appareil
 
 | # | Description | R |
 | --- | --- | --- |
-| **8.11** |All executable files and libraries belonging to the app are either encrypted on the file level and/or important code and data segments inside the executables are encrypted or packed. Trivial static analysis does not reveal important code or data. | ✓ |
-| **8.12** | If the goal of obfuscation is to protect sensitive computations, an obfuscation scheme is used that is both appropriate for the particular task and robust against manual and automated de-obfuscation methods, considering currently published research. The effectiveness of the obfuscation scheme must be verified through manual testing. Note that hardware-based isolation features are preferred over obfuscation whenever possible. | ✓ |
+| **8.10** | L'application implémente un mécanisme de 'liaison avec l'appareil' utilisant une empreinte de l'appareil dérivée de multiples propriétés uniques à cet appareil. | ✓ |
 
-## References
+### Entraver la Compréhension
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+| # | Description | R |
+| --- | --- | --- |
+| **8.11** |Tous les fichiers exécutables et les librairies appartenant à l'application sont soit chiffrés au niveau du fichier et / ou le code important et les segments de données à l'intérieur des exécutables sont chiffrés ou compactés. Une analyse statique triviale ne révèle pas de code important ou de données. | ✓ |
+| **8.12** | Si le but de l'obscurcissement est de protéger des traitements sensibles, le schéma d'obscurcissement utilisé est à la fois approprié à la tâche considérée et est résistant envers les méthodes de dé-obscurcissement manuelles et automatiques, en prenant en considération les recherches disponibles. L'efficacité du schéma d'obscurcissement doit être validée à travers du test manuel. Il convient de noter que les fonctionnalités d'isolation au niveau matériel doivent être mises en pratique de préférence à l'obscurcissement toutes les fois que cela est possible. | ✓ |
+
+## Références
+
+Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.
 
 - Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md
 - iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md
 
-For more information, see also:
+Pour de plus amples informations, il est possible de consulter aussi :
 
-- OWASP Mobile Top 10: M8 - Code Tampering, M9 - Reverse Engineering
-- WASP Reverse Engineering Threats -https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification
+- OWASP Mobile Top 10: M8 - Modification du Code: https://www.owasp.org/index.php/Mobile_Top_10_2016-M8-Code_Tampering
+- OWASP Mobile Top 10: M9 - Rétro-Ingénierie: https://www.owasp.org/index.php/Mobile_Top_10_2016-M9-Reverse_Engineering
+- OWASP Reverse Engineering Threats -https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification
 - OWASP Reverse Engineering and Code Modification Prevention - https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project

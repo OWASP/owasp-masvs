@@ -29,5 +29,6 @@ La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detal
 
 Para más información, ver también:
 
-- OWASP Top 10 Móvil: [M4 - Autenticación Insegura](https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication), [M6 - Autorización Insegura](https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization)
+- OWASP Top 10 Móvil: M4 - Autenticación Insegura: https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication
+- OWASP Top 10 Móvil: M6 - Autorización Insegura: https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization
 - CWE:  https://cwe.mitre.org/data/definitions/287.html
