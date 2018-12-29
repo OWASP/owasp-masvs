@@ -21,6 +21,7 @@ update_english_doc() {
 }
 
 update_glossary() {
+  cp ../CHANGELOG.md ../Document-$2/CHANGELOG.md #tem till it gets translated...
   cp ../Document-$2/0x90-Appendix-A_Glossary.md ../Document-$2/GLOSSARY.md
   sed -i.bak "s/\- \*\*/## /g" ../Document-$2/GLOSSARY.md
   sed -i.bak "s/\*\* \– /\\`echo -e '\n\r'`/g" ../Document-$2/GLOSSARY.md
@@ -39,7 +40,7 @@ update_glossary $1 zhtw
 gitbook install ../
 
 gitbook pdf ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.pdf
-# gitbook epub ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.epub
-# gitbook mobi ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.mobi
+gitbook epub ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.epub
+gitbook mobi ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.mobi
 
 echo "We are done: please do not forget to update the leanpub publication!"
