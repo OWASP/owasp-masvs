@@ -25,6 +25,7 @@ OWASP 行動應用安全性測試指南針對此章節所列出的認證要，�
 更多資訊，請參考：
 
 - OWQSP 行動應用程式 Top 10：客戶端程式碼品質
+
 - CWE: https://cwe.mitre.org/data/definitions/119.html
 - CWE: https://cwe.mitre.org/data/definitions/89.html
 - CWE: https://cwe.mitre.org/data/definitions/388.html

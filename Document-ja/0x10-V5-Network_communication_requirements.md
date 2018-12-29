@@ -24,6 +24,6 @@ OWASP モバイルセキュリティテストガイドでは、このセクシ�
 
 詳しくは以下の情報を参照してください。
 
-- OWASP Mobile Top 10:  M3 - Insecure Communication: https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication
+- OWASP Mobile Top 10: M3 - Insecure Communication: https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication
 - CWE: https://cwe.mitre.org/data/definitions/319.html
 - CWE: https://cwe.mitre.org/data/definitions/295.html

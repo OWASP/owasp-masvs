@@ -27,7 +27,7 @@ La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detal
 
 Para más información, ver también:
 
-- Top 10 Móvil de OWASP:  M7 - Calidad del Código en el Cliente
+- OWASP Top 10 Móvil: M7 - Calidad del Código en el Cliente: https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality
 - CWE: https://cwe.mitre.org/data/definitions/119.html
 - CWE: https://cwe.mitre.org/data/definitions/89.html
 - CWE: https://cwe.mitre.org/data/definitions/388.html
