@@ -15,8 +15,6 @@ Files:
 - generate_document.sh: used to generate the docx and html files.
 - generate_toc.rb: used to generate a TOC file.
 - gitbookepubandpdf.sh: used to generate the epub, pdf and mobi files.
-- metadata.yml: used by pandoc for generating docx files with `generate_Document.sh`.
-- omtg-pre-commit.sh: older not maintained hook for automatically triggering `generate_toc.rb`.
 - reference.docx: templatefile used for generating the word doc using `generate_document.sh`.
 
 ## Release process:
