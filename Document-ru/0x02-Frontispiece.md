@@ -1,4 +1,6 @@
-# Фронтиспис
+![OWASP LOGO](images/OWASP_logo.png)
+
+# The Mobile Application Security Verification Standard (Стандарт проверки безопасности мобильных приложений)
 
 ## О стандарте
 
@@ -15,9 +17,20 @@ MASVS - итог усилий сообщества и обратной связ�
 ## Авторское право и лицензия
 ![license](images/CC-license.png) Copyright © 2018 The OWASP Foundation. Данный документ выпущен под лицензией Creative Commons Attribution ShareAlike 4.0 International . Для использования или распространения необходимо разъяснить всем сторонам правила лицензии этой работы.
 
+<div style="page-break-after: always;"></div>
+
 | Руководитель проекта | Главные авторы | Авторы и рецензенты | Перевод на русский | Рецензенты перевода на русский |
 | --- | --- | --- | --- | --- |
-| Bernhard Mueller, Sven Schleier | Bernhard Mueller | Stephen Corbiaux, Sven Schleier, Jeroen Willemsen, Anant Shrivastava, Abdessamad Temmar, Alexander Antukh, Roberto Martelloni, Stefaan Seys, Prabhant Singh, Francesco Stillavato, Abhinav Sejpal | [Gall Maxim](https://github.com/kysokzla) | [Oprya Egor](https://github.com/pr45opra), [Chelnokov Vladislav](https://github.com/redhothub), [Tereshin Dmitry](https://github.com/d0n473ll0) |
+| Bernhard Mueller, Sven Schleier | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Rio Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav | [Gall Maxim](https://github.com/kysokzla) | [Oprya Egor](https://github.com/pr45opra), [Chelnokov Vladislav](https://github.com/redhothub), [Tereshin Dmitry](https://github.com/d0n473ll0) |
 
 Работа над документом была начата как ответвление OWASP Application Security Verification Standard, написанного Jim Manico.
 
+## Sponsors
+
+Хотя MASVS и MSTG создаются и поддерживаются сообществом на добровольной основе, иногда требуется небольшая помощь извне. Поэтому мы благодарим наших спонсоров за предоставление средств для возможности нанять технических редакторов. Обратите внимание, что их спонсорство никоим образом не влияет на содержание MASVS или MSTG. Спонсорские пакеты описаны на [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
+
+### Honourable Benefactor
+
+[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
+
+Далее, мы хотели бы поблагодарить главу OWASP Bay Area за их спонсорскую поддержку. Наконец, мы хотели бы поблагодарить всех, кто купил книгу у Leanpub и спонсировал нас таким образом.
