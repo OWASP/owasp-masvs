@@ -1,10 +1,12 @@
-# Summary
+# 目錄
 
+- [Changelog](Changelog.md)
 - [前言](Foreword.md)
-
 - [卷首](0x02-Frontispiece.md)
 - [使用 MASVS](0x03-Using_the_MASVS.md)
 - [評估與認證](0x04-Assessment_and_Certification.md)
+
+## 安全要求
 
 - [V1: 架構、設計和威脅模型分析準則](0x06-V1-Architecture_design_and_threat_modelling_requireme.md)
 - [V2: 資料存儲和隱私要求](0x07-V2-Data_Storage_and_Privacy_requirements.md)
@@ -15,5 +17,8 @@
 - [V7: 程式碼品質和與建立設定要求](0x12-V7-Code_quality_and_build_setting_requirements.md)
 - [V8: 彈性要求](0x15-V8-Resiliency_Against_Reverse_Engineering_Requirements.md)
 
-- [附錄 A - 詞彙表](0x90-Appendix-A_Glossary.md)
+
+## 附錄
+
+- [附錄 A - 詞彙表](GLOSSARY.md)
 - [附錄 B - 參考資料](0x91-Appendix-B_References.md)

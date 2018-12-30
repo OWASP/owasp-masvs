@@ -1,4 +1,4 @@
-# Summary
+# Inhaltsverzeichnis
 
 - [Changelog](Changelog.md)
 - [Vorwort](Foreword.md)
