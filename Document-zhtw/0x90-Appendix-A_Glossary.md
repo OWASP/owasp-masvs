@@ -1,43 +1,43 @@
-# Appendix A: Glossary
+# 附錄 A ：詞彙表
 
-- **2FA** – Two-factor authentication(2FA) adds a second level of authentication to an account log-in.
-- **Address Space Layout Randomization (ASLR)** – A technique to make exploiting memory corruption bugs more difficult.
-- **Application Security** – Application-level security focuses on the analysis of components that comprise the application layer of the Open Systems Interconnection Reference Model (OSI Model), rather than focusing on for example the underlying operating system or connected networks.
-- **Application Security Verification** – The technical assessment of an application against the OWASP MASVS.
-- **Application Security Verification Report** – A report that documents the overall results and supporting analysis produced by the verifier for a particular application.
-- **Authentication** – The verification of the claimed identity of an application user.
-- **Automated Verification** – The use of automated tools (either dynamic analysis tools, static analysis tools, or both) that use vulnerability signatures to find problems.
-- **Black box testing** – It is a method of software testing that examines the functionality of an application without peering into its internal structures or workings.
-- **Component** – a self-contained unit of code, with associated disk and network interfaces that communicates with other components.
-- **Cross-Site Scripting (XSS)** – A security vulnerability typically found in web applications allowing the injection of client-side scripts into content.
-- **Cryptographic module** – Hardware, software, and/or firmware that implements cryptographic algorithms and/or generates cryptographic keys.
-- **CWE** –  CWE is a community-developed list of common software security weaknesses. It serves as a common language, a measuring stick for software security tools, and as a baseline for weakness identification, mitigation, and prevention efforts.
-- **DAST** –Dynamic application security testing (DAST) technologies are designed to detect conditions indicative of a security vulnerability in an application in its running state.
-- **Design Verification** – The technical assessment of the security architecture of an application.
-- **Dynamic Verification** – The use of automated tools that use vulnerability signatures to find problems during the execution of an application.
-- **Globally Unique Identifier (GUID)** – a unique reference number used as an identifier in software.
-- **Hyper Text Transfer Protocol (HTTP)** – An application protocol for distributed, collaborative, hypermedia information systems. It is the foundation of data communication for the World Wide Web.
-- **Hardcoded keys** – Cryptographic keys which are stored in the device itself.
-- **IPC** – Inter Process Communications,In IPC Processes communicate with each other and with the kernel to coordinate their activities.
-- **Input Validation** – The canonicalization and validation of untrusted user input.
-- **JAVA Bytecode** –  Java bytecode is the instruction set of the Java virtual machine(JVM). Each bytecode is composed of one, or in some cases two bytes that represent the instruction (opcode), along with zero or more bytes for passing parameters.
-- **Malicious Code** – Code introduced into an application during its development unbeknownst to the application owner, which circumvents the application's intended security policy. Not the same as malware such as a virus or worm!
-- **Malware** – Executable code that is introduced into an application during runtime without the knowledge of the application user or administrator.
-- **Open Web Application Security Project (OWASP)** – The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security "visible," so that people and organizations can make informed decisions about application security risks. See: http://www.owasp.org/
-- **Personally Identifiable Information (PII)**  - is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
-- **PIE** – Position-independent executable (PIE) is a body of machine code that, being placed somewhere in the primary memory, executes properly regardless of its absolute address.
-- **PKI** – A PKI is an arrangement that binds public keys with respective identities of entities. The binding is established through a process of registration and issuance of certificates at and by a certificate authority (CA).
-- **SAST** – Static application security testing (SAST) is a set of technologies designed to analyze application source code, byte code and binaries for coding and design conditions that are indicative of security vulnerabilities. SAST solutions analyze an application from the “inside out” in a nonrunning state.
-- **SDLC** – Software development lifecycle.
-- **Security Architecture** – An abstraction of an application's design that identifies and describes where and how security controls are used, and also identifies and describes the location and sensitivity of both user and application data.
-- **Security Configuration** – The runtime configuration of an application that affects how security controls are used.
-- **Security Control** – A function or component that performs a security check (e.g. an access control check) or when called results in a security effect (e.g. generating an audit record).
-- **SQL Injection (SQLi)** – A code injection technique used to attack data driven applications, in which malicious SQL statements are inserted into an entry point.
-- **SSO Authentication** – Single Sign On(SSO) occurs when a user logs in to one Client and is then signed in to other Clients automatically, regardless of the platform, technology, or domain the user is using. For example when you log in in google you automatically login in the youtube , docs and mail service.
-- **Threat Modeling** –  A technique consisting of developing increasingly refined security architectures to identify threat agents, security zones, security controls, and important technical and business assets.
-- **Transport Layer Security** – Cryptographic protocols that provide communication security over the Internet
-- **URI/URL/URL fragments** – A Uniform Resource Identifier is a string of characters used to identify a name or a web resource. A Uniform Resource Locator is often used as a reference to a resource.
-- **User acceptance testing (UAT)** – Traditionally a test environment that behaves like the production environment where all software testing is performed before going live.
-- **Verifier** – The person or team that is reviewing an application against the OWASP ASVS requirements.
-- **Whitelist** – A list of permitted data or operations, for example a list of characters that are allowed to perform input validation.
-- **X.509 Certificate** – An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate.
+- **雙因素身份驗證(Two-factor Authentication, 2FA)** – 在帳號登入時增加第二層的身份驗證。
+- **位址空間組態隨機載入(Address Space Layout Randomization, ASLR)** – 一種能讓利用記憶體損壞漏洞的攻擊更加困難的技術。
+- **應用程式安全(Application Security)** – 應用層安全性是針對 OSI 模型應用層元件的分析，而非針對作業系統或是網路連線。
+- **應用程式安全驗證(Application Security Verification)** – 對應用程式利用 OWASP MASVS 進行技術評鑑。
+- **應用程式安全驗證報告(Application Security Verification Report)** – 一份針對特定應用程式，由檢驗者製作，紀錄所有結果與相關分析的報告。
+- **身份驗證(Authentication)** – 對應用程式使用者鑒別身分的驗證。
+- **自動化驗證(Automated Verification)** – 採用自動化工具(包括動態分析工具、靜態分析工具或兩者皆採用)以利用弱點特徵來發掘問題。
+- **黑箱測試(Black box testing)** – 一種軟體測試方法，能在未知內部結構與運作情形的狀況下檢驗應用程式功能。
+- **元件(Component)** – 一個獨立的程式碼單元，具有與其他元件通訊的相關磁碟和網路介面.
+- **跨站腳本(Cross-Site Scripting, XSS)** – 網路應用程式中常見的安全漏洞，允許將客戶端的腳本注入內容。
+- **密碼模組(Cryptographic module)** – 實作加密演算法和/或生成加密金鑰的硬體，軟體 和/或 韌體。
+- **共通弱點條目(CWE)** - CWE 是社群開發的常見軟體安全漏洞列表。它是一種通用語言，是軟體安全工具的衡量標準，也是弱點識別，緩解和預防工作的基準。
+- **動態應用程式安全測試(DAST)** – 動態應用程式安全性測試（DAST）技術旨在檢測標示處於運行狀態的應用程式中的安全漏洞。
+- **設計驗證(Design Verification)** – 應用程式安全架構的技術評估。
+- **動態驗證(Dynamic Verification)** – 運用自動化工具來在應用程式執行期間使用漏洞簽名尋找問題。
+- **全局唯一識別元(Globally Unique Identifier, GUID)** – 用作軟體識別的唯一標識。
+- **超文本傳輸協定(Hyper Text Transfer Protocol, HTTP)** – 用於分佈式、協作式和超媒體資訊系統的應用層協定。它是全球資訊網的資料通訊的基礎。
+- **硬編碼密鑰(Hardcoded keys)** – 儲存在裝置本身中的加密金鑰。
+- **行程間通訊(IPC)** – 行程間通訊（Inter-Process Communication)，在IPC，處理程序彼此通訊並與內核通訊以協調其活動
+- **輸入驗證(Input Validation)** – 不受信任用戶輸入的標準化和驗證。
+- **JAVA位元組碼(JAVA Bytecode)** - JAVA位元組碼是Java虛擬機器執行的一種指令格式。每個位元組碼由一個或有些時候兩個位元組組成，用來表示指令（opcode），以及用於傳遞參數的零個或多個位元組。
+- **惡意程式碼(Malicious Code)** – 程式碼在應用程式所有者不知情的情況下添加入應用程式，它繞過了應用程式預期的安全方針。與病毒或蠕蟲等惡意軟體不同！
+- **惡意軟體(Malware)** – 在應用程式使用者及管理員不知情的情況下，在運行期間添加入應用程式的可執行程式碼。
+- **開放網路應用程式安全計畫(Open Web Application Security Project, OWASP)** – 開放網路應用程式安全計畫（OWASP）是一個全球性的免費開放社群，致力於提高應用程式軟體的安全性。 我們的任務是使應用程式安全性“可見”，以便人們和機構能夠就應用程式安全風險做出明智的決策。參閱：http：//www.owasp.org/
+- **個人可識別資訊(Personally Identifiable Information, PII)** - 是可以單獨使用或與其他資訊一起使用的資訊，用於辨識、聯絡、定位單一人士，或在上下文中識別個人。
+- **地址無關可執行文件(PIE)** – Position-independent executable (PIE) 是指可在主存儲器中任意位置正確地運行，而不受其絕對地址影響的一種機器碼。
+- **公開金鑰基礎建設(PKI)** – PKI是一種將公開金鑰與實體的相應身份鏈結的協定。鏈結是通過數位憑證認證機構（CA）註冊和發布憑證的過程建立。
+- **靜態應用程式安全測試(SAST)** – Static application security testing (SAST) 是一組技術，旨在分析應用程式原始碼，位元組碼和二進制程式碼，用於程式碼編寫和指示安全漏洞的設計條件。SAST解決方案在非運行狀態下“由內而外”分析應用程式。
+- **系統發展生命週期(SDLC)** – 軟體開發生命週期。
+- **安全架構(Security Architecture)** – 應用程式設計的抽象概念，用於辨識和描述安全控制的使用位置和方式，還可以辨識和描述用戶和應用程式資料的位置和敏感性。
+- **安全配置(Security Configuration)** – 影響安全控制使用方式的應用程式運行時配置。
+- **安全控制措施(Security Control)** – 功能或元件執行安全檢查（例如，訪問控制檢查）或被呼叫時所導致的安全結果（例如，產生審查記錄）。
+- **SQL資料隱碼攻擊(SQL Injection, SQLi)** – 用於攻擊資料驅動的應用程式的程式碼注入技術，將惡意SQL語句插入 entry point。
+- **單一簽入身分驗證(SSO Authentication)** – Single Sign On(SSO)發生在當用戶登錄到一個客戶端然後自動登錄到其他客戶端時，無論用戶使用何種平台，技術或域。例如，當你在google登入時，您自動登入了YouTube，文檔和郵件服務。
+- **威脅模型分析(Threat Modeling)** - 一種由開發日益完善的安全架構，以識別威脅媒介，安全區域，安全控制以及重要的技術和業務資產所組成的技術。
+- **傳輸層安全性協定(Transport Layer Security, TLS)** – 提供覆蓋網際網路的通訊安全性的加密協定。
+- **統一資源識別符/統一資源定位符(URI/URL fragments)** – 統一資源識別符是用於標識名稱或網路資源的字元串。統一資源定位符常常用作資源的引用。
+- **用戶驗收測試(User acceptance testing, UAT)** – 傳統上，測試環境的行為類似於在上線之前執行所有軟體測試的生產環境。
+- **驗證員(Verifier)** – 正在根據OWASP ASVS要求審核應用程式的人員或團隊。
+- **白名單(Whitelist)** – 允許資料或操作的列表，例如允許執行輸入驗證的字元列表。
+- **X.509憑證(X.509 Certificate)** – X.509憑證是一種數位憑證，它使用廣泛接受的國際X.509公開金鑰基礎建設（PKI）標準來驗證公開金鑰是否屬於憑證中包含的用戶，電腦或服務。
