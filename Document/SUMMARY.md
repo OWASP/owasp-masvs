@@ -1,4 +1,4 @@
-# Summary
+# Table of Contents
 
 - [Changelog](Changelog.md)
 - [Foreword](Foreword.md)

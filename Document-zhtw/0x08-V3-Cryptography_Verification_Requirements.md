@@ -1,32 +1,32 @@
-# V3: Cryptography Requirements
+# V3: 加密要求
 
-## Control Objective
+## 管理目標
 
-Cryptography is an essential ingredient when it comes to protecting data stored on a mobile device. It is also a category where things can go horribly wrong, especially when standard conventions are not followed. The purpose of the controls in this chapter is to ensure that the verified application uses cryptography according to industry best practices, including:
+加密是保護行動設備上存儲的資料的重要因素。 特別是如果不遵守標準規則開發，事情可能出現嚴重錯誤。 本章中的管理目的是檢測經過驗證的應用程序是否根據行業最佳實踐使用加密，例如：
 
-- Use of proven cryptographic libraries;
-- Proper choice and configuration of cryptographic primitives;
-- A suitable random number generator wherever randomness is required.
+- 使用經過驗證的加密方式;
+- 正確選擇和設置加密明文;
+- 在需要隨機地方使用皆有使用隨機數產生器.
 
-## Security Verification Requirements
+## 安全檢測要求
 
-| # | Description | L1 | L2 |
+| # | 描述 | L1 | L2 |
 | --- | --- | --- | --- |
-| **3.1** | The app does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption.| ✓ | ✓ |
-| **3.2** | The app uses proven implementations of cryptographic primitives. | ✓ | ✓ |
-| **3.3** | The app uses cryptographic primitives that are appropriate for the particular use-case, configured with parameters that adhere to industry best practices. | ✓ | ✓|
-| **3.4** | The app does not use cryptographic protocols or algorithms that are widely considered depreciated for security purposes. | ✓ | ✓|
-| **3.5** | The app doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ |
-| **3.6** | All random values are generated using a sufficiently secure random number generator. | ✓ | ✓ |
+| **3.1** | 應用程式不可使用 hardcoded 作為加密方法。| ✓ | ✓ |
+| **3.2** | 應用程式中使用驗證過的加密演算法的加密明文。 | ✓ | ✓ |
+| **3.3** | 基於業界最佳實踐的方式，使應用程式適用於特定的加密明文。 | ✓ | ✓|
+| **3.4** | 應用程式不使用基於安全目的而被廣泛棄用的加密協議和算法。 | ✓ | ✓|
+| **3.5** | 加密金鑰不重複使用。 | ✓ | ✓ |
+| **3.6** | 使用強密碼長度足夠，排列隨機算法產生加密數值。 | ✓ | ✓ |
 
-## References
+## 參考
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+OWASP 行動安全檢測指南列出相關要求，並且相關章節中有詳細說明。
 
 - Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md
 - iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md
 
-For more information, see also:
+更多相關信息，另請參閱：
 
 - OWASP Mobile Top 10: M5 - Insufficient Cryptography: https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography
 - CWE: https://cwe.mitre.org/data/definitions/310.html
