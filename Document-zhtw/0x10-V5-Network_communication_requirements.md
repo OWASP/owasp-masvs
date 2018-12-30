@@ -1,28 +1,28 @@
-# V5: Network Communication Requirements
+# V5: 網路通訊規範
 
-## Control Objective
+## 管理目標
 
-The purpose of the controls listed in this section is to ensure the confidentiality and integrity of information exchanged between the mobile app and remote service endpoints. At the very least, a mobile app must set up a secure, encrypted channel for network communication using the TLS protocol with appropriate settings. Level 2 lists additional defense-in-depth measure such as SSL pinning.
+本節中列出的管理目標是確保行動應用程式和遠程服務之間交換的訊息的機密性和完整性。確保行動應用程式必須使用 TLS 協議為網絡傳輸作為安全的加密通道。L2 列出了其他加強防禦措施，例如 SSL 固定。
 
-## Security Verification Requirements
+## 安全驗證要求
 
-| # | Description | L1 | L2 |
+| # | 描述 | L1 | L2 |
 | --- | --- | --- | --- |
-| **5.1** | Data is encrypted on the network using TLS. The secure channel is used consistently throughout the app. | ✓ | ✓ |
-| **5.2** | The TLS settings are in line with current best practices, or as close as possible if the mobile operating system does not support the recommended standards. | ✓ | ✓ |
-| **5.3** | The app verifies the X.509 certificate of the remote endpoint when the secure channel is established. Only certificates signed by a trusted CA are accepted. | ✓ | ✓ |
-| **5.4** | The app either uses its own certificate store, or pins the endpoint certificate or public key, and subsequently does not establish connections with endpoints that offer a different certificate or key, even if signed by a trusted CA. |   | ✓ |
-| **5.5** | The app doesn't rely on a single insecure communication channel (email or SMS) for critical operations, such as enrollments and account recovery. |  | ✓ |
-| **5.6** | The app only depends on up-to-date connectivity and security libraries. |  | ✓ |
+| **5.1** | APP 網路傳輸資料均使用 TLS 協議作為加密協定. | ✓ | ✓ |
+| **5.2** | TLS 協定使用，必須符合目前業界規範，如已通報不安全的協定標準，須立即修正。 | ✓ | ✓ |
+| **5.3** | 在與遠端建立資料傳輸通道時，須先驗證 X.509 證書，且只能接受有簽名受信任的 CA 憑證。 | ✓ | ✓ |
+| **5.4** | 應用程式中公鑰和數位憑證來確保系統資訊安全，並不能隨意與不明遠端建立連線，提供受信任 CA 憑證. |   | ✓ |
+| **5.5** | 應用程式的相關重要操作，不可只依賴單一方式驗證（如電子郵件或者 SMS) |  | ✓ |
+| **5.6** | 應用程式需隨時更新連接方式以及資料庫安全性 |  | ✓ |
 
-## References
+## 參考
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+OWASP Mobile Security Testing Guide 提供了有關驗證本章節中列出的準則的詳細使用說明。
 
 - Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md
 - iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md
 
-For more information, see also:
+更多相關信息，另請參閱：
 
 - OWASP Mobile Top 10: M3 - Insecure Communication: https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication
 - CWE: https://cwe.mitre.org/data/definitions/319.html
