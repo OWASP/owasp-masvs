@@ -3,8 +3,8 @@
 - [Changelog](Changelog.md)
 - [Vorwort](Foreword.md)
 - [Frontispiece](0x02-Frontispiece.md)
-- [Verwendug der MASVS](0x03-Using_the_MASVS.md)
-- [Bewertung and Zertifizierung](0x04-Assessment_and_Certification.md)
+- [Verwendung des MASVS](0x03-Using_the_MASVS.md)
+- [Bewertung und Zertifizierung](0x04-Assessment_and_Certification.md)
 
 ### Security Requirements
 
