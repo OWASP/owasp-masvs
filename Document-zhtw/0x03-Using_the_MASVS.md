@@ -1,79 +1,79 @@
-# The Mobile Application Security Verification Standard
+# 行動應用資訊安全驗證標準(Mobile Application Security Verification Standard)
 
-The MASVS can be used to establish a level of confidence in the security of mobile apps. The requirements were developed with the following objectives in mind:
+MASVS可以被用來確立一個行動應用Application的資訊安全程度。本標準(MASVS)的建立是遵循下列三個主要目標：
 
-* Use as a metric - To provide a security standard against which existing mobile apps can be compared by developers and application owners;
-* Use as guidance - To provide guidance during all phases of mobile app development and testing;
-* Use during procurement - To provide a baseline for mobile app security verification.
+* 作為業界應用的資安標準 - 提供一個資訊安全標準，讓開發者和使用者們可以比較現有的行動應用之資訊安全程度。
+* 作為軟體開發的指導綱領 - 提供一個行動應用軟體開發流程中各個步驟的指引，以便行動應用的開發與測試。
+* 作為採購檢驗的驗證參考 - 提供一個行動應用資訊安全的驗證基準。
 
-## Mobile AppSec Model
+## 行動應用的資訊安全模型(Mobile AppSec Model)
 
-The MASVS defines two strict security verification levels (L1 and L2), as well a set of reverse engineering resiliency requirements (MASVS-R) that is flexible, i.e. adaptable to an app-specific threat model. MASVS-L1 and MASVS-L2 contain generic security requirements and are recommended for all mobile apps (L1) and apps that handle highly sensitive data (L2). MASVS-R covers additional protective controls that can be applied if preventing client-side threats is a design goal.
+MASVS定義了兩個嚴格的資訊安全驗證等級(L1和L2), 還有一系列的抗逆向工程防禦韌性準則(MASVS-R)，抗逆向工程準則會根據各種應用的不同威脅模型有相對應的調整。MASVS-L1和MASVS-L2包含通用的資訊安全準則，MASVS-L1是建議所有的行動應用都應該遵循的要求，而MASVS-L2則是針對處理高機敏資訊的行動應用。與此同時，MASVS-R則提供了需要防範用戶端威脅(client-side threat)時，可以使用的額外防護控管方法。
 
-Fulfilling the requirements in MASVS-L1 results in a secure app that follows security best practices and doesn't suffer from common vulnerabilities. MASVS-L2 adds additional defense-in-depth controls such as SSL pinning, resulting in an app that is resilient against more sophisticated attacks - assuming the security controls of the mobile operating system are intact and the end user is not viewed as a potential adversary. Fulfilling all, or subsets of, the software protection requirements in MASVS-R helps impede specific client-side threats where the end user is malicious and/or the mobile OS is compromised.
+落實MASVS-L1可以確保行動應用的安全，使開發流程符合資訊安全的最佳實踐方法，並且確保行動應用可以防範常見的資訊安全弱點。MASVS-L2則是增加了更多的防禦縱深(defense-in-depth)，例如憑證綁定(SSL pinning)。因此，MASVS-L2可以使中行動應用能夠更好的防範複雜的攻擊行為 - 假設行動裝置作業系統的資訊安全管控完好，並且用戶端使用者並不被視為潛在的惡意用戶。落實全部或部分MASVS-R的軟體防護要求，可以幫助防止當用戶端使用者是惡意使用者或行動裝置作業系統被入侵時的特定用戶端威脅(client-side threats)。
 
-**Note that software protection controls listed in MASVS-R and described in the OWASP Mobile Testing Guide can ultimately be bypassed and must never be used as a replacement for security controls. Instead, they are intended to add threat-specific, additional protective controls to apps that also fulfil the MASVS requirements in MASVS L1 or L2.**
+**請注意MASVS-R和OWASP Mobile Testing Guide(OWASP行動應用測試指南)中提到的軟體防護管控方法，無法確保不會被繞過，並且永遠不應該被視為資訊安全管控的替代方法。相反的，這些軟體防護管控方法旨在增加已落實MASVS L1或L2的行動應用，對特定威脅的額外防護。**
 
 ![Verification Levels](images/masvs-levels-new.jpg)
 
-### Document Structure
+### 文檔結構
 
-The first part of the MASVS contains a description of the security model and available verification levels, followed by recommendations on how to use the standard in practice. The detailed security requirements, along with a mapping to the verification levels, are listed in the second part. The requirements have been grouped into eight categories (V1 to V8) based on technical objective / scope. The following nomenclature is used throughout the MASVS and MSTG:
+MASVS的第一個部分先闡述行動應用的資訊安全模型和可用的安全驗證等級，接著提供如何使用本標準的建議。安全準則的細節和對應的安全驗證等級，則是在第二部分。本標準中的準則，根據技術的目的/範疇，被分類成8個類別(從V1到V8)。準則類別與條目的命名方法，如下所示(MASVS和MSTG都使用相同的命名邏輯):
 
-- *Requirement category:* MASVS-Vx, e.g. MASVS-V2: Data Storage and Privacy
-- *Requirement:* MASVS-Vx.y, e.g. MASVS-V2.2: "No sensitive data is written to application logs."  
+- *準則類別:* MASVS-Vx，例如：MASVS-V2: 資訊存儲與隱私
+- *準則條目:* MASVS-Vx.y，例如： MASVS-V2.2: "機敏資訊不應該被寫進應用程式紀錄檔(application logs)"  
 
-### Verification Levels in Detail
+### 安全驗證等級細節
 
-#### MASVS-L1: Standard Security
+#### MASVS-L1: 標準安全等級
 
-A mobile app that achieves MASVS-L1 adheres to mobile application security best practices. It fulfills basic requirements in terms of code quality, handling of sensitive data, and interaction with the mobile environment. A testing process must be in place to verify the security controls. This level is appropriate for all mobile applications.
+達到MASVS-L1的行動應用需要符合資訊安全的最佳實踐方法(best practices)。它包含了程式碼品質、處理機敏資訊和與行動環境交互的基本安全準則。另外，MASVS-L1也要求必須要有驗證資訊安全控管的測試流程。MASVS-L1(標準安全等級)適用於所有的行動應用程式。
 
-#### MASVS-L2: Defense-in-Depth
+#### MASVS-L2: 防禦縱深(加強安全等級)
 
-MASVS-L2 introduces advanced security controls that go beyond the standard requirements. To fulfil L2, a threat model must exist, and security must be an integral part of the app's architecture and design. This level is appropriate for applications that handle sensitive data, such as mobile banking.
+MASVS-L2引入了高於標準安全等級的進階安全控管方法。要落實MASVS-L2，首先必須要有一個威脅模型分析，並且把資訊安全視為行動應用的不可分割部分，加入到應用的架構和設計之中。加強安全等級適用於處理機敏資訊的應用程式，例如：行動銀行。
 
-#### MASVS-R: Resiliency Against Reverse Engineering and Tampering
+#### MASVS-R: 抗逆向工程和竄改的韌性
 
-The app has state-of-the-art security, and is also resilient against specific, clearly defined client-side attacks, such as tampering, modding, or reverse engineering to extract sensitive code or data. Such an app either leverages hardware security features or sufficiently strong and verifiable software protection techniques. MASVS-R is applicable to apps that handle highly sensitive data and may serve as a means of protecting intellectual property or tamper-proofing an app.
+符合MASVS-R的應用程式必須應用最新資訊安全技術，並且有足夠的韌性來抵抗明確定義的特定用戶端攻擊，例如資訊竄改， 程序修改或逆向工程來提取機敏的資訊或程式碼。這樣的應用程式需要使用硬體安全模塊或者是被驗證過的高安全性軟體防護技術。MASVS-R適用於處理高機敏資訊的應用程式，並且可以被用來當作一種保護智慧財產的方法或防止竄改應用程式的方法。
 
-### Recommended Use
+### 使用建議
 
-Apps can be verified against MASVS L1 or L2 based on prior risk assessment and overall level of security required. L1 is applicable to all mobile apps, while L2 is generally recommended for apps that handle more sensitive data and/or functionality. MASVS-R (or parts of it) can be applied to verify resiliency against specific threats, such as repackaging or extraction of sensitive data, *in addition* to proper security verification.
+根據風險評估和應用程式的安全等級需求，應用程式可以被驗證為符合MASVS-L1或L2。L1適用於所有行動應用，而L2通常建議需要處理機敏資訊或功能的行動應用遵循。MASVS-R (或其一部分)可以被用於驗證行動應用抵抗特定威脅的韌性，例如：重封裝或提取機敏資訊。*另外*，也可以被用於更嚴謹的資訊安全驗證。
 
-In summary, The following verification types are available:
+總而言之，可行的驗證類別組合，如下所示:
 
 - MASVS-L1
 - MASVS-L1+R
 - MASVS-L2
 - MASVS-L2+R
 
-The different combinations reflect different grades of security and resiliency. The goal is to allow for flexibility: For example, a mobile game might not warrant adding MASVS-L2 security controls such as 2-factor authentication for usability reasons, but have a strong business need for tampering prevention.
+不同的驗證類別組合反映出不同的資訊安全等級和韌性。這樣的組合方式是為了保留一些彈性，例如: 手機遊戲程式因為高可用性的需求，可能不須加入MASVS-L2的安全控管機制，如: 雙因子驗證，但相對的手機遊戲程式對防止竄改的安全控管，通常會有很高的需求。
 
-#### What Verification Type to Choose
+#### 如何選擇安全驗證等級和準則
 
-Implementing the requirements of MASVS L2 increases security, while at the same time increasing cost of development and potentially worsening the end user experience (the classical trade-off). In general, L2 should be used for apps whenever it makes sense from a risk vs. cost perspective (i.e., where the potential loss caused by a compromise confidentiality or integrity is higher than the cost incurred by the additional security controls). A risk assessment should be the first step before applying the MASVS.
+落實MASVS-L2的安全準則可以增進資訊安全，但是也會同時增加開發成本以及可能降低使用者體驗。一般來說，決定是否採用L2來開發應用，取決於其風險與成本考量 (也就是說，當因為應用程式的保密性或完整性被破壞導致的潛在損失比增加額外安全控管機制的成本高時，會考慮採用L2)。因此，風險評估應該被視為是應用MASVS之前的第一步。
 
-##### Examples
+##### 範例
 
 ###### MASVS-L1
 
-- All mobile apps. MASVS-L1 lists security best practices that can be followed with a reasonable impact on development cost and user experience. Apply the requirements in MASVS-L1 for any app that don't qualify for one of the higher levels.
+- 適用於所有行動應用程式。MASVS-L1列舉了可以不過分影響開發成本和使用者體驗的資訊安全最佳實踐方法。任何不適用於更嚴格安全等級的行動應用程式，應該採用MASVS-L1的準則。
 
 ###### MASVS-L2
 
-- Health-Care Industry: Mobile apps that store personally identifiable information that can be used for identity theft, fraudulent payments, or a variety of fraud schemes. For the US healthcare sector, compliance considerations include the Health Insurance Portability and Accountability Act (HIPAA) Privacy, Security, Breach Notification Rules and Patient Safety Rule. 
+- 醫療保健產業: 儲存個人可識別資訊(personally identifiable information)的行動應用程式，建議採用MASVS-L2，因為個人可識別資訊是機敏資訊，可能被用於冒用身份，詐騙取財或其他各種欺騙行為。對於美國的醫療保健行業，需要遵循相關的資訊保密法規 - 健康保險便利和責任法案(HIPAA) 中的Privacy, Security, Breach Notification Rules and Patient Safety Rule。 
 
-- Financial Industry: Apps that enable access to highly sensitive information like credit card numbers, personal information, or allow the user to move funds. These apps warrant additional security controls to prevent fraud. Financial apps need to ensure compliance to the Payment Card Industry Data Security Standard (PCI DSS), Gramm Leech Bliley Act and Sarbanes-Oxley Act (SOX).
+- 金融產業: 可以存取高機敏資訊(例如: 信用卡號碼，個人資訊或轉帳功能)的行動應用程式，建議採用MASVS-L2。這些行動應用程式必須確保有額外的資訊安全控管機制來防止詐騙。金融相關應用程式須確保遵循支付卡產業資料安全標準(PCI DSS)，金融服務法現代化法案(Gramm Leech Bliley Act)以及薩班斯-奧克斯利法案 (SOX)。
 
 ###### MASVS L1+R
 
-- Mobile apps where IP protection is a business goal. The resiliency controls listed in MASVS-R can be used to increase the effort needed to obtain the original source code and to impede tampering / cracking.
+- 以智慧財產的保護為商業目的之一的行動應用程式，建議採用MASVS L1+R。MASVS-R中列舉的安全控管機制可以被用於增加攻擊者獲取原始程式碼，竄改或破壞程式的難度。
 
-- Gaming Industry: Games with an essential need to prevent modding and cheating, such as competitive online games. Cheating is an important issue in online games, as a large amount of cheaters leads to a disgruntled the player base and can ultimately cause a game to fail. MASVS-R provides basic anti-tampering controls to help increase the effort for cheaters.
+- 遊戲產業: 對於防止竄改程式和作弊，遊戲應用程式有強烈的需求。遊戲作弊行為對線上遊戲來說，是一個很重要的議題，因為遊戲作弊者的存在，會引起玩家群體的不滿，並且最終導致整個遊戲的失敗。MASVS-R提供了基礎的防篡改機制來幫助減小遊戲作弊者出現的可能性。
 
 ###### MASVS L2+R
 
-- Financial Industry: Online banking apps that allow the user to move funds, where techniques code injection and instrumentation on compromised devices pose a risk. In this case, controls from MASVS-R can be used to impede tampering, raising the bar for malware authors.
+- 金融產業: 允許使用者做轉帳操作的行動銀行應用程式，有程式碼注入和在被入侵的裝置上執行的風險。在這種情況下，MASVS-R的安全控管機制可以被用來防止篡改和提高惡意程式開發者的進入門檻。
 
-- All mobile apps that, by design, need to store sensitive data on the mobile device, and at the same time must support a wide range of devices and operating system versions. In this case, resiliency controls can be used as an defense-in-depth measure to increase the effort for attackers aiming to extract the sensitive data. 
+- 所有被設計需要儲存機敏資料在行動裝置和支持許多不同種類行動裝置與作業系統版本的行動應用程式，建議採用MASVS L2+R。在此情況下，安全控管機制可以被用於提高防禦縱深的手段，進而提高攻擊者提取機敏資訊的難度。 

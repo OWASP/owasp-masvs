@@ -1,33 +1,31 @@
-# V7: Code Quality and Build Setting Requirements
+# V7: 程式碼品質與建立設定要求
 
-## Control Objective
+## 控管目的
+此控管目的是確保實作編碼時將遵照應用程式開發基本安全性，且基本(免費)安全性功能是藉由啟用編譯器所提供。
 
-The goal of this control is to ensure that basic security coding practices are followed in developing the app, and that "free" security features offered by the compiler are activated.
-
-## Security Verification Requirements
-
-| # | Description | L1 | L2 |
+## 安全性驗證要求
+| # | 說明 | L1 | L2 |
 | --- | --- | --- | --- |
-| **7.1** | The app is signed and provisioned with a valid certificate, of which the private key is properly protected. | ✓ | ✓ |
-| **7.2** | The app has been built in release mode, with settings appropriate for a release build (e.g. non-debuggable). | ✓ | ✓ |
-| **7.3** | Debugging symbols have been removed from native binaries. | ✓ | ✓ |
-| **7.4** | Debugging code has been removed, and the app does not log verbose errors or debugging messages. | ✓ | ✓ |
-| **7.5** | All third party components used by the mobile app, such as libraries and frameworks, are identified, and checked for known vulnerabilities. | ✓ | ✓ |
-| **7.6** | The app catches and handles possible exceptions.| ✓ | ✓ |
-| **7.7** | Error handling logic in security controls denies access by default. | ✓ | ✓ |
-| **7.8** | In unmanaged code, memory is allocated, freed and used securely.  | ✓ | ✓ |
-| **7.9** | Free security features offered by the toolchain, such as byte-code minification, stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ |
+| **7.1** | 應用程式經由有效的憑證所提供所簽章，其私鑰是受到適當保護的 | ✓ | ✓ |
+| **7.2** | 應用程式已在發佈模式建置，其設定適用於發佈版本(不可除錯的)| ✓ | ✓ |
+| **7.3** | 除錯標記已從原生二元碼中移除 | ✓ | ✓ |
+| **7.4** | 除錯程式碼已移除，應用程式將不紀錄詳細錯誤或偵錯訊息| ✓ | ✓ |
+| **7.5** | 所有行動應用程式使用的第三方套件，如函式庫及框架，皆經識別及已知漏洞查驗 | ✓ | ✓ |
+| **7.6** | 應用程式進行例外處理| ✓ | ✓ |
+| **7.7** | 預設無法存取安全性控管的錯誤處理邏輯 | ✓ | ✓ |
+| **7.8** | 在非託管程式碼，記憶體將被安全的被分配、釋出及使用  | ✓ | ✓ |
+| **7.9** | 由Toolchain所提供的免費安全性功能將啟用，如簡化位元組碼(byte-code)、堆疊(Stack)保護、PIE支援、自動參考計數(Reference Counting)| ✓ | ✓ |
 
-## References
-
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+## 參考資料
+OWASP 行動應用安全性測試指南針對此章節所列出的認證要，提供詳細的說明
 
 - Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md
 - iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md
 
-For more information, see also:
+更多資訊，請參考：
 
-- OWASP Mobile Top 10: M7 - Poor Code Quality: https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality
+- OWQSP 行動應用程式 Top 10：客戶端程式碼品質
+
 - CWE: https://cwe.mitre.org/data/definitions/119.html
 - CWE: https://cwe.mitre.org/data/definitions/89.html
 - CWE: https://cwe.mitre.org/data/definitions/388.html
