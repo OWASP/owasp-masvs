@@ -1,10 +1,4 @@
-
-![OWASP LOGO](Images/OWASP_logo.png)
-
-# Estándar de Verificación de Seguridad en Aplicaciones Móviles
-
-
-## Prefacio
+## Prólogo
 
 Por Bernhard Mueller, lider del proyecto móvil de OWASP.
 Las revoluciones tecnológicas pueden suceder rápidamente. Hace menos de una década los celulares eran dispositivos torpes con pequeños teclados - juguetes caros para usuarios empresariales expertos en tecnología. Hoy los celulares son una parte esencial de nuestras vidas. Hemos llegado a confiar en ellos para la búsqueda de información, la navegación y la comunicación y están presentes tanto en los negocios como en nuestra vida social.
