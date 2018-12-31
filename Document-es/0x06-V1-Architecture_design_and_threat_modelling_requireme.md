@@ -23,6 +23,8 @@ A continuación, se enumeran los requerimientos para MASVS-L1 y MASVS-L2.
 | **1.9** | Existe un mecanismo para imponer las actualizaciones de la aplicación móvil. |   | ✓ |
 | **1.10** | Se realizan tareas de seguridad en todo el ciclo de vida de la aplicación. |   | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## Referencias
 
 Para más información, ver también:

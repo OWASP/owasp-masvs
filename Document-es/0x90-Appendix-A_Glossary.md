@@ -36,7 +36,7 @@
 - **Autenticación SSO** – Single Sign On(SSO) se produce cuando un usuario inicia sesión en un Cliente y luego se conecta a otros Clientes automáticamente, independientemente de la plataforma, tecnología o dominio que esté utilizando el usuario. Por ejemplo, cuando te conectas en Google, automáticamente accedes al servicio de YouTube, Drive y Gmail.
 - **Modelado de Amenazas** – Una técnica que consiste en desarrollar arquitecturas de seguridad cada vez más perfeccionadas para identificar agentes de amenazas, zonas de seguridad, controles de seguridad e importantes activos técnicos y empresariales.
 - **Seguridad en la Capa de Transporte (TLS)** – Protocolos criptográficos que proporcionan seguridad en las comunicaciones a través de Internet.
-- **Fragmentos URI/URL/URL** – Un Identificador Uniforme de Recursos es una cadena de caracteres que se utiliza para identificar un nombre o un recurso web. Un Localizador Uniforme de Recursos se utiliza a menudo como referencia a un recurso.
+- **URI y URL** – Un Identificador Uniforme de Recursos es una cadena de caracteres que se utiliza para identificar un nombre o un recurso web. Un Localizador Uniforme de Recursos se utiliza a menudo como referencia a un recurso.
 - **Pruebas de Aceptación de Usuario (UAT)** – Tradicionalmente un entorno de pruebas que se comporta como el entorno de producción donde se realizan todas las pruebas de la aplicación antes de su puesta en marcha.
 - **Verificador** – La persona o equipo que está revisando una aplicación contra los requerimientos del MASVS de OWASP.
 - **Lista Blanca** – Una lista de datos u operaciones permitidas, por ejemplo, una lista de caracteres que permiten realizar la validación de la entrada.
