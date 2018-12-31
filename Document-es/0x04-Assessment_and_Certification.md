@@ -2,9 +2,9 @@
 
 ## Postura de OWASP sobre las Certificaciones MASVS y Marcas de Confianza
 
-OWASP, como una organización sin fines de lucro e independiente de las empresas, no certifica a ningún proveedor, verificador o software.
+OWASP, como una organización sin fines de lucro e independiente de toda empresa, no certifica a ningún proveedor, verificador o software.
 
-Todas estas afirmaciones de garantía, marcas de confianza o certificaciones no son oficialmente examinadas, registradas o certificadas por OWASP, por lo que una organización que confía en tal opinión debe tener la precaución de la confianza depositada en cualquier tercero o marca de confianza que alega la certificación ASVS.
+Todas estas afirmaciones de garantía, marcas de confianza o certificaciones no son oficialmente examinadas, registradas o certificadas por OWASP, por lo que una organización que confía en tal opinión debe tener la precaución de la confianza depositada en cualquier tercero o marca de confianza que alega la certificación (M)ASVS.
 
 Esto no debe impedir que las organizaciones ofrezcan tales servicios de seguridad, siempre que no reclamen la certificación oficial OWASP.
 
