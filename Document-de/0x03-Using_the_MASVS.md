@@ -6,6 +6,7 @@ Der MASVS kann genutzt werden um das Sicherheitsniveau von mobilen Apps nachweis
 * Nutzung als Hilfestellung - Um Hilfe zu bieten in allen Phasen mobiler App-Entwicklung und Tests.
 * Nutzung bei Beschaffung/Kauf von mobilen Apps - Um als Baseline zur Prüfung der Security von mobilen Apps zu dienen.
 
+
 ## Das Mobile AppSec Model
 
 Der MASVS definiert zwei strikte Prüf-Level (L1 and L2), sowie eine Reihe von Sicherheitsmaßnahmen zur Robustheit gegen Reverse Engineering (MASVS-R). Diese sind flexibel, d.h. adaptierbar an ein App-spezifisches Threat Model. MASVS-L1 and MASVS-L2 enthalten generische Sicherheitsanforderungen und werden für alle mobilen Apps (L1) und Apps die hochsensible Daten verarbeiten (L2) empfohlen. MASVS-R deckt zusätzliche Schutzmaßnahmen ab die anzuwenden sind um Client-seitigen Threats vorzubeugen.
@@ -15,6 +16,13 @@ Eine App die alle Anforderungen aus MASVS-L1 erfüllt, folgt Security Best Pract
 **Achtung - Die Schutzmaßnahmen enthalten in MASVS-R und beschrieben im OWASP Mobile Testing Guide können letztlich alle umgangen werden und dürfen nicht als Ersatz für Sicherheitsmaßnahmen (L1/L2) genutzt werden. Stattdessen sind sie dazu gedacht, um zusätzliche Threat-spezifische Schutzmaßnahmen zu Apps hinzuzufügen, die bereits die MASVS Anforderungen L1 oder L2 erfüllen.**
 
 ![Prüf-Level](images/masvs-levels-new.jpg)
+
+&nbsp;  
+&nbsp;
+&nbsp;  
+&nbsp;
+&nbsp;  
+&nbsp;
 
 ### Dokumentstruktur
 
