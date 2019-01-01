@@ -72,7 +72,7 @@
 Una técnica que consiste en desarrollar arquitecturas de seguridad cada vez más perfeccionadas para identificar agentes de amenazas, zonas de seguridad, controles de seguridad e importantes activos técnicos y empresariales.
 ## Seguridad en la Capa de Transporte (TLS)
 Protocolos criptográficos que proporcionan seguridad en las comunicaciones a través de Internet.
-## Fragmentos URI/URL/URL
+## URI y URL
 Un Identificador Uniforme de Recursos es una cadena de caracteres que se utiliza para identificar un nombre o un recurso web. Un Localizador Uniforme de Recursos se utiliza a menudo como referencia a un recurso.
 ## Pruebas de Aceptación de Usuario (UAT)
 Tradicionalmente un entorno de pruebas que se comporta como el entorno de producción donde se realizan todas las pruebas de la aplicación antes de su puesta en marcha.
