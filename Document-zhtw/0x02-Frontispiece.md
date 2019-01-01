@@ -14,13 +14,13 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 
 ![license](images/license.png) Copyright © 2018 The OWASP Foundation. 本文檔在 Creative Commons Attribution ShareAlike 3.0 協議許可下發布。 對於任何二次使用或發布，你必須向其他人說明清楚這項成果的版權。
 
+## 致謝
 
 | 項目負責人 | 主要作者 | 貢獻者和校稿
 | --- | --- | --- |
 | Sven Schleier & Jeroen Willemsen| Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Rio Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang  |
 
 本文檔最初是 Jim Manico 撰寫的 OWASP Application Security Verification Standard 的一個分支。
-<div style="page-break-after: always;"></div>
 
 ## 贊助者
 
