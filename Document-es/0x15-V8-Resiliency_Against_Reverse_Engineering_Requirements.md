@@ -6,7 +6,7 @@ En esta sección se cubren protecciones recomendadas para aplicaciones que manej
 
  Los controles de esta sección deben aplicarse según sea necesario, basándose en una evaluación de los riesgos causados por la manipulación no autorizada de la aplicación y/o la ingeniería inversa del código. Sugerimos consultar el documento de OWASP "Ingeniería Inversa - Amenazas de la Ingeniería Inversa de OWASP" (vea las referencias a continuación) para obtener una lista de los riesgos del negocio, así como las amenazas técnicas asociadas.
 
-Para que cualquiera de los controles de la lista siguiente sea eficaz, la aplicación debe cumplir al menos todos los requerimientos del nivel MASVS-L1 (es decir, deben existir sólidos controles de seguridad), así como todos los requerimientos de números más bajos en V8. Por ejemplo, los controles de ofuscación listados en la sección "Impedir la comprensión" deben combinarse con el "aislamiento de la aplicación", "impedir el análisis dinámico y la manipulación" y la "atadura al dispositivo".
+Para que cualquiera de los controles de la lista siguiente sea eficaz, la aplicación debe cumplir al menos todos los requerimientos del nivel MASVS-L1 (es decir, deben existir sólidos controles de seguridad), así como todos los requerimientos de números más bajos en V8. Por ejemplo, los controles de ofuscación listados en la sección "impedir la comprensión" deben combinarse con el "impedir el análisis dinámico y la manipulación" y la "atadura al dispositivo".
 
 **Tenga en cuenta que los controles de software nunca deben utilizarse como reemplazo de los controles de seguridad. Los controles listados en MASVR-R buscan añadir controles de protección adicionales y específicos contra las amenazas a las aplicaciones que también cumplen con los requerimientos de seguridad del MASVS.**
 
@@ -17,6 +17,8 @@ Se aplican las siguientes consideraciones:
 2. El modelo de amenaza debe ser sensato. Por ejemplo, ocultar una clave criptográfica en una implementación de caja blanca es un problema si el atacante puede simplemente utilizar la aplicación como un todo.
 
 3. La eficiencia de la protección siempre debe ser verificada por un experto con experiencia en el testeo de tipos particulares de anti-manipulación y ofuscación utilizados (ver también los capítulos "ingeniería inversa" y "evaluación de protecciones del software" en la Guía de Pruebas de Seguridad Móvil).
+
+<div style="page-break-after: always;"></div>
 
 ### Impedir el Análisis Dinámico y la Manipulación
 
@@ -44,6 +46,8 @@ Se aplican las siguientes consideraciones:
 | --- | --- | --- |
 | **8.11** | Todos los archivos ejecutables y bibliotecas correspondientes a la aplicación se encuentran cifrados, o bien los segmentos importantes de código se encuentran cifrados o empaquetados. De este modo el análisis estático trivial no revela código importante o datos. | ✓ |
 | **8.12** | Si el objetivo de la ofuscación es proteger el código propietario, se utiliza un esquema de ofuscación que es apropiado tanto para la tarea particular como robusto contra los métodos de des-ofuscación manual y automatizada, considerando la investigación publicada actualmente. La eficacia del esquema de ofuscación debe verificarse mediante pruebas manuales. Tenga en cuenta que las características de aislamiento basadas en hardware son preferibles a la ofuscación siempre que sea posible. | ✓ |
+
+<div style="page-break-after: always;"></div>
 
 ## Referencias
 

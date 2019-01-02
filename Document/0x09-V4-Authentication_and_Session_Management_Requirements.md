@@ -20,12 +20,14 @@ In most cases, users logging into a remote service is an integral part of the ov
 | **4.10** | Sensitive transactions require step-up authentication.  |   | ✓ |
 | **4.11** | The app informs the user of all login activities with their account. Users are able view a list of devices used to access the account, and to block specific devices. |  | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## References
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
-
-- For Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Authentication.md
-- For iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Authentication-and-Session-Management.md
+The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed above.
+- In general - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md
+- For Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md
+- For iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md
 
 For more information, see also:
 

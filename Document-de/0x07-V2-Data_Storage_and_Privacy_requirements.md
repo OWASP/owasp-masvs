@@ -13,6 +13,8 @@ Sensible Daten im Kontext des MASVS sind jegliche Nutzer-Anmeldedaten sowie alle
 - Hoch sensible Daten deren Kompromittierung zu hohem Reputationsverlust oder finanziellen Aufwänden führen würde: Vertragsinformationen, Informationen die durch Verschwiegenheitserklärungen geschützt sind, Management Informationen;
 - Alle Daten die durch gesetzliche Bestimmungen oder aufgrund regulatorischer Vorgaben (Compliance) zu schützen sind.
 
+<div style="page-break-after: always;"></div>
+
 ## Anforderungen
 
 Ein Großteil von Datenpannen kann bereits durch Einhaltung einfacher Regeln vermieden werden. Die meisten der Sicherheitsmaßnahmen in dieser Kategorie sind deshalb für alle Prüf-Levels zwingend erforderlich.
@@ -31,6 +33,8 @@ Ein Großteil von Datenpannen kann bereits durch Einhaltung einfacher Regeln ver
 | **2.10** | Die App hält sensible Daten nur solange wie nötig im Speicher und betroffene Speicherbereiche werden nach Nutzung explizit gelöscht. |  | ✓ |
 | **2.11** | Die App erzwingt ein Minimum an Geräteschutz-Richtlinien wie das Definieren eines Gerätepassworts. |  | ✓ |
 | **2.12** | Die App klärt den Nutzer über die Art und Weise der verarbeiteten personenbezogenen Daten auf und gibt dem Nutzer Security-Best-Practice-Empfehlungen zum Umgang mit der App. |  | ✓ |
+
+<div style="page-break-after: always;"></div>
 
 ## Referenzen
 

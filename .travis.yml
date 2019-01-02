@@ -1,0 +1,51 @@
+sudo: required
+language: objective-c
+osx_image: xcode9.3
+before_install:
+- rvm install 2.5.1 --disable-binary
+- brew install pandoc
+- brew cask install calibre
+- npm install -g gitbook-cli
+- gem install asciidoctor
+script:
+- "./Tools/gendocs.sh"
+deploy:
+  provider: releases
+  api_key:
+    secure: U99LVZFmIhWeXlpFeePdnDTrX4IGmmfrI8/LVht91P6YAQMhxIlOar/ba2AGGzuZX6ZSkSFKaATd6m1fEUmNexSwMfoVStQnRNctZN6l6PPylo8tvrZfgbAryMwHMTnjYIm/Ym0iCsZrwa9+GiJ03/JKdqE30QKK0PLQ4VRvBIUyblsLjDdPai/UqchE5AnYzCVXB5YKDX5U1y29DNdLRfd5CLjpwZOtgIkshOaK0FGuelciVNDT+hPZWbGWBBfCbDmdlW2GZPwnPGaa4BoA57VBXf8NgOACJT6GRbtw5m9x6H/xYB2/9I/ieccpi07gi0/X0TuvafU/LXOjhir2J4rTXRyNJ7WSQiVTSNYZS7IZ7OyiBVENH9BOrVWshIEXR4eQolo0RRnmJv1CcXTc9WyA8jiZWns/X3eCQo96t9s31etIOdQCBb2W6iBV31lzMHqseURH7DlXCKQ7imrID4mdCnzG2DdpV9/2aHmreKJKqu0DZMvwqdr9BYb9sJNJJkSD+BVL5OSCjGqvmmImIBcmIjhcbufZOTuRINLD1UfZJ41tV4TR3u8OC0zJeOosk5BqQwdJgsf1Z3CV7adiXE/tHHyRsyoE79W9DPVTX4R6NqxOhm9a7/IGJv532W65UnwXcvfRmYEctS5K2hGSTmVDn/wL90mr67YOceiKtj0=
+  file:
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document.pdf"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-es.pdf"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-fr.pdf"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-de.pdf"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-ja.pdf"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-ru.pdf"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-zhtw.pdf"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document.mobi"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-es.mobi"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-fr.mobi"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-de.mobi"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-ja.mobi"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-ru.mobi"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-zhtw.mobi"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document.epub"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-ru.epub"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-es.epub"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-fr.epub"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-de.epub"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-ja.epub"
+    - "$TRAVIS_BUILD_DIR/Generated/OWASP_Mobile_AppSec_Verification_Standard_$TRAVIS_TAG_Document-zhtw.epub"
+    - "$TRAVIS_BUILD_DIR/Generated/MASVS.docx"
+    - "$TRAVIS_BUILD_DIR/Generated/MASVS-de.docx"
+    - "$TRAVIS_BUILD_DIR/Generated/MASVS-es.docx"
+    - "$TRAVIS_BUILD_DIR/Generated/MASVS-fr.docx"
+    - "$TRAVIS_BUILD_DIR/Generated/MASVS-ja.docx"
+    - "$TRAVIS_BUILD_DIR/Generated/MASVS-ru.docx"
+    - "$TRAVIS_BUILD_DIR/Generated/MASVS-zhtw.docx"
+  skip_cleanup: true
+  overwrite: true
+  name: "Intermediate update $TRAVIS_TAG"
+  body: "Intermediate update ($TRAVIS_TAG). See CHANGELOG.md for updates on intermediate update releases."
+  on:
+    repo: OWASP/owasp-mstg
+    tags: true
