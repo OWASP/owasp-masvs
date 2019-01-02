@@ -47,5 +47,5 @@ deploy:
   name: "Intermediate update $TRAVIS_TAG"
   body: "Intermediate update ($TRAVIS_TAG). See CHANGELOG.md for updates on intermediate update releases."
   on:
-    repo: OWASP/owasp-mstg
+    repo: OWASP/owasp-masvs
     tags: true
