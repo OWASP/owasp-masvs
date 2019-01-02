@@ -15,12 +15,14 @@ Der Zweck dieser Kategorie ist es die Vertraulichkeit und Integrität übertrage
 | **5.5** | Die App nutzt keine unsicheren Kommunikationskanäle wie Email oder SMS für kritische Operationen wie Konten-Registrierung oder Konten-Reaktivierung. |  | ✓ |
 | **5.6** | Die App nutzt aktuelle Bibliotheken zum Aufbau von sicheren Kommunikationsverbindungen. |  | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## Referenzen
 
 Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die Anforderungen aus dieser Kategorie zu überprüfen.
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md
+- Für Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md
+- Für iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md
 
 Weitere Informationen unter:
 

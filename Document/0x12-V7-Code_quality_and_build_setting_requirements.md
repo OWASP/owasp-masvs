@@ -18,9 +18,11 @@ The goal of this control is to ensure that basic security coding practices are f
 | **7.8** | In unmanaged code, memory is allocated, freed and used securely.  | ✓ | ✓ |
 | **7.9** | Free security features offered by the toolchain, such as byte-code minification, stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## References
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed above.
 
 - Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md
 - iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md

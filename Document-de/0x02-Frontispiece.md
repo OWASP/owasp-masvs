@@ -1,4 +1,6 @@
-# Frontispiece
+![OWASP LOGO](Images/OWASP_logo.png)
+
+# Mobile Application Security Verification Standard
 
 ## Über den Standard
 
@@ -13,11 +15,16 @@ Nutzerkonten können unter folgender URL angelegt werden:
 ## Copyright and License
 
 ![license](images/license.png)
+
 Copyright © 2018 The OWASP Foundation. Dieses Dokument ist veröffentlicht unter der Creative Commons Attribution ShareAlike 3.0 Lizenz. Für jedwede Wiederverwendung oder Vertrieb müssen diese Lizenzbestimmungen klar kommuniziert werden.
+
+<div style="page-break-after: always;"></div>
+
+## Danksagungen
 
 | Project Lead | Lead Author | Mitwirkende and Reviewer | Übersetzung ins deutsche
 | --- | --- | --- | --- |
-| Sven Schleier & Jeroen Willemsen| Bernhard Mueller | Alexander Antukh, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Stephen Corbiaux, Manuel Delgado, Ryan Dewhurst, Tereshin Dmitry, Ben Gardiner, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Sven Schleier, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Abdessamad Temmar, Jeroen Willemsen | Rocco Gränitz, Sven Schleier (Review) |
+| Sven Schleier & Jeroen Willemsen| Bernhard Mueller |  Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Rio Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang | Rocco Gränitz, Sven Schleier (Review) |
 
 Dieses Dokument basiert auf einem Fork des OWASP Application Security Verification Standard verfasst von Jim Manico.
 
@@ -28,3 +35,5 @@ Obwohl beide Projekte, der MASVS und der MSTG, auf freiwilliger Basis im Rahmen 
 ### Besonderer Sponsor
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
+
+Als nächstes möchten wir uns beim OWASP Bay Area Chapter für das Sponsoring bedanken. Zum Schluss möchten wir uns bei allen bedanken, die das Buch von Leanpub gekauft und uns auf diese Weise gesponsert haben.

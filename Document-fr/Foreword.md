@@ -1,12 +1,6 @@
+## Avant-propos
 
-![OWASP LOGO](images/OWASP_logo.png)
-
-# Standard de Validation de la Sécurité des Applications Mobiles (Mobile Application Security Verification Standard - MASVS) - Release 1.1
-
-14.07.2018
-
-## Avant-propos par Bernhard Mueller, OWASP Mobile Project
-
+Par Bernhard Mueller, OWASP Mobile Project.
 Les révolutions technologiques peuvent arriver vite. Il y a moins de dix ans, les smartphones n'étaient que des appareils poussifs avec de petits claviers - des jouets onéreux pour hommes d'affaire passionés par la tech. Pourtant, aujourd'hui, les smartphones font partie intégrante de notre vie. Nous dépendons d'eux pour les informations, la navigation et la communication, et ils sont omniprésents aussi bien dans notre vie professionnelle que dans notre vie sociale.
 
 Chaque nouvelle technologie introduit de nouveaux risques liés à la sécurité, et se maintenir à l'état de l'art est l'un des principaux défis de l'industrie de la sécurité. Le côté défensif est toujours un peu en retard. Par exemple, le réflexe naturel de beaucoup est d'appliquer toujours les mêmes recettes : les smartphones ressemblant à de petits ordinateurs et les applications mobiles étant du logiciel assez classique, les exigences de sécurité doivent donc être à peu près identiques? Hélas, cela ne marche pas comme ça. Les systèmes d'exploitation des smartphones sont différents de ceux des ordinateurs traditionnels et les applications mobiles sont différentes des applications web. Par exemple, la méthode classique consistant à scanner un appareil à la recherche de virus en se basant sur leur signature n'a pas de sens dans les environnements mobiles modernes : ceci est non seulement incompatible avec le modèle de distribution des applications mobiles, mais c'est aussi techniquement impossible à réaliser en raison des restrictions "bac à sable". Par ailleurs, certaines classes de vulnérabilité telles que les débordements de tampon et autres failles XSS, sont moins pertinentes dans le contexte des applications mobiles ordinaires que, disons, pour les applications PC ou web (toutefois avec certaines exceptions).

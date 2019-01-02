@@ -1,9 +1,11 @@
 # V1: Anforderungen an Architektur, Design und Bedrohungsanalysen
+
 ## Zielsetzung
 
-In einer perfekten Welt würde Security über alle Phasen der Softwareentwicklung berücksichtigt werden. In der Realität wird Security jedoch meist erst spät im Entwicklungsprozess berücksichtigt. Neben den technischen Maßnahmen fordert der MASVS auch organisatorische Maßnahmen die sicherstellen, dass Security in der Planungsphase sowie beim Design der mobilen App entsprechend Berücksichtigung gefunden hat. Für jede Komponente der App muss der fachliche Funktionsumfang und Sicherheitsfunktionen klar definiert und bekannt sein. Die meisten Apps kommunizieren mit entfernten Schnittstellen (API-Endpunkten). Deshalb müssen auch für diese API-Endpunkte angemessene Security Standards umgesetzt sein. Der isolierte Test einer mobilen App ohne die Endpunkte ist unzureichend! 
+In einer perfekten Welt würde Security über alle Phasen der Softwareentwicklung berücksichtigt werden. In der Realität wird Security jedoch meist erst spät im Entwicklungsprozess berücksichtigt. Neben den technischen Maßnahmen fordert der MASVS auch organisatorische Maßnahmen die sicherstellen, dass Security in der Planungsphase sowie beim Design der mobilen App entsprechend Berücksichtigung gefunden hat. Für jede Komponente der App muss der fachliche Funktionsumfang und Sicherheitsfunktionen klar definiert und bekannt sein. Die meisten Apps kommunizieren mit entfernten Schnittstellen (API-Endpunkten). Deshalb müssen auch für diese API-Endpunkte angemessene Security Standards umgesetzt sein. Der isolierte Test einer mobilen App ohne die Endpunkte ist unzureichend!
 
 Die Kategorie "V1" enthält Sicherheitsanforderungen an die Architektur und das Design einer App. Aufgrund dessen ist dies die einzige Kategorie die nicht auf technische Testfälle in den OWASP Mobile Testing Guide referenziert. Um Themen wie Bedrohungsanalyse, sichere Softwareentwicklungsprozesse und Schlüssel-Management abzudecken, sollten Anwender des MASVS die jeweiligen OWASP Projekte und/oder Standards wie die unten verlinkten Dokumente berücksichtigen.
+
 
 ## Security Anforderungen
 
@@ -21,7 +23,7 @@ Die Anforderungen für MASVS-L1 und MASVS-L2 sind nachfolgend aufgelistet.
 | **1.8** | Eine dedizierte Richtlinie zum Management von kryptographischen Schlüsseln (falls in der App genutzt) beschreibt den sicheren Umgang mit Schlüsseln über den gesamten Lebenszyklus, idealerweise basierend auf Standards wie NIST SP 800-57. |   | ✓ |
 | **1.9** | Es gibt einen Mechanismus in der mobilen App um App-Aktualisierungen zu erzwingen. |   | ✓ |
 | **1.10** | Security wird in allen Teilen des Softwareentwicklungszyklus berücksichtigt. |   | ✓ |
-
+<br><br>
 ## Referenzen
 
 Für weitere Informationen:

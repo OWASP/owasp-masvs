@@ -4,7 +4,7 @@
 
 Cette section couvre des mesures de défense en profondeur recommandées dans les cas d'applications qui traitent ou donnent accès à des données ou des fonctionnalités sensibles. L'absence de l'un de ces contrôles n'entraîne pas une vulnérabilité dans la mesure où ils ont pour seul but d'améliorer la résilience de l'application envers la rétro-ingénierie et autres attaques spécifiques côté client.
 
-Les contrôles de cette section devraient être mis en oeuvre autant qu'il est nécessaire, c'est-à-dire tel que requis par une évaluation des risques dûs à une modification non-autorisée de l'application et /ou une rétro-ingénierie du code. Nous ne pouvons que suggérer la consultation du document de l'OWASP "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" ("Risques Techniques Liés à la Rétro-Ingénierie et Modification de Code Non-Autorisée Rétro-Ingénierie et Prévention de Modification de Code", voir les références ci-dessous) pour une liste des risques liés aux affaires et des menaces techniques associées. 
+Les contrôles de cette section devraient être mis en oeuvre autant qu'il est nécessaire, c'est-à-dire tel que requis par une évaluation des risques dûs à une modification non-autorisée de l'application et /ou une rétro-ingénierie du code. Nous ne pouvons que suggérer la consultation du document de l'OWASP "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" ("Risques Techniques Liés à la Rétro-Ingénierie et Modification de Code Non-Autorisée Rétro-Ingénierie et Prévention de Modification de Code", voir les références ci-dessous) pour une liste des risques liés aux affaires et des menaces techniques associées.
 
 Pour que les contrôles de la liste ci-dessous soient effectifs, l'application doit implémenter au moins toutes les exigences de niveau MASVS-L1 (c'est-à-dire que des contrôles de sécurité robustes doivent être en place) ainsi que toutes les exigences de la partie V8. Par exemple, les contrôles concernant l'obscurcissement listés dans la partie "Entraver la Compréhension" doivent être combinés avec "Isolation de l'Application", "Entraver l'Analyse Dynamique et la Modification" et "Liaison avec un Appareil".
 
@@ -14,9 +14,11 @@ Il convient de prendre en compte les considérations suivantes :
 
 1. Un modèle de menace doit exister et souligner clairement les menaces côté client contre lesquelles il faut se défendre. De plus, le niveau de protection à atteindre doit être spécifié. Par exemple, un but bien défini pourrait être de forcer les auteurs d'un logiciel malveillant ciblant une application et cherchant à l'instrumenter de devoir investir un effort significatif de rétro-ingénierie manuelle.
 
-2. Le modèle de menaces doit être porteur de sens. Par exemple, cacher une clé de cryptographie dans une implémentation en boîte-blanche n'est pas cohérent dans le cas où l'attaquant a la possiblité de récupérer l'ensemble du code et de l'analyser dans son ensemble. 
+2. Le modèle de menaces doit être porteur de sens. Par exemple, cacher une clé de cryptographie dans une implémentation en boîte-blanche n'est pas cohérent dans le cas où l'attaquant a la possiblité de récupérer l'ensemble du code et de l'analyser dans son ensemble.
 
 3. L'efficacité de la protection devrait toujours être validée par un expert humain ayant l'expérience du test des moyens particuliers mis en oeuvre contre la modification du code ou son obscurcissement (voir aussi les chapitres liés à la "rétro-ingénierie" et à la "validation des protections logicielles" dans le Mobile Security Testing Guide).
+
+<div style="page-break-after: always;"></div>
 
 ### Entraver l'Analyse Dynamique et la Modification
 
@@ -44,6 +46,8 @@ Il convient de prendre en compte les considérations suivantes :
 | --- | --- | --- |
 | **8.11** |Tous les fichiers exécutables et les librairies appartenant à l'application sont soit chiffrés au niveau du fichier et / ou le code important et les segments de données à l'intérieur des exécutables sont chiffrés ou compactés. Une analyse statique triviale ne révèle pas de code important ou de données. | ✓ |
 | **8.12** | Si le but de l'obscurcissement est de protéger des traitements sensibles, le schéma d'obscurcissement utilisé est à la fois approprié à la tâche considérée et est résistant envers les méthodes de dé-obscurcissement manuelles et automatiques, en prenant en considération les recherches disponibles. L'efficacité du schéma d'obscurcissement doit être validée à travers du test manuel. Il convient de noter que les fonctionnalités d'isolation au niveau matériel doivent être mises en pratique de préférence à l'obscurcissement toutes les fois que cela est possible. | ✓ |
+
+<div style="page-break-after: always;"></div>
 
 ## Références
 

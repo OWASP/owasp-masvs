@@ -23,11 +23,13 @@ The requirements for MASVS-L1 and MASVS-L2 are listed below.
 | **1.9** | A mechanism for enforcing updates of the mobile app exists. |   | ✓ |
 | **1.10** | Security is addressed within all parts of the software development lifecycle. |   | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## References
 
 For more information, see also:
 
-- OWASP Mobile Top 10: M10 - Extraneous Functionality: https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality
+- OWASP Mobile Top 10: https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality
 - OWASP Security Architecture cheat sheet: https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet
 - OWASP Thread modelling: https://www.owasp.org/index.php/Application_Threat_Modeling
 - OWASP Secure SDLC Cheat Sheet: https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet

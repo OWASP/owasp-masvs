@@ -4,7 +4,7 @@ Le MASVS peut être utilisé pour établir un niveau de confiance dans la sécur
 
 * Utilisation en tant que métrique - Fournir un standard de sécurité pouvant servir de mesure aux développeurs d'applications mobiles et à ceux qui en sont responsables ;
 * Utilisation en tant que référence - Donner des points de repère pendant toutes les phases de développement de test et de développement d'applications mobiles ;
-* Utilisation en phase d'achat - Permettre de définir un niveau de sécurité minimal attendu lors de la validation de la sécurité d'applications mobiles. 
+* Utilisation en phase d'achat - Permettre de définir un niveau de sécurité minimal attendu lors de la validation de la sécurité d'applications mobiles.
 
 ## Modèle de Sécurité Applicative Mobile
 
@@ -14,7 +14,7 @@ Atteindre les exigences du niveau MASVS-L1 amène à une application qui suit le
 
 **Il convient de noter que les contrôles de protection logiciels listés dans le MASVS-R et décrits dans le Guide de Test Mobile de l'OWASP (OWASP Mobile Testing Guide) peuvent toujours être contournés et ne doivent jamais être utilisés en tant que substituts aux contrôles de sécurité. Leur but est d'apporter des contrôles de protection supplémentaires spécifiques aux menaces d'applications qui remplissent aussi les exigences MASVS L1 ou L2.**
 
-![Verification Levels](images/masvs-levels-new.jpg)
+![Verification Levels](images/masvs-levels-new_fr.jpg)
 
 ### Structure du Document
 
@@ -62,7 +62,7 @@ L'implémentation des exigences MASVS L2 améliore la sécurité, mais peut en m
 
 ###### MASVS-L2
 
-- Industrie de la Santé : Applications mobiles qui stockent des données personnelles (PII) pouvant être utilisées pour du vol d'identité, des paiements frauduleux ou tout autre type de fraude. Pour le secteur de la santé américain, les considérations de conformité incluent Health Insurance Portability and Accountability Act (HIPAA) ainsi que les règlementations sur le respect de la vie privée, la sécurité, la notification des pertes de données et la sûreté des patients. 
+- Industrie de la Santé : Applications mobiles qui stockent des données personnelles (PII) pouvant être utilisées pour du vol d'identité, des paiements frauduleux ou tout autre type de fraude. Pour le secteur de la santé américain, les considérations de conformité incluent Health Insurance Portability and Accountability Act (HIPAA) ainsi que les règlementations sur le respect de la vie privée, la sécurité, la notification des pertes de données et la sûreté des patients.
 
 - Industrie Financière : Applications mobiles qui donnent accès à des informations hautement sensibles telles que des numéros de cartes de crédit, des informations personnelles ou permettent des mouvements de fonds. Ces applications justifient l'implémentation de contrôles de sécurité additionnels pour contrer la fraude. Les applications du monde de la finance doivent être conformes au standard Payment Card Industry Data Security Standard (PCI DSS), au Gramm Leech Bliley Act et au Sarbanes-Oxley Act (SOX).
 
@@ -76,4 +76,4 @@ L'implémentation des exigences MASVS L2 améliore la sécurité, mais peut en m
 
 - Industrie Financière : Applications de banque en ligne permettant aux utilisateurs de transférer des fonds et où les techniques d'injection de code et d'instrumentation sur des appareils mobiles compromis entraînent un risque. Dans ce cas, les contrôles du MASVS-R peuvent être mis en oeuvre pour empêcher la manipulation et rendre la vie des créateurs de logiciels malveillants (malwares) plus compliquée.
 
-- Toute application mobile qui, par design, doit stocker des données sensibles sur l'appareil mobile tout en devant fonctionner pour une large game d'appareils et de versions de systèmes d'exploitation. Dans ce cas, des contrôles de résistance peuvent être utilisés en tant que mesures de défense en profondeur pour augmenter la quantité d'effort que doivent fournir les attaquants voulant extraire les données sensibles. 
+- Toute application mobile qui, par design, doit stocker des données sensibles sur l'appareil mobile tout en devant fonctionner pour une large game d'appareils et de versions de systèmes d'exploitation. Dans ce cas, des contrôles de résistance peuvent être utilisés en tant que mesures de défense en profondeur pour augmenter la quantité d'effort que doivent fournir les attaquants voulant extraire les données sensibles.
