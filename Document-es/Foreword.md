@@ -1,12 +1,6 @@
+## Prólogo
 
-![OWASP LOGO](images/OWASP_logo.png)
-
-# Estándar de Verificación de Seguridad en Aplicaciones Móviles - Liberación 1.1
-
-05.08.2018
-
-## Prefacio por Bernhard Mueller, lider del proyecto móvil de OWASP
-
+Por Bernhard Mueller, lider del proyecto móvil de OWASP.
 Las revoluciones tecnológicas pueden suceder rápidamente. Hace menos de una década los celulares eran dispositivos torpes con pequeños teclados - juguetes caros para usuarios empresariales expertos en tecnología. Hoy los celulares son una parte esencial de nuestras vidas. Hemos llegado a confiar en ellos para la búsqueda de información, la navegación y la comunicación y están presentes tanto en los negocios como en nuestra vida social.
 
 Cada nueva tecnología introduce nuevos riesgos de seguridad, y mantenerse al día con estos cambios es uno de los principales retos a los que se enfrenta la industria de la seguridad. El bando defensivo está siempre unos pasos detrás. Por ejemplo, el modo predeterminado para muchos fue aplicar viejas formas de hacer las cosas: los celulares son como pequeños ordenadores y las aplicaciones móviles son como el software clásico, así que seguramente los requerimientos de seguridad son similares, ¿no? Pero no funciona así. Los sistemas operativos para teléfonos inteligentes son diferentes a los sistemas operativos de escritorio, y las aplicaciones móviles son diferentes a las aplicaciones web. Por ejemplo, el método clásico de escaneo de virus basado en firmas no tiene sentido en los sistemas operativos móviles modernos: no sólo es incompatible con el modelo de distribución de aplicaciones móviles, sino que también es técnicamente imposible debido a las restricciones del aislamiento. Además, algunos tipos de vulnerabilidades, como los desbordamientos de búfer y los problemas XSS, son menos relevantes en el contexto de las aplicaciones móviles que, por ejemplo, en las aplicaciones de escritorio y las aplicaciones web (con excepciones).

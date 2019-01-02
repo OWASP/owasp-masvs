@@ -1,9 +1,9 @@
 {
   "root" : ".",
-  "plugins" : [ "anchors" ],
 
   "structure": {
     "readme": "Foreword.md"
-  }
+  },
 
+  "language": "ru"
 }

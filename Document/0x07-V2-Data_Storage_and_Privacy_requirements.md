@@ -14,6 +14,8 @@ Sensitive data in the context of the MASVS pertains to both user credentials and
 - Highly sensitive data that would lead to reputational harm and/or financial costs if compromised: Contractual information, information covered by non-disclosure agreements, management information;
 - Any data that must be protected by law or for compliance reasons.
 
+<div style="page-break-after: always;"></div>
+
 ## Security Verification Requirements
 
 The vast majority of data disclosure issues can be prevented by following simple rules. Most of the controls listed in this chapter are mandatory for all verification levels.
@@ -32,6 +34,7 @@ The vast majority of data disclosure issues can be prevented by following simple
 | **2.10** | The app does not hold sensitive data in memory longer than necessary, and memory is cleared explicitly after use. |  | ✓ |
 | **2.11** | The app enforces a minimum device-access-security policy, such as requiring the user to set a device passcode. |  | ✓ |
 | **2.12** | The app educates the user about the types of personally identifiable information processed, as well as security best practices the user should follow in using the app. |  | ✓ |
+
 
 ## References
 

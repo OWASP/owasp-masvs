@@ -18,6 +18,8 @@ Estos controles buscan asegurar que se siguieron las prácticas de seguridad bá
 | **7.8** | En código no administrado, la memoria es pedida, usada y liberada de manera correcta. | ✓ | ✓ |
 | **7.9** | Las funcionalidades de seguridad gratuitas de las herramientas, como minificación del byte-code, protección de la pila, soporte PIE y conteo automático de referencias, se encuentran activadas. | ✓ | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## Referencias
 
 La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detalladas para verificar los requisitos listados en esta sección.
@@ -27,7 +29,7 @@ La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detal
 
 Para más información, ver también:
 
-- OWASP Top 10 Móvil: M7 - Calidad del Código en el Cliente: https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality
+- OWASP Top 10 Móvil: M7 - Mala calidad del Código: https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality
 - CWE: https://cwe.mitre.org/data/definitions/119.html
 - CWE: https://cwe.mitre.org/data/definitions/89.html
 - CWE: https://cwe.mitre.org/data/definitions/388.html
