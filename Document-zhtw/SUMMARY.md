@@ -1,7 +1,7 @@
 # 目錄
 
-- [Changelog](Changelog.md)
 - [前言](Foreword.md)
+- [Changelog](Changelog.md)
 - [卷首](0x02-Frontispiece.md)
 - [使用 MASVS](0x03-Using_the_MASVS.md)
 - [評估與認證](0x04-Assessment_and_Certification.md)
