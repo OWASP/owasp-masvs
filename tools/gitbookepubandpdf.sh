@@ -15,7 +15,7 @@ echo 'setting up new GLOSSARY.MD per language'
 update_english_doc() {
   cp ../Document/0x90-Appendix-A_Glossary.md ../Document/GLOSSARY.md
   sed -i.bak "s/\- \*\*/## /g" ../Document/GLOSSARY.md
-  sed -i.bak "s/\*\* \– /\\`echo -e '\n\r'`/g" ../Document/GLOSSARY.md
+  gsed -i.bak "s/\*\* \– /\n/g" ../Document/GLOSSARY.md
   cp ../CHANGELOG.md ../Document/CHANGELOG.md
   rm ../Document/GLOSSARY.md.bak
 }
@@ -24,7 +24,7 @@ update_glossary() {
   cp ../CHANGELOG.md ../Document-$2/CHANGELOG.md #tem till it gets translated...
   cp ../Document-$2/0x90-Appendix-A_Glossary.md ../Document-$2/GLOSSARY.md
   sed -i.bak "s/\- \*\*/## /g" ../Document-$2/GLOSSARY.md
-  sed -i.bak "s/\*\* \– /\\`echo -e '\n\r'`/g" ../Document-$2/GLOSSARY.md
+  gsed -i.bak "s/\*\* \– /\n/g" ../Document-$2/GLOSSARY.md
   rm ../Document-$2/GLOSSARY.md.bak
 }
 
