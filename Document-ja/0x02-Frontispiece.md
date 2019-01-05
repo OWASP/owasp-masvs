@@ -29,14 +29,14 @@ Copyright © 2018 The OWASP Foundation. 本著作物は [Creative Commons Attrib
 | --- | --- | --- |
 | Sven Schleier & Jeroen Willemsen | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
 
-| 保存 | 翻訳者および査読者 |
+| 言語 | 翻訳者およびレビュー担当者 |
 | --- | --- |
 | 中国語 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | フランス語 | Romuald SZKUDLAREK, Christian Dong (Review) |
 | ドイツ語 | Rocco Gränitz, Sven Schleier (Review) |
-| スペイン人 | Martin Marsicano |
-| 日本人 | Koki Takeyama, Riotaro Okada (Review) |
-| ロシア | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| スペイン語 | Martin Marsicano |
+| 日本語 | Koki Takeyama, Riotaro Okada (Review) |
+| ロシア語 | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
 本ドキュメントは Jim Manico により執筆された OWASP Web アプリケーションセキュリティ検証標準のフォークとして始まりました。
 
