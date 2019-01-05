@@ -18,7 +18,7 @@ Las cuentas se pueden crear en la siguiente URL: [http://owasp.herokuapp.com/](h
 
 <div style="page-break-after: always;"></div>
 
-## Expresiones de gratitud
+## Reconocimientos
 
 | Líderes del proyecto | Autor principal | Colaboradores y revisores
 | --- | --- | --- |
@@ -26,12 +26,12 @@ Las cuentas se pueden crear en la siguiente URL: [http://owasp.herokuapp.com/](h
 
 | Idioma | Traductores y revisores |
 | --- | --- |
-| China | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
-| Francés | Romuald SZKUDLAREK, Christian Dong (Review) |
-| Alemán | Rocco Gränitz, Sven Schleier (Review) |
+| Chino | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| Francés | Romuald SZKUDLAREK, Christian Dong (revisor) |
+| Alemán | Rocco Gränitz, Sven Schleier (revisor) |
 | Español | Martin Marsicano |
-| Japonés | Koki Takeyama, Riotaro Okada (Review) |
-| Ruso | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| Japonés | Koki Takeyama, Riotaro Okada (revisor) |
+| Ruso | Gall Maxim, Chelnokov Vladislav (revisor), Oprya Egor (revisor), Tereshin Dmitry (revisor) |
 
 Este documento comenzó como una bifurcación del Estándar de Verificación de Seguridad de Aplicaciones de OWASP escrito por Jim Manico.
 
