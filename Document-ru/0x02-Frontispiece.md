@@ -27,11 +27,11 @@ MASVS - итог усилий сообщества и обратной связ�
 
 | язык | Переводчики и рецензенты |
 | --- | --- |
-| китайский язык | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| китайский | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | Французский | Romuald SZKUDLAREK, Christian Dong (Review) |
 | Немецкий | Rocco Gränitz, Sven Schleier (Review) |
 | испанский | Martin Marsicano |
-| японский язык | Koki Takeyama, Riotaro Okada (Review) |
+| японский | Koki Takeyama, Riotaro Okada (Review) |
 | русский | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
 Работа над документом была начата как ответвление OWASP Application Security Verification Standard, написанного Jim Manico.
