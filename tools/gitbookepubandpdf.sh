@@ -21,7 +21,6 @@ update_english_doc() {
 }
 
 update_glossary() {
-  #cp ../CHANGELOG.md ../Document-$2/CHANGELOG.md #tem till it gets translated...
   cp ../Document-$2/0x90-Appendix-A_Glossary.md ../Document-$2/GLOSSARY.md
   sed -i.bak "s/\- \*\*/## /g" ../Document-$2/GLOSSARY.md
   gsed -i.bak "s/\*\* \– /\n/g" ../Document-$2/GLOSSARY.md
