@@ -23,7 +23,16 @@ Copyright © 2018 The OWASP Foundation. Ce document est publié sous la licence 
 
 | Chef de Projet | Auteur Principal | Contributeurs et Relecteurs
 | --- | --- | --- |
-| Sven Schleier & Jeroen Willemsen | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Rio Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
+| Sven Schleier & Jeroen Willemsen | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
+
+| La langue | Traducteurs et relecteurs |
+| --- | --- |
+| Chinois | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| Français | Romuald SZKUDLAREK, Christian Dong (Review) |
+| Allemand | Rocco Gränitz, Sven Schleier (Review) |
+| Espanol | Martin Marsicano |
+| Japonais | Koki Takeyama, Riotaro Okada (Review) |
+| Russe | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
 Ce document est basé sur le Standard de Validation de la Sécurité Applicative de l'OWASP, le OWASP Application Security Verification Standard écrit par Jim Manico.
 
