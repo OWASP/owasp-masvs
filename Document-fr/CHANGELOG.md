@@ -2,6 +2,10 @@
 
 Ce document est généré automatiquement à {{gitbook.time}}
 
+## WIP 1.1.3 Quelques Améliorations
+- Corrections d'erreurs de traduction de l'exigence 7.1 dans la version espagnole
+- Nouvelle présentation des traducteurs dans les Remerciements
+
 ## 1.1.2 Parrainage et internationalisation
 Les changements suivants font partie de la livraison 1.1.2 :
 
