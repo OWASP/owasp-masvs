@@ -2,11 +2,12 @@
 
 Este documento es generado automaticamente a las {{gitbook.time}}
 
-## 1.1.3 Pequeños arreglos
+## WIP 1.1.3 Pequeños arreglos
 Los siguientes cambios forman parte de la versión 1.1.3:
 
 - Arreglo en la traducción al Español del Requerimiento 7.1.
 - Nueva disposición de los traductores en los agradecimientos.
+- Pequeñas correcciones para la versión Japonés.
 
 ## 1.1.2 Patrocinio e internacionalización
 Los siguientes cambios forman parte de la versión 1.1.2:
