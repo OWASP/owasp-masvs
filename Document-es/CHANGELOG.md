@@ -2,7 +2,7 @@
 
 Este documento es generado automaticamente a las {{gitbook.time}}
 
-## 1.1.3 Pequeños arreglos (en construcción)
+## 1.1.3 Pequeños arreglos
 Los siguientes cambios forman parte de la versión 1.1.3:
 
 - Arreglo del Requerimiento 7.1 en la traducción al Español.
