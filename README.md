@@ -35,8 +35,8 @@ Clone the repository and run the gitbook generator. This produces PDF, Epub and 
 
 ```shell
 $ git clone https://github.com/OWASP/owasp-masvs/
-$ cd owasp-masvs/Tools/
-$ ./gitbookandpdf.sh LATEST
+$ cd owasp-masvs/tools/
+$ ./gitbookepubandpdf.sh LATEST
 ```
 
 ## Create Word documents
@@ -44,7 +44,7 @@ Clone the repository and run the document generator (requires [pandoc](http://pa
 
 ```shell
 $ git clone https://github.com/OWASP/owasp-masvs/
-$ cd owasp-mstg/Tools/
+$ cd owasp-mstg/tools/
 $ ./generate_document.sh
 ```
 
