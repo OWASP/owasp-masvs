@@ -1,4 +1,4 @@
-![OWASP LOGO](Images/OWASP_logo.png)
+![OWASP LOGO](images/OWASP_logo.png)
 
 
 # Mobile Application Security Verification Standard
