@@ -5,7 +5,6 @@
 [![OWASP Labs](https://img.shields.io/badge/owasp-lab%20project-f7b73c.svg)](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory)
 [![Build Status](https://travis-ci.com/OWASP/owasp-masvs.svg?branch=master)](https://travis-ci.com/OWASP/owasp-masvs)
 
-
 This is the official Github Repository of the OWASP Mobile Application Security Verification Standard (MASVS). The MASVS establishes baseline security requirements for mobile apps that are useful in many scenarios, including:
 
 - In the SDLC - to establish security requirements to be followed by solution architects and developers;
