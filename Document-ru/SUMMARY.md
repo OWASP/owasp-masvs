@@ -1,7 +1,7 @@
 # Резюме
 
 - [Вступительное](Foreword.md)
-- [Changelog](Changelog.md)
+- [Changelog](CHANGELOG.md)
 - [фронтиспис](0x02-Frontispiece.md)
 - [Использование MASVS](0x03-Using_the_MASVS.md)
 - [Оценка и Сертификация](0x04-Assessment_and_Certification.md)

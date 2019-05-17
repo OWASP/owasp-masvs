@@ -1,6 +1,6 @@
 # Inhaltsverzeichnis
 
-- [Changelog](Changelog.md)
+- [Changelog](CHANGELOG.md)
 - [Vorwort](Foreword.md)
 - [Frontispiece](0x02-Frontispiece.md)
 - [Verwendung des MASVS](0x03-Using_the_MASVS.md)
