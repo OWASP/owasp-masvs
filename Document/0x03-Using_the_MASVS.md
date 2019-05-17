@@ -41,7 +41,7 @@ The app has state-of-the-art security, and is also resilient against specific, c
 
 Apps can be verified against MASVS L1 or L2 based on prior risk assessment and overall level of security required. L1 is applicable to all mobile apps, while L2 is generally recommended for apps that handle more sensitive data and/or functionality. MASVS-R (or parts of it) can be applied to verify resiliency against specific threats, such as repackaging or extraction of sensitive data, *in addition* to proper security verification.
 
-In summary, The following verification types are available:
+In summary, the following verification types are available:
 
 - MASVS-L1
 - MASVS-L1+R
@@ -51,9 +51,9 @@ In summary, The following verification types are available:
 The different combinations reflect different grades of security and resiliency. The goal is to allow for flexibility: For example, a mobile game might not warrant adding MASVS-L2 security controls such as 2-factor authentication for usability reasons, but have a strong business need for tamper prevention.
 <div style="page-break-after: always;"></div>
 
-#### What Verification Type to Choose
+#### Which Verification Type to Choose
 
-Implementing the requirements of MASVS L2 increases security, while at the same time increasing cost of development and potentially worsening the end user experience (the classical trade-off). In general, L2 should be used for apps whenever it makes sense from a risk vs. cost perspective (i.e., where the potential loss caused by a compromise confidentiality or integrity is higher than the cost incurred by the additional security controls). A risk assessment should be the first step before applying the MASVS.
+Implementing the requirements of MASVS L2 increases security, while at the same time increasing cost of development and potentially worsening the end user experience (the classical trade-off). In general, L2 should be used for apps whenever it makes sense from a risk vs. cost perspective (i.e., where the potential loss caused by a compromise of confidentiality or integrity is higher than the cost incurred by the additional security controls). A risk assessment should be the first step before applying the MASVS.
 
 ##### Examples
 
