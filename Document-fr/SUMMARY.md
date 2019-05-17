@@ -1,7 +1,7 @@
 # Résumé
 
 - [Avant-Propos](Foreword.md)
-- [Changelog](Changelog.md)
+- [Changelog](CHANGELOG.md)
 - [Frontispice](0x02-Frontispiece.md)
 - [Utiliser le MASVS](0x03-Using_the_MASVS.md)
 - [Evaluation et Certification](0x04-Assessment_and_Certification.md)

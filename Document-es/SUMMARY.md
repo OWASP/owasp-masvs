@@ -1,6 +1,6 @@
 # Tabla de contenido
 
-- [Registro de cambios](Changelog.md)
+- [Registro de cambios](CHANGELOG.md)
 - [Prólogo](Foreword.md)
 - [Frontispicio](0x02-Frontispiece.md)
 - [Usos del MASVS](0x03-Using_the_MASVS.md)
