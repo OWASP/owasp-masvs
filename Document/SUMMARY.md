@@ -1,6 +1,6 @@
 # Table of Contents
 
-- [Changelog](Changelog.md)
+- [Changelog](CHANGELOG.md)
 - [Foreword](Foreword.md)
 - [Frontispiece](0x02-Frontispiece.md)
 - [Using the MASVS](0x03-Using_the_MASVS.md)
