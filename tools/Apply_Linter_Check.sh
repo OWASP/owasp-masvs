@@ -2,6 +2,7 @@
 # Script taken from https://github.com/OWASP/CheatSheetSeries/blob/master/scripts/Apply_Linter_Check.sh
 # Script in charge of auditing the released MD files with the linter policy defined at project level
 
+#todo: make it multilanguage!
 cd ..
 rm linter-result.out
 markdownlint -c .markdownlint.json -o linter-result.out Document
