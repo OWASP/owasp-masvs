@@ -2,6 +2,7 @@
 # Script taken from https://github.com/OWASP/CheatSheetSeries/blob/master/scripts/Apply_Link_Check.sh
 # Script in charge of auditing the released MD files in order to detect dead links
 
+#todo: make it multilanguage!
 cd ../Document
 rm ../link-check-result.out
 find . -name \*.md -exec markdown-link-check -q -c ../.markdownlinkcheck.json {} \; 1>../link-check-result.out 2>&1

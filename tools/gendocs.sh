@@ -5,7 +5,7 @@ sh ./Apply_Linter_Check.sh
 echo "Counting amount of linter issues:"
 LINTRESULT=$(wc -l ../linter-result.out)
 echo $LINTRESULT
-
+#TODO: FIX GITHUB_TOKEN!
 if [ "$TRAVIS_PULL_REQUEST" != "false" ] ; then
     echo "Applying Link check"
     export LINKRESULT=$(sh ./Apply_Link_Check.sh)
@@ -32,4 +32,4 @@ sh ./generate_document_ru.sh $TRAVIS_TAG
 sh ./generate_document_zhtw.sh $TRAVIS_TAG
 
 echo "Checking epub validity"
-sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_1.1.3_Document-de.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_($TRAVIS_TAG)_Document-de.epub
