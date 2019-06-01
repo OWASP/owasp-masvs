@@ -1,18 +1,31 @@
 #!/bin/sh
 cd $TRAVIS_BUILD_DIR/Tools
+#TODO: FIX GITHUB_TOKEN!
+#echo "token = ${GITHUB_TOKEN}"
 echo "Applying Linter check"
 sh ./Apply_Linter_Check.sh
 echo "Counting amount of linter issues:"
 LINTRESULT=$(wc -l ../linter-result.out)
 echo $LINTRESULT
-#TODO: FIX GITHUB_TOKEN!
 if [ "$TRAVIS_PULL_REQUEST" != "false" ] ; then
     echo "Applying Link check"
     export LINKRESULT=$(sh ./Apply_Link_Check.sh)
     echo "$LINKRESULT"
+    if [ "$LINTRESULT" -eq "0" ]; then
+        COMMENT_LINT="Please run the Apply_Linter_check.sh in the tools folder to see where the Lint issues are."
+    fi
+    if [ -z "$LINTRESULT"]; then
+        COMMENT_LINT="Please run the Apply_Linter_check.sh in the tools folder to see where the Lint issues are."
+    fi
+    if [ "$LINKRESULT" -eq "0" ]; then
+        COMMENT_LINK="Please run the Apply_Link_Check.sh in the tools folder to see wherhe the Link issues are."
+    fi
+    if [ -z "$LINKRESULT" ]; then
+        COMMENT_LINK="Please run the Apply_Link_Check.sh in the tools folder to see wherhe the Link issues are."
+    fi
     echo "Sending feedback to Github"
     curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST \
-    -d "{\"body\": \"Results for commit $TRAVIS_COMMIT: Broken link result: $LINKRESULT, markdown result errorlength: $LINTRESULT. If fields are empty or 0: you should be OK. If fields contain data: please check for markdown and link errors. \"}" \
+    -d "{\"body\": \"Results for commit $TRAVIS_COMMIT: Broken link result: $LINKRESULT .\n $COMMENT_LINK \n Markdown result errorlength: $LINTRESULT .\n $COMMENT_LINT  \"}" \
     "https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments"
 fi
 
