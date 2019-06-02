@@ -12,14 +12,12 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" ] ; then
     echo "$LINKRESULT"
     if [ "$LINTRESULT" -eq "0" ]; then
         COMMENT_LINT="Please run the Apply_Linter_check.sh in the tools folder to see where the Lint issues are."
-    fi
-    if [ -z "$LINTRESULT"]; then
+    elif [ -z "$LINTRESULT"]; then
         COMMENT_LINT="Please run the Apply_Linter_check.sh in the tools folder to see where the Lint issues are."
     fi
     if [ "$LINKRESULT" -eq "0" ]; then
         COMMENT_LINK="Please run the Apply_Link_Check.sh in the tools folder to see wherhe the Link issues are."
-    fi
-    if [ -z "$LINKRESULT" ]; then
+    elif [ -z "$LINKRESULT" ]; then
         COMMENT_LINK="Please run the Apply_Link_Check.sh in the tools folder to see wherhe the Link issues are."
     fi
     echo "Sending feedback to Github"
