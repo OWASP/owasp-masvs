@@ -1,26 +1,10 @@
 #!/bin/sh
 cd $TRAVIS_BUILD_DIR/Tools
 #TODO: FIX GITHUB_TOKEN!
-#TODO: FIX INTERNATIONALIZATION OF THE RESULT MESSAGE!
-# check_lint_en_result(){
-
-# }
-# check_lint_result(){
-
-# }
-
-# check_link_en_result(){
-    
-# }
-
-# check_link_result(){
-
-# }
-#TODO: Fix multi-lang support in feedback message
 echo "Applying Linter check"
 sh ./Apply_Linter_Check.sh
 echo "Counting amount of linter issues:"
-LINTRESULT=$(wc -l ../linter-result.out)
+LINTRESULT=$(wc -l ../lint-check-result-all-lang.out)
 echo $LINTRESULT
 if [ "$TRAVIS_PULL_REQUEST" != "false" ] ; then
     echo "Applying Link check"
