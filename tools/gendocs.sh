@@ -4,7 +4,7 @@ cd $TRAVIS_BUILD_DIR/Tools
 echo "Applying Linter check"
 sh ./Apply_Linter_Check.sh
 echo "Counting amount of linter issues:"
-LINTRESULT=$?
+LINTRESULT=$(wc -l lint-check-result-all-lang.out)
 echo $LINTRESULT
 if [ "$TRAVIS_PULL_REQUEST" != "false" ] ; then
     echo "Applying Link check"
