@@ -8,7 +8,7 @@ Welcome to the Mobile Application Security Verification Standard (MASVS) 1.1. Th
 
 The MASVS is a culmination of community effort and industry feedback. We expect this standard to evolve over time and welcome feedback from the community.
 
-The best way to get in contact with us is via the OWASP Mobile Project Slack channel: https://owasp.slack.com/messages/project-mobile_omtg/details/ .
+The best way to get in contact with us is via the OWASP Mobile Project Slack channel: <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
 
 Accounts can be created at the following URL: [http://owasp.herokuapp.com/](https://owasp.slack.com/join/shared_invite/enQtNDI5MzgxMDQ2MTAwLTEyNzIzYWQ2NDZiMGIwNmJhYzYxZDJiNTM0ZmZiZmJlY2EwZmMwYjAyNmJjNzQxNzMyMWY4OTk3ZTQ0MzFhMDY).
 
@@ -34,7 +34,6 @@ Accounts can be created at the following URL: [http://owasp.herokuapp.com/](http
 | Russian | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
 This document started as a fork of the OWASP Application Security Verification Standard written by Jim Manico.
-
 
 ## Sponsors
 

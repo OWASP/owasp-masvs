@@ -19,11 +19,11 @@ The purpose of the controls listed in this section is to ensure the confidential
 
 The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md
+- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
+- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
 
 For more information, see also:
 
-- OWASP Mobile Top 10: M3 - Insecure Communication: https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication
-- CWE: https://cwe.mitre.org/data/definitions/319.html
-- CWE: https://cwe.mitre.org/data/definitions/295.html
+- OWASP Mobile Top 10: M3 - Insecure Communication: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication>
+- CWE: <https://cwe.mitre.org/data/definitions/319.html>
+- CWE: <https://cwe.mitre.org/data/definitions/295.html>
