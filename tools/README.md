@@ -16,6 +16,7 @@ Files:
 - generate_toc.rb: used to generate a TOC file.
 - gitbookepubandpdf.sh: used to generate the epub, pdf and mobi files.
 - reference.docx: templatefile used for generating the word doc using `generate_document.sh`.
+#TODO: UPDATE RELEASES AND FILES!
 
 ## Release process:
 1. Sync @sushi2k's repository
