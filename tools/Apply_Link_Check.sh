@@ -49,3 +49,9 @@ apply_link_check_lang fr
 apply_link_check_lang ja
 apply_link_check_lang ru
 apply_link_check_lang zhtw
+
+#getlink-result-total
+if test -f "../lint-check-result-all-lang.out"; then
+        rm ../lint-check-result-all-lang.out
+    fi
+cat link-check-result.out link-check-result-de.out link-check-result-es.out link-check-result-fr.out link-check-result-ja.out  link-check-result-ru.out link-check-result-zhtw.out > lint-check-result-all-lang.out
