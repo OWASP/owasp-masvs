@@ -46,9 +46,10 @@ finalize () {
     if test -f "../link-check-result-all-lang.out"; then
             rm ../lint-check-result-all-lang.out
         fi
+    cd ..
     cat link-check-result.out link-check-result-de.out link-check-result-es.out link-check-result-fr.out link-check-result-ja.out link-check-result-ru.out link-check-result-zhtw.out > link-check-result-all-lang.out
     
-    errors_total=$(errors=`grep -c "ERROR:" ../link-check-result-all-lang.out`) 
+    errors_total=`grep -c "ERROR:" link-check-result-all-lang.out`
     echo "Errors total: $errors_total"
     if [[ $errors_total != "0" ]] 
     then
