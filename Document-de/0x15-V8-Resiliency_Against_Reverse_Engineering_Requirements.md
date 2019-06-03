@@ -22,7 +22,7 @@ Folgende Eckpunkte gelten:
 
 ### Dynamische Analyse und Manipulation verhindern
 
-| # | Beschreibung | R |
+| # | Code | Beschreibung | R |
 | --- | --- | --- |
 | **8.1** | MSTG-RESILIENCE-1 | Die App erkennt und reagiert auf ein gerootetes Gerät oder Geräte mit jailbreak indem der Nutzer gewarnt oder die App beendet wird. | ✓ |
 | **8.2** | MSTG-RESILIENCE-2 | Die App verhindert Debugging und/oder erkennt und reagiert auf einen Debugger. Alle verfügbaren Debugging-Protokolle müssen abgedeckt werden. | ✓ |
