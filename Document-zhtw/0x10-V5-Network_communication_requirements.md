@@ -19,11 +19,11 @@
 
 OWASP Mobile Security Testing Guide 提供了有關驗證本章節中列出的準則的詳細使用說明。
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md
+- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
+- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
 
 更多相關信息，另請參閱：
 
-- OWASP Mobile Top 10: M3 - Insecure Communication: https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication
-- CWE: https://cwe.mitre.org/data/definitions/319.html
-- CWE: https://cwe.mitre.org/data/definitions/295.html
+- OWASP Mobile Top 10: M3 - Insecure Communication: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication>
+- CWE: <https://cwe.mitre.org/data/definitions/319.html>
+- CWE: <https://cwe.mitre.org/data/definitions/295.html>
