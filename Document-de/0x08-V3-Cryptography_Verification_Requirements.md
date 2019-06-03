@@ -10,7 +10,7 @@ Kryptographie ist eine wesentlicher Eckpfeiler zum Schutz von Daten, die auf mob
 
 ## Anforderungen
 
-| # | Code | Beschreibung | L1 | L2 |
+| # | Kategorie | Beschreibung | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **3.1** | MSTG‑CRYPTO‑1 | Verschlüsselung in der App basiert nicht nur auf symmetrischer Kryptographie mit hart-codierten Schlüsseln.| ✓ | ✓ |
 | **3.2** | MSTG‑CRYPTO‑2 | Die App nutzt bewährte Implementierungen zur Umsetzung kryptographischer Primitive. | ✓ | ✓ |

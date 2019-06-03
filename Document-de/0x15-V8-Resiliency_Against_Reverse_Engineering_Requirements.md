@@ -22,7 +22,7 @@ Folgende Eckpunkte gelten:
 
 ### Dynamische Analyse und Manipulation verhindern
 
-| # | Code | Beschreibung | R |
+| # | Kategorie | Beschreibung | R |
 | --- | --- | --- | -- |
 | **8.1** | MSTG‑RESILIENCE‑1 | Die App erkennt und reagiert auf ein gerootetes Gerät oder Geräte mit jailbreak indem der Nutzer gewarnt oder die App beendet wird. | ✓ |
 | **8.2** | MSTG‑RESILIENCE‑2 | Die App verhindert Debugging und/oder erkennt und reagiert auf einen Debugger. Alle verfügbaren Debugging-Protokolle müssen abgedeckt werden. | ✓ |
@@ -36,13 +36,13 @@ Folgende Eckpunkte gelten:
 
 ### Gerätebindung
 
-| # | Code | Beschreibung | R |
+| # | Kategorie | Beschreibung | R |
 | --- | --- | --- | -- |
 | **8.10** | MSTG‑RESILIENCE‑10 | Die App implementiert einen Mechanismus zur Gerätebindung bei dem der Geräte-Fingerabdruck aus mehreren einzigartigen Geräteeigenschaften ermittelt wird. | ✓ |
 
 ### Nachvollziehbarkeit verhindern
 
-| # | Code | Beschreibung | R |
+| # | Kategorie | Beschreibung | R |
 | --- | --- | --- | -- |
 | **8.11** | MSTG‑RESILIENCE‑11 | Alle ausführbaren Dateien und Bibliotheken der App sind entweder auf Dateiebene verschlüsselt und/oder wichtige Code- und Datenabsegmente in ausführbaren Dateien sind verschlüsselt oder durch Packing obfuskiert. Triviale statische Analyse offenbart keinen wichtigen Code oder Daten. | ✓ |
 | **8.12** | MSTG‑RESILIENCE‑12 | Wenn das Ziel der Obfuskierung der Schutz sensibler Logik wie Algorithmen oder Berechnungen ist, so wird ein angemessener Obfuskierungsmechanismus, dem Stand der Technik entsprechend, genutzt der resilient gegen manuelle und automatisierte De-Obfuskierungsangriffe ist. Die Wirksamkeit der Obfuskierungsmethode muss durch manuelle Tests überprüft werden. Es ist zu beachten, dass hardware-basierte Isolations-Mechanismen softwarebasierter Obfuskierung vorzuziehen sind. | ✓ |

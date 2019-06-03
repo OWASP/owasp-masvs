@@ -10,7 +10,7 @@ Die Kategorie "V1" enthält Sicherheitsanforderungen an die Architektur und das 
 
 Die Anforderungen für MASVS-L1 und MASVS-L2 sind nachfolgend aufgelistet.
 
-| # | Code | Beschreibung | L1 | L2 |
+| # | Kategorie | Beschreibung | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **1.1** | MSTG‑ARCH‑1 | Alle Komponenten der mobilen App sind identifiziert und für den Betrieb der App erforderlich. | ✓ | ✓ |
 | **1.2** | MSTG‑ARCH‑2 | Sicherheitsfunktionen sind niemals nur auf Client-Seite implementiert sondern immer auch im entsprechenden entfernten API-Endpunkt. | ✓ | ✓ |
