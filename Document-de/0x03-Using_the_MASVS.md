@@ -2,10 +2,9 @@
 
 Der MASVS kann genutzt werden um das Sicherheitsniveau von mobilen Apps nachweisen zu können. Die Anforderungen wurden auf Basis folgender Ziele entwickelt:
 
-* Nutzung als Metrik - Um Entwicklern und Applikations-Verantwortlichen einen Security Standard anzubieten gegen den existierende mobile Apps verglichen werden können;
-* Nutzung als Hilfestellung - Um Hilfe zu bieten in allen Phasen mobiler App-Entwicklung und Tests.
-* Nutzung bei Beschaffung/Kauf von mobilen Apps - Um als Baseline zur Prüfung der Security von mobilen Apps zu dienen.
-
+- Nutzung als Metrik - Um Entwicklern und Applikations-Verantwortlichen einen Security Standard anzubieten gegen den existierende mobile Apps verglichen werden können;
+- Nutzung als Hilfestellung - Um Hilfe zu bieten in allen Phasen mobiler App-Entwicklung und Tests.
+- Nutzung bei Beschaffung/Kauf von mobilen Apps - Um als Baseline zur Prüfung der Security von mobilen Apps zu dienen.
 
 ## Das Mobile AppSec Model
 
@@ -58,7 +57,7 @@ Insgesamt gibt es folgende Prüfkombinationen:
 
 Die Kombinationen stellen verschiedene Graduierungen der Security und Resilienz dar. Das Ziel ist Flexibilität: Eine Gaming-App z.B. wird aus Usability-Gesichtspunkten darauf verzichten, MASVS-L2 Maßnahmen wie 2-Faktor Authentifizierung zu nutzen hat jedoch aus Business-Sicht hohen Schutzbedarf gegen Code-Manipulation (Tampering).
 
-#### Welche Prüfvariante wählen?
+#### Prüfvariante wählen
 
 Die Anforderungen aus MASVS L2 zu implementieren erhöht die Sicherheit - dies kann sich jedoch negativ auf die Endnutzerakzeptanz auswirken (klassischer Kompromiss). Zeitgleich steigen die Entwicklungskosten.
 
