@@ -1,8 +1,7 @@
 #!/bin/bash
-# Script taken from https://github.com/OWASP/CheatSheetSeries/blob/master/scripts/Apply_Linter_Check.sh
+# Script taken from https://github.com/OWASP/CheatSheetSeries/blob/master/scripts/Apply_Linter_Check.sh and adapted for multi-langual processing
 # Script in charge of auditing the released MD files with the linter policy defined at project level
 
-#todo: make it multilanguage!
 cd ..
 
 apply_lint_check_en(){
@@ -12,9 +11,7 @@ apply_lint_check_en(){
     content=`cat linter-result.out`
     if [[ $errors != "0" ]]
     then
-        echo "[!] Error(s) found by the Linter for language en: $content"
-        echo "Only warning for now..."
-        #exit $errors
+        echo "[!] $errors Error(s) found by the Linter for language en: $content"
     else
         echo "[+] No error found by the Linter for language en."
         rm linter-result.out
@@ -28,12 +25,25 @@ apply_lint_check_lang(){
     content=`cat linter-result-$1.out`
     if [[ $errors != "0" ]]
     then
-        echo "[!] Error(s) found by the Linter for language $1: $content"
-        echo "Only warning for now..."
-        #exit $errors
+        echo "[!] $errors Error(s) found by the Linter for language $1: $content"
     else
         echo "[+] No error found by the Linter for language $1."
         rm linter-result-$1.out
+    fi
+}
+
+finalize() {
+    #getlint-result-total
+    if test -f "lint-check-result-all-lang.out"; then
+            rm lint-check-result-all-lang.out
+    fi
+    cat linter-result.out linter-result-de.out linter-result-es.out linter-result-fr.out linter-result-ja.out linter-result-ru.out linter-result-zhtw.out > lint-check-result-all-lang.out
+    errors_total=$(wc -l lint-check-result-all-lang.out)
+    errors_total_number=$(echo $errors_total| cut -d' ' -f 1)
+    echo "Errors total: $errors_total_number"
+    if [[ $errors_total_number != "0" ]] 
+    then
+        exit $(($errors_total_number))
     fi
 }
 
@@ -44,3 +54,4 @@ apply_lint_check_lang fr
 apply_lint_check_lang ja
 apply_lint_check_lang ru
 apply_lint_check_lang zhtw
+finalize

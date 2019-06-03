@@ -8,7 +8,7 @@ Bienvenido al Estándar de Verificación de Seguridad de Aplicaciones Móviles (
 
 El MASVS es la culminación del esfuerzo de la comunidad y la retroalimentación con la industria. Esperamos que este estándar evolucione con el tiempo y agradecemos la retroalimentación de la comunidad.
 
-La mejor manera de ponerse en contacto con nosotros es a través del canal OWASP Mobile Project en Slack: https://owasp.slack.com/messages/project-mobile_omtg/details/
+La mejor manera de ponerse en contacto con nosotros es a través del canal OWASP Mobile Project en Slack: <https://owasp.slack.com/messages/project-mobile_omtg/details/>
 
 Las cuentas se pueden crear en la siguiente URL: [http://owasp.herokuapp.com/](https://owasp.slack.com/join/shared_invite/enQtNDI5MzgxMDQ2MTAwLTEyNzIzYWQ2NDZiMGIwNmJhYzYxZDJiNTM0ZmZiZmJlY2EwZmMwYjAyNmJjNzQxNzMyMWY4OTk3ZTQ0MzFhMDY).
 
@@ -34,7 +34,6 @@ Las cuentas se pueden crear en la siguiente URL: [http://owasp.herokuapp.com/](h
 | Ruso | Gall Maxim, Chelnokov Vladislav (revisor), Oprya Egor (revisor), Tereshin Dmitry (revisor) |
 
 Este documento comenzó como una bifurcación del Estándar de Verificación de Seguridad de Aplicaciones de OWASP escrito por Jim Manico.
-
 
 ## Sponsors
 
