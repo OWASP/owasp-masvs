@@ -6,7 +6,7 @@ Die Anforderungen aus dieser Kategorie sollen sicherstellen, dass Plattform-Komp
 
 ## Anforderungen
 
-| # | Code | Beschreibung | L1 | L2 |
+| # | Kategorie | Beschreibung | L1 | L2 |
 | --- | --- | --- | --- |
 | **6.1** | MSTG‑PLATFORM‑1 | Die App fordert vom Nutzer nur die unbedingt erforderlichen App-Berechtigungen. | ✓ | ✓ |
 | **6.2** | MSTG‑PLATFORM‑2 | Alle Eingaben von externen Quellen und dem Nutzer werden validiert und falls erforderlich bereinigt. Dazu gehören Daten aus der GUI, IPC Mechanismen wie Intents oder spezifische URL-Schemas und Netzwerk-Daten. | ✓ | ✓ |
