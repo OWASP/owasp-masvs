@@ -21,11 +21,11 @@ Estos controles revisan que se utilicen las APIs de la plataforma y componentes 
 
 La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detalladas para verificar los requisitos listados en esta sección.
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md
+- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
+- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
 
 Para más información, ver también:
 
-- OWASP Top 10 Móvil: M1 - Uso inapropiado de la Plataforma: https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage
-- CWE: https://cwe.mitre.org/data/definitions/20.html
-- CWE: https://cwe.mitre.org/data/definitions/749.html
+- OWASP Top 10 Móvil: M1 - Uso inapropiado de la Plataforma: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage>
+- CWE: <https://cwe.mitre.org/data/definitions/20.html>
+- CWE: <https://cwe.mitre.org/data/definitions/749.html>
