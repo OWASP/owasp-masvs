@@ -1,4 +1,5 @@
 #!/bin/sh
+#script used to generate actual files and prepare pr-related installation at the build-server
 cd $TRAVIS_BUILD_DIR/Tools
 echo "Applying Linter check"
 echo "Counting amount of linter issues:"
@@ -14,7 +15,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" ] ; then
     echo "linkresult:"
     echo "$LINKRESULT"
     echo "end of linkresult"
-    if [ "$LINTRESULT" -eq "0" ]; then
+    if [ $LINTRESULT == 0 ]; then
         COMMENT_LINT=""
     else 
         COMMENT_LINT="Please run the Apply_Linter_check.sh in the tools folder to see where the Lint issues are."
@@ -25,10 +26,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" ] ; then
         COMMENT_LINK="Please run the Apply_Link_Check.sh in the tools folder to see wherhe the Link issues are."
     fi
     echo "Sending feedback to Github"
-    echo "start body"
-    echo "Results for commit $TRAVIS_COMMIT: Broken link result: $LINKRESULT .\n $COMMENT_LINK \n Markdown result errorlength: $LINTRESULT .\n $COMMENT_LINT "
-    echo "end body"
-    curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST \
+        curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST \
     -d "{\"body\": \"Results for commit $TRAVIS_COMMIT: Broken link result: $LINKRESULT .\n $COMMENT_LINK \n Markdown result errorlength: $LINTRESULT .\n $COMMENT_LINT  \"}" \
     "https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments"
 fi
@@ -49,4 +47,4 @@ sh ./generate_document_ru.sh $TRAVIS_TAG
 sh ./generate_document_zhtw.sh $TRAVIS_TAG
 
 echo "Checking epub validity"
-sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_($TRAVIS_TAG)_Document-de.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_($TRAVIS_TAG)_Document.epub
