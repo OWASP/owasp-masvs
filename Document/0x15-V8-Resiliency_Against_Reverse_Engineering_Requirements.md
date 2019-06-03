@@ -22,7 +22,7 @@ The following considerations apply:
 
 ### Impede Dynamic Analysis and Tampering
 
-| # | Description | R |
+| # | Code | Description | R |
 | --- | --- | --- |
 | **8.1** | MSTG-RESILIENCE-1 | The app detects, and responds to, the presence of a rooted or jailbroken device either by alerting the user or terminating the app. | ✓ |
 | **8.2** | MSTG-RESILIENCE-2 | The app prevents debugging and/or detects, and responds to, a debugger being attached. All available debugging protocols must be covered. | ✓ |
