@@ -4,7 +4,7 @@
 
 La protección de datos sensibles, como las credenciales del usuario y la información privada, es un aspecto clave de la seguridad móvil. En primer lugar, los datos confidenciales pueden exponerse involuntariamente a otras aplicaciones que se ejecutan en el mismo dispositivo si se utilizan de forma inadecuada mecanismos de comunicación entre procesos del sistema operativo. Los datos también pueden filtrarse involuntariamente en el almacenamiento en la nube, las copias de seguridad o la caché del teclado. Además, los dispositivos móviles pueden perderse o robarse más fácilmente que otros tipos de dispositivos, por lo que un adversario que obtiene acceso físico al mismo es un escenario más probable. En ese caso, se pueden implementar protecciones adicionales para dificultar la recuperación de los datos sensibles.
 
-El MASVS se centra en las aplicaciones y por esto no cubre políticas para el dispositivo como Mobile Device Managment (MDM) (https://gsuite.google.com/products/admin/mobile/) o Enter (EDM). Igualmente se recomienda utilizar estas soluciones en contextos empresariales.
+El MASVS se centra en las aplicaciones y por esto no cubre políticas para el dispositivo como Mobile Device Managment (MDM) (<https://gsuite.google.com/products/admin/mobile/)> o Enter (EDM). Igualmente se recomienda utilizar estas soluciones en contextos empresariales.
 
 ### Definición de Datos Sensibles
 
@@ -41,10 +41,10 @@ La gran mayoría de las cuestiones relativas a la divulgación de datos pueden p
 
 La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detalladas para verificar los requisitos listados en esta sección.
 
-- Para Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md
-- Para iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md
+- Para Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
+- Para iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
 
 Para más información, ver también:
 
-- OWASP Top 10 Móvil: M2 - Almacenamiento de Datos Inseguro: https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage
-- CWE: https://cwe.mitre.org/data/definitions/922.html
+- OWASP Top 10 Móvil: M2 - Almacenamiento de Datos Inseguro: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage>
+- CWE: <https://cwe.mitre.org/data/definitions/922.html>
