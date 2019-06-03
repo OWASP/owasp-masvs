@@ -21,7 +21,7 @@ Ein Großteil von Datenpannen kann bereits durch Einhaltung einfacher Regeln ver
 
 | # | Code | Beschreibung | L1 | L2 |
 | --- | --- | --- | --- | --- |
-| **2.1** | `MSTG-STORAGE-1` | Die App speichert sensible Daten wie personenbezogene Daten, Anmeldedaten oder kryptographische Schlüssel unter Nutzung der vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismen. | ✓ | ✓ |
+| **2.1** | MSTG-STORAGE-1 | Die App speichert sensible Daten wie personenbezogene Daten, Anmeldedaten oder kryptographische Schlüssel unter Nutzung der vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismen. | ✓ | ✓ |
 | **2.2** | MSTG-STORAGE-2 | Es werden keine sensiblen Daten außerhalb des App-Containers oder außerhalb des vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismus abgelegt. | ✓ | ✓ |
 | **2.3** | MSTG-STORAGE-3 | Es werden keine sensiblen Daten in die Logfiles der App geschrieben. | ✓ | ✓ |
 | **2.4** | MSTG-STORAGE-4 | Es werden keine sensiblen Daten mit Dritten geteilt - es sei denn dies wurde in der App-Architektur definiert und ist zur Erfüllung des Zwecks der App erforderlich. | ✓ | ✓ |
