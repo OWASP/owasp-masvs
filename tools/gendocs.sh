@@ -22,6 +22,9 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" ] ; then
         COMMENT_LINK="Please run the Apply_Link_Check.sh in the tools folder to see wherhe the Link issues are."
     fi
     echo "Sending feedback to Github"
+    echo "start body"
+    echo "Results for commit $TRAVIS_COMMIT: Broken link result: $LINKRESULT .\n $COMMENT_LINK \n Markdown result errorlength: $LINTRESULT .\n $COMMENT_LINT "
+    echo "end body"
     curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST \
     -d "{\"body\": \"Results for commit $TRAVIS_COMMIT: Broken link result: $LINKRESULT .\n $COMMENT_LINK \n Markdown result errorlength: $LINTRESULT .\n $COMMENT_LINT  \"}" \
     "https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments"
