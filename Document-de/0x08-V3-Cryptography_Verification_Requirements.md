@@ -3,6 +3,7 @@
 ## Zielsetzung
 
 Kryptographie ist eine wesentlicher Eckpfeiler zum Schutz von Daten, die auf mobilen Geräten gespeichert werden. Es ist aber auch eine Kategorie bei der vieles falsch gemacht werden kann, besonders wenn man keine Standard-Konventionen einhält. Die Kategorie soll sicherstellen, dass eine überprüfte App Kryptographie-Best-Practices nach dem Stand der Technik nutzt:
+
 - Nutzung bewährter Krypto-Bibliotheken,
 - Richtige Auswahl und Konfiguration kryptographischer Primitive,
 - Nutzung eines geeigneten Zufallszahlengenerators wenn kryptographisch sichere Zufallszahlen erforderlich sind.
@@ -18,14 +19,16 @@ Kryptographie ist eine wesentlicher Eckpfeiler zum Schutz von Daten, die auf mob
 | **3.5** | Die App verwendet einen kryptographischen Schlüssel für genau einen Zweck und nicht für mehrere Zwecke. | ✓ | ✓ |
 | **3.6** | Alle Zufallswerte werden über einen ausreichend sicheren kryptographischen Zufallszahlengenerator erzeugt. | ✓ | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## Referenzen
 
 Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die Anforderungen aus dieser Kategorie zu überprüfen.
 
-- Für Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md
-- Für iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md
+- Für Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
+- Für iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
 
 Weitere Informationen unter:
 
-- OWASP Mobile Top 10: M5 - Insufficient Cryptography: https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography
-- CWE: https://cwe.mitre.org/data/definitions/310.html
+- OWASP Mobile Top 10: M5 - Insufficient Cryptography: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography>
+- CWE: <https://cwe.mitre.org/data/definitions/310.html>

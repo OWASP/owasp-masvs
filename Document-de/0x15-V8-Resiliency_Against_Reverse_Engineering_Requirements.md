@@ -20,7 +20,7 @@ Folgende Eckpunkte gelten:
 
 <div style="page-break-after: always;"></div>
 
-###  Dynamische Analyse und Manipulation verhindern
+### Dynamische Analyse und Manipulation verhindern
 
 | # | Beschreibung | R |
 | --- | --- | --- |
@@ -51,12 +51,12 @@ Folgende Eckpunkte gelten:
 
 Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die Anforderungen aus dieser Kategorie zu überprüfen.
 
-- Für Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md
-- Für iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md
+- Für Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- Für iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
 Weitere Informationen unter:
 
-- OWASP Mobile Top 10: M8 - Code Tampering: https://www.owasp.org/index.php/Mobile_Top_10_2016-M8-Code_Tampering
-- OWASP Mobile Top 10: M9 - Reverse Engineering: https://www.owasp.org/index.php/Mobile_Top_10_2016-M9-Reverse_Engineering
-- WASP Reverse Engineering Threats - https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification
-- OWASP Reverse Engineering and Code Modification Prevention - https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project
+- OWASP Mobile Top 10: M8 - Code Tampering: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M8-Code_Tampering>
+- OWASP Mobile Top 10: M9 - Reverse Engineering: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M9-Reverse_Engineering>
+- WASP Reverse Engineering Threats - <https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification>
+- OWASP Reverse Engineering and Code Modification Prevention - <https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project>
