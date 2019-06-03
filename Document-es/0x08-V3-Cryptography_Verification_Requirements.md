@@ -10,7 +10,7 @@ La criptografía es un componente esencial a la hora de proteger los datos almac
 
 ## Requerimientos de Verificación de Seguridad
 
-| # | Code | Descripción | L1 | L2 |
+| # | Categoría | Descripción | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **3.1** | MSTG‑CRYPTO‑1 | La aplicación no depende de únicamente de criptografía simétrica con claves escritas en el código.| ✓ | ✓ |
 | **3.2** | MSTG‑CRYPTO‑2 | La aplicación utiliza implementaciones de criptografía probadas. | ✓ | ✓ |

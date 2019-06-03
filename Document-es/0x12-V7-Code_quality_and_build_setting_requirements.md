@@ -6,7 +6,7 @@ Estos controles buscan asegurar que se siguieron las prácticas de seguridad bá
 
 ## Requerimientos de Verificación de Seguridad
 
-| # | Code | Descripción | L1 | L2 |
+| # | Categoría | Descripción | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **7.1** | MSTG‑CODE‑1 | La aplicación es firmada y provista con un certificado válido, del cual se protege debidamente su clave privada. | ✓ | ✓ |
 | **7.2** | MSTG‑CODE‑2 | La aplicación fue liberada en modo release y con las configuraciones apropiadas para el mismo (ej. non-debuggable). | ✓ | ✓ |

@@ -22,7 +22,7 @@ Se aplican las siguientes consideraciones:
 
 ### Impedir el Análisis Dinámico y la Manipulación
 
-| # | Code | Descripción | R |
+| # | Categoría | Descripción | R |
 | --- | --- | --- | -- |
 | **8.1** | MSTG‑RESILIENCE‑1 | La aplicación detecta y responde a la presencia de un dispositivo rooteado, ya sea alertando al usuario o finalizando la ejecución de la aplicación. | ✓ |
 | **8.2** | MSTG‑RESILIENCE‑2 | La aplicación previene el debugging o detecta y responde al debugging de la aplicación. Se deben cubrir todos los protocolos. | ✓ |
@@ -36,13 +36,13 @@ Se aplican las siguientes consideraciones:
 
 ### Atadura del Dispositivo
 
-| # | Code | Descripción | R |
+| # | Categoría | Descripción | R |
 | --- | --- | --- | -- |
 | **8.10** | MSTG‑RESILIENCE‑10 | La aplicación implementa un “enlace al dispositivo” utilizando una huella del dispositivo derivado de varias propiedades únicas al mismo. | ✓ |
 
 ### Impedir la comprensión
 
-| # | Code | Descripción | R |
+| # | Categoría | Descripción | R |
 | --- | --- | --- | -- |
 | **8.11** | MSTG‑RESILIENCE‑11 | Todos los archivos ejecutables y bibliotecas correspondientes a la aplicación se encuentran cifrados, o bien los segmentos importantes de código se encuentran cifrados o empaquetados. De este modo el análisis estático trivial no revela código importante o datos. | ✓ |
 | **8.12** | MSTG‑RESILIENCE‑12 | Si el objetivo de la ofuscación es proteger el código propietario, se utiliza un esquema de ofuscación que es apropiado tanto para la tarea particular como robusto contra los métodos de des-ofuscación manual y automatizada, considerando la investigación publicada actualmente. La eficacia del esquema de ofuscación debe verificarse mediante pruebas manuales. Tenga en cuenta que las características de aislamiento basadas en hardware son preferibles a la ofuscación siempre que sea posible. | ✓ |
