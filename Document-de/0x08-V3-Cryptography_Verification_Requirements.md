@@ -12,12 +12,12 @@ Kryptographie ist eine wesentlicher Eckpfeiler zum Schutz von Daten, die auf mob
 
 | # | Code | Beschreibung | L1 | L2 |
 | --- | --- | --- | --- | --- |
-| **3.1** | MSTG-CRYPTO-1 | Verschlüsselung in der App basiert nicht nur auf symmetrischer Kryptographie mit hart-codierten Schlüsseln.| ✓ | ✓ |
-| **3.2** | MSTG-CRYPTO-2 | Die App nutzt bewährte Implementierungen zur Umsetzung kryptographischer Primitive. | ✓ | ✓ |
-| **3.3** | MSTG-CRYPTO-3 | Die App nutzt kryptographische Primitive passend zum spezifischen Anwendungsfall, konfiguriert nach Best-Practice Vorgaben dem Stand der Technik entsprechend. | ✓ | ✓|
-| **3.4** | MSTG-CRYPTO-4 | Die App nutzt keine kryptographischen Protokolle oder Algorithmen die allgemein als veraltet und unsicher gelten. | ✓ | ✓|
-| **3.5** | MSTG-CRYPTO-5 | Die App verwendet einen kryptographischen Schlüssel für genau einen Zweck und nicht für mehrere Zwecke. | ✓ | ✓ |
-| **3.6** | MSTG-CRYPTO-6 | Alle Zufallswerte werden über einen ausreichend sicheren kryptographischen Zufallszahlengenerator erzeugt. | ✓ | ✓ |
+| **3.1** | Verschlüsselung in der App basiert nicht nur auf symmetrischer Kryptographie mit hart-codierten Schlüsseln.| ✓ | ✓ | MSTG-CRYPTO-1 |
+| **3.2** | Die App nutzt bewährte Implementierungen zur Umsetzung kryptographischer Primitive. | ✓ | ✓ | MSTG-CRYPTO-2 | 
+| **3.3** | Die App nutzt kryptographische Primitive passend zum spezifischen Anwendungsfall, konfiguriert nach Best-Practice Vorgaben dem Stand der Technik entsprechend. | ✓ | ✓| MSTG-CRYPTO-3 |
+| **3.4** | Die App nutzt keine kryptographischen Protokolle oder Algorithmen die allgemein als veraltet und unsicher gelten. | ✓ | ✓|MSTG-CRYPTO-4 |
+| **3.5** | Die App verwendet einen kryptographischen Schlüssel für genau einen Zweck und nicht für mehrere Zwecke. | ✓ | ✓ | MSTG-CRYPTO-5 |
+| **3.6** | Alle Zufallswerte werden über einen ausreichend sicheren kryptographischen Zufallszahlengenerator erzeugt. | ✓ | ✓ | MSTG-CRYPTO-6 |
 
 <div style="page-break-after: always;"></div>
 
