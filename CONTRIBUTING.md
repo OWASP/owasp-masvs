@@ -2,7 +2,7 @@
 
 ## How to contribute
 
-A direct contribution to the MASVS can be done in many different ways. As the MASVS is summarizing the requirements outlined in detail in the MSTG, please create [issues](https://github.com/OWASP/owasp-masvs/issues "MASVS Issues") first for missing requirements, content or errors so that it can be discussed **before** creating a PR. In order to avoid conflicts that several people are working on the same issue without knowing it, the issue will be assigned to one or more people through the project leaders.
+A direct contribution to the MASVS can be done in many different ways. As the MASVS is summarizing the requirements outlined in detail in the MSTG, please create [issues](https://github.com/OWASP/owasp-masvs/issues "MASVS Issues") first for missing requirements, content or errors so that it can be discussed **before** creating a PR. In order to avoid conflicts that several people are working on the same issue without knowing it, the issue will be assigned to one or more people by the project leaders.
 Explain what you think is missing in the issue, including references (if available) and give a suggestion as to where it could be added.
 
 A [Pull Request (PR)](https://github.com/OWASP/owasp-masvs/pulls "Create a pull request") is a direct contribution to the guide and your PR may be merged after review. Be sure to follow our [style guide](https://github.com/OWASP/owasp-mstg/blob/master/style_guide.md "MSTG Style Guide") when writing content. A PR is the preferred way for small modifications such as correcting typos. If you are a fluent speaker in any of the different languages that the MASVS is available in, feel free to give feedback on any of the submitted PRs.
@@ -28,7 +28,7 @@ upstream git@github.com:OWASP/owasp-masvs.git (fetch)
 upstream git@github.com:OWASP/owasp-masvs.git (push)
 ```
 
-See also the Github documentation about [Configuring a remote for a fork](https://help.github.com/en/articles/configuring-a-remote-for-a-fork "Configuring a remote for a fork").
+See also the GitHub documentation about [Configuring a remote for a fork](https://help.github.com/en/articles/configuring-a-remote-for-a-fork "Configuring a remote for a fork").
 5. Choose what to work on, based on any of the outstanding [issues](https://github.com/OWASP/owasp-masvs/issues "MASVS Issues").
 6. Create a branch so that you can cleanly work on the chosen issue: `git checkout -b FixingIssue66`
 7. Open your favorite editor and start making modifications. We recommend using the free [Visual Studio Code editor](https://code.visualstudio.com "Visual Studio Code") as it can make use of the code linting feature through the [MarkdownLint plugin](https://github.com/DavidAnson/vscode-markdownlint#install "MarkdownLint plugin"). The code linter can help you when you make mistakes against our [style guide](https://github.com/OWASP/owasp-mstg/blob/master/style_guide.md "MSTG Style Guide"), but be sure to read the style guide yourself, as the code linter will only detect a part of it.
