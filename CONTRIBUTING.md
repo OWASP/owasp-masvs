@@ -2,7 +2,7 @@
 
 ## How to contribute
 
-A direct contribution to the MASVS can be done in many different ways. As the MASVS is summarizing the requirements outlined in detail in the MSTG, please create [issues](https://github.com/OWASP/owasp-masvs/issues "MASVS Issues") first for missing requirements, content or errors so the content can be discussed  before creating a PR. Explain what you think is missing in the issue, including references (if available) and give a suggestion as to where it could be added.
+A direct contribution to the MASVS can be done in many different ways. As the MASVS is summarizing the requirements outlined in detail in the MSTG, please create [issues](https://github.com/OWASP/owasp-masvs/issues "MASVS Issues") first for missing requirements, content or errors so the content can be discussed before creating a PR. Explain what you think is missing in the issue, including references (if available) and give a suggestion as to where it could be added.
 
 A [Pull Request (PR)](https://github.com/OWASP/owasp-masvs/pulls "Create a pull request") is a direct contribution to the guide and your PR may be merged after review. Be sure to follow our [style guide](https://github.com/OWASP/owasp-mstg/blob/master/style_guide.md "MSTG Style Guide") when writing content. A PR is the preferred way for small modifications such as correcting typos. If you are a fluent speaker in any of the different languages that the MASVS is available in, feel free to give feedback on any of the submitted PRs.
 
@@ -13,16 +13,27 @@ After your PR or issue has been submitted, we will review it as quickly as possi
 1. Create a GitHub account. Multiple different GitHub subscription plans are available, but you only need a free one. Follow [these steps](https://help.github.com/en/articles/signing-up-for-a-new-github-account "Signing up for a new GitHub account") to set up your account.
 2. Fork the repository. Creating a fork means creating a copy of the repository on your own account, which you can modify without any impact on this repository. GitHub has an [article that describes all the needed steps](https://help.github.com/en/articles/fork-a-repo "Fork a repo").
 3. Clone your own repository to your machine so that you can make modifications. If you followed the GitHub tutorial from step 2, you have already done this.
-4. Choose what to work on, based on any of the outstanding [issues](https://github.com/OWASP/owasp-masvs/issues "MASVS Issues").
-5. Create a branch so that you can cleanly work on the chosen issue: `git checkout -b FixingIssue66`
-6. Open your favorite editor and start making modifications. We recommend using the free [Visual Studio Code editor](https://code.visualstudio.com "Visual Studio Code") as it can make use of the code linting that is part of the repository through the [MarkdownLint plugin](https://github.com/DavidAnson/vscode-markdownlint#install "MarkdownLint plugin"). The code linter can help you when you make mistakes against our [style guide](https://github.com/OWASP/owasp-mstg/blob/master/style_guide.md "MSTG Style Guide"), but be sure to read the style guide yourself, as the code linter will only detect a part of it.
-7. After your modifications are done, push them to your forked repository. This can be done by executing the command `git add MYFILE` for every file you have modified, followed by `git commit -m 'Your Commit Message'` to commit the modifications and `git push` to push your modifications to GitHub. If this is the first time that you push the branch to GitHub, you will receive an error about a missing remote branch. Simply copy & paste the suggested fix to create the remote branch (Example: `git push --set-upstream origin FixingIssue66`)
-8. Create a Pull Request (PR) by going going to the [Create Pull Request page](https://github.com/OWASP/owasp-masvs/pull/new/master) and selecting your newly created branch. The target branch should typically be the Master branch. When submitting a PR, be sure to follow the checklist that is provided in the PR template. The checklist itself will be filled out by the reviewer.
+4. Go the newly cloned directly "owasp-masvs" and add the remote upstream repository:
+
+```bash
+$ git remote -v
+origin git@github.com:<your Github handle>/owasp-masvs.git (fetch)
+origin git@github.com:<your Github handle>/owasp-masvs.git (push)
+$ git remote add upstream git@github.com:OWASP/owasp-masvs.git
+$ git remote -v
+origin git@github.com:<your Github handle>/owasp-masvs.git (fetch)
+origin git@github.com:<your Github handle>/owasp-masvs.git (push)
+upstream git@github.com:OWASP/owasp-masvs.git (fetch)
+upstream git@github.com:OWASP/owasp-masvs.git (push)
+```
+
+See also the Github documentation about [Configuring a remote for a fork](https://help.github.com/en/articles/configuring-a-remote-for-a-fork "Configuring a remote for a fork").
+5. Choose what to work on, based on any of the outstanding [issues](https://github.com/OWASP/owasp-masvs/issues "MASVS Issues").
+6. Create a branch so that you can cleanly work on the chosen issue: `git checkout -b FixingIssue66`
+7. Open your favorite editor and start making modifications. We recommend using the free [Visual Studio Code editor](https://code.visualstudio.com "Visual Studio Code") as it can make use of the code linting feature through the [MarkdownLint plugin](https://github.com/DavidAnson/vscode-markdownlint#install "MarkdownLint plugin"). The code linter can help you when you make mistakes against our [style guide](https://github.com/OWASP/owasp-mstg/blob/master/style_guide.md "MSTG Style Guide"), but be sure to read the style guide yourself, as the code linter will only detect a part of it.
+8. After your modifications are done, push them to your forked repository. This can be done by executing the command `git add MYFILE` for every file you have modified, followed by `git commit -m 'Your Commit Message'` to commit the modifications and `git push` to push your modifications to GitHub.
+8. Create a Pull Request (PR) by going to your fork, <https://github.com/<your Github handle>/owasp-masvs> and click on the "New Pull Request" button. The target branch should typically be the Master branch. When submitting a PR, be sure to follow the checklist that is provided in the PR template. The checklist itself will be filled out by the reviewer.
 9. Your PR will be reviewed and comments may be given. In order to process a comment, simply make modifications to the same branch as before and push them to your repository. GitHub will automatically detect these changes and add them to your existing PR.
-
-If at any time you want to work on a different issue, you can simply switch to a different branch, as explained in step 5. Don't try to work on too many issues at once though, as it will be a lot more difficult to merge branches the longer they are open.
-
-Please feel free to ping us directly in the issue or PR via @commjoen and @sushi2k, so we can merge the PR or come to a conclusion for the issue.
 
 ## What not to do
 
