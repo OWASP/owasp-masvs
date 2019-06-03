@@ -12,7 +12,7 @@ Kryptographie ist eine wesentlicher Eckpfeiler zum Schutz von Daten, die auf mob
 
 | # | Code | Beschreibung | L1 | L2 |
 | --- | --- | --- | --- | --- |
-| **3.1** | Verschlüsselung in der App basiert nicht nur auf symmetrischer Kryptographie mit hart-codierten Schlüsseln.| ✓ | ✓ | MSTG-CRYPTO-1 |
+| **3.1** | Verschlüsselung in der App basiert nicht nur auf symmetrischer Kryptographie mit hart-codierten Schlüsseln.| ✓ | ✓ | MSTGCRYPTO1 |
 | **3.2** | Die App nutzt bewährte Implementierungen zur Umsetzung kryptographischer Primitive. | ✓ | ✓ | MSTG-CRYPTO-2 | 
 | **3.3** | Die App nutzt kryptographische Primitive passend zum spezifischen Anwendungsfall, konfiguriert nach Best-Practice Vorgaben dem Stand der Technik entsprechend. | ✓ | ✓| MSTG-CRYPTO-3 |
 | **3.4** | Die App nutzt keine kryptographischen Protokolle oder Algorithmen die allgemein als veraltet und unsicher gelten. | ✓ | ✓|MSTG-CRYPTO-4 |
