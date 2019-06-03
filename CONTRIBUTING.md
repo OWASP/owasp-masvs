@@ -35,6 +35,14 @@ See also the Github documentation about [Configuring a remote for a fork](https:
 8. After your modifications are done, push them to your forked repository. This can be done by executing the command `git add MYFILE` for every file you have modified, followed by `git commit -m 'Your Commit Message'` to commit the modifications and `git push` to push your modifications to GitHub.
 8. Create a Pull Request (PR) by going to your fork, <https://github.com/Your_Github_Handle/owasp-masvs> and click on the "New Pull Request" button. The target branch should typically be the Master branch. When submitting a PR, be sure to follow the checklist that is provided in the PR template. The checklist itself will be filled out by the reviewer.
 9. Your PR will be reviewed and comments may be given. In order to process a comment, simply make modifications to the same branch as before and push them to your repository. GitHub will automatically detect these changes and add them to your existing PR.
+10. When doing a new PR in the future, make sure to always keep your local repo up to date:
+
+```bash
+$ git fetch upstream
+$ git merge upstream/master
+```
+
+See also the following article for further explanation on "[How to Keep a Downstream git Repository Current with Upstream Repository Changes](https://medium.com/sweetmeat/how-to-keep-a-downstream-git-repository-current-with-upstream-repository-changes-10b76fad6d97 "How to Keep a Downstream git Repository Current with Upstream Repository Changes")".
 
 ## What not to do
 
