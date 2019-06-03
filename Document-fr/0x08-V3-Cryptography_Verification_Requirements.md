@@ -23,10 +23,10 @@ La cryptographie est un ingrédient essentiel pour la protection des données st
 
 Le Mobile Security Testing Guide de l'OWASP donne des instructions détaillées pour valider les exigences listées dans cette section.
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md
+- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
+- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
 
 Pour de plus amples informations, il est possible de consulter aussi :
 
-- OWASP Mobile Top 10: M5 - Cryptographie Insuffisante: https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography
-- CWE: https://cwe.mitre.org/data/definitions/310.html
+- OWASP Mobile Top 10: M5 - Cryptographie Insuffisante: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography>
+- CWE: <https://cwe.mitre.org/data/definitions/310.html>
