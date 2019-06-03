@@ -28,7 +28,7 @@ La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detal
 
 - General - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
 - Para Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
-- Para iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Authentication-and-Session-Management.md>
+- Para iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
 
 Para más información, ver también:
 
