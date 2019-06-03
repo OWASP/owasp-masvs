@@ -1,5 +1,7 @@
-# 附錄B ：參考資料 
+# 附錄B ：參考資料
+
 以下專案內容將幫助使用者/適用者更了解這個標準
+
 - OWASP 行動應用安全性專案 - [https://www.owasp.org/index.php/OWASP_Mobile_Security_Project](https://www.owasp.org/index.php/OWASP_Mobile_Security_Project)
 - OWASP 行動應用安全測試指南
 [https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide)
