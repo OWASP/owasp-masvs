@@ -2,3 +2,5 @@
 *.pyc
 node_modules
 *.out
+.idea
+.vscode

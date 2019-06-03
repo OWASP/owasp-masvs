@@ -26,12 +26,12 @@ En la mayoría de los casos, una parte esencial de la arquitectura global de apl
 
 La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detalladas para verificar los requisitos listados en esta sección.
 
-- General - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md
-- Para Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md
-- Para iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Authentication-and-Session-Management.md
+- General - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
+- Para Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
+- Para iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
 
 Para más información, ver también:
 
-- OWASP Top 10 Móvil: M4 - Autenticación Insegura: https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication
-- OWASP Top 10 Móvil: M6 - Autorización Insegura: https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization
-- CWE:  https://cwe.mitre.org/data/definitions/287.html
+- OWASP Top 10 Móvil: M4 - Autenticación Insegura: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication>
+- OWASP Top 10 Móvil: M6 - Autorización Insegura: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization>
+- CWE:  <https://cwe.mitre.org/data/definitions/287.html>

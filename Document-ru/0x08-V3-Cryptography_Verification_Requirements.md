@@ -2,7 +2,7 @@
 
 ## Цель верификации
 
-Криптография является неотъемлимым компонентом защиты данных, хранящихся на мобильном устройстве. Но кроме того, это область, в которой все может пойти не так, особенно когда стандартные правила не соблюдаются. Цель верификационных требований в этой главе состоит в том, чтобы убедиться, что проверяемое приложение использует криптографию в соответствии с лучшими практиками индустрии, такими, как: 
+Криптография является неотъемлимым компонентом защиты данных, хранящихся на мобильном устройстве. Но кроме того, это область, в которой все может пойти не так, особенно когда стандартные правила не соблюдаются. Цель верификационных требований в этой главе состоит в том, чтобы убедиться, что проверяемое приложение использует криптографию в соответствии с лучшими практиками индустрии, такими, как:
 
 - Использование проверенных криптографических библиотек;
 - Правильный выбор и настройка криптографических алгоритмов;
@@ -23,10 +23,10 @@
 
 OWASP MSTG содержит подробные инструкции по верификации требований, перечисленных в этом разделе.
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md
+- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
+- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
 
 Для получения дополнительной информации смотрите также:
 
-- OWASP Mobile Top 10: M5 - Недостаточное шифрование: https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography
-- CWE: https://cwe.mitre.org/data/definitions/310.html
+- OWASP Mobile Top 10: M5 - Недостаточное шифрование: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography>
+- CWE: <https://cwe.mitre.org/data/definitions/310.html>

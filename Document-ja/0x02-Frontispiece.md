@@ -1,6 +1,5 @@
 ![OWASP LOGO](images/OWASP_logo.png)
 
-
 # Mobile Application Security Verification Standard
 
 ## 本標準について
@@ -9,7 +8,7 @@ Mobile Application Security Verification Standard (MASVS) 1.1 へようこそ。
 
 MASVS はコミュニティにおける取組みと業界からのフィードバックの成果です。私たちは本標準が時間の経過とともに進化することを期待しており、コミュニティからのフィードバックを歓迎します。私たちと連絡を取る最善の方法は OWASP Mobile Project Slack チャンネルを利用することです。
 
-https://owasp.slack.com/messages/project-mobile_omtg/details/
+<https://owasp.slack.com/messages/project-mobile_omtg/details/>
 
 アカウントは以下の URL で作成できます。
 
