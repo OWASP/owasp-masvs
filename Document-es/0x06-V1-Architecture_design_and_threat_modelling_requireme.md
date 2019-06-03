@@ -10,18 +10,18 @@ La categoría V1 lista los requerimientos pertinentes a la arquitectura y al dis
 
 A continuación, se enumeran los requerimientos para MASVS-L1 y MASVS-L2.
 
-| # | Descripción | L1 | L2 |
-| --- | --- | --- | --- |
-| **1.1** | Todos los componentes se encuentran identificados y asegurar que son necesarios. | ✓ | ✓ |
-| **1.2** | Los controles de seguridad nunca se aplican sólo en el cliente, sino que también en los respectivos servidores. | ✓ | ✓ |
-| **1.3** | Se definió una arquitectura de alto nivel para la aplicación y los servicios y se incluyeron controles de seguridad en la misma. | ✓ | ✓ |
-| **1.4** | Se identificó claramente la información considerada sensible en el contexto de la aplicación móvil. | ✓ | ✓ |
-| **1.5** | Todos los componentes de la aplicación están definidos en términos de la lógica de negocio o las funciones de seguridad que proveen. |   | ✓ |
-| **1.6** | Se realizó un modelado de amenazas para la aplicación móvil y los servicios en el que se definieron las mismas y sus contramedidas. |   | ✓ |
-| **1.7** | La implementación de los controles de seguridad se encuentra centralizada. |   | ✓ |
-| **1.8** | Existe una política explícita para el manejo de las claves criptográficas (si se usan) y se refuerza su ciclo de vida. Idealmente siguiendo un estándar del manejo de claves como el NIST SP 800-57. |   | ✓ |
-| **1.9** | Existe un mecanismo para imponer las actualizaciones de la aplicación móvil. |   | ✓ |
-| **1.10** | Se realizan tareas de seguridad en todo el ciclo de vida de la aplicación. |   | ✓ |
+| # | Code | Descripción | L1 | L2 |
+| --- | --- | --- | --- | --- |
+| **1.1** | MSTG-ARCH-1 | Todos los componentes se encuentran identificados y asegurar que son necesarios. | ✓ | ✓ |
+| **1.2** | MSTG-ARCH-2 | Los controles de seguridad nunca se aplican sólo en el cliente, sino que también en los respectivos servidores. | ✓ | ✓ |
+| **1.3** | MSTG-ARCH-3 | Se definió una arquitectura de alto nivel para la aplicación y los servicios y se incluyeron controles de seguridad en la misma. | ✓ | ✓ |
+| **1.4** | MSTG-ARCH-4 | Se identificó claramente la información considerada sensible en el contexto de la aplicación móvil. | ✓ | ✓ |
+| **1.5** | MSTG-ARCH-5 | Todos los componentes de la aplicación están definidos en términos de la lógica de negocio o las funciones de seguridad que proveen. |   | ✓ |
+| **1.6** | MSTG-ARCH-6 | Se realizó un modelado de amenazas para la aplicación móvil y los servicios en el que se definieron las mismas y sus contramedidas. |   | ✓ |
+| **1.7** | MSTG-ARCH-7 | La implementación de los controles de seguridad se encuentra centralizada. |   | ✓ |
+| **1.8** | MSTG-ARCH-8 | Existe una política explícita para el manejo de las claves criptográficas (si se usan) y se refuerza su ciclo de vida. Idealmente siguiendo un estándar del manejo de claves como el NIST SP 800-57. |   | ✓ |
+| **1.9** | MSTG-ARCH-9 | Existe un mecanismo para imponer las actualizaciones de la aplicación móvil. |   | ✓ |
+| **1.10** | MSTG-ARCH-10 | Se realizan tareas de seguridad en todo el ciclo de vida de la aplicación. |   | ✓ |
 
 ## Referencias
 
