@@ -3,6 +3,7 @@ cd $TRAVIS_BUILD_DIR/Tools
 #TODO: FIX GITHUB_TOKEN!
 echo "Applying Linter check"
 sh ./Apply_Linter_Check.sh
+echo "Gtihub token: ${GITHUB_TOKEN}"
 echo "Counting amount of linter issues:"
 LINTRESULT=$(wc -l lint-check-result-all-lang.out)
 echo $LINTRESULT
