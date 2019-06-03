@@ -19,20 +19,20 @@ Sensible Daten im Kontext des MASVS sind jegliche Nutzer-Anmeldedaten sowie alle
 
 Ein Großteil von Datenpannen kann bereits durch Einhaltung einfacher Regeln vermieden werden. Die meisten der Sicherheitsmaßnahmen in dieser Kategorie sind deshalb für alle Prüf-Levels zwingend erforderlich.
 
-| # | Beschreibung | L1 | L2 |
-| --- | --- | --- | --- |
-| **2.1** | Die App speichert sensible Daten wie personenbezogene Daten, Anmeldedaten oder kryptographische Schlüssel unter Nutzung der vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismen. | ✓ | ✓ |
-| **2.2** | Es werden keine sensiblen Daten außerhalb des App-Containers oder außerhalb des vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismus abgelegt. | ✓ | ✓ |
-| **2.3** | Es werden keine sensiblen Daten in die Logfiles der App geschrieben. | ✓ | ✓ |
-| **2.4** | Es werden keine sensiblen Daten mit Dritten geteilt - es sei denn dies wurde in der App-Architektur definiert und ist zur Erfüllung des Zwecks der App erforderlich. | ✓ | ✓ |
-| **2.5** | Der Tastatur-Cache ist für alle sensiblen Texteingaben deaktiviert. | ✓ | ✓ |
-| **2.6** | Es werden keine sensiblen Daten über Interprozesskommunikation zur Verfügung gestellt. | ✓ | ✓ |
-| **2.7** | Es werden keine sensiblen Daten wie Passwörter oder Pins über die Benutzeroberfläche exponiert. | ✓ | ✓ |
-| **2.8** | Es ist sichergestellt, dass betriebssystemgesteuerte Backups keine sensiblen App-Daten enthalten. |   | ✓ |
-| **2.9** | Die App entfernt sensible Daten aus der aktuellen Ansicht wenn der Hintergrundmodus aktiviert wird. |  | ✓ |
-| **2.10** | Die App hält sensible Daten nur solange wie nötig im Speicher und betroffene Speicherbereiche werden nach Nutzung explizit gelöscht. |  | ✓ |
-| **2.11** | Die App erzwingt ein Minimum an Geräteschutz-Richtlinien wie das Definieren eines Gerätepassworts. |  | ✓ |
-| **2.12** | Die App klärt den Nutzer über die Art und Weise der verarbeiteten personenbezogenen Daten auf und gibt dem Nutzer Security-Best-Practice-Empfehlungen zum Umgang mit der App. |  | ✓ |
+| # | Code | Beschreibung | L1 | L2 |
+| --- | --- | --- | --- | --- |
+| **2.1** | MSTG-STORAGE-1 | Die App speichert sensible Daten wie personenbezogene Daten, Anmeldedaten oder kryptographische Schlüssel unter Nutzung der vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismen. | ✓ | ✓ |
+| **2.2** | MSTG-STORAGE-2 | Es werden keine sensiblen Daten außerhalb des App-Containers oder außerhalb des vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismus abgelegt. | ✓ | ✓ |
+| **2.3** | MSTG-STORAGE-3 | Es werden keine sensiblen Daten in die Logfiles der App geschrieben. | ✓ | ✓ |
+| **2.4** | MSTG-STORAGE-4 | Es werden keine sensiblen Daten mit Dritten geteilt - es sei denn dies wurde in der App-Architektur definiert und ist zur Erfüllung des Zwecks der App erforderlich. | ✓ | ✓ |
+| **2.5** | MSTG-STORAGE-5 | Der Tastatur-Cache ist für alle sensiblen Texteingaben deaktiviert. | ✓ | ✓ |
+| **2.6** | MSTG-STORAGE-6 | Es werden keine sensiblen Daten über Interprozesskommunikation zur Verfügung gestellt. | ✓ | ✓ |
+| **2.7** | MSTG-STORAGE-7 | Es werden keine sensiblen Daten wie Passwörter oder Pins über die Benutzeroberfläche exponiert. | ✓ | ✓ |
+| **2.8** | MSTG-STORAGE-8 | Es ist sichergestellt, dass betriebssystemgesteuerte Backups keine sensiblen App-Daten enthalten. |   | ✓ |
+| **2.9** | MSTG-STORAGE-9 | Die App entfernt sensible Daten aus der aktuellen Ansicht wenn der Hintergrundmodus aktiviert wird. |  | ✓ |
+| **2.10** | MSTG-STORAGE-10 | Die App hält sensible Daten nur solange wie nötig im Speicher und betroffene Speicherbereiche werden nach Nutzung explizit gelöscht. |  | ✓ |
+| **2.11** | MSTG-STORAGE-11 | Die App erzwingt ein Minimum an Geräteschutz-Richtlinien wie das Definieren eines Gerätepassworts. |  | ✓ |
+| **2.12** | MSTG-STORAGE-12 | Die App klärt den Nutzer über die Art und Weise der verarbeiteten personenbezogenen Daten auf und gibt dem Nutzer Security-Best-Practice-Empfehlungen zum Umgang mit der App. |  | ✓ |
 
 <div style="page-break-after: always;"></div>
 
