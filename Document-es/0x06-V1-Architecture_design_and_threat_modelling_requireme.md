@@ -10,7 +10,7 @@ La categoría V1 lista los requerimientos pertinentes a la arquitectura y al dis
 
 A continuación, se enumeran los requerimientos para MASVS-L1 y MASVS-L2.
 
-| # | Code | Descripción | L1 | L2 |
+| # | Categoría | Descripción | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **1.1** | MSTG‑ARCH‑1 | Todos los componentes se encuentran identificados y asegurar que son necesarios. | ✓ | ✓ |
 | **1.2** | MSTG‑ARCH‑2 | Los controles de seguridad nunca se aplican sólo en el cliente, sino que también en los respectivos servidores. | ✓ | ✓ |

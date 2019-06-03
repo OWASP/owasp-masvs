@@ -6,7 +6,7 @@ Estos controles revisan que se utilicen las APIs de la plataforma y componentes 
 
 ## Requerimientos de Verificación de Seguridad
 
-| # | Code | Descripción | L1 | L2 |
+| # | Categoría | Descripción | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **6.1** | MSTG‑PLATFORM‑1 | La aplicación requiere la mínima cantidad de permisos. | ✓ | ✓ |
 | **6.2** | MSTG‑PLATFORM‑2 | Toda entrada del usuario y fuentes externas es validada y si es necesario sanitizada. Esto incluye información recibida por la UI, y mecanismo IPC como los intents, URLs y fuentes de la red. | ✓ | ✓ |
