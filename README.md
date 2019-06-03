@@ -32,8 +32,7 @@ Read it on [Gitbook](https://mobile-security.gitbook.io/masvs/ "GitBook Mobile A
 
 ## Create new PDF, Epub or Mobi
 
-You can find the documents in the release-page, if you want to generate the documents yourself, try to do the following.
-Clone the repository and run the gitbook generator. This produces PDF, Epub and Mobi files in the "Generated" subdirectory.
+You can find the documents in the release page. If you want to generate the documents yourself, execute the following steps. Clone the repository and run the gitbook generator. This produces PDF, Epub and Mobi files in the "Generated" subdirectory.
 
 ```shell
 $ git clone https://github.com/OWASP/owasp-masvs/
