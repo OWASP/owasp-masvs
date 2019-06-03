@@ -22,30 +22,30 @@ Se aplican las siguientes consideraciones:
 
 ### Impedir el Análisis Dinámico y la Manipulación
 
-| # | Descripción | R |
-| --- | --- | --- |
-| **8.1** | MSTG-RESILIENCE-1 | La aplicación detecta y responde a la presencia de un dispositivo rooteado, ya sea alertando al usuario o finalizando la ejecución de la aplicación. | ✓ |
-| **8.2** | MSTG-RESILIENCE-2 | La aplicación previene el debugging o detecta y responde al debugging de la aplicación. Se deben cubrir todos los protocolos. | ✓ |
-| **8.3** | MSTG-RESILIENCE-3 | La aplicación detecta y responde a modificaciones de ejecutables y datos críticos de la propia aplicación. | ✓ |
-| **8.4** | MSTG-RESILIENCE-4 | La aplicación detecta la presencia de las herramientas de ingeniería reversa o frameworks mas utilizados.| ✓ |
-| **8.5** | MSTG-RESILIENCE-5 | La aplicación detecta y responde al ser ejecutada en un emulador.  | ✓ |
-| **8.6** | MSTG-RESILIENCE-6 | La aplicación detecta y responde ante modificaciones de código o datos en su propio espacio de memoria. | ✓ |
-| **8.7** | MSTG-RESILIENCE-7 | La aplicación implementa múltiples mecanismos de detección para los puntos del 8.1 al 8.6. Nótese que, a mayor cantidad y diversidad de mecanismos usados, mayor la resistencia. | ✓ |
-| **8.8** | MSTG-RESILIENCE-8 | Los mecanismos de detección disparan distintos tipos de respuestas, incluyendo respuestas retardadas y silenciosas. | ✓ |
-| **8.9** | MSTG-RESILIENCE-9 | La ofuscación es aplicada a las defensas del programa, lo que a su vez impide la des-ofuscación mediante el análisis dinámico. | ✓ |
+| # | Code | Descripción | R |
+| --- | --- | --- | -- |
+| **8.1** | MSTG‑RESILIENCE‑1 | La aplicación detecta y responde a la presencia de un dispositivo rooteado, ya sea alertando al usuario o finalizando la ejecución de la aplicación. | ✓ |
+| **8.2** | MSTG‑RESILIENCE‑2 | La aplicación previene el debugging o detecta y responde al debugging de la aplicación. Se deben cubrir todos los protocolos. | ✓ |
+| **8.3** | MSTG‑RESILIENCE‑3 | La aplicación detecta y responde a modificaciones de ejecutables y datos críticos de la propia aplicación. | ✓ |
+| **8.4** | MSTG‑RESILIENCE‑4 | La aplicación detecta la presencia de las herramientas de ingeniería reversa o frameworks mas utilizados.| ✓ |
+| **8.5** | MSTG‑RESILIENCE‑5 | La aplicación detecta y responde al ser ejecutada en un emulador.  | ✓ |
+| **8.6** | MSTG‑RESILIENCE‑6 | La aplicación detecta y responde ante modificaciones de código o datos en su propio espacio de memoria. | ✓ |
+| **8.7** | MSTG‑RESILIENCE‑7 | La aplicación implementa múltiples mecanismos de detección para los puntos del 8.1 al 8.6. Nótese que, a mayor cantidad y diversidad de mecanismos usados, mayor la resistencia. | ✓ |
+| **8.8** | MSTG‑RESILIENCE‑8 | Los mecanismos de detección disparan distintos tipos de respuestas, incluyendo respuestas retardadas y silenciosas. | ✓ |
+| **8.9** | MSTG‑RESILIENCE‑9 | La ofuscación es aplicada a las defensas del programa, lo que a su vez impide la des-ofuscación mediante el análisis dinámico. | ✓ |
 
 ### Atadura del Dispositivo
 
-| # | Descripción | R |
-| --- | --- | --- |
-| **8.10** | MSTG-RESILIENCE-10 | La aplicación implementa un “enlace al dispositivo” utilizando una huella del dispositivo derivado de varias propiedades únicas al mismo. | ✓ |
+| # | Code | Descripción | R |
+| --- | --- | --- | -- |
+| **8.10** | MSTG‑RESILIENCE‑10 | La aplicación implementa un “enlace al dispositivo” utilizando una huella del dispositivo derivado de varias propiedades únicas al mismo. | ✓ |
 
 ### Impedir la comprensión
 
-| # | Descripción | R |
-| --- | --- | --- |
-| **8.11** | MSTG-RESILIENCE-11 | Todos los archivos ejecutables y bibliotecas correspondientes a la aplicación se encuentran cifrados, o bien los segmentos importantes de código se encuentran cifrados o empaquetados. De este modo el análisis estático trivial no revela código importante o datos. | ✓ |
-| **8.12** | MSTG-RESILIENCE-12 | Si el objetivo de la ofuscación es proteger el código propietario, se utiliza un esquema de ofuscación que es apropiado tanto para la tarea particular como robusto contra los métodos de des-ofuscación manual y automatizada, considerando la investigación publicada actualmente. La eficacia del esquema de ofuscación debe verificarse mediante pruebas manuales. Tenga en cuenta que las características de aislamiento basadas en hardware son preferibles a la ofuscación siempre que sea posible. | ✓ |
+| # | Code | Descripción | R |
+| --- | --- | --- | -- |
+| **8.11** | MSTG‑RESILIENCE‑11 | Todos los archivos ejecutables y bibliotecas correspondientes a la aplicación se encuentran cifrados, o bien los segmentos importantes de código se encuentran cifrados o empaquetados. De este modo el análisis estático trivial no revela código importante o datos. | ✓ |
+| **8.12** | MSTG‑RESILIENCE‑12 | Si el objetivo de la ofuscación es proteger el código propietario, se utiliza un esquema de ofuscación que es apropiado tanto para la tarea particular como robusto contra los métodos de des-ofuscación manual y automatizada, considerando la investigación publicada actualmente. La eficacia del esquema de ofuscación debe verificarse mediante pruebas manuales. Tenga en cuenta que las características de aislamiento basadas en hardware son preferibles a la ofuscación siempre que sea posible. | ✓ |
 
 <div style="page-break-after: always;"></div>
 
