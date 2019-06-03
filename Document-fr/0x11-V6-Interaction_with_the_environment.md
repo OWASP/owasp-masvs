@@ -23,11 +23,11 @@ Le but des contrôles de ce groupe est de garantir que l'application utilise les
 
 Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md
+- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
+- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
 
 Pour de plus amples informations, il est possible de consulter aussi :
 
-- OWASP Mobile Top 10: M1 - Mauvais Utilisation de la Plateforme: https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage
-- CWE: https://cwe.mitre.org/data/definitions/20.html
-- CWE: https://cwe.mitre.org/data/definitions/749.html
+- OWASP Mobile Top 10: M1 - Mauvais Utilisation de la Plateforme: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage>
+- CWE: <https://cwe.mitre.org/data/definitions/20.html>
+- CWE: <https://cwe.mitre.org/data/definitions/749.html>

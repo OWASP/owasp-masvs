@@ -2,9 +2,9 @@
 
 The MASVS can be used to establish a level of confidence in the security of mobile apps. The requirements were developed with the following objectives in mind:
 
-* Use as a metric - To provide a security standard against which existing mobile apps can be compared by developers and application owners;
-* Use as guidance - To provide guidance during all phases of mobile app development and testing;
-* Use during procurement - To provide a baseline for mobile app security verification.
+- Use as a metric - To provide a security standard against which existing mobile apps can be compared by developers and application owners;
+- Use as guidance - To provide guidance during all phases of mobile app development and testing;
+- Use during procurement - To provide a baseline for mobile app security verification.
 
 ## Mobile AppSec Model
 

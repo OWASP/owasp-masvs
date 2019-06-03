@@ -3,6 +3,7 @@
 Ce document est généré automatiquement à {{gitbook.time}}
 
 ## 1.1.3 Quelques Améliorations
+
 Les changements suivants font partie de la livraison 1.1.3 :
 
 - Corrections d'erreurs de traduction de l'exigence 7.1 dans la version espagnole
@@ -10,6 +11,7 @@ Les changements suivants font partie de la livraison 1.1.3 :
 - Petites corrections pour la version japonaise.
 
 ## 1.1.2 Parrainage et internationalisation
+
 Les changements suivants font partie de la livraison 1.1.2 :
 
 - Ajout d'une note de remerciement pour les acheteurs de l'e-book.
@@ -23,6 +25,7 @@ Les changements suivants font partie de la livraison 1.1.2 :
 - Ajout d'instructions pour les livraisons automatisées.
 
 ## 1.1.0 14 juillet 2018
+
 Les changements suivants font partie de la livraison 1.1 :
 
 - L'exigence 2.6 "Le presse-papier est désactivé sur les champs de texte qui peuvent contenir des données sensibles." a été enlevée.
@@ -30,7 +33,9 @@ Les changements suivants font partie de la livraison 1.1 :
 - L'exigence 2.1 a été reformulée vers "Les services de stockage de références fournis par le système sont utilisés de façon appropriée pour le stockage de données sensibles telles que les PII, les références des utilisateurs ou les clés de cryptographie.".
 
 ## 1.0 12 Janvier 2018
+
 Les changements suivants font partie de la livraison 1.0 :
+
 - Suppression de 8.9 en raison d'une redondance avec 8.12
 - Reformulation de 4.6 pour la rendre plus générique
 - Quelques améliorations (typos, etc.)

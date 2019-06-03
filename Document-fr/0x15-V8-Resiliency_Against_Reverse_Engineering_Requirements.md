@@ -53,12 +53,12 @@ Il convient de prendre en compte les considérations suivantes :
 
 Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md
+- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
 Pour de plus amples informations, il est possible de consulter aussi :
 
-- OWASP Mobile Top 10: M8 - Modification du Code: https://www.owasp.org/index.php/Mobile_Top_10_2016-M8-Code_Tampering
-- OWASP Mobile Top 10: M9 - Rétro-Ingénierie: https://www.owasp.org/index.php/Mobile_Top_10_2016-M9-Reverse_Engineering
-- OWASP Reverse Engineering Threats -https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification
-- OWASP Reverse Engineering and Code Modification Prevention - https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project
+- OWASP Mobile Top 10: M8 - Modification du Code: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M8-Code_Tampering>
+- OWASP Mobile Top 10: M9 - Rétro-Ingénierie: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M9-Reverse_Engineering>
+- OWASP Reverse Engineering Threats -<https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification>
+- OWASP Reverse Engineering and Code Modification Prevention - <https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project>
