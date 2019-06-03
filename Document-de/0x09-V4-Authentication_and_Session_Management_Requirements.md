@@ -8,7 +8,7 @@ Ein integraler Teil der Architektur einer mobilen App ist der Login eines Nutzer
 
 | # | Code | Beschreibung | L1 | L2 |
 | --- | --- | --- | --- | --- |
-| **4.1** | MSTG-AUTH-1 | Falls die App Nutzern Zugriff auf entfernte Service APIs bietet wird am API-Endpunkt eine Authentifizierung z.B. mit Nutzername/Passwort durchgeführt.
+| **4.1** | MSTG-AUTH-1 | Falls die App Nutzern Zugriff auf entfernte Service APIs bietet wird am API-Endpunkt eine Authentifizierung z.B. mit Nutzername/Passwort durchgeführt. | ✓ | ✓ |
 | **4.2** | MSTG-AUTH-2 | Kommt Session-Management am API-Endpunkt zum Einsatz, so werden zufällig generierte Session-IDs erzeugt um Client-Anfragen zu authentifizieren und keine Nutzer-Anmeldedaten versandt. | ✓ | ✓ |
 | **4.3** | MSTG-AUTH-3 | Kommt statuslose Token-basierte Authentifizierung zum Einsatz, so werden die Token am Server mit einem sicheren Algorithmus signiert. | ✓ | ✓ |
 | **4.4** | MSTG-AUTH-4 | Der API-Endpunkt beendet die existierende Nutzersitzung sobald sich der Nutzer abmeldet. | ✓ | ✓ |
@@ -19,7 +19,9 @@ Ein integraler Teil der Architektur einer mobilen App ist der Login eines Nutzer
 | **4.9** | MSTG-AUTH-9 | Es gibt einen 2. Authentifizierungsfaktor und er wird am entfernten API-Endpunkt konsistent erzwungen. |   | ✓ |
 | **4.10** | MSTG-AUTH-10 | Sensible Transaktionen erfordern eine zusätzliche Authentifizierung (durch einen weiteren Authentifizierungsfaktor). |   | ✓ |
 | **4.11** | MSTG-AUTH-11 | Die App informiert den Nutzer über alle Anmelde-Vorgänge am Nutzerkonto. Nutzer können eine Liste aller mit dem Konto verbundenen Geräte sehen und ausgewählte Geräte blockieren. |  | ✓ |
+
 <div style="page-break-after: always;"></div>
+
 ## Referenzen
 
 Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die Anforderungen aus dieser Kategorie zu überprüfen.

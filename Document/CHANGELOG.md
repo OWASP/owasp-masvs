@@ -2,15 +2,12 @@
 
 This document is automatically generated at {{gitbook.time}}
 
-## 1.1.3 9 January 2019 - Small Fixes
+## 1.1.3 9 January 2019 - Small fixes
 
-The following changes are part of release 1.1.3:
+- Fix translation issue of requirement 7.1 in the Spanish version
+- New setup of translators in acknowledgements
 
-- Fix translation issue of requirement 7.1 in the Spanish version.
-- New setup of translators in acknowledgements.
-- Small fixes for the Japanese version.
-
-## 1.1.2 3 January 2019 - Sponsorship and internationalization
+## 1.1.2 3 January 2018 - Sponsorship and internationalization
 
 The following changes are part of release 1.1.2:
 

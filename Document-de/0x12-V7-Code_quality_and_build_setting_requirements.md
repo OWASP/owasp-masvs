@@ -6,7 +6,7 @@ Das Ziel dieser Kategorie ist, sicherzustellen, dass bei der App-Entwicklung Bas
 
 ## Anforderungen
 
-| # | Beschreibung | L1 | L2 |
+| # | Code | Beschreibung | L1 | L2 |
 | --- | --- | --- | --- |
 | **7.1** | MSTG-CODE-1 | Die App ist signiert und mit einem gültigen Zertifikat provisioniert dessen privater Schlüssel angemessen geschützt ist. | ✓ | ✓ |
 | **7.2** | MSTG-CODE-2 | Die App wurde im Release-Modus gebaut und mit passenden Release-Einstellungen (kein Debugging). | ✓ | ✓ |
@@ -17,7 +17,9 @@ Das Ziel dieser Kategorie ist, sicherzustellen, dass bei der App-Entwicklung Bas
 | **7.7** | MSTG-CODE-7 | Treten in Sicherheitsfunktionen Fehler auf lehnt die App-Fehlerbehandlung die Zugriffe standardmäßig ab. | ✓ | ✓ |
 | **7.8** | MSTG-CODE-8 | Das Speichermanagement (Allokation und Freigabe von Speicher) erfolgt in unmanaged code auf sichere Weise. | ✓ | ✓ |
 | **7.9** | MSTG-CODE-9 | Angebotene Sicherheitsfunktionen der Entwicklungsumgebung wie Byte-Code Minimierung, Stack-Protection, PIE-Support und automatisches Reference-Counting sind aktiviert. | ✓ | ✓ |
+
 <div style="page-break-after: always;"></div>
+
 ## Referenzen
 
 Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die Anforderungen aus dieser Kategorie zu überprüfen.
