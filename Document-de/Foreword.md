@@ -20,7 +20,6 @@ Als Folge davon existieren zahlreiche mobile Sicherheitstestberichte bei denen d
 
 Das übergeordnete Ziel des MASVS ist es mit dem MASVS-L1 ein solides Basis-Sicherheitsniveau, mit dem MASVS-L2 ein erhöhtes Sicherheitsniveau sowie kontextbezogen weitere Defense-in-Depth-Maßnahmen gegen Client-seitige Bedrohungen (MASVS-R) für mobile App-Sicherheit anzubieten.
 
-
 Folgendes soll mit dem MASVS erreicht werden:
 
 - Bereitstellen von Sicherheitsanforderungen für Softwarearchitekten und Entwickler um sichere mobile Applikationen zu entwickeln;
@@ -28,4 +27,4 @@ Folgendes soll mit dem MASVS erreicht werden:
 - Schärfung und Klarstellung der Rolle von Schutzmechanismen in der mobilen Sicherheit und Definition von Anforderungen um deren Effektivität zu prüfen;
 - Aussprechen von individuellen Empfehlungen zur Anwendung von mobilen Sicherheitsmechanismen für verschiedene Anwendungsfälle.  
 
-Wir sind uns bewußt dass ein 100%-iger Konsens innerhalb der Sicherheitsbranche unmöglich zu erreichen ist. Nichtsdestotrotz hoffen wir dass der MASVS eine nützliche Hilfestellung für alle Phasen mobiler Softwareentwicklung und Tests darstellt. Als offener Standard soll der MASVS sich über die Zeit weiterentwickeln und wir begrüßen jede Unterstützung und Vorschläge.   
+Wir sind uns bewußt dass ein 100%-iger Konsens innerhalb der Sicherheitsbranche unmöglich zu erreichen ist. Nichtsdestotrotz hoffen wir dass der MASVS eine nützliche Hilfestellung für alle Phasen mobiler Softwareentwicklung und Tests darstellt. Als offener Standard soll der MASVS sich über die Zeit weiterentwickeln und wir begrüßen jede Unterstützung und Vorschläge.

@@ -13,8 +13,8 @@ Estos controles buscan asegurar que se siguieron las prácticas de seguridad bá
 | **7.3** | Los símbolos de debug fueron removidos de los binarios nativos. | ✓ | ✓ |
 | **7.4** | La aplicación no contiene código de prueba y no realiza log de errores o mensajes de debug. | ✓ | ✓ |
 | **7.5** | Todos los componentes de terceros se encuentran identificados y revisados por vulnerabilidades conocidas. | ✓ | ✓ |
-| **7.6** | La aplicación captura y maneja debidamente las posibles excepciones.	 | ✓ | ✓ |
-| **7.7** | Los controles de seguridad deniegan el acceso por defecto.	 | ✓ | ✓ |
+| **7.6** | La aplicación captura y maneja debidamente las posibles excepciones. | ✓ | ✓ |
+| **7.7** | Los controles de seguridad deniegan el acceso por defecto. | ✓ | ✓ |
 | **7.8** | En código no administrado, la memoria es pedida, usada y liberada de manera correcta. | ✓ | ✓ |
 | **7.9** | Las funcionalidades de seguridad gratuitas de las herramientas, como minificación del byte-code, protección de la pila, soporte PIE y conteo automático de referencias, se encuentran activadas. | ✓ | ✓ |
 
@@ -24,13 +24,13 @@ Estos controles buscan asegurar que se siguieron las prácticas de seguridad bá
 
 La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detalladas para verificar los requisitos listados en esta sección.
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md
+- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
 
 Para más información, ver también:
 
-- OWASP Top 10 Móvil: M7 - Mala calidad del Código: https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality
-- CWE: https://cwe.mitre.org/data/definitions/119.html
-- CWE: https://cwe.mitre.org/data/definitions/89.html
-- CWE: https://cwe.mitre.org/data/definitions/388.html
-- CWE: https://cwe.mitre.org/data/definitions/489.html
+- OWASP Top 10 Móvil: M7 - Mala calidad del Código: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality>
+- CWE: <https://cwe.mitre.org/data/definitions/119.html>
+- CWE: <https://cwe.mitre.org/data/definitions/89.html>
+- CWE: <https://cwe.mitre.org/data/definitions/388.html>
+- CWE: <https://cwe.mitre.org/data/definitions/489.html>

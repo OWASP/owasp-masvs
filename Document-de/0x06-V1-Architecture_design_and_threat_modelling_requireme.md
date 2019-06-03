@@ -6,7 +6,6 @@ In einer perfekten Welt würde Security über alle Phasen der Softwareentwicklun
 
 Die Kategorie "V1" enthält Sicherheitsanforderungen an die Architektur und das Design einer App. Aufgrund dessen ist dies die einzige Kategorie die nicht auf technische Testfälle in den OWASP Mobile Testing Guide referenziert. Um Themen wie Bedrohungsanalyse, sichere Softwareentwicklungsprozesse und Schlüssel-Management abzudecken, sollten Anwender des MASVS die jeweiligen OWASP Projekte und/oder Standards wie die unten verlinkten Dokumente berücksichtigen.
 
-
 ## Security Anforderungen
 
 Die Anforderungen für MASVS-L1 und MASVS-L2 sind nachfolgend aufgelistet.
@@ -23,14 +22,16 @@ Die Anforderungen für MASVS-L1 und MASVS-L2 sind nachfolgend aufgelistet.
 | **1.8** | Eine dedizierte Richtlinie zum Management von kryptographischen Schlüsseln (falls in der App genutzt) beschreibt den sicheren Umgang mit Schlüsseln über den gesamten Lebenszyklus, idealerweise basierend auf Standards wie NIST SP 800-57. |   | ✓ |
 | **1.9** | Es gibt einen Mechanismus in der mobilen App um App-Aktualisierungen zu erzwingen. |   | ✓ |
 | **1.10** | Security wird in allen Teilen des Softwareentwicklungszyklus berücksichtigt. |   | ✓ |
-<br><br>
+
+<div style="page-break-after: always;"></div>
+
 ## Referenzen
 
 Für weitere Informationen:
 
-- OWASP Mobile Top 10: M10 - Extraneous Functionality: https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality
-- OWASP Security Architecture cheat sheet: https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet
-- OWASP Thread modelling: https://www.owasp.org/index.php/Application_Threat_Modeling
-- OWASP Secure SDLC Cheat Sheet: https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet
-- Microsoft SDL: https://www.microsoft.com/en-us/sdl/
-- NIST SP 800-57: https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-4/final
+- OWASP Mobile Top 10: M10 - Extraneous Functionality: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality>
+- OWASP Security Architecture cheat sheet: <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
+- OWASP Thread modelling: <https://www.owasp.org/index.php/Application_Threat_Modeling>
+- OWASP Secure SDLC Cheat Sheet: <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
+- Microsoft SDL: <https://www.microsoft.com/en-us/sdl/>
+- NIST SP 800-57: <https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-4/final>
