@@ -2,14 +2,11 @@
 
 ## How to contribute
 
-Contributing to the MASVS can be done in many different ways:
+A direct contribution to the MASVS can be done in many different ways. As the MASVS is summarizing the requirements outlined in detail in the MSTG, please create [issues](https://github.com/OWASP/owasp-masvs/issues "MASVS Issues") first for missing requirements, content or errors so the content can be discussed  before creating a PR. Explain what you think is missing in the issue, including references (if available) and give a suggestion as to where it could be added.
 
-- Create [issues](https://github.com/OWASP/owasp-masvs/issues "MASVS Issues") for missing content or errors. Explain what you think is missing and give a suggestion as to where it could be added.
-- Create a [Pull Request (PR)](https://github.com/OWASP/owasp-masvs/pulls "Create a pull request"). This is a direct contribution to the guide and your PR may be merged after review. Be sure to follow our [style guide](https://github.com/OWASP/owasp-mstg/blob/master/style_guide.md "MSTG Style Guide") when writing content. You should ideally create an issue for any PR you would like to submit, as we can first review the merit of the PR and avoid any unnecessary work. This is of course not needed for small modifications such as correcting typos.
-- Review pull requests. If you are a fluent speaker in any of the different languages that the MASVS is available in, feel free to give feedback on any of the submitted PRs.
-- Proofread and fix errors. If you are studying the MASVS, write down any error, no matter how small, and submit them in an Issue or fix them yourself through a PR.
+A [Pull Request (PR)](https://github.com/OWASP/owasp-masvs/pulls "Create a pull request") is a direct contribution to the guide and your PR may be merged after review. Be sure to follow our [style guide](https://github.com/OWASP/owasp-mstg/blob/master/style_guide.md "MSTG Style Guide") when writing content. A PR is the preferred way for small modifications such as correcting typos. If you are a fluent speaker in any of the different languages that the MASVS is available in, feel free to give feedback on any of the submitted PRs.
 
-After your PR has been submitted, we will review it as quickly as possible. This typically only takes a few days, but can vary depending on the size of the PR. Small PRs require only one reviewer, while large PRs may require multiple reviewers. We will always try to give initial feedback on your PR within 14 days. If you think we have forgotten about your PR, feel free to give us a nudge after these 7 days have passed.
+After your PR or issue has been submitted, we will review it as quickly as possible which typically only takes a few days. If you think we have forgotten about it, feel free to give us a nudge after 7 days have passed.
 
 ## How to set up my contributor environment
 
@@ -24,6 +21,8 @@ After your PR has been submitted, we will review it as quickly as possible. This
 9. Your PR will be reviewed and comments may be given. In order to process a comment, simply make modifications to the same branch as before and push them to your repository. GitHub will automatically detect these changes and add them to your existing PR.
 
 If at any time you want to work on a different issue, you can simply switch to a different branch, as explained in step 5. Don't try to work on too many issues at once though, as it will be a lot more difficult to merge branches the longer they are open.
+
+Please feel free to ping us directly in the issue or PR via @commjoen and @sushi2k, so we can merge the PR or come to a conclusion for the issue.
 
 ## What not to do
 
