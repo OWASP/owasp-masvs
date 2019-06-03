@@ -39,10 +39,10 @@ MASVS のコンテキストにおける機密データは、以下のように�
 
 OWASP モバイルセキュリティテストガイドでは、このセクションに記載されている要件を検証するための詳細な手順を提供しています。
 
-- Android 用 - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md
-- iOS 用 - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md
+- Android 用 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
+- iOS 用 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
 
 詳しくは以下の情報を参照してください。
 
-- OWASP Mobile Top 10: M2 - Insecure Data Storage: https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage
-- CWE: https://cwe.mitre.org/data/definitions/922.html
+- OWASP Mobile Top 10: M2 - Insecure Data Storage: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage>
+- CWE: <https://cwe.mitre.org/data/definitions/922.html>
