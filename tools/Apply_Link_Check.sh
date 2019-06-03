@@ -1,6 +1,7 @@
 #!/bin/bash
-# Script taken and adapted from https://github.com/OWASP/CheatSheetSeries/blob/master/scripts/Apply_Link_Check.sh
+# Script taken and adapted from https://github.com/OWASP/CheatSheetSeries/blob/master/scripts/Apply_Link_Check.sh and adapted for multi-lingual processing
 # Script in charge of auditing the released MD files in order to detect dead links
+
 
 
 apply_link_check_lang() {
@@ -16,7 +17,6 @@ apply_link_check_lang() {
     if [[ $errors != "0" ]]
     then
         echo "[!] Error(s) found by the Links validator for $1: $errors pages have dead links! Verbose output in /link-check-result-$1.out"
-        echo "Only warning for now..."
     else
         echo "[+] No error found by the Links validator for $1."
         rm ../link-check-result-$1.out
@@ -35,10 +35,25 @@ apply_link_check_en() {
     if [[ $errors != "0" ]]
     then
         echo "[!] Error(s) found by the Links validator for EN: $errors pages have dead links! Verbose output in /link-check-result.out"
-        echo "Only warning for now..."
     else
         echo "[+] No error found by the Links validator for EN."
         rm ../link-check-result.out
+    fi
+}
+
+finalize () {
+    #getlink-result-total
+    if test -f "../link-check-result-all-lang.out"; then
+            rm ../lint-check-result-all-lang.out
+        fi
+    cd ..
+    cat link-check-result.out link-check-result-de.out link-check-result-es.out link-check-result-fr.out link-check-result-ja.out link-check-result-ru.out link-check-result-zhtw.out > link-check-result-all-lang.out
+    
+    errors_total=`grep -c "ERROR:" link-check-result-all-lang.out`
+    echo "Errors total: $errors_total"
+    if [[ $errors_total != "0" ]] 
+    then
+        exit $errors_total
     fi
 }
 
@@ -49,3 +64,4 @@ apply_link_check_lang fr
 apply_link_check_lang ja
 apply_link_check_lang ru
 apply_link_check_lang zhtw
+finalize

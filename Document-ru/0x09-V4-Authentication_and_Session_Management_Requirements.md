@@ -24,12 +24,12 @@
 
 OWASP MSTG содержит подробные инструкции по верификации требований, перечисленных в этом разделе.
 
-- В общем - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md
-- Для Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md
-- Для iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md
+- В общем - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
+- Для Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
+- Для iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
 
 Для получения дополнительной информации смотрите также:
 
-- OWASP Mobile Top 10: M4 - Insecure Authentication: https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication
-- OWASP Mobile Top 10: M6 - Insecure Authorization: https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization
-- CWE: https://cwe.mitre.org/data/definitions/287.html
+- OWASP Mobile Top 10: M4 - Insecure Authentication: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication>
+- OWASP Mobile Top 10: M6 - Insecure Authorization: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization>
+- CWE: <https://cwe.mitre.org/data/definitions/287.html>

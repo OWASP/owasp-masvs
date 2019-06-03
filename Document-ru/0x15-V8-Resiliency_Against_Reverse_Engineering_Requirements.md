@@ -8,7 +8,7 @@
 
 Чтобы любое из требований в приведенном ниже списке было эффективным, приложение должно выполнить, по меньшей мере, все MASVS-L1, а также все требования из V8, которые ему предшествуют. Например, если приложение соблюдает требование обфускации из раздела «Противодействие восстановлению логики работы приложения», оно должно также удовлетворять всем требованиям из разделов «Противодействие динамическому анализу и фальсификациям» и «Привязка к устройству».
 
-**Обратите внимание, что программные меры защиты из данного раздела не должны использоваться в качестве замены основным требованиям безопасности. Вместо этого они должны быть реализованы как специализированное дополнение, направленное на локализацию конкретных угроз, в мобильном приложении, соответствующем требования MASVS**
+**Обратите внимание, что программные меры защиты из данного раздела не должны использоваться в качестве замены основным требованиям безопасности. Вместо этого они должны быть реализованы как специализированное дополнение, направленное на локализацию конкретных угроз, в мобильном приложении, соответствующем требования MASVS.**
 
 Следует рассмотреть следующие соображения:
 
@@ -51,12 +51,12 @@
 
 OWASP MSTG содержит подробные инструкции по верификации соответствия требованиям, перечисленным в этом разделе.
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md
+- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
 Для получения дополнительной информации смотрите также:
 
-- OWASP Mobile Top 10: M8 - Code Tampering: https://www.owasp.org/index.php/Mobile_Top_10_2016-M8-Code_Tampering
-- OWASP Mobile Top 10: M9 - Reverse Engineering: https://www.owasp.org/index.php/Mobile_Top_10_2016-M9-Reverse_Engineering
-- WASP Reverse Engineering Threats - https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification
-- OWASP Reverse Engineering and Code Modification Prevention - https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project
+- OWASP Mobile Top 10: M8 - Code Tampering: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M8-Code_Tampering>
+- OWASP Mobile Top 10: M9 - Reverse Engineering: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M9-Reverse_Engineering>
+- WASP Reverse Engineering Threats - <https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification>
+- OWASP Reverse Engineering and Code Modification Prevention - <https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project>

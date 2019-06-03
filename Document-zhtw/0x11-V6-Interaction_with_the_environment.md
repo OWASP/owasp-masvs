@@ -21,11 +21,11 @@
 
 OWASP Mobile Security Testing Guide 提供了有關驗證本章節中列出的準則的詳細使用說明。
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md
+- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
+- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
 
 更多資訊請參閱：
 
-- OWASP Mobile Top 10: M1 - Improper Platform Usage: https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage
-- CWE: https://cwe.mitre.org/data/definitions/20.html
-- CWE: https://cwe.mitre.org/data/definitions/749.html
+- OWASP Mobile Top 10: M1 - Improper Platform Usage: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage>
+- CWE: <https://cwe.mitre.org/data/definitions/20.html>
+- CWE: <https://cwe.mitre.org/data/definitions/749.html>
