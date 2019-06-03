@@ -6,7 +6,7 @@ Los controles enumerados en esta categoría tienen por objetivo asegurar la conf
 
 ## Requerimientos de Verificación de Seguridad
 
-| # | Code | Descripción | L1 | L2 |
+| # | Categoría | Descripción | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **5.1** | MSTG‑NETWORK‑1 | La información es enviada cifrada utilizando TLS. El canal seguro es usado consistentemente en la aplicación. | ✓ | ✓ |
 | **5.2** | MSTG‑NETWORK‑2 | Las configuraciones del protocolo TLS siguen las mejores prácticas o tan cerca posible mientras que el sistema operativo del dispositivo lo permite. | ✓ | ✓ |
