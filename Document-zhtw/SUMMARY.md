@@ -17,7 +17,6 @@
 - [V7: 程式碼品質和與建立設定要求](0x12-V7-Code_quality_and_build_setting_requirements.md)
 - [V8: 彈性要求](0x15-V8-Resiliency_Against_Reverse_Engineering_Requirements.md)
 
-
 ## 附錄
 
 - [附錄 A - 詞彙表](GLOSSARY.md)
