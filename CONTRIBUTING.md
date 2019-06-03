@@ -5,7 +5,7 @@
 Contributing to the MASVS can be done in many different ways:
 
 - Create [issues](https://github.com/OWASP/owasp-masvs/issues "MASVS Issues") for missing content or errors. Explain what you think is missing and give a suggestion as to where it could be added.
-- Create a [Pull Request (PR)](https://github.com/OWASP/owasp-masvs/pulls "Create a pull request"). This is a direct contribution to the guide and your PR may be merged after review. You should ideally create an issue for any PR you would like to submit, as we can first review the merit of the PR and avoid any unnecessary work. This is of course not needed for small modifications such as correcting typos.
+- Create a [Pull Request (PR)](https://github.com/OWASP/owasp-masvs/pulls "Create a pull request"). This is a direct contribution to the guide and your PR may be merged after review. Be sure to follow our [style guide](https://github.com/OWASP/owasp-mstg/blob/master/style_guide.md "MSTG Style Guide") when writing content. You should ideally create an issue for any PR you would like to submit, as we can first review the merit of the PR and avoid any unnecessary work. This is of course not needed for small modifications such as correcting typos.
 - Review pull requests. If you are a fluent speaker in any of the different languages that the MASVS is available in, feel free to give feedback on any of the submitted PRs.
 - Proofread and fix errors. If you are studying the MASVS, write down any error, no matter how small, and submit them in an Issue or fix them yourself through a PR.
 
