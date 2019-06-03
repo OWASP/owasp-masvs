@@ -24,13 +24,13 @@ The goal of this control is to ensure that basic security coding practices are f
 
 The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed above.
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md
+- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
 
 For more information, see also:
 
-- OWASP Mobile Top 10: M7 - Poor Code Quality: https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality
-- CWE: https://cwe.mitre.org/data/definitions/119.html
-- CWE: https://cwe.mitre.org/data/definitions/89.html
-- CWE: https://cwe.mitre.org/data/definitions/388.html
-- CWE: https://cwe.mitre.org/data/definitions/489.html
+- OWASP Mobile Top 10: M7 - Poor Code Quality: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality>
+- CWE: <https://cwe.mitre.org/data/definitions/119.html>
+- CWE: <https://cwe.mitre.org/data/definitions/89.html>
+- CWE: <https://cwe.mitre.org/data/definitions/388.html>
+- CWE: <https://cwe.mitre.org/data/definitions/489.html>
