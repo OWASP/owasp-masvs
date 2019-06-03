@@ -10,6 +10,5 @@
 
 - 相同的，以下網站將幫助使用者/適用者更了解這個標準
 - MITRE 常見弱點列舉 - [http://cwe.mitre.org/](http://cwe.mitre.org/)
-- PCI 安全性標準委員會 - [https://www.pcisecuritystandards.org]
-(https://www.pcisecuritystandards.org)
+- PCI 安全性標準委員會 - [https://www.pcisecuritystandards.org](https://www.pcisecuritystandards.org)
 - PCI 資料安全性標準(DSS)要求和安全評估程序 第三版- [https://www.pcisecuritystandards.org/documents/PCI\_DSS\_v3.pdf](https://www.pcisecuritystandards.org/documents/PCI_DSS_v3.pdf)
