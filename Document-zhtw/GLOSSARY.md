@@ -1,5 +1,5 @@
-
 # 附錄 A ：詞彙表
+
 
 ## 雙因素身份驗證(Two-factor Authentication, 2FA)
 
@@ -95,7 +95,7 @@ JAVA位元組碼是Java虛擬機器執行的一種指令格式。每個位元組
 
 ## 開放網路應用程式安全計畫(Open Web Application Security Project, OWASP)
 
-開放網路應用程式安全計畫（OWASP）是一個全球性的免費開放社群，致力於提高應用程式軟體的安全性。 我們的任務是使應用程式安全性“可見”，以便人們和機構能夠就應用程式安全風險做出明智的決策。參閱：<https://www.owasp.org/>
+開放網路應用程式安全計畫（OWASP）是一個全球性的免費開放社群，致力於提高應用程式軟體的安全性。 我們的任務是使應用程式安全性“可見”，以便人們和機構能夠就應用程式安全風險做出明智的決策。參閱：http：//www.owasp.org/
 
 ## 個人可識別資訊(Personally Identifiable Information, PII)
 
