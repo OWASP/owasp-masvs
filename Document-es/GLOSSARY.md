@@ -1,5 +1,5 @@
-
 # Apéndice A: Glosario
+
 
 ## 2FA
 
