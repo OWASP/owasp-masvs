@@ -1,6 +1,5 @@
 # Annexe A: Glossaire
 
-
 ## 2FA
 
 L'Authentification à Deux Facteurs ajoute un second niveau d'authentification lors de la connexion à un compte.

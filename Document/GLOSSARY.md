@@ -1,6 +1,5 @@
 # Appendix A: Glossary
 
-
 ## 2FA
 
 Two-factor authentication(2FA) adds a second level of authentication to an account log-in.
