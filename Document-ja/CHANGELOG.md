@@ -1,41 +1,42 @@
-# Changelog
+# 変更履歴
 
-This document is automatically generated at {{gitbook.time}}
+このドキュメントは、{{gitbook.time}}に自動的に作成されたものです。
+日本語注：この翻訳は、自動生成されたものを手動で翻訳したものです。
 
-## V1.1.3 Small Fixes
+## V1.1.3 軽微な修正
 
-The following changes are part of release 1.1.3:
+次の変更点は、リリース1.1.3に含まれています:
 
-- Fix translation issue of requirement 7.1 in the Spanish version.
-- New setup of translators in acknowledgements.
-- Small fixes for the Japanese version.
+- スペイン語版の要件7.1における翻訳ミスを修正。
+- 謝辞において翻訳者を記載。
+- 日本語版における翻訳の軽微な修正。
 
-## V1.1.2 Sponsorship and internationalization
+## V1.1.2 スポンサーシップと国際化
 
-The following changes are part of release 1.1.2:
+次の変更点は、リリース1.1.2に含まれています:
 
-- Added thank you note for buyers of the e-book.
-- Added missing authentication link & updated broken authentication link in V4.
-- Fixed swap of 4.7 and 4.8 in english.
-- First international release!
-  - Fixes in Spanish translation. Translation is now in sync with English (1.1.2).
-  - Fixes in Russian translation. Translation is now in sync with English (1.1.2).
-  - Added first release of Chinese (ZHTW) French, German, and Japanese!
-- Simplified document for ease of translation.
-- Added instructions for automated releases.
+- e-bookの購入者への感謝を追加
+- V4において、認証のリンクが欠落していた部分に追加、また認証の欠如についてのリンクを更新。
+- 英語版の4.7と4.8が入れ替わっていた問題を修正
+- 国際版初版
+  - スペイン語版を修正し、英語版(1.1.2)に追従。
+  - ロシア語版を修正し、英語版(1.1.2)に追従。
+  - 中国語(繁体字)版、フランス語版、ドイツ語版、日本語版を初めて追加。
+  - 翻訳の便宜のため、ドキュメントをシンプルに。
+- 自動リリースについてのインストラクションを追加。
 
-## V1.1.0 14 July 2018
+## V1.1.0  2018年6月14日
 
-The following changes are part of release 1.1:
+次の変更点は、リリース1.1に含まれています::
 
-- Requirement 2.6 "The clipboard is deactivated on text fields that may contain sensitive data." was removed.
-- Requirement 2.2 "No sensitive data should be stored outside of the app container or system credential storage facilities." was added.
-- Requirement 2.1 was reworded to "System credential storage facilities are used appropriately to store sensitive data, such as PII, user credentials or cryptographic keys.".
+- 要件 2.6 「機微情報を含んでいる可能性のあるテキストフィールドにおいてクリップボードが無効化されている」を削除。
+- 要件 2.2 「機密データはアプリコンテナまたはシステムの資格情報保存機能の外部に保存されていない」を追加。
+- 要件 2.1 を「個人識別情報、ユーザー資格情報、暗号化鍵などの機密データを格納するために、システムの資格情報保存機能が適切に使用されている。」と表現を調整。
 
-## V1.0 12 January 2018
+## V1.0 2018年1月12日
 
-The following changes are part of release 1.0:
+次の変更点はリリース1.0に含まれています。
 
-- Delete 8.9 as the same as 8.12
-- Made 4.6 more generic
-- Minor fixes (typos etc.)
+- 8.9は8.12と同様であるため削除
+- 4.6を一般的な表現に変更
+- 微細な修正 (タイプミスなど)
