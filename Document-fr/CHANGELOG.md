@@ -14,6 +14,7 @@ Ce document est généré automatiquement à {{gitbook.time}}
 - Ajout d'un modèle de PR.
 - Mise à jour de la synchronisation avec le référentiel utilisé pour l'hébergement du site Web sur Gitbook.
 - Mise à jour des scripts pour générer les fichiers XML / JSON / CSV pour toutes les traductions.
+- Traduit l'avant-propos en chinois (ZHTW).
 
 ## V1.1.3 Quelques Améliorations
 
