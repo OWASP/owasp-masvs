@@ -4,6 +4,17 @@
 
 cd ..
 
+newline_at_eof()
+{
+    if [ -z "$(tail -c 1 "$1")" ]
+    then
+        echo "all good"
+    else
+        echo "No newline at end of file!"
+        sed -i '' -e '$a\' $1
+    fi
+}
+
 apply_lint_check_en(){
     rm linter-result.out
     markdownlint -c .markdownlint.json -o linter-result.out Document
@@ -12,6 +23,7 @@ apply_lint_check_en(){
     if [[ $errors != "0" ]]
     then
         echo "[!] $errors Error(s) found by the Linter for language en: $content"
+        newline_at_eof linter-result.out
     else
         echo "[+] No error found by the Linter for language en."
         rm linter-result.out
@@ -26,6 +38,7 @@ apply_lint_check_lang(){
     if [[ $errors != "0" ]]
     then
         echo "[!] $errors Error(s) found by the Linter for language $1: $content"
+        newline_at_eof linter-result-$1.out
     else
         echo "[+] No error found by the Linter for language $1."
         rm linter-result-$1.out

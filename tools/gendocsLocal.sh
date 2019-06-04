@@ -3,14 +3,13 @@ echo "Counting amount of linter issues:"
 lintCommand="sh ./Apply_Linter_Check.sh"
 $lintCommand
 LINTRESULT=$?
-echo $LINTRESULT
+echo "Number of errors with lint-check: $LINTRESULT"
 
 echo "Applying Link check"
 linkComamnd="sh ./Apply_Link_Check.sh"
 $linkCommand
 LINKRESULT=$?
-echo "linkresult:"
-echo "$LINKRESULT"
+echo "Number of errors with link-check: $LINKRESULT"
 
 echo "Running creaton of pdfs and word documents"
 rm ../generated/*.*
