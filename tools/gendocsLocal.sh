@@ -12,7 +12,7 @@ LINKRESULT=$?
 echo "Number of errors with link-check: $LINKRESULT"
 
 echo "Running creaton of pdfs and word documents"
-rm ../generated/*.*
+rm ../Generated/*.*
 sh ./gitbookepubandpdf.sh latest
 sh ./generate_document.sh latest
 sh ./generate_document_de.sh latest
