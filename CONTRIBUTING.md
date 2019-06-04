@@ -54,3 +54,7 @@ Although we greatly appreciate any and all contributions to the project, there a
 
 - The MASVS should not be used as a platform for advertisement of commercial tools, companies or individuals. Any contribution should be written with free and open-source tools in mind and commercial tools are typically not accepted.
 - Unnecessary self-promotion of tools or blog posts is frowned upon. If you have a relation with on of the URLs or tools you are referencing, please state so in the PR so that we can verify that the reference is in line with the rest of the guide.
+
+## One last note regarding the tables
+
+To make sure that the tables look nicely, we make use of the unicode character `U+00A0` to format the tables correctly. If you want to translate the table: just copy it and change the content, but let the "trailing spaces" remain untouched. Similarly when you add a new requirement: just copy the final requirement of a table and change the content into the new requirement.
