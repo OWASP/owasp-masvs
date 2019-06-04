@@ -17,6 +17,7 @@ Files:
 - before_install.sh: Script used to install additional tools required for releasing. This script makes sure it only runs when it detects a new tag.
 - book.json: The book.json metadata template for Gitbook. Necessary for `gitbookepubanpdf.sh` to automatically create an updated book.json in the root of the folder.
 - gendocs.sh: Used to simplify the work with Travis.
+- gendocsLocal.sh: Used to do the same as gendocs.sh, but then locally without creating git releases.
 - generate_document.sh: Used to generate the docx and html files. (Note _xx is for the given language xx)
 - generate_toc.rb: Used to generate a TOC file.
 - gitbookepubandpdf.sh: Used to generate the epub, pdf and mobi files.

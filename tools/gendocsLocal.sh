@@ -24,3 +24,9 @@ sh ./generate_document_zhtw.sh latest
 
 echo "Checking epub validity"
 sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-de.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-fr.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-es.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-ja.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-ru.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-zhtw.epub
