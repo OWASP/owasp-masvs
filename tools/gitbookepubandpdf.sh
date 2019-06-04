@@ -19,6 +19,7 @@ update_english_doc() {
   sed -i.bak "s/\- \*\*/## /g" ../Document/GLOSSARY.md
   gsed -i.bak "s/##/\n##/g" ../Document/GLOSSARY.md
   gsed -i.bak "s/\*\* \– /\n\n/g" ../Document/GLOSSARY.md
+  sed -i.bak -n '1h; 1!H; $ { x; s/\n//; p; }' ../Document/GLOSSARY.md
   cp ../CHANGELOG.md ../Document/CHANGELOG.md
   rm ../Document/GLOSSARY.md.bak
 }
@@ -29,6 +30,7 @@ update_glossary() {
   sed -i.bak "s/\- \*\*/## /g" ../Document-$2/GLOSSARY.md
   gsed -i.bak "s/##/\n##/g" ../Document-$2/GLOSSARY.md
   gsed -i.bak "s/\*\* \– /\n\n/g" ../Document-$2/GLOSSARY.md
+  sed -i.bak -n '1h; 1!H; $ { x; s/\n//; p; }' ../Document-$2/GLOSSARY.md
   rm ../Document-$2/GLOSSARY.md.bak
 }
 
