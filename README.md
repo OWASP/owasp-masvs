@@ -17,14 +17,14 @@ The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https
 
 # Getting the MASVS
 
-PDF/Mobi/Epub/Docx downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases "Releases"). The current release is [MASVS version 1.1](https://github.com/OWASP/owasp-masvs/releases/download/1.1/OWASP_Mobile_AppSec_Verification_Standard_v1.1.pdf). The MASVS is also available in different languages:
+PDF/Mobi/Epub/Docx downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases "Releases"). The current release of the [MASVS is version 1.1.3](https://github.com/OWASP/owasp-masvs/releases/tag/1.1.3 "MASVS version 1.1.3"). The MASVS is also available in different languages:
 
-- [Spanish](https://github.com/OWASP/owasp-masvs/releases/download/1.0-ES/OWASP_Mobile_AppSec_Verification_Standard_v1.0-ES.pdf)  
-- [Russian](https://github.com/OWASP/owasp-masvs/releases/download/1.1-RU/OWASP_Mobile_AppSec_Verification_Standard_v1.1-RU.pdf)
-- [German](https://github.com/OWASP/owasp-masvs/tree/master/Document-de)
-- [French](https://github.com/OWASP/owasp-masvs/tree/master/Document-fr)
-- [Japanese](https://github.com/OWASP/owasp-masvs/tree/master/Document-ja)
-- [Chinese - zhtw](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhtw)
+- [Spanish](https://github.com/OWASP/owasp-masvs/tree/master/Document-es "Spanish")  
+- [Russian](https://github.com/OWASP/owasp-masvs/tree/master/Document-ru "Russian")
+- [German](https://github.com/OWASP/owasp-masvs/tree/master/Document-de "German")
+- [French](https://github.com/OWASP/owasp-masvs/tree/master/Document-fr "French")
+- [Japanese](https://github.com/OWASP/owasp-masvs/tree/master/Document-ja "Japanese")
+- [Chinese - ZHTW](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhtw "Traditional Chinese (ZHTW)")
 
 ## Gitbook
 
@@ -32,7 +32,7 @@ Read it on [Gitbook](https://mobile-security.gitbook.io/masvs/ "GitBook Mobile A
 
 ## Create new PDF, Epub or Mobi
 
-Clone the repository and run the gitbook generator. This produces PDF, Epub and Mobi files in the "Generated" subdirectory.
+You can find the documents in the release page. If you want to generate the documents yourself, execute the following steps. Clone the repository and run the gitbook generator. This produces PDF, Epub and Mobi files in the "Generated" subdirectory.
 
 ```shell
 $ git clone https://github.com/OWASP/owasp-masvs/
@@ -70,9 +70,9 @@ The MASVS is an open source effort and we welcome contributions and feedback. If
 
 You can sign up here:
 
-[https://owaspslack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNDI5MzgxMDQ2MTAwLTEyNzIzYWQ2NDZiMGIwNmJhYzYxZDJiNTM0ZmZiZmJlY2EwZmMwYjAyNmJjNzQxNzMyMWY4OTk3ZTQ0MzFhMDY)
+[https://owaspslack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LTViMDg1MmJiMzMwZGUxZjgxZWQ1MTE0NTBlOTBhNjhhZDIzZTZiNmEwOTJlYjdkMzAxMGVhNDkwNDNiNjZiOWQ)
 
-To add or edit content, simply fork the repository and make your changes, then create a pull request when you are finished. We'll review the changes before we merge them with the master branch in the main repo. In case there's conflicting opinions, we'll create an issue for discussing the changes.
+Before you start contributing, please check our [contribution guide](https://github.com/OWASP/owasp-masvs/blob/master/CONTRIBUTING.md "Contribution Guide") which should get you started.
 
 # Read Individual Sections of the MASVS Here
 
