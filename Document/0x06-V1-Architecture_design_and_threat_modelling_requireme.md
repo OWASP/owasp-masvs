@@ -23,8 +23,6 @@ The requirements for MASVS-L1 and MASVS-L2 are listed below.
 | **1.9** | MSTG‑ARCH‑9 | A mechanism for enforcing updates of the mobile app exists. |   | ✓ |
 | **1.10** | MSTG‑ARCH‑10 | Security is addressed within all parts of the software development lifecycle. |   | ✓ |
 
-<div style="page-break-after: always;"></div>
-
 ## References
 
 For more information, see also:

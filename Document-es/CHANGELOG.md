@@ -2,7 +2,7 @@
 
 Este documento es generado automaticamente a las {{gitbook.time}}
 
-## 1.1.3 Pequeños arreglos
+## V1.1.3 Pequeños arreglos
 
 Los siguientes cambios forman parte de la versión 1.1.3:
 
@@ -10,7 +10,7 @@ Los siguientes cambios forman parte de la versión 1.1.3:
 - Nueva disposición de los traductores en los agradecimientos.
 - Pequeñas correcciones en la traducción al Japonés.
 
-## 1.1.2 Patrocinio e internacionalización
+## V1.1.2 Patrocinio e internacionalización
 
 Los siguientes cambios forman parte de la versión 1.1.2:
 
@@ -24,7 +24,7 @@ Los siguientes cambios forman parte de la versión 1.1.2:
 - Simplificación del documento para facilitar la traducción.
 - Añadidas instrucciones para liberaciones automáticas.
 
-## 1.1.0 14 de Julio del 2018
+## V1.1.0 14 de Julio del 2018
 
 Los siguientes cambios forman parte de la versión 1.1:
 
@@ -33,7 +33,7 @@ Los siguientes cambios forman parte de la versión 1.1:
 - Se reescribió el Requerimiento 2.1.
 - El requisito 2.1 se reescribió de la siguiente manera "Las funcionalidades de almacenamiento de credenciales del sistema son utilizadas para almacenar la información sensible, como la información personal, credenciales del usuario y claves criptográficas."
 
-## 1.0 12 de Enero del 2018
+## V1.0 12 de Enero del 2018
 
 Los siguientes cambios forman parte de la versión 1.0:
 
