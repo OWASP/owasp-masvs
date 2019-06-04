@@ -36,7 +36,7 @@ exit 0;
 fi
 
 echo "Running creaton of pdfs and word documents"
-rm ../generated/*.*
+rm ../Generated/*.*
 sh ./gitbookepubandpdf.sh $TRAVIS_TAG
 sh ./generate_document.sh $TRAVIS_TAG
 sh ./generate_document_de.sh $TRAVIS_TAG
