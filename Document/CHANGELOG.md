@@ -16,13 +16,14 @@ The following changes are part of release 1.1.4:
 - Added a Pull-Request template.
 - Updated the sync with the repo in use for hosting the Gitbook website.
 - Updated the scripts to generate XML/JSON/CSV for all the translations.
+- Translated the Foreword to Chinese (ZHTW).
 
 ## V1.1.3 9 January 2019 - Small fixes
 
 - Fix translation issue of requirement 7.1 in the Spanish version
 - New setup of translators in acknowledgements
 
-## V1.1.2 3 January 2018 - Sponsorship and internationalization
+## V1.1.2 3 January 2019 - Sponsorship and internationalization
 
 The following changes are part of release 1.1.2:
 
