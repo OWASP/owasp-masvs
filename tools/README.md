@@ -12,16 +12,17 @@ Channels:
 
 Files:
 
-- Apply_Link_Check.sh: tool to inspect the links in the document folders for every language.
-- Apply_Lint_Check.sh: tool to inspect the markdown files their markup in the document folders for every language.
-- before_install.sh: script used to install additional tools required for releasing. This script makes sure it only runs when it detects a new tag.
-- book.json: the book.json metadata template for Gitbook. Necessary for `gitbookepubanpdf.sh` to automatically create an updated book.json in the root of the folder.
-- gendocs.sh: used to simplify the work with Travis.
-- generate_document.sh: used to generate the docx and html files. (Note _xx is for the given language xx)
-- generate_toc.rb: used to generate a TOC file.
-- gitbookepubandpdf.sh: used to generate the epub, pdf and mobi files.
-- masvs.py: old python script to generate some of the MASVS related materials.
-- reference.docx: templatefile used for generating the word doc using `generate_document.sh`.
+- Apply_Link_Check.sh: Tool to inspect the links in the document folders for every language.
+- Apply_Lint_Check.sh: Tool to inspect the markdown files their markup in the document folders for every language.
+- before_install.sh: Script used to install additional tools required for releasing. This script makes sure it only runs when it detects a new tag.
+- book.json: The book.json metadata template for Gitbook. Necessary for `gitbookepubanpdf.sh` to automatically create an updated book.json in the root of the folder.
+- gendocs.sh: Used to simplify the work with Travis.
+- generate_document.sh: Used to generate the docx and html files. (Note _xx is for the given language xx)
+- generate_toc.rb: Used to generate a TOC file.
+- gitbookepubandpdf.sh: Used to generate the epub, pdf and mobi files.
+- export.py: Python script to generate a CSV, JSON or XML version of the MASVS.
+- masvs.py: Python script used by export.py
+- reference.docx: Template file used for generating the word doc using `generate_document.sh`.
 
 ## Release process
 
