@@ -2,6 +2,19 @@
 
 Ce document est généré automatiquement à {{gitbook.time}}
 
+## V1.1.4 4 Juillet 2019 - Summit edition (WIP)
+
+- Corrections d'erreurs de markdown.
+- Mise à jour des traductions française et espagnole.
+- Ajout d'une traduction chinoise et japonaise du journal des modifications.
+- Vérification automatisée de la syntaxe markdown et de l'accessibilité des URLs.
+- Ajout de codes d'identification aux exigences, qui seront inclus dans la future version du MSTG afin de trouver plus facilement les recommandations et les cas de test.
+- Réduction de la taille du référentiel et ajout de Generated au .gitignore.
+- Ajout d'un code de conduite et de directives contributives.
+- Ajout d'un modèle de PR.
+- Mise à jour de la synchronisation avec le référentiel utilisé pour l'hébergement du site Web sur Gitbook.
+- Mise à jour des scripts pour générer les fichiers XML / JSON / CSV pour toutes les traductions.
+
 ## V1.1.3 Quelques Améliorations
 
 Les changements suivants font partie de la livraison 1.1.3 :
