@@ -39,7 +39,7 @@ Los siguientes cambios forman parte de la versión 1.1.2:
 - Documento simplificado para facilitar la traducción.
 - Añadidas instrucciones para poder hacer releases automáticos.
 
-## V1.1.0 14 de Julio de 2018
+## V1.1.0 14 de julio de 2018
 
 Los siguientes cambios forman parte de la versión 1.1:
 
@@ -47,7 +47,7 @@ Los siguientes cambios forman parte de la versión 1.1:
 - Requisito 2.2 "No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema." añadido.
 - Requisito 2.1 reescrito como "Las funcionalidades de almacenamiento de credenciales del sistema son utilizadas para almacenar la información sensible, como la información personal, credenciales del usuario y claves criptográficas."
 
-## V1.0 12 de Enero de 2018
+## V1.0 12 de enero de 2018
 
 Los siguientes cambios forman parte de la versión 1.0:
 
