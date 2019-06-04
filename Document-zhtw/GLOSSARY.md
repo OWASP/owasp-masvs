@@ -1,6 +1,5 @@
 # 附錄 A ：詞彙表
 
-
 ## 雙因素身份驗證(Two-factor Authentication, 2FA)
 
 在帳號登入時增加第二層的身份驗證。

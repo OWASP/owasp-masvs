@@ -1,6 +1,5 @@
 # Appendix A: Glossar
 
-
 ## 2FA
 
 Zwei-Faktor-Authentifizierung bedeutet es wird ein zusätzlicher Authentifizierungsfaktor z.B. eine PIN oder ein Einmalpasswort zur Anmeldung am Nutzerkonto verlangt.
