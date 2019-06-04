@@ -1,4 +1,3 @@
-
 # Annexe A: Glossaire
 
 ## 2FA

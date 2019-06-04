@@ -6,17 +6,17 @@ Estos controles buscan asegurar que se siguieron las prácticas de seguridad bá
 
 ## Requerimientos de Verificación de Seguridad
 
-| # | Descripción | L1 | L2 |
-| --- | --- | --- | --- |
-| **7.1** | La aplicación es firmada y provista con un certificado válido, del cual se protege debidamente su clave privada. | ✓ | ✓ |
-| **7.2** | La aplicación fue liberada en modo release y con las configuraciones apropiadas para el mismo (ej. non-debuggable). | ✓ | ✓ |
-| **7.3** | Los símbolos de debug fueron removidos de los binarios nativos. | ✓ | ✓ |
-| **7.4** | La aplicación no contiene código de prueba y no realiza log de errores o mensajes de debug. | ✓ | ✓ |
-| **7.5** | Todos los componentes de terceros se encuentran identificados y revisados por vulnerabilidades conocidas. | ✓ | ✓ |
-| **7.6** | La aplicación captura y maneja debidamente las posibles excepciones. | ✓ | ✓ |
-| **7.7** | Los controles de seguridad deniegan el acceso por defecto. | ✓ | ✓ |
-| **7.8** | En código no administrado, la memoria es pedida, usada y liberada de manera correcta. | ✓ | ✓ |
-| **7.9** | Las funcionalidades de seguridad gratuitas de las herramientas, como minificación del byte-code, protección de la pila, soporte PIE y conteo automático de referencias, se encuentran activadas. | ✓ | ✓ |
+| # | Categoría | Descripción | L1 | L2 |
+| --- | --- | --- | --- | --- |
+| **7.1** | MSTG‑CODE‑1 | La aplicación es firmada y provista con un certificado válido, del cual se protege debidamente su clave privada. | ✓ | ✓ |
+| **7.2** | MSTG‑CODE‑2 | La aplicación fue liberada en modo release y con las configuraciones apropiadas para el mismo (ej. non-debuggable). | ✓ | ✓ |
+| **7.3** | MSTG‑CODE‑3 | Los símbolos de debug fueron removidos de los binarios nativos. | ✓ | ✓ |
+| **7.4** | MSTG‑CODE‑4 | La aplicación no contiene código de prueba y no realiza log de errores o mensajes de debug. | ✓ | ✓ |
+| **7.5** | MSTG‑CODE‑5 | Todos los componentes de terceros se encuentran identificados y revisados por vulnerabilidades conocidas. | ✓ | ✓ |
+| **7.6** | MSTG‑CODE‑6 | La aplicación captura y maneja debidamente las posibles excepciones. | ✓ | ✓ |
+| **7.7** | MSTG‑CODE‑7 | Los controles de seguridad deniegan el acceso por defecto. | ✓ | ✓ |
+| **7.8** | MSTG‑CODE‑8 | En código no administrado, la memoria es pedida, usada y liberada de manera correcta. | ✓ | ✓ |
+| **7.9** | MSTG‑CODE‑9 | Las funcionalidades de seguridad gratuitas de las herramientas, como minificación del byte-code, protección de la pila, soporte PIE y conteo automático de referencias, se encuentran activadas. | ✓ | ✓ |
 
 <div style="page-break-after: always;"></div>
 

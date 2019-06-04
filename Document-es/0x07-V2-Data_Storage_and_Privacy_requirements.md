@@ -20,20 +20,20 @@ Los datos sensibles en el contexto del MASVS se refieren tanto a las credenciale
 
 La gran mayoría de las cuestiones relativas a la divulgación de datos pueden prevenirse siguiendo reglas sencillas. La mayoría de los controles enumerados en este capítulo son obligatorios para todos los niveles de verificación.
 
-| # | Descripción | L1 | L2 |
-| --- | --- | --- | --- |
-| **2.1** | Las funcionalidades de almacenamiento de credenciales del sistema son utilizadas para almacenar la información sensible, como la información personal, credenciales del usuario y claves criptográficas. | ✓ | ✓ |
-| **2.2** | No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema. | ✓ | ✓ |
-| **2.3** | No se escribe información sensible en los registros de la aplicación. | ✓ | ✓ |
-| **2.4** | No se comparte información sensible con servicios externos salvo que sea una necesidad de la arquitectura. | ✓ | ✓ |
-| **2.5** | Se desactiva el caché del teclado en los campos de texto donde se maneja información sensible. | ✓ | ✓ |
-| **2.6** | No se expone información sensible mediante mecanismos entre procesos (IPC). | ✓ | ✓ |
-| **2.7** | No se expone información sensible como contraseñas y números de tarjetas de crédito a través de la interfaz o capturas de pantalla. | ✓ | ✓ |
-| **2.8** | No se incluye información sensible en los respaldos generados por el sistema operativo. |   | ✓ |
-| **2.9** | La aplicación remueve la información sensible de la vista cuando la aplicación pasa a un segundo plano. |  | ✓ |
-| **2.10** | La aplicación no conserva la información sensible en memoria más de lo necesario y la memoria es limpiada luego de su uso. |  | ✓ |
-| **2.11** | La aplicación obliga a que exista una política mínima de seguridad en el dispositivo, como que el usuario deba configurar un código de acceso. |  | ✓ |
-| **2.12** | La aplicación educa al usuario acerca de los tipos de información personal que procesa y de las mejores prácticas en seguridad que el usuario debería seguir al utilizar la aplicación. |  | ✓ |
+| # | Categoría | Descripción | L1 | L2 |
+| --- | --- | --- | --- | --- |
+| **2.1** | MSTG‑STORAGE‑1 | Las funcionalidades de almacenamiento de credenciales del sistema son utilizadas para almacenar la información sensible, como la información personal, credenciales del usuario y claves criptográficas. | ✓ | ✓ |
+| **2.2** | MSTG‑STORAGE‑2 | No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema. | ✓ | ✓ |
+| **2.3** | MSTG‑STORAGE‑3 | No se escribe información sensible en los registros de la aplicación. | ✓ | ✓ |
+| **2.4** | MSTG‑STORAGE‑4 | No se comparte información sensible con servicios externos salvo que sea una necesidad de la arquitectura. | ✓ | ✓ |
+| **2.5** | MSTG‑STORAGE‑5 | Se desactiva el caché del teclado en los campos de texto donde se maneja información sensible. | ✓ | ✓ |
+| **2.6** | MSTG‑STORAGE‑6 | No se expone información sensible mediante mecanismos entre procesos (IPC). | ✓ | ✓ |
+| **2.7** | MSTG‑STORAGE‑7 | No se expone información sensible como contraseñas y números de tarjetas de crédito a través de la interfaz o capturas de pantalla. | ✓ | ✓ |
+| **2.8** | MSTG‑STORAGE‑8 | No se incluye información sensible en los respaldos generados por el sistema operativo. |   | ✓ |
+| **2.9** | MSTG‑STORAGE‑9 | La aplicación remueve la información sensible de la vista cuando la aplicación pasa a un segundo plano. |  | ✓ |
+| **2.10** | MSTG‑STORAGE‑10 | La aplicación no conserva la información sensible en memoria más de lo necesario y la memoria es limpiada luego de su uso. |  | ✓ |
+| **2.11** | MSTG‑STORAGE‑11 | La aplicación obliga a que exista una política mínima de seguridad en el dispositivo, como que el usuario deba configurar un código de acceso. |  | ✓ |
+| **2.12** | MSTG‑STORAGE‑12 | La aplicación educa al usuario acerca de los tipos de información personal que procesa y de las mejores prácticas en seguridad que el usuario debería seguir al utilizar la aplicación. |  | ✓ |
 
 <div style="page-break-after: always;"></div>
 

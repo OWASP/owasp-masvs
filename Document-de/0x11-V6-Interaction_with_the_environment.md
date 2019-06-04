@@ -6,16 +6,16 @@ Die Anforderungen aus dieser Kategorie sollen sicherstellen, dass Plattform-Komp
 
 ## Anforderungen
 
-| # | Beschreibung | L1 | L2 |
-| --- | --- | --- | --- |
-| **6.1** | Die App fordert vom Nutzer nur die unbedingt erforderlichen App-Berechtigungen. | ✓ | ✓ |
-| **6.2** | Alle Eingaben von externen Quellen und dem Nutzer werden validiert und falls erforderlich bereinigt. Dazu gehören Daten aus der GUI, IPC Mechanismen wie Intents oder spezifische URL-Schemas und Netzwerk-Daten. | ✓ | ✓ |
-| **6.3** | Die App bietet keine sensible Funktionalität über App-eigene URL-Schemas an - wenn doch, ist der Mechanismus angemessen geschützt.  | ✓ | ✓ |
-| **6.4** | Die App bietet keine sensible Funktionalität über Interprozesskommunikation (IPC) an - wenn doch, ist der Mechanismus angemessen geschützt. | ✓ | ✓ |
-| **6.5** | JavaScript ist in WebViews deaktiviert wenn es nicht unbedingt erforderlich ist. | ✓ | ✓ |
-| **6.6** | WebViews sind so konfiguriert, dass nur die minimal nötigen Protokoll-Handler erlaubt sind (Idealerweise nur HTTPS). Potentiell gefährliche Handler wie file, tel und app-id sind deaktiviert. | ✓ | ✓ |
-| **6.7** | Wenn eine WebView über Javascript Zugriff auf native Methoden einer App bekommt, ist sichergestellt, dass die WebView nur vorgegebenes Javascript aus der App rendert und kein Javascript aus externen Quellen.  | ✓ | ✓ |
-| **6.8** | Objektserialisierung wird, falls vorhanden, über eine sichere Serialisierungs-API implementiert. | ✓ | ✓ |
+| # | Kategorie | Beschreibung | L1 | L2 |
+| --- | --- | --- | --- | --- |
+| **6.1** | MSTG‑PLATFORM‑1 | Die App fordert vom Nutzer nur die unbedingt erforderlichen App-Berechtigungen. | ✓ | ✓ |
+| **6.2** | MSTG‑PLATFORM‑2 | Alle Eingaben von externen Quellen und dem Nutzer werden validiert und falls erforderlich bereinigt. Dazu gehören Daten aus der GUI, IPC Mechanismen wie Intents oder spezifische URL-Schemas und Netzwerk-Daten. | ✓ | ✓ |
+| **6.3** | MSTG‑PLATFORM‑3 | Die App bietet keine sensible Funktionalität über App-eigene URL-Schemas an - wenn doch, ist der Mechanismus angemessen geschützt.  | ✓ | ✓ |
+| **6.4** | MSTG‑PLATFORM‑4 | Die App bietet keine sensible Funktionalität über Interprozesskommunikation (IPC) an - wenn doch, ist der Mechanismus angemessen geschützt. | ✓ | ✓ |
+| **6.5** | MSTG‑PLATFORM‑5 | JavaScript ist in WebViews deaktiviert wenn es nicht unbedingt erforderlich ist. | ✓ | ✓ |
+| **6.6** | MSTG‑PLATFORM‑6 | WebViews sind so konfiguriert, dass nur die minimal nötigen Protokoll-Handler erlaubt sind (Idealerweise nur HTTPS). Potentiell gefährliche Handler wie file, tel und app-id sind deaktiviert. | ✓ | ✓ |
+| **6.7** | MSTG‑PLATFORM‑7 | Wenn eine WebView über Javascript Zugriff auf native Methoden einer App bekommt, ist sichergestellt, dass die WebView nur vorgegebenes Javascript aus der App rendert und kein Javascript aus externen Quellen.  | ✓ | ✓ |
+| **6.8** | MSTG‑PLATFORM‑8 | Objektserialisierung wird, falls vorhanden, über eine sichere Serialisierungs-API implementiert. | ✓ | ✓ |
 
 <div style="page-break-after: always;"></div>
 
