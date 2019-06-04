@@ -13,7 +13,7 @@ The following changes are part of release 1.1.2:
 
 - Added thank you note for buyers of the e-book.
 - Added missing authentication link & updated broken authentication link in V4.
-- Fixed swap of 4.7 and 4.8 in english.
+- Fixed swap of 4.7 and 4.8 in English.
 - First international release!
   - Fixes in Spanish translation. Translation is now in sync with English (1.1.2).
   - Fixes in Russian translation. Translation is now in sync with English (1.1.2).
