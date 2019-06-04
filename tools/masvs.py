@@ -2,9 +2,9 @@
 
 ''' MASVS document parser and converter class.
 
-    By Bernhard Mueller
+    By Bernhard Mueller, updated by Jeroen Beckers
 
-    Copyright (c) 2017 OWASP Foundation
+    Copyright (c) 2019 OWASP Foundation
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -42,39 +42,58 @@ class MASVS:
     ''' Creates requirements list out of markdown files. '''
     requirements = []
 
-    def __init__(self):
-        for file in os.listdir("../Document"):
+    def __init__(self, lang):
+
+        if lang == "en":
+            target = "../Document"
+        else:
+            target = "../Document-{}".format(lang)
+
+
+        for file in os.listdir(target):
 
             if re.match("0x\d{2}-V", file):
-                for line in open(os.path.join("../Document", file)):
-                    regex = re.compile('\\*\\*(\d\.\d+)\\*\\*\s\|\s{0,1}(.*?)\s{0,1}\|')
+                for line in open(os.path.join(target, file)):
+                    regex = re.compile(r'\*\*(\d\.\d+)\*\*\s\|\s{0,1}(.*?)\s{0,1}\|\s{0,1}(.*?)\s{0,1}\|\s{0,1}(.*?)\s{0,1}\|(\s{0,1}(.*?)\s{0,1}\|)?')
                     m = re.search(regex, line)
+
                     if m:
                         req = {}
-                        req['id'] = m.group(1)
-                        req['text'] = m.group(2)
+
+                        req['id'] = m.group(1).strip()
+                        req['text'] = m.group(3).strip()
+                        req['category'] = m.group(2).decode("utf-8").replace(u"\u2011", "-").encode("utf-8")
+                        if m.group(5):
+                            req['L1'] = len(m.group(4)) > 0
+                            req['L2'] = len(m.group(5)) > 0
+                            req['R'] = False
+                        else:
+                            req['R'] = True
+                            req['L1'] = False
+                            req['L2'] = False
 
                         self.requirements.append(req)
-
+                   
     def to_json(self):
         ''' Returns a JSON-formatted string '''
         return json.dumps(self.requirements)
 
+
     def to_xml(self):
         ''' Returns XML '''
-        xml = ''
+        xml = '<requirements>'
 
         for r in self.requirements:
-
-            xml += "<requirement id = \"" + escape(r['id']) + "\">" + escape(r['text']) + "</requirement>\n"
-
+            xml += "<requirement id='{}' category='{}' L1='{}' L2='{}' R='{}'>{}</requirement>\n".format(r['id'], r['category'], int(r['L1']), int(r['L2']), int(r['R']), escape(r['text']))
+        
+        xml += '</requirements>'
         return xml
 
     def to_csv(self):
         ''' Returns CSV '''
         si = StringIO()
 
-        writer = csv.DictWriter(si, ['id', 'text'], extrasaction='ignore')
+        writer = csv.DictWriter(si, ['id', 'text', 'category', 'L1', 'L2', 'R'], extrasaction='ignore')
         writer.writeheader()
         writer.writerows(self.requirements)
 
