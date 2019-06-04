@@ -1,41 +1,41 @@
-# Changelog
+# 修改日誌
 
-This document is automatically generated at {{gitbook.time}}
+本文件是於  {{gitbook.time}} 自動產生
 
-## V1.1.3 Small Fixes
+## V1.1.3版 小幅度修正
 
-The following changes are part of release 1.1.3:
+以下為 1.1.3 版本內所包含的修正資料:
 
-- Fix translation issue of requirement 7.1 in the Spanish version.
-- New setup of translators in acknowledgements.
-- Small fixes for the Japanese version.
+- 修正需求 7.1 內的西班牙文翻譯。
+- 於致謝區重新安排翻譯者名字。
+- 日文版小幅度修正。
 
-## V1.1.2 Sponsorship and internationalization
+## V1.1.2 贊助者與國際翻譯版本
 
-The following changes are part of release 1.1.2:
+以下為 1.1.2 版本內所包含的修正資料:
 
-- Added thank you note for buyers of the e-book.
-- Added missing authentication link & updated broken authentication link in V4.
-- Fixed swap of 4.7 and 4.8 in english.
-- First international release!
-  - Fixes in Spanish translation. Translation is now in sync with English (1.1.2).
-  - Fixes in Russian translation. Translation is now in sync with English (1.1.2).
-  - Added first release of Chinese (ZHTW) French, German, and Japanese!
-- Simplified document for ease of translation.
-- Added instructions for automated releases.
+- 新增感謝函給予購買電子書版本的使用者。
+- 在V4中添加了丟失的身份驗證連接和更新損壞的身份驗證。
+- 修正英文版當中 4.7 與 4.8 的互換。
+- 第一次的國際翻譯版本!
+  - 修正西班牙文翻譯。翻譯目前已與英文版同步（1.1.2)。
+  - 修正俄羅斯文翻譯。翻譯目前已與英文版同步（1.1.2)。
+  - 新增第一版繁體中文，法文，德文，以及日文翻譯版本！
+- 簡化文件格式方便後續翻譯工作。
+- 新增自動化發佈的方式。
 
-## V1.1.0 14 July 2018
+## V1.1.0 七月十四日 2018 年
 
-The following changes are part of release 1.1:
+以下為 1.1 版本內所包含的修正資料:
 
-- Requirement 2.6 "The clipboard is deactivated on text fields that may contain sensitive data." was removed.
-- Requirement 2.2 "No sensitive data should be stored outside of the app container or system credential storage facilities." was added.
-- Requirement 2.1 was reworded to "System credential storage facilities are used appropriately to store sensitive data, such as PII, user credentials or cryptographic keys.".
+- 移除需求 2.6 "在可能包含敏感資料的文字欄位上停用剪貼板"。
+- 新增需求 2.2 "任何敏感資料不可被儲存在應用程式容器之外或其他系統層的敏感資料儲存系統"。
+- 重新修改用詞於需求 2.1 改為 "系統層的敏感資料儲存系統可適當的用於儲存敏感資料，例如個人資料，使用者資料，或是加密金鑰"。
 
-## V1.0 12 January 2018
+## V1.0 一月十二日 2018 年
 
-The following changes are part of release 1.0:
+以下為 1.0 版本內所包含的修正資料:
 
-- Delete 8.9 as the same as 8.12
-- Made 4.6 more generic
-- Minor fixes (typos etc.)
+- 因需求 8.12 與需求 8.9 相同，刪除 8.9。
+- 將需求 4.6 修改為較廣義定義。
+- 其他小幅度修改 (錯字或文法等)
