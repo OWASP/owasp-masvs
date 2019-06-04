@@ -44,9 +44,17 @@ $ git merge upstream/master
 
 See also the following article for further explanation on "[How to Keep a Downstream git Repository Current with Upstream Repository Changes](https://medium.com/sweetmeat/how-to-keep-a-downstream-git-repository-current-with-upstream-repository-changes-10b76fad6d97 "How to Keep a Downstream git Repository Current with Upstream Repository Changes")".
 
+## Translating
+
+Our current goal is to publish one minor release every 6 months. Next, we will often create patch updates in order to provide intermediary updates in PDF and DocX format. Releases that have been tagged can then be translated into preferred languages. (Note we use semantic versioning: major.minor.patch)
+
 ## What not to do
 
 Although we greatly appreciate any and all contributions to the project, there are a few things that you should take into consideration:
 
 - The MASVS should not be used as a platform for advertisement of commercial tools, companies or individuals. Any contribution should be written with free and open-source tools in mind and commercial tools are typically not accepted.
 - Unnecessary self-promotion of tools or blog posts is frowned upon. If you have a relation with on of the URLs or tools you are referencing, please state so in the PR so that we can verify that the reference is in line with the rest of the guide.
+
+## One last note regarding the tables
+
+To make sure that the tables look nicely, we make use of the unicode character `U+00A0` to format the tables correctly. If you want to translate the table: just copy it and change the content, but let the "trailing spaces" remain untouched. Similarly when you add a new requirement: just copy the final requirement of a table and change the content into the new requirement.

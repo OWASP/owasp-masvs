@@ -52,10 +52,10 @@ $ ./generate_document.sh
 
 ## Exporting to JSON, XML and CSV
 
-The repository contains a Python tool for converting the requirements into various formats. Clone the repo and run `export.py` from the repository root.
+The repository contains a Python tool for converting the requirements into various formats. Clone the repo and run `export.py` from the tools folder.
 
 ```shell
-export.py [-h] [--format {json,xml,csv}]
+export.py [-h] [--format {json,xml,csv}] [--lang {es/ru/en/fr/de/zhtw/ja}]
 ```
 
 ## Suggestions and Feedback

@@ -2,11 +2,11 @@
 
 ''' Tool for converting the MASVS requirements to various formats.
 
-    Usage: ./export.py [--format <csv/xml/json]
+    Usage: ./export.py [--format <csv/xml/json>] [--lang <es/ru/en/fr/de/zhtw/ja>]
 
-    By Bernhard Mueller
+    By Bernhard Mueller, updated by Jeroen Beckers
 
-    Copyright (c) 2017 OWASP Foundation
+    Copyright (c) 2019 OWASP Foundation
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -31,18 +31,20 @@
 import argparse
 from masvs import MASVS
 
-parser = argparse.ArgumentParser(description='Export the MASVS requirements.')
-parser.add_argument('--format', choices=['json', 'xml', 'csv'], default='json')
-parser.add_argument('--lang', choices=['es', 'ru', 'en'], default='en')
+parser = argparse.ArgumentParser(description='Export the MASVS requirements. Default language is en.')
+parser.add_argument('-f', '--format', choices=['json', 'xml', 'csv'], required=True)
+parser.add_argument('-l', '--lang', choices=['es', 'ru', 'en', 'fr', 'de', 'zhtw', 'ja'], default='en')
+
 args = parser.parse_args()
 
-m = MASVS()
-
-
+m = MASVS(args.lang)
 
 if args.format == "csv":
-    print(m.to_csv(args.lang))
+    print(m.to_csv())
 elif args.format == "xml":
-    print(m.to_xml(args.lang))
+    print(m.to_xml())
 else:
-    print(m.to_json(args.lang))
+    print(m.to_json())
+
+
+
