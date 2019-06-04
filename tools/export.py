@@ -31,10 +31,9 @@
 import argparse
 from masvs import MASVS
 
-parser = argparse.ArgumentParser(description='Export the MASVS requirements. Default is json / en')
-parser.add_argument('--format', choices=['json', 'xml', 'csv'], default='json')
+parser = argparse.ArgumentParser(description='Export the MASVS requirements. Default language is en.')
+parser.add_argument('-f', '--format', choices=['json', 'xml', 'csv'], required=True)
 parser.add_argument('--lang', choices=['es', 'ru', 'en', 'fr', 'de', 'zhtw', 'ja'], default='en')
-
 
 args = parser.parse_args()
 
@@ -46,3 +45,6 @@ elif args.format == "xml":
     print(m.to_xml())
 else:
     print(m.to_json())
+
+
+
