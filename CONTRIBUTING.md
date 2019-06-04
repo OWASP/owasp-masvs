@@ -44,6 +44,10 @@ $ git merge upstream/master
 
 See also the following article for further explanation on "[How to Keep a Downstream git Repository Current with Upstream Repository Changes](https://medium.com/sweetmeat/how-to-keep-a-downstream-git-repository-current-with-upstream-repository-changes-10b76fad6d97 "How to Keep a Downstream git Repository Current with Upstream Repository Changes")".
 
+## Translating
+
+Our current goal is to publish one minor release every 6 months. Next, we will often create patch updates in order to provide intermediary updates in PDF and DocX format. Releases that have been tagged can then be translated into preferred languages. (Note we use semantic versioning: major.minor.patch)
+
 ## What not to do
 
 Although we greatly appreciate any and all contributions to the project, there are a few things that you should take into consideration:
