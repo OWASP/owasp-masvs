@@ -2,7 +2,7 @@
 
 Este documento es generado automáticamente a las {{gitbook.time}}
 
-## V1.1.4 4 de julio de 2019 - Summit edition (WIP)
+## V1.1.4 4 de julio de 2019 - Summit edition
 
 Los siguientes cambios forman parte de la versión 1.1.4:
 
