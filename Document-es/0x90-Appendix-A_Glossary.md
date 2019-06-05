@@ -1,6 +1,5 @@
 # Apéndice A: Glosario
 
-- **2FA** – La Autenticación de Segundo Factor agrega un segundo nivel de autenticación al proceso de autenticación de una cuenta.
 - **Aleatorización del Espacio de Direcciones (ASLR)** – Una técnica para hacer más difícil la explotación de errores de corrupción de memoria.
 - **Seguridad de Aplicación** – La seguridad a nivel de aplicación se centra en el análisis de los componentes que componen la capa de aplicación del modelo de referencia de interconexión de sistemas abiertos (modelo OSI), en lugar de centrarse, por ejemplo, en el sistema operativo subyacente o las redes conectadas.
 - **Verificación de la Seguridad de una Aplicación** – La evaluación técnica de una aplicación contra el OWASP MASVS.

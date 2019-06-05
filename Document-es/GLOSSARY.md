@@ -1,9 +1,5 @@
 # Apéndice A: Glosario
 
-## 2FA
-
-La Autenticación de Segundo Factor agrega un segundo nivel de autenticación al proceso de autenticación de una cuenta.
-
 ## Aleatorización del Espacio de Direcciones (ASLR)
 
 Una técnica para hacer más difícil la explotación de errores de corrupción de memoria.
