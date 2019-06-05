@@ -6,7 +6,7 @@ In most cases, users logging into a remote service is an integral part of the ov
 
 ## Security Verification Requirements
 
-| # | Code | Description | L1 | L2 |
+| # | MSTG-ID | Description | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **4.1** | MSTG‑AUTH‑1 | If the app provides users access to a remote service, some form of authentication, such as username/password authentication, is performed at the remote endpoint. | ✓ | ✓ |
 | **4.2** | MSTG‑AUTH‑2 | If stateful session management is used, the remote endpoint uses randomly generated session identifiers to authenticate client requests without sending the user's credentials.  | ✓ | ✓ |

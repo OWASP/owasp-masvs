@@ -6,7 +6,7 @@ Ein integraler Teil der Architektur einer mobilen App ist der Login eines Nutzer
 
 ## Anforderungen
 
-| # | Kategorie | Beschreibung | L1 | L2 |
+| # | MSTG-ID | Beschreibung | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **4.1** | MSTG‑AUTH‑1 | Falls die App Nutzern Zugriff auf entfernte Service APIs bietet wird am API-Endpunkt eine Authentifizierung z.B. mit Nutzername/Passwort durchgeführt. | ✓ | ✓ |
 | **4.2** | MSTG‑AUTH‑2 | Kommt Session-Management am API-Endpunkt zum Einsatz, so werden zufällig generierte Session-IDs erzeugt um Client-Anfragen zu authentifizieren und keine Nutzer-Anmeldedaten versandt. | ✓ | ✓ |
