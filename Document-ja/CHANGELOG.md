@@ -3,7 +3,21 @@
 このドキュメントは、{{gitbook.time}}に自動的に作成されたものです。
 日本語注：この翻訳は、自動生成されたものを手動で翻訳したものです。
 
-## V1.1.3 軽微な修正
+The following changes are part of release 1.1.4:
+
+- Fix all markdown issues.
+- Updates in the French and Spanish translations.
+- Translated the changelog to Chinese (ZHTW) and Japanese.
+- Automated verification of the markdown syntax and reachability of the URLs.
+- Added identification codes to the requirements, which will be included in the future version of the MSTG in order to find the recommendations and testcases easily.
+- Reduced the repo size and added Generated to the .gitignore.
+- Added a Code of Conduct & Contributing guidelines.
+- Added a Pull-Request template.
+- Updated the sync with the repo in use for hosting the Gitbook website.
+- Updated the scripts to generate XML/JSON/CSV for all the translations.
+- Translated the Foreword to Chinese (ZHTW).
+
+## V1.1.3 9 January 2019 軽微な修正
 
 次の変更点は、リリース1.1.3に含まれています:
 
@@ -11,7 +25,7 @@
 - 謝辞において翻訳者を記載。
 - 日本語版における翻訳の軽微な修正。
 
-## V1.1.2 スポンサーシップと国際化
+## V1.1.2 3 January 2019 スポンサーシップと国際化
 
 次の変更点は、リリース1.1.2に含まれています:
 
