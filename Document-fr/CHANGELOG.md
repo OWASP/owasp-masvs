@@ -16,7 +16,7 @@ Ce document est généré automatiquement à {{gitbook.time}}
 - Mise à jour des scripts pour générer les fichiers XML / JSON / CSV pour toutes les traductions.
 - Traduit de l'avant-propos en chinois (ZHTW).
 
-## V1.1.3 Quelques Améliorations
+## V1.1.3 Janvier 2019 - Quelques Améliorations
 
 Les changements suivants font partie de la livraison 1.1.3 :
 
@@ -24,7 +24,7 @@ Les changements suivants font partie de la livraison 1.1.3 :
 - Nouvelle présentation des traducteurs dans les Remerciements
 - Petites corrections pour la version japonaise.
 
-## V1.1.2 Parrainage et internationalisation
+## V1.1.2 Janvier 2019 - Parrainage et internationalisation
 
 Les changements suivants font partie de la livraison 1.1.2 :
 
@@ -38,7 +38,7 @@ Les changements suivants font partie de la livraison 1.1.2 :
 - Simplification du document afin de faciliter la traduction.
 - Ajout d'instructions pour les livraisons automatisées.
 
-## V1.1.0 14 juillet 2018
+## V1.1.0 14 Juillet 2018
 
 Les changements suivants font partie de la livraison 1.1 :
 
