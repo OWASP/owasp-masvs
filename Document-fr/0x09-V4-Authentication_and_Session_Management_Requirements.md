@@ -20,7 +20,7 @@ Dans la plupart des cas, la connexion des utilisateurs à un service distant doi
 | **4.10** | MSTG‑AUTH‑10 | Les transactions sensibles requièrent une authentification améliorée.  |   | ✓ |
 | **4.11** | MSTG‑AUTH‑11 | L'application informe les utilisateurs de toutes les connexions sur leurs comptes. Les utilisateurs ont accès à la liste des appareils utilisés pour accéder à leurs comptes et peuvent en bloquer. |  | ✓ |
 
-<div style="page-break-after: always;"></div>
+<br/>
 
 ## Références
 

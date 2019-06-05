@@ -19,6 +19,8 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 | **3.5** | MSTG‑CRYPTO‑5 | The app doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ |
 | **3.6** | MSTG‑CRYPTO‑6 | All random values are generated using a sufficiently secure random number generator. | ✓ | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## References
 
 The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.

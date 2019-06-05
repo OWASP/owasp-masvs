@@ -1,4 +1,4 @@
-# 附錄 A ：詞彙表
+# 附錄 A - 詞彙表
 
 ## 位址空間組態隨機載入(Address Space Layout Randomization, ASLR)
 

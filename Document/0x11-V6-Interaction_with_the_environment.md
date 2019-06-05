@@ -17,6 +17,8 @@ The controls in this group ensure that the app uses platform APIs and standard c
 | **6.7** | MSTG‑PLATFORM‑7 | If native methods of the app are exposed to a WebView, verify that the WebView only renders JavaScript contained within the app package. | ✓ | ✓ |
 | **6.8** | MSTG‑PLATFORM‑8 | Object deserialization, if any, is implemented using safe serialization APIs. | ✓ | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## References
 
 The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
