@@ -10,7 +10,7 @@ The category “V1” lists requirements pertaining to architecture and design o
 
 The requirements for MASVS-L1 and MASVS-L2 are listed below.
 
-| # | Code | Description | L1 | L2 |
+| # | MSTG-ID | Description | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **1.1** | MSTG‑ARCH‑1 | All app components are identified and known to be needed. | ✓ | ✓ |
 | **1.2** | MSTG‑ARCH‑2 | Security controls are never enforced only on the client side, but on the respective remote endpoints. | ✓ | ✓ |
