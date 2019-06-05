@@ -2,7 +2,7 @@
 
 Ce document est généré automatiquement à {{gitbook.time}}
 
-## V1.1.4 4 Juillet 2019 - Summit edition (WIP)
+## V1.1.4 4 Juillet 2019 - Summit edition
 
 - Corrections d'erreurs de markdown.
 - Mise à jour des traductions française et espagnole.
