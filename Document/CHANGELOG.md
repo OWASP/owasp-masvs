@@ -9,7 +9,7 @@ The following changes are part of release 1.1.4:
 - Fix all markdown issues.
 - Updates in the French and Spanish translations.
 - Translated the changelog to Chinese (ZHTW) and Japanese.
-- Automated verification of the markdown syntax and reachability of the URLs.
+- Automated verification of the the markdown syntax and reachability of the URLs.
 - Added identification codes to the requirements, which will be included in the future version of the MSTG in order to find the recommendations and testcases easily.
 - Reduced the repo size and added Generated to the .gitignore.
 - Added a Code of Conduct & Contributing guidelines.

@@ -1,6 +1,5 @@
 # Annexe A: Glossaire
 
-- **2FA** – L'Authentification à Deux Facteurs ajoute un second niveau d'authentification lors de la connexion à un compte.
 - **Distribution Aléatoire de l'Espace D'adressage (ASLR)** – Une technique rendant plus difficiles l'exploitation de défauts permettant la corruption de la mémoire.
 - **Sécurité Applicative** – La sécurité de niveau applicatif se focalise sur l'analyse des composants qui constituent la couche applicative du modèle OSI (the Open Systems Interconnection Reference Model), plutôt que de se focaliser par exemple sur le système d'exploitation sous-jacent ou sur les réseaux connectés.
 - **Validation de la Sécurité Applicative** – Evaluation technique d'une application par rapport au MASVS de l'OWASP.

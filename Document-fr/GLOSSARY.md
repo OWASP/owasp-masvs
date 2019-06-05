@@ -1,9 +1,5 @@
 # Annexe A: Glossaire
 
-## 2FA
-
-L'Authentification à Deux Facteurs ajoute un second niveau d'authentification lors de la connexion à un compte.
-
 ## Distribution Aléatoire de l'Espace D'adressage (ASLR)
 
 Une technique rendant plus difficiles l'exploitation de défauts permettant la corruption de la mémoire.
