@@ -22,7 +22,7 @@ The following considerations apply:
 
 ### Impede Dynamic Analysis and Tampering
 
-| # | Code | Description | R |
+| # | MSTG-ID | Description | R |
 | --- | --- | --- | -- |
 | **8.1** | MSTG‑RESILIENCE‑1 | The app detects, and responds to, the presence of a rooted or jailbroken device either by alerting the user or terminating the app. | ✓ |
 | **8.2** | MSTG‑RESILIENCE‑2 | The app prevents debugging and/or detects, and responds to, a debugger being attached. All available debugging protocols must be covered. | ✓ |
@@ -36,13 +36,13 @@ The following considerations apply:
 
 ### Device Binding
 
-| # | Code | Description | R |
+| # | MSTG-ID | Description | R |
 | --- | --- | --- | -- |
 | **8.10** | MSTG‑RESILIENCE‑10 | The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device. | ✓ |
 
 ### Impede Comprehension
 
-| # | Code | Description | R |
+| # | MSTG-ID | Description | R |
 | --- | --- | --- | -- |
 | **8.11** | MSTG‑RESILIENCE‑11 |All executable files and libraries belonging to the app are either encrypted on the file level and/or important code and data segments inside the executables are encrypted or packed. Trivial static analysis does not reveal important code or data. | ✓ |
 | **8.12** | MSTG‑RESILIENCE‑12 | If the goal of obfuscation is to protect sensitive computations, an obfuscation scheme is used that is both appropriate for the particular task and robust against manual and automated de-obfuscation methods, considering currently published research. The effectiveness of the obfuscation scheme must be verified through manual testing. Note that hardware-based isolation features are preferred over obfuscation whenever possible. | ✓ |
