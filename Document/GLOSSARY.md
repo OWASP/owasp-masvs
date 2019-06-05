@@ -1,9 +1,5 @@
 # Appendix A: Glossary
 
-## 2FA
-
-Two-factor authentication(2FA) adds a second level of authentication to an account log-in.
-
 ## Address Space Layout Randomization (ASLR)
 
 A technique to make exploiting memory corruption bugs more difficult.

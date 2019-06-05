@@ -1,9 +1,5 @@
 # 附錄 A ：詞彙表
 
-## 雙因素身份驗證(Two-factor Authentication, 2FA)
-
-在帳號登入時增加第二層的身份驗證。
-
 ## 位址空間組態隨機載入(Address Space Layout Randomization, ASLR)
 
 一種能讓利用記憶體損壞漏洞的攻擊更加困難的技術。

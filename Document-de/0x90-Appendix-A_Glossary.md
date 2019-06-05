@@ -1,6 +1,5 @@
 # Appendix A: Glossar
 
-- **2FA** – Zwei-Faktor-Authentifizierung bedeutet es wird ein zusätzlicher Authentifizierungsfaktor z.B. eine PIN oder ein Einmalpasswort zur Anmeldung am Nutzerkonto verlangt.
 - **Address Space Layout Randomization (ASLR)** – Eine Technik um Angriffe auf Arbeitsspeicherbereiche zu erschweren.
 - **Akzeptanztest (UAT)** – Eine Testumgebung die sich ähnlich verhält wie die Produktivumgebung, in der Tests vor dem go-live ausgeführt werden.
 - **Applikationssicherheit** – Applikationssicherheit ist fokussiert auf Sicherheitsaspekte und Angriffe auf Anwendungsebene d.h. Applikationskomponenten und -funktionen korrespondierend zur Anwendungsschicht im Open Systems Interconnection Reference Model (OSI Modell). Der Fokus liegt nicht auf Betriebssystem- oder Netzwerkaspekten.
