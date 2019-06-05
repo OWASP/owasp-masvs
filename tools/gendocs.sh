@@ -45,6 +45,3 @@ sh ./generate_document_fr.sh $TRAVIS_TAG
 sh ./generate_document_ja.sh $TRAVIS_TAG
 sh ./generate_document_ru.sh $TRAVIS_TAG
 sh ./generate_document_zhtw.sh $TRAVIS_TAG
-
-echo "Checking epub validity"
-sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_($TRAVIS_TAG)_Document.epub
