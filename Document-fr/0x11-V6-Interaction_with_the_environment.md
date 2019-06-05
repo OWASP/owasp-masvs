@@ -6,7 +6,7 @@ Le but des contrôles de ce groupe est de garantir que l'application utilise les
 
 ## Exigences pour la Validation de la Sécurité
 
-| # | Catégorie | Description | L1 | L2 |
+| # | MSTG-ID | Description |L2 |
 | --- | --- | --- | --- | --- |
 | **6.1** | MSTG‑PLATFORM‑1 | L'application ne demande qu'une série minimum de permissions nécessaires. | ✓ | ✓ |
 | **6.2** | MSTG‑PLATFORM‑2 | Toutes les entrées provenant de sources externes ainsi que des utilisateurs sont validées et si nécessaire assainies. Ceci inclut les données reçues via l'interface utilisateur, les mécanismes IPC tel que les intentions, les URL propres à l'application et les sources sur le réseau.| ✓ | ✓ |
