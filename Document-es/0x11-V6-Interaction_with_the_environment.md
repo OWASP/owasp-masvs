@@ -17,6 +17,8 @@ Estos controles revisan que se utilicen las APIs de la plataforma y componentes 
 | **6.7** | MSTG‑PLATFORM‑7 | Si objetos nativos son expuestos en WebViews, verificar que solo se cargan JavaScripts contenidos del paquete de la aplicación. | ✓ | ✓ |
 | **6.8** | MSTG‑PLATFORM‑8 | Serialización de objetos, si se realiza, se implementa utilizando API seguras. | ✓ | ✓ |
 
+<div style="page-break-after: always;"></div>
+
 ## Referencias
 
 La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detalladas para verificar los requisitos listados en esta sección.
