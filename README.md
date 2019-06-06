@@ -17,7 +17,7 @@ The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https
 
 # Getting the MASVS
 
-PDF/Mobi/Epub/Docx downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases "Releases"). The current release of the [MASVS is version 1.1.3](https://github.com/OWASP/owasp-masvs/releases/tag/1.1.3 "MASVS version 1.1.3"). The MASVS is also available in different languages:
+PDF/Mobi/Epub/Docx downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases "Releases"). The current release of the [MASVS is version 1.1.4](https://github.com/OWASP/owasp-masvs/releases/tag/1.1.4 "MASVS version 1.1.4"). The MASVS is also available in different languages:
 
 - [Spanish](https://github.com/OWASP/owasp-masvs/tree/master/Document-es "Spanish")  
 - [Russian](https://github.com/OWASP/owasp-masvs/tree/master/Document-ru "Russian")
