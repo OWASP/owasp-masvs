@@ -1,57 +1,58 @@
-# Changelog
+# Versionshistorie
 
-This document is automatically generated at {{gitbook.time}}
+Dieses Dokument wurde automatisch erstellt am {{gitbook.time}}.
 
-## V1.1.4 4 July 2019 - Summit edition
+## V1.1.4 4 Juli 2019 - Summit edition
 
-The following changes are part of release 1.1.4:
+Die folgenden Änderungen sind Teil von Version 1.1.4:
 
-- Fix all markdown issues.
-- Updates in the French and Spanish translations.
-- Translated the changelog to Chinese (ZHTW) and Japanese.
-- Automated verification of the markdown syntax and reachability of the URLs.
-- Added identification codes to the requirements, which will be included in the future version of the MSTG in order to find the recommendations and testcases easily.
-- Reduced the repo size and added Generated to the .gitignore.
-- Added a Code of Conduct & Contributing guidelines.
-- Added a Pull-Request template.
-- Updated the sync with the repo in use for hosting the Gitbook website.
-- Updated the scripts to generate XML/JSON/CSV for all the translations.
-- Translated the Foreword to Chinese (ZHTW).
+- Markdown Fehler wurden alle behoben.
+- Französische und Spanische Übersetzung wurden aktualisiert.
+- Versionshistorie wurde übbersetzt in Chinesisch (ZHTW) und Japanisch.
+- Automatische überprüfung der Markdown Syntax und Erreichbarkeit von URLs.
+- IDs zur identifizierung von Anforderungen wurden hinzugefügt, die in der nächsten Veröffentlichung des MSTG mit eingearbeitet werden. Dies soll die Suche nach Anforderungen und Testfällen vereinfachen. 
+- Größe des Github Repositories wurde reduziert und das Verzeichnis Generated wurde zum .gitignore hinzugefügt.
+- "Code of Conduct" und "Contributing Guidelines" wurden hinzugefügt.
+- Ein Pull-Request Template wurde hinzugefügt.
+- Die Synchronisation zwischen dem MASVS Repository das für Gitbook genutzt wird und Gitbook wurde aktualisiert.
+- Die Skripte zum erzeugen von XML/JSON/CSV von allen Sprachen wurde aktualisiert
+- Das Vorwort wurde in Chinesisch (ZHTW) übersetzt.
 
-## V1.1.3 9 January 2019 - Small Fixes
+## V1.1.3 9 Januar 2019 - Kleine Fehlerbehebungen
 
-The following changes are part of release 1.1.3:
+Die folgenden Änderungen sind Teil von Version 1.1.3:
 
-- Fix translation issue of requirement 7.1 in the Spanish version.
-- New setup of translators in acknowledgements.
-- Small fixes for the Japanese version.
+- Fix für Spanische Übersetzung von Anforderung 7.1.
+- Neue Tabelle für Übersetzer in Danksagungen
+- Kleine fixes in der Japanischen Version.
 
-## V1.1.2 3 January 2019 - Sponsorship and internationalization
+## V1.1.2 3 Januar 2019 - Sponsoren und Internationalisierung
 
-The following changes are part of release 1.1.2:
+Die folgenden Änderungen sind Teil von Version 1.1.2:
 
-- Added thank you note for buyers of the e-book.
-- Added missing authentication link & updated broken authentication link in V4.
-- Fixed swap of 4.7 and 4.8 in english.
-- First international release!
-  - Fixes in Spanish translation. Translation is now in sync with English (1.1.2).
-  - Fixes in Russian translation. Translation is now in sync with English (1.1.2).
-  - Added first release of Chinese (ZHTW) French, German, and Japanese!
-- Simplified document for ease of translation.
-- Added instructions for automated releases.
+- Danksagung für alle Käufer die das Buch von Leanpub gekauft haben.
+- Fehlender Authentifizierung und Session Management link hinzugefügt und kaputten link in V4 aktualisiert
+- Anforderung 4.7 und 4.8 ausgetauscht in Englischer Version
+- Erste Internationale Version!
+  - Fehler behoben in spanischer Version. Übersetzung ist auf gleichem Stand mit englischer Version (1.1.2).
+  - Fehler behoben in russischer Version. Übersetzung ist auf gleichem Stand mit englischer Version (1.1.2).
+  - Erste Version auf Chinesisch (ZHTW), Französisch, Deutsch und Japanisch!
+- Dokument vereinfacht um Übersetzung zu erleichtern. 
+- Anleitung hinzugefügt für automatische Erstellung von neuen MASVS Versionen.
 
-## V1.1.0 14 July 2018
+## V1.1.0 14 Juli 2018
 
-The following changes are part of release 1.1:
+Die folgenden Änderungen sind Teil von Version 1.1:
 
-- Requirement 2.6 "The clipboard is deactivated on text fields that may contain sensitive data." was removed.
-- Requirement 2.2 "No sensitive data should be stored outside of the app container or system credential storage facilities." was added.
-- Requirement 2.1 was reworded to "System credential storage facilities are used appropriately to store sensitive data, such as PII, user credentials or cryptographic keys.".
+- Anforderung 2.6 "The clipboard is deactivated on text fields that may contain sensitive data." wurde entfernt.
+- Anforderung 2.2 "Es werden keine sensiblen Daten außerhalb des App-Containers oder außerhalb des vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismus abgelegt." wurde hinzugefügt.
+- Anforderung 2.1 wurde umformuliert zu "Die App speichert sensible Daten wie personenbezogene Daten, Anmeldedaten oder kryptographische Schlüssel unter Nutzung der vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismen.".
 
-## V1.0 12 January 2018
+## V1.0 12 Januar 2018
 
-The following changes are part of release 1.0:
+Die folgenden Änderungen sind Teil von Version 1.0:
 
-- Delete 8.9 as the same as 8.12
-- Made 4.6 more generic
-- Minor fixes (typos etc.)
+- Anforderung 8.9 wurde entfernt, da redundant zu 8.12
+- Anforderung 4.6 wurde allgemeiner formuliert
+- Kleine fixes (typos etc.)
+
