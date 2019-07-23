@@ -54,7 +54,7 @@ Our current goal is to publish one minor release every 6 months. Next, we will o
 Translating the MASVS in a new language is great, but given the nature of the MASVS, we have to make sure that the translation can be verified by a second translator who can verify that the English version of the MASVS has been translated properly. So when you want to start a translation: contact us on Slack and together we can make sure that you have your co-translator ready. Once you are all set, we execute the following steps:
 
 1. Follow step 1-8 of [How to set up my contributor environment](##How to set up my contributor environment).
-2. Create a pull request for the langauge you want to support. All you have to do is create a copy of the `Document` folder and check that in, annotated with the language of your choice. For instance, if you want to translate the document into Dutch (NL), then you create a copy of the `Document` folder and check it in as `Document-nl`.
+2. Create a pull request for the langauge you want to support. All you have to do is create a copy of the `Document` folder and commit it, annotated with the language of your choice. For instance, if you want to translate the document into Dutch (NL), you create a copy of the `Document` folder and commit it as `Document-nl`.
 3. Start the actual translation, one PR after another, which then needs to be reviewed by your fellow translator. Try to do this 1 chapter per PR, so that the reviewer can easily fix it.
 4. When you have started with 3, contact us, so we can help you with the necessary scripts to automatically generate PDFS/Epubs/Mobi files so you can see how your translation looks in those formats.
 5. Once all the chapters are translated, we can start creating a release.
