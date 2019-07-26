@@ -36,9 +36,6 @@ The vast majority of data disclosure issues can be prevented by following simple
 | **2.11** | MSTG‑STORAGE‑11 | The app enforces a minimum device-access-security policy, such as requiring the user to set a device passcode. |  | ✓ |
 | **2.12** | MSTG‑STORAGE‑12 | The app educates the user about the types of personally identifiable information processed, as well as security best practices the user should follow in using the app. |  | ✓ |
 
-<div style="page-break-after: always;">
-</div>
-
 ## References
 
 The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
