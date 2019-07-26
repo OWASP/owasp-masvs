@@ -41,9 +41,6 @@ Folgende Eckpunkte gelten:
 | --- | --- | --- | -- |
 | **8.10** | MSTG‑RESILIENCE‑10 | Die App implementiert einen Mechanismus zur Gerätebindung bei dem der Geräte-Fingerabdruck aus mehreren einzigartigen Geräteeigenschaften ermittelt wird. | ✓ |
 
-<div style="page-break-after: always;">
-</div>
-
 ### Nachvollziehbarkeit verhindern
 
 | # | MSTG-ID | Beschreibung | R |
