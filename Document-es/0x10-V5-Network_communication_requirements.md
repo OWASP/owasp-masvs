@@ -15,7 +15,8 @@ Los controles enumerados en esta categoría tienen por objetivo asegurar la conf
 | **5.5** | MSTG‑NETWORK‑5 | La aplicación no depende de un único canal de comunicaciones inseguro (email o SMS) para operaciones críticas como registros o recuperación de cuentas. |  | ✓ |
 | **5.6** | MSTG‑NETWORK‑6 | La aplicación sólo depende de bibliotecas de conectividad y seguridad actualizadas. |  | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## Referencias
 

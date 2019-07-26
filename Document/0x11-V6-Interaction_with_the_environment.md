@@ -18,7 +18,8 @@ The controls in this group ensure that the app uses platform APIs and standard c
 | **6.8** | MSTG‑PLATFORM‑8 | Object deserialization, if any, is implemented using safe serialization APIs. | ✓ | ✓ |
 | **6.9** | MSTG‑PLATFORM‑9 | The app protects itself against screen overlay attacks. (Android only) |  | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## References
 
