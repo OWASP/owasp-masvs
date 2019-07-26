@@ -14,7 +14,8 @@ Dans le contexte du MASVS, les données sensibles ont trait aux deux aspects que
 - Information hautement sensible pouvant amener à une perte de réputation et/ou un coût financier si elle était divulguée : information contractuelle, information sous le coup de clauses de non-divulgation, information de gestion ;
 - Toute information devant être protégée légalement ou pour des raisons de conformité.
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;" >
+</div>
 
 ## Exigences pour la Validation de la Sécurité
 

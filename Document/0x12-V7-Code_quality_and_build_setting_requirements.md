@@ -18,7 +18,8 @@ The goal of this control is to ensure that basic security coding practices are f
 | **7.8** | MSTG‑CODE‑8 | In unmanaged code, memory is allocated, freed and used securely.  | ✓ | ✓ |
 | **7.9** | MSTG‑CODE‑9 | Free security features offered by the toolchain, such as byte-code minification, stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;" >
+</div>
 
 ## References
 
