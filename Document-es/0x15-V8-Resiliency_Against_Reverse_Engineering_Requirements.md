@@ -18,7 +18,8 @@ Se aplican las siguientes consideraciones:
 
 3. La eficiencia de la protección siempre debe ser verificada por un experto con experiencia en el testeo de tipos particulares de anti-manipulación y ofuscación utilizados (ver también los capítulos "ingeniería inversa" y "evaluación de protecciones del software" en la Guía de Pruebas de Seguridad Móvil).
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ### Impedir el Análisis Dinámico y la Manipulación
 
@@ -40,7 +41,8 @@ Se aplican las siguientes consideraciones:
 | --- | --- | --- | -- |
 | **8.10** | MSTG‑RESILIENCE‑10 | La aplicación implementa un “enlace al dispositivo” utilizando una huella del dispositivo derivado de varias propiedades únicas al mismo. | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ### Impedir la comprensión
 

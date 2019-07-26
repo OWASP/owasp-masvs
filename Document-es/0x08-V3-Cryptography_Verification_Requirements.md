@@ -19,7 +19,8 @@ La criptografía es un componente esencial a la hora de proteger los datos almac
 | **3.5** | MSTG‑CRYPTO‑5 | La aplicación no reutiliza una misma clave criptográfica para varios propósitos. | ✓ | ✓ |
 | **3.6** | MSTG‑CRYPTO‑6 | Los valores aleatorios son generados utilizando un generador de números suficientemente aleatorios. | ✓ | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## Referencias
 
