@@ -21,7 +21,8 @@
 
 3. 保護的有效性應始終由具有測試所使用的特定類型防篡改和混淆經驗的專家進行驗證（另請參閱 Mobile Security Testing Guide 中的“逆向工程”和“評估軟體保護”章節）。
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ### 阻礙動態分析和篡改
 
@@ -43,7 +44,8 @@
 | --- | --- | --- | -- |
 | **8.10** | MSTG‑RESILIENCE‑10 | 應用程式使用從裝置特有的多個特性衍生的設備指紋實作“裝置綁定”功能。 | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ### 防止洩漏
 

@@ -20,7 +20,8 @@
 | **4.10** | MSTG‑AUTH‑10 | 敏感的交易需要進一步認證。  |   | ✓ |
 | **4.11** | MSTG‑AUTH‑11 | 應用程式通過其帳戶通知用戶所有登錄活動。 用戶可以查看用於訪問帳戶的裝置列表，以及阻檔特定裝置。 |  | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## 參考
 

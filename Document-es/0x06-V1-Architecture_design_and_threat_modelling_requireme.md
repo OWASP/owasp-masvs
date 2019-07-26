@@ -6,7 +6,8 @@ En un mundo perfecto, la seguridad sería considerada en todas las fases del des
 
 La categoría V1 lista los requerimientos pertinentes a la arquitectura y al diseño de la aplicación. Debido a esto es la única categoría que no se corresponde con casos de test de la Guía de Pruebas Móviles de OWASP. Para cubrir temas tales como el modelado de amenazas, SDLC seguro, gestión de claves, los usuarios del MASVS deben consultar los respectivos proyectos de OWASP y/u otros estándares como los que se encuentran enlazados a debajo.
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## Requerimientos de Verificación de Seguridad
 

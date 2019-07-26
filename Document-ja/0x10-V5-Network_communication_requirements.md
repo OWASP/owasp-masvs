@@ -15,7 +15,8 @@
 | **5.5** | MSTG‑NETWORK‑5 | アプリは登録やアカウントリカバリーなどの重要な操作において（電子メールやSMSなどの）単方向のセキュアでない通信チャネルに依存していない。 |  | ✓ |
 | **5.6** | MSTG‑NETWORK‑6 | アプリは最新の接続ライブラリとセキュリティライブラリにのみ依存している。 |  | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## 参考情報
 
