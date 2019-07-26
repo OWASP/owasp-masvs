@@ -18,7 +18,8 @@ Das Ziel dieser Kategorie ist, sicherzustellen, dass bei der App-Entwicklung Bas
 | **7.8** | MSTG‑CODE‑8 | Das Speichermanagement (Allokation und Freigabe von Speicher) erfolgt in unmanaged code auf sichere Weise. | ✓ | ✓ |
 | **7.9** | MSTG‑CODE‑9 | Angebotene Sicherheitsfunktionen der Entwicklungsumgebung wie Byte-Code Minimierung, Stack-Protection, PIE-Support und automatisches Reference-Counting sind aktiviert. | ✓ | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;" >
+</div>
 
 ## Referenzen
 
