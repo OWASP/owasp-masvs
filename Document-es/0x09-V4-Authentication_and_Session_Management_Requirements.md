@@ -20,7 +20,8 @@ En la mayoría de los casos, una parte esencial de la arquitectura global de apl
 | **4.10** | MSTG‑AUTH‑10 | Para realizar transacciones se requiere una re-autenticación. |   | ✓ |
 | **4.11** | MSTG‑AUTH‑11 | La aplicación informa al usuario acerca de los accesos a su cuenta. El usuario es capaz de ver una lista de los dispositivos conectados y bloquear el acceso desde ciertos dispositivos. |  | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## Referencias
 

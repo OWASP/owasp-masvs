@@ -6,7 +6,8 @@ Dans un monde parfait, la sécurité serait prise en compte tout au long du cycl
 
 La catégorie “V1” liste les exigences relatives à l'architecture et au design de l'application. Par conséquent, c'est la seule catégorie qui n'est pas reliée à des cas de test techniques dans le Mobile Testing Guide de l'OWASP. Afin de traiter des sujets tels que le modèle de menaces, le SDLC de sécurité, la gestion des clés, le lecteur du MASVS est invité à consulter les projets de l'OWASP dédiés à ces sujets et/ou d'autres standards tel que ceux listés ci-dessous.
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## Exigences pour la Validation de la Sécurité
 
