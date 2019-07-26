@@ -23,7 +23,8 @@
 | **1.9** | MSTG‑ARCH‑9 | 存在強制行動應用程式更新的機制。 |   | ✓ |
 | **1.10** | MSTG‑ARCH‑10 | 安全性在軟體開發生命週期的所有階段中仔細納入考量。 |   | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## 參考
 

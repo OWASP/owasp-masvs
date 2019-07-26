@@ -36,7 +36,8 @@ La grande majorité des problèmes de divulgation de données peuvent être emp�
 | **2.11** | MSTG‑STORAGE‑11 | L'application met en oeuvre un minimum de politique concernant la sécurité de l'accès à l'appareil tel que l'obligation pour l'utilisateur de définir un code d'accès à l'appareil. |  | ✓ |
 | **2.12** | MSTG‑STORAGE‑12 | L'application instruit l'utilisateur sur les types d'information personnellement identifiable traités ainsi que sur les bonnes pratiques que l'utilisateur devrait suivre en utilisant l'application. |  | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## Références
 
