@@ -18,7 +18,6 @@ The following considerations apply:
 
 3. The effectiveness of the protection should always be verified by a human expert with experience in testing the particular types of anti-tampering and obfuscation used (see also the "reverse engineering" and "assessing software protections" chapters in the Mobile Security Testing Guide).
 
-<div style="page-break-after: always;"></div>
 
 ### Impede Dynamic Analysis and Tampering
 
@@ -47,7 +46,9 @@ The following considerations apply:
 | **8.11** | MSTG‑RESILIENCE‑11 |All executable files and libraries belonging to the app are either encrypted on the file level and/or important code and data segments inside the executables are encrypted or packed. Trivial static analysis does not reveal important code or data. | ✓ |
 | **8.12** | MSTG‑RESILIENCE‑12 | If the goal of obfuscation is to protect sensitive computations, an obfuscation scheme is used that is both appropriate for the particular task and robust against manual and automated de-obfuscation methods, considering currently published research. The effectiveness of the obfuscation scheme must be verified through manual testing. Note that hardware-based isolation features are preferred over obfuscation whenever possible. | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+\pagebreak
+</div>
 
 ## References
 
