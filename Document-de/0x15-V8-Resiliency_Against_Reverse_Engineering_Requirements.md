@@ -18,7 +18,8 @@ Folgende Eckpunkte gelten:
 
 3. Die Effektivität der Schutzmaßnahmen sollte immer von einem Experten mit ausgewiesener Erfahrung im Bereich Anti-Code-Manipulation und Code-Obfuskierung überprüft werden (siehe auch Kapitel "reverse engineering" and "assessing software protections" im Mobile Security Testing Guide).
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;" >
+</div>
 
 ### Dynamische Analyse und Manipulation verhindern
 
@@ -46,7 +47,10 @@ Folgende Eckpunkte gelten:
 | --- | --- | --- | -- |
 | **8.11** | MSTG‑RESILIENCE‑11 | Alle ausführbaren Dateien und Bibliotheken der App sind entweder auf Dateiebene verschlüsselt und/oder wichtige Code- und Datenabsegmente in ausführbaren Dateien sind verschlüsselt oder durch Packing obfuskiert. Triviale statische Analyse offenbart keinen wichtigen Code oder Daten. | ✓ |
 | **8.12** | MSTG‑RESILIENCE‑12 | Wenn das Ziel der Obfuskierung der Schutz sensibler Logik wie Algorithmen oder Berechnungen ist, so wird ein angemessener Obfuskierungsmechanismus, dem Stand der Technik entsprechend, genutzt der resilient gegen manuelle und automatisierte De-Obfuskierungsangriffe ist. Die Wirksamkeit der Obfuskierungsmethode muss durch manuelle Tests überprüft werden. Es ist zu beachten, dass hardware-basierte Isolations-Mechanismen softwarebasierter Obfuskierung vorzuziehen sind. | ✓ |
-<div style="page-break-after: always;"></div>
+
+<div style="page-break-after: always;" >
+</div>
+
 ## Referenzen
 
 Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die Anforderungen aus dieser Kategorie zu überprüfen.

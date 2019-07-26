@@ -20,7 +20,8 @@ Ein integraler Teil der Architektur einer mobilen App ist der Login eines Nutzer
 | **4.10** | MSTG‑AUTH‑10 | Sensible Transaktionen erfordern eine zusätzliche Authentifizierung (durch einen weiteren Authentifizierungsfaktor). |   | ✓ |
 | **4.11** | MSTG‑AUTH‑11 | Die App informiert den Nutzer über alle Anmelde-Vorgänge am Nutzerkonto. Nutzer können eine Liste aller mit dem Konto verbundenen Geräte sehen und ausgewählte Geräte blockieren. |  | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;" >
+</div>
 
 ## Referenzen
 
