@@ -18,7 +18,6 @@ The following considerations apply:
 
 3. The effectiveness of the protection should always be verified by a human expert with experience in testing the particular types of anti-tampering and obfuscation used (see also the "reverse engineering" and "assessing software protections" chapters in the Mobile Security Testing Guide).
 
-
 ### Impede Dynamic Analysis and Tampering
 
 | # | Code | Description | R |
