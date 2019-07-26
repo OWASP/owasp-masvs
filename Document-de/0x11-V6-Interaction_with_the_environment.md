@@ -17,7 +17,8 @@ Die Anforderungen aus dieser Kategorie sollen sicherstellen, dass Plattform-Komp
 | **6.7** | MSTG‑PLATFORM‑7 | Wenn eine WebView über Javascript Zugriff auf native Methoden einer App bekommt, ist sichergestellt, dass die WebView nur vorgegebenes Javascript aus der App rendert und kein Javascript aus externen Quellen.  | ✓ | ✓ |
 | **6.8** | MSTG‑PLATFORM‑8 | Objektserialisierung wird, falls vorhanden, über eine sichere Serialisierungs-API implementiert. | ✓ | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;" >
+</div>
 
 ## Referenzen
 
