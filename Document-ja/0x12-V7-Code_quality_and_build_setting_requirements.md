@@ -23,7 +23,7 @@
 
 ## 参考情報
 
-OWASP モバイルセキュリティテストガイドでは、このセクションに記載されている要件を検証するための詳細な手順を提供しています。
+OWASP モバイルセキュリティテストガイドでは、上記の要件を検証するための詳細な手順を提供しています。
 
 - Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
 - iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
