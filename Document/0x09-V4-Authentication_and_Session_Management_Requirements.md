@@ -19,6 +19,8 @@ In most cases, users logging into a remote service is an integral part of the ov
 | **4.9** | MSTG‑AUTH‑9 | A second factor of authentication exists at the remote endpoint and the 2FA requirement is consistently enforced.  |   | ✓ |
 | **4.10** | MSTG‑AUTH‑10 | Sensitive transactions require step-up authentication.  |   | ✓ |
 | **4.11** | MSTG‑AUTH‑11 | The app informs the user of all login activities with their account. Users are able view a list of devices used to access the account, and to block specific devices. |  | ✓ |
+| **4.12** | MSTG‑AUTH‑12 | Contextual information (IP, device etc.) should be considered as an additional factor of authentication for specific sensitive functionalities. In case of detected anomalies the user should re-authenticate. |  | ✓ |
+| **4.13** | MSTG‑AUTH‑13 | Local offline authentication of a user towards the mobile app should leverage the APIs offered by the mobile operating system. | ✓ | ✓ |
 
 <div style="page-break-after: always;"></div>
 

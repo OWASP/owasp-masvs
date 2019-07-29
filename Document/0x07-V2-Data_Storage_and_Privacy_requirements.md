@@ -34,6 +34,8 @@ The vast majority of data disclosure issues can be prevented by following simple
 | **2.10** | MSTG‑STORAGE‑10 | The app does not hold sensitive data in memory longer than necessary, and memory is cleared explicitly after use. |  | ✓ |
 | **2.11** | MSTG‑STORAGE‑11 | The app enforces a minimum device-access-security policy, such as requiring the user to set a device passcode. |  | ✓ |
 | **2.12** | MSTG‑STORAGE‑12 | The app educates the user about the types of personally identifiable information processed, as well as security best practices the user should follow in using the app. |  | ✓ |
+| **2.13** | MSTG‑STORAGE‑13 | No sensitive data should be stored locally on the mobile device. Instead it should be stored at the remote endpoint, and only required data is provided at runtime. |  | ✓ |
+| **2.14** | MSTG‑STORAGE‑14 | Local storage should be wiped off the device memory after 5 failed authentication attempts. |  | ✓ |
 
 <div style="page-break-after: always;"></div>
 
