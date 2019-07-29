@@ -24,6 +24,7 @@ The requirements for MASVS-L1 and MASVS-L2 are listed below.
 | **1.8** | MSTG‑ARCH‑8 | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |   | ✓ |
 | **1.9** | MSTG‑ARCH‑9 | A mechanism for enforcing updates of the mobile app exists. |   | ✓ |
 | **1.10** | MSTG‑ARCH‑10 | Security is addressed within all parts of the software development lifecycle. |   | ✓ |
+| **1.11** | MSTG‑ARCH‑11 | After each security updated, oudated application version should no logger be available in App-stores. and updates are forced on user's device. |   | ✓ |
 
 ## References
 
