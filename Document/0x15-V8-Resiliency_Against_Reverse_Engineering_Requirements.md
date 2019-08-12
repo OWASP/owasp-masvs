@@ -40,6 +40,7 @@ The following considerations apply:
 | # | MSTG-ID | Description | R |
 | --- | --- | --- | -- |
 | **8.10** | MSTG‑RESILIENCE‑10 | The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device. | ✓ |
+| **8.13** | MSTG‑RESILIENCE‑13 | Contextual information (IP, location etc.) should be considered as an additional factor for device binding. In case of detected anomalies the user should re-authenticate and a warning should be shown. | ✓ |
 
 ### Impede Comprehension
 
