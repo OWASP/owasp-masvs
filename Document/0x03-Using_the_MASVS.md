@@ -8,7 +8,7 @@ The MASVS can be used to establish a level of confidence in the security of mobi
 
 ## Mobile AppSec Model
 
-The MASVS defines two security verification levels (L1 and L2), as well a set of reverse engineering resiliency requirements (MASVS-R). MASVS-L1 and MASVS-L2 contain generic security requirements and are recommended for all mobile apps (L1) and apps that handle highly sensitive data (L2). MASVS-R covers additional protective controls that can be applied if preventing client-side threats is a design goal.
+The MASVS defines two security verification levels (MASVS-L1 and MASVS-L2), as well as a set of reverse engineering resiliency requirements (MASVS-R). MASVS-L1 contains generic security requirements that are recommended for all mobile apps, while MASVS-L2 should be applied to apps handling highly sensitive data. MASVS-R covers additional protective controls that can be applied if preventing client-side threats is a design goal.
 
 Fulfilling the requirements in MASVS-L1 results in a secure app that follows security best practices and doesn't suffer from common vulnerabilities. MASVS-L2 adds additional defense-in-depth controls such as SSL pinning, resulting in an app that is resilient against more sophisticated attacks - assuming the security controls of the mobile operating system are intact and the end user is not viewed as a potential adversary. Fulfilling all, or subsets of, the software protection requirements in MASVS-R helps impede specific client-side threats where the end user is malicious and/or the mobile OS is compromised.
 
