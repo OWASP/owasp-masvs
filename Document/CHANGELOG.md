@@ -9,7 +9,7 @@ The following changes are part of release 1.2:
 - Promoted to flagship status
 - Requirement changed: MSTG-STORAGE-1 "need to be used"
 - Requirement MSTG‑AUTH‑12, MSTG‑STORAGE‑13 & MSTG‑STORAGE‑14 are added with a focus on data protection.
-- Requirement MSTG-RESILIENCE-13 is added as a defence in depth for device binding and/or anti-fraud information
+- Requirement MSTG-RESILIENCE-13 is added as a defense in depth for device binding and/or anti-fraud information.
 - Added a little more description on how the MASVS should be used given a risk assessment.
 
 ## V1.1.4 4 July 2019 - Summit edition
