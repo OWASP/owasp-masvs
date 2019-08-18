@@ -18,7 +18,7 @@ In most cases, users logging into a remote service is an integral part of the ov
 | **4.8** | MSTG‑AUTH‑8 | Biometric authentication, if any, is not event-bound (i.e. using an API that simply returns "true" or "false"). Instead, it is based on unlocking the keychain/keystore. |   | ✓ |
 | **4.9** | MSTG‑AUTH‑9 | A second factor of authentication exists at the remote endpoint and the 2FA requirement is consistently enforced.  |   | ✓ |
 | **4.10** | MSTG‑AUTH‑10 | Sensitive transactions require step-up authentication.  |   | ✓ |
-| **4.11** | MSTG‑AUTH‑11 | The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view their locations, and to block specific devices. |  | ✓ |
+| **4.11** | MSTG‑AUTH‑11 | The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices. |  | ✓ |
 
 <div style="page-break-after: always;">
 </div>
