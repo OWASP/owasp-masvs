@@ -2,6 +2,16 @@
 
 This document is automatically generated at {{gitbook.time}}
 
+## V1.2 - WIP - do not translate yet
+
+The following changes are part of release 1.2:
+
+- Promoted to flagship status.
+- Requirement changed: MSTG-STORAGE-1 "need to be used".
+- Requirements MSTG-STORAGE-13, MSTG-STORAGE-14, and MSTG-STORAGE-15 are added with a focus on data protection.
+- Requirement MSTG-AUTH-11 is updated to preserve contextual information.
+- Added a little more description on how the MASVS should be used given a risk assessment.
+
 ## V1.1.4 4 July 2019 - Summit edition
 
 The following changes are part of release 1.1.4:
