@@ -20,14 +20,14 @@ Accounts can be created at the following URL: [http://owasp.herokuapp.com/](http
 
 | Project Lead | Lead Author | Contributors and Reviewers
 | --- | --- | --- |
-| Sven Schleier & Jeroen Willemsen | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
+| Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
 
 <br><br>
 
 | Language | Translators & Reviewers |
 | --- | --- |
 | Chinese | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
-| French | Romuald SZKUDLAREK, Christian Dong (Review) |
+| French | Romuald Szkudlarek, Christian Dong (Review) |
 | German | Rocco Gränitz, Sven Schleier (Review) |
 | Spanish | Martin Marsicano |
 | Japanese | Koki Takeyama, Riotaro Okada (Review) |
@@ -43,4 +43,4 @@ While both the MASVS and the MSTG are created and maintained by the community on
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
 
-Next, we would like to thank the OWASP Bay Area Chapther for their sponsorship. Last, we would like to thank everybody that bought the book from Leanpub and sponsored us that way.
+Next, we would like to thank the OWASP Bay Area Chapter for their sponsorship. Last, we would like to thank everybody that bought the book from Leanpub and sponsored us that way.
