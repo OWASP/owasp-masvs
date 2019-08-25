@@ -27,6 +27,6 @@ OWASP MSTG содержит подробные инструкции по вер�
 
 Для получения дополнительной информации смотрите также:
 
-- OWASP Mobile Top 10: M3 - Insecure Communication: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication>
-- CWE: <https://cwe.mitre.org/data/definitions/319.html>
-- CWE: <https://cwe.mitre.org/data/definitions/295.html>
+- OWASP Mobile Top 10: M3 (Insecure Communication) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication>
+- CWE 319 (Cleartext Transmission of Sensitive Information) - <https://cwe.mitre.org/data/definitions/319.html>
+- CWE 295 (Improper Certificate Validation) - <https://cwe.mitre.org/data/definitions/295.html>

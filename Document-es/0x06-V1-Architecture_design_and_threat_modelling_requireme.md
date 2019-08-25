@@ -30,9 +30,9 @@ A continuación, se enumeran los requerimientos para MASVS-L1 y MASVS-L2.
 
 Para más información, ver también:
 
-- OWASP Top 10 Móvil: M10 - Funcionalidades Extrañas: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality>
-- "Cheat sheet" de la Seguridad en la Arquitectura de OWASP: <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
-- Modelado de Amenazas de OWASP: <https://www.owasp.org/index.php/Application_Threat_Modeling>
-- "Cheat sheet" para el ciclo de desarrollo seguro de OWASP: <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
-- Microsoft SDL: <https://www.microsoft.com/en-us/sdl/>
-- NIST SP 800-57: <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
+- OWASP Top 10 Móvil: M10 (Funcionalidades Extrañas) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality>
+- "Cheat sheet" de la Seguridad en la Arquitectura de OWASP - <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
+- Modelado de Amenazas de OWASP - <https://www.owasp.org/index.php/Application_Threat_Modeling>
+- "Cheat sheet" para el ciclo de desarrollo seguro de OWASP - <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
+- Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
+- NIST SP 800-57 - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
