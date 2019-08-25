@@ -33,9 +33,9 @@ Die Anforderungen für MASVS-L1 und MASVS-L2 sind nachfolgend aufgelistet.
 
 Für weitere Informationen:
 
-- OWASP Mobile Top 10: M10 - Extraneous Functionality: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality>
-- OWASP Security Architecture cheat sheet: <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
-- OWASP Thread modelling: <https://www.owasp.org/index.php/Application_Threat_Modeling>
-- OWASP Secure SDLC Cheat Sheet: <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
-- Microsoft SDL: <https://www.microsoft.com/en-us/sdl/>
-- NIST SP 800-57: <https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-4/final>
+- OWASP Mobile Top 10: M10 (Extraneous Functionality) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality>
+- OWASP Security Architecture cheat sheet - <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
+- OWASP Thread modelling - <https://www.owasp.org/index.php/Application_Threat_Modeling>
+- OWASP Secure SDLC Cheat Sheet - <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
+- Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
+- NIST SP 800-57 - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
