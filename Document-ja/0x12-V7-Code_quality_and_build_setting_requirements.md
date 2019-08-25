@@ -30,8 +30,8 @@ OWASP モバイルセキュリティテストガイドでは、上記の要件�
 
 詳しくは以下の情報を参照してください。
 
-- OWASP Mobile Top 10: M7 - Poor Code Quality: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality>
-- CWE: <https://cwe.mitre.org/data/definitions/119.html>
-- CWE: <https://cwe.mitre.org/data/definitions/89.html>
-- CWE: <https://cwe.mitre.org/data/definitions/388.html>
-- CWE: <https://cwe.mitre.org/data/definitions/489.html>
+- OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality>
+- CWE 119 (Improper Restriction of Operations within the Bounds of a Memory Buffer) - <https://cwe.mitre.org/data/definitions/119.html>
+- CWE 89 (Improper Neutralization of Special Elements used in an SQL Command) - <https://cwe.mitre.org/data/definitions/89.html>
+- CWE 388 (7PK - Errors) - <https://cwe.mitre.org/data/definitions/388.html>
+- CWE 489 (Leftover Debug Code) - <https://cwe.mitre.org/data/definitions/489.html>
