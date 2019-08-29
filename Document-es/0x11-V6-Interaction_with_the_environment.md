@@ -29,6 +29,6 @@ La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detal
 
 Para más información, ver también:
 
-- OWASP Top 10 Móvil: M1 - Uso inapropiado de la Plataforma: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage>
-- CWE: <https://cwe.mitre.org/data/definitions/20.html>
-- CWE: <https://cwe.mitre.org/data/definitions/749.html>
+- OWASP Top 10 Móvil: M1 (Uso inapropiado de la Plataforma) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage>
+- CWE 20 (Improper Input Validation) - <https://cwe.mitre.org/data/definitions/20.html>
+- CWE 749 (Exposed Dangerous Method or Function) - <https://cwe.mitre.org/data/definitions/749.html>
