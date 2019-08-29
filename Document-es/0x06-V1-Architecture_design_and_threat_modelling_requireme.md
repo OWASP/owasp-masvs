@@ -35,4 +35,4 @@ Para más información, ver también:
 - Modelado de Amenazas de OWASP - <https://www.owasp.org/index.php/Application_Threat_Modeling>
 - "Cheat sheet" para el ciclo de desarrollo seguro de OWASP - <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
 - Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
-- NIST SP 800-57 - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
+- NIST SP 800-57 (Recommendation for Key Management) - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
