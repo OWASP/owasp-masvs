@@ -48,5 +48,5 @@ La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detal
 
 Para más información, ver también:
 
-- OWASP Top 10 Móvil: M2 - Almacenamiento de Datos Inseguro: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage>
-- CWE: <https://cwe.mitre.org/data/definitions/922.html>
+- OWASP Top 10 Móvil: M2 (Almacenamiento de Datos Inseguro) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage>
+- CWE 922 (Insecure Storage of Sensitive Information) - <https://cwe.mitre.org/data/definitions/922.html>

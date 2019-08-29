@@ -29,6 +29,7 @@ OWASP MSTG содержит подробные инструкции по вер�
 
 Для получения дополнительной информации смотрите также:
 
-- OWASP Mobile Top 10: M1 - Improper Platform Usage: <https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage>
-- CWE: <https://cwe.mitre.org/data/definitions/20.html>
-- CWE: <https://cwe.mitre.org/data/definitions/749.html>
+- OWASP Mobile Top 10: M1 (Improper Platform Usage) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage>
+- CWE 20 (Improper Input Validation) - <https://cwe.mitre.org/data/definitions/20.html>
+- CWE 749 (Exposed Dangerous Method or Function) - <https://cwe.mitre.org/data/definitions/749.html>
+
