@@ -82,4 +82,4 @@ Implementing the requirements of MASVS L2 increases security, while at the same 
 
 - All mobile apps that, by design, need to store sensitive data on the mobile device, and at the same time must support a wide range of devices and operating system versions. In this case, resiliency controls can be used as a defense-in-depth measure to increase the effort for attackers aiming to extract the sensitive data.
 
-- Apps with paid content. Allthough we recommend to use server-side and L2 controls to protect paid content, there can be cases where there is no possibilities to use server-side protection. In that case, R level controls can make it harder to "hack" the apps.
+- Apps with in-app purchases should ideally use server-side and MASVS-L2 controls to protect paid content. However, there may be cases where there is no possibility to use server-side protection. In those cases, MASVS-R controls should be additionally applied in order to increase the reversing and/or tampering effort.
