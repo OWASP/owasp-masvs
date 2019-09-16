@@ -17,7 +17,7 @@ The controls in this group ensure that the app uses platform APIs and standard c
 | **6.7** | MSTG‑PLATFORM‑7 | If native methods of the app are exposed to a WebView, verify that the WebView only renders JavaScript contained within the app package. | ✓ | ✓ |
 | **6.8** | MSTG‑PLATFORM‑8 | Object deserialization, if any, is implemented using safe serialization APIs. | ✓ | ✓ |
 | **6.9** | MSTG‑PLATFORM‑9 | The app protects itself against screen overlay attacks. (Android only) |  | ✓ |
-
+| **6.10** | MSTG‑PLATFORM‑10 | A Webview's cache, storage, and loaded resources (javascript, etc.) should be cleared before the webview is destroyed. |  | ✓ |
 <div style="page-break-after: always;">
 </div>
 
