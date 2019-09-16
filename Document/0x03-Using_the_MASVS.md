@@ -81,3 +81,5 @@ Implementing the requirements of MASVS L2 increases security, while at the same 
 - Financial Industry: Online banking apps that allow the user to move funds, where techniques such as code injection and instrumentation on compromised devices pose a risk. In this case, controls from MASVS-R can be used to impede tampering, raising the bar for malware authors.
 
 - All mobile apps that, by design, need to store sensitive data on the mobile device, and at the same time must support a wide range of devices and operating system versions. In this case, resiliency controls can be used as a defense-in-depth measure to increase the effort for attackers aiming to extract the sensitive data.
+
+- Apps with paid content. Allthough we recommend to use server-side and L2 controls to protect paid content, there can be cases where there is no possibilities to use server-side protection. In that case, R level controls can make it harder to "hack" the apps.
