@@ -19,12 +19,13 @@ The requirements for MASVS-L1 and MASVS-L2 are listed below.
 | **1.2** | MSTG‑ARCH‑2 | Security controls are never enforced only on the client side, but on the respective remote endpoints. | ✓ | ✓ |
 | **1.3** | MSTG‑ARCH‑3 | A high-level architecture for the mobile app and all connected remote services has been defined and security has been addressed in that architecture. | ✓ | ✓ |
 | **1.4** | MSTG‑ARCH‑4 | Data considered sensitive in the context of the mobile app is clearly identified. | ✓ | ✓ |
-| **1.5** | MSTG‑ARCH‑5 | All app components are defined in terms of the business functions and/or security functions they provide. |   | ✓ |
+| **1.5** | MSTG‑ARCH‑5 | All app components are defined in terms of the business functions and/or security functions they provide. |  | ✓ |
 | **1.6** | MSTG‑ARCH‑6 | A threat model for the mobile app and the associated remote services has been produced that identifies potential threats and countermeasures. |   | ✓ |
-| **1.7** | MSTG‑ARCH‑7 | All security controls have a centralized implementation. |   | ✓ |
-| **1.8** | MSTG‑ARCH‑8 | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |   | ✓ |
-| **1.9** | MSTG‑ARCH‑9 | A mechanism for enforcing updates of the mobile app exists. |   | ✓ |
-| **1.10** | MSTG‑ARCH‑10 | Security is addressed within all parts of the software development lifecycle. |   | ✓ |
+| **1.7** | MSTG‑ARCH‑7 | All security controls have a centralized implementation. |  | ✓ |
+| **1.8** | MSTG‑ARCH‑8 | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |  | ✓ |
+| **1.9** | MSTG‑ARCH‑9 | A mechanism for enforcing updates of the mobile app exists. |  | ✓ |
+| **1.10** | MSTG‑ARCH‑10 | Security is addressed within all parts of the software development lifecycle. |  | ✓ |
+| **1.11** | MSTG‑ARCH‑11 | A responsible disclosure policy is in place and effectively applied. |  | ✓ |
 
 ## References
 
@@ -36,3 +37,4 @@ For more information, see also:
 - OWASP Secure SDLC Cheat Sheet - <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
 - Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
 - NIST SP 800-57 - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
+- security.txt - <https://securitytxt.org/>
