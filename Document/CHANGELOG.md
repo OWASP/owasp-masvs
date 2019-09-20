@@ -12,6 +12,7 @@ The following changes are part of release 1.2:
 - Requirement MSTG-AUTH-11 is updated to preserve contextual information.
 - Requirement MSTG‑CODE‑4 is updated to cover more than just debugging.
 - Requirement MSTG‑PLATFORM‑10 added to further secure usage of WebViews.
+- Requirement MSTG‑AUTH‑12 added to remind developers of having authorizations implemented, especially in case of multi-user apps.
 - Added a little more description on how the MASVS should be used given a risk assessment.
 - Added a little more description on paid content.
 - Requirement MSTG‑ARCH‑11 added to include a Responsible Disclosure policy for L2 applications.
