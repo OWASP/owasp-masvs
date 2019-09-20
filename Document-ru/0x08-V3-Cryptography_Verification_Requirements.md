@@ -33,4 +33,3 @@ OWASP MSTG содержит подробные инструкции по вер�
 
 - OWASP Mobile Top 10: M5 (Недостаточное шифрование) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography>
 - CWE 310 (Cryptographic Issues) - <https://cwe.mitre.org/data/definitions/310.html>
-
