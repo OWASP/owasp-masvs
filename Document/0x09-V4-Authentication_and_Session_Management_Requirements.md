@@ -19,7 +19,7 @@ In most cases, users logging into a remote service is an integral part of the ov
 | **4.9** | MSTG‑AUTH‑9 | A second factor of authentication exists at the remote endpoint and the 2FA requirement is consistently enforced.  | | ✓ |
 | **4.10** | MSTG‑AUTH‑10 | Sensitive transactions require step-up authentication. | | ✓ |
 | **4.11** | MSTG‑AUTH‑11 | The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices. | | ✓ |
-| **4.12** | MSTG‑AUTH‑12 | Authorization models should be defined and enforced at the remote endpoint. | ✓ | |
+| **4.12** | MSTG‑AUTH‑12 | Authorization models should be defined and enforced at the remote endpoint. | ✓ | ✓ |
 
 <div style="page-break-after: always;">
 </div>
