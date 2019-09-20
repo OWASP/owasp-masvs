@@ -10,6 +10,7 @@ The following changes are part of release 1.2:
 - Requirement changed: MSTG-STORAGE-1 "need to be used".
 - Requirements MSTG-STORAGE-13, MSTG-STORAGE-14, and MSTG-STORAGE-15 are added with a focus on data protection.
 - Requirement MSTG-AUTH-11 is updated to preserve contextual information.
+- Requirement MSTG‑CODE‑4 is updated to cover more than just debugging.
 - Requirement MSTG‑PLATFORM‑10 added to further secure usage of WebViews.
 - Added a little more description on how the MASVS should be used given a risk assessment.
 - Added a little more description on paid content.
