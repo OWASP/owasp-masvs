@@ -1,4 +1,4 @@
-<a href="https://github.com/OWASP/owasp-masvs/releases/download/1.1/OWASP_Mobile_AppSec_Verification_Standard_v1.1.pdf"><img width="35%" max-width="220px" align="right" style="float: right;" src="Document/images/masvs-mini-cover.png"></a>
+<a href="https://github.com/OWASP/owasp-masvs/releases/download/1.1/OWASP_Mobile_AppSec_Verification_Standard_v1.1.pdf"><img width="35%" style="max-width: 80%;" align="right" style="float: right;" src="Document/images/masvs-mini-cover.png"></a>
 
 # OWASP Mobile Application Security Verification Standard [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_MSTG.svg?style=social&label=Follow)](https://twitter.com/OWASP_MSTG)
 
