@@ -28,12 +28,12 @@ In most cases, users logging into a remote service is an integral part of the ov
 
 The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed above.
 
-- In general - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
-- For Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
-- For iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
+- General: Authentication and Session Management - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
+- Android: Testing Local Authentication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
+- iOS: Testing Local Authentication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
 
 For more information, see also:
 
 - OWASP Mobile Top 10: M4 (Insecure Authentication) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication>
 - OWASP Mobile Top 10: M6 (Insecure Authorization) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization>
-- CWE 287 (Improper Authentication)- <https://cwe.mitre.org/data/definitions/287.html>
+- CWE 287 (Improper Authentication) - <https://cwe.mitre.org/data/definitions/287.html>
