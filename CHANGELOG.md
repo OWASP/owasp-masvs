@@ -17,6 +17,8 @@ The following changes are part of release 1.2:
 - Added a little more description on paid content.
 - Requirement MSTG‑ARCH‑11 added to include a Responsible Disclosure policy for L2 applications.
 - Requirement MSTG‑ARCH‑12 added to show application developers that relevant international privacy laws should be followed.
+- Created a consistent style for all references in the English version.
+- Requirement MSTG‑PLATFORM‑11 added to counter spying via third party keyboards.
 
 ## V1.1.4 4 July 2019 - Summit edition
 
