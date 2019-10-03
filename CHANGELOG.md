@@ -19,6 +19,7 @@ The following changes are part of release 1.2:
 - Requirement MSTG‑ARCH‑12 added to show application developers that relevant international privacy laws should be followed.
 - Created a consistent style for all references in the English version.
 - Requirement MSTG‑PLATFORM‑11 added to counter spying via third party keyboards.
+- Requirement MSTG-MSTG‑RESILIENCE‑13 to implede eavesdropping at an application.
 
 ## V1.1.4 4 July 2019 - Summit edition
 
