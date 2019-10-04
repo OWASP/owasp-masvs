@@ -2,7 +2,7 @@
 
 This document is automatically generated at {{gitbook.time}}
 
-## V1.2 - WIP - do not translate yet
+## V1.2-RC - Pre-release (English only)
 
 The following changes are part of release 1.2:
 
