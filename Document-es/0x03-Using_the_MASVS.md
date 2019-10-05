@@ -8,11 +8,13 @@ El MASVS se puede utilizar para establecer un nivel de confianza en la seguridad
 
 ## Modelo de seguridad para una aplicación móvil
 
-El MASVS define dos niveles estrictos de verificación de seguridad (L1 y L2), así como un conjunto de requisitos de resistencia a la ingeniería inversa (MASVS-R) flexible, es decir, adaptable a un modelo de amenaza específico de la aplicación. Los niveles MASVS-L1 y MASVS-L2 contienen requerimientos genéricos de seguridad recomendados para todas las aplicaciones móviles (L1) y para aplicaciones que manejan datos altamente sensibles (L2). MASVS-R cubre los controles de seguridad adicionales que se pueden aplicar si la prevención de las amenazas del lado del cliente son un objetivo de diseño.
+El MASVS define dos niveles de verificación de seguridad (MASVS-L1 y MASVS-L2), así como un conjunto de requisitos de resistencia a la ingeniería inversa (MASVS-R). El nivel MASVS-L1 contiene requerimientos genéricos de seguridad recomendados para todas las aplicaciones móviles, mientras que el MASVS-L2 debería aplicarse a aplicaciones que manejan datos altamente sensibles. MASVS-R cubre los controles de seguridad adicionales que se pueden aplicar si la prevención de las amenazas del lado del cliente es un objetivo de diseño.
 
 Cumplir con los requerimientos de MASVS-L1 resulta en una aplicación segura que sigue las mejores prácticas de seguridad y no sufre de las vulnerabilidades más comunes. MASVS-L2 añade controles adicionales de defensa en profundidad, como la fijación de certificados SSL, lo que resulta en una aplicación resistente a ataques más sofisticados, asumiendo que los controles de seguridad del sistema operativo móvil estén intactos y que el usuario final no sea visto como un adversario potencial. El cumplimiento de todos o de un subconjunto de los requerimientos de protección del software en el nivel MASVS-R ayuda a impedir amenazas específicas del lado del cliente cuando el usuario final es considerado malicioso y/o el sistema operativo móvil está comprometido.
 
-**Note que los controles de protección de software listados en el nivel MASVS-R y descritos en la Guía de Pruebas Móviles de OWASP pueden ser evitados y nunca deben ser usados como un reemplazo para los controles de seguridad. En cambio, su objetivo es añadir controles de protección adicionales y específicos a las amenazas que se quieren evitar, sobre las aplicaciones que cumplen los requerimientos de los distintos niveles del MASVS L1 o L2.**
+**I: Recomendamos implementar los controles MASVS-L1 en cualquier aplicación. Sin embargo, el implementar o no, uno o varios de los controles, debería ser una decisión basada en riesgo, la cual será claramente comunicada o tomada directamente junto con la empresa responsable.**
+
+**II: Los controles de protección de software listados en MASVS-R y descritos en la MSTG pueden ser eludidos y no deben nunca reemplazar los demás controles de seguridad. Al contrario, su intención es añadir controles de protección adicionales, específicos a ciertas amenazas, a las apps que ya de por sí cumplen los requerimientos MASVS-L1 y/o MASVS-L2.**
 
 ![Verification Levels](images/masvs-levels-new.jpg)
 
@@ -31,7 +33,7 @@ Una aplicación móvil que logra el nivel MASVS-L1 se adhiera a las mejores prá
 
 #### MASVS-L2: Defensa en Profundidad
 
-MASVS-L2 introduce controles de seguridad avanzados que van más allá de los requisitos estándar. Para cumplir con el nivel L2, debe existir un modelo de amenaza y la seguridad debe ser una parte fundamental de la arquitectura y el diseño de la aplicación. Este nivel es apropiado para aplicaciones que manejan datos sensibles, como las aplicaciones de banca móvil.
+MASVS-L2 introduce controles de seguridad avanzados que van más allá de los requisitos estándar. Para cumplir con MASVS-L2, debe existir un modelo de amenazas y la seguridad debe ser una parte fundamental de la arquitectura y el diseño de la app. Tomando ese modelo de amenazas como base, deben de seleccionarse e implementarse los controles MASVS-L2 que correspondan. Este nivel es apropiado para aplicaciones que manejan datos altamente sensibles, como las aplicaciones de banca móvil.
 
 #### MASVS-R: Resistencia contra la ingeniería inversa y la manipulación
 
@@ -49,6 +51,9 @@ En resumen, están disponibles los siguientes tipos de verificación:
 - MASVS-L2+R
 
 Las diferentes combinaciones reflejan diferentes grados de seguridad y resistencia. El objetivo es permitir la flexibilidad: Por ejemplo, un juego móvil puede no requerir controles de seguridad del MASVS-L2, como la autenticación de 2 factores por razones de usabilidad, pero seguramente deba prevenir la manipulación del código por razones del negocio.
+
+<div style="page-break-after: always;">
+</div>
 
 #### Cómo Elegir el Tipo de Verificación
 
@@ -74,6 +79,8 @@ La implementación de los requisitos del nivel MASVS L2 aumenta la seguridad, mi
 
 ###### MASVS L2+R
 
-- Industria Financiera: Aplicaciones de banca en línea que permiten al usuario mover fondos, donde las técnicas de inyección de código e instrumentación en dispositivos comprometidos suponen un riesgo. En este caso, los controles del MASVS-R se pueden utilizar para impedir la manipulación de código, elevando la barra para los autores de malware.
+- Industria Financiera: Aplicaciones de banca móvil que permiten al usuario mover fondos, donde las técnicas de inyección de código e instrumentación en dispositivos comprometidos suponen un riesgo. En este caso, los controles del MASVS-R se pueden utilizar para impedir la manipulación de código, elevando la barra para los autores de malware.
 
 - Todas las aplicaciones móviles que, por diseño, necesitan almacenar datos sensibles en el dispositivo móvil y, al mismo tiempo, deben soportar una amplia gama de dispositivos y versiones del sistema operativo. En este caso, los controles de resistencia pueden utilizarse como una medida de defensa en profundidad para aumentar el esfuerzo de los atacantes que intentan extraer los datos sensibles.
+
+- Todas las aplicaciones que contengan "compras en la aplicación" deberían de proteger su contenido de pago utilizando idealmente controles MASVS-L2 y del lado del servidor. Sin embargo, puede haber casos en los que no sea posible implementar la proctección del lado del servidor. En esos casos, deberían de aplicarse los controles MASVS-R de forma adicional para incrementar el esfuerzo necesario para revertir o manipular la aplicación.
