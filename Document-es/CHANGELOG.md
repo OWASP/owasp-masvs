@@ -2,6 +2,25 @@
 
 Este documento es generado automáticamente a las {{gitbook.time}}
 
+## V1.2-RC - Pre-release
+
+Los siguientes cambios forman parte de la versión 1.2:
+
+- ¡Ya somos flagship!
+- MSTG-STORAGE-1 modificado para ser más extricto.
+- Añadidos MSTG-STORAGE-13, MSTG-STORAGE-14 y MSTG-STORAGE-15 centrados en protección de datos.
+- Actualizado MSTG-AUTH-11 para preservar información contextual.
+- Actualizado MSTG‑CODE‑4 para cubrir más allá de la depuración.
+- Añadido MSTG‑PLATFORM‑10 para incrementar la seguridad al usar WebViews.
+- Añadido MSTG‑AUTH‑12 para recordar a los desarrolladores que deben de implementar medidas de autorización, especialmente en apps multi usuario.
+- Descripción mejorada sobre como usar el MASVS dado una evaluación de riesgo.
+- Añadida más descripción sobre contenidos de pago.
+- Añadido MSTG‑ARCH‑11 incluyendo una política de divualgación responsable para apps MASVS-L2.
+- Añadido MSTG‑ARCH‑12 informando a los desarrolladores que las correspondientes leyes internacionales de privacidad deberían de ser seguidas.
+- Consolidado el estilo de referencias en la versión inglesa.
+- Añadido MSTG‑PLATFORM‑11 para combatir es espionaje mediante teclados de terceros.
+- Añadido MSTG-MSTG‑RESILIENCE‑13 para impedir el _eavesdropping_ en aplicaciones.
+
 ## V1.1.4 4 de julio de 2019 - Summit edition
 
 Los siguientes cambios forman parte de la versión 1.1.4:
