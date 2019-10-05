@@ -7,21 +7,18 @@ Dieses Dokument wurde automatisch erstellt am {{gitbook.time}}.
 Die folgenden Änderungen sind Teil von Version 1.2-RC:
 
 - "Flagship Status" von OWASP erhalten.
-- Anforderung MSTG-Storage-1 geändert: "xx"
-- Anforderung MSTG-STORAGE-13, MSTG-STORAGE-14 und MSTG-STORAGE-15
-
-Requirements MSTG-STORAGE-13, MSTG-STORAGE-14, and MSTG-STORAGE-15 are added with a focus on data protection.
-Requirement MSTG-AUTH-11 is updated to preserve contextual information.
-Requirement MSTG‑CODE‑4 is updated to cover more than just debugging.
-Requirement MSTG‑PLATFORM‑10 added to further secure usage of WebViews.
-Requirement MSTG‑AUTH‑12 added to remind developers of having authorizations implemented, especially in case of multi-user apps.
-Added a little more description on how the MASVS should be used given a risk assessment.
-Added a little more description on paid content.
-Requirement MSTG‑ARCH‑11 added to include a Responsible Disclosure policy for L2 applications.
-Requirement MSTG‑ARCH‑12 added to show application developers that relevant international privacy laws should be followed.
-Created a consistent style for all references in the English version.
-Requirement MSTG‑PLATFORM‑11 added to counter spying via third party keyboards.
-Requirement MSTG-MSTG‑RESILIENCE‑13 added to impede eavesdropping at an application.
+- Anforderung MSTG-Storage-1 verändert.
+- Anforderung MSTG-STORAGE-13, MSTG-STORAGE-14 und MSTG-STORAGE-15 wurden hinzugefügt mit einem Fokus auf Datenschutz.
+- Anforderung MSTG‑CODE‑4 wurde aktualisiert um mehr Fälle als nur Debugging abzudecken.
+- Anforderung MSTG-AUTH-11 wurde aktualisiert um "kontextbezogene Informationen".
+- Anforderung MSTG‑PLATFORM‑10 wurde hinzugefügt für einen weiteren Fall um WebViews sicher zu verwenden.
+- Anforderung MSTG‑AUTH‑12 wurde hinzugefügt um Entwickler daran zu erinnern Authorisierung zu implementieren, vor allem im Fall von multi-user Apps.
+- Beschreibung hinzugefügt, wie der MASVS in einem Risk Assessment verwendet werden sollte.
+- Beschreibung hinzugefügt für Bezahl-Inahlte.
+- Anforderung MSTG‑ARCH‑11 wurde hinzugefügt um Responsible Disclosure Policies zu implementieren.
+- Anforderung MSTG‑ARCH‑12 wurde hinzugefügt um Datenschutzgesetze zu befolgen.
+- Anforderung MSTG‑PLATFORM‑11 wurde hinzugefügt um 3rd Party Tastaturen zu verbieten.
+- Anforderung MSTG‑RESILIENCE‑13 wurde hinzugefügt um das Abhören von Apps zu erschweren.
 
 
 ## V1.1.4 4 Juli 2019 - Summit edition

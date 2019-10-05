@@ -18,7 +18,7 @@ Ein integraler Teil der Architektur einer mobilen App ist der Login eines Nutzer
 | **4.8** | MSTG‑AUTH‑8 | Biometrische Authentifizierung basiert auf dem Betriebssystem-basierten Entsperren des Keystores (Android)/der Keychain (iOS) und nicht auf einer z.B. event-basierten API die einfach "true" oder "false" zurück liefert. |   | ✓ |
 | **4.9** | MSTG‑AUTH‑9 | Es gibt einen 2. Authentifizierungsfaktor und er wird am entfernten API-Endpunkt konsistent erzwungen. |   | ✓ |
 | **4.10** | MSTG‑AUTH‑10 | Sensible Transaktionen erfordern eine zusätzliche Authentifizierung (durch einen weiteren Authentifizierungsfaktor). |   | ✓ |
-| **4.11** | MSTG‑AUTH‑11 | Die App informiert den Nutzer über alle Anmelde-Vorgänge am Nutzerkonto. Nutzer können eine Liste aller mit dem Konto verbundenen Geräte sowie kontextbezogene informationen (IP Adresse, Lokation usw.) sehen und ausgewählte Geräte blockieren. |  | ✓ |
+| **4.11** | MSTG‑AUTH‑11 | Die App informiert den Nutzer über alle Anmelde-Vorgänge am Nutzerkonto. Nutzer können eine Liste aller mit dem Konto verbundenen Geräte sowie kontextbezogene Informationen (IP Adresse, Lokation usw.) sehen und ausgewählte Geräte blockieren. |  | ✓ |
 | **4.12** | MSTG‑AUTH‑12 | Authentifizierung wird am API-Endpunkt definiert und überprüft. |  | ✓ |
 
 
