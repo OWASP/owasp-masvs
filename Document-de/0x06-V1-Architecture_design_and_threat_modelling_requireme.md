@@ -25,6 +25,8 @@ Die Anforderungen für MASVS-L1 und MASVS-L2 sind nachfolgend aufgelistet.
 | **1.8** | MSTG‑ARCH‑8 | Eine dedizierte Richtlinie zum Management von kryptographischen Schlüsseln (falls in der App genutzt) beschreibt den sicheren Umgang mit Schlüsseln über den gesamten Lebenszyklus, idealerweise basierend auf Standards wie NIST SP 800-57. |   | ✓ |
 | **1.9** | MSTG‑ARCH‑9 | Es gibt einen Mechanismus in der mobilen App um App-Aktualisierungen zu erzwingen. |   | ✓ |
 | **1.10** | MSTG‑ARCH‑10 | Security wird in allen Teilen des Softwareentwicklungszyklus berücksichtigt. |   | ✓ |
+| **1.11** | MSTG‑ARCH‑11 | Eine "Responsible Disclosure Policy" ist vorhanden und wird umgesetzt. |   | ✓ |
+| **1.12** | MSTG‑ARCH‑12 | Die App sollte Datenschutzgetze und Regulierungen befolgen. | ✓ | ✓ |
 
 <div style="page-break-after: always;" >
 </div>
