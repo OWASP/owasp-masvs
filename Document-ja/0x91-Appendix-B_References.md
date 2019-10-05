@@ -11,4 +11,4 @@
 
 - MITRE Common Weakness Enumeration - [http://cwe.mitre.org/](http://cwe.mitre.org/)
 - PCI Security Standards Council - [https://www.pcisecuritystandards.org](https://www.pcisecuritystandards.org)
-- PCI Data Security Standard (DSS) v3.0 Requirements and Security Assessment Procedures [https://www.pcisecuritystandards.org/documents/PCI\_DSS\_v3.pdf](https://www.pcisecuritystandards.org/documents/PCI_DSS_v3.pdf)
+- PCI Data Security Standard (DSS) v3.0 Requirements and Security Assessment Procedures - [https://www.pcisecuritystandards.org/documents/PCI\_DSS\_v3.pdf](https://www.pcisecuritystandards.org/documents/PCI_DSS_v3.pdf)

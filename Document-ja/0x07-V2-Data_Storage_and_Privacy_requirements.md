@@ -14,7 +14,7 @@ MASVS のコンテキストにおける機密データは、以下のように�
 - 被害を受けた場合に風評被害や財務コストにつながる機密性の高いデータ：契約情報、秘密保持契約の対象となる情報、管理情報。
 - 法律やコンプライアンス上の理由により保護する必要のあるすべてのデータ。
 
-<div style="page-break-after: always;">
+<div style="page-break-after: always;" >
 </div>
 
 ## セキュリティ検証要件
@@ -23,7 +23,7 @@ MASVS のコンテキストにおける機密データは、以下のように�
 
 | # | MSTG-ID | 説明 | L1 | L2 |
 | --- | --- | --- | --- | --- |
-| **2.1** | MSTG‑STORAGE‑1 | 個人識別情報、ユーザー資格情報、暗号化鍵などの機密データを格納するために、システムの資格情報保存機能が適切に使用されている。 | ✓ | ✓ |
+| **2.1** | MSTG‑STORAGE‑1 | 個人識別情報、ユーザー資格情報、暗号化鍵などの機密データを格納するために、システムの資格情報保存機能を使用している。 | ✓ | ✓ |
 | **2.2** | MSTG‑STORAGE‑2 | 機密データはアプリコンテナまたはシステムの資格情報保存機能の外部に保存されていない。 | ✓ | ✓ |
 | **2.3** | MSTG‑STORAGE‑3 | 機密データはアプリケーションログに書き込まれていない。 | ✓ | ✓ |
 | **2.4** | MSTG‑STORAGE‑4 | 機密データはアーキテクチャに必要な部分でない限りサードパーティと共有されていない。 | ✓ | ✓ |
@@ -35,16 +35,16 @@ MASVS のコンテキストにおける機密データは、以下のように�
 | **2.10** | MSTG‑STORAGE‑10 | アプリは必要以上に長くメモリ内に機密データを保持せず、使用後は明示的にメモリがクリアされている。 |  | ✓ |
 | **2.11** | MSTG‑STORAGE‑11 | アプリは最低限のデバイスアクセスセキュリティポリシーを適用しており、ユーザーにデバイスパスコードを設定することなどを必要としている。 |  | ✓ |
 | **2.12** | MSTG‑STORAGE‑12 | アプリは処理される個人識別情報の種類をユーザーに通知しており、同様にユーザーがアプリを使用する際に従うべきセキュリティのベストプラクティスについて通知している。 |  | ✓ |
-
-<div style="page-break-after: always;">
-</div>
+| **2.13** | MSTG‑STORAGE‑13 | 機密データをモバイルデバイス上のローカルに保存していない。代わりに、必要な時にリモートエンドポイントからデータを取得し、メモリ内にのみ保持している。 |  | ✓ |
+| **2.14** | MSTG‑STORAGE‑14 | 機密データをローカルに保存する必要がある場合には、認証が必要なハードウェア支援ストレージから取得した鍵を使用して暗号化している。 |  | ✓ |
+| **2.15** | MSTG‑STORAGE‑15 | 認証の試行が過度の回数にわたり失敗した後には、アプリのローカルストレージを消去している。 |  | ✓ |
 
 ## 参考情報
 
 OWASP モバイルセキュリティテストガイドでは、このセクションに記載されている要件を検証するための詳細な手順を提供しています。
 
-- Android 用 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
-- iOS 用 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
+- Android: Testing Data Storage - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
+- iOS: Testing Data Storage - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
 
 詳しくは以下の情報を参照してください。
 
