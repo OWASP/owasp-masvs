@@ -2,6 +2,28 @@
 
 Dieses Dokument wurde automatisch erstellt am {{gitbook.time}}.
 
+## V1.2-RC - Pre-Release
+
+Die folgenden Änderungen sind Teil von Version 1.2-RC:
+
+- "Flagship Status" von OWASP erhalten.
+- Anforderung MSTG-Storage-1 geändert: "xx"
+- Anforderung MSTG-STORAGE-13, MSTG-STORAGE-14 und MSTG-STORAGE-15
+
+Requirements MSTG-STORAGE-13, MSTG-STORAGE-14, and MSTG-STORAGE-15 are added with a focus on data protection.
+Requirement MSTG-AUTH-11 is updated to preserve contextual information.
+Requirement MSTG‑CODE‑4 is updated to cover more than just debugging.
+Requirement MSTG‑PLATFORM‑10 added to further secure usage of WebViews.
+Requirement MSTG‑AUTH‑12 added to remind developers of having authorizations implemented, especially in case of multi-user apps.
+Added a little more description on how the MASVS should be used given a risk assessment.
+Added a little more description on paid content.
+Requirement MSTG‑ARCH‑11 added to include a Responsible Disclosure policy for L2 applications.
+Requirement MSTG‑ARCH‑12 added to show application developers that relevant international privacy laws should be followed.
+Created a consistent style for all references in the English version.
+Requirement MSTG‑PLATFORM‑11 added to counter spying via third party keyboards.
+Requirement MSTG-MSTG‑RESILIENCE‑13 added to impede eavesdropping at an application.
+
+
 ## V1.1.4 4 Juli 2019 - Summit edition
 
 Die folgenden Änderungen sind Teil von Version 1.1.4:
