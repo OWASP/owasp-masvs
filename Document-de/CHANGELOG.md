@@ -19,6 +19,7 @@ Die folgenden Änderungen sind Teil von Version 1.2-RC:
 - Anforderung MSTG‑ARCH‑12 wurde hinzugefügt um Datenschutzgesetze zu befolgen.
 - Anforderung MSTG‑PLATFORM‑11 wurde hinzugefügt um 3rd Party Tastaturen zu verbieten.
 - Anforderung MSTG‑RESILIENCE‑13 wurde hinzugefügt um das Abhören von Apps zu erschweren.
+- Die folgenden Sprachen in denen der MASVS verfügbar ist wurden aktualisiert: Chinesisch (ZHTW), Englisch, Deutsch, Französisch, Russisch, Spanisch und Japanisch
 
 ## V1.1.4 4 Juli 2019 - Summit edition
 
