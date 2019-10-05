@@ -20,6 +20,9 @@ Una organización que certifica debe incluir en todos los informes el alcance de
 
 La OWASP MSTG es una guía para la verificación de la seguridad de las aplicaciones móviles. Describe los procedimientos técnicos para verificar los requerimientos listados en el MASVS. La MSTG incluye una lista de casos de prueba, cada uno de los cuales se corresponde con un requerimiento del MASVS. Mientras que los requerimientos del MASVS son de alto nivel y genéricos, la MSTG proporciona recomendaciones detalladas y procedimientos de verificación para cada uno de los sistemas operativos móviles.
 
+<div style="page-break-after: always;">
+</div>
+
 ### El papel de las herramientas de pruebas de seguridad automatizadas
 
 Se recomienda el uso de escáneres de código fuente y herramientas de verificación de caja negra para aumentar la eficiencia siempre que sea posible. Sin embargo, no es posible completar la verificación MASVS utilizando únicamente herramientas automatizadas: cada aplicación móvil es diferente, y la comprensión de la arquitectura general, la lógica de negocio y los problemas específicos de las tecnologías y plataformas que se utilizan es un requerimiento obligatorio para verificar la seguridad de la aplicación.
