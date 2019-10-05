@@ -11,7 +11,7 @@
 | **7.1** | MSTG‑CODE‑1 | アプリは有効な証明書で署名およびプロビジョニングされている。その秘密鍵は適切に保護されている。 | ✓ | ✓ |
 | **7.2** | MSTG‑CODE‑2 | アプリはリリースモードでビルドされている。リリースビルドに適した設定である（デバッグ不可など）。 | ✓ | ✓ |
 | **7.3** | MSTG‑CODE‑3 | デバッグシンボルはネイティブバイナリから削除されている。 | ✓ | ✓ |
-| **7.4** | MSTG‑CODE‑4 | デバッグコードは削除されており、アプリは詳細なエラーやデバッグメッセージをログ出力していない。 | ✓ | ✓ |
+| **7.4** | MSTG‑CODE‑4 | デバッグコードおよび開発者支援コード (テストコード、バックドア、隠し設定など) は削除されている。アプリは詳細なエラーやデバッグメッセージをログ出力していない。 | ✓ | ✓ |
 | **7.5** | MSTG‑CODE‑5 | モバイルアプリで使用されるライブラリ、フレームワークなどのすべてのサードパーティコンポーネントを把握し、既知の脆弱性を確認している。 | ✓ | ✓ |
 | **7.6** | MSTG‑CODE‑6 | アプリは可能性のある例外をキャッチし処理している。 | ✓ | ✓ |
 | **7.7** | MSTG‑CODE‑7 | セキュリティコントロールのエラー処理ロジックはデフォルトでアクセスを拒否している。 | ✓ | ✓ |
@@ -25,8 +25,8 @@
 
 OWASP モバイルセキュリティテストガイドでは、上記の要件を検証するための詳細な手順を提供しています。
 
-- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
-- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
+- Android: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- iOS: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
 
 詳しくは以下の情報を参照してください。
 
