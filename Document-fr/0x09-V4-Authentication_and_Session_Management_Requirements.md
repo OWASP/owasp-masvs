@@ -18,7 +18,8 @@ Dans la plupart des cas, la connexion des utilisateurs à un service distant doi
 | **4.8** | MSTG‑AUTH‑8 | L'authentification biométrique, lorsqu'elle est utilisée, n'est pas basée sur des évènements (c'est-à-dire l'utilisation d'une API qui retourne simplement "vrai" ou "faux"). A la place, son utilisation est basée sur le déverrouillage du trousseau d'accès / du magasin de clé (keychain / keystore). |   | ✓ |
 | **4.9** | MSTG‑AUTH‑9 | Un second facteur d'authentification est disponible sur le point terminal distant et l'exigence d'authentification à deux facteurs est mise en application de façon systématique.  |   | ✓ |
 | **4.10** | MSTG‑AUTH‑10 | Les transactions sensibles requièrent une authentification améliorée.  |   | ✓ |
-| **4.11** | MSTG‑AUTH‑11 | L'application informe les utilisateurs de toutes les connexions sur leurs comptes. Les utilisateurs ont accès à la liste des appareils utilisés pour accéder à leurs comptes et peuvent en bloquer. |  | ✓ |
+| **4.11** | MSTG‑AUTH‑11 | L'application informe les utilisateurs de toutes les activitées critiques sur leurs comptes. Les utilisateurs ont accès à la liste des appareils utilisés pour accéder à leurs comptes, accès aux informations contextuelles (IP adresse, localisation, etc.), et peuvent en bloquer certaines appareils. |  | ✓ |
+| **4.12** | MSTG‑AUTH‑12 | Des modéles d'autorisation doivent être définies et forcés au niveau du point terminal distant. | ✓ | ✓ |
 
 <br/>
 
