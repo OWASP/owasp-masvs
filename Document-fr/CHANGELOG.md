@@ -2,6 +2,24 @@
 
 Ce document est généré automatiquement à {{gitbook.time}}
 
+## V1.2-RC 
+
+Les changement suivants font partie de la livraison 1.2:
+
+- Mise à jour des traductions de MASVS dans les langues suivantes: Chinoise (ZHTW), Anglais, Allemande, Français, Russe, Espagnole et Japonaise.
+- Promu au statut flagship.
+- Exigence changé: MSTG-STORAGE-1 "doivent être utilisées".
+- Exigences MSTG-STORAGE-13, MSTG-STORAGE-14, MSTG-STORAGE-15 sont ajoutées avec une concentration sur la protection des données.
+- Exigence MSTG-AUTH-11 mise à jour pour garder les informations contextuelles.
+- Exigence MSTG-CODE-4 mise à jour pour couvrir plus que juste le déboggage.
+- Exigence MSTG-PLATFORM-10 ajoutée pour protéger de plus l'utilisation des WebViews.
+- Exigence MSTG-AUTH-12 ajoutée pour rappeler les développeurs d'implémenter l'autorisation, surtout pour les applications multi-utilisateurs.
+- Ajout d'un petit peut sur comment MASVS doit être utiliser à la base d'une evaluation du risk.
+- Ajout d'un petit peut de description sur le contenu payant.
+- Exigence MSTG-ARCH-11 ajoutée pour inclure une politique de divulgation responsable pour les applications L2.
+- Exigence MSTG-ARCH-12 ajoutée pour montrer aux développeurs qu'ils diovent respecter les lois de confidentialité internationaux.
+- Exigence MSTG-PLATFORM-11 ajoutée pour prévenir l'espionage par des claviers tierces.
+- Exigence MSTG-RESILIENCE-13 pour entraver l'écoute dans l'application.
 ## V1.1.4 4 Juillet 2019 - Summit edition
 
 - Corrections d'erreurs de markdown.

@@ -25,6 +25,8 @@ Les exigences pour MASVS-L1 et MASVS-L2 sont listées ci-dessous.
 | **1.8** | MSTG‑ARCH‑8 | Il existe une politique explicite sur la façon de gérer les clés de cryptographie (dès qu'elles existent) tout au long de leur cycle de vie. Idéalement, un standard de gestion des clés est suivi (tel que NIST SP 800-57). |   | ✓ |
 | **1.9** | MSTG‑ARCH‑9 | Un mécanisme pour permettre les mises à jour de l'application mobile existe. |   | ✓ |
 | **1.10** | MSTG‑ARCH‑10 | La sécurité est prise en compte tout au long du cycle de développement. |   | ✓ |
+| **1.11** | MSTG‑ARCH‑11 | Une politique de divulgation responsable est mise en place et appliquée d'une manière efficiente. |  | ✓ |
+| **1.12** | MSTG‑ARCH‑12 | L'application doit se conformer aux lois et règlements de confidentialité. | ✓ | ✓ |
 
 ## Références
 
