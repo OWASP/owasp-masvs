@@ -18,6 +18,7 @@ Les changement suivants font partie de la livraison 1.2:
 - Ajout d'un petit peut de description sur le contenu payant.
 - Exigence MSTG-ARCH-11 ajoutée pour inclure une politique de divulgation responsable pour les applications L2.
 - Exigence MSTG-ARCH-12 ajoutée pour montrer aux développeurs qu'ils diovent respecter les lois de confidentialité internationaux.
+- Création d'un style consistant pour toutes les références.
 - Exigence MSTG-PLATFORM-11 ajoutée pour prévenir l'espionage par des claviers tierces.
 - Exigence MSTG-RESILIENCE-13 pour entraver l'écoute dans l'application.
 ## V1.1.4 4 Juillet 2019 - Summit edition
