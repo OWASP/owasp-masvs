@@ -4,7 +4,7 @@
 
 ## Sobre el Estándar
 
-Bienvenido al Estándar de Verificación de Seguridad de Aplicaciones Móviles (MASVS) 1.1. El MASVS es un esfuerzo comunitario para establecer un marco de requisitos de seguridad necesarios para diseñar, desarrollar y auditar aplicaciones móviles seguras en iOS y Android.
+Bienvenido al Estándar de Verificación de Seguridad de Aplicaciones Móviles (MASVS) 1.1. El MASVS es un esfuerzo comunitario para establecer un marco de requisitos de seguridad necesarios para diseñar, desarrollar y probar la seguridad de aplicaciones móviles iOS y Android.
 
 El MASVS es la culminación del esfuerzo de la comunidad y la retroalimentación con la industria. Esperamos que este estándar evolucione con el tiempo y agradecemos todo _feedback_ que la comunidad pueda darnos.
 
