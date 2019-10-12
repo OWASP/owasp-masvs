@@ -4,13 +4,13 @@
 
 ## Sobre el Estándar
 
-Bienvenido al Estándar de Verificación de Seguridad de Aplicaciones Móviles (MASVS) 1.1. El MASVS es un esfuerzo comunitario para establecer un marco de requisitos de seguridad necesarios para diseñar, desarrollar y probar aplicaciones móviles seguras en iOS y Android.
+Bienvenido al Estándar de Verificación de Seguridad de Aplicaciones Móviles (MASVS) 1.1. El MASVS es un esfuerzo comunitario para establecer un marco de requisitos de seguridad necesarios para diseñar, desarrollar y auditar aplicaciones móviles seguras en iOS y Android.
 
-El MASVS es la culminación del esfuerzo de la comunidad y la retroalimentación con la industria. Esperamos que este estándar evolucione con el tiempo y agradecemos la retroalimentación de la comunidad.
+El MASVS es la culminación del esfuerzo de la comunidad y la retroalimentación con la industria. Esperamos que este estándar evolucione con el tiempo y agradecemos todo _feedback_ que la comunidad pueda darnos.
 
-La mejor manera de ponerse en contacto con nosotros es a través del canal OWASP Mobile Project en Slack: <https://owasp.slack.com/messages/project-mobile_omtg/details/>
+La mejor manera de ponerse en contacto con nosotros es a través del canal OWASP Mobile Project en Slack: <https://app.slack.com/client/T04T40NHX/C1M6ZVC6S>
 
-Las cuentas se pueden crear en la siguiente URL: [http://owasp.herokuapp.com/](https://owasp.slack.com/join/shared_invite/enQtNDI5MzgxMDQ2MTAwLTEyNzIzYWQ2NDZiMGIwNmJhYzYxZDJiNTM0ZmZiZmJlY2EwZmMwYjAyNmJjNzQxNzMyMWY4OTk3ZTQ0MzFhMDY).
+Las cuentas se pueden crear en la siguiente URL: [https://owasp.slack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LWQ2Nzg3NGJiZGQ2MjRmNzkzN2Q4YzU1MWYyZTdjYjA2ZTA5M2RkNzE2ZjdkNzI5ZThhOWY5MjljYWZmYmY4ZjM).
 
 ## Copyright y Licencia
 
@@ -30,18 +30,18 @@ Las cuentas se pueden crear en la siguiente URL: [http://owasp.herokuapp.com/](h
 | Chino | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | Francés | Romuald Szkudlarek, Christian Dong (revisor) |
 | Alemán | Rocco Gränitz, Sven Schleier (revisor) |
-| Español | Martin Marsicano |
+| Español | Martin Marsicano, Carlos Holguera |
 | Japonés | Koki Takeyama, Riotaro Okada (revisor) |
 | Ruso | Gall Maxim, Chelnokov Vladislav (revisor), Oprya Egor (revisor), Tereshin Dmitry (revisor) |
 
-Este documento comenzó como una bifurcación del Estándar de Verificación de Seguridad de Aplicaciones de OWASP escrito por Jim Manico.
+Este documento comenzó como un _fork_ del Estándar de Verificación de Seguridad de Aplicaciones de OWASP escrito por Jim Manico.
 
-## Sponsors
+## Patrocinadores
 
-Aunque tanto el MASVS como el MSTG son creados y mantenidos por la comunidad de forma voluntaria, a veces se requiere de un poco de ayuda externa. Por lo tanto, agradecemos a nuestros patrocinadores por proporcionar los fondos para poder contratar editores técnicos. Tenga en cuenta que su patrocinio no influye en el contenido de MASVS o MSTG de ninguna manera. Los paquetes de patrocinio se describen en la [Wiki del proyecto OWASP](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
+Aunque tanto el MASVS como la MSTG fueron creados y son mantenidos por la comunidad de forma voluntaria, a veces se requiere de un poco de ayuda externa. Por lo tanto, agradecemos a nuestros patrocinadores por proporcionar los fondos para poder contratar editores técnicos. Ha de notarse que su patrocinio no influye en el contenido de MASVS o MSTG de ninguna manera. Los paquetes de patrocinio están descritos en la [Wiki del proyecto OWASP](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
 ### Honorable Benefactor
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
 
-A continuación, nos gustaría agradecer al Capítulo del Área de la Bahía de OWASP por su patrocinio. Por último, nos gustaría agradecer a todos los que compraron el libro en Leanpub y nos patrocinaron de esa manera.
+También nos gustaría agradecer al Capítulo del Área de la Bahía de OWASP por su patrocinio. Por último, nos gustaría agradecer a todos los que compraron el libro en Leanpub y nos patrocinaron de esa manera.
