@@ -1,4 +1,4 @@
-# V2: Requerimientos en el Almacenamiento de datos y la Privacidad
+# V2: Requerimientos de Almacenamiento de datos y Privacidad
 
 ## Objetivo de Control
 
