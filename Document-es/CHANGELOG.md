@@ -16,7 +16,7 @@ Los siguientes cambios forman parte de la versión 1.2:
 - Descripción mejorada sobre como usar el MASVS dado una evaluación de riesgo.
 - Añadida más descripción sobre contenidos de pago.
 - Añadido el requisito MSTG‑ARCH‑11 incluyendo una política de divulgación responsable para aplicaciones MASVS-L2.
-- Añadido MSTG‑ARCH‑12 informando a los desarrolladores que las correspondientes leyes internacionales de privacidad deberían de ser seguidas.
+- Añadido el requisito MSTG‑ARCH‑12 informando a los desarrolladores que las correspondientes leyes internacionales de privacidad deberían de ser seguidas.
 - Consolidado el estilo de referencias en la versión inglesa.
 - Añadido MSTG‑PLATFORM‑11 para combatir es espionaje mediante teclados de terceros.
 - Añadido el requisito MSTG-MSTG‑RESILIENCE‑13 para impedir el _eavesdropping_ en aplicaciones.
