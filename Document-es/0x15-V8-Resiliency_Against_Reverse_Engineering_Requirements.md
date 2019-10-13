@@ -52,7 +52,7 @@ Se aplican las siguientes consideraciones:
 
 | # | MSTG-ID | Descripción | R |
 | --- | --- | --- | -- |
-| **8.13** | MSTG‑RESILIENCE‑13 | A modo de defensa en profundidad, además de incluir un refuerzo (hardening) sólido de la comunicación, puede implementarse la encriptación de datos (payloads) a nivel de aplicación como medida adicional contra ataques de eavesdropping. | ✓ |
+| **8.13** | MSTG‑RESILIENCE‑13 | A modo de defensa en profundidad, además de incluir un refuerzo (hardening) sólido de la comunicación, puede implementarse el cifrado de datos (payloads) a nivel de aplicación como medida adicional contra ataques de eavesdropping. | ✓ |
 
 <div style="page-break-after: always;">
 </div>
