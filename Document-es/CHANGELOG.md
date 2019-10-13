@@ -19,7 +19,7 @@ Los siguientes cambios forman parte de la versión 1.2:
 - Añadido MSTG‑ARCH‑12 informando a los desarrolladores que las correspondientes leyes internacionales de privacidad deberían de ser seguidas.
 - Consolidado el estilo de referencias en la versión inglesa.
 - Añadido MSTG‑PLATFORM‑11 para combatir es espionaje mediante teclados de terceros.
-- Añadido MSTG-MSTG‑RESILIENCE‑13 para impedir el _eavesdropping_ en aplicaciones.
+- Añadido el requisito MSTG-MSTG‑RESILIENCE‑13 para impedir el _eavesdropping_ en aplicaciones.
 
 ## V1.1.4 4 de julio de 2019 - Summit edition
 
