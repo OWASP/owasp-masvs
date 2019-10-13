@@ -40,7 +40,7 @@ Se recomienda el uso de escáneres de código fuente y herramientas de auditorí
 
 ### Como Guía Detallada para una Arquitectura Segura
 
-Uno de los usos más comunes del MASVS es hacer de guía para los arquitectos de seguridad. Los dos principales esquemas de seguridad en la arquitectura, SABSA o TOGAF, carecen de una gran cantidad de información necesaria para completar las revisiones de seguridad en la arquitectura de las aplicaciones móviles. El MASVS se puede utilizar para llenar esos vacíos permitiendo a los arquitectos elegir los mejores controles para los problemas comunes de seguridad en las aplicaciones móviles.
+Uno de los usos más comunes del MASVS es como guía para los arquitectos de seguridad. Los dos principales esquemas de seguridad en la arquitectura, SABSA o TOGAF, carecen de una gran cantidad de información necesaria para completar las revisiones de seguridad en la arquitectura de las aplicaciones móviles. El MASVS se puede utilizar para llenar esos vacíos permitiendo a los arquitectos elegir los mejores controles para los problemas comunes de seguridad en las aplicaciones móviles.
 
 ### Como Reemplazo de los _Checklists: de Desarrollo Seguro de Aplicaciones Móviles
 
