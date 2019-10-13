@@ -9,7 +9,7 @@ Los siguientes cambios forman parte de la versión 1.2:
 - ¡Ya somos flagship!
 - Requisitos MSTG-STORAGE-1 modificado para ser más extricto.
 - Añadidos MSTG-STORAGE-13, MSTG-STORAGE-14 y MSTG-STORAGE-15 centrados en protección de datos.
-- Actualizado MSTG-AUTH-11 para preservar información contextual.
+- Actualizado el requisito MSTG-AUTH-11 para preservar información contextual.
 - Actualizado MSTG‑CODE‑4 para cubrir más allá de la depuración.
 - Añadido MSTG‑PLATFORM‑10 para incrementar la seguridad al usar WebViews.
 - Añadido MSTG‑AUTH‑12 para recordar a los desarrolladores que deben de implementar medidas de autorización, especialmente en apps multi usuario.
