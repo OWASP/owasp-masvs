@@ -22,8 +22,8 @@ El cumplimiento de los requerimientos de MASVS-L1 dará como resultado una aplic
 
 La primera parte del MASVS contiene una descripción del modelo de seguridad y de los niveles de verificación disponibles, seguido de recomendaciones sobre cómo utilizar el estándar en la práctica. En la segunda parte se detallan los requisitos de seguridad, junto con un mapeo a los distintos niveles de verificación. Los requerimientos se han agrupado en ocho categorías (V1 a V8) basadas en el objetivo/alcance técnico. La siguiente nomenclatura se utiliza a lo largo del MASVS y la MSTG:
 
-- *Categoría de los requerimientos:* MASVS-Vx, e.g. MASVS-V2: Requerimientos de Almacenamiento de datos y Privacidad.
-- *Requerimiento:* MASVS-Vx.y, e.g. MASVS-V2.2: "No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema.".
+- *Categoría de los requerimientos:* MASVS-Vx, p. ej. MASVS-V2: Requerimientos de Almacenamiento de datos y Privacidad.
+- *Requerimiento:* MASVS-Vx.y, p. ej. MASVS-V2.2: "No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema.".
 
 ### Niveles de Verificación Detallados
 
@@ -63,7 +63,7 @@ La implementación de los requisitos del nivel MASVS-L2 aumenta la seguridad, pe
 
 ###### MASVS-L1
 
-- Todas las aplicaciones móviles. El nivel MASVS-L1 enumera las mejores prácticas de seguridad que se pueden seguir con un impacto razonable en el coste de desarrollo y la experiencia del usuario. Los requerimientos de MASVS-L1 pueden aplicarse en cualquier aplicación no apta para los niveles superiores.
+- Todas las aplicaciones móviles. El nivel MASVS-L1 enumera las mejores prácticas de seguridad que se pueden seguir con un impacto razonable en el coste de desarrollo y la experiencia del usuario. Los requerimientos del MASVS-L1 pueden aplicarse en cualquier aplicación no apta para los niveles superiores.
 
 ###### MASVS-L2
 
