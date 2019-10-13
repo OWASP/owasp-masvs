@@ -42,7 +42,7 @@ Se recomienda el uso de escáneres de código fuente y herramientas de auditorí
 
 Uno de los usos más comunes del MASVS es como guía para los arquitectos de seguridad. Los dos principales esquemas de seguridad en la arquitectura, SABSA o TOGAF, carecen de una gran cantidad de información necesaria para completar las revisiones de seguridad en la arquitectura de las aplicaciones móviles. El MASVS se puede utilizar para llenar esos vacíos permitiendo a los arquitectos elegir los mejores controles para los problemas comunes de seguridad en las aplicaciones móviles.
 
-### Como Reemplazo de los _Checklists: de Desarrollo Seguro de Aplicaciones Móviles
+### Como Reemplazo de las _Checklists_ de Desarrollo Seguro de Aplicaciones Móviles
 
 Muchas organizaciones pueden beneficiarse de la adopción del MASVS simplemente eligiendo uno de los niveles, o haciendo su propio _fork_ del MASVS y cambiando lo que se requiera específicamente en el contexto y el nivel de riesgo de cada aplicación. Fomentamos este tipo de _forks_ siempre y cuando se mantenga la trazabilidad, de modo que si una aplicación cumple con un requerimiento del MASVS original, lo mismo ocurre en los _forks_ del estándar cuando éste evoluciona.
 
