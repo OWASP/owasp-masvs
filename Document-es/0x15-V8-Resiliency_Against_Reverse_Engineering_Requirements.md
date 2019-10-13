@@ -45,7 +45,7 @@ Se aplican las siguientes consideraciones:
 
 | # | MSTG-ID | Descripción | R |
 | --- | --- | --- | -- |
-| **8.11** | MSTG‑RESILIENCE‑11 | Todos los archivos ejecutables y bibliotecas correspondientes a la aplicación se encuentran encriptados, o bien los segmentos importantes de código se encuentran encriptados o "empaquetados" (packed). De este modo cualquier análisis estático trivial no revelará código o datos importantes. | ✓ |
+| **8.11** | MSTG‑RESILIENCE‑11 | Todos los archivos ejecutables y bibliotecas correspondientes a la aplicación se encuentran cifrados, o bien los segmentos importantes de código se encuentran cifrados o "empaquetados" (packed). De este modo cualquier análisis estático trivial no revelará código o datos importantes. | ✓ |
 | **8.12** | MSTG‑RESILIENCE‑12 | Si el objetivo de la ofuscación es proteger código propietario, debe utilizarse un esquema de ofuscación apropiado para la tarea particular y robusto contra métodos de desofuscación manual y automatizada, considerando la investigación actual publicada. La eficacia del esquema de ofuscación debe verificarse mediante pruebas manuales. Nótese que, siempre que sea posible, las características de aislamiento basadas en hardware son preferibles a la ofuscación. | ✓ |
 
 ### Impedir el Eavesdropping
