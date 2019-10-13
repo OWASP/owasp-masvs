@@ -23,7 +23,7 @@ La gran mayoría de las cuestiones relativas a la divulgación de datos pueden p
 
 | # | MSTG-ID | Descripción | L1 | L2 |
 | --- | --- | --- | --- | --- |
-| **2.1** | MSTG‑STORAGE‑1 | Las facilidades de almacenamiento de credenciales del sistema deben de ser utilizadas para almacenar información sensible, tal como información personal, credenciales de usuario o claves criptográficas. | ✓ | ✓ |
+| **2.1** | MSTG‑STORAGE‑1 | Las funcionalidades de almacenamiento de credenciales del sistema deben de ser utilizadas para almacenar información sensible, tal como información personal, credenciales de usuario o claves criptográficas. | ✓ | ✓ |
 | **2.2** | MSTG‑STORAGE‑2 | No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema. | ✓ | ✓ |
 | **2.3** | MSTG‑STORAGE‑3 | No se escribe información sensible en los registros (logs) de la aplicación. | ✓ | ✓ |
 | **2.4** | MSTG‑STORAGE‑4 | No se comparte información sensible con servicios externos salvo que sea una necesidad de la arquitectura. | ✓ | ✓ |
