@@ -3,7 +3,7 @@
 El MASVS se puede utilizar para establecer un nivel de confianza en la seguridad de las aplicaciones móviles. Los requerimientos fueron desarrollados con los siguientes objetivos en mente:
 
 - Uso como una métrica - Proporciona un estándar dirigido tanto a desarrolladores como a propietarios de aplicaciones, el cual puede ser utilizado para comparar aplicaciones en términos de seguridad;
-- Uso como guía - Hace de guía durante todas las fases del desarrollo y auditoría de las aplicaciones móviles;
+- Uso como guía - Hace de guía durante todas las fases del desarrollo y pruebas de seguridad de las aplicaciones móviles;
 - Uso durante la compra o contratación - Proporcionar una línea base para la verificación de la seguridad de aplicaciones móviles.
 
 ## Modelo de Seguridad para una Aplicación Móvil
