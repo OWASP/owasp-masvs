@@ -11,7 +11,7 @@ Estos controles buscan asegurar que se siguieron las prácticas de seguridad bá
 | **7.1** | MSTG‑CODE‑1 | La aplicación es firmada y provista con un certificado válido, cuya clave privada está debidamente protegida. | ✓ | ✓ |
 | **7.2** | MSTG‑CODE‑2 | La aplicación fue publicada en modo release y con las configuraciones apropiadas para el mismo (por ejemplo, non-debuggable). | ✓ | ✓ |
 | **7.3** | MSTG‑CODE‑3 | Los símbolos de depuración fueron eliminados de los binarios nativos. | ✓ | ✓ |
-| **7.4** | MSTG‑CODE‑4 | Cualquier código de depuración y/o de asistencia al desarrollador (e.g. código de test, backdoors, configuraciones ocultas) debe ser eliminado. La aplicación no hace logs verbosos de errores ni de mensajes de depuración. | ✓ | ✓ |
+| **7.4** | MSTG‑CODE‑4 | Cualquier código de depuración y/o de asistencia al desarrollador (p. ej. código de test, backdoors, configuraciones ocultas) debe ser eliminado. La aplicación no hace logs detallados de errores ni de mensajes de depuración. | ✓ | ✓ |
 | **7.5** | MSTG‑CODE‑5 | Todos los componentes de terceros se encuentran identificados y revisados en cuanto a vulnerabilidades conocidas. | ✓ | ✓ |
 | **7.6** | MSTG‑CODE‑6 | La aplicación captura y gestiona debidamente las posibles excepciones. | ✓ | ✓ |
 | **7.7** | MSTG‑CODE‑7 | Los controles de seguridad deniegan el acceso por defecto. | ✓ | ✓ |
