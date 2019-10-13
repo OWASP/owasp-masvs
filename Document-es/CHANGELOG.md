@@ -15,7 +15,7 @@ Los siguientes cambios forman parte de la versión 1.2:
 - Añadido el requisito MSTG‑AUTH‑12 para recordar a los desarrolladores que deben de implementar medidas de autorización, especialmente en aplicaciones multi usuario.
 - Descripción mejorada sobre como usar el MASVS dado una evaluación de riesgo.
 - Añadida más descripción sobre contenidos de pago.
-- Añadido MSTG‑ARCH‑11 incluyendo una política de divualgación responsable para apps MASVS-L2.
+- Añadido el requisito MSTG‑ARCH‑11 incluyendo una política de divulgación responsable para aplicaciones MASVS-L2.
 - Añadido MSTG‑ARCH‑12 informando a los desarrolladores que las correspondientes leyes internacionales de privacidad deberían de ser seguidas.
 - Consolidado el estilo de referencias en la versión inglesa.
 - Añadido MSTG‑PLATFORM‑11 para combatir es espionaje mediante teclados de terceros.
