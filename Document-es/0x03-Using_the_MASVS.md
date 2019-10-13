@@ -33,7 +33,7 @@ Una aplicación móvil que logra el nivel MASVS-L1 se adhiere a las mejores prá
 
 #### MASVS-L2: Defensa en Profundidad
 
-MASVS-L2 introduce controles de seguridad avanzados que van más allá de los requisitos estándar. Para cumplir con MASVS-L2, debe existir un modelo de amenazas y la seguridad debe ser una parte fundamental de la arquitectura y el diseño de la aplicación. Tomando ese modelo de amenazas como base, deben de seleccionarse e implementarse los controles MASVS-L2 que correspondan. Este nivel es apropiado para aplicaciones que manejan datos altamente sensibles, como las aplicaciones de banca móvil.
+MASVS-L2 introduce controles de seguridad avanzados que van más allá de los requisitos estándar. Para cumplir con el MASVS-L2, debe existir un modelo de amenazas y la seguridad debe ser una parte fundamental de la arquitectura y el diseño de la aplicación. Tomando ese modelo de amenazas como base, deben de seleccionarse e implementarse los controles del MASVS-L2 que correspondan. Este nivel es apropiado para aplicaciones que manejan datos altamente sensibles, como las aplicaciones de banca móvil.
 
 #### MASVS-R: Resistencia contra la Ingeniería Inversa y la Manipulación
 
