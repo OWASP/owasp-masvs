@@ -11,7 +11,7 @@ Los siguientes cambios forman parte de la versión 1.2:
 - Añadidos los requisitos MSTG-STORAGE-13, MSTG-STORAGE-14 y MSTG-STORAGE-15 centrados en la protección de datos.
 - Actualizado el requisito MSTG-AUTH-11 para preservar información contextual.
 - Actualizado el requisito MSTG‑CODE‑4 para cubrir más allá de la depuración.
-- Añadido MSTG‑PLATFORM‑10 para incrementar la seguridad al usar WebViews.
+- Añadido el requisito MSTG‑PLATFORM‑10 para incrementar la seguridad al usar WebViews.
 - Añadido MSTG‑AUTH‑12 para recordar a los desarrolladores que deben de implementar medidas de autorización, especialmente en apps multi usuario.
 - Descripción mejorada sobre como usar el MASVS dado una evaluación de riesgo.
 - Añadida más descripción sobre contenidos de pago.
