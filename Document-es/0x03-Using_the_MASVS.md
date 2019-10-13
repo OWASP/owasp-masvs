@@ -79,7 +79,7 @@ La implementación de los requisitos del nivel MASVS-L2 aumenta la seguridad, pe
 
 ###### MASVS L2+R
 
-- Industria Financiera: aplicaciones de banca móvil que permiten al usuario mover fondos, donde las técnicas de inyección de código e instrumentación en dispositivos comprometidos suponen un riesgo. En este caso, los controles MASVS-R se pueden utilizar para dificultar la manipulación de código, dificultando el trabajo de potenciales autores de malware.
+- Industria Financiera: aplicaciones de banca móvil que permiten al usuario mover fondos, donde las técnicas de inyección de código e instrumentación en dispositivos comprometidos suponen un riesgo. En este caso, los controles MASVS-R se pueden utilizar para dificultar la manipulación de código, dificultando el trabajo de potenciales autores de _malware_.
 
 - Todas las aplicaciones móviles que, por diseño, necesitan almacenar datos sensibles en el dispositivo móvil y, al mismo tiempo, deben soportar una amplia gama de dispositivos y versiones del sistema operativo. En este caso, los controles de resistencia pueden utilizarse como una medida de defensa en profundidad para aumentar el esfuerzo de los atacantes que intentan extraer datos sensibles.
 
