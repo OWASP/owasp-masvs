@@ -73,7 +73,7 @@ La implementación de los requisitos del nivel MASVS-L2 aumenta la seguridad, pe
 
 ###### MASVS L1+R
 
-- Aplicaciones móviles donde la protección de la propiedad intelectual (IP, por sus siglas en inglés) es un claro objetivo empresarial. Los controles de resistencia listados en MASVS-R se pueden utilizar para incrementar el esfuerzo necesario para obtener el código fuente original e dificultar la manipulación / _cracking_.
+- Aplicaciones móviles donde la protección de la propiedad intelectual (IP, por sus siglas en inglés) es un claro objetivo empresarial. Los controles de resistencia listados en MASVS-R se pueden utilizar para incrementar el esfuerzo necesario para obtener el código fuente original y dificultar la manipulación / _cracking_.
 
 - Industria de los juegos: juegos con una necesidad esencial de evitar la posibilidad de _modding_ y el engaño, como los juegos competitivos _online_. Hacer trampa es un tema importante en los juegos _online_, ya que una gran cantidad de tramposos conduce a un descontento de la base de jugadores y, en última instancia, puede causar que un juego fracase. MASVS-R proporciona controles básicos contra la manipulación para ayudar a incrementar el esfuerzo que los tramposos deberían realizar.
 
