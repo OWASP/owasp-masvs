@@ -17,7 +17,7 @@ En la mayoría de los casos, una parte esencial de la arquitectura global de apl
 | **4.7** | MSTG‑AUTH‑7 | Las sesiones y los tokens de acceso expiran luego de un tiempo predefinido de inactividad. | ✓  | ✓ |
 | **4.8** | MSTG‑AUTH‑8 | La autenticación biométrica, si la hay, no está asociada a eventos (i.e. usando una API que simplemente retorna "true" o "false"), sino basada en el desbloqueo del keychain/keystore (almacenamiento seguro). |   | ✓ |
 | **4.9** | MSTG‑AUTH‑9 | El sistema remoto implementa un mecanismo de segundo factor de autenticación (2FA) y lo impone consistentemente. |   | ✓ |
-| **4.10** | MSTG‑AUTH‑10 | Para realizar transacciones se requiere una autenticación adicional (step-up). |   | ✓ |
+| **4.10** | MSTG‑AUTH‑10 | Para realizar transacciones críticas se requiere una autenticación adicional (step-up). |   | ✓ |
 | **4.11** | MSTG‑AUTH‑11 | La aplicación informa al usuario acerca de todas las actividades sensibles en su cuenta. El usuario es capaz de ver una lista de los dispositivos conectados, información contextual (dirección IP, localización, etc.), y es capaz de bloquear ciertos dispositivos. |  | ✓ |
 | **4.12** | MSTG‑AUTH‑12 | Los modelos de autorización deberían de ser definidos e impuestos por el sistema remoto. | ✓ | ✓ |
 
