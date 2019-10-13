@@ -21,7 +21,7 @@ Los informes creados por organismos de certificación deberían incluir los sigu
 - Un resumen de los resultados de la verificación, incluyendo las pruebas superadas y fallidas, con instrucciones claras de cómo resolver las pruebas fallidas.
 - Mantener documentos de trabajo detallados, incluyendo capturas de pantalla o vídeos.
 - Guiones para explotar de forma fiable y repetida un problema.
-- Registros electrónicos de las pruebas, como los _logs_ de un proxy y cualquier nota asociadas.
+- Registros electrónicos de las pruebas, como los _logs_ de un proxy y cualquier nota asociada.
 
 Nòtese que no basta con simplemente ejecutar una herramienta y presentar un informe sobre los fallos; esto no aporta suficientes evidencias de que se han analizado y probado a fondo todos los aspectos a nivel de una certificación. En caso de controversia, debe haber pruebas suficientes para demostrar que todos los requerimientos verificados han sido efectivamente probados.
 
