@@ -12,7 +12,7 @@ Los siguientes cambios forman parte de la versión 1.2:
 - Actualizado el requisito MSTG-AUTH-11 para preservar información contextual.
 - Actualizado el requisito MSTG‑CODE‑4 para cubrir más allá de la depuración.
 - Añadido el requisito MSTG‑PLATFORM‑10 para incrementar la seguridad al usar WebViews.
-- Añadido MSTG‑AUTH‑12 para recordar a los desarrolladores que deben de implementar medidas de autorización, especialmente en apps multi usuario.
+- Añadido el requisito MSTG‑AUTH‑12 para recordar a los desarrolladores que deben de implementar medidas de autorización, especialmente en aplicaciones multi usuario.
 - Descripción mejorada sobre como usar el MASVS dado una evaluación de riesgo.
 - Añadida más descripción sobre contenidos de pago.
 - Añadido MSTG‑ARCH‑11 incluyendo una política de divualgación responsable para apps MASVS-L2.
