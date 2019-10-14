@@ -12,9 +12,9 @@ Die folgenden Änderungen sind Teil von Version 1.2-RC:
 - Anforderung MSTG‑CODE‑4 wurde aktualisiert um mehr Fälle als nur Debugging abzudecken.
 - Anforderung MSTG-AUTH-11 wurde aktualisiert um "kontextbezogene Informationen".
 - Anforderung MSTG‑PLATFORM‑10 wurde hinzugefügt für einen weiteren Fall um WebViews sicher zu verwenden.
-- Anforderung MSTG‑AUTH‑12 wurde hinzugefügt um Entwickler daran zu erinnern Authorisierung zu implementieren, vor allem im Fall von multi-user Apps.
+- Anforderung MSTG‑AUTH‑12 wurde hinzugefügt um Entwickler daran zu erinnern Autorisierung zu implementieren, vor allem im Fall von multi-user Apps.
 - Beschreibung hinzugefügt, wie der MASVS in einem Risk Assessment verwendet werden sollte.
-- Beschreibung hinzugefügt für Bezahl-Inahlte.
+- Beschreibung hinzugefügt für Bezahl-Inhalte.
 - Anforderung MSTG‑ARCH‑11 wurde hinzugefügt um Responsible Disclosure Policies zu implementieren.
 - Anforderung MSTG‑ARCH‑12 wurde hinzugefügt um Datenschutzgesetze zu befolgen.
 - Anforderung MSTG‑PLATFORM‑11 wurde hinzugefügt um 3rd Party Tastaturen zu verbieten.

@@ -34,9 +34,9 @@ Ein Großteil von Datenpannen kann bereits durch Einhaltung einfacher Regeln ver
 | **2.10** | MSTG‑STORAGE‑10 | Die App hält sensible Daten nur solange wie nötig im Speicher und betroffene Speicherbereiche werden nach Nutzung explizit gelöscht. |  | ✓ |
 | **2.11** | MSTG‑STORAGE‑11 | Die App erzwingt ein Minimum an Geräteschutz-Richtlinien wie das Definieren eines Gerätepassworts. |  | ✓ |
 | **2.12** | MSTG‑STORAGE‑12 | Die App klärt den Nutzer über die Art und Weise der verarbeiteten personenbezogenen Daten auf und gibt dem Nutzer Security-Best-Practice-Empfehlungen zum Umgang mit der App. |  | ✓ |
-| **2.13** | MSTG‑STORAGE‑13 | Sensible Daten sollten nicht lokal auf dem mobile Gerät gespeichert werden. Daten sollten stattdessen direkt vom API-Endpunkt abgerufen und nur im Arbeitsspeicher vorgehalten werden. |  | ✓ |
-| **2.14** | MSTG‑STORAGE‑14 | Falls doch sensible Daten lokal vorgehalten werden müssen, sollten diese mit einem Schlüssel verschlüsselt werden der im vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismus abgelegt ist. Der Zugriff auf den Schlüssel sollte authentifizierung erfordern. |  | ✓ |
-| **2.15** | MSTG‑STORAGE‑15 | Der lokale Speicher von der App sollte gelöscht werden, nach erreichen einer exzessiven Anzahl von fehlgeschlagenen Login-Versuchen.  |  | ✓ |
+| **2.13** | MSTG‑STORAGE‑13 | Sensible Daten sollten nicht lokal auf dem mobilen Gerät gespeichert werden. Daten sollten stattdessen direkt vom API-Endpunkt abgerufen und nur im Arbeitsspeicher vorgehalten werden. |  | ✓ |
+| **2.14** | MSTG‑STORAGE‑14 | Falls doch sensible Daten lokal vorgehalten werden müssen, sollten diese mit einem Schlüssel verschlüsselt werden der im vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismus abgelegt ist. Der Zugriff auf den Schlüssel sollte Authentifizierung erfordern. |  | ✓ |
+| **2.15** | MSTG‑STORAGE‑15 | Der lokale Speicher von der App sollte gelöscht werden, nach Erreichen einer exzessiven Anzahl von fehlgeschlagenen Login-Versuchen.  |  | ✓ |
 
 <div style="page-break-after: always;" >
 </div>
