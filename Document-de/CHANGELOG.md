@@ -8,7 +8,7 @@ Die folgenden Änderungen sind Teil von Version 1.2-RC:
 
 - "Flagship Status" von OWASP erhalten.
 - Anforderung MSTG-Storage-1 verändert.
-- Anforderung MSTG-STORAGE-13, MSTG-STORAGE-14 und MSTG-STORAGE-15 wurden hinzugefügt mit einem Fokus auf Datenschutz.
+- Anforderung MSTG-STORAGE-13, MSTG-STORAGE-14 und MSTG-STORAGE-15 wurden hinzugefügt mit Fokus auf Datenschutz.
 - Anforderung MSTG‑CODE‑4 wurde aktualisiert um mehr Fälle als nur Debugging abzudecken.
 - Anforderung MSTG-AUTH-11 wurde aktualisiert um "kontextbezogene Informationen".
 - Anforderung MSTG‑PLATFORM‑10 wurde hinzugefügt für einen weiteren Fall um WebViews sicher zu verwenden.
