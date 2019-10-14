@@ -48,6 +48,10 @@ Folgende Eckpunkte gelten:
 | **8.11** | MSTG‑RESILIENCE‑11 | Alle ausführbaren Dateien und Bibliotheken der App sind entweder auf Dateiebene verschlüsselt und/oder wichtige Code- und Datenabsegmente in ausführbaren Dateien sind verschlüsselt oder durch Packing obfuskiert. Triviale statische Analyse offenbart keinen wichtigen Code oder Daten. | ✓ |
 | **8.12** | MSTG‑RESILIENCE‑12 | Wenn das Ziel der Obfuskierung der Schutz sensibler Logik wie Algorithmen oder Berechnungen ist, so wird ein angemessener Obfuskierungsmechanismus, dem Stand der Technik entsprechend, genutzt der resilient gegen manuelle und automatisierte De-Obfuskierungsangriffe ist. Die Wirksamkeit der Obfuskierungsmethode muss durch manuelle Tests überprüft werden. Es ist zu beachten, dass hardware-basierte Isolations-Mechanismen softwarebasierter Obfuskierung vorzuziehen sind. | ✓ |
 
+### Abhören erschweren
+
+| **8.13** | MSTG‑RESILIENCE‑13 | Neben einer gehärteten Kommunikation zwischen Client und API-Endpunkt, sollte auch der übertragene Payload verschlüsselt werden um das Abhören von Daten zu erschweren. | ✓ |
+
 <div style="page-break-after: always;" >
 </div>
 
@@ -55,12 +59,12 @@ Folgende Eckpunkte gelten:
 
 Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die Anforderungen aus dieser Kategorie zu überprüfen.
 
-- Für Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
-- Für iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- Android: Testing Resiliency Against Reverse Engineering - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- iOS: Testing Resiliency Against Reverse Engineering - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
 Weitere Informationen unter:
 
 - OWASP Mobile Top 10: M8 (Code Tampering) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M8-Code_Tampering>
 - OWASP Mobile Top 10: M9 (Reverse Engineering) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M9-Reverse_Engineering>
-- WASP Reverse Engineering Threats - <https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification>
+- OWASP Reverse Engineering Threats - <https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification>
 - OWASP Reverse Engineering and Code Modification Prevention - <https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project>
