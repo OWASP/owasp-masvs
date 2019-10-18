@@ -15,7 +15,7 @@ A continuación, se enumeran los requerimientos para MASVS-L1 y MASVS-L2.
 
 | # | MSTG-ID | Descripción | L1 | L2 |
 | --- | --- | --- | --- | --- |
-| **1.1** | MSTG‑ARCH‑1 | Todos los componentes se encuentran identificados y asegurar que son necesarios. | ✓ | ✓ |
+| **1.1** | MSTG‑ARCH‑1 | Todos los componentes se encuentran identificados y se conoce que son necesarios. | ✓ | ✓ |
 | **1.2** | MSTG‑ARCH‑2 | Los controles de seguridad nunca se aplican sólo en el cliente, sino que también en los respectivos servidores. | ✓ | ✓ |
 | **1.3** | MSTG‑ARCH‑3 | Se definió una arquitectura de alto nivel para la aplicación y los servicios y se incluyeron controles de seguridad en la misma. | ✓ | ✓ |
 | **1.4** | MSTG‑ARCH‑4 | Se identificó claramente la información considerada sensible en el contexto de la aplicación móvil. | ✓ | ✓ |
