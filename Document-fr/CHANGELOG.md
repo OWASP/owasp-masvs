@@ -6,21 +6,21 @@ Ce document est généré automatiquement à {{gitbook.time}}
 
 Les changement suivants font partie de la livraison 1.2:
 
-- Mise à jour des traductions de MASVS dans les langues suivantes: Chinoise (ZHTW), Anglais, Allemande, Français, Russe, Espagnole et Japonaise.
+- Mise à jour des traductions du MASVS dans les langues suivantes: chinoise (ZHTW), anglais, allemande, français, russe, espagnole et japonaise.
 - Promu au statut flagship.
-- Exigence changé: MSTG-STORAGE-1 "doivent être utilisées".
-- Exigences MSTG-STORAGE-13, MSTG-STORAGE-14, MSTG-STORAGE-15 sont ajoutées avec une concentration sur la protection des données.
+- Exigence changée : MSTG-STORAGE-1 "doivent être utilisées".
+- Les exigences MSTG-STORAGE-13, MSTG-STORAGE-14, MSTG-STORAGE-15 sont ajoutées avec un accent sur la protection des données.
 - Exigence MSTG-AUTH-11 mise à jour pour garder les informations contextuelles.
-- Exigence MSTG-CODE-4 mise à jour pour couvrir plus que juste le déboggage.
-- Exigence MSTG-PLATFORM-10 ajoutée pour protéger de plus l'utilisation des WebViews.
-- Exigence MSTG-AUTH-12 ajoutée pour rappeler les développeurs d'implémenter l'autorisation, surtout pour les applications multi-utilisateurs.
-- Ajout d'un petit peut sur comment MASVS doit être utiliser à la base d'une evaluation du risk.
-- Ajout d'un petit peut de description sur le contenu payant.
+- Exigence MSTG-CODE-4 mise à jour pour avoir une couverture plus large que seulement déboggage.
+- Exigence MSTG-PLATFORM-10 ajoutée pour offrir une protection plus large à l'utilisation des WebViews.
+- Exigence MSTG-AUTH-12 ajoutée pour rappeler aux développeurs d'implémenter l'autorisation, surtout pour les applications multi-utilisateurs.
+- Ajout de quelques éléments concernant l'utilisation du MASVS pour une évaluation de risque.
+- Ajout de quelques éléments concernant la sécurisation du contenu payant.
 - Exigence MSTG-ARCH-11 ajoutée pour inclure une politique de divulgation responsable pour les applications L2.
-- Exigence MSTG-ARCH-12 ajoutée pour montrer aux développeurs qu'ils diovent respecter les lois de confidentialité internationaux.
-- Création d'un style consistant pour toutes les références.
-- Exigence MSTG-PLATFORM-11 ajoutée pour prévenir l'espionage par des claviers tierces.
-- Exigence MSTG-RESILIENCE-13 pour entraver l'écoute dans l'application.
+- Exigence MSTG-ARCH-12 ajoutée pour rappeler les exigences provenant des lois et réglementations à travers le monde.
+- Création d'un style cohérent pour toutes les références.
+- Exigence MSTG-PLATFORM-11 ajoutée pour contrer les menaces pouvant provenir des claviers tiers.
+- Exigence MSTG-RESILIENCE-13 pour pour offrir un niveau de contrôle supplémentaire avec du chiffrement au niveau applicatif afin d'entraver l'écoute par un attaquant.
 ## V1.1.4 4 Juillet 2019 - Summit edition
 
 - Corrections d'erreurs de markdown.
