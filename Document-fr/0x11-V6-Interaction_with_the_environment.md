@@ -16,9 +16,9 @@ Le but des contrôles de ce groupe est de garantir que l'application utilise les
 | **6.6** | MSTG‑PLATFORM‑6 | Les WebViews sont configurées pour ne permettre que le jeu minimum de gestionnaires de protocoles requis (idéalement, seul https est supporté). Les gestionnaires potentiellement dangereux, tels que ceux pour les fichiers, les appels téléphoniques ou l'identifiant de l'application sont désactivés. | ✓ | ✓ |
 | **6.7** | MSTG‑PLATFORM‑7 | Dans le cas où des méthodes natives de l'application sont exposées à une WebView, il convient de valider que la WebView ne rend que le JavaScript contenu dans le package de l'application. | ✓ | ✓ |
 | **6.8** | MSTG‑PLATFORM‑8 | La désérialisation des objets, s'il en existe, est implémentée à l'aide d'API de sérialisation de confiance. | ✓ | ✓ |
-| **6.9** | MSTG‑PLATFORM‑9 | L'application de se protéger contre les attaques par recouvrement. (Android seulement) |  | ✓ |
-| **6.10** | MSTG‑PLATFORM‑10 | Le cache, stockage et les ressources chargées (JavaScript, etc.) d'une WebView doivent être supprimés avant que la WebView soit détruite. |  | ✓ |
-| **6.11** | MSTG‑PLATFORM‑11 | Vérifier que l'application n'autorise pas l'utilisation des claviers tierces personnalisées lors de la saisie des données sensibles. |  | ✓ |
+| **6.9** | MSTG‑PLATFORM‑9 | L'application doit se protéger contre les attaques par recouvrement. (Android seulement) |  | ✓ |
+| **6.10** | MSTG‑PLATFORM‑10 | Le cache, le stockage et les ressources téléchargées (JavaScript, etc.) d'une WebView doivent être supprimés avant que la WebView soit détruite. |  | ✓ |
+| **6.11** | MSTG‑PLATFORM‑11 | Vérifier que l'application n'autorise pas l'utilisation des claviers tiers personnalisés lors de la saisie des données sensibles. |  | ✓ |
 
 <div style="page-break-after: always;">
 </div>
@@ -27,8 +27,8 @@ Le but des contrôles de ce groupe est de garantir que l'application utilise les
 
 Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.
 
-- Android: Tester les interactions avec la plateforme - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
-- iOS: Tester les interactions avec la plateforme - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
+- Android : Tester les interactions avec la plateforme - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
+- iOS : Tester les interactions avec la plateforme - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
 
 Pour de plus amples informations, il est possible de consulter aussi :
 

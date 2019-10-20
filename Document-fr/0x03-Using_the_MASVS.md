@@ -14,7 +14,7 @@ Atteindre les exigences du niveau MASVS-L1 amène à une application qui suit le
 
 **I: Il convient de noter que les contrôles de protection logiciels listés dans le MASVS-R et décrits dans le Guide de Test Mobile de l'OWASP (OWASP Mobile Testing Guide) peuvent toujours être contournés et ne doivent jamais être utilisés en tant que substituts aux contrôles de sécurité. Leur but est d'apporter des contrôles de protection supplémentaires spécifiques aux menaces d'applications qui remplissent aussi les exigences MASVS L1 ou L2.**
 
-**II: Il faut noté que les contrôles de protection des logiciels présentés dans le MASVS-R et décrits dans l'OWASP MSTG peuvent finalement être contournés et ne doivent jamais être utiliser comme alternative pour les contrôles de sécurité. Par contre ils sont conçus pour ajouter des contrôles des menaces spécifiques suplémentaires pour les applications qui satisfaisaient aussi les exigences de MASVS-L1 et MASVS-L2.**
+**II: Il faut noter que les contrôles de protection des logiciels présentés dans le MASVS-R et décrits dans l'OWASP MSTG peuvent finalement être contournés et ne doivent jamais être utilisés comme alternative auxs contrôles de sécurité. Par contre, ils sont conçus pour ajouter des contrôles supplémentaires envers des menaces spécifiques pour les applications qui satisfont aux exigences de MASVS-L1 et MASVS-L2.**
 
 ![Verification Levels](images/masvs-levels-new_fr.jpg)
 
@@ -80,4 +80,4 @@ L'implémentation des exigences MASVS L2 améliore la sécurité, mais peut en m
 
 - Toute application mobile qui, par design, doit stocker des données sensibles sur l'appareil mobile tout en devant fonctionner pour une large game d'appareils et de versions de systèmes d'exploitation. Dans ce cas, des contrôles de résistance peuvent être utilisés en tant que mesures de défense en profondeur pour augmenter la quantité d'effort que doivent fournir les attaquants voulant extraire les données sensibles.
 
-- Les applications avec des fonctionnalitées d'achat intégrées doivent idéalement utiliser le côté serveur et les exigences MASVS-L2 pour protéger le contenu payant. Néanmoins, dans quelques cas il est impossible d'utiliser la protection au côté serveur. Dans ce cas les exigences MASVS+R doivent être appliquer de plus pour augmenter les efforts de la rétro-ingénierie et/ou la manipulation.
+- Les applications avec des fonctionnalités d'achat intégrées doivent idéalement utiliser le côté serveur et les exigences MASVS-L2 pour protéger le contenu payant. Néanmoins, dans quelques cas il est impossible d'utiliser la protection côté serveur. Dans ce cas, les exigences MASVS+R doivent être appliquées en plus des exigences de base pour augmenter les efforts de la rétro-ingénierie et / ou de la manipulation de code.

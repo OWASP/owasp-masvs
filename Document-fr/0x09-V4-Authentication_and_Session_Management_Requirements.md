@@ -18,8 +18,8 @@ Dans la plupart des cas, la connexion des utilisateurs à un service distant doi
 | **4.8** | MSTG‑AUTH‑8 | L'authentification biométrique, lorsqu'elle est utilisée, n'est pas basée sur des évènements (c'est-à-dire l'utilisation d'une API qui retourne simplement "vrai" ou "faux"). A la place, son utilisation est basée sur le déverrouillage du trousseau d'accès / du magasin de clé (keychain / keystore). |   | ✓ |
 | **4.9** | MSTG‑AUTH‑9 | Un second facteur d'authentification est disponible sur le point terminal distant et l'exigence d'authentification à deux facteurs est mise en application de façon systématique.  |   | ✓ |
 | **4.10** | MSTG‑AUTH‑10 | Les transactions sensibles requièrent une authentification améliorée.  |   | ✓ |
-| **4.11** | MSTG‑AUTH‑11 | L'application informe les utilisateurs de toutes les activitées critiques sur leurs comptes. Les utilisateurs ont accès à la liste des appareils utilisés pour accéder à leurs comptes, accès aux informations contextuelles (IP adresse, localisation, etc.), et peuvent en bloquer certaines appareils. |  | ✓ |
-| **4.12** | MSTG‑AUTH‑12 | Des modéles d'autorisation doivent être définies et forcés au niveau du point terminal distant. | ✓ | ✓ |
+| **4.11** | MSTG‑AUTH‑11 | L'application informe les utilisateurs de toutes les activités critiques sur leurs comptes. Les utilisateurs ont accès à la liste des appareils utilisés pour accéder à leurs comptes, accès aux informations contextuelles (adresse IP, localisation, etc...), et peuvent bloquer certains appareils. |  | ✓ |
+| **4.12** | MSTG‑AUTH‑12 | Des modèles d'autorisation doivent être définis et mis en oeuvre au niveau du point terminal distant. | ✓ | ✓ |
 
 <br/>
 
@@ -27,9 +27,9 @@ Dans la plupart des cas, la connexion des utilisateurs à un service distant doi
 
 Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.
 
-- Général: Authentification et la gestion des sessions - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
+- Général : Authentification et la gestion des sessions - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
 - Pour Android: Tester l'authentification locale - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
-- Pour iOS: Tester l'authentification locale - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
+- Pour iOS : Tester l'authentification locale - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
 
 Pour de plus amples informations, il est possible de consulter aussi :
 
