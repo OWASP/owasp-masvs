@@ -52,7 +52,7 @@ Il convient de prendre en compte les considérations suivantes :
 
 | # | MSTG-ID | Description | R |
 | --- | --- | --- | -- |
-| **8.13** | MSTG‑RESILIENCE‑13 | Pour une défense profonde, en plus d'avoir un durcissement solide des parties communicantes, le chiffrement des données utiles au niveau de l'application peut être appliquer pour entraver l'écoute. | ✓ |
+| **8.13** | MSTG‑RESILIENCE‑13 | Pour une défense en profondeur, en plus d'avoir un durcissement efficace des parties communicantes, le chiffrement des données utilisées au niveau de l'application peut être appliqué pour entraver l'écoute. | ✓ |
 
 <br/>
 
@@ -60,8 +60,8 @@ Il convient de prendre en compte les considérations suivantes :
 
 Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.
 
-- Android: Tester la résilience contre la rétro-ingénierie - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
-- iOS: Tester la résilience contre la rétro-ingénierie - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- Android : Tester la résilience contre la rétro-ingénierie - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- iOS : Tester la résilience contre la rétro-ingénierie - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
 Pour de plus amples informations, il est possible de consulter aussi :
 

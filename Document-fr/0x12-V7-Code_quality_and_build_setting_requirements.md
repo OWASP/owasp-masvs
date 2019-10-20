@@ -11,7 +11,7 @@ Le but de ce contrôle est d'assurer que les pratiques de codage de base concern
 | **7.1** | MSTG‑CODE‑1 | L'application est signée et livrée avec un certificat en cours de validité, dont la clé privée est correctement protégée. | ✓ | ✓ |
 | **7.2** | MSTG‑CODE‑2 | L'application a été générée en mode release avec des réglages appropriés à ce mode (c.a.d. sans les possibilités de déboggage). | ✓ | ✓ |
 | **7.3** | MSTG‑CODE‑3 | Les symboles pour le déboggage ont été enlevés des binaires natifs. | ✓ | ✓ |
-| **7.4** | MSTG‑CODE‑4 | Le code de déboggage et le code d'assistance de développeur (e.g. code de test, backdoors, paramètres cachés) ont été enlevés de l'application et celle-ci ne journalise ni de messages d'erreur inutilement longs ni de messages de déboggage. | ✓ | ✓ |
+| **7.4** | MSTG‑CODE‑4 | Le code de déboggage et le code d'assistance au développement (e.g. code de test, portes dérobées, paramètres cachés) ont été enlevés de l'application et celle-ci ne journalise ni de messages d'erreur inutilement longs ni de messages de déboggage. | ✓ | ✓ |
 | **7.5** | MSTG‑CODE‑5 | Tous les composants utilisés par l'application provenant de sources externes, notamment les librairies et les frameworks, ont été identifiés et analysés à la recherche de vulnérabilités connues. | ✓ | ✓ |
 | **7.6** | MSTG‑CODE‑6 | L'application intercepte et gère les exceptions potentielles.| ✓ | ✓ |
 | **7.7** | MSTG‑CODE‑7 | La logique de gestion des erreurs dans les contrôles de sécurité refuse tout accès par défaut. | ✓ | ✓ |
@@ -24,8 +24,8 @@ Le but de ce contrôle est d'assurer que les pratiques de codage de base concern
 
 Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.
 
-- Android: Tester la qualité du code et les paramètres de génération - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
-- iOS: Tester la qualité du code et les paramètres de génération - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
+- Android : Tester la qualité du code et les paramètres de génération - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- iOS : Tester la qualité du code et les paramètres de génération - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
 
 Pour de plus amples informations, il est possible de consulter aussi :
 
