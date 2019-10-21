@@ -14,7 +14,7 @@ Atteindre les exigences du niveau MASVS-L1 amène à une application qui suit le
 
 **I: Il convient de noter que les contrôles de protection logiciels listés dans le MASVS-R et décrits dans le Guide de Test Mobile de l'OWASP (OWASP Mobile Testing Guide) peuvent toujours être contournés et ne doivent jamais être utilisés en tant que substituts aux contrôles de sécurité. Leur but est d'apporter des contrôles de protection supplémentaires spécifiques aux menaces d'applications qui remplissent aussi les exigences MASVS L1 ou L2.**
 
-**II: Il faut noter que les contrôles de protection des logiciels présentés dans le MASVS-R et décrits dans l'OWASP MSTG peuvent finalement être contournés et ne doivent jamais être utilisés comme alternative auxs contrôles de sécurité. Par contre, ils sont conçus pour ajouter des contrôles supplémentaires envers des menaces spécifiques pour les applications qui satisfont aux exigences de MASVS-L1 et MASVS-L2.**
+**II: Il faut noter que les contrôles de protection des logiciels présentés dans le MASVS-R et décrits dans l'OWASP MSTG peuvent finalement être contournés et ne doivent jamais être utilisés comme alternative auxs contrôles de sécurité. Par contre, ils sont conçus pour ajouter des contrôles supplémentaires envers des menaces spécifiques pour les applications qui satisfont auxs exigences de MASVS-L1 et MASVS-L2.**
 
 ![Verification Levels](images/masvs-levels-new_fr.jpg)
 
