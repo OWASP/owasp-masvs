@@ -25,14 +25,17 @@ Les exigences pour MASVS-L1 et MASVS-L2 sont listées ci-dessous.
 | **1.8** | MSTG‑ARCH‑8 | Il existe une politique explicite sur la façon de gérer les clés de cryptographie (dès qu'elles existent) tout au long de leur cycle de vie. Idéalement, un standard de gestion des clés est suivi (tel que NIST SP 800-57). |   | ✓ |
 | **1.9** | MSTG‑ARCH‑9 | Un mécanisme pour permettre les mises à jour de l'application mobile existe. |   | ✓ |
 | **1.10** | MSTG‑ARCH‑10 | La sécurité est prise en compte tout au long du cycle de développement. |   | ✓ |
+| **1.11** | MSTG‑ARCH‑11 | Une politique de divulgation responsable est mise en place et appliquée d'une manière efficiente. |  | ✓ |
+| **1.12** | MSTG‑ARCH‑12 | L'application doit se conformer aux lois et règlementations de confidentialité. | ✓ | ✓ |
 
 ## Références
 
 Pour de plus amples informations, il est possible de consulter aussi :
 
-- OWASP Mobile Top 10: M10 - Fonctions superflues - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality>
+- OWASP Mobile Top 10: M10 (Fonctions superflues) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality>
 - OWASP Security Architecture cheat sheet - <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
 - OWASP Thread modelling - <https://www.owasp.org/index.php/Application_Threat_Modeling>
 - OWASP Secure SDLC Cheat Sheet - <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
 - Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
-- NIST SP 800-57 (Recommendation for Key Management) - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
+- NIST SP 800-57 - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
+- security.txt - <https://securitytxt.org/>
