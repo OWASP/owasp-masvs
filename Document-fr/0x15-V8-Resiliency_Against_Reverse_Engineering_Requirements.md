@@ -48,14 +48,20 @@ Il convient de prendre en compte les considérations suivantes :
 | **8.11** | MSTG‑RESILIENCE‑11 |Tous les fichiers exécutables et les librairies appartenant à l'application sont soit chiffrés au niveau du fichier et / ou le code important et les segments de données à l'intérieur des exécutables sont chiffrés ou compactés. Une analyse statique triviale ne révèle pas de code important ou de données. | ✓ |
 | **8.12** | MSTG‑RESILIENCE‑12 | Si le but de l'obscurcissement est de protéger des traitements sensibles, le schéma d'obscurcissement utilisé est à la fois approprié à la tâche considérée et est résistant envers les méthodes de dé-obscurcissement manuelles et automatiques, en prenant en considération les recherches disponibles. L'efficacité du schéma d'obscurcissement doit être validée à travers du test manuel. Il convient de noter que les fonctionnalités d'isolation au niveau matériel doivent être mises en pratique de préférence à l'obscurcissement toutes les fois que cela est possible. | ✓ |
 
+### Entraver l'écoute
+
+| # | MSTG-ID | Description | R |
+| --- | --- | --- | -- |
+| **8.13** | MSTG‑RESILIENCE‑13 | Pour une défense en profondeur, en plus d'avoir un durcissement efficace des parties communicantes, le chiffrement des données utilisées au niveau de l'application peut être appliqué pour entraver l'écoute. | ✓ |
+
 <br/>
 
 ## Références
 
 Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.
 
-- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
-- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- Android : Tester la résilience contre la rétro-ingénierie - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- iOS : Tester la résilience contre la rétro-ingénierie - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
 Pour de plus amples informations, il est possible de consulter aussi :
 
