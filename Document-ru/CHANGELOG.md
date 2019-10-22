@@ -26,19 +26,19 @@
 - Новый раздел переводчиков в списке благодарностей.
 - Мелкие изменения в японском переводе.
 
-## V1.1.2 3 January 2019 - Sponsorship and internationalization
+## V1.1.2 - 3 Января 2019 - Спонсорство и интернацинализация
 
-The following changes are part of release 1.1.2:
+Изменения в релизе 1.1.2:
 
-- Added thank you note for buyers of the e-book.
-- Added missing authentication link & updated broken authentication link in V4.
-- Fixed swap of 4.7 and 4.8 in english.
-- First international release!
-  - Fixes in Spanish translation. Translation is now in sync with English (1.1.2).
-  - Fixes in Russian translation. Translation is now in sync with English (1.1.2).
-  - Added first release of Chinese (ZHTW) French, German, and Japanese!
-- Simplified document for ease of translation.
-- Added instructions for automated releases.
+- Добавлены благодарности купившим электронную версию книгу.
+- Добавленна отсутствующая ссылка для аутентификации и обновлена поломанная ссылка для аутентификации в V4.
+- Исправлены поменяные местами требоания 4.7 и 4.8 в английской версии.
+- Первый интернациональный релиз!
+  - Исправления в переводе на испанский язык. Перевод синхоринизирован с английской версией (1.1.2).
+  - Исправления в переводе на русский язык. Перевод синхоринизирован с английской версией (1.1.2).
+  - Добавлены первые версии переводов на китайский, франзуский, немецкий и японский языки!
+- Для облегчения переводов документ был упрощен.
+- Добавлены инструкции для автоматического релиза.
 
 ## V1.1.0 - 14 Июля 2018
 
