@@ -1,22 +1,22 @@
-# Changelog
+# Список изменений
 
-This document is automatically generated at {{gitbook.time}}
+Этот документ автоамитчески сгенерирован {{gitbook.time}}
 
-## V1.1.4 4 July 2019 - Summit edition
+## V1.1.4 - 4 Июля 2019 - Саммит версия
 
-The following changes are part of release 1.1.4:
+Изменения в релизе 1.1.4:
 
-- Fix all markdown issues.
-- Updates in the French and Spanish translations.
-- Translated the changelog to Chinese (ZHTW) and Japanese.
-- Automated verification of the markdown syntax and reachability of the URLs.
-- Added identification codes to the requirements, which will be included in the future version of the MSTG in order to find the recommendations and testcases easily.
-- Reduced the repo size and added Generated to the .gitignore.
-- Added a Code of Conduct & Contributing guidelines.
-- Added a Pull-Request template.
-- Updated the sync with the repo in use for hosting the Gitbook website.
-- Updated the scripts to generate XML/JSON/CSV for all the translations.
-- Translated the Foreword to Chinese (ZHTW).
+- Исправлены все markdown ошибки.
+- Обновления во французском и испанском переводах.
+- Список измемений переведен на китайский и японский языки.
+- Автоматизированна проверка markdown синтаксиса и открытие ссылок в документах.
+- Для облегчения поиска рекоммендаций и тест-кейсов добавлены идентификационные номера требований, которые будут включены в следующих версиях MSTG.
+- Уменьшен размер репозитория и папка Generated добавлена в .gitignore.
+- Добавлен Свод Правил & Рекоммендации по внесению изменений.
+- Добавлен шаблон для пул реквестов.
+- Обновлена синхорнизация с актуальным репозиторием для хостинга Gitbook сайта.
+- Обновлены скрипты для генерации XML/JSON/CSV для всех переводов.
+- Вступление переведено на китайский язык.
 
 ## V1.1.3 9 January 2019 - Small Fixes
 
@@ -40,18 +40,18 @@ The following changes are part of release 1.1.2:
 - Simplified document for ease of translation.
 - Added instructions for automated releases.
 
-## V1.1.0 14 July 2018
+## V1.1.0 - 14 Июля 2018
 
-The following changes are part of release 1.1:
+Измемения в релизе 1.1:
 
-- Requirement 2.6 "The clipboard is deactivated on text fields that may contain sensitive data." was removed.
-- Requirement 2.2 "No sensitive data should be stored outside of the app container or system credential storage facilities." was added.
-- Requirement 2.1 was reworded to "System credential storage facilities are used appropriately to store sensitive data, such as PII, user credentials or cryptographic keys.".
+- Удалено требование 2.6 "Буфер обмена выключен для текстовых полей, которые могут содержать конфиденциальные данные."
+- Добавлено требование 2.2 "Конфиденциальные данные хранятся только во внутреннем хранилище приложения, либо в системном хранилище авторизационных данных."
+- Требование 2.1 перефразировано в "Хранилище учетных данных системы используется надлежащим образом для хранения конфиденциальных данных, таких как персональные данные, данные пользователя для авторизации и криптографические ключи."
 
-## V1.0 12 January 2018
+## V1.0 - 12 Января 2018
 
-The following changes are part of release 1.0:
+Измемения в релизе 1.0:
 
-- Delete 8.9 as the same as 8.12
-- Made 4.6 more generic
-- Minor fixes (typos etc.)
+- Удалена глава 8.9 как идентичная главе 8.12
+- Обобщена глава 4.6
+- Мелкие изменения (опечатки и др.)
