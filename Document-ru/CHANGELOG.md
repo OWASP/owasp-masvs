@@ -18,13 +18,13 @@
 - Обновлены скрипты для генерации XML/JSON/CSV для всех переводов.
 - Вступление переведено на китайский язык.
 
-## V1.1.3 9 January 2019 - Small Fixes
+## V1.1.3 - 9  Января 2019 - Мелкие Изменения
 
-The following changes are part of release 1.1.3:
+Изменения в релизе 1.1.3:
 
-- Fix translation issue of requirement 7.1 in the Spanish version.
-- New setup of translators in acknowledgements.
-- Small fixes for the Japanese version.
+- Исправеленна ошибка перевода тебования 7.1 на испанский язык.
+- Новый раздел переводчиков в списке благодарностей.
+- Мелкие изменения в японском переводе.
 
 ## V1.1.2 3 January 2019 - Sponsorship and internationalization
 
