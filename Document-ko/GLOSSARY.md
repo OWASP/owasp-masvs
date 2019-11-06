@@ -1,161 +1,161 @@
-# Appendix A: Glossary
+# 부록 A: 용어집
 
-## Address Space Layout Randomization (ASLR)
+## 주소 공간 레이아웃 랜덤화(Address Space Layout Randomization, ASLR)
 
-A technique to make exploiting memory corruption bugs more difficult.
+메모리 오염 버그를 더 어렵게 만드는 기술.
 
-## Application Security
+## 애플리케이션 보안(Application Security)
 
-Application-level security focuses on the analysis of components that comprise the application layer of the Open Systems Interconnection Reference Model (OSI Model), rather than focusing on for example the underlying operating system or connected networks.
+애플리케이션 수준 보안은 기본 운영체제 또는 연결된 네트워크와 같은 것에 초점을 맞추는 대신 OSI(Open Systems Interconnect Reference) 모델의 애플리케이션 계층을 구성하는 구성 요소의 분석에 초점을 맞춥니다.
 
-## Application Security Verification
+## 애플리케이션 보안 검증(Application Security Verification)
 
-The technical assessment of an application against the OWASP MASVS.
+OWASP MASVS에 대한 애플리케이션의 기술적 평가입니다.
 
-## Application Security Verification Report
+## 애플리케이션 보안 검증 보고서(Application Security Verification Report)
 
-A report that documents the overall results and supporting analysis produced by the verifier for a particular application.
+특정 애플리케이션에 대해 검증자가 작성한 전체 결과 및 지원 분석을 문서화 한 보고서입니다.
 
-## Authentication
+## 인증(Authentication)
 
-The verification of the claimed identity of an application user.
+애플리케이션 사용자가 요청한 ID를 확인합니다.
 
-## Automated Verification
+## 자동 검증(Automated Verification)
 
-The use of automated tools (either dynamic analysis tools, static analysis tools, or both) that use vulnerability signatures to find problems.
+취약점 시그니처를 사용하여 문제점을 찾는 자동화 된 도구(동적 분석 도구, 정적 분석 도구 또는 둘 다)를 사용하는 검증입니다.
 
-## Black box testing
+## 블랙 박스 테스트(Black box testing)
 
-It is a method of software testing that examines the functionality of an application without peering into its internal structures or workings.
+내부 구조나 작동 방식에 신경 쓰지 않고 애플리케이션의 기능을 검사하는 소프트웨어 테스트 방법입니다.
 
-## Component
+## 컴포넌트(Component)
 
-a self-contained unit of code, with associated disk and network interfaces that communicates with other components.
+다른 구성 요소와 통신하는 관련 디스크 및 네트워크 인터페이스가 있는 독립적인 코드 단위입니다.
 
-## Cross-Site Scripting (XSS)
+## 크로스 사이트 스크립팅(Cross-Site Scripting, XSS)
 
-A security vulnerability typically found in web applications allowing the injection of client-side scripts into content.
+클라이언트측 스크립트를 콘텐츠에 삽입할 수 있는 웹 애플리케이션에서 일반적으로 볼 수 있는 보안 취약점입니다.
 
-## Cryptographic module
+## 암호화 모듈(Cryptographic module)
 
-Hardware, software, and/or firmware that implements cryptographic algorithms and/or generates cryptographic keys.
+암호화 알고리즘을 구현하고 암호화 키를 생성하는 하드웨어, 소프트웨어 또는 펌웨어입니다.
 
 ## CWE
 
-CWE is a community-developed list of common software security weaknesses. It serves as a common language, a measuring stick for software security tools, and as a baseline for weakness identification, mitigation, and prevention efforts.
+CWE는 커뮤니티에서 개발한 공통적인 소프트웨어 보안 취약점 목록입니다. 이것은 공통 언어, 소프트웨어 보안 도구의 잣대, 취약점 식별, 완화 및 예방 활동의 기준 역할을 합니다.
 
-## DAST
+## 동적 애플리케이션 보안 테스트 (Dynamic Application Security Testing, DAST)
 
-Dynamic application security testing (DAST) technologies are designed to detect conditions indicative of a security vulnerability in an application in its running state.
+실행 중인 애플리케이션의 보안 취약점을 나타내는 조건을 감지하도록 설계된 테스트 기법입니다.
 
-## Design Verification
+## 설계 검증 (Design Verification)
 
-The technical assessment of the security architecture of an application.
+애플리케이션 보안 아키텍처에 대한 기술 평가입니다.
 
-## Dynamic Verification
+## 동적 검증(Dynamic Verification)
 
-The use of automated tools that use vulnerability signatures to find problems during the execution of an application.
+취약점 시그니처를 사용하여 애플리케이션을 실행하는 동안 문제를 발견하는 자동 도구를 사용하여 확인합니다.
 
-## Globally Unique Identifier(GUID)
+## 전역 고유 식별자 (Globally Unique Identifier, GUID)
 
-a unique reference number used as an identifier in software.
+소프트웨어에서 식별자로 사용되는 고유한 참조 번호입니다.
 
-## Hyper Text Transfer Protocol(HTTP)
+## 하이퍼 텍스트 전송 프로토콜 (Hyper Text Transfer Protocol, HTTP)
 
-An application protocol for distributed, collaborative, hypermedia information systems. It is the foundation of data communication for the World Wide Web.
+분산, 협업 및 하이퍼미디어 정보 시스템을 위한 애플리케이션 프로토콜입니다. 이것은 월드 와이드 웹을 위한 데이터 통신의 기초입니다.
 
-## Hardcoded keys
+## 하드 코드 된 키(Hardcoded keys)
 
-Cryptographic keys which are stored in the device itself.
+장치 자체에 저장된 암호화 키입니다.
 
-## IPC
+## 프로세스 간 통신 (Inter Process Communications, IPC)
 
-Inter Process Communications,In IPC Processes communicate with each other and with the kernel to coordinate their activities.
+프로세스가 다른 프로세스 또는 커널과 활동을 조율하기 위한 통신입니다.
 
-## Input Validation
+## 입력 검증(Input Validation)
 
-The canonicalization and validation of untrusted user input.
+신뢰할 수 없는 사용자 입력에 대한 표준화 및 유효성 검사입니다.
 
-## JAVA Bytecode
+## JAVA 바이트 코드(JAVA Bytecode)
 
-Java bytecode is the instruction set of the Java virtual machine(JVM). Each bytecode is composed of one, or in some cases two bytes that represent the instruction (opcode), along with zero or more bytes for passing parameters.
+Java 가상 머신(JVM)의 명령 세트입니다. 각각의 바이트 코드는 매개 변수를 전달하기 위한 0개 이상의 바이트와 함께 명령어(opcode)를 나타내는 1개 또는 2개 바이트로 구성됩니다.
 
-## Malicious Code
+## 악성 코드(Malicious Code)
 
-Code introduced into an application during its development unbeknownst to the application owner, which circumvents the application's intended security policy. Not the same as malware such as a virus or worm!
+개발 과정에서 애플리케이션의 의도된 보안 정책을 우회하기 위해 애플리케이션 소유자에게 잘 알려지지 않은 애플리케이션에 포함된 코드입니다. 바이러스나 웜과 같은 맬웨어와 동일하지 않습니다.
 
-## Malware
+## 맬웨어(Malware)
 
-Executable code that is introduced into an application during runtime without the knowledge of the application user or administrator.
+애플리케이션 사용자와 관리자가 알지 못하세 런타임 동안 애플리케이션에 삽입되어 실행되는 코드입니다.
 
 ## Open Web Application Security Project (OWASP)
 
-The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security "visible," so that people and organizations can make informed decisions about application security risks. See: <https://www.owasp.org/>
+애플리케이션 소프트웨어의 보안을 향상시키는 데 초점을 맞춘 전 세계 무료 오픈 커뮤니티입니다. 우리의 사명은 사용자와 조직이 애플리케이션 보안 위험에 대한 정보에 근거한 결정을 내릴 수 있도록 애플리케이션 보안을 "가시성"있게 만드는 것입니다. 참조: <https://www.owasp.org/>
 
-## Personally Identifiable Information (PII)
+## 개인 식별 정보(Personally Identifiable Information, PII)
 
-PII is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
+개인 식별 정보는 단독 또는 다른 정보와 함께 사용하여 정보주체를 식별, 접촉 또는 찾아내는 등 개인을 식별하는 데 사용할 수 있는 정보입니다.
 
-## PIE
+## 위치 독립 실행 형식 (Position-independent executable, PIE)
 
-Position-independent executable (PIE) is a body of machine code that, being placed somewhere in the primary memory, executes properly regardless of its absolute address.
+기본 메모리의 어딘가에 배치되어 절대 주소에 관계없이 올바르게 실행되는 기계 코드의 본문입니다.
 
-## PKI
+## 공개 키 기반 구조 (Public Key Infrastructure, PKI)
 
-A PKI is an arrangement that binds public keys with respective identities of entities. The binding is established through a process of registration and issuance of certificates at and by a certificate authority (CA).
+PKI는 공개 키를 엔터티의 각 ID와 바인딩하는 구조입니다. 바인딩은 인증기관(CA)의 인증서 등록 및 게시 프로세스에 의해 확립됩니다.
 
-## SAST
+## 정적 애플리케이션 보안 테스트 (Static Application Security Testing, SAST)
 
-Static application security testing (SAST) is a set of technologies designed to analyze application source code, byte code and binaries for coding and design conditions that are indicative of security vulnerabilities. SAST solutions analyze an application from the “inside out” in a nonrunning state.
+보안 취약점을 나타내는 코딩 및 설계 조건에 대한 애플리케이션 소스 코드, 바이트 코드 및 이진 파일을 분석하기 위해 설계된 기술 모음입니다. SAST 솔루션은 애플리케이션을 비 작동 상태에서 구석구석까지 분석합니다.
 
 ## SDLC
 
-Software development lifecycle.
+소프트웨어 개발 라이프 사이클.
 
-## Security Architecture
+## 보안 아키텍처 (Security Architecture)
 
-An abstraction of an application's design that identifies and describes where and how security controls are used, and also identifies and describes the location and sensitivity of both user and application data.
+보안 제어가 사용되는 위치와 방법을 식별하고 기술하며, 사용자 및 애플리케이션 데이터의 위치와 민감도를 식별하고 기술하는 애플리케이션 설계의 추상화입니다.
 
-## Security Configuration
+## 보안 설정 (Security Configuration)
 
-The runtime configuration of an application that affects how security controls are used.
+보안 제어 사용 방법에 영향을 미치는 애플리케이션의 런타임 설정입니다.
 
-## Security Control
+## 보안 제어(Security Control)
 
-A function or component that performs a security check (e.g. an access control check) or when called results in a security effect (e.g. generating an audit record).
+보안 점검(예 : 액세스 제어 점검)을 수행하거나 호출될 때 보안 효과(예 : 감사 레코드 생성)를 수행하는 기능 또는 구성 요소입니다.
 
-## SQL Injection (SQLi)
+## SQL 인젝션(SQL Injection, SQLi)
 
-A code injection technique used to attack data driven applications, in which malicious SQL statements are inserted into an entry point.
+데이터 기반 애플리케이션을 공격하기 위해 악의적인 SQL문을 엔트리 포인트에 코드를 삽입하는 공격기법입니다.
 
-## SSO Authentication
+## 싱글 사인온 인증 (Single Sign On Authentication, SSO Authentication)
 
-Single Sign On(SSO) occurs when a user logs in to one Client and is then signed in to other Clients automatically, regardless of the platform, technology, or domain the user is using. For example when you log in in google you automatically login in the youtube , docs and mail service.
+사용자가 한 클라이언트에 로그인 한 후 사용자가 사용중인 플랫폼, 기술 또는 도메인에 관계없이 다른 클라이언트에 자동으로 로그인하는 것을 의미합니다. 예를 들어, 구글에 로그인하면 자동으로 유튜브, 드라이브, 메일 서비스에 로그인됩니다.
 
-## Threat Modeling
+## 위협 모델링(Threat Modeling)
 
-A technique consisting of developing increasingly refined security architectures to identify threat agents, security zones, security controls, and important technical and business assets.
+위협 에이전트, 보안 영역, 보안 제어, 중요한 기술 및 비즈니스 자산을 식별하기 위해 보다 정교한 보안 아키텍처를 개발하기 위한 기술입니다.
 
-## Transport Layer Security
+## 전송 계층 보안(Transport Layer Security)
 
-Cryptographic protocols that provide communication security over the Internet
+인터넷을 통한 통신 보안을 제공하는 암호화 프로토콜입니다.
 
 ## URI and URL
 
-A Uniform Resource Identifier is a string of characters used to identify a name or a web resource. A Uniform Resource Locator is often used as a reference to a resource.
+URI는 이름 또는 웹 리소스를 식별하는 데 사용되는 문자열입니다. URL은 종종 자원에 대한 참조로 사용됩니다.
 
-## User acceptance testing (UAT)
+## 사용자 수용 테스트 (User acceptance testing, UAT)
 
-Traditionally a test environment that behaves like the production environment where all software testing is performed before going live.
+운영 환경처럼 작동하도록 테스트 환경에서 프로덕션 전에 행해지는 모든 소프트웨어 테스트를 의미합니다.
 
-## Verifier
+## 검토자(Verifier)
 
-The person or team that is reviewing an application against the OWASP MASVS requirements.
+OWASP MASVS 요구사항에 따라 신청서를 검토하는 사람 또는 팀을 의미합니다.
 
-## Whitelist
+## 화이트리스트(Whitelist)
 
-A list of permitted data or operations, for example a list of characters that are allowed to perform input validation.
+허용 된 데이터 또는 작업의 목록입니다. (예: 입력 유효성 검사를 수행할 수 있는 문자 목록)
 
-## X.509 Certificate
+## X.509 인증서 (X.509 Certificate)
 
-An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate.
+X.509 인증서는 널리 사용되는 국제 X.509 공개 키 인프라(PKI) 표준으로, 공개 키 인증서에 포함 된 사용자, 컴퓨터 또는 서비스 ID에 속하는지 확인하는 디지털 인증서입니다.
