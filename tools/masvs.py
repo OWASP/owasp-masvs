@@ -2,7 +2,7 @@
 
 ''' MASVS document parser and converter class.
 
-    By Bernhard Mueller, updated by Jeroen Beckers
+    By Bernhard Mueller, updated by Jeroen Beckers and Martin Marsicano
 
     Copyright (c) 2019 OWASP Foundation
 
@@ -50,22 +50,19 @@ class MASVS:
             target = "../Document-{}".format(lang)
 
 
-        for file in os.listdir(target):
+        for file in sorted(os.listdir(target)):
 
             if re.match("0x\d{2}-V", file):
                 for line in open(os.path.join(target, file)):
                     regex = re.compile(r'\*\*(\d\.\d+)\*\*\s\|\s{0,1}(.*?)\s{0,1}\|\s{0,1}(.*?)\s{0,1}\|\s{0,1}(.*?)\s{0,1}\|(\s{0,1}(.*?)\s{0,1}\|)?')
-                    m = re.search(regex, line)
+                    match = re.search(regex, line)
 
-                    if m:
-                        req = {}
+                    if match:
+                        req = {'id': match.group(1).strip(), 'text': match.group(3).strip(), 'category': match.group(2)}
 
-                        req['id'] = m.group(1).strip()
-                        req['text'] = m.group(3).strip()
-                        req['category'] = m.group(2).decode("utf-8").replace(u"\u2011", "-").encode("utf-8")
-                        if m.group(5):
-                            req['L1'] = len(m.group(4)) > 0
-                            req['L2'] = len(m.group(5)) > 0
+                        if match.group(5):
+                            req['L1'] = len(match.group(4)) > 0
+                            req['L2'] = len(match.group(5)) > 0
                             req['R'] = False
                         else:
                             req['R'] = True
@@ -73,7 +70,7 @@ class MASVS:
                             req['L2'] = False
 
                         self.requirements.append(req)
-                   
+
     def to_json(self):
         ''' Returns a JSON-formatted string '''
         return json.dumps(self.requirements)

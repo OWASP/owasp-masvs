@@ -2,9 +2,9 @@
 
 ''' Tool for converting the MASVS requirements to various formats.
 
-    Usage: ./export.py [--format <csv/xml/json>] [--lang <es/ru/en/fr/de/zhtw/ja>]
+    Usage: ./export.py [--format <csv/xml/excel/skf/json>] [--lang <es/ru/en/fr/de/zhtw/ja>]
 
-    By Bernhard Mueller, updated by Jeroen Beckers
+    By Bernhard Mueller, updated by Jeroen Beckers and Martin Marasicano
 
     Copyright (c) 2019 OWASP Foundation
 
@@ -30,9 +30,10 @@
 
 import argparse
 from masvs import MASVS
+from mstg_checklist import createchecklist
 
 parser = argparse.ArgumentParser(description='Export the MASVS requirements. Default language is en.')
-parser.add_argument('-f', '--format', choices=['json', 'xml', 'csv'], required=True)
+parser.add_argument('-f', '--format', choices=['csv', 'xml', 'json', 'xlsx', 'skf'], required=True)
 parser.add_argument('-l', '--lang', choices=['es', 'ru', 'en', 'fr', 'de', 'zhtw', 'ja'], default='en')
 
 args = parser.parse_args()
@@ -43,8 +44,9 @@ if args.format == "csv":
     print(m.to_csv())
 elif args.format == "xml":
     print(m.to_xml())
+elif args.format == "xlsx":
+    createchecklist(m, args.lang)
+elif args.format == "skf":
+    print('skf')
 else:
     print(m.to_json())
-
-
-
