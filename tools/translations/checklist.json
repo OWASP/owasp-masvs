@@ -1,0 +1,90 @@
+{
+  "en": {
+    "Dashboard": {
+      "worksheet": "Dashboard"
+    },
+    "ManagementSummary": {
+      "worksheet": "Management Summary",
+      "title": "Management Summary"
+    },
+    "SecurityRequirementsAndroid": {
+      "worksheet": "Security Requirements - Android",
+      "title": "Mobile Application Security Requirements - Android",
+      "ID": "ID",
+      "MSTG-ID": "MSTG-ID",
+      "DetailedVerificationRequirement": "Detailed Verification Requirement",
+      "Level1": "Level 1",
+      "Level2": "Level 2",
+      "Status": "Status",
+      "TestingProcedure": "Testing Procedure(s)",
+      "Comment": "Comment"
+    },
+    "Anti-REAndroid": {
+      "worksheet": "Anti-RE - Android",
+      "title": "Resiliency against Reverse Engineering - Android",
+      "ID": "ID",
+      "MSTG-ID": "MSTG-ID",
+      "ResiliencyAgainstReverseEngineeringRequirements": "Resiliency Against Reverse Engineering Requirements,",
+      "R": "R",
+      "Status":  "Status",
+      "TestingProcedure":  "Testing Procedure(s)",
+      "Comment": "Comment"
+    },
+    "SecurityRequirementsiOS": {
+      "worksheet": "Security Requirements - iOS",
+      "title": "Mobile Application Security Requirements - iOS"
+    },
+    "Anti-REiOS": {
+      "worksheet": "Anti-RE - iOS",
+      "title": "Resiliency Against Reverse Engineering - iOS"
+    },
+    "VersionHistory": {
+      "worksheet": "Version history",
+      "title": "XLS Version History"
+    }
+  },
+  "es": {
+     "Dashboard": {
+      "worksheet": "Dashboard"
+    },
+    "ManagementSummary": {
+      "worksheet": "Resumen ejecutivo",
+      "title": "Resumen ejecutivo"
+    },
+    "SecurityRequirementsAndroid": {
+      "worksheet": "Requerimientos de Seguridad - Android",
+      "title": "Requisitos de Seguridad MASVS para - Android",
+      "ID": "ID",
+      "MSTG-ID": "MSTG-ID",
+      "DetailedVerificationRequirement": "Verificación detallada de requerimientos",
+      "Level1": "Nivel 1",
+      "Level2": "Nivel 2",
+      "Status": "Estado",
+      "TestingProcedure": "Procedimiento de Evaluación",
+      "Comment": "Comentarios"
+    },
+    "Anti-REAndroid": {
+      "worksheet": "Anti-RE - Android",
+      "title": "Resistencia ante la Ingeniería Inversa - Android",
+      "ID": "ID",
+      "MSTG-ID": "MSTG-ID",
+      "ResiliencyAgainstReverseEngineeringRequirements": "Resistencia ante la Ingeniería Inversa,",
+      "R": "R",
+      "Status":  "Estado",
+      "TestingProcedure":  "Procedimiento de Evaluación",
+      "Comment": "Comentarios"
+    },
+    "SecurityRequirementsiOS": {
+      "worksheet": "Security Requirements - iOS",
+      "title": "Requisitos de Seguridad MASVS para - iOS"
+    },
+    "Anti-REiOS": {
+      "worksheet": "Anti-RE - iOS",
+      "title": "Resistencia ante la Ingeniería Inversa - iOS"
+    },
+    "VersionHistory": {
+      "worksheet": "Version history",
+      "title": "XLS Version History"
+    }
+  }
+}
