@@ -1,38 +1,75 @@
-# Registro de cambios
+# Changelog
 
-Este documento es generado automaticamente a las {{gitbook.time}}
+Este documento es generado automáticamente a las {{gitbook.time}}
 
-## 1.1.3 Pequeños arreglos
+## V1.2-RC - Pre-release
+
+Los siguientes cambios forman parte de la versión 1.2:
+
+- ¡Ya somos flagship!
+- Requisitos MSTG-STORAGE-1 modificado para ser más extricto.
+- Añadidos los requisitos MSTG-STORAGE-13, MSTG-STORAGE-14 y MSTG-STORAGE-15 centrados en la protección de datos.
+- Actualizado el requisito MSTG-AUTH-11 para preservar información contextual.
+- Actualizado el requisito MSTG‑CODE‑4 para cubrir más allá de la depuración.
+- Añadido el requisito MSTG‑PLATFORM‑10 para incrementar la seguridad al usar WebViews.
+- Añadido el requisito MSTG‑AUTH‑12 para recordar a los desarrolladores que deben de implementar medidas de autorización, especialmente en aplicaciones multi usuario.
+- Descripción mejorada sobre como usar el MASVS dado una evaluación de riesgo.
+- Añadida más descripción sobre contenidos de pago.
+- Añadido el requisito MSTG‑ARCH‑11 incluyendo una política de divulgación responsable para aplicaciones MASVS-L2.
+- Añadido el requisito MSTG‑ARCH‑12 informando a los desarrolladores que las correspondientes leyes internacionales de privacidad deberían de ser seguidas.
+- Consolidado el estilo de referencias en la versión inglesa.
+- Añadido el requisito MSTG‑PLATFORM‑11 para combatir el espionaje mediante teclados de terceros.
+- Añadido el requisito MSTG-MSTG‑RESILIENCE‑13 para impedir el _eavesdropping_ en aplicaciones.
+
+## V1.1.4 4 de julio de 2019 - Summit edition
+
+Los siguientes cambios forman parte de la versión 1.1.4:
+
+- Todos los problemas de markdown arreglados.
+- Versiones francesa y española actualizadas.
+- Changelog traducido al chino (ZHTW) y al japonés.
+- Verificación automática de sintáxis de markdown y accesibilidad de URLs.
+- Categorías añadidas a cada requisito. Èstas serán usadas en futuras versiones de la MSTG para encontrar recomendaciones y test cases con más facilidad.
+- Tamaño del repositorio reducido y Generated añadido al .gitignore.
+- Añadidos Código de Conducta y Guía de Contribución.
+- Plantilla para Pull-Requests añadida.
+- Actualizada la sincronización del repositorio con el servicio de Gitbook hosting.
+- Scripts de generación de XML/JSON/CSV actualizados para todas las traducciones.
+- Prólogo traducido al chino (ZHTW).
+
+## V1.1.3 9 de enero de 2019 - Pequeñas correcciones
+
 Los siguientes cambios forman parte de la versión 1.1.3:
 
-- Arreglo del Requerimiento 7.1 en la traducción al Español.
+- Requisito 7.1 corregido en la traducción al español.
 - Nueva disposición de los traductores en los agradecimientos.
-- Pequeñas correcciones en la traducción al Japonés.
 
-## 1.1.2 Patrocinio e internacionalización
+## V1.1.2 3 de enero de 2018 - Patrocinio e internacionalización
+
 Los siguientes cambios forman parte de la versión 1.1.2:
 
-- Agregado de agradecimiento a los compradores del libro electrónico (e-book).
-- Agregado del link de falta de autenticación y actualización del link de autentificación rota en V4.
-- Permutación de 4.7 y 4.8 en Ingles.
-- Primera liberación de la internacionalización!
-  - Arreglos en la traducción al Español. La traducción ahora está sincronizada con la versión en Ingles (1.1.2).
-  - Arreglos en la traducción al Ruso. La traducción ahora está sincronizada con la versión en Ingles (1.1.2).
-  - Agregada la primera liberación en Chino (ZHTW), Francés, Alemán y Japonés!
-- Simplificación del documento para facilitar la traducción.
-- Añadidas instrucciones para liberaciones automáticas.
+- Añadido agradecimiento a los compradores del libro electrónico (e-book).
+- Link de "falta de autenticación" añadido y link de "autentificación rota" actualizado en V4.
+- Requisitos 4.7 y 4.8 corregidos en la versión inglesa.
+- ¡Primer release incluyendo internacionalización!
+  - Correcciones en la traducción al español. Ahora la traducción está sincronizada con la versión en inglés (1.1.2).
+  - Correcciones en la traducción al ruso. Ahora la traducción está sincronizada con la versión en inglés (1.1.2).
+  - ¡Corregido el primer release en chino (ZHTW), francés, alemán y japonés!
+- Documento simplificado para facilitar la traducción.
+- Añadidas instrucciones para poder hacer releases automáticos.
 
-## 1.1.0 14 de Julio del 2018:
+## V1.1.0 14 de julio de 2018
+
 Los siguientes cambios forman parte de la versión 1.1:
 
-- Se quitó el Requerimiento 2.6 "Se desactiva el portapapeles en los campos de texto donde se maneja información sensible."
-- Se agregó el Requerimiento 2.2 "No se debe almacenar información sensible fuera del contenedor de la aplicación o del alamacenamiento de credenciales del sistema."
-- Se reescribió el Requerimiento 2.1.
-- El requisito 2.1 se reescribió de la siguiente manera "Las funcionalidades de almacenamiento de credenciales del sistema son utilizadas para almacenar la información sensible, como la información personal, credenciales del usuario y claves criptográficas."
+- Requisito 2.6 "Se desactiva el portapapeles en los campos de texto donde se maneja información sensible." eliminado.
+- Requisito 2.2 "No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema." añadido.
+- Requisito 2.1 reescrito como "Las funcionalidades de almacenamiento de credenciales del sistema son utilizadas para almacenar la información sensible, como la información personal, credenciales del usuario y claves criptográficas."
 
-## 1.0 12 de Enero del 2018:
+## V1.0 12 de enero de 2018
+
 Los siguientes cambios forman parte de la versión 1.0:
-- Borrado del Requerimiento 8.9 por similitud con el 8.12.
-- Generalización del Requerimiento 4.6.
-- Arreglos menores ().
-- Minor fixes (errores ortográficos, etc.).
+
+- Requisito 8.9 eliminado por similitud con el 8.12.
+- Requisito 4.6 generalizado.
+- Correcciones menores (errores ortográficos, etc.).

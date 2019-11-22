@@ -1,4 +1,4 @@
-![OWASP LOGO](Images/OWASP_logo.png)
+![OWASP LOGO](images/OWASP_logo.png)
 
 # Mobile Application Security Verification Standard
 
@@ -8,9 +8,9 @@ Welcome to the Mobile Application Security Verification Standard (MASVS) 1.1. Th
 
 The MASVS is a culmination of community effort and industry feedback. We expect this standard to evolve over time and welcome feedback from the community.
 
-The best way to get in contact with us is via the OWASP Mobile Project Slack channel: https://owasp.slack.com/messages/project-mobile_omtg/details/ .
+The best way to get in contact with us is via the OWASP Mobile Project Slack channel: <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
 
-Accounts can be created at the following URL: [http://owasp.herokuapp.com/](https://owasp.slack.com/join/shared_invite/enQtNDI5MzgxMDQ2MTAwLTEyNzIzYWQ2NDZiMGIwNmJhYzYxZDJiNTM0ZmZiZmJlY2EwZmMwYjAyNmJjNzQxNzMyMWY4OTk3ZTQ0MzFhMDY).
+Accounts can be created at the following URL: [https://owasp.slack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LWQ2Nzg3NGJiZGQ2MjRmNzkzN2Q4YzU1MWYyZTdjYjA2ZTA5M2RkNzE2ZjdkNzI5ZThhOWY5MjljYWZmYmY4ZjM).
 
 ## Copyright and License
 
@@ -20,21 +20,20 @@ Accounts can be created at the following URL: [http://owasp.herokuapp.com/](http
 
 | Project Lead | Lead Author | Contributors and Reviewers
 | --- | --- | --- |
-| Sven Schleier & Jeroen Willemsen | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
+| Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
 
 <br><br>
 
 | Language | Translators & Reviewers |
 | --- | --- |
 | Chinese | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
-| French | Romuald SZKUDLAREK, Christian Dong (Review) |
+| French | Romuald Szkudlarek, Christian Dong (Review) |
 | German | Rocco Gränitz, Sven Schleier (Review) |
-| Spanish | Martin Marsicano |
+| Spanish | Martin Marsicano, Carlos Holguera |
 | Japanese | Koki Takeyama, Riotaro Okada (Review) |
 | Russian | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
 This document started as a fork of the OWASP Application Security Verification Standard written by Jim Manico.
-
 
 ## Sponsors
 
@@ -44,4 +43,4 @@ While both the MASVS and the MSTG are created and maintained by the community on
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
 
-Next, we would like to thank the OWASP Bay Area Chapther for their sponsorship. Last, we would like to thank everybody that bought the book from Leanpub and sponsored us that way.
+Next, we would like to thank the OWASP Bay Area Chapter for their sponsorship. Last, we would like to thank everybody that bought the book from Leanpub and sponsored us that way.

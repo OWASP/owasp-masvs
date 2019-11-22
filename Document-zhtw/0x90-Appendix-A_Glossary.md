@@ -1,6 +1,5 @@
-# 附錄 A ：詞彙表
+# 附錄 A - 詞彙表
 
-- **雙因素身份驗證(Two-factor Authentication, 2FA)** – 在帳號登入時增加第二層的身份驗證。
 - **位址空間組態隨機載入(Address Space Layout Randomization, ASLR)** – 一種能讓利用記憶體損壞漏洞的攻擊更加困難的技術。
 - **應用程式安全(Application Security)** – 應用層安全性是針對 OSI 模型應用層元件的分析，而非針對作業系統或是網路連線。
 - **應用程式安全驗證(Application Security Verification)** – 對應用程式利用 OWASP MASVS 進行技術評鑑。

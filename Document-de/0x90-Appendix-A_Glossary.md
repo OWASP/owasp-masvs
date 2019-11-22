@@ -1,5 +1,5 @@
 # Appendix A: Glossar
-- **2FA** – Zwei-Faktor-Authentifizierung bedeutet es wird ein zusätzlicher Authentifizierungsfaktor z.B. eine PIN oder ein Einmalpasswort zur Anmeldung am Nutzerkonto verlangt.
+
 - **Address Space Layout Randomization (ASLR)** – Eine Technik um Angriffe auf Arbeitsspeicherbereiche zu erschweren.
 - **Akzeptanztest (UAT)** – Eine Testumgebung die sich ähnlich verhält wie die Produktivumgebung, in der Tests vor dem go-live ausgeführt werden.
 - **Applikationssicherheit** – Applikationssicherheit ist fokussiert auf Sicherheitsaspekte und Angriffe auf Anwendungsebene d.h. Applikationskomponenten und -funktionen korrespondierend zur Anwendungsschicht im Open Systems Interconnection Reference Model (OSI Modell). Der Fokus liegt nicht auf Betriebssystem- oder Netzwerkaspekten.
@@ -21,7 +21,7 @@
 - **Kryptographisches Modul** – Hardware, Software, und/oder Firmware die kryptographische Algorithmen und/oder erzeugte kryptographische Schlüssel nutzt.
 - **Malicious Code** – Bösartiger Code der während der Entwicklung, verborgen vor dem Applikationsverantwortlichen, in die Applikation eingebracht wird. Der eingeschleuste Code umgeht dabei gezielt Sicherheitsrichtlinien und ist dadurch nicht vergleichbar mit Malware wie einem Virus oder einem Wurm!
 - **Malware** – Ausführbarer Code der zur Laufzeit ohne Wissen des Nutzers oder Administrators in die Zielanwendung injiziert wird.
-- **Open Web Application Security Project (OWASP)** – Open Web Application Security Project (OWASP) ist eine weltweite freie, offene und herstellerunabhängige Community mit Fokus auf Verbesserung der Applikationssicherheit. Unsere Mission ist es Applikationssicherheit sichtbar zu machen so dass Einzelpersonen und Organisationen klare und bewußte Entscheidungen über Sicherheitsrisiken treffen können. Mehr unter: https://www.owasp.org/
+- **Open Web Application Security Project (OWASP)** – Open Web Application Security Project (OWASP) ist eine weltweite freie, offene und herstellerunabhängige Community mit Fokus auf Verbesserung der Applikationssicherheit. Unsere Mission ist es Applikationssicherheit sichtbar zu machen so dass Einzelpersonen und Organisationen klare und bewußte Entscheidungen über Sicherheitsrisiken treffen können. Mehr unter: <https://www.owasp.org/>
 - **Personenbezogene Daten** – Personenbezogene Daten sind Daten die genutzt werden können um eine Person direkt oder indirekt zu identifizieren, kontaktieren oder lokalisieren bzw. eine Person in einem Zusammenhang zu identifizieren.
 - **PIE** – Position-independent executable (PIE) - Positionsunabhängiger Code ist Maschinencode der an einer beliebigen Stelle im primären Speicher ausgeführt werden kann. (unabhängig von der absoluten Speicheradresse)
 - **PKI** – Public Key Infrastruktur - PKI basiert darauf, dass öffentliche Schlüssel an eine Identität gebunden werden. Die Bindung erfolgt durch einen Registrierungsprozess und das Ausstellen eines Zertifikats durch eine Zertifizierungsstelle, in englisch Certificate Authority (CA).

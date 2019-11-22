@@ -10,23 +10,23 @@
 
 ## セキュリティ検証要件
 
-| # | 説明 | L1 | L2 |
-| --- | --- | --- | --- |
-| **3.1** | アプリは暗号化の唯一の方法としてハードコードされた鍵による対称暗号化に依存していない。 | ✓ | ✓ |
-| **3.2** | アプリは実績のある暗号化プリミティブの実装を使用している。 | ✓ | ✓ |
-| **3.3** | アプリは特定のユースケースに適した暗号化プリミティブを使用している。業界のベストプラクティスに基づくパラメータで構成されている。 | ✓ | ✓|
-| **3.4** | アプリはセキュリティ上の目的で広く非推奨と考えられる暗号プロトコルやアルゴリズムを使用していない。 | ✓ | ✓|
-| **3.5** | アプリは複数の目的のために同じ暗号化鍵を再利用していない。 | ✓ | ✓ |
-| **3.6** | すべての乱数値は十分にセキュアな乱数生成器を用いて生成されている。 | ✓ | ✓ |
+| # | MSTG-ID | 説明 | L1 | L2 |
+| --- | --- | --- | --- | --- |
+| **3.1** | MSTG‑CRYPTO‑1 | アプリは暗号化の唯一の方法としてハードコードされた鍵による対称暗号化に依存していない。 | ✓ | ✓ |
+| **3.2** | MSTG‑CRYPTO‑2 | アプリは実績のある暗号化プリミティブの実装を使用している。 | ✓ | ✓ |
+| **3.3** | MSTG‑CRYPTO‑3 | アプリは特定のユースケースに適した暗号化プリミティブを使用している。業界のベストプラクティスに基づくパラメータで構成されている。 | ✓ | ✓|
+| **3.4** | MSTG‑CRYPTO‑4 | アプリはセキュリティ上の目的で広く非推奨と考えられる暗号プロトコルやアルゴリズムを使用していない。 | ✓ | ✓|
+| **3.5** | MSTG‑CRYPTO‑5 | アプリは複数の目的のために同じ暗号化鍵を再利用していない。 | ✓ | ✓ |
+| **3.6** | MSTG‑CRYPTO‑6 | すべての乱数値は十分にセキュアな乱数生成器を用いて生成されている。 | ✓ | ✓ |
 
 ## 参考情報
 
 OWASP モバイルセキュリティテストガイドでは、このセクションに記載されている要件を検証するための詳細な手順を提供しています。
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md
+- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
+- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
 
 詳しくは以下の情報を参照してください。
 
-- OWASP Mobile Top 10: M5 - Insufficient Cryptography: https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography
-- CWE: https://cwe.mitre.org/data/definitions/310.html
+- OWASP Mobile Top 10: M5 (Insufficient Cryptography) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography>
+- CWE 310 (Cryptographic Issues) - <https://cwe.mitre.org/data/definitions/310.html>

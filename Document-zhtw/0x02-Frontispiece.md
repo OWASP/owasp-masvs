@@ -1,4 +1,4 @@
-![OWASP LOGO](Images/OWASP_logo.png)
+![OWASP LOGO](images/OWASP_logo.png)
 
 # Mobile Application Security Verification Standard
 
@@ -6,9 +6,9 @@
 
 歡迎參閱 Mobile Application Security Verification Standard (MASVS) 1.1 版. MASVS 是一個社群的成果，目的在於建立一個安全需求的架構給人們去設計、開發和測試iOS跟Android的安全行動應用程式。
 
-MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期望這份標準能夠隨著時間演進不斷更新，也十分歡迎來自社群的意見反饋。透過OWASP Mobile Project的Slack channel與我們連絡是聯絡我們的最佳方式，以下是我們的Slack channel連結: https://owasp.slack.com/messages/project-mobile_omtg/details/
+MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期望這份標準能夠隨著時間演進不斷更新，也十分歡迎來自社群的意見反饋。透過OWASP Mobile Project的Slack channel與我們連絡是聯絡我們的最佳方式，以下是我們的Slack channel連結: <https://owasp.slack.com/messages/project-mobile_omtg/details/>
 
-可以從以下的網址創建帳號：http://owasp.herokuapp.com/.
+可以從以下的網址創建帳號：<http://owasp.herokuapp.com/.>
 
 ## 版權和許可
 
@@ -18,9 +18,9 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 
 | 項目負責人 | 主要作者 | 貢獻者和校稿人員
 | --- | --- | --- |
-| Sven Schleier & Jeroen Willemsen| Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
+| Sven Schleier, Jeroen Willemsen and Carlos Holguera| Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
 
-<div style="page-break-after: always;"></div>
+<br/><br/>
 
 | 語言 | 翻譯和複查人員 |
 | --- | --- |
@@ -30,7 +30,6 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 | 西班牙文 | Martin Marsicano |
 | 日文 | Koki Takeyama, Riotaro Okada (Review) |
 | 俄文 | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
-
 
 本文檔最初是 Jim Manico 撰寫的 OWASP Application Security Verification Standard 的一個分支。
 

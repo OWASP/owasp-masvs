@@ -2,7 +2,7 @@
 type pandoc >/dev/null 2>&1 || { echo >&2 "I require pandoc but it's not installed.  Aborting."; exit 1; }
 # How to generate Docx
 cd ../Document-ja
-pandoc -f markdown_github --toc -N --columns 10000 --self-contained -s --reference-doc ../Tools/reference.docx -t docx -o ../generated/MASVS-ja.docx \
+pandoc -f markdown_github --toc -N --columns 10000 --self-contained -s --reference-doc ../Tools/reference.docx -t docx -o ../Generated/MASVS-ja.docx \
 0x00-Header.md \
 Changelog.md \
 Foreword.md \

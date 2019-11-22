@@ -1,10 +1,10 @@
-# V2: Requerimientos en el Almacenamiento de datos y la Privacidad
+# V2: Requerimientos de Almacenamiento de datos y Privacidad
 
-## Objetivo de control
+## Objetivo de Control
 
 La protección de datos sensibles, como las credenciales del usuario y la información privada, es un aspecto clave de la seguridad móvil. En primer lugar, los datos confidenciales pueden exponerse involuntariamente a otras aplicaciones que se ejecutan en el mismo dispositivo si se utilizan de forma inadecuada mecanismos de comunicación entre procesos del sistema operativo. Los datos también pueden filtrarse involuntariamente en el almacenamiento en la nube, las copias de seguridad o la caché del teclado. Además, los dispositivos móviles pueden perderse o robarse más fácilmente que otros tipos de dispositivos, por lo que un adversario que obtiene acceso físico al mismo es un escenario más probable. En ese caso, se pueden implementar protecciones adicionales para dificultar la recuperación de los datos sensibles.
 
-El MASVS se centra en las aplicaciones y por esto no cubre políticas para el dispositivo como Mobile Device Managment (MDM) (https://gsuite.google.com/products/admin/mobile/) o Enter (EDM). Igualmente se recomienda utilizar estas soluciones en contextos empresariales.
+El MASVS se centra en las aplicaciones y por esto no cubre políticas para el dispositivo como Mobile Device Managment (MDM) (<https://gsuite.google.com/products/admin/mobile/>) o Enter (EDM). Igualmente se recomienda utilizar estas soluciones en contextos empresariales.
 
 ### Definición de Datos Sensibles
 
@@ -14,37 +14,42 @@ Los datos sensibles en el contexto del MASVS se refieren tanto a las credenciale
 - Datos altamente confidenciales que, en caso de que se comprometieran, ocasionarían daños a la reputación y/o costes financieros: información contractual, información cubierta por acuerdos de confidencialidad, información de gestión;
 - Cualquier dato que debe ser protegido por ley o por razones de conformidad.
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## Requerimientos de Verificación de Seguridad
 
 La gran mayoría de las cuestiones relativas a la divulgación de datos pueden prevenirse siguiendo reglas sencillas. La mayoría de los controles enumerados en este capítulo son obligatorios para todos los niveles de verificación.
 
-| # | Descripción | L1 | L2 |
-| --- | --- | --- | --- |
-| **2.1** | Las funcionalidades de almacenamiento de credenciales del sistema son utilizadas para almacenar la información sensible, como la información personal, credenciales del usuario y claves criptográficas. | ✓ | ✓ |
-| **2.2** | No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema. | ✓ | ✓ |
-| **2.3** | No se escribe información sensible en los registros de la aplicación. | ✓ | ✓ |
-| **2.4** | No se comparte información sensible con servicios externos salvo que sea una necesidad de la arquitectura. | ✓ | ✓ |
-| **2.5** | Se desactiva el caché del teclado en los campos de texto donde se maneja información sensible. | ✓ | ✓ |
-| **2.6** | No se expone información sensible mediante mecanismos entre procesos (IPC). | ✓ | ✓ |
-| **2.7** | No se expone información sensible como contraseñas y números de tarjetas de crédito a través de la interfaz o capturas de pantalla. | ✓ | ✓ |
-| **2.8** | No se incluye información sensible en los respaldos generados por el sistema operativo. |   | ✓ |
-| **2.9** | La aplicación remueve la información sensible de la vista cuando la aplicación pasa a un segundo plano. |  | ✓ |
-| **2.10** | La aplicación no conserva la información sensible en memoria más de lo necesario y la memoria es limpiada luego de su uso. |  | ✓ |
-| **2.11** | La aplicación obliga a que exista una política mínima de seguridad en el dispositivo, como que el usuario deba configurar un código de acceso. |  | ✓ |
-| **2.12** | La aplicación educa al usuario acerca de los tipos de información personal que procesa y de las mejores prácticas en seguridad que el usuario debería seguir al utilizar la aplicación. |  | ✓ |
+| # | MSTG-ID | Descripción | L1 | L2 |
+| --- | --- | --- | --- | --- |
+| **2.1** | MSTG‑STORAGE‑1 | Las funcionalidades de almacenamiento de credenciales del sistema deben de ser utilizadas para almacenar información sensible, tal como información personal, credenciales de usuario o claves criptográficas. | ✓ | ✓ |
+| **2.2** | MSTG‑STORAGE‑2 | No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema. | ✓ | ✓ |
+| **2.3** | MSTG‑STORAGE‑3 | No se escribe información sensible en los registros (logs) de la aplicación. | ✓ | ✓ |
+| **2.4** | MSTG‑STORAGE‑4 | No se comparte información sensible con servicios externos salvo que sea una necesidad de la arquitectura. | ✓ | ✓ |
+| **2.5** | MSTG‑STORAGE‑5 | Se desactiva la caché del teclado en los campos de texto que contienen información sensible. | ✓ | ✓ |
+| **2.6** | MSTG‑STORAGE‑6 | No se expone información sensible mediante mecanismos de comunicación entre procesos (IPC). | ✓ | ✓ |
+| **2.7** | MSTG‑STORAGE‑7 | No se expone información sensible como contraseñas y números de tarjetas de crédito a través de la interfaz o capturas de pantalla. | ✓ | ✓ |
+| **2.8** | MSTG‑STORAGE‑8 | No se incluye información sensible en las copias de seguridad generadas por el sistema operativo. |   | ✓ |
+| **2.9** | MSTG‑STORAGE‑9 | La aplicación elimina toda información sensible de la vista cuando la aplicación pasa a un segundo plano. |  | ✓ |
+| **2.10** | MSTG‑STORAGE‑10 | La aplicación no conserva ninguna información sensible en memoria más de lo necesario y la memoria se limpia trás su uso. |  | ✓ |
+| **2.11** | MSTG‑STORAGE‑11 | La aplicación obliga a que exista una política mínima de seguridad en el dispositivo, como que el usuario deba configurar un código de acceso. |  | ✓ |
+| **2.12** | MSTG‑STORAGE‑12 | La aplicación educa al usuario acerca de los tipos de información personal que procesa y de las mejores prácticas en seguridad que el usuario debería seguir al utilizar la aplicación. |  | ✓ |
+| **2.13** | MSTG‑STORAGE‑13 | No se guarda ningún tipo de información sensible de forma local en el dispositivo móvil. En su lugar, esa información debería ser obtenida desde un sistema remoto sólo cuando es necesario y únicamente residir en memoria. |  | ✓ |
+| **2.14** | MSTG‑STORAGE‑14 | En caso de ser necesario guardar información sensible de forma local, ésta debe de ser cifrada usando una clave derivada del hardware de almacenamiento seguro, el cual debe requerir autenticación previa. |  | ✓ |
+| **2.15** | MSTG‑STORAGE‑15 | El almacenamiento local de la aplicación debe de ser borrado trás un número excesivo de intentos fallidos de autenticación. |  | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## Referencias
 
 La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detalladas para verificar los requisitos listados en esta sección.
 
-- Para Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md
-- Para iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md
+- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
+- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
 
 Para más información, ver también:
 
-- OWASP Top 10 Móvil: M2 - Almacenamiento de Datos Inseguro: https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage
-- CWE: https://cwe.mitre.org/data/definitions/922.html
+- OWASP Top 10 Móvil: M2 (Almacenamiento de Datos Inseguro) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage>
+- CWE 922 (Insecure Storage of Sensitive Information) - <https://cwe.mitre.org/data/definitions/922.html>

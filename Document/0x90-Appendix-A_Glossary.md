@@ -1,6 +1,5 @@
 # Appendix A: Glossary
 
-- **2FA** – Two-factor authentication(2FA) adds a second level of authentication to an account log-in.
 - **Address Space Layout Randomization (ASLR)** – A technique to make exploiting memory corruption bugs more difficult.
 - **Application Security** – Application-level security focuses on the analysis of components that comprise the application layer of the Open Systems Interconnection Reference Model (OSI Model), rather than focusing on for example the underlying operating system or connected networks.
 - **Application Security Verification** – The technical assessment of an application against the OWASP MASVS.
@@ -23,7 +22,7 @@
 - **JAVA Bytecode** – Java bytecode is the instruction set of the Java virtual machine(JVM). Each bytecode is composed of one, or in some cases two bytes that represent the instruction (opcode), along with zero or more bytes for passing parameters.
 - **Malicious Code** – Code introduced into an application during its development unbeknownst to the application owner, which circumvents the application's intended security policy. Not the same as malware such as a virus or worm!
 - **Malware** – Executable code that is introduced into an application during runtime without the knowledge of the application user or administrator.
-- **Open Web Application Security Project (OWASP)** – The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security "visible," so that people and organizations can make informed decisions about application security risks. See: http://www.owasp.org/
+- **Open Web Application Security Project (OWASP)** – The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security "visible," so that people and organizations can make informed decisions about application security risks. See: <https://www.owasp.org/>
 - **Personally Identifiable Information (PII)** – PII is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
 - **PIE** – Position-independent executable (PIE) is a body of machine code that, being placed somewhere in the primary memory, executes properly regardless of its absolute address.
 - **PKI** – A PKI is an arrangement that binds public keys with respective identities of entities. The binding is established through a process of registration and issuance of certificates at and by a certificate authority (CA).

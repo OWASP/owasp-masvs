@@ -2,9 +2,9 @@
 
 Le MASVS peut être utilisé pour établir un niveau de confiance dans la sécurité des applications mobiles. Les exigences ont été développées avec les objectifs suivants à l'esprit :
 
-* Utilisation en tant que métrique - Fournir un standard de sécurité pouvant servir de mesure aux développeurs d'applications mobiles et à ceux qui en sont responsables ;
-* Utilisation en tant que référence - Donner des points de repère pendant toutes les phases de développement de test et de développement d'applications mobiles ;
-* Utilisation en phase d'achat - Permettre de définir un niveau de sécurité minimal attendu lors de la validation de la sécurité d'applications mobiles.
+- Utilisation en tant que métrique - Fournir un standard de sécurité pouvant servir de mesure aux développeurs d'applications mobiles et à ceux qui en sont responsables ;
+- Utilisation en tant que référence - Donner des points de repère pendant toutes les phases de développement de test et de développement d'applications mobiles ;
+- Utilisation en phase d'achat - Permettre de définir un niveau de sécurité minimal attendu lors de la validation de la sécurité d'applications mobiles.
 
 ## Modèle de Sécurité Applicative Mobile
 
@@ -12,7 +12,9 @@ Le MASVS définit deux niveaux distincts de validation de la sécurité (L1 et L
 
 Atteindre les exigences du niveau MASVS-L1 amène à une application qui suit les bonnes pratiques de sécurité et ne souffre pas des vulnérabilités couramment rencontrées. MASVS-L2 ajoute de nouveaux contrôles en profondeur tels que le SSL pinning, permettant de rendre l'application résistante à des attaques plus sophistiquées - en supposant que les contrôles de sécurité du système d'exploitation mobile sont intacts et que l'utilisateur final n'est pas considéré en tant que l'attaquant potentiel. Implémenter tout ou partie des exigences de protection logicielles de la partie MASVS-R aide à réduire les menaces côté client où l'utilisateur final serait malicieux et/ou lorsque le système d'exploitation mobile serait corrompu.
 
-**Il convient de noter que les contrôles de protection logiciels listés dans le MASVS-R et décrits dans le Guide de Test Mobile de l'OWASP (OWASP Mobile Testing Guide) peuvent toujours être contournés et ne doivent jamais être utilisés en tant que substituts aux contrôles de sécurité. Leur but est d'apporter des contrôles de protection supplémentaires spécifiques aux menaces d'applications qui remplissent aussi les exigences MASVS L1 ou L2.**
+**I: Il convient de noter que les contrôles de protection logiciels listés dans le MASVS-R et décrits dans le Guide de Test Mobile de l'OWASP (OWASP Mobile Testing Guide) peuvent toujours être contournés et ne doivent jamais être utilisés en tant que substituts aux contrôles de sécurité. Leur but est d'apporter des contrôles de protection supplémentaires spécifiques aux menaces d'applications qui remplissent aussi les exigences MASVS L1 ou L2.**
+
+**II: Il faut noter que les contrôles de protection des logiciels présentés dans le MASVS-R et décrits dans l'OWASP MSTG peuvent finalement être contournés et ne doivent jamais être utilisés comme alternative aux contrôles de sécurité. Par contre, ils sont conçus pour ajouter des contrôles supplémentaires envers des menaces spécifiques pour les applications qui satisfont aux exigences de MASVS-L1 et MASVS-L2.**
 
 ![Verification Levels](images/masvs-levels-new_fr.jpg)
 
@@ -50,7 +52,7 @@ En résumé, les typologies de validation suivantes sont disponibles :
 
 Les différents combinaisons reflètent différents niveaux de sécurité et de résistance. Le but est de permettre une certaine flexibilité : par exemple, un jeu sur mobile pourrait se permettre de ne pas ajouter les contrôles de sécurité MASVS-L2 tels que l'authentification à 2 facteurs pour des considérations de facilité d'utilisation mais pourrait avoir de forts besoins commerciaux concernant la protection contre la manipulation.
 
-#### Quel Typologie de Validation Utiliser?
+#### Determiner la Typologie de Validation à Utiliser
 
 L'implémentation des exigences MASVS L2 améliore la sécurité, mais peut en même temps augmenter les coûts de développement et dégrader potentiellement l'expérience utilisateur (un compromis classique). En général, L2 devrait être utilisé pour toute application où l'analyse risques vs coûts démontre le besoin d'atteindre ce niveau (i.e. lorsque les pertes potentielles causées par la compromission de la confidentialité ou de l'intégrité sont supérieures au coût induit par l'implémentation des contrôles de sécurité supplémentaires). L'évaluation des risques devrait être la première étape avant l'implémentation du MASVS.
 
@@ -77,3 +79,5 @@ L'implémentation des exigences MASVS L2 améliore la sécurité, mais peut en m
 - Industrie Financière : Applications de banque en ligne permettant aux utilisateurs de transférer des fonds et où les techniques d'injection de code et d'instrumentation sur des appareils mobiles compromis entraînent un risque. Dans ce cas, les contrôles du MASVS-R peuvent être mis en oeuvre pour empêcher la manipulation et rendre la vie des créateurs de logiciels malveillants (malwares) plus compliquée.
 
 - Toute application mobile qui, par design, doit stocker des données sensibles sur l'appareil mobile tout en devant fonctionner pour une large game d'appareils et de versions de systèmes d'exploitation. Dans ce cas, des contrôles de résistance peuvent être utilisés en tant que mesures de défense en profondeur pour augmenter la quantité d'effort que doivent fournir les attaquants voulant extraire les données sensibles.
+
+- Les applications avec des fonctionnalités d'achat intégrées doivent idéalement utiliser le côté serveur et les exigences MASVS-L2 pour protéger le contenu payant. Néanmoins, dans quelques cas il est impossible d'utiliser la protection côté serveur. Dans ce cas, les exigences MASVS+R doivent être appliquées en plus des exigences de base pour augmenter les efforts de la rétro-ingénierie et / ou de la manipulation de code.

@@ -18,7 +18,7 @@ Une organisation certifiante doit inclure dans tout rapport le périmètre de la
 
 ### Utiliser le Guide de Test de Sécurité Mobile OWASP Mobile Security Testing Guide (MSTG)
 
-Le MSTG de l'OWASP est un manuel pour tester la sécurité des applications mobiles. Il décrit les processus techniques pour valider les exigences listées dans le MASVS. Le MSTG comporte une liste de cas de tests, chacun relié à une exigence du MASVS. Tandis que les exigences du MASVS sont de haut niveau et génériques, le MSTG fournit des recommendations en profondeur et des procédures de test par type de système d'exploitation mobile.
+Le MSTG de l'OWASP est un manuel pour tester la sécurité des applications mobiles. Il décrit les processus techniques pour valider les exigences listées dans le MASVS. Le MSTG comporte une liste de cas de tests, chacun relié à une exigence du MASVS. Tandis que les exigences du MASVS sont de haut niveau et génériques, le MSTG fournit des recommandations en profondeur et des procédures de test par type de système d'exploitation mobile.
 
 ### Le Role des Outils de Test Automatique
 

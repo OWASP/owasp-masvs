@@ -1,6 +1,5 @@
 # Annexe A: Glossaire
 
-- **2FA** – L'Authentification à Deux Facteurs ajoute un second niveau d'authentification lors de la connexion à un compte.
 - **Distribution Aléatoire de l'Espace D'adressage (ASLR)** – Une technique rendant plus difficiles l'exploitation de défauts permettant la corruption de la mémoire.
 - **Sécurité Applicative** – La sécurité de niveau applicatif se focalise sur l'analyse des composants qui constituent la couche applicative du modèle OSI (the Open Systems Interconnection Reference Model), plutôt que de se focaliser par exemple sur le système d'exploitation sous-jacent ou sur les réseaux connectés.
 - **Validation de la Sécurité Applicative** – Evaluation technique d'une application par rapport au MASVS de l'OWASP.
@@ -23,7 +22,7 @@
 - **Bytecode JAVA** – Le bytecode Java correspond au jeu d'instructions de la machine virtuelle Java (JVM). Chaque bytecode est composé d'un, ou parfois deux, octet(s) qui représente(nt) l'instruction (opcode), accompagné(s) de zéro octet ou plus pour le passage de paramètres.
 - **Code Malicieux** – Code introduit dans une application pendant son développement à l'insu du responsable de l'application et qui a pour finalité de contourner la politique de sécurité visée. Différent des logiciels malveillants tels que les virus ou les vers!
 - **Logiciel Malveillant (Malware)** – Code exécutable introduit dans une application au cours de son fonctionnement sans le consentement de l'utilisateur de l'application ou de son administrateur.
-- **Open Web Application Security Project(OWASP)** – L'Open Web Application Security Project (OWASP) est une communauté mondiale indépendante et gratuite oeuvrant pour l'amélioration de la sécurité des applications logicielles. Notre mission est de rendre la sécurité applicative "visible" afin que les particuliers et les organisations puissent prendre les bonnes décisions en incluant les risques liés à la sécurité applicative . Voir : http://www.owasp.org/
+- **Open Web Application Security Project(OWASP)** – L'Open Web Application Security Project (OWASP) est une communauté mondiale indépendante et gratuite oeuvrant pour l'amélioration de la sécurité des applications logicielles. Notre mission est de rendre la sécurité applicative "visible" afin que les particuliers et les organisations puissent prendre les bonnes décisions en incluant les risques liés à la sécurité applicative . Voir : <https://www.owasp.org/>
 - **PIE** – Position-independent executable (PIE) is a body of machine code that, being placed somewhere in the primary memory, executes properly regardless of its absolute address.
 - **Informations d'Identification Personnelles (PII)** – Informations pouvant, directement ou indirectement, mener à l'identification d'un individu ou permettre de contacter ou de localiser une personne dans un contexte donné.
 - **PKI** – Une PKI est une infrastructure permettant de lier une clé publique à l'identité de l'entité la possédant. Le lien est établi grâce à un processus d'enregistrement et de délivrance de certificats  par une autorité de certification (CA).

@@ -1,5 +1,4 @@
-
-![OWASP LOGO](Images/OWASP_logo.png)
+![OWASP LOGO](images/OWASP_logo.png)
 
 # Standard de Validation de la Sécurité des Applications Mobiles (Mobile Application Security Verification Standard - MASVS)
 
@@ -7,9 +6,9 @@
 
 Bienvenue sur le Mobile Application Security Verification Standard (MASVS) 1.1, le Standard de Validation de la Sécurité des Applications Mobiles. Le MASVS est un effort communautaire dont le but est d'établir un cadre concernant les exigences de sécurité pour le design, le développement et le test de sécurité des applications mobiles sur iOS et Android.
 
-Le MASVS est l'aboutissement d'un effort communautaire et de retours d'expérience venant du monde de l'industrie. Le but de ce standard est d'évoluer dans le temps et, dans ce cadre, tout retour est le bienvenu. Le meilleur moyen de rentrer en contact avec nous est via le canal Slack OWASP Mobile Project: https://owasp.slack.com/messages/project-mobile_omtg/details/
+Le MASVS est l'aboutissement d'un effort communautaire et de retours d'expérience venant du monde de l'industrie. Le but de ce standard est d'évoluer dans le temps et, dans ce cadre, tout retour est le bienvenu. Le meilleur moyen de rentrer en contact avec nous est via le canal Slack OWASP Mobile Project: <https://owasp.slack.com/messages/project-mobile_omtg/details/>
 
-Un compte peut être créé à l'endroit suivant: http://owasp.herokuapp.com/.
+Un compte peut être créé à l'endroit suivant: <http://owasp.herokuapp.com/>.
 
 ## Copyright et Licence
 
@@ -17,13 +16,14 @@ Un compte peut être créé à l'endroit suivant: http://owasp.herokuapp.com/.
 
 Copyright © 2018 The OWASP Foundation. Ce document est publié sous la licence Creative Commons Attribution ShareAlike 4.0 International. Pour toute ré-utilisation ou distribution, il est obligatoire d'attribuer la licence de ce travail aux auteurs.
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## Remerciements
 
 | Chef de Projet | Auteur Principal | Contributeurs et Relecteurs
 | --- | --- | --- |
-| Sven Schleier & Jeroen Willemsen | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
+| Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
 
 | La langue | Traducteurs et relecteurs |
 | --- | --- |

@@ -1,4 +1,4 @@
-![OWASP LOGO](Images/OWASP_logo.png)
+![OWASP LOGO](images/OWASP_logo.png)
 
 # Mobile Application Security Verification Standard
 
@@ -18,13 +18,14 @@ Nutzerkonten können unter folgender URL angelegt werden:
 
 Copyright © 2018 The OWASP Foundation. Dieses Dokument ist veröffentlicht unter der Creative Commons Attribution ShareAlike 3.0 Lizenz. Für jedwede Wiederverwendung oder Vertrieb müssen diese Lizenzbestimmungen klar kommuniziert werden.
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## Danksagungen
 
 | Project Lead | Lead Author | Mitwirkende and Reviewer |
 | --- | --- | --- |
-| Sven Schleier & Jeroen Willemsen| Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
+| Sven Schleier, Jeroen Willemsen and Carlos Holguera| Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
 
 | Sprache | Übersetzer und Gutachter |
 | --- | --- |
@@ -34,7 +35,6 @@ Copyright © 2018 The OWASP Foundation. Dieses Dokument ist veröffentlicht unte
 | Spanisch | Martin Marsicano |
 | Japanisch | Koki Takeyama, Riotaro Okada (Review) |
 | Russisch | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
-
 
 Dieses Dokument basiert auf einem Fork des OWASP Application Security Verification Standard verfasst von Jim Manico.
 

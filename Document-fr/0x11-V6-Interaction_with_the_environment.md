@@ -6,28 +6,32 @@ Le but des contrôles de ce groupe est de garantir que l'application utilise les
 
 ## Exigences pour la Validation de la Sécurité
 
-| # | Description | L1 | L2 |
-| --- | --- | --- | --- |
-| **6.1** | L'application ne demande qu'une série minimum de permissions nécessaires. | ✓ | ✓ |
-| **6.2** | Toutes les entrées provenant de sources externes ainsi que des utilisateurs sont validées et si nécessaire assainies. Ceci inclut les données reçues via l'interface utilisateur, les mécanismes IPC tel que les intentions, les URL propres à l'application et les sources sur le réseau.| ✓ | ✓ |
-| **6.3** | L'application n'exporte pas de fonctionnalité sensible via des schémas d'URL propres à l'application, à moins que ces mécanismes ne soient correctement protégés. | ✓ | ✓ |
-| **6.4** | L'application n'exporte pas de fonctionnalité sensible à travers les possibilités IPC, à moins que ces mécanismes ne soient correctement protégés. | ✓ | ✓ |
-| **6.5** | JavaScript est désactivé dans les WebViews à moins qu'il ne soit explicitement requis. | ✓ | ✓ |
-| **6.6** | Les WebViews sont configurées pour ne permettre que le jeu minimum de gestionnaires de protocoles requis (idéalement, seul https est supporté). Les gestionnaires potentiellement dangereux, tels que ceux pour les fichiers, les appels téléphoniques ou l'identifiant de l'application sont désactivés. | ✓ | ✓ |
-| **6.7** | Dans le cas où des méthodes natives de l'application sont exposées à une WebView, il convient de valider que la WebView ne rend que le JavaScript contenu dans le package de l'application. | ✓ | ✓ |
-| **6.8** | La désérialisation des objets, s'il en existe, est implémentée à l'aide d'API de sérialisation de confiance. | ✓ | ✓ |
+| # | MSTG-ID | Description |L2 |
+| --- | --- | --- | --- | --- |
+| **6.1** | MSTG‑PLATFORM‑1 | L'application ne demande qu'une série minimum de permissions nécessaires. | ✓ | ✓ |
+| **6.2** | MSTG‑PLATFORM‑2 | Toutes les entrées provenant de sources externes ainsi que des utilisateurs sont validées et si nécessaire assainies. Ceci inclut les données reçues via l'interface utilisateur, les mécanismes IPC tel que les intentions, les URL propres à l'application et les sources sur le réseau.| ✓ | ✓ |
+| **6.3** | MSTG‑PLATFORM‑3 | L'application n'exporte pas de fonctionnalité sensible via des schémas d'URL propres à l'application, à moins que ces mécanismes ne soient correctement protégés. | ✓ | ✓ |
+| **6.4** | MSTG‑PLATFORM‑4 | L'application n'exporte pas de fonctionnalité sensible à travers les possibilités IPC, à moins que ces mécanismes ne soient correctement protégés. | ✓ | ✓ |
+| **6.5** | MSTG‑PLATFORM‑5 | JavaScript est désactivé dans les WebViews à moins qu'il ne soit explicitement requis. | ✓ | ✓ |
+| **6.6** | MSTG‑PLATFORM‑6 | Les WebViews sont configurées pour ne permettre que le jeu minimum de gestionnaires de protocoles requis (idéalement, seul https est supporté). Les gestionnaires potentiellement dangereux, tels que ceux pour les fichiers, les appels téléphoniques ou l'identifiant de l'application sont désactivés. | ✓ | ✓ |
+| **6.7** | MSTG‑PLATFORM‑7 | Dans le cas où des méthodes natives de l'application sont exposées à une WebView, il convient de valider que la WebView ne rend que le JavaScript contenu dans le package de l'application. | ✓ | ✓ |
+| **6.8** | MSTG‑PLATFORM‑8 | La désérialisation des objets, s'il en existe, est implémentée à l'aide d'API de sérialisation de confiance. | ✓ | ✓ |
+| **6.9** | MSTG‑PLATFORM‑9 | L'application doit se protéger contre les attaques par recouvrement. (Android seulement) |  | ✓ |
+| **6.10** | MSTG‑PLATFORM‑10 | Le cache, le stockage et les ressources téléchargées (JavaScript, etc.) d'une WebView doivent être supprimés avant que la WebView soit détruite. |  | ✓ |
+| **6.11** | MSTG‑PLATFORM‑11 | Vérifier que l'application n'autorise pas l'utilisation des claviers tiers personnalisés lors de la saisie des données sensibles. |  | ✓ |
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;">
+</div>
 
 ## Références
 
 Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.
 
-- Android - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md
-- iOS - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md
+- Android : Tester les interactions avec la plateforme - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
+- iOS : Tester les interactions avec la plateforme - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
 
 Pour de plus amples informations, il est possible de consulter aussi :
 
-- OWASP Mobile Top 10: M1 - Mauvais Utilisation de la Plateforme: https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage
-- CWE: https://cwe.mitre.org/data/definitions/20.html
-- CWE: https://cwe.mitre.org/data/definitions/749.html
+- OWASP Mobile Top 10: M1 (Mauvais Utilisation de la Plateforme) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage>
+- CWE 20 (Improper Input Validation) - <https://cwe.mitre.org/data/definitions/20.html>
+- CWE 749 (Exposed Dangerous Method or Function) - <https://cwe.mitre.org/data/definitions/749.html>
