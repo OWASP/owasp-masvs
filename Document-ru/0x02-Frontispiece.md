@@ -37,7 +37,7 @@ Copyright © 2018 The OWASP Foundation. Данный документ выпущ
 
 Работа над документом была начата как ответвление OWASP Application Security Verification Standard, написанного Jim Manico.
 
-##Спонсоры
+## Спонсоры
 
 Хотя MASVS и MSTG создаются и поддерживаются сообществом на добровольной основе, иногда требуется небольшая помощь извне. Поэтому мы благодарим наших спонсоров за предоставление средств для возможности нанять технических редакторов. Обратите внимание, что их спонсорство никоим образом не влияет на содержание MASVS или MSTG. Спонсорские пакеты описаны на [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
