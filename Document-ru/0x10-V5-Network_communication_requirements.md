@@ -15,15 +15,14 @@
 | **5.5** | MSTG‑NETWORK‑5 | Приложение не полагается на единственный небезопасный канал связи (e-mail или SMS) для таких критических операций, как регистрация и восстановление аккаунта. |  | ✓ |
 | **5.6** | MSTG‑NETWORK‑6 | Приложение использует только актуальные версии библиотек для подключения к сети и обеспечения безопасного соединения. |  | ✓ |
 
-<div style="page-break-after: always;">
-</div>
 
 ## Ссылки
 
 OWASP MSTG содержит подробные инструкции по верификации требований, перечисленных в этом разделе.
 
-- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
-- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
+- Общее: Тестирование сетевого взаимодействия - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
+- Android: Тестирование сетевого взаимодействия - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
+- iOS: Тестирование сетевого взаимодействия - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
 
 Для получения дополнительной информации смотрите также:
 
