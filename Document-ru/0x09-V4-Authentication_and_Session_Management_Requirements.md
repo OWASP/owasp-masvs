@@ -19,16 +19,15 @@
 | **4.9** | MSTG‑AUTH‑9 | Реализована и поддерживается двухфакторная аутентификация.  |   | ✓ |
 | **4.10** | MSTG‑AUTH‑10 | Для выполнения чувствительных транзакций требуется дополнительная или повторная аутентификацию.  |   | ✓ |
 | **4.11** | MSTG‑AUTH‑11 | Приложение информирует пользователя обо всех входах в систему с использованием его учётной записи. Пользователи могут просмотреть список устройств, используемых для входа с этого аккаунта, и блокировать определённые устройства. |  | ✓ |
-
-<br/><br/>
+| **4.12** | MSTG‑AUTH‑12 | Модели авторизации должны быть определены и применяться на стороне сервера. | ✓ | ✓ |
 
 ## Ссылки
 
 OWASP MSTG содержит подробные инструкции по верификации требований, перечисленных в этом разделе.
 
-- В общем - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
-- Для Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
-- Для iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
+- Общее: Аутентификация и управление сессиями - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
+- Android: Тестирование локальной аутентификации - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
+- iOS: Тестирование локальной аутентификации - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
 
 Для получения дополнительной информации смотрите также:
 
