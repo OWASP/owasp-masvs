@@ -2,17 +2,17 @@
 
 Этот документ сгенерирован автоматически {{gitbook.time}}
 
-## V1.2-RC 5 October 2019 - Pre-release (English only)
+## V1.2-RC - 5 October 2019 - Предварительный релиз
 
 Изменения в релизе 1.2:
 
-- Promoted to flagship status.
-- Requirement changed: MSTG-STORAGE-1 "need to be used".
-- Requirements MSTG-STORAGE-13, MSTG-STORAGE-14, and MSTG-STORAGE-15 are added with a focus on data protection.
+- Повышен до статуса флагмана.
+- Измененно трабование: MSTG-STORAGE-1 "нужно использовать".
+- Добавленны требования MSTG-STORAGE-13, MSTG-STORAGE-14, и MSTG-STORAGE-15 с акцентом на защиту данных.
 - Requirement MSTG-AUTH-11 is updated to preserve contextual information.
-- Requirement MSTG‑CODE‑4 is updated to cover more than just debugging.
-- Requirement MSTG‑PLATFORM‑10 added to further secure usage of WebViews.
-- Requirement MSTG‑AUTH‑12 added to remind developers of having authorizations implemented, especially in case of multi-user apps.
+- Измененно требование MSTG‑CODE‑4 чтобы охватить больше чем просто отладка.
+- Добавленно трабование MSTG‑PLATFORM‑10 для более безопасного использования веб-представлений.
+- Добавленно требование MSTG‑AUTH‑12 added чтобы напомнить разработчикам о внедренных разрешениях пользователей, особенно в случае многопользовательских приложений.
 - Added a little more description on how the MASVS should be used given a risk assessment.
 - Added a little more description on paid content.
 - Requirement MSTG‑ARCH‑11 added to include a Responsible Disclosure policy for L2 applications.
