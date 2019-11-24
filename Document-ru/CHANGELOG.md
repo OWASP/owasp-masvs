@@ -7,19 +7,19 @@
 Изменения в релизе 1.2:
 
 - Повышен до статуса флагмана.
-- Измененно трабование: MSTG-STORAGE-1 "нужно использовать".
+- Изменено трабование: MSTG-STORAGE-1 "нужно использовать".
 - Добавленны требования MSTG-STORAGE-13, MSTG-STORAGE-14, и MSTG-STORAGE-15 с акцентом на защиту данных.
 - Requirement MSTG-AUTH-11 is updated to preserve contextual information.
-- Измененно требование MSTG‑CODE‑4 чтобы охватить больше чем просто отладка.
-- Добавленно трабование MSTG‑PLATFORM‑10 для более безопасного использования веб-представлений.
-- Добавленно требование MSTG‑AUTH‑12 added чтобы напомнить разработчикам о внедренных разрешениях пользователей, особенно в случае многопользовательских приложений.
-- Added a little more description on how the MASVS should be used given a risk assessment.
-- Added a little more description on paid content.
-- Requirement MSTG‑ARCH‑11 added to include a Responsible Disclosure policy for L2 applications.
-- Requirement MSTG‑ARCH‑12 added to show application developers that relevant international privacy laws should be followed.
-- Created a consistent style for all references in the English version.
-- Requirement MSTG‑PLATFORM‑11 added to counter spying via third party keyboards.
-- Requirement MSTG-MSTG‑RESILIENCE‑13 added to impede eavesdropping at an application.
+- Изменено требование MSTG‑CODE‑4 чтобы охватить больше чем просто отладка.
+- Добавлено трабование MSTG‑PLATFORM‑10 для более безопасного использования веб-представлений.
+- Добавлено требование MSTG‑AUTH‑12 added чтобы напомнить разработчикам о внедренных разрешениях пользователей, особенно в случае многопользовательских приложений.
+- Добавлено немного больше описания того, как следует использовать MASVS с учетом оценки риска.
+- Добавлено еще немного описания платного контента.
+- Добавлено требование MSTG‑ARCH‑11, чтобы включить политику раскрытия информации для приложений L2.
+- Добавлено требоавние MSTG‑ARCH‑12, чтобы показать разработчикам, что соответствующие международные законы о конфиденциальности должны соблюдаться.
+- Создан согласованный стиль для всех ссылок в английской версии.
+- Добавлено требоавние MSTG‑PLATFORM‑11 для противодействия шпионажу с помощью сторонних клавиатур.
+- Добавлено требоавние MSTG-MSTG‑RESILIENCE‑13 для предотвращения перехвата данных в приложении.
 
 ## V1.1.4 - 4 Июля 2019 - Саммит версия
 
