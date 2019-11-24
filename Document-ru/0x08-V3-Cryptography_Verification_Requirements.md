@@ -19,15 +19,12 @@
 | **3.5** | MSTG‑CRYPTO‑5 | Приложение не использует один и тот же ключ несколько раз. | ✓ | ✓ |
 | **3.6** | MSTG‑CRYPTO‑6 | Все случайные значения генерируются с использованием безопасного генератора случайных чисел. | ✓ | ✓ |
 
-<div style="page-break-after: always;">
-</div>
-
 ## Ссылки
 
 OWASP MSTG содержит подробные инструкции по верификации требований, перечисленных в этом разделе.
 
-- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
-- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
+- Android: Тестирование криптографии - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
+- iOS: Тестирование криптографии - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
 
 Для получения дополнительной информации смотрите также:
 
