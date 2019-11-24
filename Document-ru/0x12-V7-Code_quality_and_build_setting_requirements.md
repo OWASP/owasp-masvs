@@ -11,7 +11,7 @@
 | **7.1** | MSTG‑CODE‑1 | Приложение подписано валидным сертификатом. | ✓ | ✓ |
 | **7.2** | MSTG‑CODE‑2 | Приложение было собрано в release режиме с настройками, подходящими для релизной сборки (например, без атрибута debuggable). | ✓ | ✓ |
 | **7.3** | MSTG‑CODE‑3 | Отладочные символы удалены из нативных бинарных файлов. | ✓ | ✓ |
-| **7.4** | MSTG‑CODE‑4 | Отладочный код был удален, и приложение не логирует подробные ошибки и отладочные сообщения. | ✓ | ✓ |
+| **7.4** | MSTG‑CODE‑4 | Kод отладки и вспомогательный дла разработки код (например, тестовый код, бэкдоры, скрытые настройки) были удалены. Приложение не логирует подробные ошибки и отладочные сообщения. | ✓ | ✓ |
 | **7.5** | MSTG‑CODE‑5 | Все сторонние компоненты, используемые мобильным приложением (библиотеки и фреймворки), идентифицированы и проверены на наличие известных уязвимостей. | ✓ | ✓ |
 | **7.6** | MSTG‑CODE‑6 | Приложение обрабатывает возможные исключения.| ✓ | ✓ |
 | **7.7** | MSTG‑CODE‑7 | В логике обработки связанных с безопасностью ошибок по умолчанию запрещается доступ. | ✓ | ✓ |
@@ -25,8 +25,8 @@
 
 OWASP MSTG содержит подробные инструкции по проверке требований, перечисленных в этом разделе.
 
-- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
-- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- Android: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- iOS: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
 
 Для получения дополнительной информации смотрите также:
 
