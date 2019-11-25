@@ -22,13 +22,13 @@
 
 OWASP MSTG содержит подробные инструкции по проверке требований, перечисленных в этом разделе.
 
-- Android: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
-- iOS: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- Android: Тестирование качества кода и настроек сборки - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- iOS: Тестирование качества кода и настроек сборки - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
 
 Для получения дополнительной информации смотрите также:
 
-- OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality>
-- CWE 119 (Improper Restriction of Operations within the Bounds of a Memory Buffer) - <https://cwe.mitre.org/data/definitions/119.html>
-- CWE 89 (Improper Neutralization of Special Elements used in an SQL Command) - <https://cwe.mitre.org/data/definitions/89.html>
-- CWE 388 (7PK - Errors) - <https://cwe.mitre.org/data/definitions/388.html>
-- CWE 489 (Leftover Debug Code) - <https://cwe.mitre.org/data/definitions/489.html>
+- OWASP Mobile Top 10: M7 (Плохое качество кода) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality>
+- CWE 119 (Неправильное ограничение операций в пределах буфера памяти) - <https://cwe.mitre.org/data/definitions/119.html>
+- CWE 89 (Неправильная нейтрализация специальных элементов, используемых в команде SQL) - <https://cwe.mitre.org/data/definitions/89.html>
+- CWE 388 (7PK - Ошибки) - <https://cwe.mitre.org/data/definitions/388.html>
+- CWE 489 (Оставленный отладочный Код) - <https://cwe.mitre.org/data/definitions/489.html>
