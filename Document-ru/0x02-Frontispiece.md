@@ -20,11 +20,11 @@ MASVS - итог усилий сообщества и обратной связ�
 Copyright © 2018 The OWASP Foundation. Данный документ выпущен под лицензией Creative Commons Attribution ShareAlike 4.0 International . Для использования или распространения необходимо разъяснить всем сторонам правила лицензии этой работы.
 
 
-## Подтверждения
+## Выражение благодарности
 
 | Руководитель проекта | Главные авторы | Авторы и рецензенты |
 | --- | --- | --- |
-| Bernhard Mueller, Sven Schleier | Bernhard Mueller |Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Leo Wang, Jeroen Willemsen |
+| Sven Schleier, Jeroen Willemsen и Carlos Holguera | Bernhard Mueller |Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abdessamad Temmar, Koki Takeyama, Leo Wang |
 
 | язык | Переводчики и рецензенты |
 | --- | --- |
