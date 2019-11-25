@@ -46,10 +46,10 @@
 
 OWASP MSTG содержит подробные инструкции по верификации требований, перечисленных в этом разделе.
 
-- Android: Testing Data Storage - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
-- iOS: Testing Data Storage - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
+- Android: Тестирование хранения данных - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
+- iOS: Тестирование хранения данных - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
 
 Для получения дополнительной информации смотрите также:
 
-- OWASP Mobile Top 10: M2 (Insecure Data Storage) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage>
-- CWE 922 (Insecure Storage of Sensitive Information) - <https://cwe.mitre.org/data/definitions/922.html>
+- OWASP Mobile Top 10: M2 (Небезопасное хранение данных) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage>
+- CWE 922 (Небезопасное хранение конфиденциальной информации) - <https://cwe.mitre.org/data/definitions/922.html>

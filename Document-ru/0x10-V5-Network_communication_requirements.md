@@ -22,12 +22,12 @@
 
 OWASP MSTG содержит подробные инструкции по верификации требований, перечисленных в этом разделе.
 
-- General: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
-- Android: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
-- iOS: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
+- Общее: Тестирование сетевого взаимодействия - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
+- Android: Тестирование сетевого взаимодействия - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
+- iOS: Тестирование сетевого взаимодействия - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
 
 Для получения дополнительной информации смотрите также:
 
-- OWASP Mobile Top 10: M3 (Insecure Communication) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication>
-- CWE 319 (Cleartext Transmission of Sensitive Information) - <https://cwe.mitre.org/data/definitions/319.html>
-- CWE 295 (Improper Certificate Validation) - <https://cwe.mitre.org/data/definitions/295.html>
+- OWASP Mobile Top 10: M3 (Небезопасное сетевое взаимодействие) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication>
+- CWE 319 (Передача конфиденциальной информации открытым текстом) - <https://cwe.mitre.org/data/definitions/319.html>
+- CWE 295 (Неправильная проверка сертификата) - <https://cwe.mitre.org/data/definitions/295.html>
