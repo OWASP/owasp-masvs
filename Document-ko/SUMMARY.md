@@ -19,5 +19,5 @@
 
 ## 부록
 
-- [부록 A - 용어 사전](GLOSSARY.md)
+- [부록 A - 용어집](GLOSSARY.md)
 - [부록 B - 참고 자료](0x91-Appendix-B_References.md)
