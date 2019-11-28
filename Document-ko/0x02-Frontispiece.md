@@ -4,9 +4,9 @@
 
 ## 본 표준에 대하여
 
-모바일 애플리케이션 보안 검증 표준(MASVS) 1.1에 오신것을 환영합니다. MASVS는 iOS 및 Android에서 안전한 모바일 앱을 설계, 개발, 테스트하는데 필요한 보안 요구사항의 프레임워크를 확립하기 위한 커뮤니티의 노력입니다.
+모바일 애플리케이션 보안 검증 표준(MASVS) 1.1에 오신것을 환영합니다. MASVS는 iOS 및 Android에서 안전한 모바일 앱을 설계, 개발, 테스트하는데 필요한 보안 요구사항의 프레임워크를 확립하기 위한 커뮤니티 활동입니다.
 
-MASVS는 커뮤니티의 노력과 업계 피드백의 성과입니다. 우리는 이 표준이 시간이 지남에 따라 발전하는 것을 기대하고 있으며, 커뮤니티의 피드백을 환영합니다.
+MASVS는 커뮤니티 활동과 업계 피드백의 성과입니다. 우리는 이 표준이 시간이 지남에 따라 발전하는 것을 기대하고 있으며, 커뮤니티의 피드백을 환영합니다.
 
 우리와 연락하는 가장 좋은 방법은 OWASP Mobile Project Slack 채널을 이용하는 것입니다: <https://owasp.slack.com/messages/project-mobile_omtg/details/>
 
@@ -32,13 +32,13 @@ MASVS는 커뮤니티의 노력과 업계 피드백의 성과입니다. 우리�
 | 스페인어 | Martin Marsicano |
 | 일본어 | Koki Takeyama, Riotaro Okada (Review) |
 | 러시어아 | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
-| 한국어 | Youngjae Jeon, Jeongwon Cho |
+| 한국어 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 
 본 문서는 Jim Manico가 작성한 OWASP 애플리케이션 보안 검증 표준의 포크로 시작되었습니다.
 
 ## 스폰서
 
-MASVS와 MSTG는 모두 커뮤니티에서 자발적으로 생성되고 유지되지만, 때때로 약간의 외부 도움이 필요합니다. 따라서 기술 편집자를 고용할 수 있도록 자금을 제공해 주신 스폰서들에게 감사드립니다. 그들의 후원은 어떤식으로든 MASVS 또는 MSTG의 내용에 영향을 미치지 않는다는 점에 유의하십시오. 스폰서 패키지는 [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages")에 설명되어 있습니다..
+MASVS와 MSTG는 모두 커뮤니티에서 자발적으로 생성되고 유지되지만, 때때로 약간의 외부 도움이 필요합니다. 따라서 기술 편집자를 고용할 수 있도록 자금을 기부해 주신 스폰서들에게 감사드립니다. 그들의 후원은 어떤식으로든 MASVS 또는 MSTG의 내용에 영향을 미치지 않는다는 점을 알려드립니다. 스폰서 패키지는 [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages")에 설명되어 있습니다..
 
 ### 명예 후원자
 
