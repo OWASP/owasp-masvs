@@ -33,7 +33,7 @@ Copyright © 2018 The OWASP Foundation. Данный документ выпущ
 | Немецкий | Rocco Gränitz, Sven Schleier (Review) |
 | испанский | Martin Marsicano |
 | японский | Koki Takeyama, Riotaro Okada (Review) |
-| русский | Gall Maxim, Oprya Egor (Review), Tereshin Dmitry (Review) |
+| русский | Gall Maxim, Oprya Egor (review), Tereshin Dmitry (review), Bachevsky Artem(review),Vladislav Chelnokov(review), Mesheryakov Aleksey(review), Eugen Martynov(review)|
 
 Работа над документом была начата как ответвление OWASP Application Security Verification Standard, написанного Jim Manico.
 
