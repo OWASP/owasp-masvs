@@ -18,7 +18,8 @@
 | **4.8** | MSTG‑AUTH‑8 | Сессии становятся невалидными на бэкенде после определенного периода бездействия, срок действия токена истекает. | ✓ | ✓ |
 | **4.9** | MSTG‑AUTH‑9 | Реализована и поддерживается двухфакторная аутентификация.  |   | ✓ |
 | **4.10** | MSTG‑AUTH‑10 | Для выполнения чувствительных транзакций требуется дополнительная или повторная аутентификацию.  |   | ✓ |
-| **4.11** | MSTG‑AUTH‑11 | Приложение информирует пользователя обо всех входах в систему с использованием его учётной записи. Пользователи могут просмотреть список устройств, используемых для входа с этого аккаунта, и блокировать определённые устройства. |  | ✓ |
+| **4.11** | MSTG‑AUTH‑11 | Приложение информирует пользователя о всех важных действиях с их учетной записью. Пользователи могут просматривать список устройств, просматривать контекстную информацию (IP-адрес, местоположение и т.д.), и блокировать конкретные устройства. |  | ✓ |
+| **4.12** | MSTG‑AUTH‑12 | Модели авторизации должны быть определены и проверенны на сервере. | ✓ | ✓ |
 
 <br/><br/>
 
@@ -26,12 +27,12 @@
 
 OWASP MSTG содержит подробные инструкции по верификации требований, перечисленных в этом разделе.
 
-- В общем - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
-- Для Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
-- Для iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
+- Общее: Аутентификация и управление сессиями - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
+- Android: Тестирование локальной аутентификации - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
+- iOS: Тестирование локальной аутентификации - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
 
 Для получения дополнительной информации смотрите также:
 
-- OWASP Mobile Top 10: M4 (Insecure Authentication) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication>
-- OWASP Mobile Top 10: M6 (Insecure Authorization) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization>
-- CWE 287 (Improper Authentication)- <https://cwe.mitre.org/data/definitions/287.html>
+- OWASP Mobile Top 10: M4 (Небезопасная проверка подлинности) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication>
+- OWASP Mobile Top 10: M6 (Небезопасная авторизация) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization>
+- CWE 287 (Ненадлежащея проверка подлинности)- <https://cwe.mitre.org/data/definitions/287.html>
