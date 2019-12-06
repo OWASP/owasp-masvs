@@ -16,6 +16,9 @@
 | **6.6** | MSTG‑PLATFORM‑6 | WebViews сконфигурирован с поддержкой минимального набора протоколов (в идеале только https). Поддержка потенциально опасных URL-схем (таких как: file, tel и app-id) отключена. | ✓ | ✓ |
 | **6.7** | MSTG‑PLATFORM‑7 | Если нативные методы приложения используются WebView, верифицировать, что исполняются только Javascript объекты данного приложения. | ✓ | ✓ |
 | **6.8** | MSTG‑PLATFORM‑8 | Десериализация объектов, если она есть, реализована с использованием безопасного API. | ✓ | ✓ |
+| **6.9** | MSTG‑PLATFORM‑9 | Приложение защищает себя от атак наложения экрана. (Только для Андроид) |  | ✓ |
+| **6.10** | MSTG‑PLATFORM‑10 | Кэш веб-представление, хранилище и загруженные ресурсы (JavaScript и т. д.) должены быть очищены до того, как веб-представление будет уничтожено. |  | ✓ |
+| **6.11** | MSTG‑PLATFORM‑11 | Убедитесь, что приложение предотвращает использование пользовательских клавиатур сторонних производителей при вводе конфиденциальных данных. | | ✓ |
 
 <div style="page-break-after: always;">
 </div>
@@ -24,11 +27,11 @@
 
 OWASP MSTG содержит подробные инструкции по верификации требований, перечисленных в этом разделе.
 
-- Android - [https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md)
-- iOS - [https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md)
+- Android: Тестирование взаимодействия с платформой - [https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md)
+- iOS: Тестирование взаимодействия с платформой - [https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md)
 
 Для получения дополнительной информации смотрите также:
 
-- OWASP Mobile Top 10: M1 (Improper Platform Usage) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage>
-- CWE 20 (Improper Input Validation) - <https://cwe.mitre.org/data/definitions/20.html>
-- CWE 749 (Exposed Dangerous Method or Function) - <https://cwe.mitre.org/data/definitions/749.html>
+- OWASP Mobile Top 10: M1 (Неправильное использование платформы) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage>
+- CWE 20 (Неправильная проверка ввода) - <https://cwe.mitre.org/data/definitions/20.html>
+- CWE 749 (Доступный опасный метод или функция) - <https://cwe.mitre.org/data/definitions/749.html>
