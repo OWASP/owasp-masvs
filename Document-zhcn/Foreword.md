@@ -1,26 +1,26 @@
-# Foreword
+# 前言
 
-By Bernhard Mueller, OWASP Mobile Project
+OWASP移动项目的Bernhard Mueller提供
 
-Technological revolutions can happen quickly. Less than a decade ago, smartphones were clunky devices with little keyboards - expensive playthings for tech-savvy business users. Today, smartphones are an essential part of our lives. We've come to rely on them for information, navigation and communication, and they are ubiquitous both in business and in our social lives.
+技术革命可以迅速发生。不到十年前，智能手机是笨拙的设备，几乎没有键盘，这是精通技术的企业用户的昂贵玩物。如今，智能手机已成为我们生活中不可或缺的一部分。我们已经开始依赖它们来进行信息，导航和通讯，它们在商业和社会生活中无处不在。
 
-Every new technology introduces new security risks, and keeping up with those changes is one of the main challenges the security industry faces. The defensive side is always a few steps behind. For example, the default reflex for many was to apply old ways of doing things: Smartphones are like small computers, and mobile apps are just like classic software, so surely the security requirements are similar? But it doesn't work like that. Smartphone operating systems are different from Desktop operating systems, and mobile apps are different from web apps. For example, the classical method of signature-based virus scanning doesn't make sense in modern mobile OS environments: Not only is it incompatible with the mobile app distribution model, it's also technically impossible due to sandboxing restrictions. Also, some vulnerability classes, such as buffer overflows and XSS issues, are less relevant in the context of run-of-the-mill mobile apps than in, say, Desktop apps and web applications (exceptions apply).
+每一项新技术都会带来新的安全风险，而跟上这些变化是安全行业面临的主要挑战之一。防守方总是落后几步。例如，许多人的默认反射是应用旧的处理方式：智能手机就像小型计算机，而移动应用程序就像经典软件，因此安全性要求肯定是相似的吗？但这不是那样的。智能手机操作系统与台式机操作系统不同，移动应用程序与Web应用程序不同。例如，基于签名的病毒扫描的经典方法在现代移动OS环境中没有意义：不仅与移动应用程序分发模型不兼容，而且由于沙箱限制，在技术上也是不可能的。此外，某些漏洞类别（例如缓冲区溢出和XSS问题）在常规移动应用程序的上下文中的相关性比在桌面应用程序和Web应用程序中的相关性小（适用例外）。
 
-Over time, our industry has gotten a better grip on the mobile threat landscape. As it turns out, mobile security is all about data protection: Apps store our personal information, pictures, recordings, notes, account data, business information, location and much more. They act as clients that connect us to services we use on a daily basis, and as communications hubs that processes each and every message we exchange with others. Compromise a person's smartphone and you get unfiltered access to that person's life. When we consider that mobile devices are more readily lost or stolen and mobile malware is on the rise, the need for data protection becomes even more apparent.
+随着时间的流逝，我们的行业已逐渐掌握了移动威胁领域。事实证明，移动安全仅涉及数据保护：应用程序存储我们的个人信息，图片，记录，便笺，帐户数据，业务信息，位置等。他们充当将我们连接到我们每天使用的服务的客户，并且充当处理我们与他人交换的每条消息的通信中心。破坏一个人的智能手机，您将获得未经过滤的访问该人的生活的权限。当我们认为移动设备更容易丢失或被盗并且移动恶意软件呈上升趋势时，对数据保护的需求就变得更加明显。
 
-A security standard for mobile apps must therefore focus on how mobile apps handle, store and protect sensitive information. Even though modern mobile operating systems like iOS and Android offer good APIs for secure data storage and communication, those have to be implemented and used correctly in order to be effective. Data storage, inter-app communication, proper usage of cryptographic APIs and secure network communication are only some of the aspects that require careful consideration.
+因此，移动应用程序的安全标准必须关注移动应用程序如何处理，存储和保护敏感信息。即使像iOS和Android这样的现代移动操作系统为安全的数据存储和通信提供了良好的API，也必须正确实现和使用它们才能有效。数据存储，应用间通信，加密API的正确使用以及安全的网络通信只是需要仔细考虑的某些方面。
 
-An important question in need of industry consensus is how far exactly one should go in protecting the confidentiality and integrity of data. For example, most of us would agree that a mobile app should verify the server certificate in a TLS exchange. But what about SSL certificate pinning? Does not doing it result in a vulnerability? Should this be a requirement if an app handles sensitive data, or is it maybe even counter-productive? Do we need to encrypt data stored in SQLite databases, even though the OS sandboxes the app? What is appropriate for one app might be unrealistic for another. The MASVS is an attempt to standardize these requirements using verification levels that fit different threat scenarios.
+需要行业共识的一个重要问题是，在保护数据的机密性和完整性方面应该走多远。例如，我们大多数人都同意移动应用程序应该在TLS交换中验证服务器证书。但是SSL证书固定如何？不这样做会导致漏洞吗？如果应用程序处理敏感数据，这是否是必要条件？或者甚至适得其反？即使操作系统将应用程序沙箱化，我们是否仍需要加密存储在SQLite数据库中的数据？适用于一个应用程序对于另一个应用程序可能是不现实的。 MASVS尝试使用适合不同威胁场景的验证级别来标准化这些要求。
 
-Furthermore, the appearance of root malware and remote administration tools has created awareness of the fact that mobile operating systems themselves have exploitable flaws, so containerization strategies are increasingly used to afford additional protection to sensitive data and prevent client-side tampering. This is where things get complicated. Hardware- backed security features and OS-level containerization solutions, such as Android for Work and Samsung Knox, do exist, but they aren't consistently available across different devices. As a band aid, it is possible to implement software-based protection measures - but unfortunately, there are no standards or testing processes for verifying these kinds of protections.
+此外，根恶意软件和远程管理工具的出现使人们意识到移动操作系统本身具有可利用的漏洞，因此越来越多地使用容器化策略为敏感数据提供额外保护并防止客户端篡改。这就是事情变得复杂的地方。确实存在硬件支持的安全功能和OS级容器化解决方案，例如Android for Work和Samsung Knox，但它们在不同设备上并非始终可用。作为创可贴，可以实施基于软件的保护措施-但不幸的是，目前尚无标准或测试过程来验证此类保护。
 
-As a result, mobile app security testing reports are all over the place: For example, some testers report a lack of obfuscation or root detection in an Android app as “security flaw”. On the other hand, measures like string encryption, debugger detection or control flow obfuscation aren't considered mandatory. However, this binary way of looking at things doesn't make sense because resiliency is not a binary proposition: It depends on the particular client-side threats one aims to defend against. Software protections are not useless, but they can ultimately be bypassed, so they must never be used as a replacement for security controls.
+结果，移动应用程序安全性测试报告无处不在：例如，一些测试人员将Android应用程序中缺乏混淆或根检测的报告称为“安全缺陷”。另一方面，诸如字符串加密，调试器检测或控制流混淆之类的措施并不被认为是强制性的。但是，这种看待事物的二进制方式没有任何意义，因为弹性不是二进制的主张：它取决于旨在防御的特定客户端威胁。软件保护不是没有用的，但最终可以被绕过，因此决不能将其用作安全控制的替代品。
 
-The overall goal of the MASVS is to offer a baseline for mobile application security (MASVS- L1), while also allowing for the inclusion of defense-in-depth measures (MASVS-L2) and protections against client-side threats (MASVS-R). The MASVS is meant to achieve the following:
+MASVS的总体目标是为移动应用程序安全性（MASVS-L1）提供一个基准，同时还允许包括纵深防御措施（MASVS-L2）和针对客户端威胁的防护（MASVS-R） ）。 MASVS旨在实现以下目标：
 
-- Provide requirements for software architects and developers seeking to develop secure mobile applications;
-- Offer an industry standard that can be tested against in mobile app security reviews;
-- Clarify the role of software protection mechanisms in mobile security and provide requirements to verify their effectiveness;
-- Provide specific recommendations as to what level of security is recommended for different use-cases.
+- 为寻求开发安全的移动应用程序的软件架构师和开发人员提供要求；
+- 提供可以在移动应用安全性审查中进行测试的行业标准；
+- 阐明软件保护机制在移动安全中的作用，并提供要求以验证其有效性；
+- 提供针对不同用例建议的安全级别的具体建议。
 
-We are aware that 100% industry consensus is impossible to achieve. Nevertheless, we hope that the MASVS is useful in providing guidance throughout all phases of mobile app development and testing. As an open source standard, the MASVS will evolve over time, and we welcome any contributions and suggestions.
+我们知道，不可能达成100％的行业共识。尽管如此，我们希望MASVS在移动应用程序开发和测试的所有阶段提供指导。作为一个开源标准，MASVS将随着时间的推移而发展，我们欢迎您提供任何建议。
