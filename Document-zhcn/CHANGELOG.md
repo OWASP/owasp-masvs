@@ -1,73 +1,73 @@
-# Changelog
+# 变更日志
 
-This document is automatically generated at {{gitbook.time}}
+该文档是在{{gitbook.time}}自动生成的
 
-## V1.2-RC 5 October 2019 - Pre-release (English only)
+## V1.2-RC 2019年10月5日-预发行版（仅英文）
 
-The following changes are part of release 1.2:
+以下更改是版本1.2的一部分：
 
-- Promoted to flagship status.
-- Requirement changed: MSTG-STORAGE-1 "need to be used".
-- Requirements MSTG-STORAGE-13, MSTG-STORAGE-14, and MSTG-STORAGE-15 are added with a focus on data protection.
-- Requirement MSTG-AUTH-11 is updated to preserve contextual information.
-- Requirement MSTG‑CODE‑4 is updated to cover more than just debugging.
-- Requirement MSTG‑PLATFORM‑10 added to further secure usage of WebViews.
-- Requirement MSTG‑AUTH‑12 added to remind developers of having authorizations implemented, especially in case of multi-user apps.
-- Added a little more description on how the MASVS should be used given a risk assessment.
-- Added a little more description on paid content.
-- Requirement MSTG‑ARCH‑11 added to include a Responsible Disclosure policy for L2 applications.
-- Requirement MSTG‑ARCH‑12 added to show application developers that relevant international privacy laws should be followed.
-- Created a consistent style for all references in the English version.
-- Requirement MSTG‑PLATFORM‑11 added to counter spying via third party keyboards.
-- Requirement MSTG-MSTG‑RESILIENCE‑13 added to impede eavesdropping at an application.
+- 晋升为旗舰店。
+- 要求已更改：“需要使用” MSTG-STORAGE-1。
+- 要求添加了MSTG-STORAGE-13，MSTG-STORAGE-14和MSTG-STORAGE-15，重点是数据保护。
+- 要求MSTG-AUTH-11已更新，以保留上下文信息。
+- 要求MSTG‑CODE‑4已更新，不仅涉及调试。
+- 添加了要求MSTG‑PLATFORM‑10，以进一步安全使用WebView。
+- 添加了要求MSTG‑AUTH‑12，以提醒开发人员实施授权，尤其是在多用户应用程序的情况下。
+- 添加了更多关于在进行风险评估时应如何使用MASVS的描述。
+- 在付费内容上添加了更多描述。
+- 添加了要求MSTG‑ARCH‑11，以包括针对L2应用程序的“负责任的披露”策略。
+- 添加了要求MSTG‑ARCH‑12，以向应用程序开发人员显示应遵循相关的国际隐私法。
+- 为英文版本中的所有引用创建了一致的样式。
+- 要求MSTG‑PLATFORM‑11已添加到通过第三方键盘进行的反间谍活动中。
+- 添加了要求MSTG-MSTG‑RESILIENCE-13，以阻止在应用程序中进行窃听。
 
-## V1.1.4 4 July 2019 - Summit edition
+## V1.1.4 2019年7月4日-峰会版
 
-The following changes are part of release 1.1.4:
+以下更改是版本1.1.4的一部分：
 
-- Fix all markdown issues.
-- Updates in the French and Spanish translations.
-- Translated the changelog to Chinese (ZHTW) and Japanese.
-- Automated verification of the the markdown syntax and reachability of the URLs.
-- Added identification codes to the requirements, which will be included in the future version of the MSTG in order to find the recommendations and testcases easily.
-- Reduced the repo size and added Generated to the .gitignore.
-- Added a Code of Conduct & Contributing guidelines.
-- Added a Pull-Request template.
-- Updated the sync with the repo in use for hosting the Gitbook website.
-- Updated the scripts to generate XML/JSON/CSV for all the translations.
-- Translated the Foreword to Chinese (ZHTW).
+- 解决了所有降价问题。
+- 法语和西班牙语翻译的更新。
+- 将变更日志翻译为中文（ZHTW）和日语。
+- 自动验证降价语法和网址的可达性。
+- 在要求中添加了识别码，该识别码将包含在MSTG的将来版本中，以便轻松查找建议和测试用例。
+- 减少了repo的大小，并将Generated添加到.gitignore。
+- 添加了行为准则和贡献准则。
+- 添加了请求请求模板。
+- 更新了与用于托管Gitbook网站的仓库的同步。
+- 更新了脚本以为所有翻译生成XML / JSON / CSV。
+- 将前言翻译成中文（ZHTW）。
 
-## V1.1.3 9 January 2019 - Small fixes
+## V1.1.3 2019年1月9日-小补丁
 
-- Fix translation issue of requirement 7.1 in the Spanish version
-- New setup of translators in acknowledgements
+- 修复了7.1版西班牙语的翻译问题
+- 确认中翻译器的新设置
 
-## V1.1.2 3 January 2019 - Sponsorship and internationalization
+## V1.1.2 2019年1月3日-赞助和国际化
 
-The following changes are part of release 1.1.2:
+以下更改是版本1.1.2的一部分：
 
-- Added thank you note for buyers of the e-book.
-- Added missing authentication link & updated broken authentication link in V4.
-- Fixed swap of 4.7 and 4.8 in English.
-- First international release!
-  - Fixes in Spanish translation. Translation is now in sync with English (1.1.2).
-  - Fixes in Russian translation. Translation is now in sync with English (1.1.2).
-  - Added first release of Chinese (ZHTW) French, German, and Japanese!
-- Simplified document for ease of translation.
-- Added instructions for automated releases.
+- 为电子书的购买者添加了感谢信。
+- 在V4中添加了缺少的身份验证链接并更新了损坏的身份验证链接。
+- 修复了英文4.7和4.8的互换。
+- 首次国际发行！
+  - 修复了西班牙语翻译。现在，翻译与英语（1.1.2）同步。
+  - 修复了俄语翻译。现在，翻译与英语（1.1.2）同步。
+  - 添加了中文（ZHTW）法语，德语和日语的第一版！
+- 简化文档，便于翻译。
+- 添加了有关自动发布的说明。
 
-## V1.1.0 14 July 2018
+## V1.1.0 2018年7月14日
 
-The following changes are part of release 1.1:
+以下更改是版本1.1的一部分：
 
-- Requirement 2.6 "The clipboard is deactivated on text fields that may contain sensitive data." was removed.
-- Requirement 2.2 "No sensitive data should be stored outside of the app container or system credential storage facilities." was added.
-- Requirement 2.1 was reworded to "System credential storage facilities are used appropriately to store sensitive data, such as PII, user credentials or cryptographic keys.".
+- 要求2.6“在可能包含敏感数据的文本字段上，剪贴板被停用。”去掉了。
+- 要求2.2“不应将任何敏感数据存储在应用程序容器或系统凭据存储设施的外部。”加入。
+- 要求2.1改写为“系统凭证存储设施被适当地用于存储敏感数据，例如PII，用户凭证或加密密钥。”。
 
-## V1.0 12 January 2018
+## V1.0 2018年1月12日
 
-The following changes are part of release 1.0:
+以下更改是版本1.0的一部分：
 
-- Delete 8.9 as the same as 8.12
-- Made 4.6 more generic
-- Minor fixes (typos etc.)
+- 删除8.9，与8.12相同
+- 使4.6更通用
+- 较小的修正（打字错误等）
