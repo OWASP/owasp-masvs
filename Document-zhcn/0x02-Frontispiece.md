@@ -1,46 +1,48 @@
 ![OWASP LOGO](images/OWASP_logo.png)
 
-# Mobile Application Security Verification Standard
+# 移动应用安全验证标准
 
-## About the Standard
+## 关于标准
 
-Welcome to the Mobile Application Security Verification Standard (MASVS) 1.1. The MASVS is a community effort to establish a framework of security requirements needed to design, develop and test secure mobile apps on iOS and Android.
+欢迎使用移动应用安全验证标准（MASVS）1.1。 MASVS是社区的一项工作，旨在建立设计，开发和测试iOS和Android上的安全移动应用程序所需的安全要求框架。
 
-The MASVS is a culmination of community effort and industry feedback. We expect this standard to evolve over time and welcome feedback from the community.
+MASVS是社区努力和行业反馈的结晶。我们希望该标准会随着时间的推移而发展，并欢迎社区提供反馈。
 
-The best way to get in contact with us is via the OWASP Mobile Project Slack channel: <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
+与我们联系的最佳方法是通过OWASP Mobile Project Slack频道: <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
 
-Accounts can be created at the following URL: [https://owasp.slack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LWQ2Nzg3NGJiZGQ2MjRmNzkzN2Q4YzU1MWYyZTdjYjA2ZTA5M2RkNzE2ZjdkNzI5ZThhOWY5MjljYWZmYmY4ZjM).
+可以在以下URL上创建帐户: [https://owasp.slack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LWQ2Nzg3NGJiZGQ2MjRmNzkzN2Q4YzU1MWYyZTdjYjA2ZTA5M2RkNzE2ZjdkNzI5ZThhOWY5MjljYWZmYmY4ZjM).
 
-## Copyright and License
+## 版权和许可
 
-![license](images/CC-license.png) Copyright © 2018 The OWASP Foundation.This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
+![license](images/CC-license.png) 版权所有©2018 OWASP基金会。本作品是根据[知识共享署名-相同方式共享4.0国际许可](https://creativecommons.org/licenses/by-sa/4.0/). 对于任何重复使用或分发，您必须向他人明确此作品的许可条款.
 
-## Acknowledgements
+## 致谢
 
-| Project Lead | Lead Author | Contributors and Reviewers
+| 项目负责人 | 主要作者 | 贡献者和审稿人
 | --- | --- | --- |
-| Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
+| Sven Schleier，Jeroen Willemsen和Carlos Holguera | Bernhard Mueller |亚历山大·安图克（Alexander Antukh），梅谢里亚科夫（Meshyayakov Aleksey），巴切夫斯基·阿特姆（Bachevsky Artem），耶隆·贝克斯（Jeroen Beckers），弗拉迪斯拉夫·切尔诺科夫（Fladislav Chelnokov），本·切尼（Ben Cheney），彼得·奇（Lex Chien），史蒂芬·科比奥克斯（Stephen Corbiaux），曼努埃尔·德尔加多（Manuel Delgado），拉切科·丹尼斯（Ratchenko Denis），瑞安·德赫斯特（Ryan Dewhurst），泰瑞辛·德米特里（Tereshin Dmitry），克里斯蒂安·东（Christian Dong），奥普拉·埃戈尔（Bry Gardiner） ，亨利·胡（Henry Hu），舍尔·兰格坎珀（Sjoerd Langkemper），维尼修斯·亨利克·马兰戈尼（ViníciusHenrique Marangoni），马丁·马西卡诺（Roberto Martelloni），加尔·马克西姆（Gall Maxim），冈田里奥塔罗·冈田（Riotaro Okada），阿比纳夫·塞普帕尔（Afhinav Sejpal），史蒂芬·塞伊斯（Stefaan Seys），尤格什·夏尔马（Yogesh Sharma），普拉汉（Prabhant Singh），斯文·史莱尔（Sven Schleier），尼基·索尼（Nanhil Soni），安南·斯里瓦斯塔库（Anant Shrivastava），弗朗切斯科·斯蒂瓦拉托（Francesco Stillavato） Abdessamad Temmar，Koki Takeyama，Celnokov Vladislav，Leo Wang |
 
 <br><br>
 
-| Language | Translators & Reviewers |
+| 语言 |翻译和审稿 |
 | --- | --- |
-| Chinese | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
-| French | Romuald Szkudlarek, Christian Dong (Review) |
-| German | Rocco Gränitz, Sven Schleier (Review) |
-| Spanish | Martin Marsicano, Carlos Holguera |
-| Japanese | Koki Takeyama, Riotaro Okada (Review) |
-| Russian | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| 中文 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| 法语 | Romuald Szkudlarek, Christian Dong (Review) |
+| 德文 | Rocco Gränitz, Sven Schleier (Review) |
+| 西班牙语 | Martin Marsicano, Carlos Holguera |
+| 日语 | Koki Takeyama, Riotaro Okada (Review) |
+| 俄语 | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
-This document started as a fork of the OWASP Application Security Verification Standard written by Jim Manico.
+本文档是Jim Manico编写的OWASP Application Security Verification Standard的分支
 
 ## Sponsors
 
-While both the MASVS and the MSTG are created and maintained by the community on a voluntary basis, sometimes a little bit of outside help is required. We therefore thank our sponsors for providing the funds to be able to hire technical editors. Note that their sponsorship does not influence the content of the MASVS or MSTG in any way. The sponsorship packages are described on the [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
+赞助商
 
-### Honourable Benefactor
+虽然MASVS和MSTG都是由社区自愿创建和维护的，但有时需要一点外部帮助。因此，我们感谢赞助商提供了能够聘请技术编辑的资金。请注意，他们的赞助不会以任何方式影响MASVS或MSTG的内容。赞助程序包在[OWASP项目Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
+
+### 尊敬的恩人
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
 
-Next, we would like to thank the OWASP Bay Area Chapter for their sponsorship. Last, we would like to thank everybody that bought the book from Leanpub and sponsored us that way.
+接下来，我们要感谢OWASP海湾地区分会的赞助。最后，我们要感谢从Leanpub购买了这本书并以这种方式赞助我们的每个人。
