@@ -1,47 +1,47 @@
-# Assessment and Certification
+# 评估与认证
 
-## OWASP's Stance on MASVS Certifications and Trust Marks
+## OWASP关于MASVS认证和信任标记的立场
 
-OWASP, as a vendor-neutral not-for-profit organization, does not certify any vendors, verifiers or software.
+OWASP作为与供应商无关的非营利组织，不对任何供应商，验证者或软件进行认证。
 
-All such assurance assertions, trust marks, or certifications are not officially vetted, registered, or certified by OWASP, so an organization relying upon such a view needs to be cautious of the trust placed in any third party or trust mark claiming (M)ASVS certification.
+OWASP并未正式审查，注册或证明所有此类保证主张，信任标记或证明，因此，依赖于这种观点的组织应谨慎对待对任何第三方或信任标记声明（M）ASVS的信任认证。
 
-This should not inhibit organizations from offering such assurance services, as long as they do not claim official OWASP certification.
+只要组织不要求获得正式的OWASP认证，就不应阻止组织提供此类保证服务。
 
-## Guidance for Certifying Mobile Apps
+## 认证移动应用程序的指南
 
-The recommended way of verifying compliance of a mobile app with the MASVS is by performing an "open book" review, meaning that the testers are granted access to key resources such as architects and developers of the app, project documentation, source code, and authenticated access to endpoints, including access to at least one user account for each role.
+验证移动应用程序是否符合MASVS的推荐方法是执行“公开书”审查，这意味着测试人员可以访问关键资源，例如应用程序的架构师和开发人员，项目文档，源代码和经过身份验证的访问端点，包括访问每个角色的至少一个用户帐户。
 
-It is important to note that the MASVS only covers security of the (client-side) mobile app and the network communication between the app and its remote endpoint(s), as well as a few basic and generic requirements related to user authentication and session management. It does not contain specific requirements for the remote services (e.g. web services) associated with the app, safe for a limited set of generic requirements pertaining to authentication and session management. However, MASVS V1 specifies that remote services must be covered by the overall threat model, and be verified against appropriate standards, such as the OWASP ASVS.
+重要的是要注意，MASVS仅涵盖（客户端）移动应用程序的安全性以及该应用程序与其远程端点之间的网络通信，以及与用户身份验证和会话有关的一些基本和通用要求管理。它不包含与该应用程序关联的远程服务（例如Web服务）的特定要求，对于与身份验证和会话管理有关的一组有限的通用要求而言是安全的。但是，MASVS V1指定远程服务必须包含在整体威胁模型中，并根据适当的标准（例如OWASP ASVS）进行验证。
 
-A certifying organization must include in any report the scope of the verification (particularly if a key component is out of scope), a summary of verification findings, including passed and failed tests, with clear indications of how to resolve the failed tests. Keeping detailed work papers, screenshots or movies, scripts to reliably and repeatedly exploit an issue, and electronic records of testing, such as intercepting proxy logs and associated notes such as a cleanup list, is considered standard industry practice. It is not sufficient to simply run a tool and report on the failures; this does not provide sufficient evidence that all issues at a certifying level have been tested and tested thoroughly. In case of dispute, there should be sufficient supportive evidence to demonstrate that every verified requirement has indeed been tested.
+认证组织必须在任何报告中包括验证范围（尤其是如果关键组件不在范围内），验证结果摘要（包括通过和未通过的测试），并明确说明如何解决失败的测试。保留详细的工作文件，屏幕截图或电影，脚本以可靠地重复利用问题，以及测试的电子记录（例如拦截代理日志和相关注释（例如清理列表））被认为是标准的行业惯例。仅运行工具并报告故障是不够的。这不能提供足够的证据证明所有认证级别的问题都已经过测试和彻底测试。如有争议，应有足够的支持证据来证明每一个经过验证的要求确实已经过测试。
 
-### Using the OWASP Mobile Security Testing Guide (MSTG)
+### 使用OWASP移动安全测试指南（MSTG）
 
-The OWASP MSTG is a manual for testing the security of mobile apps. It describes the technical processes for verifying the requirements listed in the MASVS. The MSTG includes a list of test cases, each of which map to a requirement in the MASVS. While the MASVS requirements are high-level and generic, the MSTG provides in-depth recommendations and testing procedures on a per-mobile-OS basis.
+OWASP MSTG是用于测试移动应用程序安全性的手册。它描述了验证MASVS中列出的要求的技术过程。 MSTG包含测试用例列表，每个测试用例都映射到MASVS中的需求。尽管MASVS要求是高级别且通用的，但MSTG在每个移动OS的基础上提供了深入的建议和测试过程。
 
-### The Role of Automated Security Testing Tools
+### 自动化安全测试工具的作用
 
-The use of source code scanners and black-box testing tools is encouraged in order to increase efficiency whenever possible. It is however not possible to complete MASVS verification using automated tools alone: Every mobile app is different, and understanding the overall architecture, business logic, and technical pitfalls of the specific technologies and frameworks being used, is a mandatory requirement to verify security of the app.
+鼓励使用源代码扫描器和黑盒测试工具，以尽可能提高效率。但是，不可能仅使用自动化工具来完成MASVS验证：每个移动应用都是不同的，并且必须了解所使用的特定技术和框架的总体体系结构，业务逻辑以及技术陷阱，这是验证安全性的强制性要求。应用程式。
 
-## Other Uses
+## 其他用途
 
-### As Detailed Security Architecture Guidance
+### 作为详细的安全体系结构指南
 
-One of the more common uses for the Mobile Application Security Verification Standard is as a resource for security architects. The two major security architecture frameworks, SABSA or TOGAF, are missing a great deal of information that is necessary to complete mobile application security architecture reviews. MASVS can be used to fill in those gaps by allowing security architects to choose better controls for issues common to mobile apps.
+移动应用程序安全性验证标准最常见的用途之一是作为安全性架构师的资源。 SABSA或TOGAF这两个主要的安全体系结构框架缺少大量信息，而这些信息是完成移动应用程序安全体系结构审查所必需的。通过允许安全架构师为移动应用程序常见的问题选择更好的控件，MASVS可用于填补这些空白。
 
-### As a Replacement for Off-the-shelf Secure Coding Checklists
+### 替代现成的安全编码清单
 
-Many organizations can benefit from adopting the MASVS, by choosing one of the two levels, or by forking MASVS and changing what is required for each application's risk level in a domain-specific way. We encourage this type of forking as long as traceability is maintained, so that if an app has passed requirement 4.1, this means the same thing for forked copies as the standard evolves.
+通过采用两个级别之一，或者通过分叉MASVS并以特定于域的方式更改每个应用程序风险级别所需的条件，许多组织可以从采用MASVS中受益。只要保持可追溯性，我们就鼓励这种类型的分叉，因此，如果应用程序通过了要求4.1，那么对于分叉副本，随着标准的发展，这意味着同样的事情。
 
-### As a Basis for Security Testing Methodologies
+### 作为安全测试方法的基础
 
-A good mobile app security testing methodology should cover all requirements listed in the MASVS. The OWASP Mobile Security Testing Guide (MSTG) describes black-box and white-box test cases for each verification requirement.
+良好的移动应用程序安全性测试方法应涵盖MASVS中列出的所有要求。 OWASP移动安全测试指南（MSTG）描述了每种验证要求的黑盒和白盒测试用例。
 
-### As a Guide for Automated Unit and Integration Tests
+### 作为自动化单元和集成测试的指南
 
-The MASVS is designed to be highly testable, with the sole exception of architectural requirements. Automated unit, integration and acceptance testing based on the MASVS requirements can be integrated in the continuous development lifecycle. This not only increases developer security awareness, but also improves the overall quality of the resulting apps, and reduces the amount of findings during security testing in the pre-release phase.
+MASVS被设计为可高度测试的，唯一的体系结构要求除外。基于MASVS要求的自动化单元，集成和验收测试可以集成在持续开发生命周期中。这不仅提高了开发人员的安全意识，而且提高了所得应用程序的整体质量，并减少了预发行阶段的安全测试过程中的发现量。
 
-### For Secure Development Training
+### 安全开发培训
 
-MASVS can also be used to define characteristics of secure mobile apps. Many "secure coding" courses are simply ethical hacking courses with a light smear of coding tips. This does not help developers. Instead, secure development courses can use the MASVS, with a strong focus on the proactive controls documented in the MASVS, rather than e.g. the Top 10 code security issues.
+MASVS还可以用于定义安全移动应用程序的特征。许多“安全编码”课程只是带有少量技巧的道德黑客课程。这对开发人员没有帮助。相反，安全的开发课程可以使用MASVS，重点是MASVS中记录的主动控制，而不是例如十大代码安全性问题。
