@@ -1,6 +1,6 @@
 
 ![OWASP LOGO](images/OWASP_logo.png)
 
-# Mobile Application Security Verification Standard
+# 移动应用安全验证标准 
 
 [DATE]
