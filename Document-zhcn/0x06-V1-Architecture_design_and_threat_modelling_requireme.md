@@ -1,41 +1,41 @@
-# V1: Architecture, Design and Threat Modeling Requirements
+# V1：架构，设计和威胁建模要求
 
-## Control Objective
+## 控制目标
 
-In a perfect world, security would be considered throughout all phases of development. In reality however, security is often only a consideration at a late stage in the SDLC. Besides the technical controls, the MASVS requires processes to be in place that ensure that the security has been explicitly addressed when planning the architecture of the mobile app, and that the functional and security roles of all components are known. Since most mobile applications act as clients to remote services, it must be ensured that appropriate security standards are also applied to those services - testing the mobile app in isolation is not sufficient.
+在一个完美的世界中，将在开发的所有阶段都考虑安全性。然而，实际上，安全性通常只是SDLC后期的考虑因素。除了技术控制之外，MASVS还要求制定适当的流程，以确保在计划移动应用程序的体系结构时已明确解决了安全问题，并确保所有组件的功能和安全角色都是已知的。由于大多数移动应用程序充当远程服务的客户端，因此必须确保将适当的安全标准也应用于这些服务-单独测试移动应用程序是不够的。
 
-The category “V1” lists requirements pertaining to architecture and design of the app. As such, this is the only category that does not map to technical test cases in the OWASP Mobile Testing Guide. To cover topics such as threat modelling, secure SDLC, key management, users of the MASVS should consult the respective OWASP projects and/or other standards such as the ones linked below.
+"V1"类别列出了与应用程序的体系结构和设计有关的要求。因此，这是《 OWASP移动测试指南》中唯一不映射到技术测试用例的类别。为了涵盖诸如威胁建模，安全SDLC，密钥管理之类的主题，MASVS的用户应咨询各自的OWASP项目和/或其他标准，例如下面链接的标准。
 
 <div style="page-break-after: always;">
 </div>
 
-## Security Verification Requirements
+## 安全验证要求
 
-The requirements for MASVS-L1 and MASVS-L2 are listed below.
+下面列出了对 MASVS-L 和 MASVS-L2 的要求。
 
 | # | MSTG-ID | Description | L1 | L2 |
 | --- | --- | --- | --- | --- |
-| **1.1** | MSTG‑ARCH‑1 | All app components are identified and known to be needed. | ✓ | ✓ |
-| **1.2** | MSTG‑ARCH‑2 | Security controls are never enforced only on the client side, but on the respective remote endpoints. | ✓ | ✓ |
-| **1.3** | MSTG‑ARCH‑3 | A high-level architecture for the mobile app and all connected remote services has been defined and security has been addressed in that architecture. | ✓ | ✓ |
-| **1.4** | MSTG‑ARCH‑4 | Data considered sensitive in the context of the mobile app is clearly identified. | ✓ | ✓ |
-| **1.5** | MSTG‑ARCH‑5 | All app components are defined in terms of the business functions and/or security functions they provide. |  | ✓ |
-| **1.6** | MSTG‑ARCH‑6 | A threat model for the mobile app and the associated remote services has been produced that identifies potential threats and countermeasures. |  | ✓ |
-| **1.7** | MSTG‑ARCH‑7 | All security controls have a centralized implementation. |  | ✓ |
-| **1.8** | MSTG‑ARCH‑8 | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |  | ✓ |
-| **1.9** | MSTG‑ARCH‑9 | A mechanism for enforcing updates of the mobile app exists. |  | ✓ |
-| **1.10** | MSTG‑ARCH‑10 | Security is addressed within all parts of the software development lifecycle. |  | ✓ |
-| **1.11** | MSTG‑ARCH‑11 | A responsible disclosure policy is in place and effectively applied. |  | ✓ |
-| **1.12** | MSTG‑ARCH‑12 | The app should comply with privacy laws and regulations. | ✓ | ✓ |
+| **1.1** | MSTG‑ARCH‑1 |确定了所有应用程序组件，并确定它们是必需的。 | ✓| ✓|
+| **1.2** | MSTG‑ARCH‑2 |安全控制永远不会仅在客户端上执行，而只会在相应的远程端点上执行。 | ✓| ✓|
+| **1.3** | MSTG‑ARCH‑3 |已经为移动应用程序和所有连接的远程服务定义了高级体系结构，并在该体系结构中解决了安全问题。 | ✓| ✓|
+| **1.4** | MSTG‑ARCH‑4 |明确识别了在移动应用程序上下文中被认为敏感的数据。 | ✓| ✓|
+| **1.5** | MSTG‑ARCH‑5 |所有应用程序组件均根据其提供的业务功能和/或安全功能进行定义。 | | ✓|
+| **1.6** | MSTG‑ARCH‑6 |已经为移动应用程序和相关的远程服务创建了威胁模型，该模型可以识别潜在的威胁和对策。 | | ✓|
+| **1.7** | MSTG‑ARCH‑7 |所有安全控制都有集中的实现。 | | ✓|
+| **1.8** | MSTG‑ARCH‑8 |对于如何管理加密密钥（如果有）以及实施加密密钥的生命周期，有一个明确的策略。理想情况下，请遵循诸如NIST SP 800-57之类的密钥管理标准。 | | ✓|
+| **1.9** | MSTG‑ARCH‑9 |存在强制执行移动应用程序更新的机制。 | | ✓|
+| **1.10** | MSTG‑ARCH‑10 |在软件开发生命周期的所有部分中都解决了安全问题。 | | ✓|
+| **1.11** | MSTG‑ARCH‑11 |负责任的披露政策已经到位并得到有效实施。 | | ✓|
+| **1.12** | MSTG‑ARCH‑12 |该应用程序应符合隐私法律和法规。 | ✓| ✓|
 
-## References
+## 参考文献
 
-For more information, see also:
+有关更多信息，另请参见：
 
-- OWASP Mobile Top 10: M10 (Extraneous Functionality) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality>
-- OWASP Security Architecture cheat sheet - <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
-- OWASP Threat modelling - <https://www.owasp.org/index.php/Application_Threat_Modeling>
-- OWASP Secure SDLC Cheat Sheet - <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
+- OWASP Mobile Top 10: M10 (外部功能) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality>
+- OWASP 安全体系结构速查表 - <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
+- OWASP 威胁建模 - <https://www.owasp.org/index.php/Application_Threat_Modeling>
+- OWASP 安全SDLC备忘单 - <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
 - Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
 - NIST SP 800-57 - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
 - security.txt - <https://securitytxt.org/>
