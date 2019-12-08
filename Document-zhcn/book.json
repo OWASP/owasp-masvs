@@ -1,0 +1,9 @@
+{
+  "root" : ".",
+
+  "structure": {
+    "readme": "Foreword.md"
+  },
+
+  "language": "en"
+}
