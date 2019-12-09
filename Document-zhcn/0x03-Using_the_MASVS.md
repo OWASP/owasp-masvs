@@ -16,7 +16,7 @@ MASVS 可用于建立移动应用程序安全性的可信程度。制定需求�
 
 **II：请注意，`MASVS-R`中列出的软件保护管制以及《 OWASP移动安全性测试指南》中所述的软件保护管制最终是可以被忽略的，绝不能用作安全管控的替代品。相反，它在为应用程序添加额外的，针对于威胁的保护控制，以满足MASVS-l1或MASVS- l2中的MASVS要求。**
 
-！[验证级别]（images/masvs-levels-new.jpg）
+！[验证级别](images/masvs-levels-new.jpg)
 
 ### 文档结构
 
