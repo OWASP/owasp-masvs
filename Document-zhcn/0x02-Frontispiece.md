@@ -4,17 +4,17 @@
 
 ## 关于标准
 
-欢迎使用移动应用安全验证标准（MASVS）1.1。 MASVS是社区的一项工作，旨在建立设计，开发和测试iOS和Android上的安全移动应用程序所需的安全要求框架。
+欢迎使用移动应用安全验证标准（MASVS）1.1. MASVS 是社区项目，宗旨是建立一个安全需求框架，用于在iOS和Android上的设计、开发和测试安全的移动应用程序。
 
 MASVS是社区努力和行业反馈的结晶。我们希望该标准会随着时间的推移而发展，并欢迎社区提供反馈。
 
-与我们联系的最佳方法是通过OWASP Mobile Project Slack频道: <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
+与我们联系的最佳方法是通过 OWASP Mobile Project Slack频道: <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
 
 可以在以下URL上创建帐户: [https://owasp.slack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LWQ2Nzg3NGJiZGQ2MjRmNzkzN2Q4YzU1MWYyZTdjYjA2ZTA5M2RkNzE2ZjdkNzI5ZThhOWY5MjljYWZmYmY4ZjM).
 
 ## 版权和许可
 
-![license](images/CC-license.png) 版权所有©2018 OWASP基金会。本作品是根据[知识共享署名-相同方式共享4.0国际许可](https://creativecommons.org/licenses/by-sa/4.0/). 对于任何重复使用或分发，您必须向他人明确此作品的许可条款.
+![license](images/CC-license.png) 版权所有©2018 OWASP基金会。本作品是根据[知识共享署名-相同方式共享 4.0 国际许可](https://creativecommons.org/licenses/by-sa/4.0/). 对于任何重复使用或分发，您必须向他人明确此作品的许可条款.
 
 ## 致谢
 
@@ -39,7 +39,7 @@ MASVS是社区努力和行业反馈的结晶。我们希望该标准会随着时
 
 赞助商
 
-虽然MASVS和MSTG都是由社区自愿创建和维护的，但有时需要一点外部帮助。因此，我们感谢赞助商提供了能够聘请技术编辑的资金。请注意，他们的赞助不会以任何方式影响MASVS或MSTG的内容。赞助程序包在[OWASP项目Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
+虽然`MASVS`和`MSTG`都是由社区自愿创建和维护的，但有时需要一点外部帮助。因此，我们感谢赞助商提供了能够聘请技术编辑的资金。请注意，他们的赞助不会以任何方式影响`MASVS`或`MSTG`的内容。赞助方案的描叙[OWASP项目Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
 ### 尊敬的恩人
 
