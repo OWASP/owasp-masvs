@@ -2,9 +2,9 @@
 
 ## 控制目标
 
-在一个完美的世界中，将在开发的所有阶段都考虑安全性。然而，实际上，安全性通常只是SDLC后期的考虑因素。除了技术控制之外，MASVS还要求制定适当的流程，以确保在计划移动应用程序的体系结构时已明确解决了安全问题，并确保所有组件的功能和安全角色都是已知的。由于大多数移动应用程序充当远程服务的客户端，因此必须确保将适当的安全标准也应用于这些服务-单独测试移动应用程序是不够的。
+在一个完美的世界中，安全需要在开发的整个阶段被考虑。然而，实际上，安全性通常只是SDLC后期的考虑因素。除了技术控制之外，MASVS要求适当的流程，以确保在规划移动应用程序的架构时明确地解决了安全性问题，并且知道所有组件的功能和安全性角色。由于大多数移动应用程序充当远程服务的客户端，因此必须确保这些服务也运用适当的安全标准 - 单独测试移动应用程序是不够的。
 
-"V1"类别列出了与应用程序的体系结构和设计有关的要求。因此，这是《 OWASP移动测试指南》中唯一不映射到技术测试用例的类别。为了涵盖诸如威胁建模，安全SDLC，密钥管理之类的主题，MASVS的用户应咨询各自的OWASP项目和/或其他标准，例如下面链接的标准。
+类别“V1”列出了与应用程序的架构和设计相关的需求。因此，这是OWASP移动测试指南中唯一没有映射到技术测试用例的类别。为了涵盖诸如威胁建模、安全SDLC、密钥管理等主题，MASVS的用户应该参考各自的OWASP项目和/或其他标准(如下面链接的标准)。
 
 <div style="page-break-after: always;">
 </div>
@@ -13,7 +13,7 @@
 
 下面列出了对 MASVS-L 和 MASVS-L2 的要求。
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | 描叙 | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **1.1** | MSTG‑ARCH‑1 |确定了所有应用程序组件，并确定它们是必需的。 | ✓| ✓|
 | **1.2** | MSTG‑ARCH‑2 |安全控制永远不会仅在客户端上执行，而只会在相应的远程端点上执行。 | ✓| ✓|
@@ -32,7 +32,7 @@
 
 有关更多信息，另请参见：
 
-- OWASP Mobile Top 10: M10 (外部功能) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality>
+- OWASP 移动安全前10: M10 (外部功能) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality>
 - OWASP 安全体系结构速查表 - <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
 - OWASP 威胁建模 - <https://www.owasp.org/index.php/Application_Threat_Modeling>
 - OWASP 安全SDLC备忘单 - <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
