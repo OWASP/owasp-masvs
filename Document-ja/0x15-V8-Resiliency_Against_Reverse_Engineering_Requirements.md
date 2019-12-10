@@ -48,6 +48,12 @@
 | **8.11** | MSTG‑RESILIENCE‑11 | アプリに属するすべての実行可能ファイルとライブラリはファイルレベルで暗号化されているか、実行可能ファイル内の重要なコードやデータセグメントが暗号化またはパック化されている。簡単な静的解析では重要なコードやデータは明らかにならない。 | ✓ |
 | **8.12** | MSTG‑RESILIENCE‑12 | 難読化の目的が機密性の高い計算を保護することである場合、現在公開されている研究を考慮して、特定のタスクに適しており手動および自動の逆難読化メソッドに対して堅牢な難読化スキームを使用している。難読化スキームの有効性は手動テストにより検証する必要がある。可能であればハードウェアベースの隔離機能が難読化より優先されることに注意する。 | ✓ |
 
+### 盗聴防止
+
+| # | MSTG-ID | Description | R |
+| --- | --- | --- | -- |
+| **8.13** | MSTG‑RESILIENCE‑13 | 多層防御として、通信相手の堅牢化に加えて、アプリケーションレベルのペイロード暗号化を適用して、盗聴をより一層防止している。 | ✓ |
+
 <div style="page-break-after: always;">
 </div>
 
@@ -55,8 +61,8 @@
 
 OWASP モバイルセキュリティテストガイドでは、このセクションに記載されている要件を検証するための詳細な手順を提供しています。
 
-- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
-- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- Android: Testing Resiliency Against Reverse Engineering - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- iOS: Testing Resiliency Against Reverse Engineering - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
 詳しくは以下の情報を参照してください。
 

@@ -17,13 +17,17 @@
 | **6.7** | MSTG‑PLATFORM‑7 | アプリのネイティブメソッドがWebViewに公開されている場合、WebViewはアプリパッケージ内に含まれるJavaScriptのみをレンダリングしている。 | ✓ | ✓ |
 | **6.8** | MSTG‑PLATFORM‑8 | オブジェクトのデシリアライゼーションは、もしあれば、安全なシリアライゼーションAPIを使用して実装されている。 | ✓ | ✓ |
 | **6.9** | MSTG‑PLATFORM‑9 | アプリはスクリーンオーバーレイ攻撃から自らを保護している。 (Android のみ) |  | ✓ |
+| **6.10** | MSTG‑PLATFORM‑10 | WebViewを破棄する前にWebViewのキャッシュ、ストレージ、ロードされたリソース (JavaScript など) をクリアしている。 |  | ✓ |
+| **6.11** | MSTG‑PLATFORM‑11 | 機密データを入力する場合は常に、アプリはカスタムサードパーティキーボードを使用できないようにしている。 |  | ✓ |
+<div style="page-break-after: always;">
+</div>
 
 ## 参考情報
 
 OWASP モバイルセキュリティテストガイドでは、このセクションに記載されている要件を検証するための詳細な手順を提供しています。
 
-- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
-- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
+- Android: Testing Platform Interaction - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
+- iOS: Testing Platform Interaction - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
 
 詳しくは以下の情報を参照してください。
 
