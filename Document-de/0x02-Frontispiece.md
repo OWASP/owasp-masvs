@@ -35,6 +35,7 @@ Copyright © 2018 The OWASP Foundation. Dieses Dokument ist veröffentlicht unte
 | Spanisch | Martin Marsicano |
 | Japanisch | Koki Takeyama, Riotaro Okada (Review) |
 | Russisch | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| Koreanisch | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 
 Dieses Dokument basiert auf einem Fork des OWASP Application Security Verification Standard verfasst von Jim Manico.
 
