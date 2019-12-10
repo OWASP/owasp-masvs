@@ -34,3 +34,13 @@ Files:
 5. Update the Leanpub Files
 6. Update OWASP Wiki if necessary
 7. Tweet about it with @OWASP-MSTG.
+
+## Adding another language
+
+When you want to add another langauge:
+
+1. Add a `generate_document_[LANG].sh` to the Tools folder
+2. Update `gitbookandepubandpdf.sh` with the language referenced
+3. Extend `Apply_Link_Check.sh` and `Apply_Linter_Check.sh`
+4. Update `gendocs.sh` and `gendoclsLocal.sh` so you can test it locally and see if the markdown land links make sense for the new language. Use this to file issues or report to the translator if fixes are necessary. Please check for pagination as well when you run it so that at release time, you have a proper PDF immediately
+5. Extend `../.travis.yml` to include the new language
