@@ -15,10 +15,11 @@
 | **4.5** | MSTG‑AUTH‑5 | パスワードポリシーが存在し、リモートエンドポイントで実施されている。 | ✓ | ✓ |
 | **4.6** | MSTG‑AUTH‑6 | リモートエンドポイントは過度な資格情報の送信に対する保護を実装している。 | ✓ | ✓ |
 | **4.7** | MSTG‑AUTH‑7 | 事前に定義された非アクティブ期間およびアクセストークンの有効期限が切れた後に、セッションはリモートエンドポイントで無効にしている。 | ✓ | ✓ |
-| **4.8** | MSTG‑AUTH‑8 | 生体認証が使用される場合は（単に「true」や「false」を返すAPIを使うなどの）イベントバインディングは使用しない。代わりに、キーチェーンやキーストアのアンロックに基づいている。 |   | ✓ |
-| **4.9** | MSTG‑AUTH‑9 | リモートエンドポイントに二要素認証が存在し、リモートエンドポイントで二要素認証要件が一貫して適用されている。 |   | ✓ |
-| **4.10** | MSTG‑AUTH‑10 | 機密トランザクションはステップアップ認証を必要としている。 |   | ✓ |
-| **4.11** | MSTG‑AUTH‑11 | アプリはユーザーのアカウントでのすべてのログインアクティビティをユーザーに通知している。ユーザーはアカウントへのアクセスに使用されるデバイスの一覧を表示し、特定のデバイスをブロックすることができる。 |  | ✓ |
+| **4.8** | MSTG‑AUTH‑8 | 生体認証が使用される場合は（単に「true」や「false」を返すAPIを使うなどの）イベントバインディングは使用しない。代わりに、キーチェーンやキーストアのアンロックに基づいている。 |  | ✓ |
+| **4.9** | MSTG‑AUTH‑9 | リモートエンドポイントに二要素認証が存在し、リモートエンドポイントで二要素認証要件が一貫して適用されている。 |  | ✓ |
+| **4.10** | MSTG‑AUTH‑10 | 機密トランザクションはステップアップ認証を必要としている。 |  | ✓ |
+| **4.11** | MSTG‑AUTH‑11 | アプリはユーザーのアカウントでのすべての機密アクティビティをユーザーに通知している。ユーザーはデバイスの一覧を表示したり、コンテキスト情報 (IP アドレス、位置情報など) を表示したり、特定のデバイスをブロックすることができる。 |  | ✓ |
+| **4.12** | MSTG‑AUTH‑12 | 認可モデルはリモートエンドポイントで定義および実施されている。 | ✓ | ✓ |
 
 <div style="page-break-after: always;">
 </div>
@@ -27,12 +28,12 @@
 
 OWASP モバイルセキュリティテストガイドでは、このセクションに記載されている要件を検証するための詳細な手順を提供しています。
 
-- 総論 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
-- Android 用 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
-- iOS 用 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
+- General: Authentication and Session Management - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
+- Android: Testing Local Authentication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
+- iOS: Testing Local Authentication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
 
 詳しくは以下の情報を参照してください。
 
 - OWASP Mobile Top 10: M4 (Insecure Authentication) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication>
 - OWASP Mobile Top 10: M6 (Insecure Authorization) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization>
-- CWE 287 (Improper Authentication)- <https://cwe.mitre.org/data/definitions/287.html>
+- CWE 287 (Improper Authentication) - <https://cwe.mitre.org/data/definitions/287.html>
