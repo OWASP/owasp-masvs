@@ -24,14 +24,15 @@ MASVS是社区努力和行业反馈的结晶。我们希望该标准会随着时
 
 <br><br>
 
-| 语言 |翻译和审稿 |
+| 语言 |翻译和审核 |
 | --- | --- |
 | 中文 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
-| 法语 | Romuald Szkudlarek, Christian Dong (Review) |
-| 德文 | Rocco Gränitz, Sven Schleier (Review) |
+| 法语 | Romuald Szkudlarek, Christian Dong (审核) |
+| 德文 | Rocco Gränitz, Sven Schleier (审核) |
 | 西班牙语 | Martin Marsicano, Carlos Holguera |
-| 日语 | Koki Takeyama, Riotaro Okada (Review) |
-| 俄语 | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| 日语 | Koki Takeyama, Riotaro Okada (审核) |
+| 俄语 | Gall Maxim, Chelnokov Vladislav (审核), Oprya Egor (审核), Tereshin Dmitry (审核) |
+| 韩语 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 
 本文档是Jim Manico编写的OWASP Application Security Verification Standard的分支
 
