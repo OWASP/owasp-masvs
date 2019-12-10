@@ -25,7 +25,7 @@ PDF/Mobi/Epub/Docx 下载可在[发布页面]（https://github.com/OWASP/owasp-m
 - [法语](https://github.com/OWASP/owasp-masvs/tree/master/Document-fr "French")
 - [日语](https://github.com/OWASP/owasp-masvs/tree/master/Document-ja "Japanese")
 - [中文 - ZHTW](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhtw "Traditional Chinese (ZHTW)")
-- [中文 - ZHCN](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhcn "Simplified Chinese (ZHCN)")
+
 
 ## Gitbook
 
