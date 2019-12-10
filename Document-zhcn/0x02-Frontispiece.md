@@ -36,9 +36,7 @@ MASVS是社区努力和行业反馈的结晶。我们希望该标准会随着时
 
 本文档是Jim Manico编写的OWASP Application Security Verification Standard的分支
 
-## Sponsors
-
-赞助商
+## 赞助商
 
 虽然`MASVS`和`MSTG`都是由社区自愿创建和维护的，但有时需要一点外部帮助。因此，我们感谢赞助商提供了能够聘请技术编辑的资金。请注意，他们的赞助不会以任何方式影响`MASVS`或`MSTG`的内容。赞助方案的描叙[OWASP项目Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
