@@ -7,8 +7,8 @@
 以下更改是版本1.2的一部分：
 
 - 晋升为旗舰店。
-- 要求已更改：“需要使用” MSTG-STORAGE-1。
-- 要求添加了MSTG-STORAGE-13，MSTG-STORAGE-14和MSTG-STORAGE-15，重点是数据保护。
+- 变更要求为：“需要使用” MSTG-STORAGE-1。
+- 在MSTG-STORAGE-13，MSTG-STORAGE-14和MSTG-STORAGE-15，添加了以数据保护为重点的要求。
 - 要求MSTG-AUTH-11已更新，以保留上下文信息。
 - 要求MSTG‑CODE‑4已更新，不仅涉及调试。
 - 添加了要求MSTG‑PLATFORM‑10，以进一步安全使用WebView。
