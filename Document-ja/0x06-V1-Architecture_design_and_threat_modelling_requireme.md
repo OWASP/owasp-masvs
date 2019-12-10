@@ -19,12 +19,14 @@ MASVS-L1 および MASVS-L2 の要件を以下に記します。
 | **1.2** | MSTG‑ARCH‑2 | セキュリティコントロールはクライアント側だけではなくそれぞれのリモートエンドポイントで実施されている。 | ✓ | ✓ |
 | **1.3** | MSTG‑ARCH‑3 | モバイルアプリと接続されるすべてのリモートサービスの高次のアーキテクチャが定義され、そのアーキテクチャにセキュリティが対応されている。 | ✓ | ✓ |
 | **1.4** | MSTG‑ARCH‑4 | モバイルアプリのコンテキストで機密とみなされるデータが明確に特定されている。 | ✓ | ✓ |
-| **1.5** | MSTG‑ARCH‑5 | アプリのすべてのコンポーネントは提供する業務上の機能やセキュリティ上の機能の観点で定義されている。 |   | ✓ |
-| **1.6** | MSTG‑ARCH‑6 | モバイルアプリとそれに関連するリモートサービスの脅威モデルが作られ、潜在的な脅威と対策を特定している。 |   | ✓ |
-| **1.7** | MSTG‑ARCH‑7 | すべてのセキュリティコントロールは集約実装されている。 |   | ✓ |
-| **1.8** | MSTG‑ARCH‑8 | 暗号鍵が（もしあれば）どのように管理されるかについての明確な方針があり、暗号鍵のライフサイクルが施行されている。 NIST SP 800-57 などの鍵管理標準に準拠することが理想的である。 |   | ✓ |
-| **1.9** | MSTG‑ARCH‑9 | モバイルアプリの更新を強制するメカニズムが存在している。 |   | ✓ |
-| **1.10** | MSTG‑ARCH‑10 | セキュリティはソフトウェア開発ライフサイクルのあらゆる部分で対処されている。 |   | ✓ |
+| **1.5** | MSTG‑ARCH‑5 | アプリのすべてのコンポーネントは提供する業務上の機能やセキュリティ上の機能の観点で定義されている。 |  | ✓ |
+| **1.6** | MSTG‑ARCH‑6 | モバイルアプリとそれに関連するリモートサービスの脅威モデルが作られ、潜在的な脅威と対策を特定している。 |  | ✓ |
+| **1.7** | MSTG‑ARCH‑7 | すべてのセキュリティコントロールは集約実装されている。 |  | ✓ |
+| **1.8** | MSTG‑ARCH‑8 | 暗号鍵が（もしあれば）どのように管理されるかについての明確な方針があり、暗号鍵のライフサイクルが施行されている。 NIST SP 800-57 などの鍵管理標準に準拠することが理想的である。 |  | ✓ |
+| **1.9** | MSTG‑ARCH‑9 | モバイルアプリの更新を強制するメカニズムが存在している。 |  | ✓ |
+| **1.10** | MSTG‑ARCH‑10 | セキュリティはソフトウェア開発ライフサイクルのあらゆる部分で対処されている。 |  | ✓ |
+| **1.11** | MSTG‑ARCH‑11 | 責任ある開示ポリシーを用意しており、効果的に適用している。 |  | ✓ |
+| **1.12** | MSTG‑ARCH‑12 | アプリはプライバシーに関する法律および規制に準拠している。 | ✓ | ✓ |
 
 ## 参考情報
 
@@ -32,7 +34,8 @@ MASVS-L1 および MASVS-L2 の要件を以下に記します。
 
 - OWASP Mobile Top 10: M10 (Extraneous Functionality) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality>
 - OWASP Security Architecture cheat sheet - <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
-- OWASP Thread modelling - <https://www.owasp.org/index.php/Application_Threat_Modeling>
+- OWASP Threat modelling - <https://www.owasp.org/index.php/Application_Threat_Modeling>
 - OWASP Secure SDLC Cheat Sheet - <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
 - Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
-- NIST SP 800-57 (Recommendation for Key Management) - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
+- NIST SP 800-57 - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
+- security.txt - <https://securitytxt.org/>
