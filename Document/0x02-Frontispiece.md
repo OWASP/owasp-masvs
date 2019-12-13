@@ -29,9 +29,10 @@ Accounts can be created at the following URL: [https://owasp.slack.com/](https:/
 | Chinese | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | French | Romuald Szkudlarek, Christian Dong (Review) |
 | German | Rocco Gränitz, Sven Schleier (Review) |
-| Spanish | Martin Marsicano, Carlos Holguera |
 | Japanese | Koki Takeyama, Riotaro Okada (Review) |
+| Korean | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung | 
 | Russian | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| Spanish | Martin Marsicano, Carlos Holguera |
 
 This document started as a fork of the OWASP Application Security Verification Standard written by Jim Manico.
 
@@ -42,5 +43,9 @@ While both the MASVS and the MSTG are created and maintained by the community on
 ### Honourable Benefactor
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
+
+### Good Samaritan Benefactor
+
+[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/ "RandoriSec")
 
 Next, we would like to thank the OWASP Bay Area Chapter for their sponsorship. Last, we would like to thank everybody that bought the book from Leanpub and sponsored us that way.
