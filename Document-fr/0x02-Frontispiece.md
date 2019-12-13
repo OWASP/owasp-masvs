@@ -27,10 +27,11 @@ Copyright © 2018 The OWASP Foundation. Ce document est publié sous la licence 
 
 | La langue | Traducteurs et relecteurs |
 | --- | --- |
-| Chinois | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
-| Français | Romuald SZKUDLAREK, Christian Dong (Review) |
 | Allemand | Rocco Gränitz, Sven Schleier (Review) |
+| Chinois | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| Coréen | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | Espanol | Martin Marsicano |
+| Français | Romuald SZKUDLAREK, Christian Dong (Review) |
 | Japonais | Koki Takeyama, Riotaro Okada (Review) |
 | Russe | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
@@ -40,8 +41,12 @@ Ce document est basé sur le Standard de Validation de la Sécurité Applicative
 
 Tant le MASVS que le MSTG ont été créés et sont maintenus par la communauté sur le principe du bénévolat ; ceci dit, un peu d'aide extérieure est parfois nécessaire. Par conséquent, nous remercions nos sponsors de nous avoir fourni les fonds pour pouvoir employer des éditeurs techniques. Il est toutefois important de souligner que leur aide financière n'influence pas le contenu des documents MASVS et MSTG de quelque manière que ce soit. Les conditions de parrainage sont décrites sur le [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
-### Notable Benefactors
+### Honorable Benefactor
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
+
+### Good Samaritan
+
+[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/ "RandoriSec")
 
 Nous aimerions ensuite remercier le chapitre de la région OWASP Bay Area pour son parrainage. Enfin, nous voudrions remercier toutes les personnes qui ont acheté le livre à Leanpub et qui nous ont parrainé de cette manière.
