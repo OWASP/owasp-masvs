@@ -12,7 +12,7 @@ MASVS はコミュニティにおける取組みと業界からのフィード�
 
 アカウントは以下の URL で作成できます。
 
-[http://owasp.herokuapp.com/](https://owasp.slack.com/join/shared_invite/enQtNDI5MzgxMDQ2MTAwLTEyNzIzYWQ2NDZiMGIwNmJhYzYxZDJiNTM0ZmZiZmJlY2EwZmMwYjAyNmJjNzQxNzMyMWY4OTk3ZTQ0MzFhMDY).
+[https://owasp.slack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LWQ2Nzg3NGJiZGQ2MjRmNzkzN2Q4YzU1MWYyZTdjYjA2ZTA5M2RkNzE2ZjdkNzI5ZThhOWY5MjljYWZmYmY4ZjM)
 
 ## 著作権とライセンス
 
@@ -34,9 +34,10 @@ Copyright © 2018 The OWASP Foundation. 本著作物は [Creative Commons Attrib
 | 中国語 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | フランス語 | Romuald Szkudlarek, Christian Dong (Review) |
 | ドイツ語 | Rocco Gränitz, Sven Schleier (Review) |
-| スペイン語 | Martin Marsicano |
 | 日本語 | Koki Takeyama, Riotaro Okada (Review) |
+| 韓国語 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung | 
 | ロシア語 | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| スペイン語 | Martin Marsicano, Carlos Holguera |
 
 本ドキュメントは Jim Manico により執筆された OWASP Web アプリケーションセキュリティ検証標準のフォークとして始まりました。
 
@@ -47,5 +48,9 @@ MASVS と MSTG のいずれもコミュニティにより無償奉仕で作成�
 ### 名誉後援者
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
+
+### 慈善後援者
+
+[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/ "RandoriSec")
 
 次に、OWASPベイエリア支部の後援に感謝します。 最後に、Leanpubからこの本を購入し私たちを支援してくれた皆様に感謝します。
