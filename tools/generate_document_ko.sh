@@ -1,10 +1,10 @@
 #!/bin/bash
 type pandoc >/dev/null 2>&1 || { echo >&2 "I require pandoc but it's not installed.  Aborting."; exit 1; }
 # How to generate Docx
-cd ../Document-de
+cd ../Document-ko
 pandoc -f markdown_github --toc -N --columns 10000 --self-contained -s --reference-doc ../Tools/reference.docx -t docx -o ../Generated/MASVS-de.docx \
 0x00-Header.md \
-CHANGELOG.md \
+Changelog.md \
 Foreword.md \
 0x02-Frontispiece.md \
 0x03-Using_the_MASVS.md \
