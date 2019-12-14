@@ -27,10 +27,11 @@ Las cuentas se pueden crear en la siguiente URL: [https://owasp.slack.com/](http
 
 | Idioma | Traductores y revisores |
 | --- | --- |
-| Chino | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
-| Francés | Romuald Szkudlarek, Christian Dong (revisor) |
 | Alemán | Rocco Gränitz, Sven Schleier (revisor) |
+| Chino | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| Coreano | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | Español | Martin Marsicano, Carlos Holguera |
+| Francés | Romuald Szkudlarek, Christian Dong (revisor) |
 | Japonés | Koki Takeyama, Riotaro Okada (revisor) |
 | Ruso | Gall Maxim, Chelnokov Vladislav (revisor), Oprya Egor (revisor), Tereshin Dmitry (revisor) |
 
@@ -43,5 +44,9 @@ Aunque tanto el MASVS como la MSTG fueron creados y son mantenidos por la comuni
 ### Honorable Benefactor
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
+
+### Good Samaritan
+
+[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/ "RandoriSec")
 
 También nos gustaría agradecer al Capítulo del Área de la Bahía de OWASP por su patrocinio. Por último, nos gustaría agradecer a todos los que compraron el libro en Leanpub y nos patrocinaron de esa manera.
