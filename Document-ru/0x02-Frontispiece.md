@@ -34,6 +34,7 @@ MASVS - итог усилий сообщества и обратной связ�
 | Немецкий | Rocco Gränitz, Sven Schleier (Review) |
 | Испанский | Martin Marsicano, Carlos Holguera |
 | Японский | Koki Takeyama, Riotaro Okada (Review) |
+| Корейский | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | Русский | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
 Работа над документом была начата как ответвление OWASP Application Security Verification Standard, написанного Jim Manico.
