@@ -30,6 +30,7 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 | 德文 | Rocco Gränitz, Sven Schleier (Review) |
 | 西班牙文 | Martin Marsicano |
 | 日文 | Koki Takeyama, Riotaro Okada (Review) |
+| 韓文 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung | 
 | 俄文 | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
 本文檔最初是 Jim Manico 撰寫的 OWASP Application Security Verification Standard 的一個分支。
@@ -41,5 +42,6 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 ### 特別感謝
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
+[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/ "RandoriSec")
 
 接下來，我們要感謝OWASP灣區分會的讚助。 最後，我們要感謝所有從Leanpub購買這本書並以這種方式贊助我們的人。
