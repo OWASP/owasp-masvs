@@ -45,7 +45,7 @@ MASVS是社区努力和行业反馈的成果。我们希望该标准会随着时
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
 
-### Good Samaritan Benefactor
+### 善人赞助
 
 [![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/ "RandoriSec")
 
