@@ -34,6 +34,7 @@ MASVS - итог усилий сообщества и обратной связ�
 | Немецкий | Rocco Gränitz, Sven Schleier (Review) |
 | Испанский | Martin Marsicano, Carlos Holguera |
 | Японский | Koki Takeyama, Riotaro Okada (Review) |
+| Корейский | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | Русский | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
 Работа над документом была начата как ответвление OWASP Application Security Verification Standard, написанного Jim Manico.
@@ -45,5 +46,9 @@ MASVS - итог усилий сообщества и обратной связ�
 ### Почетный благотворитель
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
+
+### Добрый самаритянин
+
+[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/ "RandoriSec")
 
 Далее, мы хотели бы поблагодарить главу OWASP Bay Area за их спонсорскую поддержку. Наконец, мы хотели бы поблагодарить всех, кто купил книгу у Leanpub и спонсировал нас таким образом.
