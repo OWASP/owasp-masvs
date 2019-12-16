@@ -44,4 +44,8 @@ MASVS와 MSTG는 모두 커뮤니티에서 자발적으로 생성되고 유지�
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
 
+### 자선 후원자
+
+[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/ "RandoriSec")
+
 다음으로 우리는 OWASP Bay Area Chapter의 후원에 감사의 말씀을 전합니다. 마지막으로 Leanpub에서 이 책을 구입하여 후원해 주신 모든 분들께 감사드립니다.
