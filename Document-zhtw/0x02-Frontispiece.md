@@ -8,7 +8,8 @@
 
 MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期望這份標準能夠隨著時間演進不斷更新，也十分歡迎來自社群的意見反饋。透過OWASP Mobile Project的Slack channel與我們連絡是聯絡我們的最佳方式，以下是我們的Slack channel連結: <https://owasp.slack.com/messages/project-mobile_omtg/details/>
 
-可以從以下的網址創建帳號：<http://owasp.herokuapp.com/.>
+可以從以下的網址創建帳號：[http://owasp.herokuapp.com/.]
+(https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LWQ2Nzg3NGJiZGQ2MjRmNzkzN2Q4YzU1MWYyZTdjYjA2ZTA5M2RkNzE2ZjdkNzI5ZThhOWY5MjljYWZmYmY4ZjM).
 
 ## 版權和許可
 
@@ -18,7 +19,7 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 
 | 項目負責人 | 主要作者 | 貢獻者和校稿人員
 | --- | --- | --- |
-| Sven Schleier, Jeroen Willemsen and Carlos Holguera| Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
+| Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
 
 <br/><br/>
 
@@ -29,6 +30,7 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 | 德文 | Rocco Gränitz, Sven Schleier (Review) |
 | 西班牙文 | Martin Marsicano |
 | 日文 | Koki Takeyama, Riotaro Okada (Review) |
+| 韓文 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung | 
 | 俄文 | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
 本文檔最初是 Jim Manico 撰寫的 OWASP Application Security Verification Standard 的一個分支。
@@ -40,5 +42,6 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 ### 特別感謝
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
+[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/ "RandoriSec")
 
 接下來，我們要感謝OWASP灣區分會的讚助。 最後，我們要感謝所有從Leanpub購買這本書並以這種方式贊助我們的人。
