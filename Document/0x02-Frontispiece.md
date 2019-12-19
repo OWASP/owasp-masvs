@@ -14,7 +14,7 @@ Accounts can be created at the following URL: [https://owasp.slack.com/](https:/
 
 ## Copyright and License
 
-![license](images/CC-license.png) Copyright © 2018 The OWASP Foundation.This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
+![license](images/CC-license.png) Copyright © 2019 The OWASP Foundation.This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
 
 ## Acknowledgements
 

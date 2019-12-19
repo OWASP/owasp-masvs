@@ -16,7 +16,7 @@ Nutzerkonten können unter folgender URL angelegt werden:
 
 ![license](images/license.png)
 
-Copyright © 2018 The OWASP Foundation. Dieses Dokument ist veröffentlicht unter der Creative Commons Attribution ShareAlike 3.0 Lizenz. Für jedwede Wiederverwendung oder Vertrieb müssen diese Lizenzbestimmungen klar kommuniziert werden.
+Copyright © 2019 The OWASP Foundation. Dieses Dokument ist veröffentlicht unter der Creative Commons Attribution ShareAlike 3.0 Lizenz. Für jedwede Wiederverwendung oder Vertrieb müssen diese Lizenzbestimmungen klar kommuniziert werden.
 
 <div style="page-break-after: always;">
 </div>
