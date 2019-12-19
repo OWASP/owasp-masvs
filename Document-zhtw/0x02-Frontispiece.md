@@ -13,7 +13,7 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 
 ## 版權和許可
 
-![license](images/license.png) Copyright © 2018 The OWASP Foundation. 本文檔在 Creative Commons Attribution ShareAlike 3.0 協議許可下發布。 對於任何二次使用或發布，你必須向其他人說明清楚這項成果的版權。
+![license](images/license.png) Copyright © 2019 The OWASP Foundation. 本文檔在 Creative Commons Attribution ShareAlike 3.0 協議許可下發布。 對於任何二次使用或發布，你必須向其他人說明清楚這項成果的版權。
 
 ## 致謝
 
