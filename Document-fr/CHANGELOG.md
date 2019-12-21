@@ -2,7 +2,7 @@
 
 Ce document est généré automatiquement à {{gitbook.time}}
 
-## V1.2-RC 
+## V1.2-RC
 
 Les changement suivants font partie de la livraison 1.2:
 
@@ -21,6 +21,7 @@ Les changement suivants font partie de la livraison 1.2:
 - Création d'un style cohérent pour toutes les références.
 - Exigence MSTG-PLATFORM-11 ajoutée pour contrer les menaces pouvant provenir des claviers tiers.
 - Exigence MSTG-RESILIENCE-13 pour offrir un niveau de contrôle supplémentaire avec du chiffrement au niveau applicatif afin d'entraver l'écoute par un attaquant.
+
 ## V1.1.4 4 Juillet 2019 - Summit edition
 
 - Corrections d'erreurs de markdown.
