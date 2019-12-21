@@ -45,3 +45,4 @@ When you want to add another langauge:
 4. Update `gendocs.sh` and `gendoclsLocal.sh` so you can test it locally and see if the markdown land links make sense for the new language. Use this to file issues or report to the translator if fixes are necessary. Please check for pagination as well when you run it so that at release time, you have a proper PDF immediately
 5. Extend `../.travis.yml` to include the new language
 6. Update `../LANGS.md` to include the new language
+7. Extend the `../README.md` with the newly available language
