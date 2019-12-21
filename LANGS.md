@@ -5,5 +5,6 @@
 - [French](Document-fr/)
 - [German](Document-de/)
 - [Japanese](Document-ja/)
+- [Korean](Document-ku)
 - [Russian](Document-ru/)
 - [Traditional Chinese](Document-zhtw/)
