@@ -62,6 +62,7 @@ apply_link_check_lang de
 apply_link_check_lang es
 apply_link_check_lang fr
 apply_link_check_lang ja
+apply_link_check_lang ko
 apply_link_check_lang ru
 apply_link_check_lang zhtw
 finalize
