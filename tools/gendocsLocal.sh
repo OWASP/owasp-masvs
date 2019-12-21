@@ -12,8 +12,9 @@ LINKRESULT=$?
 echo "Number of errors with link-check: $LINKRESULT"
 
 echo "Running creaton of pdfs and word documents"
-mkdir ../Generated
+mkdir -p ../Generated
 rm ../Generated/*.*
+echo "cleanup completed"
 sh ./gitbookepubandpdf.sh $1
 sh ./generate_document.sh $1
 sh ./generate_document_de.sh $1
