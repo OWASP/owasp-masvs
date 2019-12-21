@@ -23,7 +23,7 @@ Copyright © 2019 The OWASP Foundation. Ce document est publié sous la licence 
 
 | Chef de Projet | Auteur Principal | Contributeurs et Relecteurs
 | --- | --- | --- |
-| Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
+| Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Eugen Martynov, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abderrahmane Aftahi, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
 
 | La langue | Traducteurs et relecteurs |
 | --- | --- |
@@ -31,7 +31,7 @@ Copyright © 2019 The OWASP Foundation. Ce document est publié sous la licence 
 | Chinois | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | Coréen | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | Espagnol | Martin Marsicano, Carlos Holguera |
-| Français | Romuald SZKUDLAREK, Christian Dong (Review) |
+| Français | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | Japonais | Koki Takeyama, Riotaro Okada (Review) |
 | Russe | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
