@@ -12,6 +12,7 @@ LINKRESULT=$?
 echo "Number of errors with link-check: $LINKRESULT"
 
 echo "Running creaton of pdfs and word documents"
+mkdir ../Generated
 rm ../Generated/*.*
 sh ./gitbookepubandpdf.sh $1
 sh ./generate_document.sh $1
@@ -19,6 +20,7 @@ sh ./generate_document_de.sh $1
 sh ./generate_document_es.sh $1
 sh ./generate_document_fr.sh $1
 sh ./generate_document_ja.sh $1
+sh ./generate_document_ko.sh $1
 sh ./generate_document_ru.sh $1
 sh ./generate_document_zhtw.sh $1
 
@@ -28,5 +30,6 @@ sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Docum
 sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-fr.epub
 sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-es.epub
 sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-ja.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-ko.epub
 sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-ru.epub
 sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-zhtw.epub
