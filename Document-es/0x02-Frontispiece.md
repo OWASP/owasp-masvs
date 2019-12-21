@@ -33,7 +33,7 @@ Las cuentas se pueden crear en la siguiente URL: [https://owasp.slack.com/](http
 | Español | Martin Marsicano, Carlos Holguera |
 | Francés | Romuald Szkudlarek, Christian Dong (revisor) |
 | Japonés | Koki Takeyama, Riotaro Okada (revisor) |
-| Ruso | Gall Maxim, Chelnokov Vladislav (revisor), Oprya Egor (revisor), Tereshin Dmitry (revisor) |
+| Ruso | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (revisor), Oprya Egor (revisor), Tereshin Dmitry (revisor) |
 
 Este documento comenzó como un _fork_ del Estándar de Verificación de Seguridad de Aplicaciones de OWASP escrito por Jim Manico.
 

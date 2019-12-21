@@ -30,8 +30,8 @@ Accounts can be created at the following URL: [https://owasp.slack.com/](https:/
 | French | Romuald Szkudlarek, Christian Dong (Review) |
 | German | Rocco Gränitz, Sven Schleier (Review) |
 | Japanese | Koki Takeyama, Riotaro Okada (Review) |
-| Korean | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung | 
-| Russian | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| Korean | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
+| Russian | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | Spanish | Martin Marsicano, Carlos Holguera |
 
 This document started as a fork of the OWASP Application Security Verification Standard written by Jim Manico.

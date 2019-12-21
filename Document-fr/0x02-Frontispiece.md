@@ -30,10 +30,10 @@ Copyright © 2019 The OWASP Foundation. Ce document est publié sous la licence 
 | Allemand | Rocco Gränitz, Sven Schleier (Review) |
 | Chinois | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | Coréen | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
-| Espanol | Martin Marsicano |
+| Espagnol | Martin Marsicano, Carlos Holguera |
 | Français | Romuald SZKUDLAREK, Christian Dong (Review) |
 | Japonais | Koki Takeyama, Riotaro Okada (Review) |
-| Russe | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| Russe | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
 Ce document est basé sur le Standard de Validation de la Sécurité Applicative de l'OWASP, le OWASP Application Security Verification Standard écrit par Jim Manico.
 
