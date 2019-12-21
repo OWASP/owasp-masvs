@@ -29,9 +29,9 @@ MASVS는 커뮤니티 활동과 업계 피드백의 성과입니다. 우리는 �
 | 중국어 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | 프랑스어 | Romuald Szkudlarek, Christian Dong (Review) |
 | 독일어 | Rocco Gränitz, Sven Schleier (Review) |
-| 스페인어 | Martin Marsicano |
+| 스페인어 | Martin Marsicano, Carlos Holguera |
 | 일본어 | Koki Takeyama, Riotaro Okada (Review) |
-| 러시어아 | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| 러시어아 | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | 한국어 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 
 본 문서는 Jim Manico가 작성한 OWASP 애플리케이션 보안 검증 표준의 포크로 시작되었습니다.

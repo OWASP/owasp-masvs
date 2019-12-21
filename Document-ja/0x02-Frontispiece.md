@@ -35,8 +35,8 @@ Copyright © 2019 The OWASP Foundation. 本著作物は [Creative Commons Attrib
 | フランス語 | Romuald Szkudlarek, Christian Dong (Review) |
 | ドイツ語 | Rocco Gränitz, Sven Schleier (Review) |
 | 日本語 | Koki Takeyama, Riotaro Okada (Review) |
-| 韓国語 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung | 
-| ロシア語 | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| 韓国語 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
+| ロシア語 | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | スペイン語 | Martin Marsicano, Carlos Holguera |
 
 本ドキュメントは Jim Manico により執筆された OWASP Web アプリケーションセキュリティ検証標準のフォークとして始まりました。
