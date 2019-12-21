@@ -6,16 +6,16 @@ if [[ $# -eq 0 ]] ; then
     exit 0
 fi
 echo 'Versiontag is' $1
-echo 'setting up book.json for en/de/es/fr/ja/ru/zhtw/'
+echo 'setting up book.json for en/de/es/fr/ja/ko/ru/zhtw/'
 cp book.json ../book.json
 sed -i.bak "s/\[\]/$1/g" ../book.json
 rm ../book.json.bak
 echo 'setting up new GLOSSARY.MD per language'
 
 update_english_doc() {
+  echo "Updating Glossary for $1 at ENG"
   rm ../Document/GLOSSARY.md
   cp ../Document/0x90-Appendix-A_Glossary.md ../Document/GLOSSARY.md
-
   sed -i.bak "s/\- \*\*/## /g" ../Document/GLOSSARY.md
   gsed -i.bak "s/##/\n##/g" ../Document/GLOSSARY.md
   gsed -i.bak "s/\*\* \– /\n\n/g" ../Document/GLOSSARY.md
@@ -25,6 +25,7 @@ update_english_doc() {
 }
 
 update_glossary() {
+  echo "Updating Glossary for $1 at $2"
   rm ../Document-$2/GLOSSARY.md
   cp ../Document-$2/0x90-Appendix-A_Glossary.md ../Document-$2/GLOSSARY.md
   sed -i.bak "s/\- \*\*/## /g" ../Document-$2/GLOSSARY.md
