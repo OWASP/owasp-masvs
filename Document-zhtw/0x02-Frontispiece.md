@@ -28,10 +28,10 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 | 繁體中文 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | 法文 | Romuald SZKUDLAREK, Christian Dong (Review) |
 | 德文 | Rocco Gränitz, Sven Schleier (Review) |
-| 西班牙文 | Martin Marsicano |
+| 西班牙文 | Martin Marsicano, Carlos Holguera |
 | 日文 | Koki Takeyama, Riotaro Okada (Review) |
-| 韓文 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung | 
-| 俄文 | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| 韓文 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
+| 俄文 | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
 本文檔最初是 Jim Manico 撰寫的 OWASP Application Security Verification Standard 的一個分支。
 
