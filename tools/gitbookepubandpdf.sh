@@ -2,11 +2,11 @@
 echo "Usage: ./gitbookepubandpdf VERSIONTAG"
 echo "Do not forget to install npm, gitbookcli (https://www.npmjs.com/package/gitbook-cli), calibre (brew cask install calibre on Mac OS X)"
 if [[ $# -eq 0 ]] ; then
-    echo 'Please give a VERSIONTAG (default/1.1.1)'
+    echo 'Please give a VERSIONTAG (default/1.2.0)'
     exit 0
 fi
 echo 'Versiontag is' $1
-echo 'setting up book.json for en/de/es/fr/ja/ru/zhtw'
+echo 'setting up book.json for en/de/es/fr/ja/ru/zhtw/'
 cp book.json ../book.json
 sed -i.bak "s/\[\]/$1/g" ../book.json
 rm ../book.json.bak
@@ -39,6 +39,7 @@ update_glossary $1 de
 update_glossary $1 es
 update_glossary $1 fr
 update_glossary $1 ja
+update_glossary $1 ko
 update_glossary $1 ru
 update_glossary $1 zhtw
 
