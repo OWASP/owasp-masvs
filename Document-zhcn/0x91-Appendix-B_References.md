@@ -9,6 +9,6 @@
 
 相同的，下列网站可以帮助使用者/采纳者更了解这个标准：
 
-- MITRE 常见弱点列举 - [http://cwe.mitre.org/](http://cwe.mitre.org/)
+- MITRE 常见弱点列举 - [https://cwe.mitre.org/](https://cwe.mitre.org/)
 - PCI 安全性标准委员会 - [https://www.pcisecuritystandards.org](https://www.pcisecuritystandards.org)
 - PCI 数据安全标准 (DSS) 要求和安全评估程序 第三版 - [https://www.pcisecuritystandards.org/documents/PCI\_DSS\_v3.pdf](https://www.pcisecuritystandards.org/documents/PCI_DSS_v3.pdf)
