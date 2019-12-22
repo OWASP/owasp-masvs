@@ -26,11 +26,11 @@ sh ./generate_document_ru.sh $1
 sh ./generate_document_zhtw.sh $1
 
 echo "Checking epub validity"
-sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document.epub
-sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-de.epub
-sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-fr.epub
-sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-es.epub
-sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-ja.epub
-sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-ko.epub
-sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-ru.epub
-sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_latest_Document-zhtw.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1_Document.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1_Document-de.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1_Document-fr.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1_Document-es.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1_Document-ja.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1_Document-ko.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1_Document-ru.epub
+sh epubcheck ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1_Document-zhtw.epub
