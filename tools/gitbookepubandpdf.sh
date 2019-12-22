@@ -44,9 +44,10 @@ update_glossary $1 ko
 update_glossary $1 ru
 update_glossary $1 zhtw
 
-
+echo "installing gitbook in root"
 gitbook install ../
 
+echo "generating pdfs, epub and mobi"
 gitbook pdf ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.pdf
 gitbook epub ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.epub
 gitbook mobi ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.mobi
