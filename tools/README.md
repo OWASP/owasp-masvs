@@ -28,7 +28,7 @@ Files:
 ## Release process
 
 1. Sync @sushi2k's repository
-2. Update the Changelog.md
+2. Update the Changelog.md: make sure it says release in every changelog, including of all the translations! (so no pre-release/RC client, etc.)
 3. Commit the changes (with message `Release <version>`)
 4. Push a tag with the new version (`git tag -a <version> -m "Release message that will be on github`)
 5. Update the Leanpub Files
@@ -44,3 +44,5 @@ When you want to add another langauge:
 3. Extend `Apply_Link_Check.sh` and `Apply_Linter_Check.sh`
 4. Update `gendocs.sh` and `gendoclsLocal.sh` so you can test it locally and see if the markdown land links make sense for the new language. Use this to file issues or report to the translator if fixes are necessary. Please check for pagination as well when you run it so that at release time, you have a proper PDF immediately
 5. Extend `../.travis.yml` to include the new language
+6. Update `../LANGS.md` to include the new language
+7. Extend the `../README.md` with the newly available language
