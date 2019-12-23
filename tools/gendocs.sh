@@ -43,5 +43,6 @@ sh ./generate_document_de.sh $TRAVIS_TAG
 sh ./generate_document_es.sh $TRAVIS_TAG
 sh ./generate_document_fr.sh $TRAVIS_TAG
 sh ./generate_document_ja.sh $TRAVIS_TAG
+sh ./generate_document_ko.sh $TRAVIS_TAG
 sh ./generate_document_ru.sh $TRAVIS_TAG
 sh ./generate_document_zhtw.sh $TRAVIS_TAG

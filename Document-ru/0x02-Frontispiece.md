@@ -16,7 +16,7 @@ MASVS - итог усилий сообщества и обратной связ�
 
 ## Авторское право и лицензия
 
-![license](images/CC-license.png) Copyright © 2018 The OWASP Foundation. Данный документ выпущен под лицензией Creative Commons Attribution ShareAlike 4.0 International . Для использования или распространения необходимо разъяснить всем сторонам правила лицензии этой работы.
+![license](images/CC-license.png) Copyright © 2019 The OWASP Foundation. Данный документ выпущен под лицензией Creative Commons Attribution ShareAlike 4.0 International . Для использования или распространения необходимо разъяснить всем сторонам правила лицензии этой работы.
 
 <div style="page-break-after: always;">
 </div>
@@ -25,17 +25,17 @@ MASVS - итог усилий сообщества и обратной связ�
 
 | Руководитель проекта | Главные авторы | Авторы и рецензенты |
 | --- | --- | --- |
-| Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
+| Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Eugen Martynov, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abderrahmane Aftahi, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
 
 | Язык | Переводчики и рецензенты |
 | --- | --- |
 | Китайский | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
-| Французский | Romuald Szkudlarek, Christian Dong (Review) |
+| Французский | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | Немецкий | Rocco Gränitz, Sven Schleier (Review) |
 | Испанский | Martin Marsicano, Carlos Holguera |
 | Японский | Koki Takeyama, Riotaro Okada (Review) |
 | Корейский | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
-| Русский | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| Русский | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
 Работа над документом была начата как ответвление OWASP Application Security Verification Standard, написанного Jim Manico.
 

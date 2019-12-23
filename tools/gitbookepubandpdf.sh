@@ -2,20 +2,20 @@
 echo "Usage: ./gitbookepubandpdf VERSIONTAG"
 echo "Do not forget to install npm, gitbookcli (https://www.npmjs.com/package/gitbook-cli), calibre (brew cask install calibre on Mac OS X)"
 if [[ $# -eq 0 ]] ; then
-    echo 'Please give a VERSIONTAG (default/1.1.1)'
+    echo 'Please give a VERSIONTAG (default/1.2.0)'
     exit 0
 fi
 echo 'Versiontag is' $1
-echo 'setting up book.json for en/de/es/fr/ja/ru/zhtw'
+echo 'setting up book.json for en/de/es/fr/ja/ko/ru/zhtw/'
 cp book.json ../book.json
 sed -i.bak "s/\[\]/$1/g" ../book.json
 rm ../book.json.bak
 echo 'setting up new GLOSSARY.MD per language'
 
 update_english_doc() {
+  echo "Updating Glossary for $1 at ENG"
   rm ../Document/GLOSSARY.md
   cp ../Document/0x90-Appendix-A_Glossary.md ../Document/GLOSSARY.md
-
   sed -i.bak "s/\- \*\*/## /g" ../Document/GLOSSARY.md
   gsed -i.bak "s/##/\n##/g" ../Document/GLOSSARY.md
   gsed -i.bak "s/\*\* \– /\n\n/g" ../Document/GLOSSARY.md
@@ -25,6 +25,7 @@ update_english_doc() {
 }
 
 update_glossary() {
+  echo "Updating Glossary for $1 at $2"
   rm ../Document-$2/GLOSSARY.md
   cp ../Document-$2/0x90-Appendix-A_Glossary.md ../Document-$2/GLOSSARY.md
   sed -i.bak "s/\- \*\*/## /g" ../Document-$2/GLOSSARY.md
@@ -39,12 +40,14 @@ update_glossary $1 de
 update_glossary $1 es
 update_glossary $1 fr
 update_glossary $1 ja
+update_glossary $1 ko
 update_glossary $1 ru
 update_glossary $1 zhtw
 
-
+echo "installing gitbook in root"
 gitbook install ../
 
+echo "generating pdfs, epub and mobi"
 gitbook pdf ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.pdf
 gitbook epub ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.epub
 gitbook mobi ../ ../Generated/OWASP_Mobile_AppSec_Verification_Standard_$1.mobi

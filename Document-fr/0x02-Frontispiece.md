@@ -14,7 +14,7 @@ Un compte peut être créé à l'endroit suivant: <http://owasp.herokuapp.com/>.
 
 ![license](images/CC-license.png)
 
-Copyright © 2018 The OWASP Foundation. Ce document est publié sous la licence Creative Commons Attribution ShareAlike 4.0 International. Pour toute ré-utilisation ou distribution, il est obligatoire d'attribuer la licence de ce travail aux auteurs.
+Copyright © 2019 The OWASP Foundation. Ce document est publié sous la licence Creative Commons Attribution ShareAlike 4.0 International. Pour toute ré-utilisation ou distribution, il est obligatoire d'attribuer la licence de ce travail aux auteurs.
 
 <div style="page-break-after: always;">
 </div>
@@ -23,17 +23,17 @@ Copyright © 2018 The OWASP Foundation. Ce document est publié sous la licence 
 
 | Chef de Projet | Auteur Principal | Contributeurs et Relecteurs
 | --- | --- | --- |
-| Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
+| Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Eugen Martynov, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abderrahmane Aftahi, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
 
 | La langue | Traducteurs et relecteurs |
 | --- | --- |
 | Allemand | Rocco Gränitz, Sven Schleier (Review) |
 | Chinois | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | Coréen | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
-| Espanol | Martin Marsicano |
-| Français | Romuald SZKUDLAREK, Christian Dong (Review) |
+| Espagnol | Martin Marsicano, Carlos Holguera |
+| Français | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | Japonais | Koki Takeyama, Riotaro Okada (Review) |
-| Russe | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| Russe | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
 Ce document est basé sur le Standard de Validation de la Sécurité Applicative de l'OWASP, le OWASP Application Security Verification Standard écrit par Jim Manico.
 
