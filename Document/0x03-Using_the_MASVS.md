@@ -18,6 +18,10 @@ Fulfilling the requirements in MASVS-L1 results in a secure app that follows sec
 
 ![Verification Levels](images/masvs-levels-new.jpg)
 
+<br/>
+<br/>
+<br/>
+
 ### Document Structure
 
 The first part of the MASVS contains a description of the security model and available verification levels, followed by recommendations on how to use the standard in practice. The detailed security requirements, along with a mapping to the verification levels, are listed in the second part. The requirements have been grouped into eight categories (V1 to V8) based on technical objective / scope. The following nomenclature is used throughout the MASVS and MSTG:

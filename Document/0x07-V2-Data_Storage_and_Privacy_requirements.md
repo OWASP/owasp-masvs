@@ -39,6 +39,9 @@ The vast majority of data disclosure issues can be prevented by following simple
 | **2.14** | MSTG‑STORAGE‑14 | If sensitive data is still required to be stored locally, it should be encrypted using a key derived from hardware backed storage which requires authentication. |  | ✓ |
 | **2.15** | MSTG‑STORAGE‑15 | The app’s local storage should be wiped after an excessive number of failed authentication attempts. |  | ✓ |
 
+<div style="page-break-after: always;">
+</div>
+
 ## References
 
 The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.

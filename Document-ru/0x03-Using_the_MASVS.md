@@ -19,6 +19,8 @@ MASVS определяет два уровня проверки безопасн
 ![Verification Levels](images/masvs-levels-new.jpg)
 
 <br/>
+<br/>
+<br/>
 
 ### Структура документа
 

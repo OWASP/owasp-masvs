@@ -25,6 +25,11 @@ Los informes creados por organismos de certificación deberían incluir los sigu
 
 Nòtese que no basta con simplemente ejecutar una herramienta y presentar un informe sobre los fallos; esto no aporta suficientes evidencias de que se han analizado y probado a fondo todos los aspectos a nivel de una certificación. En caso de controversia, debe haber pruebas suficientes para demostrar que todos los requerimientos verificados han sido efectivamente probados.
 
+<br/>
+<br/>
+<br/>
+<br/>
+
 ### Usando la Guía de Pruebas de Seguridad Móvil de OWASP (MSTG)
 
 La OWASP MSTG es una guía para la verificación de la seguridad de las aplicaciones móviles. Describe los procedimientos técnicos para verificar los requerimientos listados en el MASVS. La MSTG incluye una lista de casos de prueba, cada uno de los cuales se corresponde con un requerimiento del MASVS. Mientras que los requerimientos del MASVS son de alto nivel y genéricos, la MSTG proporciona recomendaciones detalladas y procedimientos de verificación para cada uno de los sistemas operativos móviles.
