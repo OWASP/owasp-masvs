@@ -59,7 +59,6 @@ Se aplican las siguientes consideraciones:
 | --- | --- | --- | -- |
 | **8.13** | MSTG‑RESILIENCE‑13 | A modo de defensa en profundidad, además de incluir un refuerzo (hardening) sólido de la comunicación, puede implementarse el cifrado de datos (payloads) a nivel de aplicación como medida adicional contra ataques de eavesdropping. | ✓ |
 
-
 ## Referencias
 
 La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detalladas para verificar los requisitos listados en esta sección.
