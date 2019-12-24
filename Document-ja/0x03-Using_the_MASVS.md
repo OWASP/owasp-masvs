@@ -18,8 +18,9 @@ MASVS-L1 の要件を満たすことで、セキュリティベストプラク�
 
 ![検証レベル](images/masvs-levels-new_ja.jpg)
 
-&nbsp;
-&nbsp;
+<br/>
+<br/>
+<br/>
 
 ### ドキュメントの構成
 

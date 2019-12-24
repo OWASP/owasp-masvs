@@ -71,6 +71,9 @@ L'implémentation des exigences MASVS L2 améliore la sécurité, mais peut en m
 
 - Industrie Financière : Applications mobiles qui donnent accès à des informations hautement sensibles telles que des numéros de cartes de crédit, des informations personnelles ou permettent des mouvements de fonds. Ces applications justifient l'implémentation de contrôles de sécurité additionnels pour contrer la fraude. Les applications du monde de la finance doivent être conformes au standard Payment Card Industry Data Security Standard (PCI DSS), au Gramm Leech Bliley Act et au Sarbanes-Oxley Act (SOX).
 
+<br/>
+<br/>
+
 ###### MASVS L1+R
 
 - Applications mobiles où la protection de la propriété intellectuelle est un objectif commercial. Les contrôles contribuant à la résistance listés dans MASVS-R peuvent être utilisés pour augmenter la quantité d'effort requis pour obtenir le code source d'origine et pour entraver les possibilités de manipulation / de piratage.
