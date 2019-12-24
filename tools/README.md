@@ -27,13 +27,23 @@ Files:
 
 ## Release process
 
+Checks before releasing after installing all local tooling (run `before_install.sh`):
+
+1. Make sure that spacing in PDFS is done correctly (run `gendocsLocal.sh` and check the PDFs).
+2. Make sure that all languages are supported by scripting. (see Adding another langauge for checkpoints or run `gendocsLocal.sh`)
+3. Make sure that all markdown errors and epub issues are resolved (run `gendocsLocal.sh` and check the output)
+4. Make sure that the translator table and releasenotes are in sync over all languages
+
+All checks done? Start the release-process:
+
 1. Sync @sushi2k's repository
 2. Update the Changelog.md: make sure it says release in every changelog, including of all the translations! (so no pre-release/RC client, etc.)
 3. Commit the changes (with message `Release <version>`)
 4. Push a tag with the new version (`git tag -a <version> -m "Release message that will be on github`)
 5. Update the Leanpub Files
 6. Update OWASP Wiki if necessary
-7. Tweet about it with @OWASP-MSTG.
+7. Tweet about it with @OWASP-MSTG
+8. Post about it on LinkedIn.
 
 ## Adding another language
 

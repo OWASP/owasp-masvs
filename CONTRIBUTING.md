@@ -57,7 +57,7 @@ Translating the MASVS in a new language is great, but given the nature of the MA
 2. Create a pull request for the langauge you want to support. All you have to do is create a copy of the `Document` folder and commit it, annotated with the language of your choice. For instance, if you want to translate the document into Dutch (NL), you create a copy of the `Document` folder and commit it as `Document-nl`.
 3. Start the actual translation, one PR after another, which then needs to be reviewed by your fellow translator. Try to do this 1 chapter per PR, so that the reviewer can give feedback on short submissions without being overwhelmed.
 4. When you have started with 3, contact us, so we can help you with the necessary scripts to automatically generate PDFS/Epubs/Mobi files so you can see how your translation looks in those formats.
-5. Once all the chapters are translated, we can start creating a release.
+5. Once all the chapters are translated, we can start creating a release. The instructions for that are in the [Readme of the Tools folder](https://github.com/OWASP/owasp-masvs/tree/master/tools#adding-another-language "Readme in Tools folder")
 
 Note that after your translation, we will ask your help to translate any changes as well, so your language can remain up to date. Otherwise we can only create a one-time-release.
 

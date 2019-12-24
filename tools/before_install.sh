@@ -10,3 +10,5 @@ brew install pandoc
 brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/0609402ee984aa887752a205b3086191aed1385e/Casks/calibre.rb 
 brew install epubcheck
 brew install gnu-sed
+npm install markdownlint-cli -g
+npm install gitbook-cli -g
