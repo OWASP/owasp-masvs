@@ -20,6 +20,9 @@ Une organisation certifiante doit inclure dans tout rapport le périmètre de la
 
 Le MSTG de l'OWASP est un manuel pour tester la sécurité des applications mobiles. Il décrit les processus techniques pour valider les exigences listées dans le MASVS. Le MSTG comporte une liste de cas de tests, chacun relié à une exigence du MASVS. Tandis que les exigences du MASVS sont de haut niveau et génériques, le MSTG fournit des recommandations en profondeur et des procédures de test par type de système d'exploitation mobile.
 
+&nbsp;
+&nbsp;
+
 ### Le Role des Outils de Test Automatique
 
 L'utilisation d'outils d'analyse de code source ou de test en boîte noire est encouragé dans le but d'améliorer l'efficacité dès que cela est possible. Cependant, il n'est pas possible de mener à bien toute la validation proposée par le MASVS en utilisant seulement des outils automatiques : chaque application mobile a ses spécificités et la compréhension de l'architecture d'ensemble, la logique d'affaire et les limites techniques des technologies et frameworks utilisés est obligatoire pour valider la sécurité d'une application.

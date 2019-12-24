@@ -39,9 +39,6 @@ La gran mayoría de las cuestiones relativas a la divulgación de datos pueden p
 | **2.14** | MSTG‑STORAGE‑14 | En caso de ser necesario guardar información sensible de forma local, ésta debe de ser cifrada usando una clave derivada del hardware de almacenamiento seguro, el cual debe requerir autenticación previa. |  | ✓ |
 | **2.15** | MSTG‑STORAGE‑15 | El almacenamiento local de la aplicación debe de ser borrado trás un número excesivo de intentos fallidos de autenticación. |  | ✓ |
 
-<div style="page-break-after: always;">
-</div>
-
 ## Referencias
 
 La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detalladas para verificar los requisitos listados en esta sección.

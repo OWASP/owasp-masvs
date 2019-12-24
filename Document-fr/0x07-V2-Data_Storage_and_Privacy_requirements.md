@@ -39,9 +39,6 @@ La grande majorité des problèmes de divulgation de données peuvent être emp�
 | **2.14** | MSTG‑STORAGE‑14 | Si le stockage des données sensibles localement est encore exigé, ces dernières doivent être chiffrées par une clé dérivée d'un stockage matériel qui exige l'authentification. |  | ✓ |
 | **2.15** | MSTG‑STORAGE‑15 | Le stockage local de l'application doit être effacé après un nombre excessif de tentatives d'authentification erronées. |  | ✓ |
 
-<div style="page-break-after: always;">
-</div>
-
 ## Références
 
 Le Mobile Security Testing Guide de l'OWASP donne des instructions détaillées pour valider les exigences listées dans cette section.

@@ -20,9 +20,6 @@ Le but des contrôles de ce groupe est de garantir que l'application utilise les
 | **6.10** | MSTG‑PLATFORM‑10 | Le cache, le stockage et les ressources téléchargées (JavaScript, etc.) d'une WebView doivent être supprimés avant que la WebView soit détruite. |  | ✓ |
 | **6.11** | MSTG‑PLATFORM‑11 | Vérifier que l'application n'autorise pas l'utilisation des claviers tiers personnalisés lors de la saisie des données sensibles. |  | ✓ |
 
-<div style="page-break-after: always;">
-</div>
-
 ## Références
 
 Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.

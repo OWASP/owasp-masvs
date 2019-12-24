@@ -54,9 +54,6 @@ Folgende Eckpunkte gelten:
 | --- | --- | --- | -- |
 | **8.13** | MSTG‑RESILIENCE‑13 | Neben einer gehärteten Kommunikation zwischen Client und API-Endpunkt, sollte auch der übertragene Payload verschlüsselt werden um das Abhören von Daten zu erschweren. | ✓ |
 
-<div style="page-break-after: always;" >
-</div>
-
 ## Referenzen
 
 Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die Anforderungen aus dieser Kategorie zu überprüfen.

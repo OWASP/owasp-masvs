@@ -39,6 +39,9 @@ MASVS-L2 introduit des contrôles de sécurité plus poussés qui vont au delà 
 
 L'application implémente des contrôles au niveau de l'état de l'art en matière de sécurité, et est aussi résistante à des attaques clairement spécifiques au côté client telles que la manipulation, le moddage ou la rétro-ingénierie visant à extraire des parties de code ou des données sensibles. Une telle application met en oeuvre des fonctions de sécurité matérielles ou des techniques de protection logicielles vérifiables et offrant un bon niveau de robustesse. MASVS-R est applicable aux applications qui gèrent des données sensibles et peut servir de moyen de protection de propriété intellectuelle ou contre la manipulation d'une application.
 
+&nbsp;
+&nbsp;
+
 ### Utilisation Recommandée
 
 Les applications peuvent être validées par rapport à MASVS L1 ou L2 en fonction des évaluations de risque précédentes et du niveau de sécurité requis. L1 s'applique à tout type d'application mobile tandis que L2 est générallement recommandé pour des applications qui gèrent des données ou des fonctionnalités plus sensibles. MASVS-R (ou du moins une partie) peut être appliqué pour la validation de la résistance à des menaces spécifiques telles que le ré-empaquetage ou l'extraction de données sensibles, *en plus* d'une validation de sécurité appropriée.

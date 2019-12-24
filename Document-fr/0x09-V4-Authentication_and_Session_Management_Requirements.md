@@ -19,9 +19,10 @@ Dans la plupart des cas, la connexion des utilisateurs à un service distant doi
 | **4.9** | MSTG‑AUTH‑9 | Un second facteur d'authentification est disponible sur le point terminal distant et l'exigence d'authentification à deux facteurs est mise en application de façon systématique.  |   | ✓ |
 | **4.10** | MSTG‑AUTH‑10 | Les transactions sensibles requièrent une authentification améliorée.  |   | ✓ |
 | **4.11** | MSTG‑AUTH‑11 | L'application informe les utilisateurs de toutes les activités critiques sur leurs comptes. Les utilisateurs ont accès à la liste des appareils utilisés pour accéder à leurs comptes, accès aux informations contextuelles (adresse IP, localisation, etc...), et peuvent bloquer certains appareils. |  | ✓ |
-| **4.12** | MSTG‑AUTH‑12 | Des modèles d'autorisation doivent être définis et mis en oeuvre au niveau du point terminal distant. | ✓ | ✓ |
 
-<br/>
+| # | MSTG-ID | Description | L1 | L2 |
+| --- | --- | --- | --- | --- |
+| **4.12** | MSTG‑AUTH‑12 | Des modèles d'autorisation doivent être définis et mis en oeuvre au niveau du point terminal distant. | ✓ | ✓ |
 
 ## Références
 

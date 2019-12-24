@@ -20,6 +20,9 @@ Die Anforderungen aus dieser Kategorie sollen sicherstellen, dass Plattform-Komp
 | **6.10** | MSTG‑PLATFORM‑10 | Cache, Speicher und geladene Ressourcen (JavaScript usw.) eines WebViews sollten gelöscht werden bevor der WebView geschlossen wird.  |  | ✓ |
 | **6.11** | MSTG‑PLATFORM‑11 | Die App sollte verhindern das 3rd Party Tastaturen verwendet werden, wenn sensible Daten eingegeben werden. |  | ✓ |
 
+&nbsp;
+&nbsp;
+
 ## Referenzen
 
 Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die Anforderungen aus dieser Kategorie zu überprüfen.
