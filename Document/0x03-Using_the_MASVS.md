@@ -55,8 +55,13 @@ In summary, the following verification types are available:
 - MASVS-L2+R
 
 The different combinations reflect different grades of security and resiliency. The goal is to allow for flexibility: For example, a mobile game might not warrant adding MASVS-L2 security controls such as 2-factor authentication for usability reasons, but have a strong business need for tamper prevention.
-<div style="page-break-after: always;">
-</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 
 #### Which Verification Type to Choose
 

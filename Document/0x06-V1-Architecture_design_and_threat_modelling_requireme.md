@@ -28,6 +28,9 @@ The requirements for MASVS-L1 and MASVS-L2 are listed below.
 | **1.11** | MSTG‑ARCH‑11 | A responsible disclosure policy is in place and effectively applied. |  | ✓ |
 | **1.12** | MSTG‑ARCH‑12 | The app should comply with privacy laws and regulations. | ✓ | ✓ |
 
+<div style="page-break-after: always;">
+</div>
+
 ## References
 
 For more information, see also:
