@@ -30,12 +30,12 @@ Copyright © 2019 The OWASP Foundation. Dieses Dokument ist veröffentlicht unte
 | Sprache | Übersetzer und Gutachter |
 | --- | --- |
 | Chinesisch | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
-| Französisch | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | Deutsche | Rocco Gränitz, Sven Schleier (Review) |
-| Spanisch | Martin Marsicano, Carlos Holguera |
+| Französisch | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | Japanisch | Koki Takeyama, Riotaro Okada (Review) |
-| Russisch | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | Koreanisch | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
+| Russisch | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| Spanisch | Martin Marsicano, Carlos Holguera |
 
 Dieses Dokument basiert auf einem Fork des OWASP Application Security Verification Standard verfasst von Jim Manico.
 

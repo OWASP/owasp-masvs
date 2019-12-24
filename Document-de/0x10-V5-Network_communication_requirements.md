@@ -15,6 +15,7 @@ Der Zweck dieser Kategorie ist es die Vertraulichkeit und Integrität übertrage
 | **5.5** | MSTG‑NETWORK‑5 | Die App nutzt keine unsicheren Kommunikationskanäle wie Email oder SMS für kritische Operationen wie Konten-Registrierung oder Konten-Reaktivierung. |  | ✓ |
 | **5.6** | MSTG‑NETWORK‑6 | Die App nutzt aktuelle Bibliotheken zum Aufbau von sicheren Kommunikationsverbindungen. |  | ✓ |
 
+
 ## Referenzen
 
 Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die Anforderungen aus dieser Kategorie zu überprüfen.
@@ -22,6 +23,9 @@ Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die A
 - General: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
 - Android: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
 - iOS: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
+
+<div style="page-break-after: always;" >
+</div>
 
 Weitere Informationen unter:
 

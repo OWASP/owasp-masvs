@@ -92,9 +92,7 @@ Código ejecutable que se introduce en una aplicación durante el tiempo de ejec
 
 OWASP es una comunidad abierta a nivel mundial y sin ánimo de lucro enfocada en mejorar la seguridad del software de aplicaciones. Nuestra misión es hacer que la seguridad de las aplicaciones sea "visible" para que las personas y las organizaciones puedan tomar decisiones informadas sobre los riesgos de seguridad de las aplicaciones. Ver: <https://www.owasp.org/>
 
-## Información de Identificación Personal (PII)**
-
-La información de identificación personal (PII, por sus siglas en inglés) es la información que se puede utilizar por sí sola o junto con otra información para identificar, contactar o localizar a una sola persona, o para identificar a un individuo en su contexto
+## Información de Identificación Personal (PII)** - La información de identificación personal (PII, por sus siglas en inglés) es la información que se puede utilizar por sí sola o junto con otra información para identificar, contactar o localizar a una sola persona, o para identificar a un individuo en su contexto.
 
 ## Ejecutable de Posición Independiente (PIE)
 

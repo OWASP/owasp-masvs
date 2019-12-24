@@ -18,13 +18,6 @@ Eine App die alle Anforderungen aus MASVS-L1 erfüllt, folgt Security Best Pract
 
 ![Prüf-Level](images/masvs-levels-new.jpg)
 
-&nbsp;  
-&nbsp;
-&nbsp;  
-&nbsp;
-&nbsp;  
-&nbsp;
-
 ### Dokumentstruktur
 
 Der erste Teil des MASVS enthält eine Beschreibung des Security Modells und der Prüf-Level, gefolgt von Empfehlungen zur Nutzung des Standards in der Praxis. Die detaillierten Sicherheitsanforderungen und ihre Einordnung in die Prüf-Level befinden sich im zweiten Teil. Die Anforderungen wurden in acht Kategorien (V1 bis V8), basierend auf technischen Zielen/Scopes, eingeteilt. Die folgende Nomenklatur wird durchgehend im MASVS und MSTG genutzt:

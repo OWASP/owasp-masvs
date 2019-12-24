@@ -50,6 +50,8 @@ Folgende Eckpunkte gelten:
 
 ### Abhören erschweren
 
+| # | MSTG-ID | Beschreibung | R |
+| --- | --- | --- | -- |
 | **8.13** | MSTG‑RESILIENCE‑13 | Neben einer gehärteten Kommunikation zwischen Client und API-Endpunkt, sollte auch der übertragene Payload verschlüsselt werden um das Abhören von Daten zu erschweren. | ✓ |
 
 <div style="page-break-after: always;" >
