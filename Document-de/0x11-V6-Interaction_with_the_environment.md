@@ -24,6 +24,8 @@ Die Anforderungen aus dieser Kategorie sollen sicherstellen, dass Plattform-Komp
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
+&nbsp;
 
 ## Referenzen
 

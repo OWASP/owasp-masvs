@@ -19,6 +19,9 @@ La cryptographie est un ingrédient essentiel pour la protection des données st
 | **3.5** | MSTG‑CRYPTO‑5 | L'application ne ré-utilise pas la même clé de cryptographie à des fins différentes. | ✓ | ✓ |
 | **3.6** | MSTG‑CRYPTO‑6 | Toute valeur aléatoire est générée par un générateur de nombres aléatoires offrant un bon niveau de sécurité. | ✓ | ✓ |
 
+<div style="page-break-after: always;">
+</div>
+
 ## Références
 
 Le Mobile Security Testing Guide de l'OWASP donne des instructions détaillées pour valider les exigences listées dans cette section.

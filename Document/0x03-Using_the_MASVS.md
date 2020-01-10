@@ -58,9 +58,6 @@ The different combinations reflect different grades of security and resiliency. 
 
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
 
 #### Which Verification Type to Choose
 

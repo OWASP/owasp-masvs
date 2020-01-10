@@ -39,6 +39,9 @@ MASVS는 커뮤니티 활동과 업계 피드백의 성과입니다. 우리는 �
 
 본 문서는 Jim Manico가 작성한 OWASP 애플리케이션 보안 검증 표준의 포크로 시작되었습니다.
 
+<div style="page-break-after: always;">
+</div>
+
 ## 스폰서
 
 MASVS와 MSTG는 모두 커뮤니티에서 자발적으로 생성되고 유지되지만, 때때로 약간의 외부 도움이 필요합니다. 따라서 기술 편집자를 고용할 수 있도록 자금을 기부해 주신 스폰서들에게 감사드립니다. 그들의 후원은 어떤식으로든 MASVS 또는 MSTG의 내용에 영향을 미치지 않는다는 점을 알려드립니다. 스폰서 패키지는 [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages")에 설명되어 있습니다..

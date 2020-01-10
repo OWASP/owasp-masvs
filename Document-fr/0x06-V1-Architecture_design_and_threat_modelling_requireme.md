@@ -28,6 +28,9 @@ Les exigences pour MASVS-L1 et MASVS-L2 sont listées ci-dessous.
 | **1.11** | MSTG‑ARCH‑11 | Une politique de divulgation responsable est mise en place et appliquée d'une manière efficiente. |  | ✓ |
 | **1.12** | MSTG‑ARCH‑12 | L'application doit se conformer aux lois et règlementations de confidentialité. | ✓ | ✓ |
 
+<div style="page-break-after: always;">
+</div>
+
 ## Références
 
 Pour de plus amples informations, il est possible de consulter aussi :

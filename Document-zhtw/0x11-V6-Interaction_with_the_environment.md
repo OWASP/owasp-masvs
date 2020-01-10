@@ -20,6 +20,9 @@
 | **6.10** | MSTG‑PLATFORM‑10 | WebView 的暫存，儲存，以及其他讀取的資源（如 JavaScript 等），需在 WebView 結束前全數清除。  |  | ✓ |
 | **6.11** | MSTG‑PLATFORM‑11 | 確認當機敏資料被輸入前，並沒有使用任何其他廠商所製作的客製鍵盤應用程式。 | | ✓ |
 
+<div style="page-break-after: always;">
+</div>
+
 ## 參考
 
 OWASP Mobile Security Testing Guide 提供了有關驗證本章節中列出的準則的詳細使用說明。

@@ -18,6 +18,9 @@
 | **7.8** | MSTG‑CODE‑8 | 在非託管程式碼，記憶體將被安全的被分配、釋出及使用  | ✓ | ✓ |
 | **7.9** | MSTG‑CODE‑9 | 由Toolchain所提供的免費安全性功能將啟用，如簡化位元組碼(byte-code)、堆疊(Stack)保護、PIE支援、自動參考計數(Reference Counting)| ✓ | ✓ |
 
+<div style="page-break-after: always;">
+</div>
+
 ## 參考資料
 
 OWASP 行動應用安全性測試指南針對此章節所列出的認證要，提供詳細的說明

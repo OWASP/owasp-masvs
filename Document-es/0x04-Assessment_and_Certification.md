@@ -56,6 +56,9 @@ Una buena metodología de pruebas de seguridad para aplicaciones móviles debe c
 
 El MASVS está diseñado para ser altamente verificable, con la única excepción de los requerimientos de arquitectura. Las pruebas unitarias, de integración y de aceptación automatizadas, basadas en los requerimientos del MASVS, pueden integrarse en el ciclo de vida de desarrollo de software (SDLC, por sus siglas en inglés). Esto no sólo aumenta la conciencia de seguridad de los desarrolladores, sino que también mejora la calidad general de las aplicaciones desarrolladas, y reduce la cantidad de hallazgos durante las pruebas de seguridad en la fase previa al _release_.
 
+&nbsp;
+&nbsp;
+
 ### Para el Entrenamiento en Desarrollo Seguro
 
 El MASVS también se puede utilizar para definir características de aplicaciones móviles seguras. Muchos cursos de "desarrollo segura" son simplemente cursos de _hacking_ ético con algunos consejos de programación segura. Esto no ayuda a los desarrolladores. En su lugar, los cursos de desarrollo seguro de aplicaciones móviles pueden utilizar el MASVS, con un fuerte enfoque en los controles proactivos documentados en el MASVS, en lugar de basarse simplemente en, por ejemplo, el "Top 10 de problemas de seguridad en el desarrollo software".
