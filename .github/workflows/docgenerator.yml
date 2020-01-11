@@ -1,0 +1,59 @@
+name: CI Build
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        fetch-depth: 1
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag masvs-generator:latest
+    - name: List files
+      run: ls -alrt ${PWD}
+    - name: Generate python scripts (csv)
+      run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-SNAPSHOT.csv'
+    - name: Generate python scripts (json)
+      run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-SNAPSHOT.json'
+    - name: Generate python scripts (xml)
+      run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-SNAPSHOT.xml'
+    - name: List files
+      run: ls -alrt ${PWD}
+    - name: List files
+      run: ls -alrt ${PWD}/tools
+    - name: List files
+      run: ls -alrt ${PWD}/Document
+    #todo: replace!!
+    # - name: Generate document (docx)
+    #   run:
+    # - name: Generate document (pdf)
+    #   run: 
+    - name: Upload CSV export
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT.csv
+        path: tools/OWASP_MASVS-SNAPSHOT.csv
+    - name: Upload JSON export
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT.json
+        path: tools/OWASP_MASVS-SNAPSHOT.json
+    - name: Upload XML export
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT.xml
+        path: tools/OWASP_MASVS-SNAPSHOT.xml
+    # - name: Upload document
+    #   uses: actions/upload-artifact@v1
+    #   with:
+    #     name: OWASP_MASVS-SNAPSHOT-en.docx
+    #     path: /documents/tools/OWASP_MASVS-SNAPSHOT-en.docx
+    # - name: Upload PDF
+    #   uses: actions/upload-artifact@v1
+    #   with:
+    #     name: OWASP_MASVS-SNAPSHOT-en.pdf
+    #     path: /documents/tools/OWASP_MASVS-SNAPSHOT-en.pdf
