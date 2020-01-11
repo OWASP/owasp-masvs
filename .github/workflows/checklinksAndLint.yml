@@ -1,4 +1,4 @@
-name: Check Markdown links
+name: Check Markdown links and markup
 
 on: push
 
@@ -16,11 +16,13 @@ jobs:
   markdown-lint-check:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
       - name: markdownlint-cli
         uses: nosborn/github-action-markdown-cli@v1.1.1
         with:
           files: .
-          config_file: ".markdownlint.yaml"
-          ignore_files: "examples/ignore/*"
-          rules: "examples/rules/custom.js"
-# todo: fix configuration
+          config_file: ".markdownlint.json"
+          ignore_files: "tools/*"
