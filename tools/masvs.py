@@ -62,7 +62,7 @@ class MASVS:
 
                         req['id'] = m.group(1).strip()
                         req['text'] = m.group(3).strip()
-                        req['category'] = m.group(2).decode("utf-8").replace(u"\u2011", "-").encode("utf-8")
+                        req['category'] = m.group(2).replace(u"\u2011", "-")
                         if m.group(5):
                             req['L1'] = len(m.group(4)) > 0
                             req['L2'] = len(m.group(5)) > 0
