@@ -23,6 +23,6 @@ jobs:
       - name: markdownlint-cli
         uses: nosborn/github-action-markdown-cli@v1.1.1
         with:
-          files: "Document Document-de Document-es Document-fr Document-ja Document-ko Document-ru Document-zhtw" 
+          files: Document
           config_file: ".markdownlint.json"
-          ignore_files: "tools/* */images/*"
+          ignore_files: "Tools, node_modules"
