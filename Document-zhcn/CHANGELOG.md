@@ -6,7 +6,7 @@
 
 以下为1.2-RC版本所包含的更新内容：
 
-- 晋升到旗舰地位。
+晋升为同类安全指南最成功的作品。
 - 更改要求 MSTG-STORAGE-1 "需要被使用"（need to be used）。
 - 增加侧重于数据保护的要求 MSTG-STORAGE-13， MSTG-STORAGE-14， 和 MSTG-STORAGE-15。
 - 更新要求 MSTG-AUTH-11，以保护上下文信息（contextual information）。
