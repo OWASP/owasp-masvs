@@ -18,7 +18,7 @@
 - 增加要求MSTG‑ARCH‑11，以包含针对L2应用程序的 责任披露政策（Responsible Disclosure policy）。
 - 增加要求MSTG‑ARCH‑12，以向应用程序开发人员展示他们应遵守的相关的国际隐私法律。
 - 为英文版的引用（references）创建了一个固定的格式。
-- 添加要求 MSTG‑PLATFORM‑11，以反击通过第三方键盘进行的间谍活动（spying）。
+- 添加要求MSTG‑PLATFORM‑11，以反击通过第三方键盘进行的间谍活动（spying）。
 - 添加要求 MSTG-MSTG‑RESILIENCE‑13，以阻止在应用程序中的窃听。
 
 ## V1.1.4 2019年7月4号 - 峰会版
