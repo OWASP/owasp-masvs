@@ -12,7 +12,7 @@
 - 更新要求MSTG-AUTH-11，以保护上下文信息（contextual information）。
 - 更新要求MSTG‑CODE‑4，以涵盖更多信息而不仅仅是排错调试（debugging）。
 - 添加要求MSTG‑PLATFORM‑10，以进一步安全的使用WebViews。
-- 添加要求 MSTG‑AUTH‑12，以提醒开发人员部署授权，特别是在多用户应用程序（multi-user apps）的情况下。
+- 添加要求MSTG‑AUTH‑12，以提醒开发人员部署授权，特别是在多用户应用程序（multi-user apps）的情况下。
 - 在怎样使用MASVS进行风险评估中添加了一点描述。
 - 在付费内容（paid content）中添加了一点描述。
 - 增加要求 MSTG‑ARCH‑11，以包含针对L2应用程序的 责任披露政策（Responsible Disclosure policy）。
