@@ -49,4 +49,4 @@ MASVS是社区努力和行业反馈的成果。我们希望该标准会随着时
 
 [![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/ "RandoriSec")
 
-接下来，我们要感谢OWASP海湾地区分会的赞助。最后，我们要感谢每一位从Leanpub购买了这本书并以这种方式赞助我们的人。
+接下来，我们要感谢OWASP湾区分会的赞助。最后，我们要感谢每一位从Leanpub购买了这本书并以这种方式赞助我们的人。
