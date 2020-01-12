@@ -34,7 +34,7 @@
 - 新增行为守则以及撰稿准则（Contributing guidelines）。
 - 新增拉取要求（Pull-Request）模版。
 - 更新与Gitbook网页仓库同步的功能。
-- 更新所有翻译版本用来产生 XML/JSON/CSV 的脚本。
+- 更新所有翻译版本用来产生XML/JSON/CSV 的脚本。
 - 完成繁体中文版 前言 的翻译。
 
 ## V1.1.3 2019年1月9号 - 小幅度修正
