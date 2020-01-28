@@ -28,5 +28,12 @@ OWASP 移动安全测试指南提供了验证本节中列出的要求的详细�
 
 测试密码学:
 
-- OWASP 移动版前10名: M5 (加密不足) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography>
-- CWE 310 (加密问题) - <https://cwe.mitre.org/data/definitions/310.html>
+- OWASP Mobile Top 10: M5 (Insufficient Cryptography) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography>
+- CWE 310 (Cryptographic Issues) - <https://cwe.mitre.org/data/definitions/310.html>
+- CWE 321 (Use of Hard-coded Cryptographic Key) - <https://cwe.mitre.org/data/definitions/321.html>
+- CWE 326 (Inadequate Encryption Strength) - <https://cwe.mitre.org/data/definitions/326.html>
+- CWE 327 (Use of a Broken or Risky Cryptographic Algorithm) - <https://cwe.mitre.org/data/definitions/327.html>
+- CWE 329 (Not Using a Random IV with CBC Mode) - <https://cwe.mitre.org/data/definitions/329.html>
+- CWE 330 (Use of Insufficiently Random Values) - <https://cwe.mitre.org/data/definitions/330.html>
+- CWE 337 (Predictable Seed in PRNG) - <https://cwe.mitre.org/data/definitions/337.html>
+- CWE 338 (Use of Cryptographically Weak Pseudo Random Number Generator (PRNG)) - <https://cwe.mitre.org/data/definitions/338.html>
