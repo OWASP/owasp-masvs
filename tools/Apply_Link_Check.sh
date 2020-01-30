@@ -65,4 +65,5 @@ apply_link_check_lang ja
 apply_link_check_lang ko
 apply_link_check_lang ru
 apply_link_check_lang zhtw
+apply_link_check_lang zhcn
 finalize
