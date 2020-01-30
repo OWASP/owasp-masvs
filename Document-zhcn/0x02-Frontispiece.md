@@ -12,7 +12,6 @@ MASVS是社区努力和行业反馈的成果。我们希望该标准会随着时
 
 可以通过以下URL创建帐户: [https://owasp.slack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LWQ2Nzg3NGJiZGQ2MjRmNzkzN2Q4YzU1MWYyZTdjYjA2ZTA5M2RkNzE2ZjdkNzI5ZThhOWY5MjljYWZmYmY4ZjM)
 
-
 ## 版权和许可
 
 ![license](images/CC-license.png) 版权所有©2019 OWASP基金会。本作品是根据[知识共享署名-相同方式共享 4.0 国际许可](https://creativecommons.org/licenses/by-sa/4.0/)。对于任何重复使用或分发，您必须向他人明确此作品的许可条款。
