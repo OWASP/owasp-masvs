@@ -21,14 +21,18 @@ jobs:
       run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-SNAPSHOT.json'
     - name: Generate python scripts (xml)
       run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-SNAPSHOT.xml'
-    - name: Generate PDF
+    - name: Generate PDF #todo: modify template
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator 'pandoc --template=eisvogel --pdf-engine=xelatex -V mainfont="DejaVu Sans Mono" --resource-path=.:Document Document/*.md -o OWASP_MASVS-SNAPSHOT.pdf'
-    - name: List files
-      run: ls -alrt ${PWD}
-    - name: List files
-      run: ls -alrt ${PWD}/tools
-    - name: List files
-      run: ls -alrt ${PWD}/Document
+    # - name: Generate DocX #todo: add template
+    #   run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator 'pandoc --pdf-engine=xelatex -V mainfont="DejaVu Sans Mono" --resource-path=.:Document Document/*.md -o OWASP_MASVS-SNAPSHOT.docx'
+    # - name: Generate epub #todo: add more instructions
+    #   run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator 'pandoc --pdf-engine=xelatex -V mainfont="DejaVu Sans Mono" --resource-path=.:Document Document/*.md -o OWASP_MASVS-SNAPSHOT.docx'
+    # - name: List files
+    #   run: ls -alrt ${PWD}
+    # - name: List files
+    #   run: ls -alrt ${PWD}/tools
+    # - name: List files
+    #   run: ls -alrt ${PWD}/Document
     - name: Upload PDF
       uses: actions/upload-artifact@v1
       with:
@@ -49,13 +53,13 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT.xml
         path: tools/OWASP_MASVS-SNAPSHOT.xml
-    # - name: Upload document
-    #   uses: actions/upload-artifact@v1
-    #   with:
-    #     name: OWASP_MASVS-SNAPSHOT-en.docx
-    #     path: /documents/tools/OWASP_MASVS-SNAPSHOT-en.docx
-    # - name: Upload PDF
-    #   uses: actions/upload-artifact@v1
-    #   with:
-    #     name: OWASP_MASVS-SNAPSHOT-en.pdf
-    #     path: /documents/tools/OWASP_MASVS-SNAPSHOT-en.pdf
+  # - name: Upload document (docx)
+  #   uses: actions/upload-artifact@v1
+  #   with:
+  #     name: OWASP_MASVS-SNAPSHOT.docx
+  #     path: OWASP_MASVS-SNAPSHOT.docx
+  # - name: Upload document(epub)
+  #   uses: actions/upload-artifact@v1
+  #   with:
+  #     name: OWASP_MASVS-SNAPSHOT.epub
+  #     path: OWASP_MASVS-SNAPSHOT.epub
