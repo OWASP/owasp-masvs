@@ -21,17 +21,19 @@ jobs:
       run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-SNAPSHOT.json'
     - name: Generate python scripts (xml)
       run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-SNAPSHOT.xml'
+    - name: Generate PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator 'pandoc --template=eisvogel --pdf-engine=xelatex -V mainfont="DejaVu Sans Mono" --resource-path=.:Document Document/*.md -o OWASP_MASVS-SNAPSHOT.pdf'
     - name: List files
       run: ls -alrt ${PWD}
     - name: List files
       run: ls -alrt ${PWD}/tools
     - name: List files
       run: ls -alrt ${PWD}/Document
-    #todo: replace!!
-    # - name: Generate document (docx)
-    #   run:
-    # - name: Generate document (pdf)
-    #   run: 
+    - name: Upload PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT.pdf
+        path: OWASP_MASVS-SNAPSHOT.pdf
     - name: Upload CSV export
       uses: actions/upload-artifact@v1
       with:
