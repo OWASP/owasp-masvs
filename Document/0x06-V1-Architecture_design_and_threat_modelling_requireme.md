@@ -16,7 +16,7 @@ The requirements for MASVS-L1 and MASVS-L2 are listed below.
 | # | MSTG-ID | Description | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **1.1** | MSTG‑ARCH‑1 | All app components are identified and known to be needed. | ✓ | ✓ |
-| **1.2** | MSTG‑ARCH‑2 | Security controls are never enforced only on the client side, but also on the respective remote endpoints. | ✓ | ✓ |
+| **1.2** | MSTG‑ARCH‑2 | Security controls are never enforced only on the client side, but on the respective endpoints as well. | ✓ | ✓ |
 | **1.3** | MSTG‑ARCH‑3 | A high-level architecture for the mobile app and all connected remote services has been defined and security has been addressed in that architecture. | ✓ | ✓ |
 | **1.4** | MSTG‑ARCH‑4 | Data considered sensitive in the context of the mobile app is clearly identified. | ✓ | ✓ |
 | **1.5** | MSTG‑ARCH‑5 | All app components are defined in terms of the business functions and/or security functions they provide. |  | ✓ |
