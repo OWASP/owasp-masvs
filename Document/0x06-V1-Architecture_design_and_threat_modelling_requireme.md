@@ -4,7 +4,7 @@
 
 In a perfect world, security would be considered throughout all phases of development. In reality however, security is often only a consideration at a late stage in the SDLC. Besides the technical controls, the MASVS requires processes to be in place that ensure that the security has been explicitly addressed when planning the architecture of the mobile app, and that the functional and security roles of all components are known. Since most mobile applications act as clients to remote services, it must be ensured that appropriate security standards are also applied to those services - testing the mobile app in isolation is not sufficient.
 
-The category “V1” lists requirements pertaining to architecture and design of the app. As such, this is the only category that does not map to technical test cases in the OWASP Mobile Testing Guide. To cover topics such as threat modelling, secure SDLC, key management, users of the MASVS should consult the respective OWASP projects and/or other standards such as the ones linked below.
+The category “V1” lists requirements pertaining to architecture and design of the app. As such, this is the only category that does not map to technical test cases in the OWASP Mobile Testing Guide. To cover topics such as threat modelling, secure SDLC or key management, users of the MASVS should consult the respective OWASP projects and/or other standards such as the ones linked below.
 
 <div style="page-break-after: always;">
 </div>
@@ -16,7 +16,7 @@ The requirements for MASVS-L1 and MASVS-L2 are listed below.
 | # | MSTG-ID | Description | L1 | L2 |
 | --- | --- | --- | --- | --- |
 | **1.1** | MSTG‑ARCH‑1 | All app components are identified and known to be needed. | ✓ | ✓ |
-| **1.2** | MSTG‑ARCH‑2 | Security controls are never enforced only on the client side, but on the respective remote endpoints. | ✓ | ✓ |
+| **1.2** | MSTG‑ARCH‑2 | Security controls are never enforced only on the client side, but on the respective endpoints as well. | ✓ | ✓ |
 | **1.3** | MSTG‑ARCH‑3 | A high-level architecture for the mobile app and all connected remote services has been defined and security has been addressed in that architecture. | ✓ | ✓ |
 | **1.4** | MSTG‑ARCH‑4 | Data considered sensitive in the context of the mobile app is clearly identified. | ✓ | ✓ |
 | **1.5** | MSTG‑ARCH‑5 | All app components are defined in terms of the business functions and/or security functions they provide. |  | ✓ |
