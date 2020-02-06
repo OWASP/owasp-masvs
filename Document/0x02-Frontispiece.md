@@ -19,13 +19,13 @@ Accounts can be created at the following URL: [https://owasp.slack.com/](https:/
 ## Acknowledgements
 
 | Project Lead | Lead Author | Contributors and Reviewers
-| --- | --- | --- |
+| ------- | --- | ----------------- |
 | Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Eugen Martynov, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abderrahmane Aftahi, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
 
 <br><br>
 
 | Language | Translators & Reviewers |
-| --- | --- |
+| --- | ------------------------------ |
 | Chinese | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | French | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | German | Rocco Gränitz, Sven Schleier (Review) |
