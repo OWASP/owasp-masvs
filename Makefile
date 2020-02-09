@@ -12,10 +12,10 @@ OPTS_ALL := --resource-path=.:Document --pdf-engine=xelatex --template=eisvogel
 # Override link colors in blue and include the cover as the first page
 OPTS_DOC_ALL := --toc -V toc-title:"Table of Contents" --toc-depth=1 -H latex-header.tex -V linkcolor:blue --include-before-body Document/cover.tex
 
-all: masvs.pdf
+all: OWASP_MASVS-SNAPSHOT.pdf
 
-masvs.pdf: $(CHAPTERS) Makefile
+OWASP_MASVS-SNAPSHOT.pdf: $(CHAPTERS) Makefile
 	$(PANDOC) $(OPTS_ALL) $(OPTS_DOC_ALL) -o $@ $(CHAPTERS)
 
 clean:
-	rm masvs.pdf
+	rm OWASP_MASVS-SNAPSHOT.pdf
