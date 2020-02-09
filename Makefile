@@ -1,8 +1,8 @@
 CHAPTERS := Document/0x*.md Document/CHANGELOG.md
 
 # Run and destroy a dalibo/pandocker (masvs-generator) container with the current directory mounted at /pandoc
-# PANDOC := docker run --rm -u `id -u`:`id -g` -v `pwd`:/pandoc dalibo/pandocker
 PANDOC := docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator
+# FOR LOCAL -> PANDOC := docker run --rm -u `id -u`:`id -g` -v `pwd`:/pandoc dalibo/pandocker
 
 # For pandoc, give the Documents folder as resource-path and we use xelatex as PDF engine
 # Uses eisvogel as template: https://github.com/Wandmalfarbe/pandoc-latex-template/blob/master/eisvogel.tex
@@ -17,6 +17,7 @@ all: OWASP_MASVS-SNAPSHOT.pdf
 
 OWASP_MASVS-SNAPSHOT.pdf: $(CHAPTERS) Makefile
 	$(PANDOC) 'pandoc $(OPTS_ALL) $(OPTS_DOC_ALL) -o $@ $(CHAPTERS)'
+	# FOR LOCAL -> $(PANDOC) $(OPTS_ALL) $(OPTS_DOC_ALL) -o $@ $(CHAPTERS)
 
 clean:
 	rm OWASP_MASVS-SNAPSHOT.pdf
