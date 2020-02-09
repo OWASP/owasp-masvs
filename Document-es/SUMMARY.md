@@ -1,7 +1,7 @@
 # Tabla de contenido
 
 - [Registro de cambios](CHANGELOG.md)
-- [Prólogo](Foreword.md)
+- [Prólogo](0x01-Foreword.md)
 - [Frontispicio](0x02-Frontispiece.md)
 - [Usos del MASVS](0x03-Using_the_MASVS.md)
 - [Evaluación y Certificación](0x04-Assessment_and_Certification.md)

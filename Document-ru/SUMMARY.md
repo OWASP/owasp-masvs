@@ -1,6 +1,6 @@
 # Резюме
 
-- [Вступительное](Foreword.md)
+- [Вступительное](0x01-Foreword.md)
 - [Changelog](CHANGELOG.md)
 - [фронтиспис](0x02-Frontispiece.md)
 - [Использование MASVS](0x03-Using_the_MASVS.md)

@@ -3,7 +3,7 @@
   "plugins" : [ "anchors" ],
 
   "structure": {
-    "readme": "Foreword.md"
+    "readme": "0x01-Foreword.md"
   },
 
   "title" : "OWASP Mobile Application Security Verification Standard 1.2.0",

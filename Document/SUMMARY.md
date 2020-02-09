@@ -1,7 +1,7 @@
 # Table of Contents
 
 - [Changelog](CHANGELOG.md)
-- [Foreword](Foreword.md)
+- [Foreword](0x01-Foreword.md)
 - [Frontispiece](0x02-Frontispiece.md)
 - [Using the MASVS](0x03-Using_the_MASVS.md)
 - [Assessment and Certification](0x04-Assessment_and_Certification.md)
