@@ -1,7 +1,7 @@
 CHAPTERS := Document/0x*.md Document/CHANGELOG.md
 
-# Run and destroy a dalibo/pandocker container with the current directory mounted at /pandoc
-PANDOC := docker run --rm -u `id -u`:`id -g` -v `pwd`:/pandoc dalibo/pandocker
+# Run and destroy a dalibo/pandocker (masvs-generator) container with the current directory mounted at /pandoc
+PANDOC := docker run --rm -u `id -u`:`id -g` -v `pwd`:/pandoc masvs-generator
 
 # For pandoc, give the Documents folder as resource-path and we use xelatex as PDF engine
 # Uses eisvogel as template: https://github.com/Wandmalfarbe/pandoc-latex-template/blob/master/eisvogel.tex
