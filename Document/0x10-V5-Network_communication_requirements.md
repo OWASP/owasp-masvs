@@ -15,6 +15,10 @@ The purpose of the controls listed in this section is to ensure the confidential
 | **5.5** | MSTG-NETWORK-5 | The app doesn't rely on a single insecure communication channel (email or SMS) for critical operations, such as enrollments and account recovery. |  | X |
 | **5.6** | MSTG-NETWORK-6 | The app only depends on up-to-date connectivity and security libraries. |  | X |
 
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
+
 ## References
 
 The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
