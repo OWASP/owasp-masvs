@@ -22,7 +22,7 @@ Los datos sensibles en el contexto del MASVS se refieren tanto a las credenciale
 La gran mayoría de las cuestiones relativas a la divulgación de datos pueden prevenirse siguiendo reglas sencillas. La mayoría de los controles enumerados en este capítulo son obligatorios para todos los niveles de verificación.
 
 | # | MSTG-ID | Descripción | L1 | L2 |
-| --- | --- | --- | --- | --- |
+| -- | -------- | ---------------------- | - | - |
 | **2.1** | MSTG-STORAGE-1 | Las funcionalidades de almacenamiento de credenciales del sistema deben de ser utilizadas para almacenar información sensible, tal como información personal, credenciales de usuario o claves criptográficas. | X | X |
 | **2.2** | MSTG-STORAGE-2 | No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema. | X | X |
 | **2.3** | MSTG-STORAGE-3 | No se escribe información sensible en los registros (logs) de la aplicación. | X | X |
