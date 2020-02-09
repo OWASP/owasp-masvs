@@ -18,7 +18,8 @@ The following considerations apply:
 
 3. The effectiveness of the protection should always be verified by a human expert with experience in testing the particular types of anti-tampering and obfuscation used (see also the "reverse engineering" and "assessing software protections" chapters in the Mobile Security Testing Guide).
 
-<div style="page-break-after: always;">
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
 </div>
 
 ### Impede Dynamic Analysis and Tampering
@@ -34,6 +35,10 @@ The following considerations apply:
 | **8.7** | MSTG-RESILIENCE-7 | The app implements multiple mechanisms in each defense category (8.1 to 8.6). Note that resiliency scales with the amount, diversity of the originality of the mechanisms used. | X |
 | **8.8** | MSTG-RESILIENCE-8 | The detection mechanisms trigger responses of different types, including delayed and stealthy responses. | X |
 | **8.9** | MSTG-RESILIENCE-9 | Obfuscation is applied to programmatic defenses, which in turn impede de-obfuscation via dynamic analysis.  | X |
+
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
 
 ### Device Binding
 
@@ -54,7 +59,8 @@ The following considerations apply:
 | -- | -------- | ---------------------- | - |
 | **8.13** | MSTG-RESILIENCE-13 | As a defense in depth, next to having solid hardening of the communicating parties, application level payload encryption can be applied to further impede eavesdropping. | X |
 
-<div style="page-break-after: always;">
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
 </div>
 
 ## References
