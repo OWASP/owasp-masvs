@@ -1,7 +1,5 @@
 # Versionshistorie
 
-Dieses Dokument wurde automatisch erstellt am {{gitbook.time}}.
-
 ## V1.2-RC - Pre-Release
 
 Die folgenden Änderungen sind Teil von Version 1.2-RC:

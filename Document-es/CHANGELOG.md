@@ -1,7 +1,5 @@
 # Changelog
 
-Este documento es generado automáticamente a las {{gitbook.time}}
-
 ## V1.2-RC - Pre-release
 
 Los siguientes cambios forman parte de la versión 1.2:
