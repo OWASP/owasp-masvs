@@ -1,7 +1,5 @@
 # Changelog
 
-This document is automatically generated at {{gitbook.time}}
-
 ## V1.2-RC 5 October 2019 - Pre-release (English only)
 
 The following changes are part of release 1.2:
