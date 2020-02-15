@@ -1,0 +1,6 @@
+\thispagestyle{empty} % remove page numbers
+
+% https://tex.stackexchange.com/questions/136900/insert-a-full-page-image
+\incgraph[documentpaper, 
+    overlay={\node[white] at (page.center) {\Huge {{MASVS-LANGUAGE}}};\node[white] at (18.5,11.7) {\Huge Version {{MASVS-VERSION}}};}]
+    [width=\paperwidth,height=\paperheight]{cover_full_page.jpg} % has include in latex-header.tex
