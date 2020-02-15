@@ -18,7 +18,7 @@ OPTS_DOC_ALL := --toc -V toc-title:"Table of Contents" --toc-depth=1 -H latex-he
 
 all: OWASP_MASVS-SNAPSHOT.pdf
 
-OWASP_MASVS-SNAPSHOT.pdf: 
+OWASP_MASVS-SNAPSHOT.pdf: $(CHAPTERS) Makefile
 	
 # sed -i '' "s/MASVS-VERSION/$(VERSION)/g" first_page.tex > first_page.tex
 	sed -e "s/{{MASVS-VERSION}}/$(VERSION)/g" first_page.tex > tmp_first_page.tex
