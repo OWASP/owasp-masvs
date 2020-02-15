@@ -19,12 +19,9 @@ OPTS_DOC_ALL := --toc -V toc-title:"Table of Contents" --toc-depth=1 -H latex-he
 all: OWASP_MASVS-SNAPSHOT.pdf
 
 OWASP_MASVS-SNAPSHOT.pdf:
-	
-# sed -i '' "s/MASVS-VERSION/$(VERSION)/g" first_page.tex > first_page.tex
 	sed -e "s/{{MASVS-VERSION}}/$(VERSION)/g" first_page.tex > tmp_first_page.tex
 	sed -e "s/{{MASVS-VERSION}}/$(VERSION)/g" -e "s/{{MASVS-LANGUAGE}}/$(LANGUAGE)/g" cover.tex > tmp_cover.tex
-#sed -i 's/MASVS-VERSION/$(VERSION)/g' first_page.tex
-
+	
 	$(PANDOC) 'pandoc --resource-path=.:Document $(OPTS_ALL) $(OPTS_DOC_ALL) -o $@ $(CHAPTERS)'
 # $(PANDOC) --resource-path=.:Document $(OPTS_ALL) $(OPTS_DOC_ALL) -o $@ $(CHAPTERS)
 # FOR LOCAL 
