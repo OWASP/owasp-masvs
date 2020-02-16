@@ -1,3 +1,5 @@
+#!/bin/sh
+
 FOLDER=$1
 VERSION=$2
 
