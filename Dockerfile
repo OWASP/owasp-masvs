@@ -8,6 +8,8 @@ FROM dalibo/pandocker
 
 # Clean
 # RUN rm -rf ~/.cache/pip
+ADD pandoc_makedocs.sh /pandoc/pandoc_makedocs.sh
+RUN chmod +x /pandoc/pandoc_makedocs.sh
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
