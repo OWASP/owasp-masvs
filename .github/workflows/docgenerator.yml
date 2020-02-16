@@ -99,5 +99,3 @@ jobs:
   #   with:
   #     name: OWASP_MASVS-SNAPSHOT.epub
   #     path: OWASP_MASVS-SNAPSHOT.epub
-    - name: Stop container
-      run: docker stop masvs
