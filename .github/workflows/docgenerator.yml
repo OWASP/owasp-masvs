@@ -45,6 +45,14 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-fr.pdf
         path: OWASP_MASVS-SNAPSHOT-fr.pdf
+
+    - name: Generate Russian PDF
+      run: export FOLDER=Document-ru && source $FOLDER/LANGUAGE-METADATA && make VERSION=1.2
+    - name: Upload Russian PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ru.pdf
+        path: OWASP_MASVS-SNAPSHOT-ru.pdf
     
     # - name: Generate PDF #todo: modify template
     #   run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator 'pandoc --template=eisvogel --pdf-engine=xelatex -V mainfont="DejaVu Sans Mono" --resource-path=.:Document Document/*.md -o OWASP_MASVS-SNAPSHOT.pdf'
