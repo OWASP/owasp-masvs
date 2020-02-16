@@ -22,7 +22,7 @@ jobs:
     - name: Generate python scripts (xml)
       run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-SNAPSHOT.xml'
     - name: Generate Spanish PDF
-      run: export FOLDER=Document-es && source $FOLDER/LANGUAGE-METADATA && make VERSION=1.2
+      run: make FOLDER=Document-es VERSION=1.2 LANGUAGE=es LANGUAGETEXT="(Spanish Version)" TOC_TITLE="Tabla de Contenidos"
     - name: Upload Spanish PDF
       uses: actions/upload-artifact@v1
       with:
@@ -44,7 +44,7 @@ jobs:
     #   with:
     #     name: OWASP_MASVS-SNAPSHOT-fr.pdf
     #     path: OWASP_MASVS-SNAPSHOT-fr.pdf
-    
+
     # - name: Generate PDF #todo: modify template
     #   run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator 'pandoc --template=eisvogel --pdf-engine=xelatex -V mainfont="DejaVu Sans Mono" --resource-path=.:Document Document/*.md -o OWASP_MASVS-SNAPSHOT.pdf'
     # - name: Generate DocX #todo: add template
