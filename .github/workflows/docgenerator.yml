@@ -55,6 +55,14 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-ru.pdf
         path: OWASP_MASVS-SNAPSHOT-ru.pdf
+
+    - name: Generate Japanese PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ja 1.2'
+    - name: Upload Japanese PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ja.pdf
+        path: OWASP_MASVS-SNAPSHOT-ja.pdf
     
     # - name: Generate PDF #todo: modify template
     #   run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator 'pandoc --template=eisvogel --pdf-engine=xelatex -V mainfont="DejaVu Sans Mono" --resource-path=.:Document Document/*.md -o OWASP_MASVS-SNAPSHOT.pdf'
