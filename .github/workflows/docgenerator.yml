@@ -11,10 +11,13 @@ jobs:
     - uses: actions/checkout@v1
       with:
         fetch-depth: 1
+
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag masvs-generator:latest
-    - name: Start container
-      run: docker run --name masvs --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator:latest bash
+
+    - name: Create Alias
+      run: alias run-masvs-gen="docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator"
+
     - name: List files
       run: ls -alrt ${PWD}
     - name: Generate python scripts (csv)
@@ -25,7 +28,7 @@ jobs:
       run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-SNAPSHOT.xml'
     
     - name: Generate Spanish PDF
-      run: docker exec -d masvs /pandoc/pandoc_makedocs.sh Document-es 1.2
+      run: run-masvs-gen '/pandoc/pandoc_makedocs.sh Document-es 1.2'
     - name: Upload Spanish PDF
       uses: actions/upload-artifact@v1
       with:
