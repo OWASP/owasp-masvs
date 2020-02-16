@@ -1,0 +1,3 @@
+export LANGUAGE=de
+export LANGUAGETEXT="(German Version)"
+export TOC_TITLE="Inhaltsverzeichnis"
