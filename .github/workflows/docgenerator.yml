@@ -33,7 +33,7 @@ jobs:
         path: OWASP_MASVS-SNAPSHOT-es.pdf
 
     - name: Generate German PDF
-      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc/pandoc_makedocs.sh Document-de 1.2'
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-de 1.2'
     - name: Upload German PDF
       uses: actions/upload-artifact@v1
       with:
@@ -41,7 +41,7 @@ jobs:
         path: OWASP_MASVS-SNAPSHOT-de.pdf
 
     - name: Generate French PDF
-      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc/pandoc_makedocs.sh Document-fr 1.2'
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-fr 1.2'
     - name: Upload French PDF
       uses: actions/upload-artifact@v1
       with:
@@ -49,7 +49,7 @@ jobs:
         path: OWASP_MASVS-SNAPSHOT-fr.pdf
 
     - name: Generate Russian PDF
-      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc/pandoc_makedocs.sh Document-ru 1.2'
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ru 1.2'
     - name: Upload Russian PDF
       uses: actions/upload-artifact@v1
       with:
