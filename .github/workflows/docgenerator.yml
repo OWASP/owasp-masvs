@@ -13,7 +13,7 @@ jobs:
         fetch-depth: 1
 
     - name: Build the Docker image
-      run: docker build tools/docker --file Dockerfile --tag masvs-generator:latest
+      run: docker build ./tools/docker --tag masvs-generator:latest
 
     - name: List files
       run: ls -alrt ${PWD}
