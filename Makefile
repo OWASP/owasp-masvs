@@ -20,7 +20,7 @@ all: OWASP_MASVS-SNAPSHOT.pdf
 OWASP_MASVS-SNAPSHOT.pdf:
 	sed -e "s/{{MASVS-VERSION}}/$(VERSION)/g" first_page.tex > tmp_first_page.tex
 	sed -e "s/{{MASVS-VERSION}}/$(VERSION)/g" -e "s/{{MASVS-LANGUAGE}}/$(LANGUAGETEXT)/g" cover.tex > tmp_cover.tex
-	$(PANDOC) --resource-path=.:$(FOLDER) $(OPTS_ALL) $(OPTS_DOC_ALL) -o $(OUTPUT_BASE_NAME)-$(LANGUAGE).pdf $(CHAPTERS)
+	$(PANDOC) 'pandoc --resource-path=.:$(FOLDER) $(OPTS_ALL) $(OPTS_DOC_ALL) -o $(OUTPUT_BASE_NAME)-$(LANGUAGE).pdf $(CHAPTERS)'
 	rm tmp_first_page.tex
 	rm tmp_cover.tex
 clean:
