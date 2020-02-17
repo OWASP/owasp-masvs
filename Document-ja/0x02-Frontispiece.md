@@ -14,7 +14,7 @@ MASVS はコミュニティにおける取組みと業界からのフィード�
 
 ## 著作権とライセンス
 
-![license](images/CC-license.png)
+[![license](images/CC-license.png){ width=200px }]()
 
 Copyright © 2019 The OWASP Foundation. 本著作物は [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) に基づいてライセンスされています。再使用または配布する場合は、他者に対し本著作物のライセンス条項を明らかにする必要があります。
 
