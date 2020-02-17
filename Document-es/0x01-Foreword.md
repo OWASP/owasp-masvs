@@ -1,4 +1,4 @@
-## Prólogo
+# Prólogo
 
 Por Bernhard Mueller, proyecto móvil de OWASP.
 
