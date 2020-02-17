@@ -15,5 +15,3 @@ for folder in ./Document*; do
   echo "Generating $folder"
   docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc $IMG "/pandoc_makedocs.sh $folder $VERSION" || echo "$folder failed"
 done
-
-wait
