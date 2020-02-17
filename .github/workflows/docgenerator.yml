@@ -113,10 +113,10 @@ jobs:
         name: OWASP_MASVS-SNAPSHOT-zhcn.pdf
         path: OWASP_MASVS-SNAPSHOT-zhcn.pdf
 
-    - name: Generate Korean PDF
-      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ko 1.2'
-    - name: Upload Korean PDF
-      uses: actions/upload-artifact@v1
-      with:
-        name: OWASP_MASVS-SNAPSHOT-ko.pdf
-        path: OWASP_MASVS-SNAPSHOT-ko.pdf
+    # - name: Generate Korean PDF
+    #   run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ko 1.2'
+    # - name: Upload Korean PDF
+    #   uses: actions/upload-artifact@v1
+    #   with:
+    #     name: OWASP_MASVS-SNAPSHOT-ko.pdf
+    #     path: OWASP_MASVS-SNAPSHOT-ko.pdf
