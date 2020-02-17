@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 FOLDER=$1
 VERSION=$2
