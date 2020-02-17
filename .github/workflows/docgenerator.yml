@@ -23,7 +23,15 @@ jobs:
       run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-SNAPSHOT.json'
     - name: Generate python scripts (xml)
       run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-SNAPSHOT.xml'
-    
+
+    - name: Generate English PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document 1.2'
+    - name: Upload English PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-en.pdf
+        path: OWASP_MASVS-SNAPSHOT-en.pdf
+
     - name: Generate Spanish PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-es 1.2'
     - name: Upload Spanish PDF
