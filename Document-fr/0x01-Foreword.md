@@ -1,4 +1,4 @@
-## Avant-propos
+# Avant-propos
 
 Par Bernhard Mueller, OWASP Mobile Project.
 Les révolutions technologiques peuvent arriver vite. Il y a moins de dix ans, les smartphones n'étaient que des appareils poussifs avec de petits claviers - des jouets onéreux pour hommes d'affaire passionés par la tech. Pourtant, aujourd'hui, les smartphones font partie intégrante de notre vie. Nous dépendons d'eux pour les informations, la navigation et la communication, et ils sont omniprésents aussi bien dans notre vie professionnelle que dans notre vie sociale.
