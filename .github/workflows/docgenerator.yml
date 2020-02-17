@@ -15,14 +15,39 @@ jobs:
     - name: Build the Docker image
       run: docker build ./tools/docker --tag masvs-generator:latest
 
-    - name: List files
-      run: ls -alrt ${PWD}
     - name: Generate python scripts (csv)
       run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-SNAPSHOT.csv'
     - name: Generate python scripts (json)
       run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-SNAPSHOT.json'
     - name: Generate python scripts (xml)
       run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-SNAPSHOT.xml'
+    
+    - name: Upload CSV export
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT.csv
+        path: tools/OWASP_MASVS-SNAPSHOT.csv
+    - name: Upload JSON export
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT.json
+        path: tools/OWASP_MASVS-SNAPSHOT.json
+    - name: Upload XML export
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT.xml
+        path: tools/OWASP_MASVS-SNAPSHOT.xml
+        
+  # - name: Upload document (docx)
+  #   uses: actions/upload-artifact@v1
+  #   with:
+  #     name: OWASP_MASVS-SNAPSHOT.docx
+  #     path: OWASP_MASVS-SNAPSHOT.docx
+  # - name: Upload document(epub)
+  #   uses: actions/upload-artifact@v1
+  #   with:
+  #     name: OWASP_MASVS-SNAPSHOT.epub
+  #     path: OWASP_MASVS-SNAPSHOT.epub
 
     - name: Generate English PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document 1.2'
@@ -88,36 +113,10 @@ jobs:
         name: OWASP_MASVS-SNAPSHOT-zhcn.pdf
         path: OWASP_MASVS-SNAPSHOT-zhcn.pdf
 
-    # - name: Generate Korean PDF
-    #   run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ko 1.2'
-    # - name: Upload Korean PDF
-    #   uses: actions/upload-artifact@v1
-    #   with:
-    #     name: OWASP_MASVS-SNAPSHOT-ko.pdf
-    #     path: OWASP_MASVS-SNAPSHOT-ko.pdf
-
-    - name: Upload CSV export
+    - name: Generate Korean PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ko 1.2'
+    - name: Upload Korean PDF
       uses: actions/upload-artifact@v1
       with:
-        name: OWASP_MASVS-SNAPSHOT.csv
-        path: tools/OWASP_MASVS-SNAPSHOT.csv
-    - name: Upload JSON export
-      uses: actions/upload-artifact@v1
-      with:
-        name: OWASP_MASVS-SNAPSHOT.json
-        path: tools/OWASP_MASVS-SNAPSHOT.json
-    - name: Upload XML export
-      uses: actions/upload-artifact@v1
-      with:
-        name: OWASP_MASVS-SNAPSHOT.xml
-        path: tools/OWASP_MASVS-SNAPSHOT.xml
-  # - name: Upload document (docx)
-  #   uses: actions/upload-artifact@v1
-  #   with:
-  #     name: OWASP_MASVS-SNAPSHOT.docx
-  #     path: OWASP_MASVS-SNAPSHOT.docx
-  # - name: Upload document(epub)
-  #   uses: actions/upload-artifact@v1
-  #   with:
-  #     name: OWASP_MASVS-SNAPSHOT.epub
-  #     path: OWASP_MASVS-SNAPSHOT.epub
+        name: OWASP_MASVS-SNAPSHOT-ko.pdf
+        path: OWASP_MASVS-SNAPSHOT-ko.pdf
