@@ -8,4 +8,4 @@ RUN apt-get update \
 
 ADD pandoc_makedocs.sh /
 RUN chmod +x /pandoc_makedocs.sh
-ENTRYPOINT ["bash", "-eu"]
+ENTRYPOINT ["bash", "-euc"]
