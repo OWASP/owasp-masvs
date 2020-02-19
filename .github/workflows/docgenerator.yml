@@ -50,7 +50,7 @@ jobs:
   #     path: OWASP_MASVS-SNAPSHOT.epub
 
     - name: Generate All PDFs
-      run: ./docker_masvs_gen.sh 1.2'
+      run: ./docker_masvs_gen.sh 1.2
 
     # - name: Generate English PDF
     #   run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document 1.2'
