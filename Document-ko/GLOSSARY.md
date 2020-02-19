@@ -126,7 +126,7 @@ PKI는 공개 키를 엔터티의 각 ID와 바인딩하는 구조입니다. 바
 
 ## SQL 인젝션(SQL Injection, SQLi)
 
-데이터 기반 애플리케이션을 공격하기 위해 악의적인 SQL문을 엔트리 포인트에 코드를 삽입하는 공격기법입니다.
+데이터 기반 애플리케이션을 공격하기 위해 악의적인 SQL문을 엔트리 포인트에 코드를 삽입하는 공격기법입니다.
 
 ## 싱글 사인온 인증 (Single Sign On Authentication, SSO Authentication)
 
