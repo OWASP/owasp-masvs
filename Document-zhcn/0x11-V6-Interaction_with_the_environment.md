@@ -32,8 +32,8 @@ OWASP移动安全测试指南提供了验证本节中列出的要求的详细说
 
 有关详细信息，请参阅：
 
-- OWASP Mobile Top 10: M1 (Improper Platform Usage) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage>
-- OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality>
+- OWASP Mobile Top 10: M1 (Improper Platform Usage) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m1-improper-platform-usage>
+- OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality>
 - CWE 20 (Improper Input Validation) - <https://cwe.mitre.org/data/definitions/20.html>
 - CWE 79 (Improper Neutralization of Input During Web Page Generation) - <https://cwe.mitre.org/data/definitions/79.html>
 - CWE 200 (Information Leak / Disclosure) - <https://cwe.mitre.org/data/definitions/200.html>

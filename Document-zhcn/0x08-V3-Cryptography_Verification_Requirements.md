@@ -28,7 +28,7 @@ OWASP 移动安全测试指南提供了验证本节中列出的要求的详细�
 
 测试密码学:
 
-- OWASP Mobile Top 10: M5 (Insufficient Cryptography) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography>
+- OWASP Mobile Top 10: M5 (Insufficient Cryptography) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m5-insufficient-cryptography>
 - CWE 310 (Cryptographic Issues) - <https://cwe.mitre.org/data/definitions/310.html>
 - CWE 321 (Use of Hard-coded Cryptographic Key) - <https://cwe.mitre.org/data/definitions/321.html>
 - CWE 326 (Inadequate Encryption Strength) - <https://cwe.mitre.org/data/definitions/326.html>

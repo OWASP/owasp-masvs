@@ -27,12 +27,12 @@ OWASP 모바일 보안 테스트 안내서(MSTG)는 이 섹션에 나열된 요�
 
 자세한 내용은 다음을 참조하십시오:
 
-- OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality>
+- OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality>
 - CWE 119 (Improper Restriction of Operations within the Bounds of a Memory Buffer) - <https://cwe.mitre.org/data/definitions/119.html>
 - CWE 89 (Improper Neutralization of Special Elements used in an SQL Command) - <https://cwe.mitre.org/data/definitions/89.html>
 - CWE 388 (7PK - Errors) - <https://cwe.mitre.org/data/definitions/388.html>
 - CWE 489 (Leftover Debug Code) - <https://cwe.mitre.org/data/definitions/489.html>
-- OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M7-Poor_Code_Quality>
+- OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality>
 - CWE 20 (Improper Input Validation) - <https://cwe.mitre.org/data/definitions/20.html>
 - CWE 89 (Improper Neutralization of Special Elements used in an SQL Command) - <https://cwe.mitre.org/data/definitions/89.html>
 - CWE 95 (Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')) - <https://cwe.mitre.org/data/definitions/95.html>
