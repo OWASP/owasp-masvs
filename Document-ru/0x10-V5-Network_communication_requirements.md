@@ -28,7 +28,7 @@ OWASP MSTG содержит подробные инструкции по вер�
 
 Для получения дополнительной информации смотрите также:
 
-- OWASP Mobile Top 10: M3 (Insecure Communication) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M3-Insecure_Communication>
+- OWASP Mobile Top 10: M3 (Insecure Communication) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m3-insecure-communication>
 - CWE 295 (Improper Certificate Validation) - <https://cwe.mitre.org/data/definitions/295.html>
 - CWE 296 (Improper Following of a Certificate's Chain of Trust) - <https://cwe.mitre.org/data/definitions/296.html>
 - CWE 297 (Improper Validation of Certificate with Host Mismatch) - <https://cwe.mitre.org/data/definitions/297.html>
