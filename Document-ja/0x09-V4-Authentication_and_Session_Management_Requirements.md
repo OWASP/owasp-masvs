@@ -34,8 +34,8 @@ OWASP モバイルセキュリティテストガイドでは、このセクシ�
 
 詳しくは以下の情報を参照してください。
 
-- OWASP Mobile Top 10: M4 (Insecure Authentication) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication>
-- OWASP Mobile Top 10: M6 (Insecure Authorization) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization>
+- OWASP Mobile Top 10: M4 (Insecure Authentication) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m4-insecure-authentication>
+- OWASP Mobile Top 10: M6 (Insecure Authorization) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m6-insecure-authorization>
 - CWE 287 (Improper Authentication) - <https://cwe.mitre.org/data/definitions/287.html>
 - CWE 307 (Improper Restriction of Excessive Authentication Attempts) - <https://cwe.mitre.org/data/definitions/307.html>
 - CWE 308 (Use of Single-factor Authentication) - <https://cwe.mitre.org/data/definitions/308.html>

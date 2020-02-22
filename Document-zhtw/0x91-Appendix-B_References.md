@@ -6,7 +6,7 @@
 - OWASP 行動應用安全測試指南
 [https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide)
 - OWASP 行動應用 Top 10 風險
- [https://www.owasp.org/index.php/Projects/OWASP_Mobile_Security_Project_-_Top_Ten_Mobile_Risks](https://www.owasp.org/index.php/Projects/OWASP_Mobile_Security_Project_-_Top_Ten_Mobile_Risks)
+ [https://owasp.org/www-project-mobile-top-10/](https://owasp.org/www-project-mobile-top-10/)
 - OWASP 逆向工程及程式碼編修防護
 [https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project](https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project)
 

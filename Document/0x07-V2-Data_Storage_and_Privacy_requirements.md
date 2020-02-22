@@ -48,8 +48,8 @@ The OWASP Mobile Security Testing Guide provides detailed instructions for verif
 
 For more information, see also:
 
-- OWASP Mobile Top 10: M1 (Improper Platform Usage) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M1-Improper_Platform_Usage>
-- OWASP Mobile Top 10: M2 (Insecure Data Storage) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M2-Insecure_Data_Storage>
+- OWASP Mobile Top 10: M1 (Improper Platform Usage) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m1-improper-platform-usage>
+- OWASP Mobile Top 10: M2 (Insecure Data Storage) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m2-insecure-data-storage>
 - CWE 117 (Improper Output Neutralization for Logs) - <https://cwe.mitre.org/data/definitions/117.html>
 - CWE 200 (Information Exposure) - <https://cwe.mitre.org/data/definitions/200.html>
 - CWE 276 (Incorrect Default Permissions) - <https://cwe.mitre.org/data/definitions/276.html>

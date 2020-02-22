@@ -28,7 +28,7 @@ OWASP 모바일 보안 테스트 안내서(MSTG)는 이 섹션에 나열된 요�
 
 자세한 내용은 다음을 참조하십시오:
 
-- OWASP Mobile Top 10: M5 (Insufficient Cryptography) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M5-Insufficient_Cryptography>
+- OWASP Mobile Top 10: M5 (Insufficient Cryptography) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m5-insufficient-cryptography>
 - CWE 310 (Cryptographic Issues) - <https://cwe.mitre.org/data/definitions/310.html>
 - CWE 321 (Use of Hard-coded Cryptographic Key) - <https://cwe.mitre.org/data/definitions/321.html>
 - CWE 326 (Inadequate Encryption Strength) - <https://cwe.mitre.org/data/definitions/326.html>
