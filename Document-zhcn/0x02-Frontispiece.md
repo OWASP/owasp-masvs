@@ -1,6 +1,6 @@
 # 关于标准
 
-[![OWASP LOGO](images/OWASP_logo.png)]()
+[![OWASP LOGO](images/OWASP_logo.png)](https://www.owasp.org)
 
 欢迎阅读移动应用安全验证标准（MASVS）1.1版. MASVS 是一个社区项目，其宗旨是建立一个安全需求的框架给人们去设计、开发和测试iOS和Android的移动应用程序。
 
@@ -12,7 +12,7 @@ MASVS是社区努力和行业反馈的成果。我们希望该标准会随着时
 
 ## 版权和许可
 
-[![license](images/CC-license.png){ width=200px }]()
+[![license](images/CC-license.png){ width=200px }](https://creativecommons.org/licenses/by-sa/4.0/)
 
 版权所有©2019 OWASP基金会。本作品是根据[知识共享署名-相同方式共享 4.0 国际许可](https://creativecommons.org/licenses/by-sa/4.0/)。对于任何重复使用或分发，您必须向他人明确此作品的许可条款。
 
