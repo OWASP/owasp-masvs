@@ -14,8 +14,7 @@ Los datos sensibles en el contexto del MASVS se refieren tanto a las credenciale
 - Datos altamente confidenciales que, en caso de que se comprometieran, ocasionarían daños a la reputación y/o costes financieros: información contractual, información cubierta por acuerdos de confidencialidad, información de gestión;
 - Cualquier dato que debe ser protegido por ley o por razones de conformidad.
 
-<div style="page-break-after: always;">
-</div>
+
 
 ## Requerimientos de Verificación de Seguridad
 
@@ -39,8 +38,7 @@ La gran mayoría de las cuestiones relativas a la divulgación de datos pueden p
 | **2.14** | MSTG-STORAGE-14 | En caso de ser necesario guardar información sensible de forma local, ésta debe de ser cifrada usando una clave derivada del hardware de almacenamiento seguro, el cual debe requerir autenticación previa. |  | ✓ |
 | **2.15** | MSTG-STORAGE-15 | El almacenamiento local de la aplicación debe de ser borrado trás un número excesivo de intentos fallidos de autenticación. |  | ✓ |
 
-<div style="page-break-after: always;">
-</div>
+
 
 ## Referencias
 

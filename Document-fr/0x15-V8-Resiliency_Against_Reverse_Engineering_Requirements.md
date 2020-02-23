@@ -18,8 +18,7 @@ Il convient de prendre en compte les considérations suivantes :
 
 3. L'efficacité de la protection devrait toujours être validée par un expert humain ayant l'expérience du test des moyens particuliers mis en oeuvre contre la modification du code ou son obscurcissement (voir aussi les chapitres liés à la "rétro-ingénierie" et à la "validation des protections logicielles" dans le Mobile Security Testing Guide).
 
-<div style="page-break-after: always;">
-</div>
+
 
 ### Entraver l'Analyse Dynamique et la Modification
 
@@ -54,7 +53,7 @@ Il convient de prendre en compte les considérations suivantes :
 | -- | -------- | ---------------------- | - |
 | **8.13** | MSTG-RESILIENCE-13 | Pour une défense en profondeur, en plus d'avoir un durcissement efficace des parties communicantes, le chiffrement des données utilisées au niveau de l'application peut être appliqué pour entraver l'écoute. | ✓ |
 
-<br/>
+
 
 ## Références
 
