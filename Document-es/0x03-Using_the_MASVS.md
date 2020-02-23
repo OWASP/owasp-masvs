@@ -52,8 +52,7 @@ En resumen, los siguientes tipos de verificación están disponibles:
 
 Las diferentes combinaciones reflejan diferentes grados de seguridad y resistencia. El objetivo es permitir la flexibilidad: por ejemplo, un juego móvil puede no requerir controles de seguridad MASVS-L2, como la autenticación de doble factor por razones de usabilidad, pero seguramente deba intentar prevenir la manipulación del código por razones de negocio.
 
-<div style="page-break-after: always;">
-</div>
+
 
 #### Cómo Elegir el Tipo de Verificación
 

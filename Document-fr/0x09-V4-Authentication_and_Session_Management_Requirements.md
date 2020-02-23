@@ -21,7 +21,7 @@ Dans la plupart des cas, la connexion des utilisateurs à un service distant doi
 | **4.11** | MSTG-AUTH-11 | L'application informe les utilisateurs de toutes les activités critiques sur leurs comptes. Les utilisateurs ont accès à la liste des appareils utilisés pour accéder à leurs comptes, accès aux informations contextuelles (adresse IP, localisation, etc...), et peuvent bloquer certains appareils. |  | ✓ |
 | **4.12** | MSTG-AUTH-12 | Des modèles d'autorisation doivent être définis et mis en oeuvre au niveau du point terminal distant. | ✓ | ✓ |
 
-<br/>
+
 
 ## Références
 

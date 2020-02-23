@@ -6,8 +6,7 @@ En un mundo perfecto, la seguridad sería considerada en todas las fases del des
 
 La categoría V1 lista los requerimientos pertinentes a la arquitectura y al diseño de la aplicación. Debido a esto es la única categoría que no se corresponde con casos de test de la Guía de Pruebas Móviles de OWASP. Para cubrir temas tales como el modelado de amenazas, SDLC seguro, gestión de claves, los usuarios del MASVS deben consultar los respectivos proyectos de OWASP y/u otros estándares como los que se encuentran enlazados a debajo.
 
-<div style="page-break-after: always;">
-</div>
+
 
 ## Requerimientos de Verificación de Seguridad
 
@@ -28,8 +27,7 @@ A continuación, se enumeran los requerimientos para MASVS-L1 y MASVS-L2.
 | **1.11** | MSTG-ARCH-11 | Existe una política de divualgación responsable y es llevada a cabo adecuadamente. |  | ✓ |
 | **1.12** | MSTG-ARCH-12 | La aplicación debería de cumplir con las leyes y regulaciones de privacidad. | ✓ | ✓ |
 
-<div style="page-break-after: always;" >
-</div>
+
 
 ## Referencias
 

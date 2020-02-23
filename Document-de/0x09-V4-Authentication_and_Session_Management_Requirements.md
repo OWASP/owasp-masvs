@@ -21,8 +21,7 @@ Ein integraler Teil der Architektur einer mobilen App ist der Login eines Nutzer
 | **4.11** | MSTG-AUTH-11 | Die App informiert den Nutzer über alle Anmelde-Vorgänge am Nutzerkonto. Nutzer können eine Liste aller mit dem Konto verbundenen Geräte sowie kontextbezogene Informationen (IP Adresse, Lokation usw.) sehen und ausgewählte Geräte blockieren. |  | ✓ |
 | **4.12** | MSTG-AUTH-12 | Authentifizierung wird am API-Endpunkt definiert und überprüft. |  | ✓ |
 
-<div style="page-break-after: always;" >
-</div>
+
 
 ## Referenzen
 

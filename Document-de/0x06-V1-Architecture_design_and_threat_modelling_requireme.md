@@ -6,8 +6,7 @@ In einer perfekten Welt würde Security über alle Phasen der Softwareentwicklun
 
 Die Kategorie "V1" enthält Sicherheitsanforderungen an die Architektur und das Design einer App. Aufgrund dessen ist dies die einzige Kategorie die nicht auf technische Testfälle in den OWASP Mobile Testing Guide referenziert. Um Themen wie Bedrohungsanalyse, sichere Softwareentwicklungsprozesse und Schlüssel-Management abzudecken, sollten Anwender des MASVS die jeweiligen OWASP Projekte und/oder Standards wie die unten verlinkten Dokumente berücksichtigen.
 
-<div style="page-break-after: always;">
-</div>
+
 
 ## Security Anforderungen
 
@@ -28,8 +27,7 @@ Die Anforderungen für MASVS-L1 und MASVS-L2 sind nachfolgend aufgelistet.
 | **1.11** | MSTG-ARCH-11 | Eine "Responsible Disclosure Policy" ist vorhanden und wird umgesetzt. |   | ✓ |
 | **1.12** | MSTG-ARCH-12 | Die App sollte Datenschutzgesetze und Regulierungen befolgen. | ✓ | ✓ |
 
-<div style="page-break-after: always;" >
-</div>
+
 
 ## Referenzen
 
