@@ -6,9 +6,10 @@
 - `cd` to the MASVS root folder `owasp-masvs/`
 - Run the following and give a version number (**do not `cd` into `tools/docker` to run it**):
 
-    ```bash
+    ```sh
     $ ./tools/docker/run_docker_masvs_generation_on_local.sh 1.2
     ```
+  
 
 ## On GitHub
 
