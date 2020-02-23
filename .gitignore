@@ -5,3 +5,5 @@ node_modules
 .idea
 .vscode
 Generated/
+*.pdf
+tmp_*.tex
