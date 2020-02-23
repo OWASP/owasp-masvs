@@ -17,4 +17,9 @@ jobs:
         with:
           fetch-depth: 1
       - name: link-check
-        uses: gaurav-nelson/github-action-markdown-link-check@0.4.0
+        uses: gaurav-nelson/github-action-markdown-link-check@0.6.0
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'yes'
+          config-file: 'mlc_config.json'
+          folder-path: 'Document*'
