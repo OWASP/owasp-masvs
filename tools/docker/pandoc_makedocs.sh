@@ -14,21 +14,21 @@ CHAPTERS="${FOLDER}/0x*.md ${FOLDER}/CHANGELOG.md"
 
 # Use per-language tmp files for the cover and the first page
 # Replace the placeholder {{MASVS-VERSION}} with the given VERSION and {{MASVS-LANGUAGE}} with the given LANGUAGETEXT
-sed -e "s/{{MASVS-VERSION}}/$VERSION/g" -e "s/{{MASVS-LANGUAGE}}/$LANGUAGETEXT/g" cover.tex > tmp_cover-$LANGUAGE.tex
-sed -e "s/{{MASVS-VERSION}}/$VERSION/g" first_page.tex > tmp_first_page-$LANGUAGE.tex
+sed -e "s/{{MASVS-VERSION}}/$VERSION/g" -e "s/{{MASVS-LANGUAGE}}/$LANGUAGETEXT/g" ./tools/docker/cover.tex > tmp_cover-$LANGUAGE.tex
+sed -e "s/{{MASVS-VERSION}}/$VERSION/g" ./tools/docker/first_page.tex > tmp_first_page-$LANGUAGE.tex
 
 # latex-header.tex contains 2 placeholders for "using CJK fonts" and for the language itself: JP,SC,TC,KR (part of the font name)
 # The following does the replacement and writes to a tmp file
 if [ $LANGUAGE == "ja" ]; then
-  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/JP/g" latex-header.tex > tmp_latex-header-$LANGUAGE.tex
+  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/JP/g" ./tools/docker/latex-header.tex > tmp_latex-header-$LANGUAGE.tex
 elif [ $LANGUAGE == "ko" ]; then
-  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/KR/g" latex-header.tex > tmp_latex-header-$LANGUAGE.tex
+  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/KR/g" ./tools/docker/latex-header.tex > tmp_latex-header-$LANGUAGE.tex
 elif [ $LANGUAGE == "zhcn" ]; then
-  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/SC/g" latex-header.tex > tmp_latex-header-$LANGUAGE.tex
+  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/SC/g" ./tools/docker/latex-header.tex > tmp_latex-header-$LANGUAGE.tex
 elif [ $LANGUAGE == "zhtw" ]; then
-  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/TC/g" latex-header.tex > tmp_latex-header-$LANGUAGE.tex
+  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/TC/g" ./tools/docker/latex-header.tex > tmp_latex-header-$LANGUAGE.tex
 else
-  cp latex-header.tex tmp_latex-header-$LANGUAGE.tex
+  cp ./tools/docker/latex-header.tex tmp_latex-header-$LANGUAGE.tex
 fi
 
 # --columns 60 -> pandoc will attempt to wrap lines to the column width specified by --columns (default 72). We need it because of ZHCN.

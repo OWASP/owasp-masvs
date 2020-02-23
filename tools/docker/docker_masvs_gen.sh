@@ -7,7 +7,7 @@ VERSION=$1 # e.g. 1.2
 export IMG="masvs-generator:latest"
 
 if [[ "$(docker images -q $IMG 2> /dev/null)" == "" ]]; then
-  docker build --tag $IMG ./tools/docker
+  docker build --tag $IMG .
 fi
 
 for folder in ./Document*; do
@@ -16,3 +16,5 @@ for folder in ./Document*; do
 done
 
 wait
+
+# docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc $IMG "/pandoc_makedocs.sh Document-zhcn $VERSION"
