@@ -9,7 +9,7 @@ VERSION=$1 # e.g. 1.2
 export IMG="masvs-generator:latest"
 
 if [[ "$(docker images -q $IMG 2> /dev/null)" == "" ]]; then
-  docker build --tag $IMG .
+  docker build --tag $IMG tools/docker/
 fi
 
 for folder in ./Document*; do

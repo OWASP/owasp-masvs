@@ -46,6 +46,14 @@ pandoc --resource-path=.:${FOLDER} \
     --include-before-body tmp_cover-$LANGUAGE.tex --include-before-body tmp_first_page-$LANGUAGE.tex \
     -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.pdf $CHAPTERS
 
+pandoc --resource-path=.:${FOLDER} \
+    --pdf-engine=xelatex --template=eisvogel \
+    --columns 60 \
+    --toc -V toc-title:"${TOC_TITLE}" --toc-depth=1 \
+    -H tmp_latex-header-$LANGUAGE.tex -V linkcolor:blue \
+    --include-before-body tmp_cover-$LANGUAGE.tex --include-before-body tmp_first_page-$LANGUAGE.tex \
+    -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.epub $CHAPTERS
+
 rm tmp_first_page-$LANGUAGE.tex
 rm tmp_cover-$LANGUAGE.tex
 rm tmp_latex-header-$LANGUAGE.tex
