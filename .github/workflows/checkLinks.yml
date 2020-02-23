@@ -21,5 +21,5 @@ jobs:
         with:
           use-quiet-mode: 'yes'
           use-verbose-mode: 'yes'
-          config-file: 'mlc_config.json'
+          config-file: '.github/workflows/config/mlc_config.json'
           folder-path: '.'
