@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# NOTE: This script is not meant to be run locally on your machine (e.g. macOS). Docker will run it for you.
+
 set -euo pipefail
 
 FOLDER=$1
