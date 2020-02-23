@@ -19,8 +19,7 @@
 | **6.9** | MSTG-PLATFORM-9 | アプリはスクリーンオーバーレイ攻撃から自らを保護している。 (Android のみ) |  | ✓ |
 | **6.10** | MSTG-PLATFORM-10 | WebViewを破棄する前にWebViewのキャッシュ、ストレージ、ロードされたリソース (JavaScript など) をクリアしている。 |  | ✓ |
 | **6.11** | MSTG-PLATFORM-11 | 機密データを入力する場合は常に、アプリはカスタムサードパーティキーボードを使用できないようにしている。 |  | ✓ |
-<div style="page-break-after: always;">
-</div>
+
 
 ## 参考情報
 

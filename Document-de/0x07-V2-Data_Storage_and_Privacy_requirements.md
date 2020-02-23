@@ -13,8 +13,7 @@ Sensible Daten im Kontext des MASVS sind jegliche Nutzer-Anmeldedaten sowie alle
 - Hoch sensible Daten deren Kompromittierung zu hohem Reputationsverlust oder finanziellen Aufwänden führen würde: Vertragsinformationen, Informationen die durch Verschwiegenheitserklärungen geschützt sind, Management Informationen;
 - Alle Daten die durch gesetzliche Bestimmungen oder aufgrund regulatorischer Vorgaben (Compliance) zu schützen sind.
 
-<div style="page-break-after: always;" >
-</div>
+
 
 ## Anforderungen
 
@@ -38,8 +37,7 @@ Ein Großteil von Datenpannen kann bereits durch Einhaltung einfacher Regeln ver
 | **2.14** | MSTG-STORAGE-14 | Falls doch sensible Daten lokal vorgehalten werden müssen, sollten diese mit einem Schlüssel verschlüsselt werden der im vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismus abgelegt ist. Der Zugriff auf den Schlüssel sollte Authentifizierung erfordern. |  | ✓ |
 | **2.15** | MSTG-STORAGE-15 | Der lokale Speicher von der App sollte gelöscht werden, nach Erreichen einer exzessiven Anzahl von fehlgeschlagenen Login-Versuchen.  |  | ✓ |
 
-<div style="page-break-after: always;" >
-</div>
+
 
 ## Referenzen
 
