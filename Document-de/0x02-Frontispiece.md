@@ -1,6 +1,6 @@
 # Über den Standard
 
-[![OWASP LOGO](images/OWASP_logo.png)]()
+[![OWASP LOGO](images/OWASP_logo.png)](https://www.owasp.org)
 
 Willkommen beim Mobile Application Security Verification Standard (MASVS) 1.1. Der MASVS ist eine Community-Initiative mit dem Ziel ein Rahmenwerk von Security-Anforderungen für Design, Entwicklung und Test von mobilen Apps unter iOS und Android zu etablieren.
 
@@ -12,7 +12,7 @@ Nutzerkonten können unter folgender URL angelegt werden:
 
 ## Copyright and License
 
-[![license](images/CC-license.png){ width=200px }]()
+[![license](images/CC-license.png){ width=200px }](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Copyright © 2019 The OWASP Foundation. Dieses Dokument ist veröffentlicht unter der Creative Commons Attribution ShareAlike 3.0 Lizenz. Für jedwede Wiederverwendung oder Vertrieb müssen diese Lizenzbestimmungen klar kommuniziert werden.
 
