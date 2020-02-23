@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# NOTE: You can run this script on your local machine e.g. macOS where Docker is installed.
+
 set -euo pipefail
 
 VERSION=$1 # e.g. 1.2
