@@ -99,6 +99,11 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-fr.pdf
         path: OWASP_MASVS-SNAPSHOT-fr.pdf
+    - name: Upload French EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-fr.epub
+        path: OWASP_MASVS-SNAPSHOT-fr.epub
 
     - name: Generate Russian PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ru 1.2'
@@ -107,6 +112,11 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-ru.pdf
         path: OWASP_MASVS-SNAPSHOT-ru.pdf
+    - name: Upload Russian EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ru.epub
+        path: OWASP_MASVS-SNAPSHOT-ru.epub
 
     - name: Generate Japanese PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ja 1.2'
@@ -115,6 +125,11 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-ja.pdf
         path: OWASP_MASVS-SNAPSHOT-ja.pdf
+    - name: Upload Japanese EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ja.epub
+        path: OWASP_MASVS-SNAPSHOT-ja.epub
     
     - name: Generate Traditional Chinese PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-zhtw 1.2'
@@ -123,6 +138,11 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-zhtw.pdf
         path: OWASP_MASVS-SNAPSHOT-zhtw.pdf
+    - name: Upload Traditional Chinese EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-zhtw.epub
+        path: OWASP_MASVS-SNAPSHOT-zhtw.epub
 
     - name: Generate Simplified Chinese PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-zhcn 1.2'
@@ -131,6 +151,11 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-zhcn.pdf
         path: OWASP_MASVS-SNAPSHOT-zhcn.pdf
+    - name: Upload Simplified Chinese EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-zhcn.epub
+        path: OWASP_MASVS-SNAPSHOT-zhcn.epub
 
     - name: Generate Korean PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ko 1.2'
@@ -139,3 +164,8 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-ko.pdf
         path: OWASP_MASVS-SNAPSHOT-ko.pdf
+    - name: Upload Korean EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ko.epub
+        path: OWASP_MASVS-SNAPSHOT-ko.epub
