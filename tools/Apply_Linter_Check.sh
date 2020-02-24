@@ -60,6 +60,7 @@ finalize() {
     fi
 }
 
+npm install -g markdownlint
 apply_lint_check_en
 apply_lint_check_lang de
 apply_lint_check_lang es
