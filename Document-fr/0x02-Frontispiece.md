@@ -12,7 +12,7 @@ Un compte peut être créé à l'endroit suivant: <http://owasp.herokuapp.com/>.
 
 [![license](images/CC-license.png){ width=200px }](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Copyright © 2019 The OWASP Foundation. Ce document est publié sous la licence Creative Commons Attribution ShareAlike 4.0 International. Pour toute ré-utilisation ou distribution, il est obligatoire d'attribuer la licence de ce travail aux auteurs.
+Copyright © 2020 The OWASP Foundation. Ce document est publié sous la licence Creative Commons Attribution ShareAlike 4.0 International. Pour toute ré-utilisation ou distribution, il est obligatoire d'attribuer la licence de ce travail aux auteurs.
 
 <div style="page-break-after: always; visibility: hidden">
 \pagebreak
