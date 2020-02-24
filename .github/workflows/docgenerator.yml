@@ -60,6 +60,11 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-en.pdf
         path: OWASP_MASVS-SNAPSHOT-en.pdf
+    - name: Upload English EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-en.epub
+        path: OWASP_MASVS-SNAPSHOT-en.epub
 
     - name: Generate Spanish PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-es 1.2'
@@ -68,6 +73,11 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-es.pdf
         path: OWASP_MASVS-SNAPSHOT-es.pdf
+    - name: Upload Spanish EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-es.epub
+        path: OWASP_MASVS-SNAPSHOT-es.epub
 
     - name: Generate German PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-de 1.2'
@@ -76,6 +86,11 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-de.pdf
         path: OWASP_MASVS-SNAPSHOT-de.pdf
+    - name: Upload German EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-de.epub
+        path: OWASP_MASVS-SNAPSHOT-de.epub
 
     - name: Generate French PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-fr 1.2'
