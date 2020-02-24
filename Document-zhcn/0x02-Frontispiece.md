@@ -8,7 +8,7 @@ MASVS是社区努力和行业反馈的成果。我们希望该标准会随着时
 
 与我们取得联系的最佳方式是通过OWASP Mobile Project Slack频道: <https://owasp.slack.com/messages/project-mobile_omtg/details/>
 
-可以通过以下URL创建帐户: [https://owasp.slack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LWQ2Nzg3NGJiZGQ2MjRmNzkzN2Q4YzU1MWYyZTdjYjA2ZTA5M2RkNzE2ZjdkNzI5ZThhOWY5MjljYWZmYmY4ZjM)
+可以通过以下URL创建帐户: [https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/)
 
 ## 版权和许可
 

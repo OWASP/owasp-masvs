@@ -57,6 +57,8 @@ finalize () {
     fi
 }
 
+npm install -g markdown-link-check
+
 apply_link_check_en
 apply_link_check_lang de
 apply_link_check_lang es
