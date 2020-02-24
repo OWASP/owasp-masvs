@@ -1,7 +1,5 @@
 # Versionshistorie
 
-Dieses Dokument wurde automatisch erstellt am {{gitbook.time}}.
-
 ## V1.2-RC - Pre-Release
 
 Die folgenden Änderungen sind Teil von Version 1.2-RC:
@@ -9,16 +7,16 @@ Die folgenden Änderungen sind Teil von Version 1.2-RC:
 - "Flagship Status" von OWASP erhalten.
 - Anforderung MSTG-Storage-1 verändert.
 - Anforderung MSTG-STORAGE-13, MSTG-STORAGE-14 und MSTG-STORAGE-15 wurden hinzugefügt mit Fokus auf Datenschutz.
-- Anforderung MSTG‑CODE‑4 wurde aktualisiert um mehr Fälle als nur Debugging abzudecken.
+- Anforderung MSTG-CODE-4 wurde aktualisiert um mehr Fälle als nur Debugging abzudecken.
 - Anforderung MSTG-AUTH-11 wurde aktualisiert um "kontextbezogene Informationen".
-- Anforderung MSTG‑PLATFORM‑10 wurde hinzugefügt für einen weiteren Fall um WebViews sicher zu verwenden.
-- Anforderung MSTG‑AUTH‑12 wurde hinzugefügt um Entwickler daran zu erinnern Autorisierung zu implementieren, vor allem im Fall von multi-user Apps.
+- Anforderung MSTG-PLATFORM-10 wurde hinzugefügt für einen weiteren Fall um WebViews sicher zu verwenden.
+- Anforderung MSTG-AUTH-12 wurde hinzugefügt um Entwickler daran zu erinnern Autorisierung zu implementieren, vor allem im Fall von multi-user Apps.
 - Beschreibung hinzugefügt, wie der MASVS in einem Risk Assessment verwendet werden sollte.
 - Beschreibung hinzugefügt für Bezahl-Inhalte.
-- Anforderung MSTG‑ARCH‑11 wurde hinzugefügt um Responsible Disclosure Policies zu implementieren.
-- Anforderung MSTG‑ARCH‑12 wurde hinzugefügt um Datenschutzgesetze zu befolgen.
-- Anforderung MSTG‑PLATFORM‑11 wurde hinzugefügt um 3rd Party Tastaturen zu verbieten.
-- Anforderung MSTG‑RESILIENCE‑13 wurde hinzugefügt um das Abhören von Apps zu erschweren.
+- Anforderung MSTG-ARCH-11 wurde hinzugefügt um Responsible Disclosure Policies zu implementieren.
+- Anforderung MSTG-ARCH-12 wurde hinzugefügt um Datenschutzgesetze zu befolgen.
+- Anforderung MSTG-PLATFORM-11 wurde hinzugefügt um 3rd Party Tastaturen zu verbieten.
+- Anforderung MSTG-RESILIENCE-13 wurde hinzugefügt um das Abhören von Apps zu erschweren.
 - Die folgenden Sprachen in denen der MASVS verfügbar ist wurden aktualisiert: Chinesisch (ZHTW), Englisch, Deutsch, Französisch, Russisch, Spanisch und Japanisch
 
 ## V1.1.4 4 Juli 2019 - Summit edition

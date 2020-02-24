@@ -52,9 +52,6 @@ En resumen, los siguientes tipos de verificación están disponibles:
 
 Las diferentes combinaciones reflejan diferentes grados de seguridad y resistencia. El objetivo es permitir la flexibilidad: por ejemplo, un juego móvil puede no requerir controles de seguridad MASVS-L2, como la autenticación de doble factor por razones de usabilidad, pero seguramente deba intentar prevenir la manipulación del código por razones de negocio.
 
-<div style="page-break-after: always;">
-</div>
-
 #### Cómo Elegir el Tipo de Verificación
 
 La implementación de los requisitos del nivel MASVS-L2 aumenta la seguridad, pero al mismo tiempo podría aumentar el coste de desarrollo y potencialmente empeorar la experiencia del usuario final (el compromiso clásico). En general, MASVS-L2 debe utilizarse siempre que tenga sentido desde el punto de vista del riesgo frente al coste que conlleva (es decir, cuando la potencial pérdida causada por un compromiso de confidencialidad o integridad sea superior al coste de implementación que suponen los controles de seguridad adicionales). Una evaluación de riesgo debe ser el primer paso antes de aplicar el MASVS.
