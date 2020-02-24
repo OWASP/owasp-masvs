@@ -41,3 +41,4 @@ Create a new PR for cleanup:
 
 - Get rid of all scripts that aren't required anymore to keep the repo clean and simplify tools and docker folder.
 - Remove all related files all over the repo: `book.json`, `travis.yml`, `tools/generate_document_*`, `gendocs*.sh`, `*gitbook*`, etc.
+- Remove images that have been copied for no good reason.
