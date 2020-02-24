@@ -79,8 +79,7 @@ Before you start contributing, please check our [contribution guide](https://git
 
 # Read Individual Sections of the MASVS Here
 
-- [Header](Document/0x00-Header.md)
-- [Foreword](Document/Foreword.md)
+- [Foreword](Document/0x01-Foreword.md)
 - [Frontispiece](Document/0x02-Frontispiece.md)
 - [The Mobile Application Security Verification Standard](Document/0x03-Using_the_MASVS.md)
 - [Assessment and Verification](Document/0x04-Assessment_and_Certification.md)
