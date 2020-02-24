@@ -2,7 +2,7 @@
 type pandoc >/dev/null 2>&1 || { echo >&2 "I require pandoc but it's not installed.  Aborting."; exit 1; }
 # How to generate Docx
 cd ../Document
-pandoc -f gfm --toc -N --columns 10000 --self-contained -s --reference-doc ../Tools/reference.docx -t docx -o ../Generated/MASVS.docx \
+pandoc -f gfm --toc -N --columns 10000 --self-contained -s --reference-doc ../Tools/reference.docx -t docx -o ../MASVS.docx \
 CHANGELOG.md \
 0x01-Foreword.md \
 0x02-Frontispiece.md \
