@@ -6,4 +6,5 @@ node_modules
 .vscode
 Generated/
 *.pdf
+*.epub
 tmp_*.tex
