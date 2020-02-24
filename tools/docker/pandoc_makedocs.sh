@@ -47,11 +47,19 @@ pandoc --resource-path=.:${FOLDER} \
     -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.pdf $CHAPTERS
 
 pandoc --resource-path=.:${FOLDER} \
--f markdown \
--t epub \
---metadata title="OWASP Mobile Security Testing Guide" \
---epub-cover-image=cover.jpg \
--o ${OUTPUT_BASE_NAME}-${LANGUAGE}.epub $CHAPTERS 
+    -f markdown \
+    -t epub \
+    --metadata title="OWASP Mobile Security Testing Guide" \
+    --epub-cover-image=cover.jpg \
+    -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.epub $CHAPTERS 
+
+pandoc --resource-path=.:${FOLDER} \
+-f gfm \
+-t docx \
+--toc -N --columns 10000 --self-contained -s \
+-o ${OUTPUT_BASE_NAME}-${LANGUAGE}.docx $CHAPTERS 
+# --reference-doc ./tools/reference.docx \
+
 
 rm tmp_first_page-$LANGUAGE.tex
 rm tmp_cover-$LANGUAGE.tex

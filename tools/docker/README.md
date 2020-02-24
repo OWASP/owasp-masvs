@@ -9,7 +9,6 @@
     ```sh
     $ ./tools/docker/run_docker_masvs_generation_on_local.sh 1.2
     ```
-  
 
 ## On GitHub
 
@@ -33,12 +32,3 @@ Given a new version:
 ## Open Points (REMOVE from here when DONE!)
 
 Finish items for [https://github.com/OWASP/owasp-masvs/issues/361](https://github.com/OWASP/owasp-masvs/issues/361):
-
-- Add Epub, mobi and docx again
-- add auto-release
-
-Create a new PR for cleanup:
-
-- Get rid of all scripts that aren't required anymore to keep the repo clean and simplify tools and docker folder.
-- Remove all related files all over the repo: `book.json`, `travis.yml`, `tools/generate_document_*`, `gendocs*.sh`, `*gitbook*`, etc.
-- Remove images that have been copied for no good reason.
