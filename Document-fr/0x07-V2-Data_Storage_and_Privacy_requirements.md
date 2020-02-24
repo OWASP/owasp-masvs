@@ -14,8 +14,6 @@ Dans le contexte du MASVS, les données sensibles ont trait aux deux aspects que
 - Information hautement sensible pouvant amener à une perte de réputation et/ou un coût financier si elle était divulguée : information contractuelle, information sous le coup de clauses de non-divulgation, information de gestion ;
 - Toute information devant être protégée légalement ou pour des raisons de conformité.
 
-
-
 ## Exigences pour la Validation de la Sécurité
 
 La grande majorité des problèmes de divulgation de données peuvent être empêchés en suivant des règles simples. La plupart des contrôles listés dans ce chapitre sont obligatoires pour tous les niveaux de validation.
@@ -37,8 +35,6 @@ La grande majorité des problèmes de divulgation de données peuvent être emp�
 | **2.13** | MSTG-STORAGE-13 | Aucune donnée sensible ne doit être stockée localement sur l'appareil mobile. Par contre, les données doivent être extraites à partir d'un point terminal distant et stockées seulement en mémoire. |  | ✓ |
 | **2.14** | MSTG-STORAGE-14 | Si le stockage des données sensibles localement est encore exigé, ces dernières doivent être chiffrées par une clé dérivée d'un stockage matériel qui exige l'authentification. |  | ✓ |
 | **2.15** | MSTG-STORAGE-15 | Le stockage local de l'application doit être effacé après un nombre excessif de tentatives d'authentification erronées. |  | ✓ |
-
-
 
 ## Références
 
