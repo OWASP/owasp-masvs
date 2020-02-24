@@ -1,7 +1,5 @@
 # Changelog
 
-Este documento es generado automáticamente a las {{gitbook.time}}
-
 ## V1.2-RC - Pre-release
 
 Los siguientes cambios forman parte de la versión 1.2:
@@ -10,16 +8,16 @@ Los siguientes cambios forman parte de la versión 1.2:
 - Requisitos MSTG-STORAGE-1 modificado para ser más extricto.
 - Añadidos los requisitos MSTG-STORAGE-13, MSTG-STORAGE-14 y MSTG-STORAGE-15 centrados en la protección de datos.
 - Actualizado el requisito MSTG-AUTH-11 para preservar información contextual.
-- Actualizado el requisito MSTG‑CODE‑4 para cubrir más allá de la depuración.
-- Añadido el requisito MSTG‑PLATFORM‑10 para incrementar la seguridad al usar WebViews.
-- Añadido el requisito MSTG‑AUTH‑12 para recordar a los desarrolladores que deben de implementar medidas de autorización, especialmente en aplicaciones multi usuario.
+- Actualizado el requisito MSTG-CODE-4 para cubrir más allá de la depuración.
+- Añadido el requisito MSTG-PLATFORM-10 para incrementar la seguridad al usar WebViews.
+- Añadido el requisito MSTG-AUTH-12 para recordar a los desarrolladores que deben de implementar medidas de autorización, especialmente en aplicaciones multi usuario.
 - Descripción mejorada sobre como usar el MASVS dado una evaluación de riesgo.
 - Añadida más descripción sobre contenidos de pago.
-- Añadido el requisito MSTG‑ARCH‑11 incluyendo una política de divulgación responsable para aplicaciones MASVS-L2.
-- Añadido el requisito MSTG‑ARCH‑12 informando a los desarrolladores que las correspondientes leyes internacionales de privacidad deberían de ser seguidas.
+- Añadido el requisito MSTG-ARCH-11 incluyendo una política de divulgación responsable para aplicaciones MASVS-L2.
+- Añadido el requisito MSTG-ARCH-12 informando a los desarrolladores que las correspondientes leyes internacionales de privacidad deberían de ser seguidas.
 - Consolidado el estilo de referencias en la versión inglesa.
-- Añadido el requisito MSTG‑PLATFORM‑11 para combatir el espionaje mediante teclados de terceros.
-- Añadido el requisito MSTG-MSTG‑RESILIENCE‑13 para impedir el _eavesdropping_ en aplicaciones.
+- Añadido el requisito MSTG-PLATFORM-11 para combatir el espionaje mediante teclados de terceros.
+- Añadido el requisito MSTG-MSTG-RESILIENCE-13 para impedir el _eavesdropping_ en aplicaciones.
 
 ## V1.1.4 4 de julio de 2019 - Summit edition
 

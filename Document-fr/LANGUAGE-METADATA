@@ -1,0 +1,3 @@
+export LANGUAGE=fr
+export LANGUAGETEXT="(French Translation)"
+export TOC_TITLE="Résumé"

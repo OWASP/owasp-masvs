@@ -1,6 +1,6 @@
 # 目錄
 
-- [前言](Foreword.md)
+- [前言](0x01-Foreword.md)
 - [Changelog](CHANGELOG.md)
 - [卷首](0x02-Frontispiece.md)
 - [使用 MASVS](0x03-Using_the_MASVS.md)
