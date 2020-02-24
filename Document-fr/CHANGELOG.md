@@ -1,7 +1,5 @@
 # Changelog
 
-Ce document est généré automatiquement à {{gitbook.time}}
-
 ## V1.2-RC
 
 Les changement suivants font partie de la livraison 1.2:

@@ -5,3 +5,7 @@ node_modules
 .idea
 .vscode
 Generated/
+*.pdf
+*.epub
+tmp_*.tex
+OWASP_MASVS-SNAPSHOT*.docx

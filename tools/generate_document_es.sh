@@ -3,9 +3,8 @@ type pandoc >/dev/null 2>&1 || { echo >&2 "I require pandoc but it's not install
 # How to generate Docx
 cd ../Document-es
 pandoc -f markdown_github --toc -N --columns 10000 --self-contained -s --reference-doc ../Tools/reference.docx -t docx -o ../Generated/MASVS-es.docx \
-0x00-Header.md \
-Changelog.md \
-Foreword.md \
+CHANGELOG.md \
+0x01-Foreword.md \
 0x02-Frontispiece.md \
 0x03-Using_the_MASVS.md \
 0x04-Assessment_and_Certification.md \

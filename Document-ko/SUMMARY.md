@@ -1,7 +1,7 @@
 # 목차
 
 - [변경이력](CHANGELOG.md)
-- [서문](Foreword.md)
+- [서문](0x01-Foreword.md)
 - [시작](0x02-Frontispiece.md)
 - [MASVS 사용](0x03-Using_the_MASVS.md)
 - [평가 및 인증](0x04-Assessment_and_Certification.md)

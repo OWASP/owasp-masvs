@@ -1,8 +1,6 @@
-![OWASP LOGO](images/OWASP_logo.png)
+# 關於本標準
 
-# Mobile Application Security Verification Standard
-
-## 關於本標準
+[![OWASP LOGO](images/OWASP_logo.png)](https://www.owasp.org)
 
 歡迎參閱 Mobile Application Security Verification Standard (MASVS) 1.1 版. MASVS 是一個社群的成果，目的在於建立一個安全需求的架構給人們去設計、開發和測試iOS跟Android的安全行動應用程式。
 
@@ -12,18 +10,22 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 
 ## 版權和許可
 
-![license](images/license.png) Copyright © 2019 The OWASP Foundation. 本文檔在 Creative Commons Attribution ShareAlike 3.0 協議許可下發布。 對於任何二次使用或發布，你必須向其他人說明清楚這項成果的版權。
+[![license](images/CC-license.png){ width=200px }](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Copyright © 2019 The OWASP Foundation. 本文檔在 Creative Commons Attribution ShareAlike 3.0 協議許可下發布。 對於任何二次使用或發布，你必須向其他人說明清楚這項成果的版權。
+
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
 
 ## 致謝
 
 | 項目負責人 | 主要作者 | 貢獻者和校稿人員
-| --- | --- | --- |
+| ------- | --- | ----------------- |
 | Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Eugen Martynov, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abderrahmane Aftahi, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
 
-<br/><br/>
-
 | 語言 | 翻譯和複查人員 |
-| --- | --- |
+| --- | ------------------------------ |
 | 繁體中文 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | 法文 | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | 德文 | Rocco Gränitz, Sven Schleier (Review) |
@@ -40,7 +42,7 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 
 ### 特別感謝
 
-[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
-[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/ "RandoriSec")
+[![NowSecure](images/NowSecure_logo.png){ width=200px }](https://www.nowsecure.com/ "NowSecure")
+[![RandoriSec](images/Randorisec_logo.png){ width=200px }](https://www.randorisec.fr/ "RandoriSec")
 
 接下來，我們要感謝OWASP灣區分會的讚助。 最後，我們要感謝所有從Leanpub購買這本書並以這種方式贊助我們的人。

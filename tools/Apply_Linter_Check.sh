@@ -68,4 +68,5 @@ apply_lint_check_lang ja
 apply_lint_check_lang ko
 apply_lint_check_lang ru
 apply_lint_check_lang zhtw
+apply_lint_check_lang zhcn
 finalize

@@ -1,8 +1,6 @@
-![OWASP LOGO](images/OWASP_logo.png)
+# A Propos du Standard
 
-# Standard de Validation de la Sécurité des Applications Mobiles (Mobile Application Security Verification Standard - MASVS)
-
-## A Propos du Standard
+[![OWASP LOGO](images/OWASP_logo.png)](https://www.owasp.org)
 
 Bienvenue sur le Mobile Application Security Verification Standard (MASVS) 1.1, le Standard de Validation de la Sécurité des Applications Mobiles. Le MASVS est un effort communautaire dont le but est d'établir un cadre concernant les exigences de sécurité pour le design, le développement et le test de sécurité des applications mobiles sur iOS et Android.
 
@@ -12,21 +10,22 @@ Un compte peut être créé à l'endroit suivant: <http://owasp.herokuapp.com/>.
 
 ## Copyright et Licence
 
-![license](images/CC-license.png)
+[![license](images/CC-license.png){ width=200px }](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Copyright © 2019 The OWASP Foundation. Ce document est publié sous la licence Creative Commons Attribution ShareAlike 4.0 International. Pour toute ré-utilisation ou distribution, il est obligatoire d'attribuer la licence de ce travail aux auteurs.
 
-<div style="page-break-after: always;">
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
 </div>
 
 ## Remerciements
 
 | Chef de Projet | Auteur Principal | Contributeurs et Relecteurs
-| --- | --- | --- |
+| ------- | --- | ----------------- |
 | Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Eugen Martynov, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abderrahmane Aftahi, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
 
 | La langue | Traducteurs et relecteurs |
-| --- | --- |
+| --- | ------------------------------ |
 | Allemand | Rocco Gränitz, Sven Schleier (Review) |
 | Chinois | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | Coréen | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
@@ -43,10 +42,10 @@ Tant le MASVS que le MSTG ont été créés et sont maintenus par la communauté
 
 ### Honorable Benefactor
 
-[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
+[![NowSecure](images/NowSecure_logo.png){ width=200px }](https://www.nowsecure.com/ "NowSecure")
 
 ### Good Samaritan
 
-[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/ "RandoriSec")
+[![RandoriSec](images/Randorisec_logo.png){ width=200px }](https://www.randorisec.fr/ "RandoriSec")
 
 Nous aimerions ensuite remercier le chapitre de la région OWASP Bay Area pour son parrainage. Enfin, nous voudrions remercier toutes les personnes qui ont acheté le livre à Leanpub et qui nous ont parrainé de cette manière.
