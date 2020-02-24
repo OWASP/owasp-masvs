@@ -15,8 +15,6 @@ Le but des contrôles listés dans cette section est de garantir la confidential
 | **5.5** | MSTG-NETWORK-5 | L'application ne repose pas sur un canal de communication non-sécurisé unique (e-mail ou SMS) pour les opérations critiques telles que l'enregistrement ou la récupération de compte. |  | ✓ |
 | **5.6** | MSTG-NETWORK-6 | L'application implémente l'état de l'art en termes de connectivité et de librairies de sécurité. |  | ✓ |
 
-
-
 ## Références
 
 Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.

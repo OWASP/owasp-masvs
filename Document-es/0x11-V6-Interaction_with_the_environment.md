@@ -20,8 +20,6 @@ Estos controles revisan que se utilicen las APIs de la plataforma y componentes 
 | **6.10** | MSTG-PLATFORM-10 | La caché, el almacenamiento y los recursos cargados (JavaScript, etc.) de las WebViews deben de borrarse antes de destruir la WebView. |  | ✓ |
 | **6.11** | MSTG-PLATFORM-11 | Verificar que la aplicación impide el uso de teclados de terceros siempre que se introduzca información sensible. |  | ✓ |
 
-
-
 ## Referencias
 
 La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detalladas para verificar los requisitos listados en esta sección.
