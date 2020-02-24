@@ -50,6 +50,7 @@ pandoc --resource-path=.:${FOLDER} \
 -f markdown \
 -t epub \
 --metadata title="OWASP Mobile Security Testing Guide" \
+--epub-cover-image=cover.jpg \
 -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.epub $CHAPTERS 
 
 rm tmp_first_page-$LANGUAGE.tex
