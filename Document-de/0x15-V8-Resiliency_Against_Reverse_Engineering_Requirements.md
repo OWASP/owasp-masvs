@@ -18,8 +18,6 @@ Folgende Eckpunkte gelten:
 
 3. Die Effektivität der Schutzmaßnahmen sollte immer von einem Experten mit ausgewiesener Erfahrung im Bereich Anti-Code-Manipulation und Code-Obfuskierung überprüft werden (siehe auch Kapitel "reverse engineering" and "assessing software protections" im Mobile Security Testing Guide).
 
-
-
 ### Dynamische Analyse und Manipulation verhindern
 
 | # | MSTG-ID | Beschreibung | R |
@@ -52,8 +50,6 @@ Folgende Eckpunkte gelten:
 | # | MSTG-ID | Beschreibung | R |
 | -- | -------- | ---------------------- | - |
 | **8.13** | MSTG-RESILIENCE-13 | Neben einer gehärteten Kommunikation zwischen Client und API-Endpunkt, sollte auch der übertragene Payload verschlüsselt werden um das Abhören von Daten zu erschweren. | ✓ |
-
-
 
 ## Referenzen
 

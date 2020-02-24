@@ -21,8 +21,6 @@ In most cases, users logging into a remote service is an integral part of the ov
 | **4.11** | MSTG-AUTH-11 | The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices. | | ✓ |
 | **4.12** | MSTG-AUTH-12 | Authorization models should be defined and enforced at the remote endpoint. | ✓ | ✓ |
 
-
-
 ## References
 
 The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed above.
