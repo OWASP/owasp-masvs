@@ -21,8 +21,6 @@ En la mayoría de los casos, una parte esencial de la arquitectura global de apl
 | **4.11** | MSTG-AUTH-11 | La aplicación informa al usuario acerca de todas las actividades sensibles en su cuenta. El usuario es capaz de ver una lista de los dispositivos conectados, información contextual (dirección IP, localización, etc.), y es capaz de bloquear ciertos dispositivos. |  | ✓ |
 | **4.12** | MSTG-AUTH-12 | Los modelos de autorización deberían de ser definidos e impuestos por el sistema remoto. | ✓ | ✓ |
 
-
-
 ## Referencias
 
 La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detalladas para verificar los requisitos listados en esta sección.

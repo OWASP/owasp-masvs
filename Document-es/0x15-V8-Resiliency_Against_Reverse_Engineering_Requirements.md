@@ -18,8 +18,6 @@ Se aplican las siguientes consideraciones:
 
 3. La eficiencia de la protección siempre debe ser verificada por un experto con experiencia en el testeo de tipos particulares de anti-manipulación y ofuscación utilizados (ver también los capítulos "ingeniería inversa" y "evaluación de protecciones del software" en la Guía de Pruebas de Seguridad Móvil).
 
-
-
 ### Impedir el Análisis Dinámico y la Manipulación
 
 | # | MSTG-ID | Descripción | R |
@@ -52,8 +50,6 @@ Se aplican las siguientes consideraciones:
 | # | MSTG-ID | Descripción | R |
 | -- | -------- | ---------------------- | - |
 | **8.13** | MSTG-RESILIENCE-13 | A modo de defensa en profundidad, además de incluir un refuerzo (hardening) sólido de la comunicación, puede implementarse el cifrado de datos (payloads) a nivel de aplicación como medida adicional contra ataques de eavesdropping. | ✓ |
-
-
 
 ## Referencias
 
