@@ -10,7 +10,7 @@ MASVS - итог усилий сообщества и обратной связ�
 
 Аккаунты можно создать по этому адресу:
 
-[https://owasp.slack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LWQ2Nzg3NGJiZGQ2MjRmNzkzN2Q4YzU1MWYyZTdjYjA2ZTA5M2RkNzE2ZjdkNzI5ZThhOWY5MjljYWZmYmY4ZjM).
+[https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/).
 
 ## Авторское право и лицензия
 
