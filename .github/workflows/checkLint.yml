@@ -1,4 +1,4 @@
-name: Check Markdown markup
+name: Check Markdown Markup
 
 on: [push]
 
