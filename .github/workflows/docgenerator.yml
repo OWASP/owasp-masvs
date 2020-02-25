@@ -54,6 +54,11 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-en.docx
         path: OWASP_MASVS-SNAPSHOT-en.docx
+    - name: Upload English MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-en.mobi
+        path: OWASP_MASVS-SNAPSHOT-en.mobi
 
     - name: Generate Spanish PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-es 1.2'
@@ -72,6 +77,11 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-es.docx
         path: OWASP_MASVS-SNAPSHOT-es.docx
+    - name: Upload Spanish MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-es.mobi
+        path: OWASP_MASVS-SNAPSHOT-es.mobi
 
     - name: Generate German PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-de 1.2'
@@ -90,6 +100,11 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-de.docx
         path: OWASP_MASVS-SNAPSHOT-de.docx
+    - name: Upload German MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-de.mobi
+        path: OWASP_MASVS-SNAPSHOT-de.mobi
 
     - name: Generate French PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-fr 1.2'
@@ -108,6 +123,11 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-fr.docx
         path: OWASP_MASVS-SNAPSHOT-fr.docx
+    - name: Upload French MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-fr.mobi
+        path: OWASP_MASVS-SNAPSHOT-fr.mobi
 
     - name: Generate Russian PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ru 1.2'
@@ -126,6 +146,11 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-ru.docx
         path: OWASP_MASVS-SNAPSHOT-ru.docx
+    - name: Upload Russian MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ru.mobi
+        path: OWASP_MASVS-SNAPSHOT-ru.mobi
 
     - name: Generate Japanese PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ja 1.2'
@@ -144,6 +169,12 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-ja.docx
         path: OWASP_MASVS-SNAPSHOT-ja.docx
+    - name: Upload Japanese MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ja.mobi
+        path: OWASP_MASVS-SNAPSHOT-ja.mobi
+
 
     - name: Generate Traditional Chinese PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-zhtw 1.2'
@@ -162,6 +193,11 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-zhtw.docx
         path: OWASP_MASVS-SNAPSHOT-zhtw.docx
+    - name: Upload Traditional Chinese MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-zhtw.mobi
+        path: OWASP_MASVS-SNAPSHOT-zhtw.mobi
 
     - name: Generate Simplified Chinese PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-zhcn 1.2'
@@ -180,6 +216,12 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-zhcn.docx
         path: OWASP_MASVS-SNAPSHOT-zhcn.docx
+    - name: Upload Simplified Chinese MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-zhcn.mobi
+        path: OWASP_MASVS-SNAPSHOT-zhcn.mobi
+
 
     - name: Generate Korean PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ko 1.2'
@@ -198,3 +240,8 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-ko.docx
         path: OWASP_MASVS-SNAPSHOT-ko.docx
+    - name: Upload Korean MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ko.mobi
+        path: OWASP_MASVS-SNAPSHOT-ko.mobi
