@@ -32,7 +32,7 @@ Files:
 When you want to add another langauge:
 
 1. Create a folder with the language of choice.
-2. Extend `Apply_Link_Check.sh` and `Apply_Linter_Check.sh` with the new folder and make sure you do not end up with dead links or MD errors.
+2. Extend `Apply_Link_Check.sh` and `Apply_Linter_Check.sh` with the new folder and make sure you do not end up with dead links or Markdown errors.
 3. Update `.github/workflows/checkLint.yml` and add the new folder to the lint checker.
 4. Add the `LANGUAGE-METADATA` to the folder.
 5. Test the generation of the documentation by running `tools/docker/run_docker_masvs_generation_on_local.sh` and update `tools/docker/pandoc_makedocs.sh` where-ever necessary. See [the docker README.MD for more details on any necessary update process](docker/README.md).
