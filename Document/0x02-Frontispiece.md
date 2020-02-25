@@ -28,7 +28,8 @@ Copyright © 2020 The OWASP Foundation.This work is licensed under a [Creative C
 
 | Language | Translators & Reviewers |
 | --- | ------------------------------ |
-| Chinese | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| Chinese (Traditonal) | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| Chinese (Simplified) | Bob Peng, Harold Zang, Jack S |
 | French | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | German | Rocco Gränitz, Sven Schleier (Review) |
 | Japanese | Koki Takeyama, Riotaro Okada (Review) |

@@ -28,7 +28,8 @@ MASVS是社区努力和行业反馈的成果。我们希望该标准会随着时
 
 | 语言 |翻译和审核 |
 | --- | ------------------------------ |
-| 中文 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| 繁體中文 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| 簡體中文 | Bob Peng, Harold Zang, Jack S |
 | 法语 | Romuald Szkudlarek, Christian Dong (审核) |
 | 德文 | Rocco Gränitz, Sven Schleier (审核) |
 | 西班牙语 | Martin Marsicano, Carlos Holguera |
