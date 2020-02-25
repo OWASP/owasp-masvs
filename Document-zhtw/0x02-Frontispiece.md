@@ -12,7 +12,7 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 
 [![license](images/CC-license.png){ width=200px }](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Copyright © 2019 The OWASP Foundation. 本文檔在 Creative Commons Attribution ShareAlike 3.0 協議許可下發布。 對於任何二次使用或發布，你必須向其他人說明清楚這項成果的版權。
+Copyright © 2020 The OWASP Foundation. 本文檔在 Creative Commons Attribution ShareAlike 3.0 協議許可下發布。 對於任何二次使用或發布，你必須向其他人說明清楚這項成果的版權。
 
 <div style="page-break-after: always; visibility: hidden">
 \pagebreak
