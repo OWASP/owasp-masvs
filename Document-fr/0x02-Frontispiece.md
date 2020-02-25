@@ -27,7 +27,8 @@ Copyright © 2020 The OWASP Foundation. Ce document est publié sous la licence 
 | La langue | Traducteurs et relecteurs |
 | --- | ------------------------------ |
 | Allemand | Rocco Gränitz, Sven Schleier (Review) |
-| Chinois | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| Chinois (Traditionnel) | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| Chinois (Simplifié) | Bob Peng, Harold Zang, Jack S |
 | Coréen | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | Espagnol | Martin Marsicano, Carlos Holguera |
 | Français | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
