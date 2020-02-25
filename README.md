@@ -3,8 +3,10 @@
 # OWASP Mobile Application Security Verification Standard [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_MSTG.svg?style=social&label=Follow)](https://twitter.com/OWASP_MSTG)
 
 [![Creative Commons License](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
-[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory)
-[![Build Status](https://travis-ci.com/OWASP/owasp-masvs.svg?branch=master)](https://travis-ci.com/OWASP/owasp-masvs)
+[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/)
+[![CI document generation](https://github.com/OWASP/owasp-masvs/workflows/CI%20Build/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22CI+Build%22)
+[![Check Markdown markup](https://github.com/OWASP/owasp-masvs/workflows/Check%20Markdown%20markup/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+markup%22)
+[![Check Markdown links](https://github.com/OWASP/owasp-masvs/workflows/Check%20Markdown%20links/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+links%22)
 
 This is the official Github Repository of the OWASP Mobile Application Security Verification Standard (MASVS). The MASVS establishes baseline security requirements for mobile apps that are useful in many scenarios, including:
 
@@ -17,7 +19,7 @@ The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https
 
 # Getting the MASVS
 
-PDF/Mobi/Epub/Docx downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases "Releases"). The current release of the [MASVS is version 1.1.4](https://github.com/OWASP/owasp-masvs/releases/tag/1.1.4 "MASVS version 1.1.4"). The MASVS is also available in different languages:
+PDF/Mobi/Epub/Docx downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases "Releases"). The current release of the [MASVS is version 1.1.4](https://github.com/OWASP/owasp-masvs/releases/tag/1.1.4 "MASVS version 1.1.4"). Want to have the latest `snapshot` version? Check [the latest Github build action](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22CI+Build%22). The MASVS is also available in different languages:
 
 - [Chinese (Simplified) - ZHCN](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhcn "Simplified Chinese (ZHCN)")
 - [Chinese (Traditional) - ZHTW](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhtw "Traditional Chinese (ZHTW)")
@@ -31,26 +33,16 @@ PDF/Mobi/Epub/Docx downloads are available on the [Releases page](https://github
 
 ## Gitbook
 
-Read it on [Gitbook](https://mobile-security.gitbook.io/masvs/ "GitBook Mobile AppSec Verification Standard"). The book is automatically synchronized with the main repo.
+Read the English version on [Gitbook](https://mobile-security.gitbook.io/masvs/ "GitBook Mobile AppSec Verification Standard"). The book is automatically synchronized with the main repo.
 
-## Create new PDF, Epub or Mobi
+## Create new PDF, Epub, Mobi, and Word document
 
-You can find the documents in the release page. If you want to generate the documents yourself, execute the following steps. Clone the repository and run the gitbook generator. This produces PDF, Epub and Mobi files in the "Generated" subdirectory.
-
-```shell
-$ git clone https://github.com/OWASP/owasp-masvs/
-$ cd owasp-masvs/tools/
-$ ./gitbookepubandpdf.sh LATEST
-```
-
-## Create Word documents
-
-Clone the repository and run the document generator (requires [pandoc](http://pandoc.org/ "Pandoc")). This produces docx and HTML files in the "Generated" subdirectory.
+You can find the documents in the release page. If you want to generate the documents yourself, execute the following steps. Clone the repository and run the document generator. This produces PDF, Epub and Docx files in the root of the project.
 
 ```shell
 $ git clone https://github.com/OWASP/owasp-masvs/
-$ cd owasp-mstg/tools/
-$ ./generate_document.sh
+$ cd owasp-masvs/tools/docker
+$ ./run_docker_masvs_generation_on_local.sh LATEST
 ```
 
 ## Exporting to JSON, XML and CSV
@@ -73,7 +65,7 @@ The MASVS is an open source effort and we welcome contributions and feedback. If
 
 You can sign up here:
 
-[https://owasp.slack.com/](https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LWQ2Nzg3NGJiZGQ2MjRmNzkzN2Q4YzU1MWYyZTdjYjA2ZTA5M2RkNzE2ZjdkNzI5ZThhOWY5MjljYWZmYmY4ZjM)
+[https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/)
 
 Before you start contributing, please check our [contribution guide](https://github.com/OWASP/owasp-masvs/blob/master/CONTRIBUTING.md "Contribution Guide") which should get you started.
 
@@ -93,3 +85,4 @@ Before you start contributing, please check our [contribution guide](https://git
 - [V8: Resiliency Against Reverse Engineering Requirements](Document/0x15-V8-Resiliency_Against_Reverse_Engineering_Requirements.md)
 - [Appendix A: Glossary](Document/0x90-Appendix-A_Glossary.md)
 - [Appendix B: References](Document/0x91-Appendix-B_References.md)
+- [Release notes](CHANGELOG.md)
