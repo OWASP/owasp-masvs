@@ -26,7 +26,8 @@ Copyright © 2020 The OWASP Foundation. 本文檔在 Creative Commons Attributio
 
 | 語言 | 翻譯和複查人員 |
 | --- | ------------------------------ |
-| 繁體中文 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| 繁体中文 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| 简体中文 | Bob Peng, Harold Zang, Jack S |
 | 法文 | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | 德文 | Rocco Gränitz, Sven Schleier (Review) |
 | 西班牙文 | Martin Marsicano, Carlos Holguera |

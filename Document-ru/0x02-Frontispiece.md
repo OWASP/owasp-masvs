@@ -30,7 +30,8 @@ Copyright © 2020 The OWASP Foundation. Данный документ выпущ
 
 | Язык | Переводчики и рецензенты |
 | --- | ------------------------------ |
-| Китайский | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| традиционный китайский | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| упрощенный китайский | Bob Peng, Harold Zang, Jack S |
 | Французский | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | Немецкий | Rocco Gränitz, Sven Schleier (Review) |
 | Испанский | Martin Marsicano, Carlos Holguera |
