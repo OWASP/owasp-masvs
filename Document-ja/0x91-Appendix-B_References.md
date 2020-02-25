@@ -4,7 +4,7 @@
 
 - OWASP Mobile Security Project - [https://www.owasp.org/index.php/OWASP_Mobile_Security_Project](https://www.owasp.org/index.php/OWASP_Mobile_Security_Project)
 - OWASP Mobile Security Testing Guide - [https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide)
-- OWASP Mobile Top 10 Risks - [https://www.owasp.org/index.php/Projects/OWASP_Mobile_Security_Project_-_Top_Ten_Mobile_Risks](https://www.owasp.org/index.php/Projects/OWASP_Mobile_Security_Project_-_Top_Ten_Mobile_Risks)
+- OWASP Mobile Top 10 Risks - [https://owasp.org/www-project-mobile-top-10/](https://owasp.org/www-project-mobile-top-10/)
 - OWASP Reverse Engineering and Code Modification Prevention - [https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project](https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project)
 
 同様に以下のWebサイトはこの標準のユーザーや採用者にとって最も役に立つものです。
