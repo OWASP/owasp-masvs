@@ -35,7 +35,7 @@ PDF/Mobi/Epub/Docx downloads are available on the [Releases page](https://github
 
 Read the English version on [Gitbook](https://mobile-security.gitbook.io/masvs/ "GitBook Mobile AppSec Verification Standard"). The book is automatically synchronized with the main repo.
 
-## Create new PDF, Epub, and Word document
+## Create new PDF, Epub, Mobi, and Word document
 
 You can find the documents in the release page. If you want to generate the documents yourself, execute the following steps. Clone the repository and run the document generator. This produces PDF, Epub and Docx files in the root of the project.
 
