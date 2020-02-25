@@ -51,6 +51,7 @@ pandoc --resource-path=.:${FOLDER} \
     -t epub \
     --metadata title="OWASP Mobile Security Testing Guide" \
     --metadata lang="${LANGUAGE}" \
+    --metadata author="Bernhard Mueller, Sven Schleier, Jeroen Willemsen, and Carlos Holguera" \
     --epub-cover-image=cover.jpg \
     -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.epub $CHAPTERS 
 
