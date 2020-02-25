@@ -20,7 +20,7 @@ Files:
 ## Release process
 
 1. Sync @sushi2k's repository
-2. Update the CHANGELOG.md: make sure it says release in every changelog, including of all the translations! (so no pre-release/RC client, etc.)
+2. Update the CHANGELOG.md: make sure it says release in every changelog, including the one in the root of the project as well as the CHANGELOG.md for each of the translations! (so no pre-release/RC client, etc.)
 3. Commit the changes (with message `Release <version>`)
 4. Push a tag with the new version (`git tag -a <version> -m "Release message that will be on github`)
 5. Update the Leanpub Files
