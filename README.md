@@ -4,9 +4,9 @@
 
 [![Creative Commons License](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/)
-[![CI document generation](https://github.com/OWASP/owasp-masvs/workflows/CI%20Build/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22CI+Build%22)
-[![Check Markdown markup](https://github.com/OWASP/owasp-masvs/workflows/Check%20Markdown%20markup/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+markup%22)
-[![Check Markdown links](https://github.com/OWASP/owasp-masvs/workflows/Check%20Markdown%20links/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+links%22)
+[![Document Generation](https://github.com/OWASP/owasp-masvs/workflows/CI%20Build/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22CI+Build%22)
+[![Check Markdown Markup](https://github.com/OWASP/owasp-masvs/workflows/Check%20Markdown%20markup/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+markup%22)
+[![Check Markdown Links](https://github.com/OWASP/owasp-masvs/workflows/Check%20Markdown%20links/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+links%22)
 
 This is the official Github Repository of the OWASP Mobile Application Security Verification Standard (MASVS). The MASVS establishes baseline security requirements for mobile apps that are useful in many scenarios, including:
 
