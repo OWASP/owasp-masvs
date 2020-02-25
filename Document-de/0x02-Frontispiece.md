@@ -28,9 +28,10 @@ Copyright © 2020 The OWASP Foundation. Dieses Dokument ist veröffentlicht unte
 
 | Sprache | Übersetzer und Gutachter |
 | --- | ------------------------------ |
-| Chinesisch | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| Chinesisch (Traditionell) | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| Chinesisch (Vereinfacht) | Bob Peng, Harold Zang, Jack S |
 | Französisch | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
-| Deutsche | Rocco Gränitz, Sven Schleier (Review) |
+| Deutsch | Rocco Gränitz, Sven Schleier (Review) |
 | Spanisch | Martin Marsicano, Carlos Holguera |
 | Japanisch | Koki Takeyama, Riotaro Okada (Review) |
 | Russisch | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
