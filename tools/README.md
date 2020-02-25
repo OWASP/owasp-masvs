@@ -36,7 +36,7 @@ When you want to add another langauge:
 3. Update `.github/workflows/checkLint.yml` and add the new folder to the lint checker.
 4. Add the `LANGUAGE-METADATA` to the folder.
 5. Test the generation of the documentation by running `tools/docker/run_docker_masvs_generation_on_local.sh` and update `tools/docker/pandoc_makedocs.sh` where-ever necessary. See [the docker README.MD for more details on any necessary update process](docker/README.md).
-6. Extend the folder in `export.py`
+6. Add the language to the list of languages in `export.py`
 7. Update `.github/workflows/docgenerator.yml` and add the action steps for the new language.
 8. Update `../LANGS.md` to include the new language.
 9. Extend the `../README.md` with the newly available language.
