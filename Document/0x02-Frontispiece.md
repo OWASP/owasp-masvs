@@ -47,10 +47,10 @@ While both the MASVS and the MSTG are created and maintained by the community on
 
 ### Honourable Benefactor
 
-[![NowSecure](images/NowSecure_logo.png){ width=200px }](https://www.nowsecure.com/ "NowSecure")
+[![NowSecure](images/NowSecure_logo.png){ width="200px" }](https://www.nowsecure.com/ "NowSecure")
 
 ### Good Samaritan Benefactor
 
-[![RandoriSec](images/Randorisec_logo.png){ width=200px }](https://www.randorisec.fr/ "RandoriSec")
+[![RandoriSec](images/Randorisec_logo.png){ width="200px" }](https://www.randorisec.fr/ "RandoriSec")
 
 Next, we would like to thank the OWASP Bay Area Chapter for their sponsorship. Last, we would like to thank everybody that bought the book from Leanpub and sponsored us that way.
