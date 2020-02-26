@@ -47,7 +47,8 @@ While both the MASVS and the MSTG are created and maintained by the community on
 
 ### Honourable Benefactor
 
-[![NowSecure](images/NowSecure_logo.png){ width="200px" }](https://www.nowsecure.com/ "NowSecure")
+<!-- [![NowSecure](images/NowSecure_logo.png){ width="200px" }](https://www.nowsecure.com/ "NowSecure") -->
+[<img src="images/NowSecure_logo.png" width="200px" />](https://www.nowsecure.com/ "NowSecure")
 
 ### Good Samaritan Benefactor
 
