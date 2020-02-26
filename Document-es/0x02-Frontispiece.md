@@ -1,6 +1,6 @@
 # Sobre el Estándar
 
-[![OWASP LOGO](images/OWASP_logo.png)](https://www.owasp.org)
+<img src="images/OWASP_logo.png" title="OWASP LOGO" />
 
 Bienvenido al Estándar de Verificación de Seguridad de Aplicaciones Móviles (MASVS) 1.1. El MASVS es un esfuerzo comunitario para establecer un marco de requisitos de seguridad necesarios para diseñar, desarrollar y probar la seguridad de aplicaciones móviles iOS y Android.
 
@@ -12,7 +12,7 @@ Las cuentas se pueden crear en la siguiente URL: [https://owasp-slack.herokuapp.
 
 ## Copyright y Licencia
 
-[![license](images/CC-license.png){ width=200px }](https://creativecommons.org/licenses/by-sa/4.0/)
+[<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Copyright © 2020 The OWASP Foundation. Este documento está licenciado bajo la licencia Internacional 4.0 de [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Para cualquier reutilización o distribución, debe dejar claro los términos de la licencia de esta obra.
 
@@ -47,10 +47,10 @@ Aunque tanto el MASVS como la MSTG fueron creados y son mantenidos por la comuni
 
 ### Honorable Benefactor
 
-[![NowSecure](images/NowSecure_logo.png){ width=200px }](https://www.nowsecure.com/ "NowSecure")
+[<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
 
 ### Good Samaritan
 
-[![RandoriSec](images/Randorisec_logo.png){ width=200px }](https://www.randorisec.fr/ "RandoriSec")
+[<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
 También nos gustaría agradecer al Capítulo del Área de la Bahía de OWASP por su patrocinio. Por último, nos gustaría agradecer a todos los que compraron el libro en Leanpub y nos patrocinaron de esa manera.
