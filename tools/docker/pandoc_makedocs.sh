@@ -35,9 +35,11 @@ else
 fi
 
 # given that the formats below require markdown images instead of image tags: let's parse the files:
-for FILE in $FOLDER
+for FILE in $FOLDER/*.md
 do
-  sed -f imagereplace.sed FILE>FILE
+  echo "processing $FILE"
+  if [$FILE -eq images]
+  sed -f tools/docker/imagereplace.sed $FILE > $FILE
 done
 # --columns 60 -> pandoc will attempt to wrap lines to the column width specified by --columns (default 72). We need it because of ZHCN.
 # --toc to create a Table of Contents with the title from the loaded env. vars.
