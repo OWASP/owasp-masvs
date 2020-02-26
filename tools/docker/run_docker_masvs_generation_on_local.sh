@@ -14,7 +14,17 @@ fi
 
 for folder in ./Document*; do
   echo "Generating $folder"
-  docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc $IMG "/pandoc_makedocs.sh $folder $VERSION" || echo "$folder failed" &
+  [ -f $folder-temp ] && rm -rf $folder-temp
+  cp -r $folder $folder-temp
+  docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc $IMG "/pandoc_makedocs.sh $folder-temp $VERSION" || echo "$folder failed" &
+
 done
 
 wait
+
+echo "Cleaning up"
+for folder in Document*; do
+    if [ -d "$folder-temp" ]; then 
+        rm -Rf $folder-temp
+    fi
+done
