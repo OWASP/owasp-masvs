@@ -49,14 +49,14 @@ pandoc --resource-path=.:${FOLDER} \
 pandoc --resource-path=.:${FOLDER} \
     -f markdown \
     -t epub \
-    --metadata title="OWASP Mobile Security Testing Guide" \
+    --metadata title="OWASP Mobile Application Security Verification Standard" \
     --metadata lang="${LANGUAGE}" \
     --metadata author="Bernhard Mueller, Sven Schleier, Jeroen Willemsen, and Carlos Holguera" \
     --epub-cover-image=cover.jpg \
     -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.epub $CHAPTERS 
 
 pandoc --resource-path=.:${FOLDER} \
-    -f gfm \
+    -f markdown \
     -t docx \
     --toc -N --columns 10000 --self-contained -s \
     -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.docx $CHAPTERS 
