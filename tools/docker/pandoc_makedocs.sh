@@ -68,8 +68,8 @@ pandoc --resource-path=.:${FOLDER} \
     -f markdown \
     -t docx \
     --toc -N --columns 10000 --self-contained -s \
+    --reference-doc tools/custom-reference.docx \
     -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.docx $CHAPTERS 
-# --reference-doc ./tools/reference.docx \
 
 kindlegen ${OUTPUT_BASE_NAME}-${LANGUAGE}.epub
 
