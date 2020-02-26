@@ -1,6 +1,6 @@
 # About the Standard
 
-<img src="images/OWASP_logo.png" title="WASP LOGO" width="866px" height="301px" />
+<img src="images/OWASP_logo.png" title="OWASP LOGO" width="577px" height="301px" />
 
 Welcome to the Mobile Application Security Verification Standard (MASVS) 1.1. The MASVS is a community effort to establish a framework of security requirements needed to design, develop and test secure mobile apps on iOS and Android.
 

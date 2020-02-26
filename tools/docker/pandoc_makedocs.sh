@@ -35,9 +35,9 @@ else
 fi
 
 # given that the formats below require markdown images instead of image tags: let's parse the files:
+echo "processing image tags in $FOLDER/0x*.md"
 for FILE in $FOLDER/0x*.md
 do
-  echo "processing $FILE"
   [ -f temp-$LANGUAGE ] && rm temp-$LANGUAGE
   sed -f tools/docker/imagereplace.sed $FILE > temp-$LANGUAGE
   cat temp-$LANGUAGE > $FILE
