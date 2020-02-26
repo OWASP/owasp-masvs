@@ -38,8 +38,10 @@ fi
 for FILE in $FOLDER/0x*.md
 do
   echo "processing $FILE"
-  sed -f tools/docker/imagereplace.sed $FILE > $FILE
-
+  [ -f temp-$LANGUAGE ] && rm temp-$LANGUAGE
+  sed -f tools/docker/imagereplace.sed $FILE > temp-$LANGUAGE
+  cat temp-$LANGUAGE > $FILE
+  [ -f temp-$LANGUAGE ] && rm temp-$LANGUAGE
 done
 # --columns 60 -> pandoc will attempt to wrap lines to the column width specified by --columns (default 72). We need it because of ZHCN.
 # --toc to create a Table of Contents with the title from the loaded env. vars.
