@@ -21,6 +21,10 @@
 | **4.11** | MSTG-AUTH-11 | 應用程式通過其帳戶通知用戶所有登錄活動。 用戶可以查看用於訪問帳戶的裝置列表（如實際位置，IP等），以及阻檔特定裝置。 |  | ✓ |
 | **4.12** | MSTG-AUTH-12 | 驗證方式需在遠端端點定義並執行。 | ✓ | ✓ |
 
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
+
 ## 參考
 
 OWASP Mobile Security Testing Guide 提供了有關驗證本章節中列出的準則的詳細使用說明。
