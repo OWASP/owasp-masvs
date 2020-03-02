@@ -51,7 +51,7 @@ pandoc --resource-path=.:${FOLDER} \
     --pdf-engine=xelatex --template=eisvogel \
     --columns 60 \
     --toc -V toc-title:"${TOC_TITLE}" --toc-depth=1 \
-    --metadata title="OWASP Mobile Application Security Verification Standard" \
+    --metadata title="OWASP Mobile Application Security Verification Standard $VERSION" \
     -H tmp_latex-header-$LANGUAGE.tex -V linkcolor:blue \
     --include-before-body tmp_cover-$LANGUAGE.tex --include-before-body tmp_first_page-$LANGUAGE.tex \
     -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.pdf $CHAPTERS

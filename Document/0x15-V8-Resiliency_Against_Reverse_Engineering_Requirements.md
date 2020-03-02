@@ -36,10 +36,6 @@ The following considerations apply:
 | **8.8** | MSTG-RESILIENCE-8 | The detection mechanisms trigger responses of different types, including delayed and stealthy responses. | ✓ |
 | **8.9** | MSTG-RESILIENCE-9 | Obfuscation is applied to programmatic defenses, which in turn impede de-obfuscation via dynamic analysis.  | ✓ |
 
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
-
 ### Device Binding
 
 | # | MSTG-ID | Description | R |
