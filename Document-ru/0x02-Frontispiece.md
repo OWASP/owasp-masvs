@@ -1,6 +1,6 @@
 # О стандарте
 
-[![OWASP LOGO](images/OWASP_logo.png)](https://www.owasp.org)
+<img src="images/OWASP_logo.png" title="OWASP LOGO" />
 
 Добро пожаловать в стандарт проверки безопасности мобильных приложений (MASVS) 1.1. MASVS - это результат совместных усилий в создании перечня требований информационной безопасности, необходимых для проектирования, разработки и тестирования мобильных приложений на iOS и Android.
 
@@ -14,7 +14,7 @@ MASVS - итог усилий сообщества и обратной связ�
 
 ## Авторское право и лицензия
 
-[![license](images/CC-license.png){ width=200px }](https://creativecommons.org/licenses/by-sa/4.0/)
+[<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Copyright © 2020 The OWASP Foundation. Данный документ выпущен под лицензией Creative Commons Attribution ShareAlike 4.0 International . Для использования или распространения необходимо разъяснить всем сторонам правила лицензии этой работы.
 
@@ -27,6 +27,8 @@ Copyright © 2020 The OWASP Foundation. Данный документ выпущ
 | Руководитель проекта | Главные авторы | Авторы и рецензенты |
 | ------- | --- | ----------------- |
 | Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Eugen Martynov, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abderrahmane Aftahi, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
+
+<br/>
 
 | Язык | Переводчики и рецензенты |
 | --- | ------------------------------ |
@@ -47,10 +49,10 @@ Copyright © 2020 The OWASP Foundation. Данный документ выпущ
 
 ### Почетный благотворитель
 
-[![NowSecure](images/NowSecure_logo.png){ width=200px }](https://www.nowsecure.com/ "NowSecure")
+[<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
 
 ### Добрый самаритянин
 
-[![RandoriSec](images/Randorisec_logo.png){ width=200px }](https://www.randorisec.fr/ "RandoriSec")
+[<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
 Далее, мы хотели бы поблагодарить главу OWASP Bay Area за их спонсорскую поддержку. Наконец, мы хотели бы поблагодарить всех, кто купил книгу у Leanpub и спонсировал нас таким образом.

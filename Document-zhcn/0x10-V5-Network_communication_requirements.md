@@ -15,6 +15,10 @@
 | **5.5** | MSTG-NETWORK-5 | 该应用程序不依赖单一的不安全通信渠道（电子邮件或SMS）进行关键操作（例如：注册和帐户恢复）。  | | ✓ |
 | **5.6** | MSTG-NETWORK-6 | 该应用程序仅依赖于最新的连接和安全库。 | | ✓ |
 
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
+
 ## 参考文献
 
 OWASP移动安全测试指南提供了验证本节中列出的要求的详细说明。
