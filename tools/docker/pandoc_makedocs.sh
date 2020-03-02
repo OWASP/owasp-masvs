@@ -70,7 +70,7 @@ pandoc --resource-path=.:${FOLDER} \
     -t docx \
     --toc -N --columns 10000 --self-contained -s \
     --reference-doc tools/custom-reference.docx \
-    -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.docx $CHAPTERS 
+    -o ${OUTPUT_BASE_NAME}-${LANGUAGE}_WIP_.docx $CHAPTERS 
 
 kindlegen ${OUTPUT_BASE_NAME}-${LANGUAGE}.epub
 

@@ -52,8 +52,8 @@ jobs:
     - name: Upload English DOCX
       uses: actions/upload-artifact@v1
       with:
-        name: OWASP_MASVS-SNAPSHOT-en.docx
-        path: OWASP_MASVS-SNAPSHOT-en.docx
+        name: OWASP_MASVS-SNAPSHOT-en_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-en_WIP_.docx
     - name: Upload English MOBI
       uses: actions/upload-artifact@v1
       with:
@@ -75,8 +75,8 @@ jobs:
     - name: Upload Spanish DOCX
       uses: actions/upload-artifact@v1
       with:
-        name: OWASP_MASVS-SNAPSHOT-es.docx
-        path: OWASP_MASVS-SNAPSHOT-es.docx
+        name: OWASP_MASVS-SNAPSHOT-es_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-es_WIP_.docx
     - name: Upload Spanish MOBI
       uses: actions/upload-artifact@v1
       with:
@@ -98,8 +98,8 @@ jobs:
     - name: Upload German DOCX
       uses: actions/upload-artifact@v1
       with:
-        name: OWASP_MASVS-SNAPSHOT-de.docx
-        path: OWASP_MASVS-SNAPSHOT-de.docx
+        name: OWASP_MASVS-SNAPSHOT-de_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-de_WIP_.docx
     - name: Upload German MOBI
       uses: actions/upload-artifact@v1
       with:
@@ -121,8 +121,8 @@ jobs:
     - name: Upload French DOCX
       uses: actions/upload-artifact@v1
       with:
-        name: OWASP_MASVS-SNAPSHOT-fr.docx
-        path: OWASP_MASVS-SNAPSHOT-fr.docx
+        name: OWASP_MASVS-SNAPSHOT-fr_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-fr_WIP_.docx
     - name: Upload French MOBI
       uses: actions/upload-artifact@v1
       with:
@@ -144,8 +144,8 @@ jobs:
     - name: Upload Russian DOCX
       uses: actions/upload-artifact@v1
       with:
-        name: OWASP_MASVS-SNAPSHOT-ru.docx
-        path: OWASP_MASVS-SNAPSHOT-ru.docx
+        name: OWASP_MASVS-SNAPSHOT-ru_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-ru_WIP_.docx
     - name: Upload Russian MOBI
       uses: actions/upload-artifact@v1
       with:
@@ -167,8 +167,8 @@ jobs:
     - name: Upload Japanese DOCX
       uses: actions/upload-artifact@v1
       with:
-        name: OWASP_MASVS-SNAPSHOT-ja.docx
-        path: OWASP_MASVS-SNAPSHOT-ja.docx
+        name: OWASP_MASVS-SNAPSHOT-ja_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-ja_WIP_.docx
     - name: Upload Japanese MOBI
       uses: actions/upload-artifact@v1
       with:
@@ -191,8 +191,8 @@ jobs:
     - name: Upload Traditional Chinese DOCX
       uses: actions/upload-artifact@v1
       with:
-        name: OWASP_MASVS-SNAPSHOT-zhtw.docx
-        path: OWASP_MASVS-SNAPSHOT-zhtw.docx
+        name: OWASP_MASVS-SNAPSHOT-zhtw_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-zhtw_WIP_.docx
     - name: Upload Traditional Chinese MOBI
       uses: actions/upload-artifact@v1
       with:
@@ -214,8 +214,8 @@ jobs:
     - name: Upload Simplified Chinese DOCX
       uses: actions/upload-artifact@v1
       with:
-        name: OWASP_MASVS-SNAPSHOT-zhcn.docx
-        path: OWASP_MASVS-SNAPSHOT-zhcn.docx
+        name: OWASP_MASVS-SNAPSHOT-zhcn_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-zhcn_WIP_.docx
     - name: Upload Simplified Chinese MOBI
       uses: actions/upload-artifact@v1
       with:
@@ -238,8 +238,8 @@ jobs:
     - name: Upload Korean DOCX
       uses: actions/upload-artifact@v1
       with:
-        name: OWASP_MASVS-SNAPSHOT-ko.docx
-        path: OWASP_MASVS-SNAPSHOT-ko.docx
+        name: OWASP_MASVS-SNAPSHOT-ko_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-ko_WIP_.docx
     - name: Upload Korean MOBI
       uses: actions/upload-artifact@v1
       with:
