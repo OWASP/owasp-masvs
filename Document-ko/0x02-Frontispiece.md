@@ -1,6 +1,6 @@
 # 본 표준에 대하여
 
-[![OWASP LOGO](images/OWASP_logo.png)](https://www.owasp.org)
+<img src="images/OWASP_logo.png" title="OWASP LOGO" />
 
 모바일 애플리케이션 보안 검증 표준(MASVS) 1.1에 오신것을 환영합니다. MASVS는 iOS 및 Android에서 안전한 모바일 앱을 설계, 개발, 테스트하는데 필요한 보안 요구사항의 프레임워크를 확립하기 위한 커뮤니티 활동입니다.
 
@@ -12,7 +12,7 @@ MASVS는 커뮤니티 활동과 업계 피드백의 성과입니다. 우리는 �
 
 ## 저작권 및 라이센스
 
-[![license](images/CC-license.png){ width=200px }](https://creativecommons.org/licenses/by-sa/4.0/)
+[<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Copyright © 2020 The OWASP Foundation. 본 저작물은 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)를 따릅니다. 재사용 또는 배포를 위해 본 저작물의 라이센스 조건을 다른 사람에게 명확하게 제시해야합니다.
 
@@ -25,6 +25,8 @@ Copyright © 2020 The OWASP Foundation. 본 저작물은 [Creative Commons Attri
 | 프로젝트 리더 | 책임 저자 | 공동저자 및 검토자
 | ------- | --- | ----------------- |
 | Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Eugen Martynov, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abderrahmane Aftahi, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
+
+<br/>
 
 | 언어 | 번역자 및 검토자 |
 | --- | ------------------------------ |
@@ -45,10 +47,10 @@ MASVS와 MSTG는 모두 커뮤니티에서 자발적으로 생성되고 유지�
 
 ### 명예 후원자
 
-[![NowSecure](images/NowSecure_logo.png){ width=200px }](https://www.nowsecure.com/ "NowSecure")
+[<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
 
 ### 자선 후원자
 
-[![RandoriSec](images/Randorisec_logo.png){ width=200px }](https://www.randorisec.fr/ "RandoriSec")
+[<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
 다음으로 우리는 OWASP Bay Area Chapter의 후원에 감사의 말씀을 전합니다. 마지막으로 Leanpub에서 이 책을 구입하여 후원해 주신 모든 분들께 감사드립니다.
