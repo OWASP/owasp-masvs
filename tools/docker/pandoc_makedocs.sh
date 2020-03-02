@@ -34,6 +34,15 @@ else
   cp ./tools/docker/latex-header.tex tmp_latex-header-$LANGUAGE.tex
 fi
 
+# given that the formats below require markdown images instead of image tags: let's parse the files:
+echo "processing image tags in $FOLDER/0x*.md"
+for FILE in $FOLDER/0x*.md
+do
+  [ -f temp-$LANGUAGE ] && rm temp-$LANGUAGE
+  sed -f tools/docker/imagereplace.sed $FILE > temp-$LANGUAGE
+  cat temp-$LANGUAGE > $FILE
+  [ -f temp-$LANGUAGE ] && rm temp-$LANGUAGE
+done
 # --columns 60 -> pandoc will attempt to wrap lines to the column width specified by --columns (default 72). We need it because of ZHCN.
 # --toc to create a Table of Contents with the title from the loaded env. vars.
 # -H to apply our customizations in the .tex header file
@@ -42,6 +51,7 @@ pandoc --resource-path=.:${FOLDER} \
     --pdf-engine=xelatex --template=eisvogel \
     --columns 60 \
     --toc -V toc-title:"${TOC_TITLE}" --toc-depth=1 \
+    --metadata title="OWASP Mobile Application Security Verification Standard" \
     -H tmp_latex-header-$LANGUAGE.tex -V linkcolor:blue \
     --include-before-body tmp_cover-$LANGUAGE.tex --include-before-body tmp_first_page-$LANGUAGE.tex \
     -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.pdf $CHAPTERS
@@ -49,18 +59,18 @@ pandoc --resource-path=.:${FOLDER} \
 pandoc --resource-path=.:${FOLDER} \
     -f markdown \
     -t epub \
-    --metadata title="OWASP Mobile Security Testing Guide" \
+    --metadata title="OWASP Mobile Application Security Verification Standard" \
     --metadata lang="${LANGUAGE}" \
     --metadata author="Bernhard Mueller, Sven Schleier, Jeroen Willemsen, and Carlos Holguera" \
     --epub-cover-image=cover.jpg \
     -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.epub $CHAPTERS 
 
 pandoc --resource-path=.:${FOLDER} \
-    -f gfm \
+    -f markdown \
     -t docx \
     --toc -N --columns 10000 --self-contained -s \
+    --reference-doc tools/custom-reference.docx \
     -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.docx $CHAPTERS 
-# --reference-doc ./tools/reference.docx \
 
 kindlegen ${OUTPUT_BASE_NAME}-${LANGUAGE}.epub
 
