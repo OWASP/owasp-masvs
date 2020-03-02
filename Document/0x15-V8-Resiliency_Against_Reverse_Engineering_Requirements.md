@@ -42,6 +42,10 @@ The following considerations apply:
 | -- | -------- | ---------------------- | - |
 | **8.10** | MSTG-RESILIENCE-10 | The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device. | ✓ |
 
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
+
 ### Impede Comprehension
 
 | # | MSTG-ID | Description | R |
