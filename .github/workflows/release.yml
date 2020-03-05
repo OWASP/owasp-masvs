@@ -16,11 +16,11 @@ jobs:
         with:
           fetch-depth: 1
       - name: Generate python scripts (csv)
-        run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-SNAPSHOT.csv'
+        run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-${GITHUB_REF}.csv'
       - name: Generate python scripts (json)
-        run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-SNAPSHOT.json'
+        run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-${GITHUB_REF}.json'
       - name: Generate python scripts (xml)
-        run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-SNAPSHOT.xml'
+        run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-${GITHUB_REF}.xml'
       - name: Generate English docs
         run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document $GITHUB_REF'
       - name: Generate Spanish docs
@@ -45,42 +45,42 @@ jobs:
         with:
           body_path: ${{ github.workflow }}-tools/RECENT_CHANGES.TXT
           files: |
-            OWASP_MASVS-SNAPSHOT-de.epub
-            OWASP_MASVS-SNAPSHOT-de.mobi
-            OWASP_MASVS-SNAPSHOT-de.pdf
-            OWASP_MASVS-SNAPSHOT-de_WIP_.docx
-            OWASP_MASVS-SNAPSHOT-en.epub
-            OWASP_MASVS-SNAPSHOT-en.mobi
-            OWASP_MASVS-SNAPSHOT-en.pdf
-            OWASP_MASVS-SNAPSHOT-en_WIP_.docx
-            OWASP_MASVS-SNAPSHOT-es.epub
-            OWASP_MASVS-SNAPSHOT-es.mobi
-            OWASP_MASVS-SNAPSHOT-es.pdf
-            OWASP_MASVS-SNAPSHOT-es_WIP_.docx
-            OWASP_MASVS-SNAPSHOT-fr.epub
-            OWASP_MASVS-SNAPSHOT-fr.mobi
-            OWASP_MASVS-SNAPSHOT-fr.pdf
-            OWASP_MASVS-SNAPSHOT-fr_WIP_.docx
-            OWASP_MASVS-SNAPSHOT-ja.epub
-            OWASP_MASVS-SNAPSHOT-ja.mobi
-            OWASP_MASVS-SNAPSHOT-ja.pdf
-            OWASP_MASVS-SNAPSHOT-ja_WIP_.docx
-            OWASP_MASVS-SNAPSHOT-ko.epub
-            OWASP_MASVS-SNAPSHOT-ko.mobi
-            OWASP_MASVS-SNAPSHOT-ko.pdf
-            OWASP_MASVS-SNAPSHOT-ko_WIP_.docx
-            OWASP_MASVS-SNAPSHOT-ru.epub
-            OWASP_MASVS-SNAPSHOT-ru.mobi
-            OWASP_MASVS-SNAPSHOT-ru.pdf
-            OWASP_MASVS-SNAPSHOT-ru_WIP_.docx
-            OWASP_MASVS-SNAPSHOT-zhcn.epub
-            OWASP_MASVS-SNAPSHOT-zhcn.mobi
-            OWASP_MASVS-SNAPSHOT-zhcn.pdf
-            OWASP_MASVS-SNAPSHOT-zhcn_WIP_.docx
-            OWASP_MASVS-SNAPSHOT-zhtw.epub
-            OWASP_MASVS-SNAPSHOT-zhtw.mobi
-            OWASP_MASVS-SNAPSHOT-zhtw.pdf
-            OWASP_MASVS-SNAPSHOT-zhtw_WIP_.docx
+            OWASP_MASVS-${GITHUB_REF}-de.epub
+            OWASP_MASVS-${GITHUB_REF}-de.mobi
+            OWASP_MASVS-${GITHUB_REF}-de.pdf
+            OWASP_MASVS-${GITHUB_REF}-de_WIP_.docx
+            OWASP_MASVS-${GITHUB_REF}-en.epub
+            OWASP_MASVS-${GITHUB_REF}-en.mobi
+            OWASP_MASVS-${GITHUB_REF}-en.pdf
+            OWASP_MASVS-${GITHUB_REF}-en_WIP_.docx
+            OWASP_MASVS-${GITHUB_REF}-es.epub
+            OWASP_MASVS-${GITHUB_REF}-es.mobi
+            OWASP_MASVS-${GITHUB_REF}-es.pdf
+            OWASP_MASVS-${GITHUB_REF}-es_WIP_.docx
+            OWASP_MASVS-${GITHUB_REF}-fr.epub
+            OWASP_MASVS-${GITHUB_REF}-fr.mobi
+            OWASP_MASVS-${GITHUB_REF}-fr.pdf
+            OWASP_MASVS-${GITHUB_REF}-fr_WIP_.docx
+            OWASP_MASVS-${GITHUB_REF}-ja.epub
+            OWASP_MASVS-${GITHUB_REF}-ja.mobi
+            OWASP_MASVS-${GITHUB_REF}-ja.pdf
+            OWASP_MASVS-${GITHUB_REF}-ja_WIP_.docx
+            OWASP_MASVS-${GITHUB_REF}-ko.epub
+            OWASP_MASVS-${GITHUB_REF}-ko.mobi
+            OWASP_MASVS-${GITHUB_REF}-ko.pdf
+            OWASP_MASVS-${GITHUB_REF}-ko_WIP_.docx
+            OWASP_MASVS-${GITHUB_REF}-ru.epub
+            OWASP_MASVS-${GITHUB_REF}-ru.mobi
+            OWASP_MASVS-${GITHUB_REF}-ru.pdf
+            OWASP_MASVS-${GITHUB_REF}-ru_WIP_.docx
+            OWASP_MASVS-${GITHUB_REF}-zhcn.epub
+            OWASP_MASVS-${GITHUB_REF}-zhcn.mobi
+            OWASP_MASVS-${GITHUB_REF}-zhcn.pdf
+            OWASP_MASVS-${GITHUB_REF}-zhcn_WIP_.docx
+            OWASP_MASVS-${GITHUB_REF}-zhtw.epub
+            OWASP_MASVS-${GITHUB_REF}-zhtw.mobi
+            OWASP_MASVS-${GITHUB_REF}-zhtw.pdf
+            OWASP_MASVS-${GITHUB_REF}-zhtw_WIP_.docx
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # "OFFICIAL" github actions only support one file ot upload. therefore will use unoficial
