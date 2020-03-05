@@ -61,6 +61,10 @@ OWASP Mobile Security Testing Guide 提供了有關驗證本章節中列出的�
 - Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
 - iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>
+
 更多資訊請參閱：
 
 - OWASP Mobile Top 10: M8 (Code Tampering) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m8-code-tampering>
