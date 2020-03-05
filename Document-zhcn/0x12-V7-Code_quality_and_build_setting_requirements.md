@@ -18,10 +18,6 @@
 | **7.8** | MSTG-CODE-8 | 对于没有自动进行内存管理的程序语言，内存的分配，释放及使用需要被妥当地处理。 | ✓ | ✓ |
 | **7.9** | MSTG-CODE-9 | 编译器提供的免费内置的二进制安全保护机制，例如代码缩小化，堆栈保护，PIE支持和自动引用计数，已经开启。 | ✓ | ✓ |
 
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
-
 ## 参考文献
 
 OWASP 移动安全测试指南提供了验证上述要求的详细说明。
