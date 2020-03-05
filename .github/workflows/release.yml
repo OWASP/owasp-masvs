@@ -39,6 +39,50 @@ jobs:
         run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-zhcn $GITHUB_REF'
       - name: Generate Korean docs
         run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ko $GITHUB_REF'
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          body_path: ${{ github.workflow }}-tools/RECENT_CHANGES.TXT
+          files: |
+            OWASP_MASVS-SNAPSHOT-de.epub
+            OWASP_MASVS-SNAPSHOT-de.mobi
+            OWASP_MASVS-SNAPSHOT-de.pdf
+            OWASP_MASVS-SNAPSHOT-de_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-en.epub
+            OWASP_MASVS-SNAPSHOT-en.mobi
+            OWASP_MASVS-SNAPSHOT-en.pdf
+            OWASP_MASVS-SNAPSHOT-en_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-es.epub
+            OWASP_MASVS-SNAPSHOT-es.mobi
+            OWASP_MASVS-SNAPSHOT-es.pdf
+            OWASP_MASVS-SNAPSHOT-es_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-fr.epub
+            OWASP_MASVS-SNAPSHOT-fr.mobi
+            OWASP_MASVS-SNAPSHOT-fr.pdf
+            OWASP_MASVS-SNAPSHOT-fr_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-ja.epub
+            OWASP_MASVS-SNAPSHOT-ja.mobi
+            OWASP_MASVS-SNAPSHOT-ja.pdf
+            OWASP_MASVS-SNAPSHOT-ja_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-ko.epub
+            OWASP_MASVS-SNAPSHOT-ko.mobi
+            OWASP_MASVS-SNAPSHOT-ko.pdf
+            OWASP_MASVS-SNAPSHOT-ko_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-ru.epub
+            OWASP_MASVS-SNAPSHOT-ru.mobi
+            OWASP_MASVS-SNAPSHOT-ru.pdf
+            OWASP_MASVS-SNAPSHOT-ru_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-zhcn.epub
+            OWASP_MASVS-SNAPSHOT-zhcn.mobi
+            OWASP_MASVS-SNAPSHOT-zhcn.pdf
+            OWASP_MASVS-SNAPSHOT-zhcn_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-zhtw.epub
+            OWASP_MASVS-SNAPSHOT-zhtw.mobi
+            OWASP_MASVS-SNAPSHOT-zhtw.pdf
+            OWASP_MASVS-SNAPSHOT-zhtw_WIP_.docx
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # "OFFICIAL" github actions only support one file ot upload. therefore will use unoficial
       # - name: Create Release
       #   id: create_release
