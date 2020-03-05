@@ -7,6 +7,9 @@ set -euo pipefail
 FOLDER=$1
 VERSION=$2
 
+echo "FOLDER=${FOLDER}"
+echo "VERSION=${VERSION}"
+
 # Load the language metadata (env. vars)
 . $FOLDER/LANGUAGE-METADATA
 
