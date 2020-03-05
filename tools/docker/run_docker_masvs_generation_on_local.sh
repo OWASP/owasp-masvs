@@ -4,7 +4,14 @@
 
 set -euo pipefail
 
-VERSION=$1 # e.g. 1.2
+if [ -z ${1+x} ]
+then
+      VERSION="SNAPSHOT"
+else
+      VERSION=$1
+fi
+
+echo "Version = ${VERSION}"
 
 export IMG="masvs-generator:latest"
 
@@ -16,7 +23,7 @@ for folder in ./Document*; do
   echo "Generating $folder"
   [ -f $folder-temp ] && rm -rf $folder-temp
   cp -r $folder $folder-temp
-  docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc $IMG "/pandoc_makedocs.sh $folder-temp $VERSION" || echo "$folder failed" &
+  docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc $IMG "/pandoc_makedocs.sh $folder-temp ${VERSION}" || echo "$folder failed" &
 
 done
 
