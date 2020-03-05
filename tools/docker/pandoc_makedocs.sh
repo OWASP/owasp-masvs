@@ -7,10 +7,13 @@ set -euo pipefail
 FOLDER=$1
 VERSION=$2
 
+echo "FOLDER=${FOLDER}"
+echo "VERSION=${VERSION}"
+
 # Load the language metadata (env. vars)
 . $FOLDER/LANGUAGE-METADATA
 
-OUTPUT_BASE_NAME="OWASP_MASVS-SNAPSHOT"
+OUTPUT_BASE_NAME="OWASP_MASVS-${VERSION}"
 
 # Put all chapters in order and CHANGELOG at the end
 CHAPTERS="${FOLDER}/0x*.md ${FOLDER}/CHANGELOG.md"
