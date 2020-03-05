@@ -83,6 +83,9 @@ jobs:
             OWASP_MASVS-${GITHUB_REF}-zhtw.mobi
             OWASP_MASVS-${GITHUB_REF}-zhtw.pdf
             OWASP_MASVS-${GITHUB_REF}-zhtw_WIP_.docx
+            WASP_MASVS-${GITHUB_REF}.csv
+            WASP_MASVS-${GITHUB_REF}.json
+            WASP_MASVS-${GITHUB_REF}.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # "OFFICIAL" github actions only support one file ot upload. therefore will use unoficial
