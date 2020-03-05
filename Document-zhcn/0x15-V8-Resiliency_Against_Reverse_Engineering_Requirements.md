@@ -45,10 +45,6 @@
 | **8.11** | MSTG-RESILIENCE-11 | 应用程序须对所有可执行文件和库进行文件级加密。必须对其中重要代码和数据段进行加密或加壳。普通的静态分析不应获取重要的代码或数据。 | ✓ |
 | **8.12** | MSTG-RESILIENCE-12 | 如果应用程序使用代码混淆来保护敏感的数据运算，则代码混淆须使用最新的方法及研究成果，以防御自动与手动反混淆。 如有可能，相对于硬件级别，尽可能使用硬件级别的代码隔离。 | ✓ |
 
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
-
 ### 阻碍窃听
 
 | # | MSTG-ID | 描述 | R |
@@ -62,7 +58,7 @@ OWASP 移动安全测试指南提供了验证本节中列出的要求的详细�
 - Android: 测试对于逆向工程的韧性 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
 - iOS: 测试对于逆向工程的韧性 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
-For more information, see also:
+有关详细信息，请参阅：
 
 - OWASP Mobile Top 10: M8 - <https://owasp.org/www-project-mobile-top-10/2016-risks/m8-code-tampering>
 - OWASP Mobile Top 10: M9 - <https://owasp.org/www-project-mobile-top-10/2016-risks/m9-reverse-engineering>

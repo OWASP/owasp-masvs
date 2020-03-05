@@ -1,0 +1,107 @@
+on:
+  push:
+    # Sequence of patterns matched against refs/GITHUB_REFs
+    tags:
+    - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+
+name: Upload Release Asset
+jobs:
+  build:
+    name: Upload Release Asset
+    if: github.actor == 'commjoen' || github.actor == 'cpholguera' || github.actor == 'sushi2k'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - name: Generate python scripts (csv)
+        run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-SNAPSHOT.csv'
+      - name: Generate python scripts (json)
+        run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-SNAPSHOT.json'
+      - name: Generate python scripts (xml)
+        run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-SNAPSHOT.xml'
+      - name: Generate English docs
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document $GITHUB_REF'
+      - name: Generate Spanish docs
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-es $GITHUB_REF'
+      - name: Generate German docs
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-de $GITHUB_REF'
+      - name: Generate French docs
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-fr $GITHUB_REF'
+      - name: Generate Russian docs
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ru $GITHUB_REF'
+      - name: Generate Japanese docs
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ja $GITHUB_REF'
+      - name: Generate Traditional Chinese docs
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-zhtw $GITHUB_REF'
+      - name: Generate Simplified Chinese docs
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-zhcn $GITHUB_REF'
+      - name: Generate Korean docs
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ko $GITHUB_REF'
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          body_path: ${{ github.workflow }}-tools/RECENT_CHANGES.TXT
+          files: |
+            OWASP_MASVS-SNAPSHOT-de.epub
+            OWASP_MASVS-SNAPSHOT-de.mobi
+            OWASP_MASVS-SNAPSHOT-de.pdf
+            OWASP_MASVS-SNAPSHOT-de_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-en.epub
+            OWASP_MASVS-SNAPSHOT-en.mobi
+            OWASP_MASVS-SNAPSHOT-en.pdf
+            OWASP_MASVS-SNAPSHOT-en_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-es.epub
+            OWASP_MASVS-SNAPSHOT-es.mobi
+            OWASP_MASVS-SNAPSHOT-es.pdf
+            OWASP_MASVS-SNAPSHOT-es_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-fr.epub
+            OWASP_MASVS-SNAPSHOT-fr.mobi
+            OWASP_MASVS-SNAPSHOT-fr.pdf
+            OWASP_MASVS-SNAPSHOT-fr_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-ja.epub
+            OWASP_MASVS-SNAPSHOT-ja.mobi
+            OWASP_MASVS-SNAPSHOT-ja.pdf
+            OWASP_MASVS-SNAPSHOT-ja_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-ko.epub
+            OWASP_MASVS-SNAPSHOT-ko.mobi
+            OWASP_MASVS-SNAPSHOT-ko.pdf
+            OWASP_MASVS-SNAPSHOT-ko_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-ru.epub
+            OWASP_MASVS-SNAPSHOT-ru.mobi
+            OWASP_MASVS-SNAPSHOT-ru.pdf
+            OWASP_MASVS-SNAPSHOT-ru_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-zhcn.epub
+            OWASP_MASVS-SNAPSHOT-zhcn.mobi
+            OWASP_MASVS-SNAPSHOT-zhcn.pdf
+            OWASP_MASVS-SNAPSHOT-zhcn_WIP_.docx
+            OWASP_MASVS-SNAPSHOT-zhtw.epub
+            OWASP_MASVS-SNAPSHOT-zhtw.mobi
+            OWASP_MASVS-SNAPSHOT-zhtw.pdf
+            OWASP_MASVS-SNAPSHOT-zhtw_WIP_.docx
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # "OFFICIAL" github actions only support one file ot upload. therefore will use unoficial
+      # - name: Create Release
+      #   id: create_release
+      #   uses: actions/create-release@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     GITHUB_REF_name: ${{ github.ref }}
+      #     release_name: Release ${{ github.ref }}
+      #     draft: false
+      #     prerelease: false
+      # - name: Upload Release Asset
+      #   id: upload-release-asset 
+      #   uses: actions/upload-release-asset@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
+      #     asset_path: ./my-artifact.zip
+      #     asset_name: my-artifact.zip
+      #     asset_content_type: application/zip
+      
