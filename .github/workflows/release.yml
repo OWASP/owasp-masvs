@@ -48,7 +48,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          body_path: ${{ github.workflow }}-tools/RECENT_CHANGES.TXT
+          body_path: tools/RECENT_CHANGES.TXT
           files: |
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-de.epub
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-de.mobi
