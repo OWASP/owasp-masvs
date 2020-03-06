@@ -1,6 +1,6 @@
 # Changelog
 
-## V1.2 7 March 2020 - International Release
+## V1.2 7 Mars 2020 - Edition Internationale
 
 ## V1.2-RC
 
