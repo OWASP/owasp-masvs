@@ -1,5 +1,7 @@
 # Changelog
 
+## V1.2 7 March 2020 - International Release
+
 ## V1.2-RC 5 October 2019 - Pre-release (English only)
 
 The following changes are part of release 1.2:

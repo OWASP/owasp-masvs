@@ -1,3 +1,6 @@
-## V1.2-TestRelease
+# V1.2 International Release
 
-This is a testrelease which will be deleted when the release testing is done.
+With a little bit of delay we are happy to present version 1.2 of the MASVS!
+Changes:
+- Created international version of V1.2: the MASVS is now translated into German, Spanish, French, Japanese, Korean, Russian, Simplified Chinese, and Traditional Chinese.
+- New buildsystem and release-system based on Github Actions and Docker containers resulting in better looking PDFS, Mobi, Epubs and Docx documents.
