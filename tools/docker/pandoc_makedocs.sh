@@ -29,6 +29,8 @@ if [ $LANGUAGE == "ja" ]; then
   sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/JP/g" ./tools/docker/latex-header.tex > tmp_latex-header-$LANGUAGE.tex
 elif [ $LANGUAGE == "ko" ]; then
   sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/KR/g" ./tools/docker/latex-header.tex > tmp_latex-header-$LANGUAGE.tex
+  #sed -e "s/%%\\renewcommand\\CJKglue/g" -e "s/\\renewcommand\\CJKglue/g" ./tools/docker/latex-header.tex > tmp_latex-header-$LANGUAGE.tex
+  
 elif [ $LANGUAGE == "zhcn" ]; then
   sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/SC/g" ./tools/docker/latex-header.tex > tmp_latex-header-$LANGUAGE.tex
 elif [ $LANGUAGE == "zhtw" ]; then
