@@ -1,6 +1,6 @@
 # Versionshistorie
 
-## V1.2 7 März 2020 - Internationale Veröffentlichung 
+## V1.2 7 März 2020 - Internationale Veröffentlichung
 
 ## V1.2-RC - Pre-Release
 
