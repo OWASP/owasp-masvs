@@ -86,6 +86,6 @@ rm tmp_cover-$LANGUAGE.tex
 rm tmp_latex-header-$LANGUAGE.tex
 
 
-if [ "$LANGUAGE" = "ja" ] || [ "$LANGUAGE" = "ko" ] || [ "$LANGUAGE" = "zhcn" ] || [ "$LANGUAGE" = "zhtw" ]; then
+if [[ "$LANGUAGE" = "ja" || "$LANGUAGE" = "ko" ||  "$LANGUAGE" = "zhcn" ||  "$LANGUAGE" = "zhtw" ]]; then
   rm tmp_1_latex-header-$LANGUAGE.tex
-elif
+fi
