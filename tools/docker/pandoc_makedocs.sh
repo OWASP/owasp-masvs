@@ -86,18 +86,6 @@ rm tmp_cover-$LANGUAGE.tex
 rm tmp_latex-header-$LANGUAGE.tex
 
 
-if [ $LANGUAGE == "ja" ]; then
-  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/JP/g" ./tools/docker/latex-header.tex > tmp_1_latex-header-$LANGUAGE.tex
-  sed 's/^%%//' tmp_1_latex-header-$LANGUAGE.tex > tmp_latex-header-$LANGUAGE.tex
-elif [ $LANGUAGE == "ko" ]; then
-  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/KR/g" ./tools/docker/latex-header.tex > tmp_1_latex-header-$LANGUAGE.tex
-  sed 's/^%%//' tmp_1_latex-header-$LANGUAGE.tex > tmp_latex-header-$LANGUAGE.tex
-elif [ $LANGUAGE == "zhcn" ]; then
-  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/SC/g" ./tools/docker/latex-header.tex > tmp_1_latex-header-$LANGUAGE.tex
-  sed 's/^%%//' tmp_1_latex-header-$LANGUAGE.tex > tmp_latex-header-$LANGUAGE.tex
-elif [ $LANGUAGE == "zhtw" ]; then
-
-
 if [ "$LANGUAGE" = "ja" ] || [ "$LANGUAGE" = "ko" ] || [ "$LANGUAGE" = "zhcn" ] || [ "$LANGUAGE" = "zhtw" ]; then
   rm tmp_1_latex-header-$LANGUAGE.tex
 elif
