@@ -26,14 +26,17 @@ sed -e "s/{{MASVS-VERSION}}/$VERSION/g" ./tools/docker/first_page.tex > tmp_firs
 # latex-header.tex contains 2 placeholders for "using CJK fonts" and for the language itself: JP,SC,TC,KR (part of the font name)
 # The following does the replacement and writes to a tmp file
 if [ $LANGUAGE == "ja" ]; then
-  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/JP/g" ./tools/docker/latex-header.tex > tmp_latex-header-$LANGUAGE.tex
+  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/JP/g" ./tools/docker/latex-header.tex > tmp_1_latex-header-$LANGUAGE.tex
+  sed 's/^%%//' tmp_1_latex-header-$LANGUAGE.tex > tmp_latex-header-$LANGUAGE.tex
 elif [ $LANGUAGE == "ko" ]; then
   sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/KR/g" ./tools/docker/latex-header.tex > tmp_1_latex-header-$LANGUAGE.tex
   sed 's/^%%//' tmp_1_latex-header-$LANGUAGE.tex > tmp_latex-header-$LANGUAGE.tex
 elif [ $LANGUAGE == "zhcn" ]; then
-  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/SC/g" ./tools/docker/latex-header.tex > tmp_latex-header-$LANGUAGE.tex
+  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/SC/g" ./tools/docker/latex-header.tex > tmp_1_latex-header-$LANGUAGE.tex
+  sed 's/^%%//' tmp_1_latex-header-$LANGUAGE.tex > tmp_latex-header-$LANGUAGE.tex
 elif [ $LANGUAGE == "zhtw" ]; then
-  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/TC/g" ./tools/docker/latex-header.tex > tmp_latex-header-$LANGUAGE.tex
+  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/TC/g" ./tools/docker/latex-header.tex > tmp_1_latex-header-$LANGUAGE.tex
+  sed 's/^%%//' tmp_1_latex-header-$LANGUAGE.tex > tmp_latex-header-$LANGUAGE.tex
 else
   cp ./tools/docker/latex-header.tex tmp_latex-header-$LANGUAGE.tex
 fi
@@ -81,3 +84,4 @@ kindlegen ${OUTPUT_BASE_NAME}-${LANGUAGE}.epub
 rm tmp_first_page-$LANGUAGE.tex
 rm tmp_cover-$LANGUAGE.tex
 rm tmp_latex-header-$LANGUAGE.tex
+rm tmp_1_latex-header-$LANGUAGE.tex
