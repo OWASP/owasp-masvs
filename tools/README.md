@@ -28,7 +28,7 @@ $ git tag -a v<version> -m "Release message"
 $ git push origin v<version>
 ```
 
-> The letter `v` need to be part of the tag name to trigger the release Github action.
+> The letter `v` need to be part of the tag name to trigger the release Github action. The tag name will become the version title of the release. The content of the RECENT_CHANGES file will become the body text of the release (be sure it includes the actual title of the release).
 
 4. Verify that Github Action was triggered. The Github action "Upload Release Asset" need to be triggered. This might take 5-10 minutes.
 5. Update the Leanpub Files
