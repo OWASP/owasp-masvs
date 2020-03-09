@@ -2,7 +2,7 @@
 
 ## V1.2 - 7 März 2020 - Internationale Veröffentlichung
 
-## V1.2-RC - 5 October 2019 - Pre-Release
+## V1.2-RC - 5 Oktober 2019 - Pre-Release
 
 Die folgenden Änderungen sind Teil von Version 1.2-RC:
 
