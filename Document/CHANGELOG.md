@@ -1,6 +1,8 @@
 # Changelog
 
-## V1.2-RC 5 October 2019 - Pre-release (English only)
+## V1.2 - 7 March 2020 - International Release
+
+## V1.2-RC - 5 October 2019 - Pre-release (English only)
 
 The following changes are part of release 1.2:
 
@@ -19,7 +21,7 @@ The following changes are part of release 1.2:
 - Requirement MSTG-PLATFORM-11 added to counter spying via third party keyboards.
 - Requirement MSTG-MSTG-RESILIENCE-13 added to impede eavesdropping at an application.
 
-## V1.1.4 4 July 2019 - Summit edition
+## V1.1.4 - 4 July 2019 - Summit edition
 
 The following changes are part of release 1.1.4:
 
@@ -35,12 +37,12 @@ The following changes are part of release 1.1.4:
 - Updated the scripts to generate XML/JSON/CSV for all the translations.
 - Translated the Foreword to Chinese (ZHTW).
 
-## V1.1.3 9 January 2019 - Small fixes
+## V1.1.3 - 9 January 2019 - Small fixes
 
 - Fix translation issue of requirement 7.1 in the Spanish version
 - New setup of translators in acknowledgements
 
-## V1.1.2 3 January 2019 - Sponsorship and internationalization
+## V1.1.2 - 3 January 2019 - Sponsorship and internationalization
 
 The following changes are part of release 1.1.2:
 
@@ -54,7 +56,7 @@ The following changes are part of release 1.1.2:
 - Simplified document for ease of translation.
 - Added instructions for automated releases.
 
-## V1.1.0 14 July 2018
+## V1.1.0 - 14 July 2018
 
 The following changes are part of release 1.1:
 
@@ -62,7 +64,7 @@ The following changes are part of release 1.1:
 - Requirement 2.2 "No sensitive data should be stored outside of the app container or system credential storage facilities." was added.
 - Requirement 2.1 was reworded to "System credential storage facilities are used appropriately to store sensitive data, such as PII, user credentials or cryptographic keys.".
 
-## V1.0 12 January 2018
+## V1.0 12 - January 2018
 
 The following changes are part of release 1.0:
 
