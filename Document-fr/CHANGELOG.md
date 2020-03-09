@@ -1,6 +1,8 @@
 # Changelog
 
-## V1.2-RC
+## V1.2 - 7 Mars 2020 - Edition Internationale
+
+## V1.2-RC - 5 Octobre 2019 - Pre-release
 
 Les changement suivants font partie de la livraison 1.2:
 
@@ -20,7 +22,7 @@ Les changement suivants font partie de la livraison 1.2:
 - Exigence MSTG-PLATFORM-11 ajoutée pour contrer les menaces pouvant provenir des claviers tiers.
 - Exigence MSTG-RESILIENCE-13 pour offrir un niveau de contrôle supplémentaire avec du chiffrement au niveau applicatif afin d'entraver l'écoute par un attaquant.
 
-## V1.1.4 4 Juillet 2019 - Summit edition
+## V1.1.4 - 4 Juillet 2019 - Summit edition
 
 - Corrections d'erreurs de markdown.
 - Mise à jour des traductions française et espagnole.
@@ -34,7 +36,7 @@ Les changement suivants font partie de la livraison 1.2:
 - Mise à jour des scripts pour générer les fichiers XML / JSON / CSV pour toutes les traductions.
 - Traduit de l'avant-propos en chinois (ZHTW).
 
-## V1.1.3 Janvier 2019 - Quelques Améliorations
+## V1.1.3 - Janvier 2019 - Quelques Améliorations
 
 Les changements suivants font partie de la livraison 1.1.3 :
 
@@ -42,7 +44,7 @@ Les changements suivants font partie de la livraison 1.1.3 :
 - Nouvelle présentation des traducteurs dans les Remerciements
 - Petites corrections pour la version japonaise.
 
-## V1.1.2 Janvier 2019 - Parrainage et internationalisation
+## V1.1.2 - Janvier 2019 - Parrainage et internationalisation
 
 Les changements suivants font partie de la livraison 1.1.2 :
 
@@ -56,7 +58,7 @@ Les changements suivants font partie de la livraison 1.1.2 :
 - Simplification du document afin de faciliter la traduction.
 - Ajout d'instructions pour les livraisons automatisées.
 
-## V1.1.0 14 Juillet 2018
+## V1.1.0 - 14 Juillet 2018
 
 Les changements suivants font partie de la livraison 1.1 :
 
@@ -64,7 +66,7 @@ Les changements suivants font partie de la livraison 1.1 :
 - L'exigence 2.2 "Aucune donnée sensible ne devrait être stockée hors du container de l'application ou des services de stockage de références fournis par le système." a été ajouté.
 - L'exigence 2.1 a été reformulée vers "Les services de stockage de références fournis par le système sont utilisés de façon appropriée pour le stockage de données sensibles telles que les PII, les références des utilisateurs ou les clés de cryptographie.".
 
-## V1.0 12 Janvier 2018
+## V1.0 - 12 Janvier 2018
 
 Les changements suivants font partie de la livraison 1.0 :
 
