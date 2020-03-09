@@ -1,8 +1,8 @@
 # Versionshistorie
 
-## V1.2 7 März 2020 - Internationale Veröffentlichung
+## V1.2 - 7 März 2020 - Internationale Veröffentlichung
 
-## V1.2-RC - Pre-Release
+## V1.2-RC - 5 October 2019 - Pre-Release
 
 Die folgenden Änderungen sind Teil von Version 1.2-RC:
 
@@ -21,7 +21,7 @@ Die folgenden Änderungen sind Teil von Version 1.2-RC:
 - Anforderung MSTG-RESILIENCE-13 wurde hinzugefügt um das Abhören von Apps zu erschweren.
 - Die folgenden Sprachen in denen der MASVS verfügbar ist wurden aktualisiert: Chinesisch (ZHTW), Englisch, Deutsch, Französisch, Russisch, Spanisch und Japanisch
 
-## V1.1.4 4 Juli 2019 - Summit edition
+## V1.1.4 - 4 Juli 2019 - Summit edition
 
 Die folgenden Änderungen sind Teil von Version 1.1.4:
 
@@ -37,7 +37,7 @@ Die folgenden Änderungen sind Teil von Version 1.1.4:
 - Die Skripte zum Erzeugen von XML/JSON/CSV von allen Sprachen wurden aktualisiert.
 - Das Vorwort wurde in Chinesisch (ZHTW) übersetzt.
 
-## V1.1.3 9 Januar 2019 - Kleine Fehlerbehebungen
+## V1.1.3 - 9 Januar 2019 - Kleine Fehlerbehebungen
 
 Die folgenden Änderungen sind Teil von Version 1.1.3:
 
@@ -45,7 +45,7 @@ Die folgenden Änderungen sind Teil von Version 1.1.3:
 - Neue Tabelle für Übersetzer in Danksagungen.
 - Kleine fixes in der Japanischen Version.
 
-## V1.1.2 3 Januar 2019 - Sponsoren und Internationalisierung
+## V1.1.2 - 3 Januar 2019 - Sponsoren und Internationalisierung
 
 Die folgenden Änderungen sind Teil von Version 1.1.2:
 
@@ -59,7 +59,7 @@ Die folgenden Änderungen sind Teil von Version 1.1.2:
 - Dokument vereinfacht um Übersetzung zu erleichtern.
 - Anleitung für automatische Erstellung von neuen MASVS Versionen hinzugefügt.
 
-## V1.1.0 14 Juli 2018
+## V1.1.0 - 14 Juli 2018
 
 Die folgenden Änderungen sind Teil von Version 1.1:
 
@@ -67,7 +67,7 @@ Die folgenden Änderungen sind Teil von Version 1.1:
 - Anforderung 2.2 "Es werden keine sensiblen Daten außerhalb des App-Containers oder außerhalb des vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismus abgelegt." wurde hinzugefügt.
 - Anforderung 2.1 wurde umformuliert zu "Die App speichert sensible Daten wie personenbezogene Daten, Anmeldedaten oder kryptographische Schlüssel unter Nutzung der vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismen.".
 
-## V1.0 12 Januar 2018
+## V1.0 - 12 Januar 2018
 
 Die folgenden Änderungen sind Teil von Version 1.0:
 

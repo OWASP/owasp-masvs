@@ -1,8 +1,8 @@
 # Changelog
 
-## V1.2 7 de marzo 2020 - Release Internacional
+## V1.2 - 7 de marzo 2020 - Release Internacional
 
-## V1.2-RC - Pre-release
+## V1.2-RC - 5 de octubre de 2019 - Pre-release
 
 Los siguientes cambios forman parte de la versión 1.2:
 
@@ -21,7 +21,7 @@ Los siguientes cambios forman parte de la versión 1.2:
 - Añadido el requisito MSTG-PLATFORM-11 para combatir el espionaje mediante teclados de terceros.
 - Añadido el requisito MSTG-MSTG-RESILIENCE-13 para impedir el _eavesdropping_ en aplicaciones.
 
-## V1.1.4 4 de julio de 2019 - Summit edition
+## V1.1.4 - 4 de julio de 2019 - Summit edition
 
 Los siguientes cambios forman parte de la versión 1.1.4:
 
@@ -37,14 +37,14 @@ Los siguientes cambios forman parte de la versión 1.1.4:
 - Scripts de generación de XML/JSON/CSV actualizados para todas las traducciones.
 - Prólogo traducido al chino (ZHTW).
 
-## V1.1.3 9 de enero de 2019 - Pequeñas correcciones
+## V1.1.3 - 9 de enero de 2019 - Pequeñas correcciones
 
 Los siguientes cambios forman parte de la versión 1.1.3:
 
 - Requisito 7.1 corregido en la traducción al español.
 - Nueva disposición de los traductores en los agradecimientos.
 
-## V1.1.2 3 de enero de 2018 - Patrocinio e internacionalización
+## V1.1.2 - 3 de enero de 2018 - Patrocinio e internacionalización
 
 Los siguientes cambios forman parte de la versión 1.1.2:
 
@@ -58,7 +58,7 @@ Los siguientes cambios forman parte de la versión 1.1.2:
 - Documento simplificado para facilitar la traducción.
 - Añadidas instrucciones para poder hacer releases automáticos.
 
-## V1.1.0 14 de julio de 2018
+## V1.1.0 - 14 de julio de 2018
 
 Los siguientes cambios forman parte de la versión 1.1:
 
@@ -66,7 +66,7 @@ Los siguientes cambios forman parte de la versión 1.1:
 - Requisito 2.2 "No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema." añadido.
 - Requisito 2.1 reescrito como "Las funcionalidades de almacenamiento de credenciales del sistema son utilizadas para almacenar la información sensible, como la información personal, credenciales del usuario y claves criptográficas."
 
-## V1.0 12 de enero de 2018
+## V1.0 - 12 de enero de 2018
 
 Los siguientes cambios forman parte de la versión 1.0:
 
