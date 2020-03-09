@@ -1,3 +1,1 @@
-## V1.2-TestRelease
-
-This is a testrelease which will be deleted when the release testing is done.
+## V1.2 - 7 March 2020 - International Release
