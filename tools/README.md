@@ -19,13 +19,21 @@ Files:
 
 ## Release process
 
-1. Sync @sushi2k's repository
-2. Update the CHANGELOG.md: make sure it says release in every changelog, including the one in the root of the project as well as the CHANGELOG.md for each of the translations! (so no pre-release/RC client, etc.) And update the RECENT_CHANGES.txt in this folder.
-3. Commit the changes (with message `Release <version>`) 
-4. Push a tag with the new version (`git tag -a <version> -m "Release message that will be on github`)
+1. Update the CHANGELOG.md in each language directory and add a release statement and summary of the changes since the last release. Update the RECENT_CHANGES.txt in the tools folder. Add it also to the CHANGELOG.md in the root directory.
+2. Commit the changes (with message `Release <version>`)
+3. Push a tag with the new version:
+
+```bash
+$ git tag -a v<version> "Release Message Title" -m "Release message body that will be on github release"
+$ git push origin v<version>
+```
+
+> The letter `v` need to be part of the tag name to trigger the release Github action.
+
+4. Verify that Github Action was triggered. The Github action "Upload Release Asset" need to be triggered. This might take 5-10 minutes.
 5. Update the Leanpub Files
 6. Update OWASP Wiki if necessary
-7. Tweet about it with @OWASP-MSTG.
+7. Tweet about it with @OWASP-MSTG, Linkedin and OWASP Slack
 
 ## Adding another language
 
