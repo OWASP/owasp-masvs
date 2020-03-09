@@ -24,7 +24,7 @@ Files:
 3. Push a tag with the new version:
 
 ```bash
-$ git tag -a v<version> "Release Message Title" -m "Release message body that will be on github release"
+$ git tag -a v<version> -m "Release message"
 $ git push origin v<version>
 ```
 
