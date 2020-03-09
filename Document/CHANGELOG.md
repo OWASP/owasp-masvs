@@ -2,9 +2,15 @@
 
 ## V1.2 - 7 March 2020 - International Release
 
+The following changes are part of release 1.2:
+
+- Translation in simplified Chinese of the MASVS available.
+- Change of title in MASVS book cover.
+- Removed Mobile Top 10 and CWE from MSTG and merged to existing references in MASVS.
+
 ## V1.2-RC - 5 October 2019 - Pre-release (English only)
 
-The following changes are part of release 1.2:
+The following changes are part of pre-release 1.2:
 
 - Promoted to flagship status.
 - Requirement changed: MSTG-STORAGE-1 "need to be used".
