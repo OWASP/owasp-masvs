@@ -6,7 +6,7 @@
 
 - MASVS доступен на упрощенном китайском.
 - Изменено название в обложке книги MASVS.
-- Removed Mobile Top 10 and CWE from MSTG and merged to existing references in MASVS.
+- Удалены Mobile Top 10 и CWE из MSTG и объединены с существующими ссылками в MASVS.
 
 ## V1.2-RC - 5 октября 2019 - Предварительный релиз
 
