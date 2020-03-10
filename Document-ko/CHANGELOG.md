@@ -5,7 +5,7 @@
 다음 변경 사항은 릴리스 1.2의 일부입니다:
 
 - MASVS의 중국어 간체 번역.
-- Change of title in MASVS book cover.
+- MASVS 책 표지에서 제목 변경.
 - MSTG에서 Mobile Top 10 및 CWE를 제거하고 MASVS의 기존 참조와 병합.
 
 ## V1.2-RC - 2019년 10월 5일 Pre-release
