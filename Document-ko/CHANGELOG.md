@@ -6,7 +6,7 @@
 
 - MASVS의 중국어 간체 번역.
 - Change of title in MASVS book cover.
-- Removed Mobile Top 10 and CWE from MSTG and merged to existing references in MASVS.
+- MSTG에서 Mobile Top 10 및 CWE를 제거하고 MASVS의 기존 참조와 병합.
 
 ## V1.2-RC - 2019년 10월 5일 Pre-release
 
