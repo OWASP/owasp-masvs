@@ -5,7 +5,7 @@
 Los siguientes cambios forman parte de la versión 1.2:
 
 - El MASVS ha sido traducido al chino simplificado.
-- Change of title in MASVS book cover.
+- El título ha sido cambiado en la portada del MASVS.
 - Todas las referencias CWE y Mobile Top 10 han sido eliminadas de la MSTG y han sido integradas a las referencias existentes en el MASVS.
 
 ## V1.2-RC - 5 de octubre de 2019 - Pre-release
