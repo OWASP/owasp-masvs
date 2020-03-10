@@ -5,7 +5,7 @@
 Следующие изменения представлены в релизе 1.2:
 
 - MASVS доступен на упрощенном китайском.
-- Change of title in MASVS book cover.
+- Изменено название в обложке книги MASVS.
 - Removed Mobile Top 10 and CWE from MSTG and merged to existing references in MASVS.
 
 ## V1.2-RC - 5 октября 2019 - Предварительный релиз
