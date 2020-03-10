@@ -4,7 +4,7 @@
 
 다음 변경 사항은 릴리스 1.2의 일부입니다:
 
-- Translation in simplified Chinese of the MASVS available.
+- MASVS의 중국어 간체 번역.
 - Change of title in MASVS book cover.
 - Removed Mobile Top 10 and CWE from MSTG and merged to existing references in MASVS.
 
