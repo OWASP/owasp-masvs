@@ -2,7 +2,7 @@
 
 ## V1.2 - 7 Mars 2020 - Edition Internationale
 
-The following changes are part of release 1.2:
+Les changements suivants ont été intégrés dans la version 1.2:
 
 - Translation in simplified Chinese of the MASVS available.
 - Change of title in MASVS book cover.
