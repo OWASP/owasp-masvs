@@ -1,5 +1,7 @@
 # MASVS PDFs Generation with Docker
 
+The MASVS document generation is based on pandocker: https://github.com/dalibo/pandocker/blob/latest/LICENSE
+
 ## On your Machine
 
 - Install Docker
