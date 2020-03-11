@@ -4,7 +4,7 @@
 
 Les changements suivants ont été intégrés dans la version 1.2:
 
-- Translation in simplified Chinese of the MASVS available.
+- Traduction du MASVS en chinois simplifié disponible.
 - Change of title in MASVS book cover.
 - Removed Mobile Top 10 and CWE from MSTG and merged to existing references in MASVS.
 
