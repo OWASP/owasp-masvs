@@ -1,6 +1,6 @@
 # MASVS PDFs Generation with Docker
 
-The MASVS document generation is based on pandocker: https://github.com/dalibo/pandocker/blob/latest/LICENSE
+The MASVS document generation is based on pandocker: [https://github.com/dalibo/pandocker/blob/latest/LICENSE](https://github.com/dalibo/pandocker/blob/latest/LICENSE).
 
 ## On your Machine
 
@@ -20,9 +20,30 @@ See the results in: <https://github.com/OWASP/owasp-masvs/actions>
 
 ## Generation Steps
 
+### In case of a new Docker image
+
+- Create a PR with the new changes on the Docker generation scripts.
+- Once the MR is approved, create a tag:
+
+  ```sh
+    git tag -a docker-<docker-container-image-version> -m "Changeson docker image"
+  ```
+
+- Create a new image and push it to docker hub (requires being logged in to Docker hub and Docker hub membership of OWASP organization):
+
+  ```sh
+    docker build --tag OWASP/masvs-generator:latest tools/docker/
+    docker images
+    #check the output and find the tag of the masvs-generator container image you created
+    docker tag <imageid> OWASP/masvs-generator:<docker-container-image-version>
+    docker push OWASP/masvs-generator
+  ```
+
+### In case of a new document
+
 Given a new version:
 
-- Build Docker image.
+- Pull the image from docker hub (`docker pull owasp/masvs-generator:latest`)
 - Run Docker container which will run the generation script (`pandoc_makedocs.sh`).
 - The script should be self explanatory, it basically:
   - Reads the LANGUAGE-METADATA for the given VERSION and language folder
