@@ -37,6 +37,8 @@ elif [ $LANGUAGE == "zhcn" ]; then
 elif [ $LANGUAGE == "zhtw" ]; then
   sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/TC/g" ./tools/docker/latex-header.tex > tmp_1_latex-header-$LANGUAGE.tex
   sed 's/^%%//' tmp_1_latex-header-$LANGUAGE.tex > tmp_latex-header-$LANGUAGE.tex
+elif [ $LANGUAGE == "fa"]; then
+  sed 's/^%%%%//' ./tools/docker/latex-header.tex > tmp_latex-header-$LANGUAGE.tex
 else
   cp ./tools/docker/latex-header.tex tmp_latex-header-$LANGUAGE.tex
 fi
