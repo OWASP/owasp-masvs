@@ -242,3 +242,26 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-ko.mobi
         path: OWASP_MASVS-SNAPSHOT-ko.mobi
+
+    - name: Generate Persian
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-fa SNAPSHOT'
+    - name: Upload Persian PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-fa.pdf
+        path: OWASP_MASVS-SNAPSHOT-fa.pdf
+    - name: Upload Persian EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-fa.epub
+        path: OWASP_MASVS-SNAPSHOT-fa.epub
+    - name: Upload Persian DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-fa.docx
+        path: OWASP_MASVS-SNAPSHOT-fa.docx
+    - name: Upload Persian MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-fa.mobi
+        path: OWASP_MASVS-SNAPSHOT-fa.mobi
