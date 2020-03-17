@@ -55,7 +55,7 @@ $ git push origin :refs/tags/<tag>  # delete the tag remotely
 
 ## Adding another language
 
-When you want to add another langauge:
+When you want to add another language:
 
 1. Create a folder with the language of choice.
 2. Extend `Apply_Link_Check.sh` and `Apply_Linter_Check.sh` with the new folder and make sure you do not end up with dead links or Markdown errors.
