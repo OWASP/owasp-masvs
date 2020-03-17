@@ -42,6 +42,17 @@ $ git push origin v<version>
 7. Update OWASP Wiki if necessary
 8. Tweet about it with @OWASP-MSTG, Linkedin and OWASP Slack
 
+In case something went wrong and we need to remove the release:
+
+1. Delete the tag locally and remotely:
+
+```bash
+$ git tag -d <tag>   # delete the tag locally
+$ git push origin :refs/tags/<tag>  # delete the tag remotely
+```
+
+2. Go to Github release page <https://github.com/OWASP/owasp-masvs/releases>. The release you removed is now in "draft". Click on edit and discard/delete the release.
+
 ## Adding another language
 
 When you want to add another langauge:
