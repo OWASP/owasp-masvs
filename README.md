@@ -6,7 +6,7 @@
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/)
 [![Document Build](https://github.com/OWASP/owasp-masvs/workflows/Document%20Build/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22CI+Build%22)
 [![Check Markdown Markup](https://github.com/OWASP/owasp-masvs/workflows/Check%20Markdown%20Markup/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+markup%22)
-[![Check Markdown Links](https://github.c   om/OWASP/owasp-masvs/workflows/Check%20Markdown%20Links/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+Links%22)
+[![Check Markdown Links](https://github.com/OWASP/owasp-masvs/workflows/Check%20Markdown%20Links/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+Links%22)
 
 This is the official Github Repository of the OWASP Mobile Application Security Verification Standard (MASVS). The MASVS establishes baseline security requirements for mobile apps that are useful in many scenarios, including:
 
