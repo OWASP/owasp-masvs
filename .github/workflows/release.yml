@@ -86,9 +86,9 @@ jobs:
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-zhtw.mobi
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-zhtw.pdf
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-zhtw_WIP_.docx
-            WASP_MASVS-${{ steps.get_version.outputs.VERSION }}.csv
-            WASP_MASVS-${{ steps.get_version.outputs.VERSION }}.json
-            WASP_MASVS-${{ steps.get_version.outputs.VERSION }}.xml
+      #      WASP_MASVS-${{ steps.get_version.outputs.VERSION }}.csv
+      #      WASP_MASVS-${{ steps.get_version.outputs.VERSION }}.json
+      #      WASP_MASVS-${{ steps.get_version.outputs.VERSION }}.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # "OFFICIAL" github actions only support one file ot upload. therefore will use unoficial
