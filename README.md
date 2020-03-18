@@ -1,4 +1,4 @@
-<a href="https://github.com/OWASP/owasp-masvs/releases/download/1.1/OWASP_Mobile_AppSec_Verification_Standard_v1.1.pdf"><img width="25%" align="right" style="float: right;" src="Document/images/masvs-mini-cover.png"></a>
+<a href="https://github.com/OWASP/owasp-masvs/releases/download/v1.2/OWASP_MASVS-v1.2-en.pdf"><img width="25%" align="right" style="float: right;" src="Document/images/masvs-mini-cover.png"></a>
 
 # OWASP Mobile Application Security Verification Standard [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_MSTG.svg?style=social&label=Follow)](https://twitter.com/OWASP_MSTG)
 
@@ -19,7 +19,9 @@ The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https
 
 # Getting the MASVS
 
-PDF/Mobi/Epub/Docx downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases "Releases"). The current release of the [MASVS is version 1.1.4](https://github.com/OWASP/owasp-masvs/releases/tag/1.1.4 "MASVS version 1.1.4"). Want to have the latest `snapshot` version? Check [the latest Github build action](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22CI+Build%22). The MASVS is also available in different languages:
+PDF/Mobi/Epub/Docx downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases "Releases"). The documents were created by using [pandocker](https://github.com/dalibo/pandocker/ "pandocker").
+
+The current release of the [MASVS is version 1.2](https://github.com/OWASP/owasp-masvs/releases/tag/v1.2 "MASVS version 1.2"). Want to have the latest `snapshot` version? Check [the latest Github build action](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22CI+Build%22). The MASVS is also available in different languages:
 
 - [Chinese (Simplified) - ZHCN](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhcn "Simplified Chinese (ZHCN)")
 - [Chinese (Traditional) - ZHTW](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhtw "Traditional Chinese (ZHTW)")
