@@ -15,11 +15,11 @@ jobs:
       run: docker pull owasp/masvs-docgenerator:0.1
 
     - name: Generate python scripts (csv)
-      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-SNAPSHOT.csv'
+      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-SNAPSHOT.csv'
     - name: Generate python scripts (json)
-      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-SNAPSHOT.json'
+      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-SNAPSHOT.json'
     - name: Generate python scripts (xml)
-      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-SNAPSHOT.xml'
+      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-SNAPSHOT.xml'
     - name: Upload CSV export
       uses: actions/upload-artifact@v1
       with:
@@ -37,7 +37,7 @@ jobs:
         path: tools/OWASP_MASVS-SNAPSHOT.xml
     
     - name: Generate English PDF
-      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator '/pandoc_makedocs.sh Document SNAPSHOT'
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1'/pandoc_makedocs.sh Document SNAPSHOT'
     - name: Upload English PDF
       uses: actions/upload-artifact@v1
       with:
@@ -60,7 +60,7 @@ jobs:
         path: OWASP_MASVS-SNAPSHOT-en.mobi
 
     - name: Generate Spanish PDF
-      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator '/pandoc_makedocs.sh Document-es SNAPSHOT'
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1'/pandoc_makedocs.sh Document-es SNAPSHOT'
     - name: Upload Spanish PDF
       uses: actions/upload-artifact@v1
       with:
@@ -83,7 +83,7 @@ jobs:
         path: OWASP_MASVS-SNAPSHOT-es.mobi
 
     - name: Generate German PDF
-      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator '/pandoc_makedocs.sh Document-de SNAPSHOT'
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1'/pandoc_makedocs.sh Document-de SNAPSHOT'
     - name: Upload German PDF
       uses: actions/upload-artifact@v1
       with:
@@ -106,7 +106,7 @@ jobs:
         path: OWASP_MASVS-SNAPSHOT-de.mobi
 
     - name: Generate French PDF
-      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator '/pandoc_makedocs.sh Document-fr SNAPSHOT'
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1'/pandoc_makedocs.sh Document-fr SNAPSHOT'
     - name: Upload French PDF
       uses: actions/upload-artifact@v1
       with:
@@ -129,7 +129,7 @@ jobs:
         path: OWASP_MASVS-SNAPSHOT-fr.mobi
 
     - name: Generate Russian PDF
-      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator '/pandoc_makedocs.sh Document-ru SNAPSHOT'
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1'/pandoc_makedocs.sh Document-ru SNAPSHOT'
     - name: Upload Russian PDF
       uses: actions/upload-artifact@v1
       with:
@@ -152,7 +152,7 @@ jobs:
         path: OWASP_MASVS-SNAPSHOT-ru.mobi
 
     - name: Generate Japanese PDF
-      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator '/pandoc_makedocs.sh Document-ja SNAPSHOT'
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1'/pandoc_makedocs.sh Document-ja SNAPSHOT'
     - name: Upload Japanese PDF
       uses: actions/upload-artifact@v1
       with:
@@ -175,7 +175,7 @@ jobs:
         path: OWASP_MASVS-SNAPSHOT-ja.mobi
 
     - name: Generate Traditional Chinese PDF
-      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator '/pandoc_makedocs.sh Document-zhtw SNAPSHOT'
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1'/pandoc_makedocs.sh Document-zhtw SNAPSHOT'
     - name: Upload Traditional Chinese PDF
       uses: actions/upload-artifact@v1
       with:
@@ -198,7 +198,7 @@ jobs:
         path: OWASP_MASVS-SNAPSHOT-zhtw.mobi
 
     - name: Generate Simplified Chinese PDF
-      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator '/pandoc_makedocs.sh Document-zhcn SNAPSHOT'
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1'/pandoc_makedocs.sh Document-zhcn SNAPSHOT'
     - name: Upload Simplified Chinese PDF
       uses: actions/upload-artifact@v1
       with:
@@ -221,7 +221,7 @@ jobs:
         path: OWASP_MASVS-SNAPSHOT-zhcn.mobi
 
     - name: Generate Korean PDF
-      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator '/pandoc_makedocs.sh Document-ko SNAPSHOT'
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1'/pandoc_makedocs.sh Document-ko SNAPSHOT'
     - name: Upload Korean PDF
       uses: actions/upload-artifact@v1
       with:
