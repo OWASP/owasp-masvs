@@ -13,7 +13,7 @@ fi
 
 echo "Version = ${VERSION}"
 
-export IMG="owasp/masvs-generator:latest"
+export IMG="owasp/masvs-docgenerator:latest"
 
 docker pull $IMG
 # if [[ "$(docker images -q $IMG 2> /dev/null)" == "" ]]; then
