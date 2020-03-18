@@ -1,6 +1,6 @@
 name: Check Markdown Markup
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   markdown-lint-check:
