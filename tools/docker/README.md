@@ -32,12 +32,14 @@ See the results in: <https://github.com/OWASP/owasp-masvs/actions>
 - Create a new image and push it to docker hub (requires being logged in to Docker hub and Docker hub membership of OWASP organization):
 
   ```sh
-    docker build --tag OWASP/masvs-generator:latest tools/docker/
+    docker build --tag owasp/masvs-docgenerator:<docker-container-image-version> tools/docker/
     docker images
     #check the output and find the tag of the masvs-generator container image you created
-    docker tag <imageid> OWASP/masvs-generator:<docker-container-image-version>
-    docker push OWASP/masvs-generator
+    docker tag <imageid> owasp/masvs-docgenerator:<docker-container-image-version>
+    docker push owasp/masvs-docgenerator:<docker-container-image-version>
   ```
+
+- Create a new PR with the new version in the `docgenerator.yml`, `release.yml`, and `run_docker_masvs_generation_on_local.sh`.
 
 ### In case of a new document
 
