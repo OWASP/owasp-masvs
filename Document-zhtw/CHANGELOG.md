@@ -2,6 +2,32 @@
 
 ## V1.2 - 2020年3月7日-國際發行
 
+The following changes are part of release 1.2:
+
+- Translation in simplified Chinese of the MASVS available.
+- Change of title in MASVS book cover.
+- Removed Mobile Top 10 and CWE from MSTG and merged to existing references in MASVS.
+
+## V1.2-RC - 2019年10月5号 - 预发行版 (仅限英语)
+
+以下为1.2-RC版本所包含的更新内容：
+
+晋升为同类安全指南最成功的作品。
+
+- 更改要求 MSTG-STORAGE-1 "需要被使用"（need to be used）。
+- 增加侧重于数据保护的要求 MSTG-STORAGE-13， MSTG-STORAGE-14， 和 MSTG-STORAGE-15。
+- 更新要求MSTG-AUTH-11，以保护上下文信息（contextual information）。
+- 更新要求MSTG-CODE-4，以涵盖更多信息而不仅仅是排错调试（debugging）。
+- 添加要求MSTG-PLATFORM-10，以进一步安全的使用WebViews。
+- 添加要求MSTG-AUTH-12，以提醒开发人员部署授权，特别是在多用户应用程序（multi-user apps）的情况下。
+- 在怎样使用MASVS进行风险评估中添加了一点描述。
+- 在付费内容（paid content）中添加了一点描述。
+- 增加要求MSTG-ARCH-11，以包含针对L2应用程序的 责任披露政策（Responsible Disclosure policy）。
+- 增加要求MSTG-ARCH-12，以向应用程序开发人员展示他们应遵守的相关的国际隐私法律。
+- 为英文版的引用（references）创建了一个固定的格式。
+- 添加要求MSTG-PLATFORM-11，以反击通过第三方键盘进行的间谍活动（spying）。
+- 添加要求MSTG-MSTG-RESILIENCE-13，以阻止在应用程序中的窃听。
+
 ## V1.1.4 - 2019年7月4日 - 高峰會版本
 
 以下為 1.1.4 版本內所包含的修正資料:
