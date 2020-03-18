@@ -15,11 +15,11 @@ jobs:
       run: docker pull owasp/masvs-docgenerator:0.1
 
     - name: Generate python scripts (csv)
-      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-SNAPSHOT.csv'
+      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-SNAPSHOT.csv'
     - name: Generate python scripts (json)
-      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-SNAPSHOT.json'
+      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-SNAPSHOT.json'
     - name: Generate python scripts (xml)
-      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-SNAPSHOT.xml'
+      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-SNAPSHOT.xml'
     - name: Upload CSV export
       uses: actions/upload-artifact@v1
       with:
