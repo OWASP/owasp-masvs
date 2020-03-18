@@ -12,7 +12,7 @@ jobs:
         fetch-depth: 1
 
     - name: Pull the Docker image
-      run: docker pull owasp/masvs-docgenerator:latest
+      run: docker pull owasp/masvs-docgenerator:0.1
 
     - name: Generate python scripts (csv)
       run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-SNAPSHOT.csv'
