@@ -23,7 +23,7 @@ See the results in: <https://github.com/OWASP/owasp-masvs/actions>
 ### In case of a new Docker image
 
 - Create a PR with the new changes on the Docker generation scripts.
-- Once the MR is approved, create a tag:
+- Once the PR is approved, create a tag:
 
   ```sh
     git tag -a docker-<docker-container-image-version> -m "Changeson docker image"
