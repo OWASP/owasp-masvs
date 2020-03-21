@@ -6,7 +6,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends curl fonts-noto-cjk texlive-lang-arabic && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf ~/.cache/pip
-
+    
 #Install kindlegen in order to be able to create MOBI files.
 RUN curl http://kindlegen.s3.amazonaws.com/kindlegen_linux_2.6_i386_v2_9.tar.gz --output kindlegen_install.tar.gz && \
     tar xvfz kindlegen_install.tar.gz && \
