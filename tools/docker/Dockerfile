@@ -12,11 +12,15 @@ RUN curl http://kindlegen.s3.amazonaws.com/kindlegen_linux_2.6_i386_v2_9.tar.gz 
     tar xvfz kindlegen_install.tar.gz && \
     mv kindlegen /usr/local/bin/ && rm kindlegen_install.tar.gz
 
-#Install new engine for Persian commnications.
+# Install new engine for Persian commnications.
 RUN  wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.stretch_amd64.deb && \
 (dpkg -i wkhtmltox_0.12.5-1.stretch_amd64.deb || apt install -f -y && dpkg -i wkhtmltox_0.12.5-1.stretch_amd64.deb) && \
 rm wkhtmltox_0.12.5-1.stretch_amd64.deb
 
+# Should fix arabic, but requires 2019 tex distro, now we use 2016 with dalib/pandocker
+# RUN wget http://ftp.br.debian.org/debian/pool/main/t/texlive-lang/texlive-lang-arabic_2019.20200302-1_all.deb && \
+# (dpkg -i texlive-lang-arabic_2019.20200302-1_all.deb || apt install -f -y && dpkg -i texlive-lang-arabic_2019.20200302-1_all.deb )&& \
+# rm texlive-lang-arabic_2019.20200302-1_all.deb
 
 # Source Sans Pro packaged with distributions does not contain Italic versions of Russian chars
 # File downloaded from https://github.com/adobe-fonts/source-sans-pro/releases/tag/3.006R
