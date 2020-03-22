@@ -258,8 +258,8 @@ jobs:
     - name: Upload Persian DOCX
       uses: actions/upload-artifact@v1
       with:
-        name: OWASP_MASVS-SNAPSHOT-fa_WIP.docx
-        path: OWASP_MASVS-SNAPSHOT-fa_WIP.docx
+        name: OWASP_MASVS-SNAPSHOT-fa_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-fa_WIP_.docx
     - name: Upload Persian MOBI
       uses: actions/upload-artifact@v1
       with:
