@@ -24,19 +24,19 @@ Files:
 3. Merge the PR into master
 4. Checkout master and pull changes:
 
-```bash
-$ git checkout master
-$ git pull
-```
+    ```bash
+    $ git checkout master
+    $ git pull
+    ```
 
 5. Push a tag with the new version:
 
-```bash
-$ git tag -a v<version> -m "Release message"
-$ git push origin v<version>
-```
+    ```bash
+    $ git tag -a v<version> -m "Release message"
+    $ git push origin v<version>
+    ```
 
-> The letter `v` need to be part of the tag name to trigger the release Github action. The tag name will become the version title of the release. The content of the RECENT_CHANGES file will become the body text of the release (be sure it includes the actual title of the release).
+    > The letter `v` need to be part of the tag name to trigger the release Github action. The tag name will become the version title of the release. The content of the RECENT_CHANGES file will become the body text of the release (be sure it includes the actual title of the release).
 
 6. Verify that Github Action was triggered. The Github action "Upload Release Asset" need to be triggered. This might take 5-10 minutes.
 7. Update OWASP Wiki if necessary
@@ -46,10 +46,10 @@ In case something went wrong and we need to remove the release:
 
 1. Delete the tag locally and remotely:
 
-```bash
-$ git tag -d <tag>   # delete the tag locally
-$ git push origin :refs/tags/<tag>  # delete the tag remotely
-```
+    ```bash
+    $ git tag -d <tag>   # delete the tag locally
+    $ git push origin :refs/tags/<tag>  # delete the tag remotely
+    ```
 
 2. Go to Github release page <https://github.com/OWASP/owasp-masvs/releases>. The release you removed is now in "draft". Click on edit and discard/delete the release.
 
