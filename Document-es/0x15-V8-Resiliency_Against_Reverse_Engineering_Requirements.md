@@ -70,5 +70,5 @@ Para más información, ver también:
 
 - OWASP Top 10 Móvil: M8 (Modificación de Código) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m8-code-tampering>
 - OWASP Top 10 Móvil: M9 (Ingeniería Inversa) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m9-reverse-engineering>
-- Amenazas de Ingeniería Inversa (OWASP) - <https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification>
-- Ingeniería Inversa y Prevención de Modificación de Código (OWASP) - <https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project>
+- Amenazas de Ingeniería Inversa (OWASP) - <https://wiki.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification>
+- Ingeniería Inversa y Prevención de Modificación de Código (OWASP) - <https://wiki.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project>

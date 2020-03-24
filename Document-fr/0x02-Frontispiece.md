@@ -41,7 +41,7 @@ Ce document est basé sur le Standard de Validation de la Sécurité Applicative
 
 ## Sponsors
 
-Tant le MASVS que le MSTG ont été créés et sont maintenus par la communauté sur le principe du bénévolat ; ceci dit, un peu d'aide extérieure est parfois nécessaire. Par conséquent, nous remercions nos sponsors de nous avoir fourni les fonds pour pouvoir employer des éditeurs techniques. Il est toutefois important de souligner que leur aide financière n'influence pas le contenu des documents MASVS et MSTG de quelque manière que ce soit. Les conditions de parrainage sont décrites sur le [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
+Tant le MASVS que le MSTG ont été créés et sont maintenus par la communauté sur le principe du bénévolat ; ceci dit, un peu d'aide extérieure est parfois nécessaire. Par conséquent, nous remercions nos sponsors de nous avoir fourni les fonds pour pouvoir employer des éditeurs techniques. Il est toutefois important de souligner que leur aide financière n'influence pas le contenu des documents MASVS et MSTG de quelque manière que ce soit. Les conditions de parrainage sont décrites sur le [OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
 ### Honorable Benefactor
 
