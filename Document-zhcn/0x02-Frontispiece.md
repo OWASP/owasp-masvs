@@ -43,7 +43,7 @@ MASVS是社区努力和行业反馈的成果。我们希望该标准会随着时
 
 ## 赞助商
 
-虽然MASVS和MSTG都是由社区自愿创建和维护的，但是有时候仍然需要一点外部的帮助。因此，我们感谢我们的赞助商提供资金来聘请技术编辑。但是，他们的赞助不会以任何方式影响MASVS或MSTG的内容。赞助方案的具体细节：[OWASP项目Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
+虽然MASVS和MSTG都是由社区自愿创建和维护的，但是有时候仍然需要一点外部的帮助。因此，我们感谢我们的赞助商提供资金来聘请技术编辑。但是，他们的赞助不会以任何方式影响MASVS或MSTG的内容。赞助方案的具体细节：[OWASP项目Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
 ### 特别致谢
 
