@@ -66,8 +66,8 @@ class MASVS:
                         req['text'] = m.group(3).strip()
                         req['category'] = m.group(2).replace(u"\u2011", "-")
                         if m.group(5):
-                            req['L1'] = len(m.group(4)) > 0
-                            req['L2'] = len(m.group(5)) > 0
+                            req['L1'] = len(m.group(4).strip()) > 0
+                            req['L2'] = len(m.group(5).strip()) > 0
                             req['R'] = False
                         else:
                             req['R'] = True

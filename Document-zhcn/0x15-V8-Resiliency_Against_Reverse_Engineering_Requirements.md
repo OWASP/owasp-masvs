@@ -62,5 +62,5 @@ OWASP 移动安全测试指南提供了验证本节中列出的要求的详细�
 
 - OWASP Mobile Top 10: M8 - <https://owasp.org/www-project-mobile-top-10/2016-risks/m8-code-tampering>
 - OWASP Mobile Top 10: M9 - <https://owasp.org/www-project-mobile-top-10/2016-risks/m9-reverse-engineering>
-- OWASP Reverse Engineering Threats - <https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification>
-- OWASP Reverse Engineering and Code Modification Prevention - <https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project>
+- OWASP Reverse Engineering Threats - <https://wiki.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification>
+- OWASP Reverse Engineering and Code Modification Prevention - <https://wiki.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project>
