@@ -30,8 +30,8 @@
 更多信息，另请参见：
 
 - OWASP Mobile Top 10: M10 (外部功能) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m10-extraneous-functionality>
-- OWASP 威胁建模 - <https://www.owasp.org/index.php/Application_Threat_Modeling>
-- OWASP 安全SDLC速查表 - <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
+- OWASP 威胁建模 - <https://owasp.org/www-community/Application_Threat_Modeling>
+- OWASP 安全SDLC速查表 - <https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets_excluded/Secure_SDLC_Cheat_Sheet.md>
 - Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
 - NIST SP 800-57 - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
 - security.txt - <https://securitytxt.org/>
