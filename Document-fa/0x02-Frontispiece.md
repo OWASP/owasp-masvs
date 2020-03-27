@@ -32,14 +32,15 @@ Copyright © 2020 The OWASP Foundation.This work is licensed under a [Creative C
 
 | زبان | مترجمان و داوران  |
 | --- | ------------------------------ |
-| چینی (سنتی) | Peter Chi و Lex Chien ،Henry Hu ،Leo Wang |
-| چینی (ساده‌شده) | Bob Peng ،Harold Zang و Jack S |
-| فرانسوی | Romuald Szkudlarek ،Abderrahmane Aftahi و Christian Dong (بازبینی) |
-| آلمانی | Rocco Gränitz و Sven Schleier (بازبینی) |
-| ژاپنی | Koki Takeyama و Riotaro Okada (بازبینی) |
-| کره‌ای | Youngjae Jeon ،Jeongwon Cho ،Jiyou Han ،Jiyeon Sung |
-| روسی | Gall Maxim، Eugen Martynov و Chelnokov Vladislav (بازبینی)، Oprya Egor (بازبینی)، Tereshin Dmitry (بازبینی) |
-| اسپانیایی | Martin Marsicano ،Carlos Holguera |
+| چینی (سنتی) | Peter Chi, Lex Chien, Henry Hu, Leo Wang |
+| چینی (ساده‌شده) | Bob Peng, Harold Zang, Jack S |
+| فارسی | Hamed Salimian (Management), Dorna Azhirak, Mahsa Omidvar, Alireza Mazhari |
+| فرانسوی | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
+| آلمانی | Rocco Gränitz, Sven Schleier (Review) |
+| ژاپنی | Koki Takeyama, Riotaro Okada (Review) |
+| کره‌ای | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
+| روسی | Gall Maxim، Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| اسپانیایی | Martin Marsicano, Carlos Holguera |
 
 این سند به‌عنوان شاخه‌ای از استاندارد وارسی امنیت اپلیکیشن OWASP نوشته‌شده توسط Jim Manico آغاز شد.
 
