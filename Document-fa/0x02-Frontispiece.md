@@ -46,7 +46,7 @@ Copyright © 2020 The OWASP Foundation.This work is licensed under a [Creative C
 
 ## حامیان
 
-بااینکه هر دو استاندارد MASVS و MSTG به‌طور داوطلبانه توسط جامعه تولید و نگهداری می‌شوند، اما گاهی اوقات به اندکی کمک خارجی نیاز است. بنابراین، از حامیان مالی‌مان بخاطر فراهم آوردن بودجه برای استخدام ویراستارهای فنی تشکر می‌کنیم. توجه داشته باشید که حمایت مالی آنان محتوای استاندارد MASVS یا MSTG را تحت تأثیر قرار نمی‌دهد. بسته‌های حمایت مالی در [OWASP Project Wiki] شرح داده‌شده‌اند. (<https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages> "OWASP Mobile Security Testing Guide Sponsorship Packages")
+بااینکه هر دو استاندارد MASVS و MSTG به‌طور داوطلبانه توسط جامعه تولید و نگهداری می‌شوند، اما گاهی اوقات به اندکی کمک خارجی نیاز است. بنابراین، از حامیان مالی‌مان بخاطر فراهم آوردن بودجه برای استخدام ویراستارهای فنی تشکر می‌کنیم. توجه داشته باشید که حمایت مالی آنان محتوای استاندارد MASVS یا MSTG را تحت تأثیر قرار نمی‌دهد. بسته‌های حمایت مالی در [OWASP Project Wiki](<https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages> "OWASP Mobile Security Testing Guide Sponsorship Packages") شرح داده‌شده‌اند.
 
 ### Honourable Benefactor
 
