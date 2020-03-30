@@ -475,11 +475,13 @@ jobs:
 
     - name: Generate Persian
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-fa SNAPSHOT'
+    - name: Convert Persian docx to Persian
+      run: docker run -v ${PWD}:/tmp doc-convertor libreoffice --headless --convert-to pdf /tmp/OWASP_MASVS-SNAPSHOT-fa_WIP_.docx --outdir /tmp
     - name: Upload Persian PDF
       uses: actions/upload-artifact@v1
       with:
-        name: OWASP_MASVS-SNAPSHOT-fa.pdf
-        path: OWASP_MASVS-SNAPSHOT-fa.pdf
+        name: OWASP_MASVS-SNAPSHOT-fa_WIP_.pdf
+        path: OWASP_MASVS-SNAPSHOT-fa_WIP_.pdf
     - name: Upload Persian EPUB
       uses: actions/upload-artifact@v1
       with:
