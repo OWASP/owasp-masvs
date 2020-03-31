@@ -33,7 +33,7 @@ from masvs import MASVS
 
 parser = argparse.ArgumentParser(description='Export the MASVS requirements. Default language is en.')
 parser.add_argument('-f', '--format', choices=['json', 'xml', 'csv'], required=True)
-parser.add_argument('-l', '--lang', choices=['es', 'ru', 'en', 'fr', 'de', 'zhtw', 'ja', 'zhcn'], default='en')
+parser.add_argument('-l', '--lang', choices=['de', 'en', 'es', 'fr', 'hi', 'ja', 'ko', 'ru', 'zhcn', 'zhtw'], default='en')
 
 args = parser.parse_args()
 
