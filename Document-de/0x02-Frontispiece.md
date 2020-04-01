@@ -8,7 +8,7 @@ Der MASVS vereint Community Engagement und Feedback aus der Praxis. Wir gehen da
 [https://owasp.slack.com/messages/](https://owasp.slack.com/messages/project-mobile_omtg/details/).
 
 Nutzerkonten können unter folgender URL angelegt werden:
-[https://owasp.slack.com/join](https://owasp.slack.com/join/shared_invite/enQtNDI5MzgxMDQ2MTAwLTEyNzIzYWQ2NDZiMGIwNmJhYzYxZDJiNTM0ZmZiZmJlY2EwZmMwYjAyNmJjNzQxNzMyMWY4OTk3ZTQ0MzFhMDY).
+[https://owasp.slack.com/join](https://owasp-slack.herokuapp.com/).
 
 ## Copyright and License
 
@@ -43,7 +43,7 @@ Dieses Dokument basiert auf einem Fork des OWASP Application Security Verificati
 
 ## Sponsoren
 
-Obwohl beide Projekte, der MASVS und der MSTG, auf freiwilliger Basis im Rahmen der Community erarbeitet wurden und weiter gepflegt werden, ist manchmal ein wenig Hilfe von außen nötig. Wir danken deshalb den Sponsoren mit deren Hilfe wir technische Editoren aquirieren können. Der Inhalt des MASVS oder MSTG ist in keinster Weise durch etwaige Sponsoren beeinflusst. Eine nähere Beschreibung der Sponsoren-Pakete befindet sich sich im [OWASP Projekt Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
+Obwohl beide Projekte, der MASVS und der MSTG, auf freiwilliger Basis im Rahmen der Community erarbeitet wurden und weiter gepflegt werden, ist manchmal ein wenig Hilfe von außen nötig. Wir danken deshalb den Sponsoren mit deren Hilfe wir technische Editoren aquirieren können. Der Inhalt des MASVS oder MSTG ist in keinster Weise durch etwaige Sponsoren beeinflusst. Eine nähere Beschreibung der Sponsoren-Pakete befindet sich sich im [OWASP Projekt Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
 ### "Honourable Benefactor" Sponsor
 

@@ -21,23 +21,41 @@ Files:
 
 1. Update the CHANGELOG.md in each language directory and add a release statement and summary of the changes since the last release. Update the RECENT_CHANGES.txt in the tools folder. Add it also to the CHANGELOG.md in the root directory.
 2. Commit the changes (with message `Release <version>`)
-3. Push a tag with the new version:
+3. Merge the PR into master
+4. Checkout master and pull changes:
 
-```bash
-$ git tag -a v<version> -m "Release message"
-$ git push origin v<version>
-```
+    ```bash
+    $ git checkout master
+    $ git pull
+    ```
 
-> The letter `v` need to be part of the tag name to trigger the release Github action. The tag name will become the version title of the release. The content of the RECENT_CHANGES file will become the body text of the release (be sure it includes the actual title of the release).
+5. Push a tag with the new version:
 
-4. Verify that Github Action was triggered. The Github action "Upload Release Asset" need to be triggered. This might take 5-10 minutes.
-5. Update the Leanpub Files
-6. Update OWASP Wiki if necessary
-7. Tweet about it with @OWASP-MSTG, Linkedin and OWASP Slack
+    ```bash
+    $ git tag -a v<version> -m "Release message"
+    $ git push origin v<version>
+    ```
+
+    > The letter `v` need to be part of the tag name to trigger the release Github action. The tag name will become the version title of the release. The content of the RECENT_CHANGES file will become the body text of the release (be sure it includes the actual title of the release).
+
+6. Verify that Github Action was triggered. The Github action "Upload Release Asset" need to be triggered. This might take 5-10 minutes.
+7. Update OWASP Wiki if necessary
+8. Tweet about it with @OWASP-MSTG, Linkedin and OWASP Slack
+
+In case something went wrong and we need to remove the release:
+
+1. Delete the tag locally and remotely:
+
+    ```bash
+    $ git tag -d <tag>   # delete the tag locally
+    $ git push origin :refs/tags/<tag>  # delete the tag remotely
+    ```
+
+2. Go to Github release page <https://github.com/OWASP/owasp-masvs/releases>. The release you removed is now in "draft". Click on edit and discard/delete the release.
 
 ## Adding another language
 
-When you want to add another langauge:
+When you want to add another language:
 
 1. Create a folder with the language of choice.
 2. Extend `Apply_Link_Check.sh` and `Apply_Linter_Check.sh` with the new folder and make sure you do not end up with dead links or Markdown errors.

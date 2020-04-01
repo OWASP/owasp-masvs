@@ -41,7 +41,7 @@ Copyright © 2020 The OWASP Foundation. 本文檔在 Creative Commons Attributio
 
 ## 贊助者
 
-雖然 MASVS 和 MSTG 都是由社群自願創建和維護的，但有時仍需要一些外部的協助。因此，我們感謝我們的贊助者提供資金來聘請技術編輯。請注意，他們的贊助不會以任何方式影響 MASVS 或 MSTG 的內容。贊助方案可在[OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages")找到。
+雖然 MASVS 和 MSTG 都是由社群自願創建和維護的，但有時仍需要一些外部的協助。因此，我們感謝我們的贊助者提供資金來聘請技術編輯。請注意，他們的贊助不會以任何方式影響 MASVS 或 MSTG 的內容。贊助方案可在[OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages")找到。
 
 ### 特別感謝
 
