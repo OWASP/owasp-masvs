@@ -2,6 +2,12 @@
 
 ## V1.2 - 7 März 2020 - Internationale Veröffentlichung
 
+Die folgenden Änderungen sind Teil von Version 1.2:
+
+- Übersetzung des MASVS in verinfachtes Chinesisch verfügbar.
+- Änderung des Titles auf dem Cover des MASVS.
+- Mobile Top 10 und CWE Referenzen wurden aus dem MSTG entfernt und zu existierenden Referenzen im MASVS hinzugefügt.
+
 ## V1.2-RC - 5 Oktober 2019 - Pre-Release
 
 Die folgenden Änderungen sind Teil von Version 1.2-RC:
