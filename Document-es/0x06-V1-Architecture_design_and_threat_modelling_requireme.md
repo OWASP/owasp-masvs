@@ -30,9 +30,8 @@ A continuación, se enumeran los requerimientos para MASVS-L1 y MASVS-L2.
 Para más información, ver también:
 
 - OWASP Top 10 Móvil: M10 (Funcionalidades Extrañas) - <hhttps://owasp.org/www-project-mobile-top-10/2016-risks/m10-extraneous-functionality>
-- "Cheat Sheet" de Arquitectura de Seguridad en Aplicaciones (OWASP) - <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
-- Modelado de Amenazas (OWASP) - <https://www.owasp.org/index.php/Application_Threat_Modeling>
-- "Cheat Sheet" del Ciclo de Vida del Desarrollo Software Seguro (OWASP) - <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
+- Modelado de Amenazas (OWASP) - <https://owasp.org/www-community/Application_Threat_Modeling>
+- "Cheat Sheet" del Ciclo de Vida del Desarrollo Software Seguro (OWASP) - <https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets_excluded/Secure_SDLC_Cheat_Sheet.md>
 - Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
 - NIST SP 800-57 (Recomendación de Gestión de Claves) - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
 - security.txt - <https://securitytxt.org/>

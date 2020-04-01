@@ -50,7 +50,7 @@ finalize() {
     if test -f "lint-check-result-all-lang.out"; then
             rm lint-check-result-all-lang.out
     fi
-    cat linter-result.out linter-result-de.out linter-result-es.out linter-result-fr.out linter-result-ja.out linter-result-ru.out linter-result-zhtw.out > lint-check-result-all-lang.out
+    cat linter-result.out linter-result-de.out linter-result-es.out linter-result-fa.out linter-result-fr.out linter-result-ja.out linter-result-ru.out linter-result-zhtw.out > lint-check-result-all-lang.out
     errors_total=$(wc -l lint-check-result-all-lang.out)
     errors_total_number=$(echo $errors_total| cut -d' ' -f 1)
     echo "Errors total: $errors_total_number"
@@ -64,6 +64,7 @@ npm install -g markdownlint
 apply_lint_check_en
 apply_lint_check_lang de
 apply_lint_check_lang es
+apply_lint_check_lang fa
 apply_lint_check_lang fr
 apply_lint_check_lang ja
 apply_lint_check_lang ko
