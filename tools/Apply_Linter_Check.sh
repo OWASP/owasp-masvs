@@ -66,6 +66,7 @@ apply_lint_check_lang de
 apply_lint_check_lang es
 apply_lint_check_lang fa
 apply_lint_check_lang fr
+apply_lint_check_lang hi
 apply_lint_check_lang ja
 apply_lint_check_lang ko
 apply_lint_check_lang ru
