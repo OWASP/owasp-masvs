@@ -36,4 +36,3 @@ MASVS-L1 और MASVS-L2 की आवश्यकताएं नीचे स�
 - Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
 - NIST SP 800-57 - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
 - security.txt - <https://securitytxt.org/>
-
