@@ -478,7 +478,8 @@ jobs:
     - name: Convert Persian docx to Persian PDF
       # run: docker run --entrypoint doc2pdf -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator 'OWASP_MASVS-SNAPSHOT-fa_WIP_.docx'
       # run: docker run -v ${PWD}:/tmp liubin/docker-pdf-convertor libreoffice --headless --convert-to pdf /tmp/OWASP_MASVS-SNAPSHOT-fa_WIP_.docx --outdir /tmp
-      run: mkdir /opt/unoconv && cp OWASP_MASVS-SNAPSHOT-fa_WIP_.docx /opt/unoconv/ && docker run -d --env-file=docker.env -v /opt/unoconv:/tmp --name unoconv sfoxdev/unoconv-alpine
+      run: mkdir /opt/unoconv && cp OWASP_MASVS-SNAPSHOT-fa_WIP_.docx /opt/unoconv/ && docker run -d -e FILEEXT=docx -e TIMETOEXIT=300 -v /opt/unoconv:/tmp --name unoconv sfoxdev/unoconv-alpine
+
     - name: Upload Persian PDF
       uses: actions/upload-artifact@v1
       with:
