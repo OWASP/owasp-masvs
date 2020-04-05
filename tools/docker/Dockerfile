@@ -4,7 +4,6 @@ FROM dalibo/pandocker
 # Update & Install dependencies (fonts-noto-cjk for Chinese-Japanese-Korean fonts = CJK)
 RUN apt-get update && \
     apt-get install -y --no-install-recommends curl xfonts-75dpi xfonts-base fonts-noto-cjk texlive-lang-arabic && \
-    apt-get install unoconv -y && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf ~/.cache/pip
     
