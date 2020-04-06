@@ -26,7 +26,7 @@
 
 ## منابع
 
-راهنمای تست امنیتی موبایل OWASP، دستورالعمل هایی مفصل برای تایید نیازمندی های لیست شده در این بخش، فراهم می کند.
+راهنمای تست امنیتی موبایل OWASP، دستورالعمل‌هایی مفصل برای تایید نیازمندی‌های لیست شده در این بخش، فراهم می کند.
 
 - Android: Testing Platform Interaction - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
 - iOS: Testing Platform Interaction - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
