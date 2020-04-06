@@ -40,7 +40,7 @@
 
 ## منابع
 
-راهنمای آزمون امنیت موبایل ،OWASP دستورالعمل‌های دقیق برای تایید نیازمندی‌های لیست شده در این بخش را ارائه می‌دهد.
+راهنمای تست امنیتی موبایل OWASP، دستورالعمل‌هایی مفصل برای تایید نیازمندی‌های لیست شده در این بخش، فراهم می کند.
 
 - Android: Testing Data Storage - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
 - iOS: Testing Data Storage - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
