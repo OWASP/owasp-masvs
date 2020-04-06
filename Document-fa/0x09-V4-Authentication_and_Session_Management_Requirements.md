@@ -25,10 +25,11 @@
 ## منابع
 
 راهنمای آزمون امنیت موبایل ،OWASP دستورالعمل‌های دقیق برای تایید نیازمندی‌های لیست شده در بالا را ارائه می‌دهد.
-
+<div dir="ltr" markdown="1">
 - General: Authentication and Session Management - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
 - Android: Testing Local Authentication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
 - iOS: Testing Local Authentication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
+</div>
 
 برای اطلاعات بیشتر همچنین مشاهده کنید:
 
