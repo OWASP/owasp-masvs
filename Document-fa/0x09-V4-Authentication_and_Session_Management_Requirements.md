@@ -23,9 +23,9 @@
 | **4.11** | MSTG-AUTH-11 | برنامه کاربردی کاربر را نسبت به تمام فعالیت‌های ورود به سیستم با حساب وی آگاه می‌سازد. کاربران قادرند لیستی از دستگاه‌هایی که از آن‌ها برای دسترسی به حساب استفاده شده است را مشاهده کنند و دستگاه‌های خاصی را مسدود نمایند. | | ✓ |
 | **4.12** | MSTG-AUTH-12 | مدل‌های مجوز باید در سمت پایانی تعریف شده و اجباری شوند. | ✓ | ✓ |
 
-## منابع
-
-راهنمای تست امنیتی موبایل OWASP، دستورالعمل هایی مفصل برای تایید نیازمندی های لیست شده در این بخش، فراهم می کند.
+## 
+منابع
+راهنمای تست امنیتی موبایل OWASP، دستورالعمل‌هایی مفصل برای تایید نیازمندی‌های لیست شده در این بخش، فراهم می کند.
 
 - General: Authentication and Session Management - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
 - Android: Testing Local Authentication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
