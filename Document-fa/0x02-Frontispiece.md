@@ -1,51 +1,54 @@
-# About the Standard
+<div dir="rtl" markdown="1">
+# درباره استاندارد
 
 <img src="images/OWASP_logo.png" title="OWASP LOGO" />
 
-Welcome to the Mobile Application Security Verification Standard (MASVS) 1.1. The MASVS is a community effort to establish a framework of security requirements needed to design, develop and test secure mobile apps on iOS and Android.
+به استاندارد وارسی امنیت برنامه کاربردی موبایل (MASVS) نسخه 1.1 خوش آمدید. MASVS یک تلاش جمعی برای برپاسازی چارچوبی از نیازمندی‌های امنیتی مربوط به طراحی، توسعه و آزمون اپلیکیشن‌های امن موبایل بر روی iOS و اندروید است.
 
-The MASVS is a culmination of community effort and industry feedback. We expect this standard to evolve over time and welcome feedback from the community.
+MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. ما انتظار داریم که این استاندارد در طی زمان تکامل پیدا کزده و از بازخورد اجتماع استقبال می‌کنیم.
 
-The best way to get in contact with us is via the OWASP Mobile Project Slack channel: <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
+بهترین راه برای ارتباط با ما از طریق کانال Slack پروزه موبایل OWASP است.: <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
 
-Accounts can be created at the following URL: [https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/).
+حساب‌های کاربری می توانند در این آدرس ایجاد شوند: [https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/).
 
-## Copyright and License
+## حق تکثیر و مجوز
 
 [<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Copyright © 2020 The OWASP Foundation.This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
+حق تکثیر محفوظ است © 2020 بنیاد OWASP. این اثر تحت یک مجوز [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) منتشر می‌شود. جهت هرگونه استفاده مجدد یا توزیع، شما باید شرایط مجوز این اثر را برای دیگران روشن سازید.
 
 <div style="page-break-after: always; visibility: hidden">
 \pagebreak
 </div>
 
-## Acknowledgements
+## تشکر و قدردانی
 
-| Project Lead | Lead Author | Contributors and Reviewers
+| رهبر پروژه | نویسنده اصلی | مشارکت کنندگان و ویراستاران
 | ------- | --- | ----------------- |
 | Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Eugen Martynov, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abderrahmane Aftahi, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
 
 <br/>
 
-| Language | Translators & Reviewers |
+| زبان | مترجمان و ویراستاران |
 | --- | ------------------------------ |
-| Chinese (Traditonal) | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
-| Chinese (Simplified) | Bob Peng, Harold Zang, Jack S |
-| French | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
-| German | Rocco Gränitz, Sven Schleier (Review) |
-| Japanese | Koki Takeyama, Riotaro Okada (Review) |
-| Korean | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
-| Russian | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
-| Spanish | Martin Marsicano, Carlos Holguera |
+| چینی (سنتی) | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| چینی (ساده) | Bob Peng, Harold Zang, Jack S |
+| فرانسوی | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
+| آلمانی | Rocco Gränitz, Sven Schleier (Review) |
+| ژاپنی | Koki Takeyama, Riotaro Okada (Review) |
+| کره‌ای | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
+| فارسی | Ramin Atefinia, Bardia Akbari |
+| روسی | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| اسپانیایی | Martin Marsicano, Carlos Holguera |
 
-This document started as a fork of the OWASP Application Security Verification Standard written by Jim Manico.
+ این سند به عنوان یک fork از استاندارد وارسی برنامه کاربردی موبایل نوشته شده توسط Jim Manico آغاز شده است.
 
-## Sponsors
 
-While both the MASVS and the MSTG are created and maintained by the community on a voluntary basis, sometimes a little bit of outside help is required. We therefore thank our sponsors for providing the funds to be able to hire technical editors. Note that their sponsorship does not influence the content of the MASVS or MSTG in any way. The sponsorship packages are described on the [OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages").
+## حامیان
 
-### Honourable Benefactor
+از آنجایی که هر دوی MASVS و MSTG توسط جامعه‌ای داوطلب ایجاد شده و نگهداری می‌شود، گاهی اوقات مقداری کمک خارجی مورد نیاز است. در نتیجه ما از حامیان خود برای ارائه کمک‌های مالی جهت استخدام ویراستاران فنی تشکر می‌کنیم. توجه کنید که حمایت آن‌ها محتوای MASVS یا MSTG را به هیچ وجه تحت تأثیر قرار نمی‌دهد. بسته‌های حمایتی در [OWASP صفحه ویکی ](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages") توصیف شده‌لند.
+
+### نیکوکار محترم
 
 [<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
 
@@ -53,4 +56,6 @@ While both the MASVS and the MSTG are created and maintained by the community on
 
 [<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
-Next, we would like to thank the OWASP Bay Area Chapter for their sponsorship. Last, we would like to thank everybody that bought the book from Leanpub and sponsored us that way.
+در ادامه مایلیم از OWASP Bay Area Chapter به خاطر حمایتشان قدردانی نماییم. در پایان مایلیم از تمام کسانی که کتاب را از Leanpub خریداری کرده و ما را حمایت کردند تشکر و قدردانی نماییم.
+
+</div>
