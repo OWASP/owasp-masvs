@@ -1,4 +1,5 @@
 <div dir="rtl" markdown="1">
+
 # V7: نیازمندی های کیفیت کد و تنظیمات ساخت
 
 ## هدف کنترل
@@ -21,7 +22,7 @@
 
 ## منابع
 
-راهنمای وارسی امنیتی موبایل OWASP، دستورالعمل هایی مفصل برای تایید نیازمندی های لیست شده در این بخش، فراهم می کند.
+راهنمای تست امنیتی موبایل OWASP، دستورالعمل هایی مفصل برای تایید نیازمندی های لیست شده در این بخش، فراهم می کند.
 
 - Android: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
 - iOS: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
