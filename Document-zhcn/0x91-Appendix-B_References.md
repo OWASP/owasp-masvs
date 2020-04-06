@@ -2,10 +2,10 @@
 
 下列项目内容可以帮助使用者/采纳者更了解这个标准:
 
-- OWASP 移动安全项目 - [https://www.owasp.org/index.php/OWASP_Mobile_Security_Project](https://www.owasp.org/index.php/OWASP_Mobile_Security_Project)
-- OWASP 移动安全测试指南 - [https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide)
+- OWASP 移动安全项目 - [https://owasp.org/www-project-mobile-security/](https://owasp.org/www-project-mobile-security/)
+- OWASP 移动安全测试指南 - [https://owasp.org/www-project-mobile-security-testing-guide/](https://owasp.org/www-project-mobile-security-testing-guide/)
 - OWASP 移动应用十大风险 - [https://owasp.org/www-project-mobile-top-10/](https://owasp.org/www-project-mobile-top-10/)
-- OWASP 逆向工程以及程序代码修改的预防 - [https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project](https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project)
+- OWASP 逆向工程以及程序代码修改的预防 - [https://wiki.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project](https://wiki.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project)
 
 相同的，下列网站可以帮助使用者/采纳者更了解这个标准：
 
