@@ -1,4 +1,5 @@
 <div dir="rtl" markdown="1">
+
 # V6: نیازمندی‌های تعامل با پلتفرم
 
 ## هدف کنترل
@@ -25,7 +26,7 @@
 
 ## منابع
 
-راهنمای آزمون امنیت موبایل ،OWASP دستورالعمل‌های دقیق برای تایید نیازمندی‌های لیست شده در این بخش را ارائه می‌دهد.
+راهنمای تست امنیتی موبایل OWASP، دستورالعمل هایی مفصل برای تایید نیازمندی های لیست شده در این بخش، فراهم می کند.
 
 - Android: Testing Platform Interaction - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
 - iOS: Testing Platform Interaction - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
