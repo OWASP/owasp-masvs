@@ -34,6 +34,7 @@ Copyright © 2020 The OWASP Foundation.This work is licensed under a [Creative C
 | --- | ------------------------------ |
 | چینی (سنتی) | Peter Chi, Lex Chien, Henry Hu, Leo Wang |
 | چینی (ساده‌شده) | Bob Peng, Harold Zang, Jack S |
+
 | فارسی | Hamed Salimian, Dorna Azhirak, Mahsa Omidvar, Alireza Mazhari |
 | فرانسوی | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | آلمانی | Rocco Gränitz, Sven Schleier (Review) |
