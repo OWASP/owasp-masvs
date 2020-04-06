@@ -18,32 +18,32 @@ jobs:
       - name: Get the version
         id: get_version
         run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
-      - name: Build the Docker image
-        run: docker build ./tools/docker --tag masvs-generator:latest
+      - name: Pull the Docker image
+        run: docker pull owasp/masvs-docgenerator:0.1
       - name: Generate python scripts (csv)
-        run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.csv'
+        run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.csv'
       - name: Generate python scripts (json)
-        run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.json'
+        run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.json'
       - name: Generate python scripts (xml)
-        run: docker run -v ${PWD}:/documents masvs-generator 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.xml'
+        run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.xml'
       - name: Generate English docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document ${{ steps.get_version.outputs.VERSION }}'
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document ${{ steps.get_version.outputs.VERSION }}'
       - name: Generate Spanish docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-es ${{ steps.get_version.outputs.VERSION }}'
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-es ${{ steps.get_version.outputs.VERSION }}'
       - name: Generate German docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-de ${{ steps.get_version.outputs.VERSION }}'
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-de ${{ steps.get_version.outputs.VERSION }}'
       - name: Generate French docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-fr ${{ steps.get_version.outputs.VERSION }}'
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-fr ${{ steps.get_version.outputs.VERSION }}'
       - name: Generate Russian docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ru ${{ steps.get_version.outputs.VERSION }}'
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-ru ${{ steps.get_version.outputs.VERSION }}'
       - name: Generate Japanese docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ja ${{ steps.get_version.outputs.VERSION }}'
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-ja ${{ steps.get_version.outputs.VERSION }}'
       - name: Generate Traditional Chinese docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-zhtw ${{ steps.get_version.outputs.VERSION }}'
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-zhtw ${{ steps.get_version.outputs.VERSION }}'
       - name: Generate Simplified Chinese docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-zhcn ${{ steps.get_version.outputs.VERSION }}'
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-zhcn ${{ steps.get_version.outputs.VERSION }}'
       - name: Generate Korean docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc masvs-generator '/pandoc_makedocs.sh Document-ko ${{ steps.get_version.outputs.VERSION }}'
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-ko ${{ steps.get_version.outputs.VERSION }}'
       - name: Release
         uses: softprops/action-gh-release@91409e712cf565ce9eff10c87a8d1b11b81757ae
         if: startsWith(github.ref, 'refs/tags/')
@@ -86,30 +86,9 @@ jobs:
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-zhtw.mobi
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-zhtw.pdf
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-zhtw_WIP_.docx
-            WASP_MASVS-${{ steps.get_version.outputs.VERSION }}.csv
-            WASP_MASVS-${{ steps.get_version.outputs.VERSION }}.json
-            WASP_MASVS-${{ steps.get_version.outputs.VERSION }}.xml
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.csv
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.json
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # "OFFICIAL" github actions only support one file ot upload. therefore will use unoficial
-      # - name: Create Release
-      #   id: create_release
-      #   uses: actions/create-release@v1
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   with:
-      #     GITHUB_REF_name: ${{ github.ref }}
-      #     release_name: Release ${{ github.ref }}
-      #     draft: false
-      #     prerelease: false
-      # - name: Upload Release Asset
-      #   id: upload-release-asset 
-      #   uses: actions/upload-release-asset@v1
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   with:
-      #     upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-      #     asset_path: ./my-artifact.zip
-      #     asset_name: my-artifact.zip
-      #     asset_content_type: application/zip
       
