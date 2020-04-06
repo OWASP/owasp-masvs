@@ -49,7 +49,7 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 
 ## حامیان
 
-از آنجایی که هر دوی MASVS و MSTG توسط جامعه‌ای داوطلب ایجاد شده و نگهداری می‌شوند، گاهی اوقات مقداری کمک خارجی مورد نیاز است. در نتیجه ما از حامیان خود برای ارائه کمک‌های مالی جهت استخدام ویراستاران فنی تشکر می‌کنیم. توجه کنید که حمایت آن‌ها محتوای MASVS یا MSTG را به هیچ وجه تحت تأثیر قرار نمی‌دهد. بسته‌های حمایتی در [OWASP صفحه ویکی ](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages") توصیف شده‌لند.
+از آنجایی که هر دوی MASVS و MSTG توسط جامعه‌ای داوطلب ایجاد شده و نگهداری می‌شوند، گاهی اوقات مقداری کمک خارجی مورد نیاز است. در نتیجه ما از حامیان خود برای ارائه کمک‌های مالی جهت استخدام ویراستاران فنی تشکر می‌کنیم. توجه کنید که حمایت آن‌ها محتوای MASVS یا MSTG را به هیچ وجه تحت تأثیر قرار نمی‌دهد. بسته‌های حمایتی در [ صفحه ویکی OWASP ](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages") توصیف شده‌لند.
 
 ### نیکوکار محترم
 
