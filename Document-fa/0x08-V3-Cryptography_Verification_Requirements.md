@@ -23,7 +23,7 @@
 
 ## منابع
 
-راهنمای وارسی امنیتی موبایل OWASP، دستورالعمل‌هایی مشروح برای تایید نیازمندی‌های لیست شده در این بخش، فراهم می کند.
+راهنمای تست امنیتی موبایل OWASP، دستورالعمل‌هایی مفصل برای تایید نیازمندی‌های لیست شده در این بخش، فراهم می کند.
 
 - Android: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
 - iOS: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
