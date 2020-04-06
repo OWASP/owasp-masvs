@@ -51,11 +51,10 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 
 از آنجایی که هر دوی MASVS و MSTG توسط جامعه‌ای داوطلب ایجاد شده و نگهداری می‌شوند، گاهی اوقات مقداری کمک خارجی مورد نیاز است. در نتیجه ما از حامیان خود برای ارائه کمک‌های مالی جهت استخدام ویراستاران فنی تشکر می‌کنیم. توجه کنید که حمایت آن‌ها محتوای MASVS یا MSTG را به هیچ وجه تحت تأثیر قرار نمی‌دهد. بسته‌های حمایتی در [ صفحه ویکی OWASP ](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages") توصیف شده‌اند.
 
-### نیکوکار محترم
+### نیکوکاران محترم
 
 [<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
 
-### Good Samaritan Benefactor
 
 [<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
