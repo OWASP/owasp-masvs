@@ -1,24 +1,25 @@
-# V2: Data Storage and Privacy Requirements
+<div dir="rtl" markdown="1">
+# V2: نیازمندی‌های ذخیره داده و حریم خصوصی
 
-## Control Objective
+## هدف کنترل
 
-The protection of sensitive data, such as user credentials and private information, is a key focus in mobile security. Firstly, sensitive data can be unintentionally exposed to other apps running on the same device if operating system mechanisms like IPC are used improperly. Data may also unintentionally leak to cloud storage, backups, or the keyboard cache. Additionally, mobile devices can be lost or stolen more easily compared to other types of devices, so an adversary gaining physical access is a more likely scenario. In that case, additional protections can be implemented to make retrieving the sensitive data more difficult.
+حفاظت از داده‌های حساس، از قبیل ابزارهای احراز هویت و اطلاعات خصوصی، یک نقطه تمرکز کلیدی در امنیت موبایل است.  در مرحله اول اگر مکانیزم‌های سیستم عامل همانند IPC به طور نامناسب استفاده شوند، ممکن است اطلاعات حساس به طور سهوی در معرض دسترسی سایر اپلیکیشن‌های موجود بر روی همان دستگاه قرار گیرند. همچنین ممکن است که داده‌ها به طور اشتباه بر روی حافظه ابری، پشتیبان یا حافظه کش صفحه کلید نشت کنند. علاوه بر این، دستگاه‌های موبایل در مقایسه با سایر انواع دستگاه‌ها می‌توانند راحت‌تر مفقود شده یا مورد سرقت قرار بگیرند، بنابراین سناریوی دسترسی فیزیکی یک شخص متخاصم محتمل‌تر است. در این صورت یک سری محافظت‌های اضافی می‌توانند پیاده‌سازی شوند تا دسترسی به داده‌ها دشوارتر گردد.
+توجه داشته باشید که از آنجایی که MASVS بر اپلیکیشن متمرکز می‌باشد، این استاندارد سیاست‌های الزام شده سطح دستگاه توسط MDM را تحت پوشش قرار نمی‌دهد.
 
-Note that, as the MASVS is app-centric, it does not cover device-level policies such as those enforced by MDM solutions. We encourage the use of such policies in an Enterprise context to further enhance data security.
 
-### Definition of Sensitive Data
+### تعریف داده حساس
 
-Sensitive data in the context of the MASVS pertains to both user credentials and any other data considered sensitive in the particular context, such as:
+داده حساس در چارچوب MASVS هم مربوط به ابزارهای احراز هویت کاربر است و هم هرگونه داده دیگر که در یک چارچوب خاص حساس در نظر گرفته می‌شود از قبیل:
+-	اطلاعات قابل شناسایی خصوصی  (PII) که می‌توانند توسط دزدی هویت مورد سوء استفاده قرار بگیرند: شماره‌های تأمین اجتماعی، شماره‌های کارت اعتباری، شماره‌های حساب بانکی و اطلاعات بهداشتی.
+-	اطلاعات بسیار حساس که در صورت به خطر افتادن می‌توانند منجر به آسیب به سابقه شخصی یا خسارت‌های مالی شوند.
+-	هرگونه داده‌ای که باید توسط قانون و یا به دلایل انطباق محافظت شود.
 
-- Personally identifiable information (PII) that can be abused for identity theft:  Social security numbers, credit card numbers, bank account numbers, health information;
-- Highly sensitive data that would lead to reputational harm and/or financial costs if compromised: Contractual information, information covered by non-disclosure agreements, management information;
-- Any data that must be protected by law or for compliance reasons.
 
-## Security Verification Requirements
+## نیازمندی‌های تأیید امنیتی
 
-The vast majority of data disclosure issues can be prevented by following simple rules. Most of the controls listed in this chapter are mandatory for all verification levels.
+اکثریت قریب به اتفاق مسائل افشای اطلاعات می‌توانند با پیروی از قوانین ساده زیر پیشگیری شوند. بیشتر کنترل‌های فهرست شده در این فصل برای تمام سطوح تایید الزامی هستند.
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | شرح | سطح یک | سطح دو |
 | -- | -------- | ---------------------- | - | - |
 | **2.1** | MSTG-STORAGE-1 | System credential storage facilities need to be used to store sensitive data, such as PII, user credentials or cryptographic keys. | ✓ | ✓ |
 | **2.2** | MSTG-STORAGE-2 | No sensitive data should be stored outside of the app container or system credential storage facilities. | ✓ | ✓ |
@@ -63,3 +64,5 @@ For more information, see also:
 - CWE 798 (Use of Hard-coded Credentials) - <https://cwe.mitre.org/data/definitions/798.html>
 - CWE 921 (Storage of Sensitive Data in a Mechanism without Access Control) - <https://cwe.mitre.org/data/definitions/921.html>
 - CWE 922 (Insecure Storage of Sensitive Information) - <https://cwe.mitre.org/data/definitions/922.html>
+
+</div>
