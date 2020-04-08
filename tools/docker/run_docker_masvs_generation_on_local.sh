@@ -13,12 +13,13 @@ fi
 
 echo "Version = ${VERSION}"
 
-# export IMG="owasp/masvs-docgenerator:0.1"
-# docker pull $IMG
-export IMG="owasp/masvs-docgenerator:latest"
-if [[ "$(docker images -q $IMG 2> /dev/null)" == "" ]]; then
-  docker build --tag $IMG tools/docker/
-fi
+export IMG="owasp/masvs-docgenerator:0.2"
+docker pull $IMG
+# only use this when you are updating the docker tooling
+# export IMG="owasp/masvs-docgenerator:latest"
+# if [[ "$(docker images -q $IMG 2> /dev/null)" == "" ]]; then
+#   docker build --tag $IMG tools/docker/
+# fi
 
 for folder in ./Document*; do
   echo "Generating $folder"
