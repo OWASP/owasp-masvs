@@ -1,7 +1,8 @@
-# V2: Data Storage and Privacy Requirements
+# V2: डेटा संग्रहण और गोपनीयता आवश्यकताएँ
 
-## Control Objective
+## नियंत्रण का उद्देश्य
 
+संवेदनशील डेटा की सुरक्षा, जैसे कि उपयोगकर्ता के क्रिडेंशियल्स और निजी जानकारी, मोबाइल सुरक्षा में एक महत्वपूर्ण फोकस है। 
 The protection of sensitive data, such as user credentials and private information, is a key focus in mobile security. Firstly, sensitive data can be unintentionally exposed to other apps running on the same device if operating system mechanisms like IPC are used improperly. Data may also unintentionally leak to cloud storage, backups, or the keyboard cache. Additionally, mobile devices can be lost or stolen more easily compared to other types of devices, so an adversary gaining physical access is a more likely scenario. In that case, additional protections can be implemented to make retrieving the sensitive data more difficult.
 
 Note that, as the MASVS is app-centric, it does not cover device-level policies such as those enforced by MDM solutions. We encourage the use of such policies in an Enterprise context to further enhance data security.
