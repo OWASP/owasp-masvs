@@ -246,8 +246,7 @@ jobs:
         name: OWASP_MASVS-SNAPSHOT-ko.mobi
         path: OWASP_MASVS-SNAPSHOT-ko.mobi
 
-
-    - name: Generate Persian
+    - name: Generate Persian documents
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-fa SNAPSHOT'
     - name: Convert Persian docx to Persian PDF
       run: mkdir /tmp/unoconv && cp OWASP_MASVS-SNAPSHOT-fa_WIP_.docx /tmp/unoconv/ && docker run -d -e FILEEXT=docx -e TIMETOEXIT=300 -v /tmp/unoconv:/tmp --name unoconv sfoxdev/unoconv-alpine && sleep 10s
@@ -278,3 +277,27 @@ jobs:
       with:
         name: OWASP_MASVS-SNAPSHOT-fa_WIP_.pdf
         path: /tmp/unoconv/OWASP_MASVS-SNAPSHOT-fa_WIP_.pdf
+
+    - name: Generate Hindi PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-hi SNAPSHOT'
+    - name: Upload Hindi PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-hi.pdf
+        path: OWASP_MASVS-SNAPSHOT-hi.pdf
+    - name: Upload Hindi EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-hi.epub
+        path: OWASP_MASVS-SNAPSHOT-hi.epub
+    - name: Upload Hindi DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-hi_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-hi_WIP_.docx
+    - name: Upload Korean MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-hi.mobi
+        path: OWASP_MASVS-SNAPSHOT-hi.mobi
+
