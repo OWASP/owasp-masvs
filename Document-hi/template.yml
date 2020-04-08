@@ -1,0 +1,7 @@
+---
+title: Hello, 🌍
+header-includes: |
+    \usepackage{xltxtra}
+    \usepackage{xelatexemoji}
+    - \newfontfamily\devanagarifont{Shobhika}
+---
