@@ -36,3 +36,12 @@ for folder in Document*; do
         rm -Rf $folder-temp
     fi
 done
+
+echo "Do Persian PDF conversion with a small hack"
+mkdir /tmp/unoconv && cp OWASP_MASVS-SNAPSHOT-fa_WIP_.docx /tmp/unoconv/ && \
+docker run -d -e FILEEXT=docx -e TIMETOEXIT=300 -v /tmp/unoconv:/tmp --name unoconv sfoxdev/unoconv-alpine && \
+sleep 10s && \
+cp /tmp/unoconv/OWASP_MASVS-SNAPSHOT-fa_WIP_.pdf .
+
+echo "Cleanup"
+rm -rf /tmp/unoconv
