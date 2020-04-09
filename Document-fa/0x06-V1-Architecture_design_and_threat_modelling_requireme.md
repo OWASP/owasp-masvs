@@ -32,7 +32,6 @@
 برای دریافت اطلاعات بیشتر به آدرس‌های زیر مراجعه نمایید:
 
 - ده تهدید برتر موبایل OWASP - تهدید رتبه دهم (وظیفه‌مندی فرعی) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m10-extraneous-functionality>
-- OWASP راهنمای معماری امن - <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
 - OWASP مدلسازی تهدید - <https://owasp.org/www-community/Application_Threat_Modeling>
 - OWASP راهنمای چرخۀ حیات توسعۀ امن نرم‌افزار - <https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets_excluded/Secure_SDLC_Cheat_Sheet.md>
 - راهنمای چرخۀ حیات توسعۀ نرم‌افزار مایکروسافت - <https://www.microsoft.com/en-us/sdl/>
