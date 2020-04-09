@@ -1,8 +1,8 @@
-# Appendix A: Glossary
+# پیوست الف: واژه نامه
 
-- **Address Space Layout Randomization (ASLR)** – A technique to make exploiting memory corruption bugs more difficult.
-- **Application Security** – Application-level security focuses on the analysis of components that comprise the application layer of the Open Systems Interconnection Reference Model (OSI Model), rather than focusing on for example the underlying operating system or connected networks.
-- **Application Security Verification** – The technical assessment of an application against the OWASP MASVS.
+- **(تصادفی‌سازی چیدمان فضای آدرس) Address Space Layout Randomization (ASLR)** – تکنیکی که استخراج و بهره برداری از اشکالات تخریب حافظه را دشوارتر می کند.
+- **(امنیت برنامه کاربردی) Application Security** – امنیت سطح برنامه بر تجزیه و تحلیل قسمت‌هایی که لایه برنامه مدل مرجع اتصال داخلی سیستم‌های باز(OSI Model)  را تشکیل می دهند، تمرکز دارد، به جای اینکه به عنوان مثال، بر سیستم عامل اصلی و پایه یا شبکه‌ها متصل شده تمرکز داشته باشد.
+- **(وارسی امنیت برنامه) Application Security Verification** – ارزیابی فنی یک برنامه طبق OWASP MASVS
 - **Application Security Verification Report** – A report that documents the overall results and supporting analysis produced by the verifier for a particular application.
 - **Authentication** – The verification of the claimed identity of an application user.
 - **Automated Verification** – The use of automated tools (either dynamic analysis tools, static analysis tools, or both) that use vulnerability signatures to find problems.
