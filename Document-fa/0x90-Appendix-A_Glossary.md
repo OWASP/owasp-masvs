@@ -1,3 +1,4 @@
+<div dir="rtl" markdown="1">
 # پیوست الف: واژه نامه
 
 - **(تصادفی‌سازی چیدمان فضای آدرس) Address Space Layout Randomization (ASLR)** – تکنیکی که استخراج و بهره برداری از اشکالات تخریب حافظه را دشوارتر می کند.
@@ -40,3 +41,4 @@
 - **Verifier** – The person or team that is reviewing an application against the OWASP MASVS requirements.
 - **Whitelist** – A list of permitted data or operations, for example a list of characters that are allowed to perform input validation.
 - **X.509 Certificate** – An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate.
+</div>
