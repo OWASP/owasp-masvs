@@ -31,7 +31,7 @@
 
 - OWASP Mobile Top 10: M10 (Extraneous Functionality) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m10-extraneous-functionality>
 
-- OWASP Threat modelling - <https://owasp.org/www-community/Application_Threat_Modeling>
+- OWASP Thread modelling - <https://owasp.org/www-community/Application_Threat_Modeling>
 - OWASP Secure SDLC Cheat Sheet - <https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets_excluded/Secure_SDLC_Cheat_Sheet.md>
 - Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
 - NIST SP 800-57 (Recommendation for Key Management) - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>

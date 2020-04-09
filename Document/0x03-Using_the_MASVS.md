@@ -33,7 +33,7 @@ A mobile app that achieves MASVS-L1 adheres to mobile application security best 
 
 #### MASVS-L2: Defense-in-Depth
 
-MASVS-L2 introduces advanced security controls that go beyond the standard requirements. To fulfill MASVS-L2, a threat model must exist, and security must be an integral part of the app's architecture and design. Based on the threat model, the right MASVS-L2 controls should have been selected and implemented successfully. This level is appropriate for apps that handle highly sensitive data, such as mobile banking apps.
+MASVS-L2 introduces advanced security controls that go beyond the standard requirements. To fulfill MASVS-L2, a threat model must exist, and security must be an integral part of the app's architecture and design. Based on the threat model, the right MASVS-L2 controls should have been selected and implemented succesfully. This level is appropriate for apps that handle highly sensitive data, such as mobile banking apps.
 
 #### MASVS-R: Resiliency Against Reverse Engineering and Tampering
 
