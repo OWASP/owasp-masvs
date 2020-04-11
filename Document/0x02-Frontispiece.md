@@ -36,7 +36,7 @@ Copyright © 2020 The OWASP Foundation.This work is licensed under a [Creative C
 | German | Rocco Gränitz, Sven Schleier (Review) |
 | Japanese | Koki Takeyama, Riotaro Okada (Review) |
 | Korean | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
-| Persian | Ramin Atefinia, Bardia Akbari |
+| Persian | Ramin Atefinia, Bardiya Akbari |
 | Russian | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | Spanish | Martin Marsicano, Carlos Holguera |
 
