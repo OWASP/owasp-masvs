@@ -1,3 +1,5 @@
+<div dir="rtl" markdown="1">
+
 # فهرست مطالب
 
 - [تاریخچه تغییرات](CHANGELOG.md)
@@ -21,3 +23,5 @@
 
 - [پیوست الف - واژه نامه](GLOSSARY.md)
 - [پیوست ب - منابع](0x91-Appendix-B_References.md)
+
+<div/>
