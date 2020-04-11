@@ -8,7 +8,7 @@ OWASP, as a vendor-neutral not-for-profit organization, does not certify any ven
 OWASP, एक विक्रेता-तटस्थ-फॉर-प्रॉफ़िट संगठन के रूप में, किसी भी विक्रेता, सत्यापनकर्ता या सॉफ़्टवेयर को प्रमाणित नहीं करता है.
 
 All such assurance assertions, trust marks, or certifications are not officially vetted, registered, or certified by OWASP, so an organization relying upon such a view needs to be cautious of the trust placed in any third party or trust mark claiming (M)ASVS certification.
-ऐसे सभी आश्वासन दावे, विश्वास चिह्न, या प्रमाणपत्र आधिकारिक रूप से OWASP द्वारा प्रमाणित, पंजीकृत या प्रमाणित नहीं हैं, इसलिए इस तरह के दृष्टिकोण पर भरोसा करने वाले एक संगठन को किसी तीसरे पक्ष या ट्रस्ट मार्किंग ट्रस्ट (M) ASVS प्रमाणपत्र  में रखे गए विश्वास से सावधान रहने की आवश्यकता है.
+ऐसे सभी आश्वासन दावे, विश्वास चिह्न, या प्रमाणपत्र आधिकारिक रूप से OWASP द्वारा प्रमाणित, पंजीकृत या प्रमाणित नहीं हैं, इसलिए इस तरह के दृष्टिकोण पर भरोसा करने वाले एक संगठन को किसी तीसरे पक्ष या ट्रस्ट मार्किंग ट्रस्ट (M) ASVS प्रमाणपत्र  में रखे गए विश्वास से सावधान रहने की आवश्यकता है....
 
 This should not inhibit organizations from offering such assurance services, as long as they do not claim official OWASP certification.
 यह संगठनों को ऐसी आश्वासन सेवाओं की पेशकश करने से रोकना नहीं चाहिए, जब तक कि वे आधिकारिक OWASP प्रमाणपत्र का दावा नहीं करते.
