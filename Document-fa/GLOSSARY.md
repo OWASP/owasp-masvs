@@ -1,161 +1,165 @@
-# Appendix A: Glossary
+<div dir="rtl" markdown=1>
+
+# پیوست الف - واژه نامه
 
 ## Address Space Layout Randomization (ASLR)
 
-A technique to make exploiting memory corruption bugs more difficult.
+تکنیکی برای دشوارسازی بهره‌برداری از باگ‌های خرابی حافظه
 
 ## Application Security
 
-Application-level security focuses on the analysis of components that comprise the application layer of the Open Systems Interconnection Reference Model (OSI Model), rather than focusing on for example the underlying operating system or connected networks.
+امنیت سطح اپلیکیشن به جای تمرکز بر به عنوان مثال سیستم عامل پایه یا شبکه‌های متصل شده، بر تجزیه و تحلیل مؤلفه‌هایی که لایه برنامه کاربردی مدل اتصال متقابل سامانه‌های باز (OSI) را تشکیل می‌دهند تمرکز دارد.
 
 ## Application Security Verification
 
-The technical assessment of an application against the OWASP MASVS.
+یک ارزیابی فنی از برنامه کاربردی در برابر OWASP MASVS
 
 ## Application Security Verification Report
 
-A report that documents the overall results and supporting analysis produced by the verifier for a particular application.
+گزارشی که نتایج نهایی و تجزیه و تحلیل پشتیبان تولید شده توسط تأیید کننده برای یک اپلیکیشن خاص را مستند سازی می‌کند.
 
 ## Authentication
 
-The verification of the claimed identity of an application user.
+وارسی هویت ادعا شده توسط کاربر یک اپلیکیشن
 
 ## Automated Verification
 
-The use of automated tools (either dynamic analysis tools, static analysis tools, or both) that use vulnerability signatures to find problems.
+استفاده از ابزارهای اتوماتیک (ابزارهای تجزیه و تحلیل پویا و ایستا و یا هر دو) که از امضاهای آسیب‌پذیری جهت یافتن مشکلات استفاده می‌کنند.
 
 ## Black box testing
 
-It is a method of software testing that examines the functionality of an application without peering into its internal structures or workings.
+یک روش آزمودن نرم‌افزار است که عملکرد یک برنامه کاربردی را بدون دانستن ساختار و نحوه عملکرد داخلی آن بررسی می‌کند.
 
 ## Component
 
-a self-contained unit of code, with associated disk and network interfaces that communicates with other components.
+یک واحد کد جامع همراه با رابط‌های دیسک و شبکه مربوطه که با سایر مؤلفه‌ها ارتباط برقرار می‌کند.
 
 ## Cross-Site Scripting (XSS)
 
-A security vulnerability typically found in web applications allowing the injection of client-side scripts into content.
+یک آسیب‌پذیری امنیتی که معمولاً در برنامه‌های تحت وب یافت می‌شود و تزریق اسکریپت‌های سمت کلاینت به محتوا را امکان‌پذیر می‌سازد.
 
 ## Cryptographic module
 
-Hardware, software, and/or firmware that implements cryptographic algorithms and/or generates cryptographic keys.
+نرم‌افزار، سخت افزار و یا میان‌افزار که الگوریتم‌های رمزنگاری را پیاده سازی می‌کند و یا کلید‌های رمزنگاری را تولید می‌کند.
 
 ## CWE
 
-CWE is a community-developed list of common software security weaknesses. It serves as a common language, a measuring stick for software security tools, and as a baseline for weakness identification, mitigation, and prevention efforts.
+CWE یک لیست توسعه یافته شده توسط جامعه کاربری از ضعف‌های رایج امنیتی نرم‌افزارها است. CWE به عنوان یک زبان مشترک، یک معیار اندازه گیری برای ابزارهای امنیت نرم‌افزار و به عنوان یک خط پایه جهت تلاش برای شناسایی ضعف، کاهش و جلوگیری از آن‌ها است.
 
 ## DAST
 
-Dynamic application security testing (DAST) technologies are designed to detect conditions indicative of a security vulnerability in an application in its running state.
+فناوری‌های آزمودن پویای امنیت برنامه کاربردی (DAST) جهت شناسایی شرایط نشان دهنده یک آسیب‌پذیری امنیتی در یک برنامه کاربردی که در حالت اجرایی خود قرار دارد طراحی شده‌اند.
 
 ## Design Verification
 
-The technical assessment of the security architecture of an application.
+ارزیابی فنی معماری امنیت یک برنامه کاربردی
 
 ## Dynamic Verification
 
-The use of automated tools that use vulnerability signatures to find problems during the execution of an application.
+استفاده از ابزارهای خودکار که از امضاهای آسیب‌پذیری جهت یافتن مشکلات در حین اجرای یک برنامه استفاده می‌کنند.
 
 ## Globally Unique Identifier(GUID)
 
-a unique reference number used as an identifier in software.
+یک شماره مرجع یکتا که به عنوان یک کد شناسایی در نرم‌افزار مورد استفاده قرار می‌گیرد.
 
 ## Hyper Text Transfer Protocol(HTTP)
 
-An application protocol for distributed, collaborative, hypermedia information systems. It is the foundation of data communication for the World Wide Web.
+یک پروتکل برنامه کاربردی است که برای سیستم‌های توزیع شده، مبتنی بر همکاری وسیستم‌های اطلاعات ابر رسانه مورد استفاده قرار می‌گیرد. HTTP بنیان ارتباط داده برای شبکه جهانی وب است.
 
 ## Hardcoded keys
 
-Cryptographic keys which are stored in the device itself.
+کلیدهای رمزنگاری که بر روی خود دستگاه ذخیره شده‌اند. 
 
 ## IPC
 
-Inter Process Communications,In IPC Processes communicate with each other and with the kernel to coordinate their activities.
+ارتباطلات بین پروسه‌ای، در IPC پروسه‌ها با یکدیگر و کرنل ارتباط برقرار کرده تا فعالیتهای آن‌ها را هماهنگ سازند. 
 
 ## Input Validation
 
-The canonicalization and validation of untrusted user input.
+استاندارد سازی و اعتبارسنجی ورودی غیر مطمئن کاربر.
 
 ## JAVA Bytecode
 
-Java bytecode is the instruction set of the Java virtual machine(JVM). Each bytecode is composed of one, or in some cases two bytes that represent the instruction (opcode), along with zero or more bytes for passing parameters.
+بایت کد جاوا مجموعه دستورات ماشین مجازی جاوا (JVM) است. هر بایت کد متشکل از یک یا در برخی موارد دو بایت است که نمایانگر دستورات (کد عملیاتی) هستند و همچنین صفر یا تعداد بیشتری بایت که برای گذر پارامترها هستند.
 
 ## Malicious Code
 
-Code introduced into an application during its development unbeknownst to the application owner, which circumvents the application's intended security policy. Not the same as malware such as a virus or worm!
+کد ارائه شده همراه برنامه در طول توسعه بدون اطلاعات صاحب برنامه کاربردی که سیاست امنیتی مطلوب برنامه را دور می‌زند. این با بدافزار (malware) همانند ویروس یا کرم (worm) تفاوت دارد.
 
 ## Malware
 
-Executable code that is introduced into an application during runtime without the knowledge of the application user or administrator.
+کد اجرایی که در طی زمان اجرای برنامه به آن وارد می‌شود بدون اینکه کاربر برنامه کاربردی یا مدیر از آن خیر داشته باشد.
 
 ## Open Web Application Security Project (OWASP)
 
-The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security "visible," so that people and organizations can make informed decisions about application security risks. See: <https://www.owasp.org/>
+پروژه امنیت برنامه کاربردی باز (OWASP) یک جامعه آزاد در سطح جهانی است که بر بهبود امنیت نرم‌افزار تمرکز دارد.مـأموریت ما این است که امنیت برنامه کاربردی را "قابل رویت" سازد به طوری که مردم و سازمان‌ها بتوانند تصمیمات آگاهانه‌ای درباره مخاطرات امنیت برنامه کاربردی بگیرند. مشاهده کنید: <https://www.owasp.org/>
 
 ## Personally Identifiable Information (PII)
 
-PII is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
+PII (اطلاعات قابل شناسایی خصوص) اطلاعاتی است که می‌تواند به خودی خود و یا همراه با سایر اطلاعات جهت شناسایی، برقراری ارتباط یا یافتن مکان یک شخص و یا شناسایی شرایط یک فرد مورد استفاده قرار بگیرند.
 
 ## PIE
 
-Position-independent executable (PIE) is a body of machine code that, being placed somewhere in the primary memory, executes properly regardless of its absolute address.
+اجرایی مستقل از مکان یک بدنه کد زبان ماشین است که جایی در حافظه اصلی قرار می‌گیرد و بدون توجه به آدرس مطلق آن اجرا می‎شود.
 
 ## PKI
 
-A PKI is an arrangement that binds public keys with respective identities of entities. The binding is established through a process of registration and issuance of certificates at and by a certificate authority (CA).
+یک PKI آرایشی است که کلیدهای عمومی را با هویت مربوط به موجودیت‌ها تحت انتقیاد در می‌آورد. انقیاد از طریق یک فرایند ثبت نام و صدور گواهینامه‌ها در یک مرجع صدور گواهینامه (CA) و توسط آن انجام می‌شود.
 
 ## SAST
 
-Static application security testing (SAST) is a set of technologies designed to analyze application source code, byte code and binaries for coding and design conditions that are indicative of security vulnerabilities. SAST solutions analyze an application from the “inside out” in a nonrunning state.
+آزمون امنیت برنامه ایستا (SAST) مجموعه‌ای از فناوری‌ها است که برای تجزیه و تحلیل کد منبع برنامه کاربردی، بایت کد و باینری‌ها برای کد نویسی و طراحی شرایطی که نمایانگر آسیب‌پذیری‌های امنیتی هستند طراحی شده است. راه حل‌های SAST یک برنامه کاربردی را از پشت و رو در حالتی که برنامه در حال اجرا نیست تجزیه و تحلیل می‌کنند.
 
 ## SDLC
 
-Software development lifecycle.
+چرخه حیات توسعه نرم‌افزار
 
 ## Security Architecture
 
-An abstraction of an application's design that identifies and describes where and how security controls are used, and also identifies and describes the location and sensitivity of both user and application data.
+انتزاعی از طراحی یک برنامه کاربردی است که شناسایی و توصیف می‌کند که کنترل‌های امنیتی چگونه استفاده شده‌اند و همچنین مکان و حساسیت هر دو کاربر و داده برنامه را شناسایی و توصیف می‌کند .
 
 ## Security Configuration
 
-The runtime configuration of an application that affects how security controls are used.
+پیکربندی زمان اجرای یک برنامه کاربردی که چگونگی استفاده از کنترل‌های امنیتی را تحت تأثیر قرار می‌دهد.
 
 ## Security Control
 
-A function or component that performs a security check (e.g. an access control check) or when called results in a security effect (e.g. generating an audit record).
+تابع یا مؤلفه‌ای که یک ارزیابی امنیتی انجام می‌دهد (به عنوان مثال یک چک کردن کنترل دسترسی) و یا موقع فراخوانی موجب یک اثر امنیتی می شود. (به عنوان مثال تولید یک دنباله حسابرسی)
 
 ## SQL Injection (SQLi)
 
-A code injection technique used to attack data driven applications, in which malicious SQL statements are inserted into an entry point.
+یک تکنیک تزریق کد که جهت حمله به برنامه‌های کاربردی مبتنی بر داده استفاده می‌شود، در این حمله عبارات SQL مخرب به یک نقطه ورودی تزریق می‌شوند.
 
 ## SSO Authentication
 
-Single Sign On(SSO) occurs when a user logs in to one Client and is then signed in to other Clients automatically, regardless of the platform, technology, or domain the user is using. For example when you log in in google you automatically login in the youtube , docs and mail service.
+شناسایی یگانه (SSO) وقتی رخ می‌دهد که یک کاربر وارید یک کلاینت می‌شود و سپس به طور خودکار وارد سایر کلاینت‌ها می‌شود بدون توجه به پلتفرم، فناوری یا دامنه‌ای که کاربر استفاده می‌کند. به عنوان مثال وقتی که شما به حساب گوگل خود وارد می‌شوید، به طور خودکار به حساب یوتیوب، docs و سرویس ایمیل خود نیز وارد می‌شوید.
 
 ## Threat Modeling
 
-A technique consisting of developing increasingly refined security architectures to identify threat agents, security zones, security controls, and important technical and business assets.
+تکنیکی متشکل از توسعه معماری‌های تصفیه شده امنیت جهت شناسایی عوامل تهدید، حوزه‌های امنیتی، کنترل‌های امنیتی و دارایی‌های فنی و تجاری مهم.
 
 ## Transport Layer Security
 
-Cryptographic protocols that provide communication security over the Internet
+پروتکل‌های رمزنگاری که امنیت ارتباط بر روی اینترنت را تأمین می‌کنند.
 
 ## URI and URL
 
-A Uniform Resource Identifier is a string of characters used to identify a name or a web resource. A Uniform Resource Locator is often used as a reference to a resource.
+یک شناسانه منبع یکسان یک رشته از کاراکترها است که برای شناسایی یک نام یا یک منبع استفاده می‌شود. یک شناسانه منبع یکسان گاهی به عنوان یک مرجع به یک منبع استفاده می‌شود.
 
 ## User acceptance testing (UAT)
 
-Traditionally a test environment that behaves like the production environment where all software testing is performed before going live.
+به طور سنتی یک محیط آزمون است که همانند محیط تولید عمل می‌کند یعنی جایی که تمام آزمون‌های نرم‌افزاری قبل از عملیاتی شدن انجام می‌شوند.
 
 ## Verifier
 
-The person or team that is reviewing an application against the OWASP MASVS requirements.
+یک فرد یا یک تیم که برنامه کاربردی را در برابر نیازمندی‌های OWASP MASVS بازبینی می‌کند.
 
 ## Whitelist
 
-A list of permitted data or operations, for example a list of characters that are allowed to perform input validation.
+فهرستی از عملیات یا داده@های مجاز، به عنوان مثال فهرستی از کاراکترها که اجازه اعتبار سنجی ورودی دارند.
 
 ## X.509 Certificate
 
-An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate.
+یک گواهینامه X.509 یک گواهی دیجیتال است که از استاندارد بین الملی X.509 زیرساخت کلید عمومی (PKI) استفاده می‌کند تا بتواند تأیید کند که یک کلید عمومی متعلق به کاربر، کامپیوتر یا هویت سرویس موجود در داخل گواهینامه است.
+
+<div/>
