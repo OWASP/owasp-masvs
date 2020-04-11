@@ -49,4 +49,4 @@ MASVS को architectural की आवश्यकताओं के sole exc
 
 ### सुरक्षित Development Training के लिए
 
-MASVS का उपयोग secure mobile Application की विशेषताओं को द्वारा प्रस्तुत करने के लिए भी किया जा सकता है। कई "secure coding " कोर्स केवल coding tips के हल्के स्मीयर के साथ simply Ethical Hacking courses हैं। यह developers की मदद नहीं करता है। इसके बजाय, secure development course MASVS का उपयोग कर सकते हैं, जैसे कि MASVS में proactive controls documented पर एक strong focus के साथ उपयोग कर सकता है , उदाहरण के लिए- Top 10 code security issues.
+MASVS का उपयोग secure mobile Application की विशेषताओं को द्वारा प्रस्तुत करने के लिए भी किया जा सकता है। कई "secure coding " कोर्स केवल coding tips के हल्के स्मीयर के साथ simply Ethical Hacking courses हैं। यह developers की मदद नहीं करता है। इसके बजाय, secure development course MASVS का उपयोग कर सकते हैं, जैसे कि MASVS में proactive controls documented पर एक strong focus के साथ उपयोग कर सकता है , उदाहरण के लिए- Top 10 code security issues
