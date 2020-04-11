@@ -40,7 +40,7 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 | --- | ------------------------------ |
 | چینی (سنتی) | Peter Chi, Lex Chien, Henry Hu, Leo Wang |
 | چینی (ساده‌شده) | Bob Peng, Harold Zang, Jack S |
-| فارسی | Ramin Atefinia, Hamed Salimian, Bardia Akbari, Dorna Azhirak, Mahsa Omidvar, Alireza Mazhari |
+| فارسی | Ramin Atefinia, Hamed Salimian, Bardiya Akbari, Dorna Azhirak, Mahsa Omidvar, Alireza Mazhari |
 | فرانسوی | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | آلمانی | Rocco Gränitz, Sven Schleier (Review) |
 | ژاپنی | Koki Takeyama, Riotaro Okada (Review) |
