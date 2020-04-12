@@ -57,6 +57,7 @@ Copyright © 2020 The OWASP Foundation.This work is licensed under a [Creative C
 | Korean | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | Russian | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | Spanish | Martin Marsicano, Carlos Holguera |
+| Hindi   | Mukesh Sharma, Kunwar Atul Singh, Ritesh Kumar, Vikrant Shah, Devendra Kumar Sinha, Parag Dave|
 
 This document started as a fork of the OWASP Application Security Verification Standard written by Jim Manico.
 
@@ -64,12 +65,13 @@ This document started as a fork of the OWASP Application Security Verification S
 | --- | ------------------  |
 | चीनी (पारंपरिक)| पीटर ची, और लेक्स चिएन, हेनरी हू, लियो वांग|
 | चीनी (सरलीकृत)| बॉब पेंग, हेरोल्ड ज़ैंग, जैक एस|
-| फ्रेंच | रोमुआल्ड स्ज़ुडलारेक, एबदर्रहमान आफ़ताही, क्रिश्चियन डोंग (समीक्षा)|
-| जर्मन | रोक्को ग्रिट्ज़, स्वेन शेलियर (समीक्षा)|
-| जापानी | कोकी तकेयमा, रियोतरो ऑकदा (समीक्षा)|
+| फ्रेंच | रोमुआल्ड स्ज़ुडलारेक, एबदर्रहमान आफ़ताही, क्रिश्चियन डोंग (समीक्षक)|
+| जर्मन | रोक्को ग्रिट्ज़, स्वेन शेलियर (समीक्षक)|
+| जापानी | कोकी तकेयमा, रियोतरो ऑकदा (समीक्षक)|
 | कोरिअन| यौन्ग्जये जेओं, जेओंग्वों चो, जियौ हान, जियेऑन सुन्ग|
-| रूसी | गल्ल मक्सिम, एउगेन मर्त्य्नोव, चलनोकोव व्लादिस्लाव (समीक्षा), ओप्री ईगोर (समीक्षा), टेरेशिन दिमित्री (समीक्षा)|
+| रूसी | गल्ल मक्सिम, एउगेन मर्त्य्नोव, चलनोकोव व्लादिस्लाव (समीक्षक), ओप्री ईगोर (समीक्षक), टेरेशिन दिमित्री (समीक्षक)|
 |स्पेनिश | मार्टिन मार्सिकनो, कार्लोस होलगुएरा|
+|हिंदी | मुकेश शर्मा,कुंवर अतुल सिंह,रितेश कुमार,विक्रांत शाह,देवेंद्र कुमार सिन्हा,पराग दवे| 
 <br/>
 यह दस्तावेज़ जिम मैनिको द्वारा लिखित OWASP एप्लीकेशन सिक्योरिटी वेरिफिकेशन स्टैंडर्ड के एक विशाख के रूप में शुरू हुआ।
 
