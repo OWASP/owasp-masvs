@@ -1,39 +1,40 @@
-# V3: Cryptography Requirements
+# V3: क्रिप्टोग्राफी आवश्यकताएँ
 
-## Control Objective
+## नियंत्रण उद्देश्य
 
-Cryptography is an essential ingredient when it comes to protecting data stored on a mobile device. It is also a category where things can go horribly wrong, especially when standard conventions are not followed. The purpose of the controls in this chapter is to ensure that the verified application uses cryptography according to industry best practices, including:
+क्रिप्टोग्राफी एक आवश्यक घटक है जब यह मोबाइल डिवाइस पर संग्रहीत डेटा की सुरक्षा के लिए आता है। यह एक ऐसी श्रेणी भी है जहां चीजें बुरी तरह से गलत हो सकती हैं, खासकर जब मानक सम्मेलनों का पालन नहीं किया जाता है। इस अध्याय में नियंत्रण का उद्देश्य यह सुनिश्चित करना है कि सत्यापित आवेदन उद्योग की सर्वोत्तम प्रथाओं के अनुसार क्रिप्टोग्राफी का उपयोग करता है, जिसमें शामिल हैं:
 
-- Use of proven cryptographic libraries;
-- Proper choice and configuration of cryptographic primitives;
-- A suitable random number generator wherever randomness is required.
+- सिद्ध क्रिप्टोग्राफिक लाइब्रिरीज़ (libraries) का उपयोग;
+- क्रिप्टोग्राफिक प्राइमेटिक्स की उचित पसंद और विन्यास;
+- एक उपयुक्त रेन्डम संख्या जनरेटर जहाँ भी रेन्डम्नस की आवश्यकता है।
 
-## Security Verification Requirements
+## सुरक्षा सत्यापन आवश्यकताएँ
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | विवरण | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
-| **3.1** | MSTG-CRYPTO-1 | The app does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption.| ✓ | ✓ |
-| **3.2** | MSTG-CRYPTO-2 | The app uses proven implementations of cryptographic primitives. | ✓ | ✓ |
-| **3.3** | MSTG-CRYPTO-3 | The app uses cryptographic primitives that are appropriate for the particular use-case, configured with parameters that adhere to industry best practices. | ✓ | ✓ |
-| **3.4** | MSTG-CRYPTO-4 | The app does not use cryptographic protocols or algorithms that are widely considered deprecated for security purposes. | ✓ | ✓ |
-| **3.5** | MSTG-CRYPTO-5 | The app doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ |
-| **3.6** | MSTG-CRYPTO-6 | All random values are generated using a sufficiently secure random number generator. | ✓ | ✓ |
+| **3.1** | MSTG-CRYPTO-1 | एप्लिकेशन एन्क्रिप्शन हार्ड कोडेड कीज़ (keys) के साथ सममित क्रिप्टोग्राफी (symmetric cryptography) की एकमात्र विधि के रूप में निर्भर नहीं करता है।| ✓ | ✓ |
+| **3.2** | MSTG-CRYPTO-2 | एप्लिकेशन क्रिप्टोग्राफिक प्राइमेटिव के सिद्ध कार्यान्वयन का उपयोग करता है। | ✓ | ✓ |
+| **3.3** | MSTG-CRYPTO-3 | एप्लिकेशन क्रिप्टोग्राफ़िक प्राइमेटिव का उपयोग करता है जो विशेष उपयोग के मामले के लिए उपयुक्त हैं, उन मापदंडों के साथ कॉन्फ़िगर किया गया है जो उद्योग की सर्वोत्तम प्रथाओं का पालन करते हैं। | ✓ | ✓ |
+| **3.4** | MSTG-CRYPTO-4 | ऐप क्रिप्टोग्राफ़िक प्रोटोकॉल या एल्गोरिदम का उपयोग नहीं करता है जो सुरक्षा उद्देश्यों का विरोध करते है।
+ | ✓ | ✓ |
+| **3.5** | MSTG-CRYPTO-5 | एप्लिकेशन कई उद्देश्यों के लिए एक ही क्रिप्टोग्राफिक कुंजी का फिर से उपयोग नहीं करता है। | ✓ | ✓ |
+| **3.6** | MSTG-CRYPTO-6 | सभी रेन्डम वेल्यू एक पर्याप्त रूप से सुरक्षित रेन्डम संख्या जनरेटर का उपयोग करके उत्पन्न होते हैं। | ✓ | ✓ |
 
-## References
+## संदर्भ
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+OWASP मोबाइल सुरक्षा परीक्षण गाइड इस खंड में सूचीबद्ध आवश्यकताओं की पुष्टि करने के लिए विस्तृत निर्देश प्रदान करता है।
 
-- Android: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
-- iOS: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
+- Android: परीक्षण क्रिप्टोग्राफ़ी -  <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
+- iOS: परीक्षण क्रिप्टोग्राफी - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
 
-For more information, see also:
+अधिक जानकारी के लिए, यह भी देखें:
 
-- OWASP Mobile Top 10: M5 (Insufficient Cryptography) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m5-insufficient-cryptography>
-- CWE 310 (Cryptographic Issues) - <https://cwe.mitre.org/data/definitions/310.html>
-- CWE 321 (Use of Hard-coded Cryptographic Key) - <https://cwe.mitre.org/data/definitions/321.html>
-- CWE 326 (Inadequate Encryption Strength) - <https://cwe.mitre.org/data/definitions/326.html>
-- CWE 327 (Use of a Broken or Risky Cryptographic Algorithm) - <https://cwe.mitre.org/data/definitions/327.html>
-- CWE 329 (Not Using a Random IV with CBC Mode) - <https://cwe.mitre.org/data/definitions/329.html>
-- CWE 330 (Use of Insufficiently Random Values) - <https://cwe.mitre.org/data/definitions/330.html>
-- CWE 337 (Predictable Seed in PRNG) - <https://cwe.mitre.org/data/definitions/337.html>
-- CWE 338 (Use of Cryptographically Weak Pseudo Random Number Generator (PRNG)) - <https://cwe.mitre.org/data/definitions/338.html>
+- OWASP मोबाइल टॉप 10: M5 (अपर्याप्त क्रिप्टोग्राफी) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m5-insufficient-cryptography>
+- CWE 310 (क्रिप्टोग्राफिक इश्यू) - <https://cwe.mitre.org/data/definitions/310.html>
+- CWE 321 (हार्ड-कोडेड क्रिप्टोग्राफ़िक कुंजी का उपयोग) - <https://cwe.mitre.org/data/definitions/321.html>
+- CWE 326 (अपर्याप्त एन्क्रिप्शन स्ट्रेंथ) - <https://cwe.mitre.org/data/definitions/326.html>
+- CWE 327 (ब्रॉकन् या रिस्की भरा क्रिप्टोग्राफिक एल्गोरिदम का उपयोग) - <https://cwe.mitre.org/data/definitions/327.html>
+- CWE 329 (CBC मोड के साथ रैंडम IV का उपयोग नहीं) - <https://cwe.mitre.org/data/definitions/329.html>
+- CWE 330 (अपर्याप्त रैंडम वैल्यू का उपयोग) - <https://cwe.mitre.org/data/definitions/330.html>
+- CWE 337 (PRNG में अनुमानित सीड) - <https://cwe.mitre.org/data/definitions/337.html>
+- CWE 338 (क्रिप्टोग्राफिकली कमजोर सूडो रेन्डम संख्या जनरेटर (PRNG) का उपयोग) - <https://cwe.mitre.org/data/definitions/338.html>
