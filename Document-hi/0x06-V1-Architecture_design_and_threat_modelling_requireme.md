@@ -1,37 +1,37 @@
-# V1: Architecture, Design and Threat Modeling Requirements
+# V1: आर्किटेक्चर, डिजाइन और थ्रेट मॉडलिंग आवश्यकताएं
 
-## Control Objective
+## उद्देश्य नियंत्रण
 
-In a perfect world, security would be considered throughout all phases of development. In reality however, security is often only a consideration at a late stage in the SDLC. Besides the technical controls, the MASVS requires processes to be in place that ensure that the security has been explicitly addressed when planning the architecture of the mobile app, and that the functional and security roles of all components are known. Since most mobile applications act as clients to remote services, it must be ensured that appropriate security standards are also applied to those services - testing the mobile app in isolation is not sufficient.
+ एक संपूर्ण दुनिया में, विकास के सभी चरणों में सुरक्षा पर विचार किया जाएगा। हालांकि वास्तविकता में, सुरक्षा अक्सर एसडीएलसी (SDLC) में एक देर के चरण में एक विचार है। तकनीकी नियंत्रणों के अलावा, MASVS को ऐसी प्रक्रियाओं की आवश्यकता होती है जो यह सुनिश्चित करती हैं कि मोबाइल ऐप की वास्तुकला (architecture) की योजना बनाते समय सुरक्षा स्पष्ट रूप से संबोधित की गई है, और यह कि सभी घटकों (components) की कार्यात्मक और सुरक्षा भूमिकाएं ज्ञात हैं। चूंकि अधिकांश मोबाइल एप्लिकेशन दूरस्थ सेवाओं के लिए ग्राहकों के रूप में कार्य करते हैं, इसलिए यह सुनिश्चित किया जाना चाहिए कि उन सेवाओं के लिए उपयुक्त सुरक्षा मानक भी लागू हों - अलग से मोबाइल ऐप का परीक्षण करना पर्याप्त नहीं है।
 
-The category “V1” lists requirements pertaining to architecture and design of the app. As such, this is the only category that does not map to technical test cases in the OWASP Mobile Testing Guide. To cover topics such as threat modelling, secure SDLC or key management, users of the MASVS should consult the respective OWASP projects and/or other standards such as the ones linked below.
+"V1" श्रेणी, आर्किटेक्चर और ऐप के डिजाइन से संबंधित आवश्यकताओं को सूचीबद्ध करती है। इस प्रकार, यह एकमात्र श्रेणी है जो ओडब्ल्यूएएसपी(OWASP) मोबाइल टेस्टिंग गाइड में तकनीकी परीक्षण मामलों के लिए मैप नहीं करता है। थ्रेट मॉडलिंग, सुरक्षित एसडीएलसी( Secure SDLC) या मुख्य प्रबंधन (Key Management) जैसे विषयों को कवर करने के लिए, MASVS के उपयोगकर्ताओं को संबंधित OWASP योजना और / या अन्य मानकों से परामर्श करना चाहिए जैसे नीचे दिए गए लिंक।
 
-## Security Verification Requirements
+## सुरक्षा सत्यापन आवश्यकताएँ
 
-The requirements for MASVS-L1 and MASVS-L2 are listed below.
+MASVS-L1 और MASVS-L2 की आवश्यकताएं नीचे सूचीबद्ध हैं।
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | विवरण | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
-| **1.1** | MSTG-ARCH-1 | All app components are identified and known to be needed. | ✓ | ✓ |
-| **1.2** | MSTG-ARCH-2 | Security controls are never enforced only on the client side, but on the respective remote endpoints. | ✓ | ✓ |
-| **1.3** | MSTG-ARCH-3 | A high-level architecture for the mobile app and all connected remote services has been defined and security has been addressed in that architecture. | ✓ | ✓ |
-| **1.4** | MSTG-ARCH-4 | Data considered sensitive in the context of the mobile app is clearly identified. | ✓ | ✓ |
-| **1.5** | MSTG-ARCH-5 | All app components are defined in terms of the business functions and/or security functions they provide. |  | ✓ |
-| **1.6** | MSTG-ARCH-6 | A threat model for the mobile app and the associated remote services has been produced that identifies potential threats and countermeasures. |  | ✓ |
-| **1.7** | MSTG-ARCH-7 | All security controls have a centralized implementation. |  | ✓ |
-| **1.8** | MSTG-ARCH-8 | There is an explicit policy for how cryptographic keys (if any) are managed, and the lifecycle of cryptographic keys is enforced. Ideally, follow a key management standard such as NIST SP 800-57. |  | ✓ |
-| **1.9** | MSTG-ARCH-9 | A mechanism for enforcing updates of the mobile app exists. |  | ✓ |
-| **1.10** | MSTG-ARCH-10 | Security is addressed within all parts of the software development lifecycle. |  | ✓ |
-| **1.11** | MSTG-ARCH-11 | A responsible disclosure policy is in place and effectively applied. |  | ✓ |
-| **1.12** | MSTG-ARCH-12 | The app should comply with privacy laws and regulations. | ✓ | ✓ |
+| **1.1** | MSTG-ARCH-1 | सभी एप्लिकेशन घटकों की पहचान की जाती है और आवश्यक होने के लिये जाना जाता है। | ✓ | ✓ |
+| **1.2** | MSTG-ARCH-2 | सुरक्षा नियंत्रण केवल ग्राहक पक्ष पर ही नहीं बल्कि संबंधित दूरस्थ समापन बिंदुओं पर भी लागू किए जाते हैं। | ✓ | ✓ |
+| **1.3** | MSTG-ARCH-3 | मोबाइल एप्लिकेशन और सभी कनेक्टेड दूरस्थ सेवाओं के लिए एक उच्च-स्तरीय वास्तुकला (architecture) को परिभाषित किया गया है और उस वास्तुकला में सुरक्षा को संबोधित किया गया है। | ✓ | ✓ |
+| **1.4** | MSTG-ARCH-4 | मोबाइल ऐप के संदर्भ में संवेदनशील माना जाने वाला डेटा स्पष्ट रूप से पहचाना जाता है। | ✓ | ✓ |
+| **1.5** | MSTG-ARCH-5 | सभी ऐप घटकों (components) को उनके द्वारा प्रदान किये जाने वाले व्यावसायिक कार्यों और / या सुरक्षा कार्यों के संदर्भ में परिभाषित किया गया है। |  | ✓ |
+| **1.6** | MSTG-ARCH-6 | मोबाइल ऐप और संबंधित दूरस्थ सेवाओं के लिए एक थ्रेट मॉडल को प्रस्तुत किया गया है, जो संभावित खतरों और प्रतिकारों (countermeasure) की पहचान करता है। |  | ✓ |
+| **1.7** | MSTG-ARCH-7 | सभी सुरक्षा नियंत्रणों का केंद्रीयकृत कार्यान्वयन है।|  | ✓ |
+| **1.8** | MSTG-ARCH-8 | क्रिप्टोग्राफ़िक कुंजियाँ (यदि कोई हो) प्रबंधित की जाती हैं, और क्रिप्टोग्राफ़िक कुंजियों का जीवनचक्र कैसे लागू किया जाता है, इसके लिए एक स्पष्ट नीति है। आदर्श रूप से, NIST SP 800-57 जैसे प्रमुख प्रबंधन मानक का पालन करें। |  | ✓ |
+| **1.9** | MSTG-ARCH-9 | मोबाइल ऐप के अपडेट को लागू करने के लिए एक तंत्र मौजूद है। |  | ✓ |
+| **1.10** | MSTG-ARCH-10 | सॉफ्टवेयर विकास जीवनचक्र के सभी भागों के भीतर सुरक्षा को संबोधित किया जाता है। |  | ✓ |
+| **1.11** | MSTG-ARCH-11 | एक जिम्मेदार प्रकटीकरण नीति लागू होती है और प्रभावी रूप से लागू होती है। |  | ✓ |
+| **1.12** | MSTG-ARCH-12 | एप्लिकेशन को गोपनीयता कानूनों और नियमों का पालन करना चाहिए। | ✓ | ✓ |
 
-## References
+## संदर्भ
 
-For more information, see also:
+अधिक जानकारी के लिए, यह भी देखें:
 
-- OWASP Mobile Top 10: M10 (Extraneous Functionality) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m10-extraneous-functionality>
-- OWASP Threat modelling - <https://owasp.org/www-community/Application_Threat_Modeling>
-- OWASP Secure SDLC Cheat Sheet - <https://owasp.org/www-project-cheat-sheets/>
+- OWASP मोबाइल टॉप 10: M10 (एक्सट्रोनस फंक्शनलिटी) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m10-extraneous-functionality>
+- OWASP थ्रेट मॉडलिंग - <https://www.owasp.org/index.php/Application_Threat_Modeling>
+- OWASP सुरक्षा वास्तुकला चीट शीट - <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
 - Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
 - NIST SP 800-57 - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
 - security.txt - <https://securitytxt.org/>
