@@ -1,42 +1,42 @@
-# V7: Code Quality and Build Setting Requirements
+# V7: कोड गुणवत्ता और बिल्ड सेटिंग आवश्यकताएँ
 
-## Control Objective
+## नियंत्रण उद्देश्य
 
-The goal of this control is to ensure that basic security coding practices are followed in developing the app, and that "free" security features offered by the compiler are activated.
+इस नियंत्रण का लक्ष्य यह सुनिश्चित करना है कि ऐप को विकसित करने में बुनियादी सुरक्षा कोडिंग प्रथाओं का पालन किया जाता है, और यह कि संकलक द्वारा प्रदान की जाने वाली "मुफ्त" सुरक्षा विशेषताएं सक्रिय हैं।
 
-## Security Verification Requirements
+## सुरक्षा सत्यापन आवश्यकताएँ
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | विवरण | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
-| **7.1** | MSTG-CODE-1 | The app is signed and provisioned with a valid certificate, of which the private key is properly protected. | ✓ | ✓ |
-| **7.2** | MSTG-CODE-2 | The app has been built in release mode, with settings appropriate for a release build (e.g. non-debuggable). | ✓ | ✓ |
-| **7.3** | MSTG-CODE-3 | Debugging symbols have been removed from native binaries. | ✓ | ✓ |
-| **7.4** | MSTG-CODE-4 | Debugging code and developer assistance code (e.g. test code, backdoors, hidden settings) have been removed. The app does not log verbose errors or debugging messages. | ✓ | ✓ |
-| **7.5** | MSTG-CODE-5 | All third party components used by the mobile app, such as libraries and frameworks, are identified, and checked for known vulnerabilities. | ✓ | ✓ |
-| **7.6** | MSTG-CODE-6 | The app catches and handles possible exceptions.| ✓ | ✓ |
-| **7.7** | MSTG-CODE-7 | Error handling logic in security controls denies access by default. | ✓ | ✓ |
-| **7.8** | MSTG-CODE-8 | In unmanaged code, memory is allocated, freed and used securely.  | ✓ | ✓ |
-| **7.9** | MSTG-CODE-9 | Free security features offered by the toolchain, such as byte-code minification, stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ |
+| **7.1** | MSTG-CODE-1 | ऐप को एक वैध प्रमाण पत्र के साथ हस्ताक्षरित और प्रावधानित किया गया है, जिनमें से निजी कुंजी(Private Key) ठीक से संरक्षित है। | ✓ | ✓ |
+| **7.2** | MSTG-CODE-2 | एप्लिकेशन को रिलीज़ मोड में बनाया गया है, जिसमें रिलीज़ बिल्ड (जैसे गैर-डीबग करने योग्य) के लिए उपयुक्त सेटिंग्स हैं। | ✓ | ✓ |
+| **7.3** | MSTG-CODE-3 | नेटिव् बाइनरी से डिबगिंग प्रतीकों को हटा दिया गया है। | ✓ | ✓ |
+| **7.4** | MSTG-CODE-4 | डिबगिंग कोड और डेवलपर सहायता कोड (जैसे परीक्षण कोड, बैकडोर, छिपी सेटिंग्स) को हटा दिया गया है। एप्लिकेशन क्रिया त्रुटियों या डिबगिंग संदेशों को लॉग नहीं करता है। | ✓ | ✓ |
+| **7.5** | MSTG-CODE-5 | मोबाइल एप्लिकेशन द्वारा उपयोग किए जाने वाले सभी तृतीय पक्ष घटक(Third party components), जैसे लाइब्रेरी और फ्रेमवर्क की पहचान की जाती है, और ज्ञात कमजोरियों(Vulnerabilities) के लिए जाँच की जाती है। | ✓ | ✓ |
+| **7.6** | MSTG-CODE-6 | एप्लिकेशन पकड़ता है और संभावित अपवादों को संभालता है।| ✓ | ✓ |
+| **7.7** | MSTG-CODE-7 | सुरक्षा नियंत्रण में एरर से निपटने में एरर डिफ़ॉल्ट रूप से पहुंच से इनकार करती है। | ✓ | ✓ |
+| **7.8** | MSTG-CODE-8 | अप्रबंधित कोड(unmanaged code) में, मेमोरी को आवंटित(allocated), मुक्त(freed) और सुरक्षित रूप से उपयोग किया जाता है।  | ✓ | ✓ |
+| **7.9** | MSTG-CODE-9 | टूलचैन द्वारा दी जाने वाली मुफ्त सुरक्षा सुविधाएँ, जैसे कि बाइट-कोड मिनिफिकेशन, स्टैक प्रोटेक्शन, पीआईई सपोर्ट और ऑटोमैटिक रेफरेंस काउंटिंग सक्रिय हैं। | ✓ | ✓ |
 
-## References
+## संदर्भ
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed above.
+OWASP मोबाइल सुरक्षा परीक्षण गाइड ऊपर सूचीबद्ध आवश्यकताओं की पुष्टि करने के लिए विस्तृत निर्देश प्रदान करता है।
 
-- Android: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
-- iOS: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
+- एंड्रॉइड: टेस्टिंग कोड क्वालिटी और बिल्ड सेटिंग्स - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- iOS: टेस्टिंग कोड क्वालिटी और बिल्ड सेटिंग्स - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
 
-For more information, see also:
+अधिक जानकारी के लिए, यह भी देखें:
 
-- OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality>
-- CWE 20 (Improper Input Validation) - <https://cwe.mitre.org/data/definitions/20.html>
-- CWE 89 (Improper Neutralization of Special Elements used in an SQL Command) - <https://cwe.mitre.org/data/definitions/89.html>
-- CWE 95 (Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')) - <https://cwe.mitre.org/data/definitions/95.html>
-- CWE 119 (Improper Restriction of Operations within the Bounds of a Memory Buffer) - <https://cwe.mitre.org/data/definitions/119.html>
-- CWE 215 (Information Exposure through Debug Information) - <https://cwe.mitre.org/data/definitions/215.html>
-- CWE 388 (7PK - Errors) - <https://cwe.mitre.org/data/definitions/388.html>
-- CWE 489 (Leftover Debug Code) - <https://cwe.mitre.org/data/definitions/489.html>
-- CWE 502 (Deserialization of Untrusted Data) - <https://cwe.mitre.org/data/definitions/502.html>
-- CWE 511 (Logic/Time Bomb) - <https://cwe.mitre.org/data/definitions/511.html>
-- CWE 656 (Reliance on Security through Obscurity) - <https://cwe.mitre.org/data/definitions/656.html>
-- CWE 676 (Use of Potentially Dangerous Function)  - <https://cwe.mitre.org/data/definitions/676.html>
-- CWE 937 (OWASP Top Ten 2013 Category A9 - Using Components with Known Vulnerabilities) - <https://cwe.mitre.org/data/definitions/937.html>
+- OWASP मोबाइल टॉप 10: M7 (खराब कोड क्वालिटी) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality>
+- CWE 20 (अनुचित इनपुट सत्यापन) - <https://cwe.mitre.org/data/definitions/20.html>
+- CWE 89 (SQL कमांड में उपयोग किए गए विशेष तत्वों का अनुचित उपयोग) - <https://cwe.mitre.org/data/definitions/89.html>
+- CWE 95 (डायनामिक रूप से मूल्यांकन किए गए कोड में निर्देशों का अनुचित सुधार) ('एवल इंजेक्शन') - <https://cwe.mitre.org/data/definitions/95.html>
+- CWE 119 (मेमोरी बफ़र की सीमा के भीतर संचालन में सुधार) - <https://cwe.mitre.org/data/definitions/119.html>
+- CWE 215 (डिबग सूचना के माध्यम से सूचना एक्सपोजर) - <https://cwe.mitre.org/data/definitions/215.html>
+- CWE 388 (7PK - एरर) - <https://cwe.mitre.org/data/definitions/388.html>
+- CWE 489 (लेफ्टओवर डिबग कोड) - <https://cwe.mitre.org/data/definitions/489.html>
+- CWE 502 (अविश्वसनीय डेटा का वर्णन) - <https://cwe.mitre.org/data/definitions/502.html>
+- CWE 511 (तर्क / समय बम) - <https://cwe.mitre.org/data/definitions/511.html>
+- CWE 656 (अंधकार(Obscurity) के माध्यम से सुरक्षा पर रिलायंस) - <https://cwe.mitre.org/data/definitions/656.html>
+- CWE 676 (संभावित रूप से खतरनाक कार्य का उपयोग)  - <https://cwe.mitre.org/data/definitions/676.html>
+- CWE 937 (OWASP शीर्ष दस 2013 श्रेणी ए 9 - ज्ञात कमजोरियों(Known Vulnerabilities) के साथ घटकों का उपयोग करना) - <https://cwe.mitre.org/data/definitions/937.html>
