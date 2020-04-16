@@ -1,6 +1,5 @@
 <div dir="rtl" markdown="1">
 
-
 # درباره استاندارد
 
 <img src="images/OWASP_logo.png" title="OWASP LOGO" />
@@ -15,7 +14,6 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 
 ## حق تکثیر و مجوز
 
-
 [<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
 
 حق تکثیر محفوظ است © 2020 بنیاد OWASP. این اثر تحت یک مجوز [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) منتشر می‌شود. جهت هرگونه استفاده مجدد یا توزیع، شما باید شرایط مجوز این اثر را برای دیگران روشن سازید.
@@ -26,7 +24,6 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 
 </div>
 
-
 ## تشکر و قدردانی
 
 | رهبر پروژه | نویسنده اصلی | مشارکت کنندگان و ویراستاران
@@ -34,7 +31,6 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 | Sven Schleier, Jeroen Willemsen and Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Eugen Martynov, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abderrahmane Aftahi, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
 
 <br/>
-
 
 | زبان | مترجمان و ویراستاران |
 | --- | ------------------------------ |
@@ -50,21 +46,16 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 
  این سند به عنوان یک fork از استاندارد وارسی برنامه کاربردی موبایل نوشته شده توسط Jim Manico آغاز شده است.
 
-
 ## حامیان
 
 بااینکه هر دو استاندارد MASVS و MSTG به‌طور داوطلبانه توسط جامعه تولید و نگهداری می‌شوند، اما گاهی اوقات به اندکی کمک خارجی نیاز است. بنابراین، از حامیان مالی‌مان بخاطر فراهم آوردن بودجه برای استخدام ویراستارهای فنی تشکر می‌کنیم. توجه داشته باشید که حمایت مالی آنان محتوای استاندارد MASVS یا MSTG را تحت تأثیر قرار نمی‌دهد. بسته‌های حمایت مالی در [OWASP Project Wiki](<https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship> "OWASP Mobile Security Testing Guide Sponsorship Packages") شرح داده‌شده‌اند.
-
 
 ### نیکوکاران محترم
 
 [<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
 
-
 [<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
-
 در ادامه مایلیم از OWASP Bay Area Chapter به خاطر حمایتشان قدردانی نماییم. در پایان مایلیم از تمام کسانی که کتاب را از Leanpub خریداری کرده و ما را حمایت کردند تشکر و قدردانی نماییم.
-
 
 </div>
