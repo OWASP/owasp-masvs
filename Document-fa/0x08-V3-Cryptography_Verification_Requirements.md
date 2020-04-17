@@ -1,32 +1,36 @@
-# V3: Cryptography Requirements
+<div dir="rtl" markdown="1">
 
-## Control Objective
+# V3: نیازمندی های رمزنگاری
 
-Cryptography is an essential ingredient when it comes to protecting data stored on a mobile device. It is also a category where things can go horribly wrong, especially when standard conventions are not followed. The purpose of the controls in this chapter is to ensure that the verified application uses cryptography according to industry best practices, including:
+## هدف کنترل
 
-- Use of proven cryptographic libraries;
-- Proper choice and configuration of cryptographic primitives;
-- A suitable random number generator wherever randomness is required.
+رمزنگاری یک جزء ضروری در حفاظت از داده ذخیره شده در گوشی موبایل می باشد. همینطور بخش ایست که احتمال رخ دادن اشتباهات بزرگ در آن بسیار است، به خصوص هنگامی که از قرداد‌های استاندارد تبعیت نشود. هدف کنترل‌ها در این بخش این است که اطمینان حاصل کنند برنامه تایید شده، از رمزنگاری طبق بهترین روش‌های صنعتی استفاده می کند، که شامل موارد زیر می شود:
 
-## Security Verification Requirements
+- استفاده از کتابخانه‌های رمزنگاری ثابت شده؛
 
-| # | MSTG-ID | Description | L1 | L2 |
+- انتخاب و پیکربندی مناسب primitive های رمزنگاری؛
+
+- تولید یک عدد تصادفی مناسب هر گاه که تصادفی بودن مورد نیاز است؛
+
+## نیازمندی‌های وارسی امنیت
+
+| # | MSTG-ID | شرح | سطح یک | سطح دو |
 | -- | -------- | ---------------------- | - | - |
-| **3.1** | MSTG-CRYPTO-1 | The app does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption.| ✓ | ✓ |
-| **3.2** | MSTG-CRYPTO-2 | The app uses proven implementations of cryptographic primitives. | ✓ | ✓ |
-| **3.3** | MSTG-CRYPTO-3 | The app uses cryptographic primitives that are appropriate for the particular use-case, configured with parameters that adhere to industry best practices. | ✓ | ✓ |
-| **3.4** | MSTG-CRYPTO-4 | The app does not use cryptographic protocols or algorithms that are widely considered deprecated for security purposes. | ✓ | ✓ |
-| **3.5** | MSTG-CRYPTO-5 | The app doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ |
-| **3.6** | MSTG-CRYPTO-6 | All random values are generated using a sufficiently secure random number generator. | ✓ | ✓ |
+| **3.1** | MSTG-CRYPTO-1 | برنامه بر رمزنگاری متقارن با کلید های hardcoded، به عنوان تنها روش رمزگذاری، تکیه نمی کند.| ✓ | ✓ |
+| **3.2** | MSTG-CRYPTO-2 | برنامه از پیاده سازی‌های به اثبات رسیده primitive های رمزنگاری استفاده می‌کند. | ✓ | ✓ |
+| **3.3** | MSTG-CRYPTO-3 | برنامه از primitive های رمزنگاری استفاده می کند که برای مورد استفاده خاص مناسب هستند و با پارامترهایی که به بهترین روش های صنعتی پایبند هستند، پیکربندی شده اند.  | ✓ | ✓ |
+| **3.4** | MSTG-CRYPTO-4 | برنامه از پروتکل‌ها یا الگوریتم‌های رمزنگاری که به دلایل امنیتی به طور گسترده منسوخ شناخته شده‌اند، استفاده نمی کند. | ✓ | ✓ |
+| **3.5** | MSTG-CRYPTO-5 | برنامه از کلید رمزنگاری یکسان برای چندین عمل، استفاده مجدد نمی کند. | ✓ | ✓ |
+| **3.6** | MSTG-CRYPTO-6 | تمام مقدارهای تصادفی با استفاده از یک تولید کننده عدد تصادفی به طور کافی امن تولید شده‌اند. | ✓ | ✓ |
 
-## References
+## منابع
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+راهنمای وارسی امنیتی موبایل OWASP، دستورالعمل‌هایی مفصل برای تایید نیازمندی‌های لیست شده در این بخش، فراهم می کند.
 
 - Android: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
 - iOS: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
 
-For more information, see also:
+برای اطلاعات بیشتر همچنین مشاهده کنید:
 
 - OWASP Mobile Top 10: M5 (Insufficient Cryptography) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m5-insufficient-cryptography>
 - CWE 310 (Cryptographic Issues) - <https://cwe.mitre.org/data/definitions/310.html>
@@ -37,3 +41,5 @@ For more information, see also:
 - CWE 330 (Use of Insufficiently Random Values) - <https://cwe.mitre.org/data/definitions/330.html>
 - CWE 337 (Predictable Seed in PRNG) - <https://cwe.mitre.org/data/definitions/337.html>
 - CWE 338 (Use of Cryptographically Weak Pseudo Random Number Generator (PRNG)) - <https://cwe.mitre.org/data/definitions/338.html>
+
+</div>
