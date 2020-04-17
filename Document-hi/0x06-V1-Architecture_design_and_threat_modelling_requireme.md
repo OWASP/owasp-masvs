@@ -30,8 +30,7 @@ MASVS-L1 और MASVS-L2 की आवश्यकताएं नीचे स�
 अधिक जानकारी के लिए, यह भी देखें:
 
 - OWASP मोबाइल टॉप 10: M10 (एक्सट्रोनस फंक्शनलिटी) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m10-extraneous-functionality>
-- OWASP थ्रेट मॉडलिंग - <https://www.owasp.org/index.php/Application_Threat_Modeling>
-- OWASP सुरक्षा वास्तुकला चीट शीट - <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
+- OWASP थ्रेट मॉडलिंग - <https://owasp.org/www-community/Application_Threat_Modeling>
 - Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
 - NIST SP 800-57 - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
 - security.txt - <https://securitytxt.org/>
