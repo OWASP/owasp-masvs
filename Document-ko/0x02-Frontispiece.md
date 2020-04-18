@@ -16,9 +16,7 @@ MASVS는 커뮤니티 활동과 업계 피드백의 성과입니다. 우리는 �
 
 Copyright © 2020 The OWASP Foundation. 본 저작물은 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)를 따릅니다. 재사용 또는 배포를 위해 본 저작물의 라이센스 조건을 다른 사람에게 명확하게 제시해야합니다.
 
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
+<!-- \pagebreak -->
 
 ## 감사의 말
 
