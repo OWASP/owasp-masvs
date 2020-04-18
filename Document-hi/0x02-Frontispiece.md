@@ -1,5 +1,6 @@
 # About the Standard
-#मापदंड के बारे में
+
+# मापदंड के बारे में
 
 <img src="images/OWASP_logo.png" title="OWASP LOGO" />
 
@@ -20,6 +21,7 @@ Accounts can be created at the following URL: [https://owasp-slack.herokuapp.com
 निम्नलिखित URL पर खाते बनाए जा सकते हैं: [https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/).
 
 ## Copyright and License
+
 ## कॉपीराइट और लाइसेंस
 [<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
 
@@ -32,6 +34,7 @@ Copyright © 2020 The OWASP Foundation.This work is licensed under a [Creative C
 </div>
 
 ## Acknowledgements
+
 ## आभार
 
 | Project Lead | Lead Author | Contributors and Reviewers
@@ -80,11 +83,13 @@ While both the MASVS and the MSTG are created and maintained by the community on
 हालांकि MASVS और MSTG दोनों को स्वैच्छिक आधार पर समुदाय द्वारा बनाया और बनाए रखा जाता है, कभी-कभी थोड़ी बहुत बाहरी मदद की आवश्यकता होती है। इसलिए हम तकनीकी प्रायोजकों को नियुक्त करने में सक्षम होने के लिए धन प्रदान करने के लिए अपने प्रायोजकों को धन्यवाद देते हैं। ध्यान दें कि उनके प्रायोजन किसी भी तरह से MASVS या MSTG की सामग्री को प्रभावित नहीं करते हैं। प्रायोजन पैकेज पर वर्णित हैं [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP मोबाइल सुरक्षा परीक्षण गाइड प्रायोजन पैकेज")।
 
 ### Honourable Benefactor
+
 ### माननीय उपकारी
 
 [<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
 
 ### Good Samaritan Benefactor
+
 ### अच्छा धार्मिक उपकारी
 [<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
