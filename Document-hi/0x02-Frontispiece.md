@@ -80,6 +80,7 @@ This document started as a fork of the OWASP Application Security Verification S
 ## प्रायोजक
 
 While both the MASVS and the MSTG are created and maintained by the community on a voluntary basis, sometimes a little bit of outside help is required. We therefore thank our sponsors for providing the funds to be able to hire technical editors. Note that their sponsorship does not influence the content of the MASVS or MSTG in any way. The sponsorship packages are described on the [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Sponsorship Packages").
+=======
 
 हालांकि MASVS और MSTG दोनों को स्वैच्छिक आधार पर समुदाय द्वारा बनाया और बनाए रखा जाता है, कभी-कभी थोड़ी बहुत बाहरी मदद की आवश्यकता होती है। इसलिए हम तकनीकी प्रायोजकों को नियुक्त करने में सक्षम होने के लिए धन प्रदान करने के लिए अपने प्रायोजकों को धन्यवाद देते हैं। ध्यान दें कि उनके प्रायोजन किसी भी तरह से MASVS या MSTG की सामग्री को प्रभावित नहीं करते हैं। प्रायोजन पैकेज पर वर्णित हैं [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP मोबाइल सुरक्षा परीक्षण गाइड प्रायोजन पैकेज")।
 
