@@ -53,6 +53,7 @@ Copyright © 2020 The OWASP Foundation.This work is licensed under a [Creative C
 | Korean | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | Russian | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | Spanish | Martin Marsicano, Carlos Holguera |
+| Hindi   | Mukesh Sharma, Kunwar Atul Singh, Ritesh Kumar, Vikrant Shah, Devendra Kumar Sinha, Parag Dave|
 
 This document started as a fork of the OWASP Application Security Verification Standard written by Jim Manico.
 
@@ -66,6 +67,7 @@ This document started as a fork of the OWASP Application Security Verification S
 | कोरिअन| यौन्ग्जये जेओं, जेओंग्वों चो, जियौ हान, जियेऑन सुन्ग|
 | रूसी | गल्ल मक्सिम, एउगेन मर्त्य्नोव, चलनोकोव व्लादिस्लाव (समीक्षा), ओप्री ईगोर (समीक्षा), टेरेशिन दिमित्री (समीक्षा)|
 |स्पेनिश | मार्टिन मार्सिकनो, कार्लोस होलगुएरा|
+|हिंदी | मुकेश शर्मा, कुंवर अतुल सिंह, रितेश कुमार, विक्रांत शाह, देवेंद्र कुमार सिन्हा, पराग दवे|
 <br/>
 यह दस्तावेज़ जिम मैनिको द्वारा लिखित OWASP एप्लीकेशन सिक्योरिटी वेरिफिकेशन स्टैंडर्ड के एक विशाख के रूप में शुरू हुआ।
 
@@ -87,6 +89,5 @@ While both the MASVS and the MSTG are created and maintained by the community on
 [<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
 Next, we would like to thank the OWASP Bay Area Chapter for their sponsorship. Last, we would like to thank everybody that bought the book from Leanpub and sponsored us that way.
-
 
 इसके बाद, हम उनके प्रायोजन के लिए OWASP बे एरिया चैप्टर को धन्यवाद देना चाहते हैं। अंत में, हम हर उस शख्स का शुक्रिया अदा करना चाहेंगे जिसने लीनपब से किताब खरीदी और हमें उस तरह से प्रायोजित किया।
