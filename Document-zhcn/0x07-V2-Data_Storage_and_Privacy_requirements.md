@@ -14,9 +14,7 @@ MASVS规范中涉及的敏感信息指的是用户登录信息和在实际应用
 - 一旦泄露，将会引起企业财产和声誉损失的高度敏感的数据，如合同信息，保密协议涵盖的信息，管理层人员信息；
 - 任何被法律或出于合规原因必须受到保护的数据。
 
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
+<!-- \pagebreak -->
 
 ## 安全验证要求
 
