@@ -1,6 +1,6 @@
 # About the Standard
 
-## मापदंड के बारे में
+## मानक के बारे में
 
 <img src="images/OWASP_logo.png" title="OWASP LOGO" />
 
