@@ -56,9 +56,7 @@ Les différents combinaisons reflètent différents niveaux de sécurité et de 
 
 L'implémentation des exigences MASVS L2 améliore la sécurité, mais peut en même temps augmenter les coûts de développement et dégrader potentiellement l'expérience utilisateur (un compromis classique). En général, L2 devrait être utilisé pour toute application où l'analyse risques vs coûts démontre le besoin d'atteindre ce niveau (i.e. lorsque les pertes potentielles causées par la compromission de la confidentialité ou de l'intégrité sont supérieures au coût induit par l'implémentation des contrôles de sécurité supplémentaires). L'évaluation des risques devrait être la première étape avant l'implémentation du MASVS.
 
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
+<!-- \pagebreak -->
 
 ##### Exemples
 
