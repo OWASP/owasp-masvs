@@ -46,3 +46,4 @@ cp /tmp/unoconv/OWASP_MASVS-SNAPSHOT-fa_WIP_.pdf .
 
 echo "Cleanup"
 rm -rf /tmp/unoconv
+docker container rm unoconv
