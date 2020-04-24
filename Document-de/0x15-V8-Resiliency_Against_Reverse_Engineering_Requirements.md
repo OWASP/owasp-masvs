@@ -18,9 +18,7 @@ Folgende Eckpunkte gelten:
 
 3. Die Effektivität der Schutzmaßnahmen sollte immer von einem Experten mit ausgewiesener Erfahrung im Bereich Anti-Code-Manipulation und Code-Obfuskierung überprüft werden (siehe auch Kapitel "reverse engineering" and "assessing software protections" im Mobile Security Testing Guide).
 
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
+<!-- \pagebreak -->
 
 ### Dynamische Analyse und Manipulation verhindern
 

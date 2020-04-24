@@ -62,9 +62,7 @@ Die Anforderungen aus MASVS L2 zu implementieren erhöht die Sicherheit - dies k
 
 - Geeignet für alle mobilen Apps. MASVS-L1 benennt Security Best Practices mit akzeptablen Auswirkungen auf Entwicklungskosten und Nutzererlebnis. Sollte für jede App genutzt werden die keinen höheren Level erfordert.
 
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
+<!-- \pagebreak -->
 
 ###### MASVS-L2
 

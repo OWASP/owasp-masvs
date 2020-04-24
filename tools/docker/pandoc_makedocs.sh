@@ -37,6 +37,8 @@ elif [ $LANGUAGE == "zhcn" ]; then
 elif [ $LANGUAGE == "zhtw" ]; then
   sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/TC/g" ./tools/docker/latex-header.tex > tmp_1_latex-header-$LANGUAGE.tex
   sed 's/^%%//' tmp_1_latex-header-$LANGUAGE.tex > tmp_latex-header-$LANGUAGE.tex
+elif [ $LANGUAGE == "fa" ]; then
+  sed 's/^%%%%//g' ./tools/docker/latex-header.tex > tmp_latex-header-$LANGUAGE.tex
 else
   cp ./tools/docker/latex-header.tex tmp_latex-header-$LANGUAGE.tex
 fi
@@ -46,7 +48,7 @@ echo "processing image tags in $FOLDER/0x*.md"
 for FILE in $FOLDER/0x*.md
 do
   [ -f temp-$LANGUAGE ] && rm temp-$LANGUAGE
-  sed -f tools/docker/imagereplace.sed $FILE > temp-$LANGUAGE
+  sed -f tools/docker/imagereplace.sed -f tools/docker/pagebreakreplace.sed $FILE > temp-$LANGUAGE
   cat temp-$LANGUAGE > $FILE
   [ -f temp-$LANGUAGE ] && rm temp-$LANGUAGE
 done
@@ -54,7 +56,18 @@ done
 # --toc to create a Table of Contents with the title from the loaded env. vars.
 # -H to apply our customizations in the .tex header file
 # --include-before-body -> to include the auto-generated cover and first page as the very beginning
-pandoc --resource-path=.:${FOLDER} \
+if [ $LANGUAGE == "fa" ]; then
+  pandoc --resource-path=.:${FOLDER} \
+    --template=/.pandoc/templates/eisvogel.latex \
+    --pdf-engine=wkhtmltopdf \
+    --columns 60 \
+    --toc -V toc-title:"${TOC_TITLE}" --toc-depth=1 \
+    --metadata title="OWASP Mobile Application Security Verification Standard $VERSION" \
+    -H tmp_latex-header-$LANGUAGE.tex -V linkcolor:blue \
+    --include-before-body tmp_cover-$LANGUAGE.tex --include-before-body tmp_first_page-$LANGUAGE.tex \
+    -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.pdf $CHAPTERS
+else
+  pandoc --resource-path=.:${FOLDER} \
     --pdf-engine=xelatex --template=eisvogel \
     --columns 60 \
     --toc -V toc-title:"${TOC_TITLE}" --toc-depth=1 \
@@ -62,6 +75,8 @@ pandoc --resource-path=.:${FOLDER} \
     -H tmp_latex-header-$LANGUAGE.tex -V linkcolor:blue \
     --include-before-body tmp_cover-$LANGUAGE.tex --include-before-body tmp_first_page-$LANGUAGE.tex \
     -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.pdf $CHAPTERS
+fi
+
 
 pandoc --resource-path=.:${FOLDER} \
     -f markdown \
