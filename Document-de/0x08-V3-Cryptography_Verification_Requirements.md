@@ -19,9 +19,7 @@ Kryptographie ist eine wesentlicher Eckpfeiler zum Schutz von Daten, die auf mob
 | **3.5** | MSTG-CRYPTO-5 | Die App verwendet einen kryptographischen Schlüssel für genau einen Zweck und nicht für mehrere Zwecke. | ✓ | ✓ |
 | **3.6** | MSTG-CRYPTO-6 | Alle Zufallswerte werden über einen ausreichend sicheren kryptographischen Zufallszahlengenerator erzeugt. | ✓ | ✓ |
 
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
+<!-- \pagebreak -->
 
 ## Referenzen
 
