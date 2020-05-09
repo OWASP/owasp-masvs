@@ -1,73 +1,73 @@
-# Changelog
+# चेंजलॉग
 
-## V1.2 - 7 March 2020 - International Release
+## V1.2 - 7 मार्च 2020 - अंतर्राष्ट्रीय रिलीज़
 
-## V1.2-RC - 5 October 2019 - Pre-release (English only)
+## V1.2-RC - 5 अक्टूबर 2019 - पूर्व-रिलीज़ (केवल अंग्रेजी)
 
-The following changes are part of release 1.2:
+निम्नलिखित परिवर्तन 1.2 रिलीज का हिस्सा हैं:
 
-- Promoted to flagship status.
-- Requirement changed: MSTG-STORAGE-1 "need to be used".
-- Requirements MSTG-STORAGE-13, MSTG-STORAGE-14, and MSTG-STORAGE-15 are added with a focus on data protection.
-- Requirement MSTG-AUTH-11 is updated to preserve contextual information.
-- Requirement MSTG-CODE-4 is updated to cover more than just debugging.
-- Requirement MSTG-PLATFORM-10 added to further secure usage of WebViews.
-- Requirement MSTG-AUTH-12 added to remind developers of having authorizations implemented, especially in case of multi-user apps.
-- Added a little more description on how the MASVS should be used given a risk assessment.
-- Added a little more description on paid content.
-- Requirement MSTG-ARCH-11 added to include a Responsible Disclosure policy for L2 applications.
-- Requirement MSTG-ARCH-12 added to show application developers that relevant international privacy laws should be followed.
-- Created a consistent style for all references in the English version.
-- Requirement MSTG-PLATFORM-11 added to counter spying via third party keyboards.
-- Requirement MSTG-MSTG-RESILIENCE-13 added to impede eavesdropping at an application.
+- प्रमुख स्थिति के लिए प्रचारित।
+- आवश्यकता परिवर्तित: MSTG-STORAGE-1 "का उपयोग करने की आवश्यकता है"।
+- आवश्यकताएँ MSTG-STORAGE-13, MSTG-STORAGE-14, और MSTG-STORAGE-15 डेटा सुरक्षा पर ध्यान देने के साथ जोड़े जाते हैं।
+- आवश्यकता MSTG-AUTH-11 को प्रासंगिक जानकारी को संरक्षित करने के लिए अद्यतन किया जाता है।
+- आवश्यकता MSTG-CODE-4 को केवल डीबगिंग से अधिक कवर करने के लिए अद्यतन किया गया है।
+- WebViews के आगे के सुरक्षित उपयोग के लिए MSTG-PLATFORM-10 की आवश्यकता को जोड़ा गया।
+- आवश्यकता MSTG-AUTH-12 डेवलपर्स को कार्यान्वित करने वाले प्राधिकरणों को याद दिलाने के लिए जोड़ा गया, खासकर बहु-उपयोगकर्ता ऐप्स के मामले में।
+- MASVS का उपयोग कैसे किया जाना चाहिए, इस पर थोड़ा और विवरण जोड़ा गया है।
+- भुगतान की गई सामग्री पर थोड़ा और विवरण जोड़ा गया।
+- आवश्यकता MSTG-ARCH-11 में L2 अनुप्रयोगों के लिए एक जिम्मेदार प्रकटीकरण नीति को शामिल किया गया।
+- आवश्यकता MSTG-ARCH-12 ने एप्लिकेशन डेवलपर्स को यह दिखाने के लिए जोड़ा कि संबंधित अंतर्राष्ट्रीय गोपनीयता कानूनों का पालन किया जाना चाहिए।
+- अंग्रेजी संस्करण में सभी संदर्भों के लिए एक सुसंगत शैली बनाई गई।
+- आवश्यकता MSTG-PLATFORM-11 को तीसरे पक्ष के कीबोर्ड के माध्यम से जासूसी करने के लिए जोड़ा गया।
+- आवश्यकता MSTG-MSTG-RESILIENCE-13 एक आवेदन पर ईव्सड्रोपिंग लगाने के लिए जोड़ा गया।
 
-## V1.1.4 - 4 July 2019 - Summit edition
+## V1.1.4 - 4 जुलाई 2019 - समिट संस्करण(Sumit edition)
 
-The following changes are part of release 1.1.4:
+निम्नलिखित परिवर्तन रिलीज़ का हिस्सा हैं 1.1.4:
 
-- Fix all markdown issues.
-- Updates in the French and Spanish translations.
-- Translated the changelog to Chinese (ZHTW) and Japanese.
-- Automated verification of the the markdown syntax and reachability of the URLs.
-- Added identification codes to the requirements, which will be included in the future version of the MSTG in order to find the recommendations and testcases easily.
-- Reduced the repo size and added Generated to the .gitignore.
-- Added a Code of Conduct & Contributing guidelines.
-- Added a Pull-Request template.
-- Updated the sync with the repo in use for hosting the Gitbook website.
-- Updated the scripts to generate XML/JSON/CSV for all the translations.
-- Translated the Foreword to Chinese (ZHTW).
+- सभी मार्कडाउन मुद्दों को ठीक करें।
+- फ्रेंच और स्पेनिश अनुवाद में अपडेट।
+- चैंज को चीनी (ZHTW) और जापानी में अनुवादित किया।
+- URL के मार्कडाउन सिंटैक्स और रीचबिलिटी का स्वचालित सत्यापन।
+- आवश्यकताओं में जोड़े गए पहचान कोड, जो आसानी से सिफारिशों और टेस्टकेस को खोजने के लिए एमएसटीजी के भविष्य के संस्करण में शामिल किए जाएंगे।
+- रेपो आकार को कम किया गया और .ignignore में जनरेट किया गया।
+- आचार संहिता और योगदान दिशानिर्देशों को जोड़ा गया।
+- एक पुल-अनुरोध टेम्पलेट जोड़ा गया।
+- Gitbook वेबसाइट होस्ट करने के लिए उपयोग में रेपो के साथ सिंक अपडेट किया गया।
+- सभी अनुवादों के लिए XML / JSON / CSV उत्पन्न करने के लिए स्क्रिप्ट अपडेट किया गया।
+- फॉरवर्ड को चीनी (ZHTW) में अनुवादित किया।
 
-## V1.1.3 - 9 January 2019 - Small fixes
+## V1.1.3 - 9 जनवरी 2019 - छोटे सुधार(small fixes)
 
-- Fix translation issue of requirement 7.1 in the Spanish version
-- New setup of translators in acknowledgements
+- स्पेनिश संस्करण में आवश्यकता 7.1 का अनुवाद मुद्दा ठीक करें
+- स्वीकृतियां में अनुवादकों का नया सेटअप
 
-## V1.1.2 - 3 January 2019 - Sponsorship and internationalization
+## V1.1.2 - 3 जनवरी 2019 - प्रायोजन और अंतर्राष्ट्रीयकरण
 
-The following changes are part of release 1.1.2:
+निम्नलिखित परिवर्तन 1.1.2 रिलीज का हिस्सा हैं:
 
-- Added thank you note for buyers of the e-book.
-- Added missing authentication link & updated broken authentication link in V4.
-- Fixed swap of 4.7 and 4.8 in English.
-- First international release!
-  - Fixes in Spanish translation. Translation is now in sync with English (1.1.2).
-  - Fixes in Russian translation. Translation is now in sync with English (1.1.2).
-  - Added first release of Chinese (ZHTW) French, German, and Japanese!
-- Simplified document for ease of translation.
-- Added instructions for automated releases.
+- ई-बुक के खरीदारों के लिए जोड़ा गया धन्यवाद नोट।
+- V4 में अनुपलब्ध प्रमाणीकरण लिंक और अपडेटेड टूटा हुआ प्रमाणीकरण लिंक जोड़ा गया।
+- अंग्रेजी में 4.7 और 4.8 की निश्चित स्वैप।
+- पहला अंतरराष्ट्रीय रिलीज!
+   - स्पेनिश अनुवाद में सुधार। अनुवाद अब अंग्रेजी (1.1.2) के साथ सिंक किया गया है।
+   - रूसी अनुवाद में सुधार। अनुवाद अब अंग्रेजी (1.1.2) के साथ सिंक किया गया है।
+   - चीनी (ZHTW) फ्रेंच, जर्मन और जापानी की पहली रिलीज!
+- अनुवाद में आसानी के लिए सरलीकृत दस्तावेज।
+- स्वचालित रिलीज के लिए जोड़ा गया निर्देश।
 
-## V1.1.0 - 14 July 2018
+## V1.1.0 - 14 जुलाई 2018
 
-The following changes are part of release 1.1:
+निम्नलिखित परिवर्तन रिलीज़ 1.1 का हिस्सा हैं:
 
-- Requirement 2.6 "The clipboard is deactivated on text fields that may contain sensitive data." was removed.
-- Requirement 2.2 "No sensitive data should be stored outside of the app container or system credential storage facilities." was added.
-- Requirement 2.1 was reworded to "System credential storage facilities are used appropriately to store sensitive data, such as PII, user credentials or cryptographic keys.".
+- आवश्यकता 2.6 "क्लिपबोर्ड पाठ फ़ील्ड पर समर्पित है जिसमें संवेदनशील डेटा हो सकता है।" हटा लिया गया था।
+- 2.2 आवश्यकता "कोई संवेदनशील डेटा ऐप कंटेनर या सिस्टम क्रेडेंशियल स्टोरेज सुविधाओं के बाहर संग्रहीत नहीं किया जाना चाहिए।" जोड़ा गया।
+- 2.1 की आवश्यकता थी "सिस्टम क्रेडेंशियल स्टोरेज सुविधाओं का उपयोग PII, उपयोगकर्ता क्रेडेंशियल्स या क्रिप्टोग्राफ़िक कुंजियों जैसे संवेदनशील डेटा को संग्रहीत करने के लिए उचित रूप से किया जाता है।"
 
-## V1.0 12 - January 2018
+## V1.0 12 - जनवरी 2018
 
-The following changes are part of release 1.0:
+निम्नलिखित परिवर्तन रिलीज़ 1.0 का हिस्सा हैं:
 
-- Delete 8.9 as the same as 8.12
-- Made 4.6 more generic
-- Minor fixes (typos etc.)
+- 8.9 को 8.12 के समान हटाएं
+- 4.6 अधिक सामान्य बनाया
+- मामूली सुधार (टाइपो आदि)
