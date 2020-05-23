@@ -1,41 +1,41 @@
-# V4: Authentication and Session Management Requirements
+# V4: प्रमाणीकरण और सत्र प्रबंधन आवश्यकताएँ
 
-## Control Objective
+## उद्देश्य नियंत्रण
 
-In most cases, users logging into a remote service is an integral part of the overall mobile app architecture. Even though most of the logic happens at the endpoint, MASVS defines some basic requirements regarding how user accounts and sessions are to be managed.
+ज्यादातर मामलों में, दूरस्थ सेवा में प्रवेश करने वाले उपयोगकर्ता समग्र मोबाइल एप्लिकेशन आर्किटेक्चर का एक अभिन्न अंग हैं। हालांकि अधिकांश तर्क समापन बिंदु पर होते हैं,MASVS उपयोगकर्ता खातों और सत्रों को प्रबंधित करने के तरीके के बारे में कुछ बुनियादी आवश्यकताओं को परिभाषित करता है।
 
-## Security Verification Requirements
+## सुरक्षा सत्यापन आवश्यकताएँ
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | विवरण | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
-| **4.1** | MSTG-AUTH-1 | If the app provides users access to a remote service, some form of authentication, such as username/password authentication, is performed at the remote endpoint. | ✓ | ✓ |
-| **4.2** | MSTG-AUTH-2 | If stateful session management is used, the remote endpoint uses randomly generated session identifiers to authenticate client requests without sending the user's credentials. | ✓ | ✓ |
-| **4.3** | MSTG-AUTH-3 | If stateless token-based authentication is used, the server provides a token that has been signed using a secure algorithm. | ✓ | ✓ |
-| **4.4** | MSTG-AUTH-4 | The remote endpoint terminates the existing session when the user logs out. | ✓ | ✓ |
-| **4.5** | MSTG-AUTH-5 | A password policy exists and is enforced at the remote endpoint. | ✓ | ✓ |
-| **4.6** | MSTG-AUTH-6 | The remote endpoint implements a mechanism to protect against the submission of credentials an excessive number of times. | ✓ | ✓ |
-| **4.7** | MSTG-AUTH-7 | Sessions are invalidated at the remote endpoint after a predefined period of inactivity and access tokens expire. | ✓ | ✓ |
-| **4.8** | MSTG-AUTH-8 | Biometric authentication, if any, is not event-bound (i.e. using an API that simply returns "true" or "false"). Instead, it is based on unlocking the keychain/keystore. | | ✓ |
-| **4.9** | MSTG-AUTH-9 | A second factor of authentication exists at the remote endpoint and the 2FA requirement is consistently enforced.  | | ✓ |
-| **4.10** | MSTG-AUTH-10 | Sensitive transactions require step-up authentication. | | ✓ |
-| **4.11** | MSTG-AUTH-11 | The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices. | | ✓ |
-| **4.12** | MSTG-AUTH-12 | Authorization models should be defined and enforced at the remote endpoint. | ✓ | ✓ |
+| **4.1** | MSTG-AUTH-1 | यदि एप्लिकेशन उपयोगकर्ताओं को दूरस्थ सेवा तक पहुँच प्रदान करता है, तो प्रमाणीकरण का कुछ रूप, जैसे कि उपयोगकर्ता नाम / पासवर्ड प्रमाणीकरण, दूरस्थ समापन बिंदु पर किया जाता है। | ✓ | ✓ |
+| **4.2** | MSTG-AUTH-2 | यदि स्टेटफुल सत्र प्रबंधन का उपयोग किया जाता है, तो दूरस्थ समापन बिंदु उपयोगकर्ता के क्रेडेंशियल्स को भेजे बिना क्लाइंट अनुरोधों को प्रमाणिक करने के लिए बेतरतीब ढंग से उत्पन्न सत्र पहचानकर्ताओं का उपयोग करता है।| ✓ | ✓ |
+| **4.3** | MSTG-AUTH-3 | यदि स्टेटलेस टोकन-आधारित प्रमाणीकरण का उपयोग किया जाता है, तो सर्वर एक टोकन प्रदान करता है जिसे एक सुरक्षित एल्गोरिथ्म का उपयोग करके हस्ताक्षरित किया गया है। | ✓ | ✓ |
+| **4.4** | MSTG-AUTH-4 | जब उपयोगकर्ता लॉग आउट करता है, तो दूरस्थ समापन बिंदु मौजूदा सत्र को समाप्त कर देता है। | ✓ | ✓ |
+| **4.5** | MSTG-AUTH-5 | एक पासवर्ड नीति मौजूद है और इसे दूरस्थ समापन बिंदु पर लागू किया गया है। | ✓ | ✓ |
+| **4.6** | MSTG-AUTH-6 | रिमोट एंडपॉइंट कई बार अत्यधिक संख्या में क्रेडेंशियल्स जमा करने से बचाने के लिए एक तंत्र को लागू करता है। | ✓ | ✓ |
+| **4.7** | MSTG-AUTH-7 | निष्क्रियता और पहुंच टोकन की समय सीमा समाप्त होने के बाद सत्र दूरस्थ समापन बिंदु पर अमान्य हैं। | ✓ | ✓ |
+| **4.8** | MSTG-AUTH-8 | बायोमेट्रिक प्रमाणीकरण, यदि कोई हो, तो ईवेंट-बाउंड नहीं है (यानी एक API का उपयोग करके जो "सही" या "गलत" लौटाना है)। इसके बजाय, यह किचेन / की-स्टोर को अनलॉक करने पर आधारित है। | | ✓ |
+| **4.9** | MSTG-AUTH-9 | प्रमाणीकरण का दूसरा कारक दूरस्थ समापन बिंदु पर मौजूद है और 2FA आवश्यकता लगातार लागू होती है। | | ✓ |
+| **4.10** | MSTG-AUTH-10 | संवेदनशील लेनदेन के लिए स्टेप-अप प्रमाणीकरण की आवश्यकता होती है। | | ✓ |
+| **4.11** | MSTG-AUTH-11 | ऐप अपने खाते के साथ सभी संवेदनशील गतिविधियों के उपयोगकर्ता को सूचित करता है। उपयोगकर्ता उपकरणों की एक सूची देखने में सक्षम हैं, प्रासंगिक जानकारी (IP पते, स्थान आदि) को देखने के लिए, और विशिष्ट उपकरणों को अवरुद्ध करने में सक्षम हैं। | | ✓ |
+| **4.12** | MSTG-AUTH-12 | प्राधिकरण मॉडल को दूरस्थ समापन बिंदु पर परिभाषित और लागू किया जाना चाहिए। | ✓ | ✓ |
 
-## References
+## संदर्भ
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed above.
+OWASP मोबाइल सुरक्षा परीक्षण गाइड ऊपर सूचीबद्ध आवश्यकताओं की पुष्टि करने के लिए विस्तृत निर्देश प्रदान करता है।
 
-- General: Authentication and Session Management - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
-- Android: Testing Local Authentication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
-- iOS: Testing Local Authentication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
+- सामान्य: प्रमाणीकरण और सत्र प्रबंधन - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
+- Android: स्थानीय प्रमाणीकरण का परीक्षण - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
+- iOS: स्थानीय प्रमाणीकरण का परीक्षण -  <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
 
 For more information, see also:
 
-- OWASP Mobile Top 10: M4 (Insecure Authentication) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m4-insecure-authentication>
-- OWASP Mobile Top 10: M6 (Insecure Authorization) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m6-insecure-authorization>
-- CWE 287 (Improper Authentication) - <https://cwe.mitre.org/data/definitions/287.html>
-- CWE 307 (Improper Restriction of Excessive Authentication Attempts) - <https://cwe.mitre.org/data/definitions/307.html>
-- CWE 308 (Use of Single-factor Authentication) - <https://cwe.mitre.org/data/definitions/308.html>
-- CWE 521 (Weak Password Requirements) - <https://cwe.mitre.org/data/definitions/521.html>
-- CWE 604 (Use of Client-Side Authentication) - <https://cwe.mitre.org/data/definitions/604.html>
-- CWE 613 (Insufficient Session Expiration) - <https://cwe.mitre.org/data/definitions/613.html>
+- OWASP मोबाइल टॉप 10: M4 (असुरक्षित प्रमाणीकरण) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m4-insecure-authentication>
+- OWASP मोबाइल टॉप 10: M6 (असुरक्षित प्राधिकरण) -  <https://owasp.org/www-project-mobile-top-10/2016-risks/m6-insecure-authorization>
+- CWE 287 (अनुचित प्रमाणीकरण) - <https://cwe.mitre.org/data/definitions/287.html>
+- CWE 307 (अत्यधिक प्रमाणीकरण प्रयासों का अनुचित प्रतिबंध) - <https://cwe.mitre.org/data/definitions/307.html>
+- CWE 308 (एकल-कारक प्रमाणीकरण का उपयोग) - <https://cwe.mitre.org/data/definitions/308.html>
+- CWE 521 (एकल-कारक प्रमाणीकरण का उपयोग) - <https://cwe.mitre.org/data/definitions/521.html>
+- CWE 604 (क्लाइंट-साइड प्रमाणीकरण का उपयोग) - <https://cwe.mitre.org/data/definitions/604.html>
+- CWE 613 (अपर्याप्त सत्र समाप्ति) - <https://cwe.mitre.org/data/definitions/613.html>
