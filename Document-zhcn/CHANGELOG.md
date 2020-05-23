@@ -2,11 +2,11 @@
 
 ## V1.2 - 2020年3月7日 - 国际发行
 
-The following changes are part of release 1.2:
+以下是版本1.2的更改：
 
-- Translation in simplified Chinese of the MASVS available.
-- Change of title in MASVS book cover.
-- Removed Mobile Top 10 and CWE from MSTG and merged to existing references in MASVS.
+- 提供MASVS的简体中文翻译。
+- 更改MASVS封面的标题。
+- 从MSTG中删除Mobile Top 10与CWE，并与MASVS中的现有引用进行合并。
 
 ## V1.2-RC - 2019年10月5号 - 预发行版 (仅限英语)
 
