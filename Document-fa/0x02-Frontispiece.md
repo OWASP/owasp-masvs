@@ -8,7 +8,8 @@
 
 MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. ما انتظار داریم که این استاندارد در طی زمان تکامل پیدا کرده و از بازخورد اجتماع استقبال می‌کنیم.
 
-بهترین راه برای ارتباط با ما از طریق کانال Slack پروژه موبایل OWASP است: <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
+بهترین راه برای ارتباط با ما از طریق کانال Slack پروژه موبایل OWASP است:
+<https://owasp.slack.com/messages/project-mobile_omtg/details/> .
 
 حساب‌های کاربری می توانند در این آدرس ایجاد شوند: [https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/).
 
@@ -32,7 +33,7 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 | --- | ------------------------------ |
 | چینی (سنتی) | Peter Chi, Lex Chien, Henry Hu, Leo Wang |
 | چینی (ساده‌شده) | Bob Peng, Harold Zang, Jack S |
-| فارسی | Ramin Atefinia, Hamed Salimian, Bardiya Akbari, Dorna Azhirak, Mahsa Omidvar, Alireza Mazhari |
+| فارسی | Ramin Atefinia, Hamed Salimian, Bardiya Akbari, Dorna Azhirak, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
 | فرانسوی | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | آلمانی | Rocco Gränitz, Sven Schleier (Review) |
 | ژاپنی | Koki Takeyama, Riotaro Okada (Review) |
