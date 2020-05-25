@@ -4,7 +4,7 @@
 
 <img src="images/OWASP_logo.png" title="OWASP LOGO" />
 
-به استاندارد وارسی امنیت برنامه کاربردی موبایل (MASVS) نسخه 1.1 خوش آمدید. MASVS یک تلاش جمعی برای برپاسازی چارچوبی از نیازمندی‌های امنیتی مربوط به طراحی، توسعه و آزمون برنامه‌های کاربردی امن موبایل بر روی iOS و اندروید است.
+به استاندارد وارسی امنیت برنامه کاربردی موبایل (MASVS) نسخه 1.1 خوش آمدید. MASVS یک تلاش جمعی برای برپاسازی چارچوبی از الزامات امنیتی مربوط به طراحی، توسعه و آزمون برنامه‌های کاربردی امن موبایل بر روی iOS و اندروید است.
 
 MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. ما انتظار داریم که این استاندارد در طی زمان تکامل پیدا کرده و از بازخورد اجتماع استقبال می‌کنیم.
 
@@ -33,7 +33,7 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 | --- | ------------------------------ |
 | چینی (سنتی) | Peter Chi, Lex Chien, Henry Hu, Leo Wang |
 | چینی (ساده‌شده) | Bob Peng, Harold Zang, Jack S |
-| فارسی | Ramin Atefinia, Hamed Salimian, Bardiya Akbari, Dorna Azhirak, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
+| فارسی | Ramin Atefinia, Hamed Salimian, Bardiya Akbari, Dorna Azhirak, Mahsa Omidvar, Alireza Mazhari, Mehran Seifalinia, Milad Khoshdel |
 | فرانسوی | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | آلمانی | Rocco Gränitz, Sven Schleier (Review) |
 | ژاپنی | Koki Takeyama, Riotaro Okada (Review) |
