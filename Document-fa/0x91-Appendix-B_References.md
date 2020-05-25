@@ -13,6 +13,6 @@
 
 - شمارش نقاط ضعف مرسوم (MITRE) - [http://cwe.mitre.org/](http://cwe.mitre.org/)
 - انجمن استانداردهای امنیتی (PCI) - [https://www.pcisecuritystandards.org](https://www.pcisecuritystandards.org)
-- نیازمندی های استاندارد امنیت داده (DSS) ورژن 3 و فرآیند ممیزی امنیت - [https://www.pcisecuritystandards.org/documents/PCI\_DSS\_v3.pdf](https://www.pcisecuritystandards.org/documents/PCI_DSS_v3.pdf)
+- الزامات استاندارد امنیت داده (DSS) ورژن 3 و فرآیند ممیزی امنیت - [https://www.pcisecuritystandards.org/documents/PCI\_DSS\_v3.pdf](https://www.pcisecuritystandards.org/documents/PCI_DSS_v3.pdf)
 
 <div/>
