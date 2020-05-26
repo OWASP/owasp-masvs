@@ -301,3 +301,26 @@ jobs:
         name: OWASP_MASVS-SNAPSHOT-hi.mobi
         path: OWASP_MASVS-SNAPSHOT-hi.mobi
 
+
+    - name: Generate Brazilian Portuguese PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-ptbr SNAPSHOT'
+    - name: Upload ptbr PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ptbr.pdf
+        path: OWASP_MASVS-SNAPSHOT-ptbr.pdf
+    - name: Upload Brazilian Portuguese EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ptbr.epub
+        path: OWASP_MASVS-SNAPSHOT-ptbr.epub
+    - name: Upload Brazilian Portuguese DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ptbr_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-ptbr_WIP_.docx
+    - name: Upload Brazilian Portuguese MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ptbr.mobi
+        path: OWASP_MASVS-SNAPSHOT-ptbr.mobi
