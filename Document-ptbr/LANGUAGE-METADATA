@@ -1,3 +1,3 @@
-export LANGUAGE="en"
+export LANGUAGE="ptbr"
 export LANGUAGETEXT=""
-export TOC_TITLE="Table of Contents"
+export TOC_TITLE="índice analítico"
