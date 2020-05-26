@@ -1,6 +1,6 @@
 # V4: Requisitos de Autenticação e Gerenciamento de Sessão
 
-## Objetivos dos Controles
+## Objetivo do Controle
 
 Na maioria dos casos, o login de usuários a um serviço remoto é parte integrante da arquitetura global das aplicações móveis. Embora a maior parte da lógica aconteça no endpoint, o MASVS define alguns requisitos básicos sobre a forma como as contas e sessões dos usuários devem ser gerenciadas.
 
