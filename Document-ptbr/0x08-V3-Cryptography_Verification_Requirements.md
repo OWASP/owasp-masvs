@@ -1,6 +1,6 @@
 # V3: Requisitos de Criptografia
 
-## Objetivos dos Controles
+## Objetivo do Controle
 
 A criptografia é um ingrediente essencial quando se trata da proteção dos dados armazenados em dispositivos móveis. É também uma categoria em que as coisas podem dar muito errado, especialmente quando as convenções e padrões não são seguidos. O objetivo dos controles neste capítulo é garantir que o aplicativo verificado use a criptografia de acordo com as melhores práticas do setor, incluindo:
 
