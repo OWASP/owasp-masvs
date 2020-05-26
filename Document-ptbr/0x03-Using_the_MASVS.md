@@ -1,16 +1,16 @@
-# The Mobile Application Security Verification Standard
+# O Padrão de Análise de Segurança de Aplicativos para Dispositivos Móveis
 
-The MASVS can be used to establish a level of confidence in the security of mobile apps. The requirements were developed with the following objectives in mind:
+O MASVS pode ser utilizado para estabelecer um nível de confiança na segurança de aplicativos móveis. Os requisitos foram desenvolvidos com base nos seguintes objetivos:
 
-- Use as a metric - To provide a security standard against which existing mobile apps can be compared by developers and application owners;
-- Use as guidance - To provide guidance during all phases of mobile app development and testing;
-- Use during procurement - To provide a baseline for mobile app security verification.
+- Utilize uma métrica - Para fornecer um padrão de segurança que possa facilitar o comparativo entre aplicativos móveis atuais por desenvolvedores e proprietários de aplicativos.
+- Utilize como orientação - Para fornecer orientação durante todas as fases do Desenvolvimento e Teste de aplicativos para dispositivos móveis.
+- Utilize no processo de aquisição - Para fornecer uma linha de base para a análise de segurança dos aplicativos móveis.
 
-## Mobile AppSec Model
+## Modelo de Aplicação de Segurança Mobile
 
-The MASVS defines two security verification levels (MASVS-L1 and MASVS-L2), as well as a set of reverse engineering resiliency requirements (MASVS-R). MASVS-L1 contains generic security requirements that are recommended for all mobile apps, while MASVS-L2 should be applied to apps handling highly sensitive data. MASVS-R covers additional protective controls that can be applied if preventing client-side threats is a design goal.
+O MASVS define dois níveis de verificação de segurança (MASVS-L1 and MASVS-L2), assim como um conjunto de requisitos de resiliência de engenharia reversa (MASVS-R). O MASVS-L1 contém requisitos básicos de segurança recomendados para todos os tipos de aplicativos para dispositivos móveis, enquanto o MASVS-L2 deve ser utilizado em aplicativos que manipulam dados altamente confidenciais. O MASVS-R abrange controlees de proteção adicionais quee podem ser aplicados se um dos objetivos do projeto desenvolvido for a prevenção de ameaças do lado do usuário.
 
-Fulfilling the requirements in MASVS-L1 results in a secure app that follows security best practices and doesn't suffer from common vulnerabilities. MASVS-L2 adds additional defense-in-depth controls such as SSL pinning, resulting in an app that is resilient against more sophisticated attacks - assuming the security controls of the mobile operating system are intact and the end user is not viewed as a potential adversary. Fulfilling all, or subsets of, the software protection requirements in MASVS-R helps impede specific client-side threats where the end user is malicious and/or the mobile OS is compromised.
+Cumprir os requisitos do MASVS-L1 resulta em uma aplicação segura que segue as melhores práticas recomendadas de segurança e não sofre com vulnerabilidades mais comuns. O MASVS-L2 adiciona mais controles de defesa em profundidade como SSL Pinning, resultando em um aplicativo resistente a ataques mais complexos, assumindo que os controles de seguran'da do sistema operacional móvel estejam intactos e que o usuário não seja visto como um atacante em potencial. O cumprimento de todos os requisitos ou subconjuntos de proteção de software no MASVS-R ajuda a mitigar ameaças específicas do cliente em que o usuário final é malicioso e/ou o sistema operacional móvel esteja comprometido.
 
 **I: Although we recommend implementing MASVS-L1 controls in every app, implementing a control or not should ultimately be a risk-based decision, which is taken/communicated with the business owners.**
 
