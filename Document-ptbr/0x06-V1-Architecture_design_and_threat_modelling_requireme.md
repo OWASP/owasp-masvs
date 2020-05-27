@@ -13,8 +13,7 @@ Os requisitos para MASVS-L1 e MASVS-L2 estão listados abaixo.
 | -- | -------- | ---------------------- | - | - |
 | **1.1** | MSTG-ARCH-1 | Todos os componentes do aplicativo são identificados e conhecidos como necessários. | ✓ | ✓ |
 | **1.2** | MSTG-ARCH-2 | Os controles de segurança nunca são aplicados apenas no lado do cliente, mas nos respectivos endpoints remotos. | ✓ | ✓ |
-| **1.3** | MSTG-ARCH-3 | Uma arquitetura de alto nível para o aplicativo móvel e todos os serviços remotos conectados foram definidos e a segurança foi abordada nessa
-arquitetura. |   | ✓ |
+| **1.3** | MSTG-ARCH-3 | Uma arquitetura de alto nível para o aplicativo móvel e todos os serviços remotos conectados foram definidos e a segurança foi abordada nessa arquitetura. | ✓ | ✓ |
 | **1.4** | MSTG-ARCH-4 | Os dados, considerados confidenciais no contexto do aplicativo móvel, são claramente identificados. | ✓ | ✓ |
 | **1.5** | MSTG-ARCH-5 | Todos os componentes do aplicativo são definidos em termos das funções de negócios e/ou funções de segurança que eles fornecem. |   | ✓ |
 | **1.6** | MSTG-ARCH-6 | Foram produzidos um modelo de ameaça para o aplicativo móvel e os serviços remotos associados, que identificam possíveis ameaças e contramedidas. |   | ✓ |
