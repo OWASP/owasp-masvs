@@ -17,6 +17,7 @@ Além disso, o surgimento de malware e ferramentas de administração remota cri
 Como resultado, os relatórios de testes de segurança de aplicativos móveis estão por toda parte: por exemplo, alguns relatam falta de obfuscação ou de detecção de _root_ em um aplicativo Android como uma "falha de segurança". Por outro lado, medidas como cifragem de _strings_, detecção de depuradores ou obfuscação de fluxo de controle não são consideradas obrigatórias. Entretanto, essa maneira binária de olhar para as coisas não faz sentido porque a resiliência não é uma proposta automática: depende das ameaças específicas que pretende-se defender no lado do cliente.
 
 O objetivo geral do MASVS é oferecer uma linha base para segurança de aplicativos móveis (MASVS-L1), enquanto também permite a inclusão de medidas profundas de defesa (MASVS-L2) e proteções contra as ameaças no lado do cliente (MASVS-R). O MASVS busca:
+
 - Prover requisitos para arquitetos e desenvolvedores de software que buscam o desenvolvimento de aplicativos móveis seguros;
 - Oferecer um padrão da indústria que poderá ser usado nas revisões de segurança de aplicativos móveis;
 - Esclarecer o papel dos mecanismos de proteção de software e fornecer requisitos para verificar sua eficácia;
