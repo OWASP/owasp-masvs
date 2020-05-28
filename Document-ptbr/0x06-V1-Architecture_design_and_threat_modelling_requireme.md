@@ -27,7 +27,7 @@ Os requisitos para MASVS-L1 e MASVS-L2 estão listados abaixo.
 
 ## Referências
 
-Para mais informações, consulte também:
+Para mais informações, consulte também (em inglês):
 
 - OWASP Mobile Top 10: M10 (Extraneous Functionality) - https://owasp.org/www-project-mobiletop- 10/2016-risks/m10-extraneous-functionality
 - OWASP Security Architecture cheat sheet - https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet
