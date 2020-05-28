@@ -1,79 +1,79 @@
-# Changelog
+# Controle de Alterações
 
-## V1.2 - 7 March 2020 - International Release
+## V1.2 - 7 de Março de 2020 - Versão Internacional
 
-The following changes are part of release 1.2:
+As seguintes alterações fazem parte da versão 1.2:
 
-- Translation in simplified Chinese of the MASVS available.
-- Change of title in MASVS book cover.
-- Removed Mobile Top 10 and CWE from MSTG and merged to existing references in MASVS.
+- Disponibilização da tradução do MASVS em Chinês simplificado.
+- Alteração de título na capa do livro do MASVS.
+- Removidos o Top 10 Riscos de Dispositivos Móveis e CWE do MSTG e colocados como referências existentes no MASVS.
 
-## V1.2-RC - 5 October 2019 - Pre-release (English only)
+## V1.2-RC - 5 de Outubro de 2019 - Pré-versão (apenas Inglês)
 
-The following changes are part of pre-release 1.2:
+As seguintes alterações fazem parte da pré-versão 1.2:
 
-- Promoted to flagship status.
-- Requirement changed: MSTG-STORAGE-1 "need to be used".
-- Requirements MSTG-STORAGE-13, MSTG-STORAGE-14, and MSTG-STORAGE-15 are added with a focus on data protection.
-- Requirement MSTG-AUTH-11 is updated to preserve contextual information.
-- Requirement MSTG-CODE-4 is updated to cover more than just debugging.
-- Requirement MSTG-PLATFORM-10 added to further secure usage of WebViews.
-- Requirement MSTG-AUTH-12 added to remind developers of having authorizations implemented, especially in case of multi-user apps.
-- Added a little more description on how the MASVS should be used given a risk assessment.
-- Added a little more description on paid content.
-- Requirement MSTG-ARCH-11 added to include a Responsible Disclosure policy for L2 applications.
-- Requirement MSTG-ARCH-12 added to show application developers that relevant international privacy laws should be followed.
-- Created a consistent style for all references in the English version.
-- Requirement MSTG-PLATFORM-11 added to counter spying via third party keyboards.
-- Requirement MSTG-MSTG-RESILIENCE-13 added to impede eavesdropping at an application.
+- Promovido ao estado Principal.
+- Mudança em requisito: MSTG-STORAGE-1 "precisa ser utilizado".
+- Requisitos MSTG-STORAGE-13, MSTG-STORAGE-14 e MSTG-STORAGE-15 foram adicionados com foco em proteção de dados.
+- Requisito MSTG-AUTH-11 foi atualizado para preservar informações contextuais.
+- Requisito MSTG-CODE-4 foi atualizado para cobrir mais do que apenas *debug*.
+- Requisito MSTG-PLATFORM-10 foi adicionado para futuro uso seguro de *WebViews*.
+- Requisito MSTG-AUTH-12 foi adicionado para lembrar os desenvolvedores de implementarem autorização, especialmente em caso de aplicativos multi-usuário.
+- Adicionados alguns detalhes na descrição de como o MASVS deve ser utilizado para uma avaliação de riscos.
+- Adicionados alguns detalhes na descrição de conteúdos pagos.
+- Requisito MSTG-ARCH-11 foi adicionado para incluir uma política de Divulgação Responsável para aplicações L2.
+- Requisito MSTG-ARCH-12 foi adicionado para mostrar aos desenvolvedores de aplicações que leis internacionais de privacidade relevantes devem ser seguidas.
+- Criado um estilo consistente para todas as referências na versão em Inglês.
+- Requisito MSTG-PLATFORM-11 foi adicionado para contra-espionagem através de teclados terceiros.
+- Requisito MSTG-RESILIENCE-13 foi adicionado para impedir espionagem (*eavesdropping*) em uma aplicação.
 
-## V1.1.4 - 4 July 2019 - Summit edition
+## V1.1.4 - 4 de Julho de 2019 - Edição *Summit*
 
-The following changes are part of release 1.1.4:
+As seguintes alterações fazem parte da versão 1.1.4:
 
-- Fix all markdown issues.
-- Updates in the French and Spanish translations.
-- Translated the changelog to Chinese (ZHTW) and Japanese.
-- Automated verification of the the markdown syntax and reachability of the URLs.
-- Added identification codes to the requirements, which will be included in the future version of the MSTG in order to find the recommendations and testcases easily.
-- Reduced the repo size and added Generated to the .gitignore.
-- Added a Code of Conduct & Contributing guidelines.
-- Added a Pull-Request template.
-- Updated the sync with the repo in use for hosting the Gitbook website.
-- Updated the scripts to generate XML/JSON/CSV for all the translations.
-- Translated the Foreword to Chinese (ZHTW).
+- Corrigidos todos os problemas de remarcação.
+- Atualizações nas traduções para Francês e Espanhol.
+- Controle de Alterações traduzido para o Chinês (ZHTW) e Japonês.
+- Verificação automática da sintaxe de remarcações e acessibilidade das URLs.
+- Adicionados códigos de identificação dos requisitos, que serão incluídos na futura versão do MSTG a fim de encontrar de forma mais fácil as recomendações e casos de teste.
+- Redução do tamanho do repositório e adição do *Generated* ao .gitignore.
+- Adicionados um Código de Conduta e Orientações para Contribuição.
+- Adicionado um modelo para *Pull-Requests*.
+- Atualização da sincroniza com o repositório em uso para hospedar o *site* do Gitbook.
+- Atualizados os *scripts* para gerar o XML/JSON/CSV de todas as traduções.
+- Tradução do Prefácio para o Chinês (ZHTW).
 
-## V1.1.3 - 9 January 2019 - Small fixes
+## V1.1.3 - 9 de Janeiro de 2019 - Correções Menores
 
-- Fix translation issue of requirement 7.1 in the Spanish version
-- New setup of translators in acknowledgements
+- Corrige problema de tradução no requisito 7.1 na versão em Espanhol.
+- Novo *setup* para tradutores nos agradecimentos.
 
-## V1.1.2 - 3 January 2019 - Sponsorship and internationalization
+## V1.1.2 - 3 de Janeiro de 2019 - Patrocínio e Internacionalização
 
-The following changes are part of release 1.1.2:
+As seguintes alterações fazem parte da versão 1.1.2:
 
-- Added thank you note for buyers of the e-book.
-- Added missing authentication link & updated broken authentication link in V4.
-- Fixed swap of 4.7 and 4.8 in English.
-- First international release!
-  - Fixes in Spanish translation. Translation is now in sync with English (1.1.2).
-  - Fixes in Russian translation. Translation is now in sync with English (1.1.2).
-  - Added first release of Chinese (ZHTW) French, German, and Japanese!
-- Simplified document for ease of translation.
-- Added instructions for automated releases.
+- Adicionada nota de agradecimento para compradores do e-book.
+- Adicionado *link* de autenticação faltante e atualizado *link* de autenticação quebrado na V4.
+- Corrigida troca na 4.7 e 4.8 em Inglês.
+- Primeira versão internacional!
+  - Correções na tradução do Espanhol. Tradução agora está sincronizada com o Inglês (1.1.2).
+  - Correções na tradução do Russo. Tradução agora está sincronizada com o Inglês (1.1.2).
+  - Adicionada a primeira versão em Chinês (ZHTW), Francês, Alemão e Japonês!
+- Documento simplificado para facilitar a tradução.
+- Adicionadas instruções para versões automáticas.
 
-## V1.1.0 - 14 July 2018
+## V1.1.0 - 14 de Julho de 2018
 
-The following changes are part of release 1.1:
+As seguintes alterações fazem parte da versão 1.1:
 
-- Requirement 2.6 "The clipboard is deactivated on text fields that may contain sensitive data." was removed.
-- Requirement 2.2 "No sensitive data should be stored outside of the app container or system credential storage facilities." was added.
-- Requirement 2.1 was reworded to "System credential storage facilities are used appropriately to store sensitive data, such as PII, user credentials or cryptographic keys.".
+- Requisito 2.6 Remoção de "A área de transferência é desativada em campos de texto que possam conter dados sensíveis".
+- Requisito 2.2 Adição de "Dados sensíveis não devem ser armazenados fora do contêiner do aplicativo ou de recursos de armazenamento de credenciais do sistema".
+- Requisito 2.1 foi reescrito para "Recursos de armazenamento de credenciais do sistema devem ser utilizados para armazenar dados sensíveis, como Dados de Identificação Pessoal (PII), credenciais de usuário ou chaves criptográficas."
 
-## V1.0 12 - January 2018
+## V1.0 - 12 de Janeiro de 2018
 
-The following changes are part of release 1.0:
+As seguintes alterações fazem parte da versão 1.0:
 
-- Delete 8.9 as the same as 8.12
-- Made 4.6 more generic
-- Minor fixes (typos etc.)
+- Deletado item 8.9 por ser o mesmo que o 8.12.
+- Item 4.6 tornado mais genérico.
+- Correções menores (erros de digitação, etc.).
