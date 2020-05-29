@@ -1,6 +1,6 @@
 # Prefácio
 
-Por Bernhard Mueller, Projeto para Dispositivos Móveis da OWASP
+Por Bernhard Mueller, Projeto para Dispositivos Móveis do OWASP
 
 Revoluções tecnológicas podem acontecer rapidamente. Há menos de uma década, smartphones eram dispositivos desajeitados com pequenos teclados - brinquedos caros para usuários empresariais com conhecimento em tecnologia. Hoje, os smartphones são uma parte essencial de nossas vidas. Passamos a confiar neles para obter informações, navegação e comunicação, e estão presentes tanto nos negócios quanto em nossa vida social.
 
