@@ -1,10 +1,10 @@
 # V8: Requisitos de Resiliência
 
-## Objetivos de Controle
+## Objetivo do Controle
 
 Esta seção cobre as medidas de proteção recomendadas para aplicativos móveis que processam, ou dão acesso para, dados ou funcionalidades sensíveis. A falta de qualquer um desses controles não causa uma vulnerabilidade. Em vez disso, eles destinam-se a aumentar a resiliência do aplicativo móvel contra engenharia reversa e ataques específicos do lado do cliente.
 
-Os controles desta seção devem ser aplicados conforme necessário, com base em uma avaliação dos riscos causados por manipulação não autorizada do aplicativo móvel e/ou engenharia reversa do código. Sugerimos que seja consultado os documentos da OWASP "Riscos Técnicos da Engenharia Reversa e da Alteração não Autorizada" e "Engenharia Reversa e Prevenção de Modificação de Código" (veja referência abaixo) para uma lista dos riscos de negócio, assim como as ameaças técnicas associadas.
+Os controles desta seção devem ser aplicados conforme necessário, com base em uma avaliação dos riscos causados por manipulação não autorizada do aplicativo móvel e/ou engenharia reversa do código. Sugerimos que seja consultado os documentos "Technical Risks of Reverse Engineering and Unauthorized Code Modification" e "Reverse Engineering and Code Modification Prevention" do OWASP (veja referência abaixo) para uma lista dos riscos de negócio, assim como as ameaças técnicas associadas.
 
 Para que qualquer controle da lista abaixo ser efetivo, o aplicativo móvel deve cumprir pelo menos todas as MASVS-L1 (ou seja, devem existir controles sólidos de segurança), assim como todos os requisitos de número inferior no V8. Por exemplo, os controles de obfuscação listados em "impedir a compreensão" devem ser combinados com "impedir a análise dinâmica e a manipulação" e "vinculação ao dispositivo".
 
@@ -16,7 +16,7 @@ As seguintes considerações se aplicam:
 
 2. O modelo de ameça deve ser crível e relevante. Por exemplo, esconder a chave criptográfica numa implementação caixa branca pode ser redundante se um atacante puder simplesmente utilizar a aplicação móvel como um todo.
 
-3. A efetividade da proteção deve sempre ser verificada por um especialista com experiência em testar tipos particulares de prevenção de manipulação e obfuscação usados (veja também os capítulos "engenharia reversa" e "avaliando proteções de software" no Guia de Teste de Segurança de Dispositivos Móveis).
+3. A efetividade da proteção deve sempre ser verificada por um especialista com experiência em testar tipos particulares de prevenção de manipulação e obfuscação usados (veja também os capítulos "reverse engineering" e "assessing software protections" no Guia de Teste de Segurança de Dispositivos Móveis).
 
 <!-- \pagebreak -->
 
@@ -59,12 +59,12 @@ As seguintes considerações se aplicam:
 
 ## Referências
 
-O Guia de Teste de Segurança de Dispositivos Móveis do OWASP disponibiliza instruções detalhadas para verificar os requisitos listados nesta seção.
+O Guia de Teste de Segurança de Dispositivos Móveis do OWASP disponibiliza instruções detalhadas para verificar os requisitos listados nesta seção (em inglês).
 
 - Android: Testing Resiliency Against Reverse Engineering - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
 - iOS: Testing Resiliency Against Reverse Engineering - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
-Para mais informação veja também:
+Para mais informação, veja também (em inglês):
 
 - OWASP Mobile Top 10: M8 (Code Tampering) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m8-code-tampering>
 - OWASP Mobile Top 10: M9 (Reverse Engineering) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m9-reverse-engineering>
