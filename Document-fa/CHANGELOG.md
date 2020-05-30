@@ -1,73 +1,81 @@
-# Changelog
+<div dir="rtl" markdown="1">
 
-## V1.2 - 7 March 2020 - International Release
+# تغییرات
 
-## V1.2-RC - 5 October 2019 - Pre-release (English only)
+## V1.2 - 7 March 2020 - انتشار بین المللی
 
-The following changes are part of release 1.2:
+تغییرات پیش رو قسمتی از انتشار 1.2 می‌باشند:
 
-- Promoted to flagship status.
-- Requirement changed: MSTG-STORAGE-1 "need to be used".
-- Requirements MSTG-STORAGE-13, MSTG-STORAGE-14, and MSTG-STORAGE-15 are added with a focus on data protection.
-- Requirement MSTG-AUTH-11 is updated to preserve contextual information.
-- Requirement MSTG-CODE-4 is updated to cover more than just debugging.
-- Requirement MSTG-PLATFORM-10 added to further secure usage of WebViews.
-- Requirement MSTG-AUTH-12 added to remind developers of having authorizations implemented, especially in case of multi-user apps.
-- Added a little more description on how the MASVS should be used given a risk assessment.
-- Added a little more description on paid content.
-- Requirement MSTG-ARCH-11 added to include a Responsible Disclosure policy for L2 applications.
-- Requirement MSTG-ARCH-12 added to show application developers that relevant international privacy laws should be followed.
-- Created a consistent style for all references in the English version.
-- Requirement MSTG-PLATFORM-11 added to counter spying via third party keyboards.
-- Requirement MSTG-MSTG-RESILIENCE-13 added to impede eavesdropping at an application.
+- ترجمه ی چینی MASVS در دسترس می‌باشد.
+- تغییر عنوان کاور کتاب MASVS.
+- حذف Mobile Top 10 و CWE از MSTG و ادغام آن با منابع موجود در MASVS.
 
-## V1.1.4 - 4 July 2019 - Summit edition
+## V1.2-RC - 5 October 2019 - پیش انتشار (فقط انگلیسی)
 
-The following changes are part of release 1.1.4:
+تغییرات  پیش رو قسمتی از انتشار 1.2 می‌باشند:
 
-- Fix all markdown issues.
-- Updates in the French and Spanish translations.
-- Translated the changelog to Chinese (ZHTW) and Japanese.
-- Automated verification of the the markdown syntax and reachability of the URLs.
-- Added identification codes to the requirements, which will be included in the future version of the MSTG in order to find the recommendations and testcases easily.
-- Reduced the repo size and added Generated to the .gitignore.
-- Added a Code of Conduct & Contributing guidelines.
-- Added a Pull-Request template.
-- Updated the sync with the repo in use for hosting the Gitbook website.
-- Updated the scripts to generate XML/JSON/CSV for all the translations.
-- Translated the Foreword to Chinese (ZHTW).
+- ارتقاء به وضعیت پرچمدار.
+- تغییر الزامات: MSTG-STORAGE-1 نیاز به استفاده شدن دارد.
+- الزامات MSTG-STORAGE-13, MSTG-STORAGE-14, و MSTG-STORAGE-15 با تمرکز بر حافظت از داده اضافه شدند.
+- الزامات MSTG-AUTH-11 برای نگهداری از اطلاعات وابسته به محتوا به‌روز‌رسانی گردید.
+- الزامات MSTG-CODE-4 برای پوشش دادن مباحث بیشتر (نه فقط عیب یابی) به‌روز‌رسانی گردید.
+- الزامات MSTG-PLATFORM-10 برای امنیت بیشتر استفاده از WebView اضافه گردید.
+- الزامات MSTG-AUTH-12 جهت یادآوری به توسعه‌دهندگان برای داشتن مجوز‌های سطح دسترسی، مخصوصا برای برنامه‌های چند کاربره اضافه گردید .
+- اضافه شدن توضیحات بیشتر درخصوص اینکه چگونه از MASVS در ممیزی مخاطره داده شده استفاده شود.
+- اضافه کردن توضیحات بیشتر در خصوص محتوای پرداخت.
+- الزامات MSTG-ARCH-11 اضافه گردید که شامل یک سیاست پاسخگویی به افشای اطلاعات برای لایه‌ی دوم برنامه‌های کاربردی می‌باشد.
+- الزامات MSTG-ARCH-12 اضافه شد تا به توسعه‌دهندگان نرم‌افزار کاربردی، قوانین خط مشی‌های بین المللی که باید دنبال شوند را نشان دهد.
+- ساخت یک سبک ثابت برای تمامی منابع در نسخه‌ی انگلیسی.
+- الزامات MSTG-PLATFORM-11 جهت شمارش جاسوسی با صفحه‌کلیدهای سوم شخص اضافه گردید.
+- الزامات MSTG-MSTG-RESILIENCE-13 جهت جلوگیری از استراق سمع در برنامه‌های کاربردی اضافه گردید.
 
-## V1.1.3 - 9 January 2019 - Small fixes
+## V1.1.4 - 4 July 2019 - ویرایش برتر
 
-- Fix translation issue of requirement 7.1 in the Spanish version
-- New setup of translators in acknowledgements
+تغییرات  پیش رو قسمتی از انتشار 1.1.4 می‌باشند:
 
-## V1.1.2 - 3 January 2019 - Sponsorship and internationalization
+- رفع تمامی مشکلات Markdown.
+- به‌روز‌رسانی در ترجم‌های اسپانیایی و فرانسوی.
+- ترجمه‌ی تغییرات به چینی (ZHTW) و اسپانیایی.
+- وارسی خودکار سینتکس Markdown و در دسترس بودن URL‌ها.
+- اضافه شدن کدهای شناسایی برای الزاماتی که به نسخه‌های بعدی MSTG اضافه خواهد شد تا توصیه‌ها و تست‌کیس‌ها راحت تر پیدا شوند.
+- کاهش حجم repo و اضافه کردن Generated به .gitignore.
+- اضافه کردن یک کد جریان و همکاری راهنما.
+- اضافه کردن تمپلیت Pull-Request.
+- به‌روز‌رسانی همگام سازی با repo در استفاده توسط میزبانان وبسایت Gitbook.
+- به‌روز‌رسانی اسکریپت‌ها برای تولید XML/JSON/CVS برای تمامی ترجمه‌ها.
+- ترجمه‌ی پیشگفتار به چینی(ZHTW).
 
-The following changes are part of release 1.1.2:
+## V1.1.3 - 9 January 2019 - تعمیرات کوچک
 
-- Added thank you note for buyers of the e-book.
-- Added missing authentication link & updated broken authentication link in V4.
-- Fixed swap of 4.7 and 4.8 in English.
-- First international release!
-  - Fixes in Spanish translation. Translation is now in sync with English (1.1.2).
-  - Fixes in Russian translation. Translation is now in sync with English (1.1.2).
-  - Added first release of Chinese (ZHTW) French, German, and Japanese!
-- Simplified document for ease of translation.
-- Added instructions for automated releases.
+- رفع مشکلات ترجمه‌ی الزامات 7.1 در نسخه‌ی اسپانیایی
+- آماده‌سازی جدید ترجمه‌کنندگان در تصدیق‌ها
+
+## V1.1.2 - 3 January 2019 - حمایت مالی و بین المللی سازی
+
+تغییرات  پیش رو قسمتی از انتشار 1.1.2 می‌باشند:
+
+- اضافه کردن متن تشکر برای خریداران کتاب الکترونیکی
+- اضافه کردن تاییدیه لینک‌های از دست رفته و لینک‌های به‌روز‌شده‌ی تصدیق‌های منقضی شده در نسخه 4.
+- رفع مشکل swap در نسخه‌های 4.7 و 4.8 انگلیسی.
+- اولین انتشار بین المللی!
+  - بهبودسازی ترجمه‌ی اسپانیایی. ترجمه در حال حاضر با انگلیسی همگام سازی گردیده (1.1.2).
+  - بهبودسازی ترجمه‌ی روسی. ترجمه در حال حاضر با انگلیسی همگام سازی گردیده (1.1.2).
+  - اضافه شدن اولین انتشار چینی (ZHTW) ، فرانسوی، آلمانی و ژاپنی!
+- ساده‌سازی مستندات برای سهولت در ترجمه.
+- اضافه شدن دستورالعمل‌هایی برای انتشار خودکار.
 
 ## V1.1.0 - 14 July 2018
 
-The following changes are part of release 1.1:
+تغییرات  پیش رو قسمتی از انتشار 1.1.0 می‌باشند:
 
-- Requirement 2.6 "The clipboard is deactivated on text fields that may contain sensitive data." was removed.
-- Requirement 2.2 "No sensitive data should be stored outside of the app container or system credential storage facilities." was added.
-- Requirement 2.1 was reworded to "System credential storage facilities are used appropriately to store sensitive data, such as PII, user credentials or cryptographic keys.".
+- الزامات 2.6 "غیر فعال سازی کلیپ بورد در زمینه‌های متنی که ممکن است حاوی اطلاعات حساس باشند" حذف گردید.
+- الزامات 2.2 "هیچ اطلاعات حساسی نباید در مخازن خارجی کانتینر برنامه یا امکانات ذخیره‌سازی گواهی‌نامه سیستم ذخیره گردد" اضافه گردید.
+- الزامات 2.1 به‌شکل "امکانات ذخیره‌سازی گواهی سیستم به‌صورت اختصاصی برای ذخیره‌ی اطلاعات حساس مانند PII، گواهی کاربر و کلیدهای رمزنگاری استفاده می‌گردد"  تغییر پیدا کرد.
 
 ## V1.0 12 - January 2018
 
-The following changes are part of release 1.0:
+تغییرات  پیش رو قسمتی از انتشار 1.0 می‌باشند:
 
-- Delete 8.9 as the same as 8.12
-- Made 4.6 more generic
-- Minor fixes (typos etc.)
+- حذف 8.9 همانند 8.12
+- عمومی سازی 4.6
+- بهبودهای کوچک (نگارشی)
