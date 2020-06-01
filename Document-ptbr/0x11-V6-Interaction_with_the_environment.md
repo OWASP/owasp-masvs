@@ -1,4 +1,4 @@
-# V6: Requisitos de interação de plataforma
+# V6: Requisitos de Interação de Plataforma
 
 ## Objetivo de Controle
 
@@ -10,26 +10,26 @@ Os controles deste grupo garantem que o aplicativo use APIs da plataforma e comp
 | # | MSTG-ID | Descrição | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
 | **6.1** | MSTG-PLATFORM-1 | O aplicativo só solicita o conjunto mínimo de permissões necessárias. | ✓ | ✓ |
-| **6.2** | MSTG-PLATFORM-2 | Todas as entradas de fontes externas e do usuário são validadas e, se necessário, higienizadas. Isso inclui dados recebidos através da UI, mecanismos de IPC como intenções, URLs personalizados e origens pela rede.| ✓ | ✓ |
-| **6.3** | MSTG-PLATAFORMA-3 | O aplicativo não exporta funcionalidades sensíveis através de esquemas de URL personalizados, a menos que esses mecanismos estejam devidamente protegidos. | ✓  |  ✓  |
-| **6.4** | MSTG-PLATAFORMA-4 | O aplicativo não exporta funcionalidades sensíveis através do IPC, a menos que esses mecanismos estejam devidamente protegidos. | ✓  |  ✓  |
-| **6.5** | MSTG-PLATAFORMA-5 | Código JavaScript é desativado no WebViews, a menos que explicitamente necessário. | ✓  |  ✓  |
-| **6.6** | MSTG-PLATAFORMA-6 | O WebViews está configurado para permitir apenas o conjunto mínimo de manipuladores de protocolo necessários (apenas https é suportado). Manipuladores potencialmente perigosos, como um arquivo, tel e app-id são desativados. | ✓  |  ✓  |
-| **6.7** | MSTG-PLATAFORMA-7 | Se os métodos nativos do aplicativo forem expostos a um WebView, verifique se o WebView só renderiza o código JavaScript contido no pacote do aplicativo. | ✓  |  ✓  |
-| **6.8** | MSTG-PLATAFORMA-8 | A desserialização de objetos, se houver, é implementada usando APIs de serialização seguras. | ✓  |  ✓  |
-| **6.9** | MSTG-PLATAFORMA-9 | O aplicativo se protege contra ataques de sobreposição de tela. (somente para Android) |  | ✓  |
-| **6.10** | MSTG-PLATAFORMA-10 | O cache, o armazenamento e os recursos carregados do WebView (JavaScript, etc.) devem ser eliminados antes que o WebView seja destruído. |  | ✓  |
-| **6.11** | MSTG-PLATAFORMA-11 | Verifique se o aplicativo impede o uso de teclados de terceiros personalizados sempre que dados confidenciais são inseridos. | | ✓  |
+| **6.2** | MSTG-PLATFORM-2 | Todas as entradas de fontes externas e do usuário são validadas e, se necessário, sanitizadas. Isso inclui dados recebidos através da UI, mecanismos de IPC (como intenções), URLs personalizadas e origens de rede.| ✓ | ✓ |
+| **6.3** | MSTG-PLATAFORM-3 | O aplicativo não exporta funcionalidades sensíveis através de esquemas de URL personalizados, a menos que esses mecanismos estejam devidamente protegidos. | ✓  |  ✓  |
+| **6.4** | MSTG-PLATAFORM-4 | O aplicativo não exporta funcionalidades sensíveis através do IPC, a menos que esses mecanismos estejam devidamente protegidos. | ✓  |  ✓  |
+| **6.5** | MSTG-PLATAFORM-5 | Código *JavaScript* é desativado no *WebViews*, a menos que explicitamente necessário. | ✓  |  ✓  |
+| **6.6** | MSTG-PLATAFORM-6 | O *WebViews* está configurado para permitir apenas o conjunto mínimo de manipuladores de protocolo necessários (apenas https é suportado). Manipuladores potencialmente perigosos, como um arquivo, *tel* e *app-id* são desativados. | ✓  |  ✓  |
+| **6.7** | MSTG-PLATAFORM-7 | Se os métodos nativos do aplicativo forem expostos a um *WebView*, verifique se o *WebView* só renderiza o código *JavaScript* contido no pacote do aplicativo. | ✓  |  ✓  |
+| **6.8** | MSTG-PLATAFORM-8 | A desserialização de objetos, se houver, é implementada usando APIs de serialização seguras. | ✓  |  ✓  |
+| **6.9** | MSTG-PLATAFORM-9 | O aplicativo se protege contra ataques de sobreposição de tela. (somente para Android) |  | ✓  |
+| **6.10** | MSTG-PLATAFORM-10 | O *cache*, o armazenamento e os recursos carregados do *WebView* (*JavaScript*, etc.) devem ser eliminados antes que o *WebView* seja destruído. |  | ✓  |
+| **6.11** | MSTG-PLATAFORM-11 | Verifique se o aplicativo impede o uso de teclados de terceiros personalizados sempre que dados confidenciais são inseridos. | | ✓  |
 
 
-## References
+## Referências
 
-O Guia de Teste de Segurança Móvel da OWASP fornece instruções detalhadas para verificar os requisitos listados nesta seção.
+O *OWASP Mobile Security Testing Guide* fornece instruções detalhadas para verificar os requisitos listados nesta seção.
 
-- Android: Interação Com plataforma de Testes - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
-- iOS: Interação Com plataforma de Testes - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
+- Android: Testing Platform Interaction (em inglês) - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
+- iOS: Testing Platform Interaction (em inglês) - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
 
-Para mais informações, veja:
+Para mais informações, veja (em inglês):
 
 - OWASP Mobile Top 10: M1 (Improper Platform Usage) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m1-improper-platform-usage>
 - OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality>
