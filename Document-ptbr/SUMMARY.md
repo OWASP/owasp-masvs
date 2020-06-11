@@ -13,8 +13,8 @@
 - [V3: Requisitos de Criptografia](0x08-V3-Cryptography_Verification_Requirements.md)
 - [V4: Requisitos de Autenticação e Gerenciamento de Sessão](0x09-V4-Authentication_and_Session_Management_Requirements.md)
 - [V5: Requisitos de Comunicação de Rede](0x10-V5-Network_communication_requirements.md)
-- [V6: Requisitos de Interação com Plataformas](0x11-V6-Interaction_with_the_environment.md)
-- [V7: Requisitos de Qualidade de Código e Configuração do *Build*](0x12-V7-Code_quality_and_build_setting_requirements.md)
+- [V6: Requisitos de Interação de Plataforma](0x11-V6-Interaction_with_the_environment.md)
+- [V7: Requisitos de Qualidade de Código e Configuração do Compilador](0x12-V7-Code_quality_and_build_setting_requirements.md)
 - [V8: Requisitos de Resiliência](0x15-V8-Resiliency_Against_Reverse_Engineering_Requirements.md)
 
 ## Apêndice
