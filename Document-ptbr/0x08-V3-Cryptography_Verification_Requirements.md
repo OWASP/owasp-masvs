@@ -21,12 +21,12 @@ A criptografia é um ingrediente essencial quando se trata da proteção dos dad
 
 ## Referências
 
-O OWASP Mobile Security Testing Guide fornece instruções detalhadas para verificar os requisitos listados nesta seção.
+O *OWASP Mobile Security Testing Guide* fornece instruções detalhadas para verificar os requisitos listados nesta seção (em inglês).
 
 - Android: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
 - iOS: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
 
-Para mais informações, consulte também:
+Para mais informações, consulte também (em inglês):
 
 - OWASP Mobile Top 10: M5 (Insufficient Cryptography) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m5-insufficient-cryptography>
 - CWE 310 (Cryptographic Issues) - <https://cwe.mitre.org/data/definitions/310.html>
