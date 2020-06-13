@@ -2,7 +2,7 @@
 
 ## Objetivo do Controle
 
-O propósito dos controles listados nessa seção é garantir a confidencialidade e integridade das informações trocadas entre o aplicativo móvel e os *endpoints* de serviço remoto. Um aplicativo móvel deve, pelo menos, criar um canal seguro e criptografado para comunicação de rede utilizando o protocolo TLS com as configurações apropriadas. O Nível 2 lista medidas adicionais de defesa em profundidade, como fixação de SSL (*SSL Pinning*).
+O propósito dos controles listados nessa seção é garantir a confidencialidade e integridade das informações trocadas entre o aplicativo móvel e os terminais de serviço remoto. Um aplicativo móvel deve, pelo menos, criar um canal seguro e criptografado para comunicação de rede utilizando o protocolo TLS com as configurações apropriadas. O Nível 2 lista medidas adicionais de defesa em profundidade, como fixação de SSL (_SSL Pinning_).
 
 ## Requisitos de Verificação de Segurança
 
@@ -10,14 +10,14 @@ O propósito dos controles listados nessa seção é garantir a confidencialidad
 | -- | -------- | ---------------------- | - | - |
 | **5.1** | MSTG-NETWORK-1 | Os dados são criptografados na rede utilizando TLS. O canal seguro é utilizado de forma consistente através do aplicativo. | ✓ | ✓ |
 | **5.2** | MSTG-NETWORK-2 | As configurações do TLS estão alinhadas com as melhores práticas atuais, ou o mais próximas possível se o sistema operacional móvel não oferece suporte aos padrões recomendados. | ✓ | ✓ |
-| **5.3** | MSTG-NETWORK-3 | O aplicativo verifica o certificado X.509 do *endpoint* remoto quando o canal seguro é estabelecido. Apenas certificados assinados por uma CA confiável são aceitos. | ✓ | ✓ |
-| **5.4** | MSTG-NETWORK-4 | O aplicativo utiliza seu próprio armazenamento de certificados, ou define um certificado ou chave pública do *endpoint* e, posteriormente, não estabelece conexões com *endpoints* que ofereçam um certificado ou chave diferente, mesmo que assinados por uma CA confiável. |   | ✓ |
+| **5.3** | MSTG-NETWORK-3 | O aplicativo verifica o certificado X.509 do terminal remoto quando o canal seguro é estabelecido. Apenas certificados assinados por uma CA confiável são aceitos. | ✓ | ✓ |
+| **5.4** | MSTG-NETWORK-4 | O aplicativo utiliza seu próprio armazenamento de certificados, ou define um certificado ou chave pública do terminal e, posteriormente, não estabelece conexões com terminais que ofereçam um certificado ou chave diferente, mesmo que assinados por uma CA confiável. |   | ✓ |
 | **5.5** | MSTG-NETWORK-5 | O aplicativo não confia em um único canal de comunicações inseguro (email ou SMS) para operações críticas, como registros/cadastros ou recuperação de conta. |  | ✓ |
 | **5.6** | MSTG-NETWORK-6 | O aplicativo depende de conectividade e bibliotecas de segurança atualizadas. |  | ✓ |
 
 ## Referências
 
-O *OWASP Mobile Security Testing Guide* provê instruções detalhadas para verificar os requerimentos listados nessa seção (em inglês).
+O Guia de Teste de Segurança de Aplicações Móveis da OWASP provê instruções detalhadas para verificar os requerimentos listados nesta seção (em inglês).
 
 - General: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
 - Android: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
