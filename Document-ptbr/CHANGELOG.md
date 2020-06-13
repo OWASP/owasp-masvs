@@ -39,7 +39,7 @@ As seguintes alterações fazem parte da versão 1.1.4:
 - Redução do tamanho do repositório e adição do *Generated* ao .gitignore.
 - Adicionados um Código de Conduta e Orientações para Contribuição.
 - Adicionado um modelo para *Pull-Requests*.
-- Atualização da sincroniza com o repositório em uso para hospedar o *site* do Gitbook.
+- Atualização da sincronização com o repositório em uso para hospedar o *site* do Gitbook.
 - Atualizados os *scripts* para gerar o XML/JSON/CSV de todas as traduções.
 - Tradução do Prefácio para o Chinês (ZHTW).
 
@@ -68,7 +68,7 @@ As seguintes alterações fazem parte da versão 1.1:
 
 - Requisito 2.6 Remoção de "A área de transferência é desativada em campos de texto que possam conter dados sensíveis".
 - Requisito 2.2 Adição de "Dados sensíveis não devem ser armazenados fora do contêiner do aplicativo ou de recursos de armazenamento de credenciais do sistema".
-- Requisito 2.1 foi reescrito para "Recursos de armazenamento de credenciais do sistema devem ser utilizados para armazenar dados sensíveis, como Dados de Identificação Pessoal (PII), credenciais de usuário ou chaves criptográficas."
+- Requisito 2.1 foi reescrito para "Recursos de armazenamento de credenciais do sistema devem ser utilizados para armazenar dados sensíveis, como Informação de Identificação Pessoal (PII), credenciais de usuário ou chaves criptográficas."
 
 ## V1.0 - 12 de Janeiro de 2018
 
