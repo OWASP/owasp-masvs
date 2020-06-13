@@ -11,7 +11,7 @@
 - **Comunicação Intra-Processos (IPC)** - EM IPC os processos se comunicam uns com os outros e com o *kernel* para coordenar suas atividades.
 - **Configuração de Segurança** - A configuração de execução de uma aplicação que afeta como os controles de segurança são utilizados.
 - **Controle de Segurança** - Uma função ou componente que executa uma checagem de segurança (por exemplo, uma checagem de controle de acesso) ou quando chamado tem resultados com efeitos na segurança (por exemplo gerar um registro de auditoria).
-- **Cross-Site Scripting* (XSS)** - Uma vulnerabilidade de segurança tipicamente encontrada em aplicações *web*, permitindo a injeção de *scripts* do lado do cliente no conteúdo.
+- ***Cross-Site Scripting* (XSS)** - Uma vulnerabilidade de segurança tipicamente encontrada em aplicações *web*, permitindo a injeção de *scripts* do lado do cliente no conteúdo.
 - **CWE** - CWE é uma lista desenvolvida de forma comunitária para falhas comuns de segurança. Ela serve como uma linguagem única, uma medida para ferramentas de segurança de *software* e como embasamento para identificação de falhas e esforços de mitigação e prevenção.
 - **Executável de Posição Independente (*Position Independent Executable* - PIE)** - O PIE é um corpo de código de máquina que, sendo colocado em algum lugar da memória primária, executa corretamente independente do seu endereço absoluto.
 - **Identificador Único Global (GUID)** - Um número único de referência utilizado como identificador em um *software*.
@@ -22,7 +22,7 @@
 - **Malware** - Código executável que é introduzido em uma aplicação em execução sem o conhecimento do usuário ou administrador da aplicação.
 - **Modelagem de Ameaças (*Threat Modeling*)** - Técnica que consiste em desenvolver arquiteturas de segurança cada vez mais refinadas a fim de identificar agentes de ameaça, zonas e controles de segurança, técnicas importantes e ativos de negócio.
 - **Módulo Criptográfico** - *Hardware*, *Software* e/ou *firmware* que implementa algoritmos criptográficos e/ou gera chaves criptográficas.
-- **Projeto Aberto de Segurança de Aplicações *Web* (*Open Web Application Security Project* - OWASP)** - A OWASP é uma comunidade mundial livre e aberta focada na melhoria da segurança de aplicações de *software*. Nossa missão é tornar a segurança de aplicações "visível", então as pessoas e organizações poderão tomar decisões conscientes sobre os riscos de segurança de aplicaçõves. Veja mais: <https://www.owasp.org/>.
+- ***Open Web Application Security Project* (OWASP)** - A OWASP é uma comunidade mundial livre e aberta focada na melhoria da segurança de aplicações de *software*. Nossa missão é tornar a segurança de aplicações "visível", então as pessoas e organizações poderão tomar decisões conscientes sobre os riscos de segurança de aplicaçõves. Veja mais: <https://www.owasp.org/>.
 - **Protocolo de Transferência de Hipertexto (HTTP)** - Um protocolo de aplicação para sistemas distribuídos, colaborativos e de informação de hipermídia. Ele é o fundamento para comunicação de dados na Rede Mundial (*World Wide Web* - WWW).
 - **Randomização de Layout de Espaço de Endereço (*Address Space Layout Randomization* - ASLR)** – Uma técnica para tornar mais díficil a exploração de erros de corrupção da memória.
 - **Relatório de Verificação da Segurança de Aplicações** - Um relatório que documenta os resultados gerais e dá suporte a análises produzidas pelo verificador para uma aplicação em particular.
