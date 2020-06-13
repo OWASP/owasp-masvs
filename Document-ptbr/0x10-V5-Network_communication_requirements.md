@@ -1,10 +1,10 @@
-# V5: Requerimentos de Comunicação de Rede
+# V5: Requisitos de Comunicação de Rede
 
 ## Objetivo do Controle
 
 O propósito dos controles listados nessa seção é garantir a confidencialidade e integridade das informações trocadas entre o aplicativo móvel e os *endpoints* de serviço remoto. Um aplicativo móvel deve, pelo menos, criar um canal seguro e criptografado para comunicação de rede utilizando o protocolo TLS com as configurações apropriadas. O Nível 2 lista medidas adicionais de defesa em profundidade, como fixação de SSL (*SSL Pinning*).
 
-## Requerimentos de Verificação de Segurança
+## Requisitos de Verificação de Segurança
 
 | # | MSTG-ID | Descrição | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
@@ -17,23 +17,23 @@ O propósito dos controles listados nessa seção é garantir a confidencialidad
 
 ## Referências
 
-O Guia de Teste de Segurança de Aplicações Móveis da OWASP provê instruções detalhadas para verificar os requerimentos listados nessa seção.
+O *OWASP Mobile Security Testing Guide* provê instruções detalhadas para verificar os requerimentos listados nessa seção (em inglês).
 
-- Geral: Testando Comunicações de Rede (em inglês) - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
-- Android: Testando Comunicações de Rede (em inglês) - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
-- iOS: Testando Comunicações de Rede (em inglês) - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
+- General: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
+- Android: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
+- iOS: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
 
 Para mais informações, veja também (em inglês):
 
-- OWASP Mobile Top 10: M3 (Communicação Insegura) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m3-insecure-communication>
-- CWE 295 (Validação Inadequada de Certificados) - <https://cwe.mitre.org/data/definitions/295.html>
-- CWE 296 (Seguindo uma Cadeia de Confiança de Certificado Incorretamente) - <https://cwe.mitre.org/data/definitions/296.html>
-- CWE 297 (Validação Inadequada de Certificado com Incompatibilidade de *Host*) - <https://cwe.mitre.org/data/definitions/297.html>
-- CWE 298 (Validação Inadequada de Expiração de Certificado) - <https://cwe.mitre.org/data/definitions/298.html>
-- CWE 308 (Uso de Autenticação de Fator Único) - <https://cwe.mitre.org/data/definitions/308.html>
-- CWE 319 (Transmissão em Texto Claro de Informações Sensíveis) - <https://cwe.mitre.org/data/definitions/319.html>
-- CWE 326 (Encriptação com Força Inadequada) - <https://cwe.mitre.org/data/definitions/326.html>
-- CWE 327 (Uso de Algoritmos Criptográficos Quebrados ou de Risco) - <https://cwe.mitre.org/data/definitions/327.html>
-- CWE 780 (Uso de Algoritmo RSA sem OAEP) - <https://cwe.mitre.org/data/definitions/780.html>
-- CWE 940 (Verificação Inadequada de Origem em um Canal de Comunicação) - <https://cwe.mitre.org/data/definitions/940.html>
-- CWE 941 (Especificação Incorreta de Destino em um Canal de Comunicação) - <https://cwe.mitre.org/data/definitions/941.html>
+- OWASP Mobile Top 10: M3 (Insecure Communication) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m3-insecure-communication>
+- CWE 295 (Improper Certificate Validation) - <https://cwe.mitre.org/data/definitions/295.html>
+- CWE 296 (Improper Following of a Certificate's Chain of Trust) - <https://cwe.mitre.org/data/definitions/296.html>
+- CWE 297 (Improper Validation of Certificate with Host Mismatch) - <https://cwe.mitre.org/data/definitions/297.html>
+- CWE 298 (Improper Validation of Certificate Expiration) - <https://cwe.mitre.org/data/definitions/298.html>
+- CWE 308 (Use of Single-factor Authentication) - <https://cwe.mitre.org/data/definitions/308.html>
+- CWE 319 (Cleartext Transmission of Sensitive Information) - <https://cwe.mitre.org/data/definitions/319.html>
+- CWE 326 (Inadequate Encryption Strength) - <https://cwe.mitre.org/data/definitions/326.html>
+- CWE 327 (Use of a Broken or Risky Cryptographic Algorithm) - <https://cwe.mitre.org/data/definitions/327.html>
+- CWE 780 (Use of RSA Algorithm without OAEP) - <https://cwe.mitre.org/data/definitions/780.html>
+- CWE 940 (Improper Verification of Source of a Communication Channel) - <https://cwe.mitre.org/data/definitions/940.html>
+- CWE 941 (Incorrectly Specified Destination in a Communication Channel) - <https://cwe.mitre.org/data/definitions/941.html>
