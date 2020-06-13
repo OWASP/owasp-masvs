@@ -10,10 +10,10 @@ O objetivo deste controle é garantir que práticas básicas de codificação se
 | # | MSTG-ID | Descrição | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
 | **7.1** | MSTG-CODE-1 | O aplicativo é assinado e disponibilizado com um certificado válido e cuja chave privada está devidamente protegida. | ✓ | ✓ |
-| **7.2** | MSTG-CODE-2 | O aplicativo foi criado em modo de _release_ e com as configurações apropriadas para ela (e.g. non-debuggable). | ✓ | ✓ |
+| **7.2** | MSTG-CODE-2 | O aplicativo foi criado em modo de _release_ e com as configurações apropriadas para ela (por exemplo, não-debugável). | ✓ | ✓ |
 | **7.3** | MSTG-CODE-3 | Os símbolos de depuração foram removidos dos binários nativos. | ✓ | ✓ |
-| **7.4** | MSTG-CODE-4 | Todo código de depuração e de assistência ao desenvolvedor deve (ex.: código de teste, _backdoors_,configurações ocultas) deve ser eliminado. O aplicativo não tem logs detalhados de erros e nem mensagens de depuração. | ✓ | ✓ |
-| **7.5** | MSTG-CODE-5 | Todos componentes de terceiros utilizados pelo aplicativo móvel, como blibliotecas e _frameworks_, são identificados e revisados quanto às vulnerabilidades conhecidas. | ✓ | ✓ |
+| **7.4** | MSTG-CODE-4 | Todo código de depuração e de assistência ao desenvolvedor deve (ex.: código de teste, _backdoors_,configurações ocultas) deve ser eliminado. O aplicativo não tem *logs* detalhados de erros e nem mensagens de depuração. | ✓ | ✓ |
+| **7.5** | MSTG-CODE-5 | Todos componentes de terceiros utilizados pelo aplicativo móvel, como bibliotecas e _frameworks_, são identificados e revisados quanto às vulnerabilidades conhecidas. | ✓ | ✓ |
 | **7.6** | MSTG-CODE-6 | O aplicativo captura e trata devidamente as possíveis exceções. | ✓ | ✓ |
 | **7.7** | MSTG-CODE-7 | Os controles de segurança não permitem acesso por padrão no tratamento de erros. | ✓ | ✓ |
 | **7.8** | MSTG-CODE-8 | No código não gerenciado, a memória é alocada, liberada e usada com segurança.  | ✓ | ✓ |
@@ -21,7 +21,7 @@ O objetivo deste controle é garantir que práticas básicas de codificação se
 
 ## Referências
 
-O Guia de Teste de Segurança de Dispositivos Móveis do OWASP disponibiliza instruções detalhadas para verificar os requisitos listados nesta seção (em inglês).
+O *OWASP Mobile Security Testing Guide* disponibiliza instruções detalhadas para verificar os requisitos listados nesta seção (em inglês).
 
 - Android: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document-ptbr/0x05i-Testing-Code-Quality-and-Build-Settings.md>
 - iOS: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document-ptbr/0x06i-Testing-Code-Quality-and-Build-Settings.md>
