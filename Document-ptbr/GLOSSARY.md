@@ -88,7 +88,7 @@ Técnica que consiste em desenvolver arquiteturas de segurança cada vez mais re
 
 *Hardware*, *Software* e/ou *firmware* que implementa algoritmos criptográficos e/ou gera chaves criptográficas.
 
-## Projeto Aberto de Segurança de Aplicações *Web* (*Open Web Application Security Project* - OWASP)
+## *Open Web Application Security Project* (OWASP)
 
 A OWASP é uma comunidade mundial livre e aberta focada na melhoria da segurança de aplicações de *software*. Nossa missão é tornar a segurança de aplicações "visível", então as pessoas e organizações poderão tomar decisões conscientes sobre os riscos de segurança de aplicaçõves. Veja mais: <https://www.owasp.org/>.
 
