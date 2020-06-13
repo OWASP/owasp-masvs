@@ -32,7 +32,7 @@ Código introduzido dentro da aplicação durante o seu desenvolvimento sem o co
 
 Uma unidade de código autônoma, associada a um disco e a interfaces de rede que comunicam com outros componentes.
 
-## Comunicação Intra-Processos (IPC)
+## Comunicação Entre Processos (IPC)
 
 Em IPC os processos se comunicam uns com os outros e com o *kernel* para coordenar suas atividades.
 
@@ -46,7 +46,7 @@ Uma função ou componente que executa uma checagem de segurança (por exemplo, 
 
 ## *Cross-Site Scripting* (XSS)
 
-Uma vulnerabilidade de segurança tipicamente encontrada em aplicações *web*, permitindo a injeção de *scripts* do lado do cliente no conteúdo.
+Uma vulnerabilidade de segurança tipicamente encontrada em aplicações *web*, permitindo a injeção de *scripts* no conteúdo do lado do cliente.
 
 ## CWE
 
@@ -74,7 +74,7 @@ Uma técnica de injeção de código usada para atacar aplicações orientadas a
 
 ## Lista Branca (*Whitelist*)
 
-Uma lista de dados ou operações permitidos, por exemplo uma lista de caracteres que são aceitos em uma validação de entradas de usuário.
+Uma lista de dados ou operações permitidas, por exemplo uma lista de caracteres que são aceitos em uma validação de entradas de usuário.
 
 ## *Malware*
 
@@ -86,11 +86,11 @@ Técnica que consiste em desenvolver arquiteturas de segurança cada vez mais re
 
 ## Módulo Criptográfico
 
-*Hardware*, *Software* e/ou *firmware* que implementa algoritmos criptográficos e/ou gera chaves criptográficas.
+*Hardware*, *software* e/ou *firmware* que implementa algoritmos criptográficos e/ou gera chaves criptográficas.
 
-## *Open Web Application Security Project* (OWASP)
+## *Projeto Aberto de Segurança de Aplicações *Web* (*Open Web Application Security Project* - OWASP)*
 
-A OWASP é uma comunidade mundial livre e aberta focada na melhoria da segurança de aplicações de *software*. Nossa missão é tornar a segurança de aplicações "visível", então as pessoas e organizações poderão tomar decisões conscientes sobre os riscos de segurança de aplicaçõves. Veja mais: <https://www.owasp.org/>.
+A OWASP é uma comunidade mundial livre e aberta focada na melhoria da segurança de aplicações de *software*. Nossa missão é tornar a segurança de aplicações "visível", então as pessoas e organizações poderão tomar decisões conscientes sobre os riscos de segurança de aplicações. Veja mais: <https://www.owasp.org/>.
 
 ## Protocolo de Transferência de Hipertexto (HTTP)
 
@@ -98,7 +98,7 @@ Um protocolo de aplicação para sistemas distribuídos, colaborativos e de info
 
 ## Randomização de Layout de Espaço de Endereço (*Address Space Layout Randomization* - ASLR)
 
-Uma técnica para tornar mais díficil a exploração de erros de corrupção da memória.
+Uma técnica para tornar mais difícil a exploração de erros de corrupção da memória.
 
 ## Relatório de Verificação da Segurança de Aplicações
 
@@ -106,7 +106,7 @@ Um relatório que documenta os resultados gerais e dá suporte a análises produ
 
 ## SDLC
 
-Sigla para Ciclo de Desenvolvimento de *Software* (*Software Development Life Cycle*).
+Sigla para Ciclo de Desenvolvimento de *software* (*Software Development Life Cycle*).
 
 ## Segurança de Aplicações
 
