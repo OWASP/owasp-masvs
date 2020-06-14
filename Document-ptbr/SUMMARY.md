@@ -2,7 +2,7 @@
 
 - [Controle de Alterações](CHANGELOG.md)
 - [Prefácio](0x01-Foreword.md)
-- [Início](0x02-Frontispiece.md)
+- [Frontispício](0x02-Frontispiece.md)
 - [Usando o MASVS](0x03-Using_the_MASVS.md)
 - [Avaliação e Certificação](0x04-Assessment_and_Certification.md)
 
