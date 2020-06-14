@@ -53,4 +53,4 @@ Ainda que tanto o MASVS quanto o MSTG tenham sido criados e mantidos pela comuni
 
 [<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
-Também gostaríamos de agradecer o Capítulo OWASP da Área da Bahia por seu patrocínio. Por fim, gostaríamos de agradecer a todos que compraram o livro no _Leanpub_ e nos patrocinaram dessa maneira.
+Também gostaríamos de agradecer o Capítulo OWASP da _Bay Area_ por seu patrocínio. Por fim, gostaríamos de agradecer a todos que compraram o livro no _Leanpub_ e nos patrocinaram dessa maneira.
