@@ -36,7 +36,7 @@ Copyright © 2020 The OWASP Foundation. Este documento é licenciado sob a licen
 | Francês | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Revisão) |
 | Japonês | Koki Takeyama, Riotaro Okada (Revisão) |
 | Persa | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari |
-| Português Brasileiro | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
+| Português (Brasileiro) | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
 | Russo | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Revisão), Oprya Egor (Revisão), Tereshin Dmitry (Revisão) |
 
 Este documento começou como um _fork_ do Padrão de Verificação de Segurança de Aplicativos Móveis da OWASP escrito por Jim Manico.
