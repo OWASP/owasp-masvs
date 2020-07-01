@@ -11,7 +11,7 @@
 - **Comunicação entre Processos (IPC)** - EM IPC os processos se comunicam uns com os outros e com o *kernel* para coordenar suas atividades.
 - **Configuração de Segurança** - A configuração de execução de uma aplicação que afeta como os controles de segurança são utilizados.
 - **Controle de Segurança** - Uma função ou componente que executa uma checagem de segurança (por exemplo, uma checagem de controle de acesso) ou quando chamado tem resultados com efeitos na segurança (por exemplo gerar um registro de auditoria).
-- **_Cross-Site Scripting_* (XSS)** - Uma vulnerabilidade de segurança tipicamente encontrada em aplicações *web*, permitindo a injeção de *scripts* no conteúdo do lado do cliente.
+- **_Cross-Site Scripting_ (XSS)** - Uma vulnerabilidade de segurança tipicamente encontrada em aplicações _web_, permitindo a injeção de _scripts_ no conteúdo do lado do cliente.
 - **CWE** - CWE é uma lista desenvolvida de forma comunitária para falhas comuns de segurança. Ela serve como uma linguagem única, uma medida para ferramentas de segurança de *software* e como embasamento para identificação de falhas e esforços de mitigação e prevenção.
 - **Executável de Posição Independente (*Position Independent Executable* - PIE)** - O PIE é um corpo de código de máquina que, sendo colocado em algum lugar da memória primária, executa corretamente independente do seu endereço absoluto.
 - **Identificador Único Global (GUID)** - Um número único de referência utilizado como identificador em um *software*.
