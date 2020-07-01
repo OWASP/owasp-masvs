@@ -23,7 +23,7 @@ O objetivo deste controle é garantir que práticas básicas de codificação se
 
 O Guia de Teste de Segurança de Dispositivos Móveis do OWASP disponibiliza instruções detalhadas para verificar os requisitos listados nesta seção (em inglês).
 
-- Android: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document-ptbr/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- Android: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
 - iOS: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document-ptbr/0x06i-Testing-Code-Quality-and-Build-Settings.md>
 
 Para mais informações, veja também (em inglês):
