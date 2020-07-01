@@ -71,7 +71,7 @@ A implementação dos requisitos do MASVS L2 aumenta a segurança, ao mesmo temp
 
 - Indústria Financeira: Aplicativos que permitem o acesso a informações altamente sensíveis como números de cartão de crédito, informações pessoais ou permitem que o usuário mova fundos. Esses aplicativos garantem controles adicionais de segurança para evitar fraudes. Os aplicativos financeiros precisam garantir a conformidade com o Padrão de Segurança de Dados da Indústria de Cartões de Pagamento (PCI DSS), atos _Gramm Leech Bliley_ e _Sarbanes-Oxley (SOX)_.
 
-####### MASVS L1+R
+###### MASVS L1+R
 
 - Aplicativos móveis onde a proteção da Propriedade Intelectual (IP) é um objetivo comercial. Os controles de resiliência listados no MASVS-R podem ser usados para aumentar o esforço necessário para obter o código fonte original e para impedir a adultareão / _cracking_.
 
