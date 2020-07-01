@@ -5,7 +5,7 @@
 - **Autenticação** - A verificação da identidade reclamada por um usuário da aplicação.
 - ***Bytecode* Java** - *Bytecode* Java é um grupo de instruções da Máquina Virtual Java (JVM). Cada *bytecode* é composto por um, ou em alguns casos dois, *bytes* que representam uma instrução (*opcode*), junto com zero ou mais *bytes* para passagem de parâmetros.
 - **Certificado X.509** - Um certificado X.509 é um certificado digital que utiliza o padrão globalmente reconhecido X.509 de Infraestrutura de Chave Pública (PKI) para verificar que uma chave pública pertence a um usuário, computador ou serviço identificado no certificado.
-- **Chaves *Hardcoded*** - Chaves criptográficas que são armazenadas no próprio dispositivo.
+- **Chaves _Hardcoded_** - Chaves criptográficas que são armazenadas no próprio dispositivo.
 - **Código Malicioso** - Código introduzido dentro da aplicação durante o seu desenvolvimento sem o consentimento do dono da aplicação, o qual contorna a política de segurança pretendida pela aplicação. Não é a mesma coisa que *malware*, vírus ou *worm*!
 - **Componente** - Uma unidade de código autônoma, associada a um disco e a interfaces de rede que comunicam com outros componentes.
 - **Comunicação entre Processos (IPC)** - EM IPC os processos se comunicam uns com os outros e com o *kernel* para coordenar suas atividades.
