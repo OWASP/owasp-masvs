@@ -1,161 +1,161 @@
-# Appendix A: Glossary
+# परिशिष्ट A: शब्दावली
 
-## Address Space Layout Randomization (ASLR)
+## एड्रेस स्पेस लेआउट रैंडमाइजेशन (ASLR)
 
-A technique to make exploiting memory corruption bugs more difficult.
+मेमोरी करप्शन के बग को और अधिक कठिन बनाने की तकनीक।
 
-## Application Security
+## ऐप्लीकेशन सिक्योरिटी
 
-Application-level security focuses on the analysis of components that comprise the application layer of the Open Systems Interconnection Reference Model (OSI Model), rather than focusing on for example the underlying operating system or connected networks.
+अनुप्रयोग-स्तरीय सुरक्षा घटकों के विश्लेषण पर केंद्रित है जिसमें अंतर्निहित ऑपरेटिंग सिस्टम या कनेक्टेड नेटवर्क उदाहरण के लिए ध्यान केंद्रित करने के बजाय ओपन सिस्टम इंटरकनेक्शन रेफरेंस मॉडल (OSI मॉडल) की एप्लिकेशन परत शामिल है।
 
-## Application Security Verification
+## ऐप्लीकेशन सिक्युरटी विरफ़केशन
 
-The technical assessment of an application against the OWASP MASVS.
+OWASP MASVS के विरुद्ध एक एप्लिकेशन का तकनीकी मूल्यांकन।
 
-## Application Security Verification Report
+## ऐप्लीकेशन सिक्योरिटी वेरीफिकेशन रिपोर्ट
 
-A report that documents the overall results and supporting analysis produced by the verifier for a particular application.
+एक रिपोर्ट जो किसी विशेष एप्लिकेशन के लिए सत्यापनकर्ता द्वारा उत्पादित समग्र परिणामों और सहायक विश्लेषण का दस्तावेजीकरण करती है।
 
-## Authentication
+## ऑथेंटिकेशन
 
-The verification of the claimed identity of an application user.
+एक आवेदन उपयोगकर्ता के दावे की गई पहचान का सत्यापन।
 
-## Automated Verification
+## ऑटोमेटेड वेरिफिकेशन
 
-The use of automated tools (either dynamic analysis tools, static analysis tools, or both) that use vulnerability signatures to find problems.
+ऑटोमेटेड टूल्स (या तो डायनेमिक अनेलसस टूल्स, स्टेटिक अनेलसस टूल्स, या दोनों) का उपयोग जो समस्याओं को खोजने के लिए वल्नरबिलिटी सिग्‍नेचर का उपयोग करते हैं।
 
-## Black box testing
+## ब्लैक बॉक्स परीक्षण
 
-It is a method of software testing that examines the functionality of an application without peering into its internal structures or workings.
+यह सॉफ्टवेयर परीक्षण का एक तरीका है जो किसी एप्लिकेशन की कार्यक्षमता को उसकी आंतरिक संरचनाओं या कामकाज में शामिल किए बिना जांचता है।
 
-## Component
+## कॉम्पोनेन्ट
 
-a self-contained unit of code, with associated disk and network interfaces that communicates with other components.
+संबंधित डिस्क और नेटवर्क इंटरफेस के साथ कोड की एक स्व-निहित इकाई, जो अन्य घटकों के साथ संचार करती है।
 
-## Cross-Site Scripting (XSS)
+## क्रॉस-साइट स्क्रिप्टिंग(XSS)  
 
-A security vulnerability typically found in web applications allowing the injection of client-side scripts into content.
+एक सिक्योरिटी वल्नेरेबिलिटी आम तौर पर वेब एप्लिकेशन में पाई जाती है जो क्लाइंट-साइड स्क्रिप्ट के कंटेंट को इंजेक्शन की अनुमति देती है।
 
-## Cryptographic module
+## क्रिप्टोग्राफ़िक मॉड्यूल
 
-Hardware, software, and/or firmware that implements cryptographic algorithms and/or generates cryptographic keys.
+हार्डवेयर, सॉफ्टवेयर, और / या फर्मवेयर जो क्रिप्टोग्राफ़िक एल्गोरिदम को लागू करता है और / या क्रिप्टोग्राफ़िक कीस उत्पन्न करता है।
 
 ## CWE
 
-CWE is a community-developed list of common software security weaknesses. It serves as a common language, a measuring stick for software security tools, and as a baseline for weakness identification, mitigation, and prevention efforts.
+CWE सामान्य सॉफ़्टवेयर सुरक्षा कमजोरियों की एक समुदाय-विकसित सूची है। यह एक सामान्य भाषा के रूप में, सॉफ्टवेयर सुरक्षा उपकरणों के लिए एक छड़ी और कमजोरी पहचान, शमन और रोकथाम के प्रयासों के लिए आधार रेखा के रूप में कार्य करता है।
 
 ## DAST
 
-Dynamic application security testing (DAST) technologies are designed to detect conditions indicative of a security vulnerability in an application in its running state.
+डायनामिक एप्लिकेशन सिक्योरिटी टेस्टिंग (DAST) प्रौद्योगिकियाँ ऐसी स्थिति का पता लगाने के लिए डिज़ाइन की गई हैं जो इसके चलने की स्थिति में किसी सिक्योरिटी वल्नरबिलिटी का संकेत देती हैं।
 
-## Design Verification
+## डिज़ाइन वेरिफिकेशन
 
-The technical assessment of the security architecture of an application.
+एक एप्लिकेशन की सिक्योरिटी आर्किटेक्चर का तकनीकी मूल्यांकन।
 
-## Dynamic Verification
+## डायनामिक वेरिफिकेशन
 
-The use of automated tools that use vulnerability signatures to find problems during the execution of an application.
+ऑटोमेटेड टूल का उपयोग जो किसी एप्लिकेशन के निष्पादन के दौरान समस्याओं को खोजने के लिए वल्नरबिलिटी सिग्‍नेचर का उपयोग करते हैं।
 
-## Globally Unique Identifier(GUID)
+## ग्लोबली यूनिक आइडेंटिफायर(GUID)
 
-a unique reference number used as an identifier in software.
+सॉफ्टवेयर में पहचानकर्ता के रूप में उपयोग किया जाने वाला एक अद्वितीय संदर्भ संख्या।
 
-## Hyper Text Transfer Protocol(HTTP)
+## हाइपर टेक्स्ट ट्रांसफर प्रोटोकॉल(HTTP)
 
-An application protocol for distributed, collaborative, hypermedia information systems. It is the foundation of data communication for the World Wide Web.
+वितरित, सहयोगी, हाइपरमीडिया सूचना प्रणाली के लिए एक अनुप्रयोग प्रोटोकॉल। यह वर्ल्ड वाइड वेब के लिए डेटा संचार की नींव है।
 
-## Hardcoded keys
+## हार्डकोडेड कीस
 
-Cryptographic keys which are stored in the device itself.
+क्रिप्टोग्राफिक कीस जो डिवाइस में ही संग्रहीत हैं।
 
 ## IPC
 
-Inter Process Communications,In IPC Processes communicate with each other and with the kernel to coordinate their activities.
+इंटर प्रोसेस कम्युनिकेशंस, आईपीसी प्रोसेस में एक-दूसरे के साथ और कर्नेल के साथ अपनी गतिविधियों के समन्वय के लिए संवाद करते हैं।
 
-## Input Validation
+## इनपुट वेलिडेशन
 
-The canonicalization and validation of untrusted user input.
+अविश्वसनीय उपयोगकर्ता इनपुट का कैनॉनिकलाइज़ेशन और सत्यापन।
 
 ## JAVA Bytecode
 
-Java bytecode is the instruction set of the Java virtual machine(JVM). Each bytecode is composed of one, or in some cases two bytes that represent the instruction (opcode), along with zero or more bytes for passing parameters.
+Java bytecode जावा वर्चुअल मशीन (JVM) का इंस्ट्रक्शन सेट है। प्रत्येक बाइटकोड एक से बना होता है, या कुछ मामलों में दो बाइट्स जो निर्देश (ओपोड) का प्रतिनिधित्व करते हैं, साथ ही साथ गुजरने वाले मापदंडों के लिए शून्य या अधिक बाइट्स के साथ।
 
-## Malicious Code
+## मालिसियस कोड
 
-Code introduced into an application during its development unbeknownst to the application owner, which circumvents the application's intended security policy. Not the same as malware such as a virus or worm!
+कोड को इसके विकास के दौरान एक एप्लिकेशन में पेश किया जाता है, जो एप्लिकेशन के मालिक के लिए अनभिज्ञ है, जो एप्लिकेशन की इच्छित सुरक्षा नीति को दरकिनार कर देता है। मैलवेयर जैसे वायरस या वॉर्म नहीं!
 
-## Malware
+## मैलवेयर
 
-Executable code that is introduced into an application during runtime without the knowledge of the application user or administrator.
+निष्पादन योग्य कोड जो अनुप्रयोग उपयोगकर्ता या व्यवस्थापक के ज्ञान के बिना रनटाइम के दौरान एक एप्लिकेशन में पेश किया जाता है।
 
-## Open Web Application Security Project (OWASP)
+## ओपन वेब एप्लीकेशन सिक्योरिटी प्रोजेक्ट (OWASP)
 
-The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security "visible," so that people and organizations can make informed decisions about application security risks. See: <https://www.owasp.org/>
+ओपन वेब एप्लिकेशन सिक्योरिटी प्रोजेक्ट (OWASP) एक विश्वव्यापी स्वतंत्र और खुला समुदाय है, जो एप्लिकेशन सॉफ़्टवेयर की सुरक्षा को बेहतर बनाने पर केंद्रित है। हमारा मिशन अनुप्रयोग सुरक्षा को "दृश्यमान" बनाना है, ताकि लोग और संगठन आवेदन सुरक्षा जोखिमों के बारे में सूचित निर्णय ले सकें। देखें: <https://www.owasp.org/>
 
-## Personally Identifiable Information (PII)
+## पर्सनली आइडेनटिफ़ाइअबॅल इनफार्मेशन (PII)
 
-PII is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
+पीआईआई वह जानकारी है जिसका उपयोग किसी व्यक्ति को पहचानने, संपर्क करने या खोजने या संदर्भ में किसी व्यक्ति की पहचान करने के लिए स्वयं या अन्य जानकारी के साथ किया जा सकता है।
 
 ## PIE
 
-Position-independent executable (PIE) is a body of machine code that, being placed somewhere in the primary memory, executes properly regardless of its absolute address.
+पोजीशन-इंडिपेंडेंट एक्सेक्यूटबले (PIE) मशीन कोड का एक निकाय है, जिसे प्राथमिक मेमोरी में कहीं रखा जा रहा है, इसके पूर्ण पते की परवाह किए बिना ठीक से निष्पादित होता है।
 
 ## PKI
 
-A PKI is an arrangement that binds public keys with respective identities of entities. The binding is established through a process of registration and issuance of certificates at and by a certificate authority (CA).
+पीकेआई एक ऐसी व्यवस्था है जो पब्लिक कीस को संस्थाओं की संबंधित पहचान के साथ बांधती है। बाइंडिंग एक प्रमाणपत्र प्राधिकारी (सीए) द्वारा पंजीकरण और प्रमाण पत्र जारी करने की प्रक्रिया के माध्यम से स्थापित की जाती है।
 
 ## SAST
 
-Static application security testing (SAST) is a set of technologies designed to analyze application source code, byte code and binaries for coding and design conditions that are indicative of security vulnerabilities. SAST solutions analyze an application from the “inside out” in a nonrunning state.
+स्टेटिक एप्लीकेशन सिक्योरिटी टेस्टिंग (SAST) एक ऐसी तकनीक का समूह है जो एप्लीकेशन सोर्स कोड, बाइट कोड और बायनेरिज़ को कोडिंग और डिज़ाइन स्थितियों का विश्लेषण करने के लिए डिज़ाइन किया गया है जो सुरक्षा कमजोरियों का संकेत हैं। SAST समाधान "अंदर से बाहर" एक गैर-आयामी स्थिति में एक अनुप्रयोग का विश्लेषण करते हैं।
 
 ## SDLC
 
-Software development lifecycle.
+सॉफ्टवेयर विकास जीवनचक्र।
 
-## Security Architecture
+## सिक्योरिटी आर्किटेक्चर
 
-An abstraction of an application's design that identifies and describes where and how security controls are used, and also identifies and describes the location and sensitivity of both user and application data.
+एक एप्लिकेशन के डिज़ाइन का एक अमूर्त जो पहचानता है और बताता है कि कहां और कैसे सुरक्षा नियंत्रण का उपयोग किया जाता है, और उपयोगकर्ता और एप्लिकेशन डेटा दोनों के स्थान और संवेदनशीलता की पहचान और वर्णन भी करता है।
 
-## Security Configuration
+## सिक्योरिटी कॉन्फ़िगरेशन
 
-The runtime configuration of an application that affects how security controls are used.
+किसी एप्लिकेशन का रनटाइम कॉन्फ़िगरेशन जो प्रभावित करता है कि सुरक्षा नियंत्रण कैसे उपयोग किए जाते हैं।
 
-## Security Control
+## सिक्योरिटी कण्ट्रोल
 
-A function or component that performs a security check (e.g. an access control check) or when called results in a security effect (e.g. generating an audit record).
+एक फ़ंक्शन या घटक जो एक सुरक्षा जांच (जैसे एक एक्सेस कंट्रोल चेक) करता है या जब एक सुरक्षा प्रभाव में परिणाम (जैसे एक ऑडिट रिकॉर्ड उत्पन्न करना) होता है।
 
-## SQL Injection (SQLi)
+## SQL इंजेक्शन (SQLi)
 
-A code injection technique used to attack data driven applications, in which malicious SQL statements are inserted into an entry point.
+डेटा चालित अनुप्रयोगों पर हमला करने के लिए उपयोग की जाने वाली एक कोड इंजेक्शन तकनीक, जिसमें दुर्भावनापूर्ण SQL स्टेटमेंट को एक एंट्री पॉइंट में डाला जाता है।
 
-## SSO Authentication
+## SSO ऑथेंटिकेशन
 
-Single Sign On(SSO) occurs when a user logs in to one Client and is then signed in to other Clients automatically, regardless of the platform, technology, or domain the user is using. For example when you log in in google you automatically login in the youtube , docs and mail service.
+सिंगल साइन ऑन (एसएसओ) तब होता है जब कोई उपयोगकर्ता किसी क्लाइंट में लॉग इन करता है और फिर उस प्लेटफ़ॉर्म, तकनीक, या डोमेन का उपयोग करने वाले उपयोगकर्ता की परवाह किए बिना स्वचालित रूप से अन्य ग्राहकों के लिए साइन इन किया जाता है। उदाहरण के लिए जब आप Google में लॉग इन करते हैं तो आप स्वतः ही youtube, डॉक्स और मेल सेवा में प्रवेश कर जाते हैं।
 
-## Threat Modeling
+## थ्रेट मॉडलिंग
 
-A technique consisting of developing increasingly refined security architectures to identify threat agents, security zones, security controls, and important technical and business assets.
+थ्रेट एजेंटों, सुरक्षा क्षेत्रों, सुरक्षा नियंत्रणों और महत्वपूर्ण तकनीकी और व्यावसायिक संपत्तियों की पहचान करने के लिए तेजी से परिष्कृत सुरक्षा आर्किटेक्चर विकसित करने वाली तकनीक।
 
-## Transport Layer Security
+## ट्रांसपोर्ट लेयर सिक्योरिटी
 
-Cryptographic protocols that provide communication security over the Internet
+क्रिप्टोग्राफ़िक प्रोटोकॉल जो इंटरनेट पर संचार सुरक्षा प्रदान करते हैं
 
 ## URI and URL
 
-A Uniform Resource Identifier is a string of characters used to identify a name or a web resource. A Uniform Resource Locator is often used as a reference to a resource.
+यूनिफ़ॉर्म रिसोर्स आइडेंटिफ़ायर एक अक्षर का एक स्ट्रिंग है जिसका उपयोग किसी नाम या वेब संसाधन की पहचान करने के लिए किया जाता है। एक यूनिफ़ॉर्म रिसोर्स लोकेटर का उपयोग अक्सर किसी संसाधन के संदर्भ के रूप में किया जाता है।
 
-## User acceptance testing (UAT)
+## उपयोगकर्ता स्वीकृति परीक्षण (UAT)
 
-Traditionally a test environment that behaves like the production environment where all software testing is performed before going live.
+परंपरागत रूप से एक परीक्षण वातावरण जो उत्पादन वातावरण की तरह व्यवहार करता है जहां सभी सॉफ्टवेयर परीक्षण लाइव होने से पहले किए जाते हैं।
 
-## Verifier
+## सत्यापनकर्ता(Verifier)
 
-The person or team that is reviewing an application against the OWASP MASVS requirements.
+वह व्यक्ति या टीम जो OWASP MASVS आवश्यकताओं के विरुद्ध किसी एप्लिकेशन की समीक्षा कर रही है।
 
-## Whitelist
+## वाइटलिस्ट(Whitelist)
 
-A list of permitted data or operations, for example a list of characters that are allowed to perform input validation.
+अनुमत डेटा या संचालन की एक सूची, उदाहरण के लिए वर्णों की एक सूची जो इनपुट सत्यापन करने की अनुमति है।
 
-## X.509 Certificate
+## X.509 सर्टिफिकेट
 
-An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate.
+एक X.509 सर्टिफिकेट एक डिजिटल प्रमाण पत्र है जो व्यापक रूप से स्वीकार किए गए अंतर्राष्ट्रीय X.509 पब्लिक कीस अवसंरचना (PKI) मानक का उपयोग करता है यह प्रमाणित करने के लिए कि पब्लिक कीस सर्टिफिकेट के भीतर मौजूद उपयोगकर्ता, कंप्यूटर या सेवा पहचान से संबंधित है।
