@@ -16,9 +16,7 @@ MASVS是社区努力和行业反馈的成果。我们希望该标准会随着时
 
 版权所有©2020 OWASP基金会。本作品是根据[知识共享署名-相同方式共享 4.0 国际许可](https://creativecommons.org/licenses/by-sa/4.0/)。对于任何重复使用或分发，您必须向他人明确此作品的许可条款。
 
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
+<!-- \pagebreak -->
 
 ## 致谢
 
