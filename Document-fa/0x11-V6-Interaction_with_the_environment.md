@@ -1,33 +1,35 @@
-# V6: Platform Interaction Requirements
+<div dir="rtl" markdown="1">
 
-## Control Objective
+# V6: نیازمندی‌های تعامل با پلتفرم
 
-The controls in this group ensure that the app uses platform APIs and standard components in a secure manner. Additionally, the controls cover communication between apps (IPC).
+## هدف کنترل
 
-## Security Verification Requirements
+کنترل‌های این گروه اطمینان حاصل می‌کنند که برنامه کاربردی از API مربوط به پلتفرم و مؤلفه‌های استاندارد به طورت امن استفاده می‌کند. علاوه بر این، این کنترل‌ها ارتباطات بین برنامه‌های کاربردی (IPC) را کنترل می‌نماید.
+
+## نیازمندی‌های وارسی امنیت
 
 | # | MSTG-ID | Description | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
-| **6.1** | MSTG-PLATFORM-1 | The app only requests the minimum set of permissions necessary. | ✓ | ✓ |
-| **6.2** | MSTG-PLATFORM-2 | All inputs from external sources and the user are validated and if necessary sanitized. This includes data received via the UI, IPC mechanisms such as intents, custom URLs, and network sources.| ✓ | ✓ |
-| **6.3** | MSTG-PLATFORM-3 | The app does not export sensitive functionality via custom URL schemes, unless these mechanisms are properly protected. | ✓ | ✓ |
-| **6.4** | MSTG-PLATFORM-4 | The app does not export sensitive functionality through IPC facilities, unless these mechanisms are properly protected. | ✓ | ✓ |
-| **6.5** | MSTG-PLATFORM-5 | JavaScript is disabled in WebViews unless explicitly required. | ✓ | ✓ |
-| **6.6** | MSTG-PLATFORM-6 | WebViews are configured to allow only the minimum set of protocol handlers required (ideally, only https is supported). Potentially dangerous handlers, such as file, tel and app-id, are disabled. | ✓ | ✓ |
-| **6.7** | MSTG-PLATFORM-7 | If native methods of the app are exposed to a WebView, verify that the WebView only renders JavaScript contained within the app package. | ✓ | ✓ |
-| **6.8** | MSTG-PLATFORM-8 | Object deserialization, if any, is implemented using safe serialization APIs. | ✓ | ✓ |
-| **6.9** | MSTG-PLATFORM-9 | The app protects itself against screen overlay attacks. (Android only) |  | ✓ |
-| **6.10** | MSTG-PLATFORM-10 | A WebView's cache, storage, and loaded resources (JavaScript, etc.) should be cleared before the WebView is destroyed. |  | ✓ |
-| **6.11** | MSTG-PLATFORM-11 | Verify that the app prevents usage of custom third-party keyboards whenever sensitive data is entered. | | ✓ |
+| **6.1** | MSTG-PLATFORM-1 | برنامه کاربردی نیازمند حداقل سطح دسترسی‌های ضروری است. | ✓ | ✓ |
+| **6.2** | MSTG-PLATFORM-2 | تمام ورودی‌ها از منابع خارجی و کاربر اعتبارسنجی شده و اگر ضروری بود به خوبی بررسی شوند. این شامل داده‌های دریافت شده از رابط کاربری، مکانیزم‌های IPC از قبیل intent ها، URL  های اختصاصی و منابع شبکه می‌باشد. | ✓ | ✓ |
+| **6.3** | MSTG-PLATFORM-3 | برنامه کاربردی عملکردهای حساس را از طریق طرح‌های URL اختصاصی صادر نمی‌کند مگر اینکه این مکانیزم‌ها به درستی محافظت شده باشند. | ✓ | ✓ |
+| **6.4** | MSTG-PLATFORM-4 | برنامه کاربردی عملکرد حساس را از طریق امکانات IPC صادر نمی‌کند مگر اینکه این مکانیزم‌ها به درستی محافظت شده باشند. | ✓ | ✓ |
+| **6.5** | MSTG-PLATFORM-5 | جاوا اسکریپت در WebView ها غیر فعال شده است مگر اینکه به صراحت مورد نیاز باشد. | ✓ | ✓ |
+| **6.6** | MSTG-PLATFORM-6 | WebView ها طوری پیکربندی شده‌اند که مجموعه حداقلی از protocol handler های مورد نیاز را اجازه دهند (به طور ایده آل تنها HTTPS پشتیبانی شود). protocol handler های به طور بالقوه خطرناک از قبیل file ، tel و app-id غیر فعال باشند. | ✓ | ✓ |
+| **6.7** | MSTG-PLATFORM-7 | اگر متدهای native برنامه در معرض یک WebView هستند، بررسی کنید که WebView تنها جاوا اسکریپت قرار داده شده در بسته برنامه کاربردی را render می‌کند. | ✓ | ✓ |
+| **6.8** | MSTG-PLATFORM-8 | Object deserialization در صورت وجود داشتن توسط API های امن توالی سازی پیاده سازی شده باشد. | ✓ | ✓ |
+| **6.9** | MSTG-PLATFORM-9 | اپلیکیشن از خود در برابر حملات screen overlay محافظت می‌کند. (فقط سیستم عامل اندروید) |  | ✓ |
+| **6.10** | MSTG-PLATFORM-10 | حافظه نهان، حافظه ذخیره‌سازی و منابع لود شده (جاوا اسکریپت و غیره) باید قبل از نابود شدن WebView پاک شوند. |  | ✓ |
+| **6.11** | MSTG-PLATFORM-11 | وارسی کنید که برنامه کاربردی موقع وارد کردن اطلاعات حساس از استفاده صفحه کلیدهای شخص ثالث جلوگیری می‌کند. | | ✓ |
 
-## References
+## منابع
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+راهنمای وارسی امنیتی موبایل OWASP، دستورالعمل‌هایی مفصل برای تایید نیازمندی‌های لیست شده در این بخش، فراهم می کند.
 
 - Android: Testing Platform Interaction - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
 - iOS: Testing Platform Interaction - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
 
-For more information, see also:
+برای اطلاعات بیشتر همچنین مشاهده کنید:
 
 - OWASP Mobile Top 10: M1 (Improper Platform Usage) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m1-improper-platform-usage>
 - OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality>
@@ -43,3 +45,5 @@ For more information, see also:
 - CWE 926 (Improper Export of Android Application Components) - <https://cwe.mitre.org/data/definitions/926.html>
 - CWE 927 (Use of Implicit Intent for Sensitive Communication) - <https://cwe.mitre.org/data/definitions/927.html>
 - CWE 939 (Improper Authorization in Handler for Custom URL Scheme) - <https://cwe.mitre.org/data/definitions/939.html>
+
+</div>
