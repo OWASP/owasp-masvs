@@ -13,9 +13,13 @@ fi
 
 echo "Version = ${VERSION}"
 
-export IMG="owasp/masvs-docgenerator:0.1"
-
+export IMG="owasp/masvs-docgenerator:0.2"
 docker pull $IMG
+# only use this when you are updating the docker tooling
+# export IMG="owasp/masvs-docgenerator:latest"
+# if [[ "$(docker images -q $IMG 2> /dev/null)" == "" ]]; then
+#   docker build --tag $IMG tools/docker/
+# fi
 
 for folder in ./Document*; do
   echo "Generating $folder"
@@ -33,3 +37,13 @@ for folder in Document*; do
         rm -Rf $folder-temp
     fi
 done
+
+echo "Do Persian PDF conversion with a small hack"
+mkdir /tmp/unoconv && cp OWASP_MASVS-SNAPSHOT-fa_WIP_.docx /tmp/unoconv/ && \
+docker run -d -e FILEEXT=docx -e TIMETOEXIT=300 -v /tmp/unoconv:/tmp --name unoconv sfoxdev/unoconv-alpine && \
+sleep 10s && \
+cp /tmp/unoconv/OWASP_MASVS-SNAPSHOT-fa_WIP_.pdf .
+
+echo "Cleanup"
+rm -rf /tmp/unoconv
+docker container rm unoconv

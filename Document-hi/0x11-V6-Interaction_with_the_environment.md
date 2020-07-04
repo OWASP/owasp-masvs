@@ -1,45 +1,45 @@
-# V6: Platform Interaction Requirements
+# प्लेटफ़ॉर्म इंटरएक्शन आवश्यकताएँ
 
-## Control Objective
+## उद्देश्य नियंत्रण
 
-The controls in this group ensure that the app uses platform APIs and standard components in a secure manner. Additionally, the controls cover communication between apps (IPC).
+इस समूह में नियंत्रण सुरक्षित करता है तथा ऐप सुरक्षित तरीके से प्लेटफार्म एपीआई और स्टैंडर्ड कॅम्पोनॅन्ट का उपयोग करता है। इसके अतिरिक्त नियंत्रण  ऍप्लिकेशन्स (आईपीसी)  के बीच कम्युनिकेशन  को कवर करता है।
 
-## Security Verification Requirements
+## सुरक्षा सत्यापन की आवश्यकता।
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | विवरण | एल 1| एल 2 |
 | -- | -------- | ---------------------- | - | - |
-| **6.1** | MSTG-PLATFORM-1 | The app only requests the minimum set of permissions necessary. | ✓ | ✓ |
-| **6.2** | MSTG-PLATFORM-2 | All inputs from external sources and the user are validated and if necessary sanitized. This includes data received via the UI, IPC mechanisms such as intents, custom URLs, and network sources.| ✓ | ✓ |
-| **6.3** | MSTG-PLATFORM-3 | The app does not export sensitive functionality via custom URL schemes, unless these mechanisms are properly protected. | ✓ | ✓ |
-| **6.4** | MSTG-PLATFORM-4 | The app does not export sensitive functionality through IPC facilities, unless these mechanisms are properly protected. | ✓ | ✓ |
-| **6.5** | MSTG-PLATFORM-5 | JavaScript is disabled in WebViews unless explicitly required. | ✓ | ✓ |
-| **6.6** | MSTG-PLATFORM-6 | WebViews are configured to allow only the minimum set of protocol handlers required (ideally, only https is supported). Potentially dangerous handlers, such as file, tel and app-id, are disabled. | ✓ | ✓ |
-| **6.7** | MSTG-PLATFORM-7 | If native methods of the app are exposed to a WebView, verify that the WebView only renders JavaScript contained within the app package. | ✓ | ✓ |
-| **6.8** | MSTG-PLATFORM-8 | Object deserialization, if any, is implemented using safe serialization APIs. | ✓ | ✓ |
-| **6.9** | MSTG-PLATFORM-9 | The app protects itself against screen overlay attacks. (Android only) |  | ✓ |
-| **6.10** | MSTG-PLATFORM-10 | A WebView's cache, storage, and loaded resources (JavaScript, etc.) should be cleared before the WebView is destroyed. |  | ✓ |
-| **6.11** | MSTG-PLATFORM-11 | Verify that the app prevents usage of custom third-party keyboards whenever sensitive data is entered. | | ✓ |
+| *6.1* | MSTG-PLATFORM-1 | यह ऐप केवल आवश्यक अनुमतियों के न्यूनतम सेट का अनुरोध करता है. | ✓ | ✓ |
+| *6.2* | MSTG-PLATFORM-2 | एक्सटर्नल सोर्स और यूज़र के सभी इनपुट मान्य किए गए हैं और आवश्यकता अनुसार सेन्सिटाइज़ भी । इसमें यूआई, आईपीसी जैसे कि इन्टेन्ट डेटा, कस्टम यूआरएल और नेटवर्क सोर्स के माध्यम से प्राप्त डाटा शामिल है. | ✓ | ✓ |
+| *6.3* | MSTG-PLATFORM-3 | यह ऐप कस्टम यूआरएल स्कीम्स के माध्यम से सेन्सिटिव फंगक्शनैलिटी को इक्स्पोर्ट नहीं करता है जब तक कि यह मेकनिज़म्ज़ ठीक से सुरक्षित ना हो.  | ✓ | ✓ |
+| *6.4* | MSTG-PLATFORM-4 | यह ऐप आईपीसी स्कीम्स के माध्यम से सेन्सिटिव फंगक्शनैलिटी को इक्स्पोर्ट नहीं करता है। जब तक कि इन मेकनिज़म्ज़ को ठीक से सुरक्षित नहीं किया जाता है. | ✓ | ✓ |
+| *6.5* | MSTG-PLATFORM-5 | जावा स्क्रिप्ट वेब व्यू मे डिसेबल होती है , जब तक की वह स्पष्ट रूप से आवश्यक नहीं हो. | ✓ | ✓ |
+| *6.6* | MSTG-PLATFORM-6 | वेब व्यू   को केवल प्रोटकॉल  हैन्डलर के कम से कम सेट की अनुमति देने के लिए कन्फिग्यर किया जाता है ( केवल एचटीटीपीएस   सपॉर्टड ). पटेन्शली, डैन्जरस   हैन्डलरस , जैसे   फाइल, टेल और ऐप  आईडी   डिसैबल्ड होते हैं. | ✓ | ✓ |
+| *6.7* | MSTG-PLATFORM-7 | यदि ऐप   के  नेटिव  मेथड के  किसी वेब व्यू  के संपर्क में है, तो  वेरफाइड करे कि वेब व्यू  केवल ऐप  पैकिज के अंदर मौजूद जावा स्क्रिप्ट  को  रेन्डर करता है. | ✓ | ✓ |
+| *6.8* | MSTG-PLATFORM-8 | अब्जेक्ट डीसीरिएलाइजेशन, यदि कोई हो, सुरक्षित सीरिएलाइजेशन एपीआईस का उपयोग करके कार्यन्वित किया जाता है. | ✓ | ✓ |
+| *6.9* | MSTG-PLATFORM-9 | यह ऐप  खुद को स्क्रीन  ओवर्ले अटैक से बचाता है (सिर्फ  ऐन्ड्रॉइड के लिए) |  | ✓ |
+| *6.10* | MSTG-PLATFORM-10 | वेब व्यू के क्लीर होने से पहले एक वेब व्यू का कैशै, स्टोरेज और लोडिड रीसॉर्सिज़ (जावा स्क्रिप्ट) को क्लीर होना चाहिए. |  | ✓ |
+| *6.11* | MSTG-PLATFORM-11 | जब भी सेसेन्सिटिव डेटा इंटर किया जाता है तो वेरीफाई करें कि ऐप कस्टम थर्ड पार्टी कीबोर्ड के उपयोग को रोकती है. | | ✓ |
 
-## References
+## सदंर्भ निर्देश
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+OWASP मोबाइल सुरक्षा परीक्षण गाइड इस खंड में सूचीबद्ध आवश्यकताओं की पुष्टि करने के लिए विस्तृत निर्देश प्रदान करता है।.
 
-- Android: Testing Platform Interaction - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
-- iOS: Testing Platform Interaction - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
+- Android: परीक्षण प्लेटफ़ॉर्म इंटरैक्शन - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
+- iOS: परीक्षण प्लेटफ़ॉर्म इंटरैक्शन  - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
 
-For more information, see also:
+अधिक जानकारी के लिए, यह भी देखें:
 
-- OWASP Mobile Top 10: M1 (Improper Platform Usage) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m1-improper-platform-usage>
-- OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality>
-- CWE 20 (Improper Input Validation) - <https://cwe.mitre.org/data/definitions/20.html>
-- CWE 79 (Improper Neutralization of Input During Web Page Generation) - <https://cwe.mitre.org/data/definitions/79.html>
-- CWE 200 (Information Leak / Disclosure) - <https://cwe.mitre.org/data/definitions/200.html>
-- CWE 250 (Execution with Unnecessary Privileges) - <https://cwe.mitre.org/data/definitions/250.html>
-- CWE 672 (Operation on a Resource after Expiration or Release) - <https://cwe.mitre.org/data/definitions/672.html>
-- CWE 749 (Exposed Dangerous Method or Function) - <https://cwe.mitre.org/data/definitions/749.html>
-- CWE 772 (Missing Release of Resource after Effective Lifetime) - <https://cwe.mitre.org/data/definitions/772.html>
-- CWE 920 (Improper Restriction of Power Consumption) - <https://cwe.mitre.org/data/definitions/920.html>
-- CWE 925 (Improper Verification of Intent by Broadcast Receiver) - <https://cwe.mitre.org/data/definitions/925.html>
-- CWE 926 (Improper Export of Android Application Components) - <https://cwe.mitre.org/data/definitions/926.html>
-- CWE 927 (Use of Implicit Intent for Sensitive Communication) - <https://cwe.mitre.org/data/definitions/927.html>
-- CWE 939 (Improper Authorization in Handler for Custom URL Scheme) - <https://cwe.mitre.org/data/definitions/939.html>
+- OWASP मोबाइल टॉप 10: M1 (अनुचित प्लेटफ़ॉर्म उपयोग) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m1-improper-platform-usage>
+- OWASP मोबाइल टॉप 10: M7 ( पुअर कोड की गुणवत्ता) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality>
+- CWE 20 (अनुचित इनपुट सत्यापन) - <https://cwe.mitre.org/data/definitions/20.html>
+- CWE 79 (वेब पेज जनरेशन के दौरान इनपुट के अनुचित न्यूट्रलाइज़ेशन) - <https://cwe.mitre.org/data/definitions/79.html>
+- CWE 200 (सूचना लीक / प्रकटीकरण) - <https://cwe.mitre.org/data/definitions/200.html>
+- CWE 250 (अनावश्यक विशेषाधिकार के साथ निष्पादन) - <https://cwe.mitre.org/data/definitions/250.html>
+- CWE 672 (समाप्ति या रिलीज़ के बाद किसी संसाधन पर कार्रवाई) - <https://cwe.mitre.org/data/definitions/672.html>
+- CWE 749 (खतरनाक विधि या कार्य का उजागर ) - <https://cwe.mitre.org/data/definitions/749.html>
+- CWE 772 (प्रभावी जीवनकाल के बाद संसाधन की अनुपलब्धता) - <https://cwe.mitre.org/data/definitions/772.html>
+- CWE 920 (बिजली की खपत में अनुचित प्रतिबंध) - <https://cwe.mitre.org/data/definitions/920.html>
+- CWE 925 (प्रसारण प्राप्तकर्ता द्वारा इरादे का अनुचित सत्यापन) - <https://cwe.mitre.org/data/definitions/925.html>
+- CWE 926 (एंड्रॉयड अनुप्रयोग घटकों का अनुचित निर्यात) - <https://cwe.mitre.org/data/definitions/926.html>
+- CWE 927 (सेंसिटिव कम्युनिकेशन के लिए इंप्लिकेंट इंटेंट का इस्तेमाल) - <https://cwe.mitre.org/data/definitions/927.html>
+- CWE 939 (कस्टम URL योजना के लिए हैंडलर में अनुचित प्राधिकरण) - <https://cwe.mitre.org/data/definitions/939.html>
