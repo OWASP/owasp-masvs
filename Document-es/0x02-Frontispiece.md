@@ -34,6 +34,7 @@ Copyright © 2020 The OWASP Foundation. Este documento está licenciado bajo la 
 | Coreano | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | Español | Martin Marsicano, Carlos Holguera |
 | Francés | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (revisor) |
+| Hindi | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
 | Japonés | Koki Takeyama, Riotaro Okada (revisor) |
 | Ruso | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (revisor), Oprya Egor (revisor), Tereshin Dmitry (revisor) |
 
