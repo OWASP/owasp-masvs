@@ -1,87 +1,90 @@
-# The Mobile Application Security Verification Standard
+<div dir="rtl" markdown="1">
 
-The MASVS can be used to establish a level of confidence in the security of mobile apps. The requirements were developed with the following objectives in mind:
+# استاندارد وارسی امنیت اپلیکیشن موبایل
 
-- Use as a metric - To provide a security standard against which existing mobile apps can be compared by developers and application owners;
-- Use as guidance - To provide guidance during all phases of mobile app development and testing;
-- Use during procurement - To provide a baseline for mobile app security verification.
+از استاندارد MASVS می‌توان برای ایجاد سطحی از اطمینان در امنیت برنامۀهای کاربردی موبایل استفاده نمود. الزامات با رویکردهای زیر توسعه داده‌شده‌اند:
 
-## Mobile AppSec Model
+- استفاده به‌عنوان معیار اندازه‌گیری - به‌منظور ارائه‌ی استاندارد امنیتی که بوسیله‌ی آن برنامه‌های کاربردی موجود موبایل بتوانند توسط توسعه‌دهندگان و مالکان آن‌ها مقایسه شوند؛
+- استفاده به‌عنوان راهنما - به‌منطور ارائه‌ی راهنمایی در طول تمام مراحل توسعه و آزمون برنامۀ کاربردی موبایل؛
+- قابل استفاده بودن در مدت تهیه - به‌منظور ارائه‌ی مبنایی برای وارسی امنیت برنامۀ کاربردی موبایل.
 
-The MASVS defines two security verification levels (MASVS-L1 and MASVS-L2), as well as a set of reverse engineering resiliency requirements (MASVS-R). MASVS-L1 contains generic security requirements that are recommended for all mobile apps, while MASVS-L2 should be applied to apps handling highly sensitive data. MASVS-R covers additional protective controls that can be applied if preventing client-side threats is a design goal.
+## مدل AppSec موبایل
 
-Fulfilling the requirements in MASVS-L1 results in a secure app that follows security best practices and doesn't suffer from common vulnerabilities. MASVS-L2 adds additional defense-in-depth controls such as SSL pinning, resulting in an app that is resilient against more sophisticated attacks - assuming the security controls of the mobile operating system are intact and the end user is not viewed as a potential adversary. Fulfilling all, or subsets of, the software protection requirements in MASVS-R helps impede specific client-side threats where the end user is malicious and/or the mobile OS is compromised.
+استاندارد MASVS دو سطح وارسی امنیت (MASVS-L1 و MASVS-L2) را در کنار مجموعه‌ای از الزامات تاب‌آوری مهندسی معکوس (MASVS-R)، تعریف می‌کند. MASVS-L1 شامل الزامات کلی امنیتی است که برای همۀ برنامه‌های کاربردی موبایل توصیه شده‌اند، درحالی‌که MASVS-L2 برای برنامه‌هایی که با داده‌های بسیار حساس سروکار دارند بایستی اعمال شود. MASVS-R کنترل‌های محافظتی بیشتری را نیز پوشش می‌دهد و در صورتی می‌تواند اعمال شود که جلوگیری از تهدیدات سمت کاربر هدفی از طراحی باشد.
 
-**I: Although we recommend implementing MASVS-L1 controls in every app, implementing a control or not should ultimately be a risk-based decision, which is taken/communicated with the business owners.**
+تحقق الزامات موجود در MASVS-L1 به یک برنامه امن منتج می‌شود که بهترین رویه‌های امنیتی را دنبال می‌کند و از آسیب‌پذیری‌های رایج متحمل نمی‌گردد. MASVS-L2 نیز کنترل‌های دفاع در عمق بیشتری از قبیل SSL pinning را می‌افزاید که درنتیجه به برنامه‌ای مقاوم در برابر حملات پیچیده‌تر می‌انجامد - با این فرض که کنترل‌های امنیتی سیستم‌عامل موبایل دست‌نخورده باشد و کاربر نهایی به‌عنوان دشمنی بالقوه در نظر گرفته نشده باشد. تحقق همهٔ الزامات محافظت از نرم‌افزار موجود در MASVS-R و یا زیرمجموعه‌هایی از آن، به جلوگیری از تهدیدات خاص سمت کاربر، درجایی که کاربر نهایی مخرب یا سیستم‌عامل موبایل در معرض خطر باشد، کمک می‌کند.
 
-**II: Note that the software protection controls listed in MASVS-R and described in the OWASP Mobile Security Testing Guide can ultimately be bypassed and must never be used as a replacement for security controls. Instead, they are intended to add additional threat-specific, protective controls to apps that also fulfill the MASVS requirements in MASVS-L1 or MASVS-L2.**
+**الف: اگرچه ما پیاده‌سازی کنترل‌های موجود در MASVS-L1 را در هر برنامه‌ای توصیه می‌کنیم، اما پیاده‌سازی کردن یا نکردن آن درنهایت باید یک تصمیم مخاطره محور باشد که توسط صاحبان کسب‌وکار گرفته می‌شود.**
+
+**ب: توجه داشته باشید که کنترل‌های محافظت نرم‌افزار که در MASVS-R فهرست شده‌اند و در راهنمای آزمون امنیت موبایل OWASP شرح داده‌شده‌اند، درنهایت می‌توانند دور زده شوند و هیچ‌گاه نباید به‌عنوان جایگزینی برای کنترل‌های امنیتی، مورداستفاده قرار گیرند. در عوض، هدف آنها افزودن کنترل‌های محافظتی خاص تهدید به برنامه‌های کاربردی است که الزامات استاندارد MASVS در MASVS-L1 یا MASVS-L2 را نیز تحقق می‌بخشند.**
 
 <img src="images/masvs-levels-new.jpg" title="Verification Levels" width="600px" height="253px" />
 
-### Document Structure
+### ساختار سند
 
-The first part of the MASVS contains a description of the security model and available verification levels, followed by recommendations on how to use the standard in practice. The detailed security requirements, along with a mapping to the verification levels, are listed in the second part. The requirements have been grouped into eight categories (V1 to V8) based on technical objective / scope. The following nomenclature is used throughout the MASVS and MSTG:
+بخش نخست استاندارد MASVS شامل توضیحاتی در خصوص مدل امنیت و سطوح وارسی در دسترس می‌باشد، که با توصیه‌هایی در خصوص نحوه‌ی استفاده عملی از استاندارد همراه شده است. جزئیات الزامات امنیتی، به همراه نگاشت آنها به سطوح وارسی، در بخش دوم فهرست شده‌اند. الزامات بر اساس اهداف/چارچوب فنی به هشت دسته (V1 تا V8) طبقه‌بندی‌شده‌اند. نام‌گذاری زیر در سراسر استاندارد MASVS و MSTG استفاده شده است.
 
-- *Requirement category:* MASVS-Vx, e.g. MASVS-V2: Data Storage and Privacy
-- *Requirement:* MASVS-Vx.y, e.g. MASVS-V2.2: "No sensitive data is written to application logs."  
+- *طبقه‌بندی الزامات:* MASVS-Vx، به‌عنوان‌مثال MASVS-V2:
+ذخیره‌سازی داده و حریم خصوصی
+- *الزام:* MASVS-Vx.y، به‌عنوان‌مثال MASVS-V2.2: "هیچ اطلاعات حساسی در لاگ‌های برنامه نوشته‌ نشده است."
 
-### Verification Levels in Detail
+### جزئیات سطوح وارسی
 
-#### MASVS-L1: Standard Security
+#### MASVS-L1: امنیت استاندارد
 
-A mobile app that achieves MASVS-L1 adheres to mobile application security best practices. It fulfills basic requirements in terms of code quality, handling of sensitive data, and interaction with the mobile environment. A testing process must be in place to verify the security controls. This level is appropriate for all mobile applications.
+برنامهٔ کاربردی موبایلی که استاندارد MASVS-L1 را کسب می‌کند به بهترین رویه‌های امنیتی برنامهٔ کاربردی موبایل پایبند می‌شود. این موضوع، الزامات پایه‌ای در خصوص کیفیت کد، مدیریت داده‌های حساس و تعامل با محیط موبایل را محقق می‌کند. به‌منظور وارسی کنترل‌های امنیتی باید یک فرآیند آزمون طی شود. این سطح برای همهٔ برنامه‌های کاربردی موبایل مناسب است.
 
-#### MASVS-L2: Defense-in-Depth
+#### MASVS-L2: دفاع در عمق
 
-MASVS-L2 introduces advanced security controls that go beyond the standard requirements. To fulfill MASVS-L2, a threat model must exist, and security must be an integral part of the app's architecture and design. Based on the threat model, the right MASVS-L2 controls should have been selected and implemented succesfully. This level is appropriate for apps that handle highly sensitive data, such as mobile banking apps.
+MASVS-L2 کنترل‌های امنیتی پیشرفته‌ای را ارائه می‌دهد که فراتر از الزامات استاندارد است. برای تحقق الزامات MASVS-L2 باید یک مدل تهدید وجود داشته باشد و امنیت بایستی بخش جدایی‌ناپذیری از معماری و طراحی برنامۀ کاربردی موبایل باشد. بر اساس مدل تهدید، باید موارد کنترلی مناسبی در MASVS-L2 انتخاب و با موفقیت پیاده‌سازی می‌شدند. این سطح برای برنامه‌های کاربردی که داده‌های بسیار حساس را مدیریت می‌کنند، مانند برنامه‌های بانکی موبایل مناسب است.
 
-#### MASVS-R: Resiliency Against Reverse Engineering and Tampering
+#### MASVS-R: تاب‌آوری در برابر مهندسی معکوس و دست‌کاری
 
-The app has state-of-the-art security, and is also resilient against specific, clearly defined client-side attacks, such as tampering, modding, or reverse engineering to extract sensitive code or data. Such an app either leverages hardware security features or sufficiently strong and verifiable software protection techniques. MASVS-R is applicable to apps that handle highly sensitive data and may serve as a means of protecting intellectual property or tamper-proofing an app.
+برنامه‌ی کاربردی دارای فناوری امنیتی پیشرفته و بروز است، همچنین در برابر حملات خاص و شناخته‌شده‌ی سمت کاربر مانند دست‌کاری، تعدیل یا مهندسی معکوس برای استخراج کد یا داده‌های حساس، منعطف است. چنین برنامه‌ای از ویژگی‌های امنیتی سخت‌افزاری یا تکنیک‌های به‌قدر کافی قوی و تصدیق پذیر محافظت از نرم‌افزار بهره می‌گیرد. MASVS-R در برنامه‌های کاربردی که داده‌های بسیار حساس را مدیریت می‌کنند، کاربرد دارد و می‌تواند به‌عنوان وسیله‌ای برای محافظت از مالکیت معنوی یا اثبات دست‌کاری یک برنامهٔ کاربردی، سودمند واقع شود.
 
-### Recommended Use
+### کاربرد توصیه‌شده
 
-Apps can be verified against MASVS L1 or L2 based on prior risk assessment and overall level of security required. L1 is applicable to all mobile apps, while L2 is generally recommended for apps that handle more sensitive data and/or functionality. MASVS-R (or parts of it) can be applied to verify resiliency against specific threats, such as repackaging or extraction of sensitive data, *in addition* to proper security verification.
+برنامه‌های کاربردی را می‌توان بر اساس ارزیابی ریسک قبلی و سطح کلی امنیت موردنیاز، مطابق با MASVS سطح L1 یا L2 وارسی نمود. L1 برای همه برنامه‌های موبایل قابل‌اجرا است، درحالی‌که L2 به‌طورکلی برای برنامه‌های کاربردی‌ای توصیه می‌شود که داده یا کاربرد حساس‌تری را مدیریت می‌نمایند. MASVS-R (یا بخش‌هایی از آن) را می‌توان برای اثبات پایداری در برابر تهدیدات خاص، مانند بسته‌بندی مجدد یا استخراج داده‌های حساس و *افزون بر آن* در وارسی امنیتی مناسب استفاده نمود.
 
-In summary, the following verification types are available:
+به‌طور خلاصه، انواع وارسی‌های موجود عبارت‌اند از:
 
 - MASVS-L1
 - MASVS-L1+R
 - MASVS-L2
 - MASVS-L2+R
 
-The different combinations reflect different grades of security and resiliency. The goal is to allow for flexibility: For example, a mobile game might not warrant adding MASVS-L2 security controls such as 2-factor authentication for usability reasons, but have a strong business need for tamper prevention.
+ترکیب‌های مختلف، درجه‌های متفاوتی از امنیت و انعطاف‌پذیری را منعکس می‌کنند. هدف آن است که امکان انعطاف‌پذیری فراهم گردد: برای مثال، یک بازی موبایل ممکن است اضافه کردن کنترل‌های امنیتی MASVS-L2، مانند احراز هویت دو عاملی را به دلایل مرتبط با کاربردپذیری تضمین نکند، اما نیاز تجاری شدیدی برای جلوگیری از دست‌کاری داشته باشد.
 
-#### Which Verification Type to Choose
+#### کدام نوع وارسی باید انتخاب گردد
 
-Implementing the requirements of MASVS L2 increases security, while at the same time increasing cost of development and potentially worsening the end user experience (the classical trade-off). In general, L2 should be used for apps whenever it makes sense from a risk vs. cost perspective (i.e., where the potential loss caused by a compromise of confidentiality or integrity is higher than the cost incurred by the additional security controls). A risk assessment should be the first step before applying the MASVS.
+پیاده‌سازی الزامات MASVS L2 باعث افزایش امنیت می‌شود، درعین‌حال که هزینهٔ توسعه را افزایش می‌دهد و به‌طور بالقوه تجربه کاربر نهایی را بدتر می‌کند (این همان فرآیند قدیمی است که در آن چیزی را به ازای چیز دیگری از دست می‌دهیم). سطح دو به‌طورکلی زمانی باید برای برنامه‌های کاربردی به‌کار گرفته شود که موازنه‌ی بین ریسک و هزینه منطقی باشد (به‌عنوان‌مثال، ضرر بالقوهٔ ناشی از به خطر انداختن محرمانگی یا یکپارچگی بالاتر از هزینه‌ی ایجادشده به‌واسطه‌ی کنترل‌های امنیتی اضافی است). ارزیابی ریسک باید نخستین گام پیش از به‌کارگیری استاندارد MASVS باشد.
 
-##### Examples
+##### مثال‌ها
 
 ###### MASVS-L1
 
-- All mobile apps. MASVS-L1 lists security best practices that can be followed with a reasonable impact on development cost and user experience. Apply the requirements in MASVS-L1 for any app that don't qualify for one of the higher levels.
+- همه‌ی برنامه‌های کاربردی موبایل. MASVS-L1 بهترین رویه‌های موجود که تاثیری منطقی بر هزینه‌ی توسعه و تجربه کاربری را به همراه دارد، فهرست می‌کند. الزامات موجود در MASVS-L1 را برای هر برنامه‌ای اعمال نمایید که واجد شرایط سطوح بالاتر نیست.
 
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
+<!-- \pagebreak -->
 
 ###### MASVS-L2
 
-- Health-Care Industry: Mobile apps that store personally identifiable information that can be used for identity theft, fraudulent payments, or a variety of fraud schemes. For the US healthcare sector, compliance considerations include the Health Insurance Portability and Accountability Act (HIPAA) Privacy, Security, Breach Notification Rules and Patient Safety Rule.
+- صنعت خدمات بهداشت و درمان: برنامه‌های موبایل که اطلاعات شخصی قابل‌شناسایی را ذخیره می‌نمایند، می‌توانند در سرقت هویت، پرداخت‌های جعلی یا انواع طرح‌های کلاه‌برداری مورداستفاده قرار گیرند. در بخش خدمات بهداشت و درمان ایالات‌متحده، ملاحظات قانونی مطلوب شامل قانون انتقال و پاسخ‌گویی الکترونیک بیمه سلامت (HIPAA)، حریم خصوصی، امنیت، قوانین اعلان رخنه و قانون ایمنی بیمار است.
 
-- Financial Industry: Apps that enable access to highly sensitive information like credit card numbers, personal information, or allow the user to move funds. These apps warrant additional security controls to prevent fraud. Financial apps need to ensure compliance to the Payment Card Industry Data Security Standard (PCI DSS), Gramm Leech Bliley Act and Sarbanes-Oxley Act (SOX).
+- صنعت مالی: برنامه‌های کاربردی که دسترسی به اطلاعات بسیار حساس مانند شماره‌ی کارت‌های اعتباری و اطلاعات شخصی دارند و یا به کاربر اجازه‌ی انتقال وجه می‌دهند. این برنامه‌های کاربردی کنترل‌های امنیتی بیشتری را برای جلوگیری از کلاه‌برداری ضمانت می‌کنند. برنامه‌های مالی باید مطابقت با استاندارد امنیت داده‌ی صنعت پرداخت کارتی (PCI DSS)، قانون Gramm Leech Bliley و قانون Sarbanes-Oxley (SOX) را تضمین کنند.
 
 ###### MASVS L1+R
 
-- Mobile apps where Intellectual Property (IP) protection is a business goal. The resiliency controls listed in MASVS-R can be used to increase the effort needed to obtain the original source code and to impede tampering / cracking.
+- برنامه‌های کاربردی موبایل که در آن‌ها حفاظت از مالکیت معنوی (IP) یک هدف تجاری است. کنترل‌های انعطاف‌پذیر فهرست شده در MASVS-R می‌توانند برای دشوار نمودن دستیابی به کد منبع اصلی و جلوگیری از دست‌کاری یا کرک شدن استفاده شوند.
 
-- Gaming Industry: Games with an essential need to prevent modding and cheating, such as competitive online games. Cheating is an important issue in online games, as a large amount of cheaters leads to a disgruntled player base and can ultimately cause a game to fail. MASVS-R provides basic anti-tampering controls to help increase the effort for cheaters.
+- صنعت بازی: بازی‌هایی با نیاز ضروری به مقابله با تعدیل و تقلب، همانند بازی‌های آنلاین رقابتی. تقلب مسئله‌ی مهمی در بازی‌های آنلاین است چراکه تعداد زیاد متقلبان منجر به نارضایتی بازیکنان دیگر می‌شود و درنهایت می‌تواند موجب شکست یک بازی گردد. MASVS-R کنترل‌های پایه‌ای ضد دست‌کاری را فراهم می‌آورد که به دشوار سازی فرآیند تقلب کمک می‌کند و افزایش تلاش متقلبان را به همراه دارد.
 
 ###### MASVS L2+R
 
-- Financial Industry: Online banking apps that allow the user to move funds, where techniques such as code injection and instrumentation on compromised devices pose a risk. In this case, controls from MASVS-R can be used to impede tampering, raising the bar for malware authors.
+- صنعت مالی: برنامه‌های کاربردی بانکداری آنلاین که به کاربر امکان انتقال وجوه را می‌دهند، محیطی هستند که در آن‌ها روش‌هایی همچون تزریق کد و انجام فرآیند بانکی با استفاده از دستگاه‌های آلوده شده مخاطره آمیز است. در این مورد، کنترل‌های موجود در MASVS-R می‌توانند به‌عنوان مانعی برای دست‌کاری و به دنبال آن افزایش فشار بر روی سازندگان بدافزار، به‌کار گرفته شوند.
 
-- All mobile apps that, by design, need to store sensitive data on the mobile device, and at the same time must support a wide range of devices and operating system versions. In this case, resiliency controls can be used as a defense-in-depth measure to increase the effort for attackers aiming to extract the sensitive data.
+- همهٔ برنامه‌های موبایل که با توجه به طراحی‌شان، نیاز به ذخیره داده‌های حساس در دستگاه همراه دارند و درعین‌حال باید از طیف گسترده‌ای از دستگاه‌ها و نسخه‌های سیستم‌عامل پشتیبانی کنند. در این حالت، می‌توان از کنترل‌های انعطاف‌پذیری به‌عنوان یک تکنیک دفاع در عمق برای دشوار نمودن تلاش مهاجمانی استفاده نمود که قصد استخراج داده‌های حساس را دارند.
 
-- Apps with in-app purchases should ideally use server-side and MASVS-L2 controls to protect paid content. However, there may be cases where there is no possibility to use server-side protection. In those cases, MASVS-R controls should be additionally applied in order to increase the reversing and/or tampering effort.
+- برنامه‌هایی که دارای خریدهای درون برنامه‌ای هستند باید به‌طور ایده‌آل از کنترل‌های سمت سرور و MASVS-L2 برای محافظت از محتوای پرداخت استفاده نمایند. اما مواردی ممکن است وجود داشته باشند که امکان محافظت از سمت سرور وجود نداشته باشد. در آن موارد، کنترل‌های استاندارد MASVS-R باید به‌منظور دشوار سازی مهندسی معکوس و دست‌کاری برنامه اعمال شوند.
+
+</div>

@@ -19,31 +19,39 @@ jobs:
         id: get_version
         run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
       - name: Pull the Docker image
-        run: docker pull owasp/masvs-docgenerator:0.1
+        run: docker pull owasp/masvs-docgenerator:0.2
       - name: Generate python scripts (csv)
-        run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.csv'
+        run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.csv'
       - name: Generate python scripts (json)
-        run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.json'
+        run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.json'
       - name: Generate python scripts (xml)
-        run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.1 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.xml'
+        run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.xml'
+      - name: Generate Brazilian Portuguese PDF
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-ptbr ${{ steps.get_version.outputs.VERSION }}'
       - name: Generate English docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document ${{ steps.get_version.outputs.VERSION }}'
-      - name: Generate Spanish docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-es ${{ steps.get_version.outputs.VERSION }}'
-      - name: Generate German docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-de ${{ steps.get_version.outputs.VERSION }}'
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document ${{ steps.get_version.outputs.VERSION }}'
       - name: Generate French docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-fr ${{ steps.get_version.outputs.VERSION }}'
-      - name: Generate Russian docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-ru ${{ steps.get_version.outputs.VERSION }}'
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-fr ${{ steps.get_version.outputs.VERSION }}'
+      - name: Generate German docs
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-de ${{ steps.get_version.outputs.VERSION }}'
+      - name: Generate Hindi PDF
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-hi ${{ steps.get_version.outputs.VERSION }}'
       - name: Generate Japanese docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-ja ${{ steps.get_version.outputs.VERSION }}'
-      - name: Generate Traditional Chinese docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-zhtw ${{ steps.get_version.outputs.VERSION }}'
-      - name: Generate Simplified Chinese docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-zhcn ${{ steps.get_version.outputs.VERSION }}'
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-ja ${{ steps.get_version.outputs.VERSION }}'      
       - name: Generate Korean docs
-        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.1 '/pandoc_makedocs.sh Document-ko ${{ steps.get_version.outputs.VERSION }}'
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-ko ${{ steps.get_version.outputs.VERSION }}'
+      - name: Generate Persian documents
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-fa ${{ steps.get_version.outputs.VERSION }}'
+      - name: Convert Persian docx to Persian PDF
+        run: mkdir /tmp/unoconv && cp OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-fa_WIP_.docx /tmp/unoconv/ && docker run -d -e FILEEXT=docx -e TIMETOEXIT=300 -v /tmp/unoconv:/tmp --name unoconv sfoxdev/unoconv-alpine && sleep 10s
+      - name: Generate Russian docs
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-ru ${{ steps.get_version.outputs.VERSION }}'
+      - name: Generate Simplified Chinese docs
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-zhcn ${{ steps.get_version.outputs.VERSION }}'
+      - name: Generate Spanish docs
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-es ${{ steps.get_version.outputs.VERSION }}'
+      - name: Generate Traditional Chinese docs
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-zhtw ${{ steps.get_version.outputs.VERSION }}'
       - name: Release
         uses: softprops/action-gh-release@91409e712cf565ce9eff10c87a8d1b11b81757ae
         if: startsWith(github.ref, 'refs/tags/')
@@ -62,10 +70,18 @@ jobs:
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-es.mobi
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-es.pdf
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-es_WIP_.docx
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-fa.epub
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-fa.mobi
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-fa.pdf
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-fa_WIP_.docx
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-fr.epub
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-fr.mobi
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-fr.pdf
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-fr_WIP_.docx
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-hi.epub
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-hi.mobi
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-hi.pdf
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-hi_WIP_.docx
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ja.epub
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ja.mobi
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ja.pdf
@@ -74,6 +90,10 @@ jobs:
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ko.mobi
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ko.pdf
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ko_WIP_.docx
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ptbr.epub
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ptbr.mobi
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ptbr.pdf
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ptbr_WIP_.docx
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ru.epub
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ru.mobi
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ru.pdf
