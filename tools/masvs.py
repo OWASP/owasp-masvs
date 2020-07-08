@@ -32,6 +32,8 @@ import json
 from xml.sax.saxutils import escape
 import csv
 
+import generate_mstgid_links
+
 try:
     from StringIO import StringIO
 except ImportError:
@@ -75,6 +77,15 @@ class MASVS:
                             req['L2'] = False
 
                         self.requirements.append(req)
+        
+        masvs_dict = generate_mstgid_links.get_masvs_dict()
+
+        for r in self.requirements:
+            if r.get('category') in masvs_dict:
+                r['covered'] = True
+                r['links'] = masvs_dict[r.get('category')]
+            else:
+                r['covered'] = False
 
     def to_json(self):
         ''' Returns a JSON-formatted string '''
