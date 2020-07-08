@@ -1,8 +1,14 @@
 # Changelog
 
-This document is automatically generated at {{gitbook.time}}
+## V1.2 7 March 2020 - International Release
 
-## V1.2-RC 5 October 2019 - Pre-release (English only)
+The following changes are part of release 1.2:
+
+- Translation in simplified Chinese of the MASVS available.
+- Change of title in MASVS book cover.
+- Removed Mobile Top 10 and CWE from MSTG and merged to existing references in MASVS.
+
+## V1.2-RC 5 October 2019 - Pre-release (English Only)
 
 The following changes are part of release 1.2:
 
@@ -10,18 +16,18 @@ The following changes are part of release 1.2:
 - Requirement changed: MSTG-STORAGE-1 "need to be used".
 - Requirements MSTG-STORAGE-13, MSTG-STORAGE-14, and MSTG-STORAGE-15 are added with a focus on data protection.
 - Requirement MSTG-AUTH-11 is updated to preserve contextual information.
-- Requirement MSTG‑CODE‑4 is updated to cover more than just debugging.
-- Requirement MSTG‑PLATFORM‑10 added to further secure usage of WebViews.
-- Requirement MSTG‑AUTH‑12 added to remind developers of having authorizations implemented, especially in case of multi-user apps.
+- Requirement MSTG-CODE-4 is updated to cover more than just debugging.
+- Requirement MSTG-PLATFORM-10 added to further secure usage of WebViews.
+- Requirement MSTG-AUTH-12 added to remind developers of having authorizations implemented, especially in case of multi-user apps.
 - Added a little more description on how the MASVS should be used given a risk assessment.
 - Added a little more description on paid content.
-- Requirement MSTG‑ARCH‑11 added to include a Responsible Disclosure policy for L2 applications.
-- Requirement MSTG‑ARCH‑12 added to show application developers that relevant international privacy laws should be followed.
+- Requirement MSTG-ARCH-11 added to include a Responsible Disclosure policy for L2 applications.
+- Requirement MSTG-ARCH-12 added to show application developers that relevant international privacy laws should be followed.
 - Created a consistent style for all references in the English version.
-- Requirement MSTG‑PLATFORM‑11 added to counter spying via third party keyboards.
-- Requirement MSTG-MSTG‑RESILIENCE‑13 added to impede eavesdropping at an application.
+- Requirement MSTG-PLATFORM-11 added to counter spying via third party keyboards.
+- Requirement MSTG-MSTG-RESILIENCE-13 added to impede eavesdropping at an application.
 
-## V1.1.4 4 July 2019 - Summit edition
+## V1.1.4 4 July 2019 - Summit Edition
 
 The following changes are part of release 1.1.4:
 
@@ -37,12 +43,12 @@ The following changes are part of release 1.1.4:
 - Updated the scripts to generate XML/JSON/CSV for all the translations.
 - Translated the Foreword to Chinese (ZHTW).
 
-## V1.1.3 9 January 2019 - Small fixes
+## V1.1.3 9 January 2019 - Small Fixes
 
 - Fix translation issue of requirement 7.1 in the Spanish version
 - New setup of translators in acknowledgements
 
-## V1.1.2 3 January 2019 - Sponsorship and internationalization
+## V1.1.2 3 January 2019 - Sponsorship and Internationalization
 
 The following changes are part of release 1.1.2:
 

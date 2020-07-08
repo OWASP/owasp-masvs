@@ -1,7 +1,7 @@
 # Inhaltsverzeichnis
 
 - [Changelog](CHANGELOG.md)
-- [Vorwort](Foreword.md)
+- [Vorwort](0x01-Foreword.md)
 - [Frontispiece](0x02-Frontispiece.md)
 - [Verwendung des MASVS](0x03-Using_the_MASVS.md)
 - [Bewertung und Zertifizierung](0x04-Assessment_and_Certification.md)

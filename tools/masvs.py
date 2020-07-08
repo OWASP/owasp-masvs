@@ -55,14 +55,19 @@ class MASVS:
             if re.match("0x\d{2}-V", file):
                 for line in open(os.path.join(target, file)):
                     regex = re.compile(r'\*\*(\d\.\d+)\*\*\s\|\s{0,1}(.*?)\s{0,1}\|\s{0,1}(.*?)\s{0,1}\|\s{0,1}(.*?)\s{0,1}\|(\s{0,1}(.*?)\s{0,1}\|)?')
-                    match = re.search(regex, line)
+                    if lang=="fa" :
+                        line=line.decode('utf-8')
+                    m = re.search(regex, line)
 
-                    if match:
-                        req = {'id': match.group(1).strip(), 'text': match.group(3).strip(), 'category': match.group(2)}
+                    if m:
+                        req = {}
 
-                        if match.group(5):
-                            req['L1'] = len(match.group(4)) > 0
-                            req['L2'] = len(match.group(5)) > 0
+                        req['id'] = m.group(1).strip()
+                        req['text'] = m.group(3).strip()
+                        req['category'] = m.group(2).replace(u"\u2011", "-")
+                        if m.group(5):
+                            req['L1'] = len(m.group(4).strip()) > 0
+                            req['L2'] = len(m.group(5).strip()) > 0
                             req['R'] = False
                         else:
                             req['R'] = True

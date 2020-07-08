@@ -18,43 +18,38 @@ Il convient de prendre en compte les considérations suivantes :
 
 3. L'efficacité de la protection devrait toujours être validée par un expert humain ayant l'expérience du test des moyens particuliers mis en oeuvre contre la modification du code ou son obscurcissement (voir aussi les chapitres liés à la "rétro-ingénierie" et à la "validation des protections logicielles" dans le Mobile Security Testing Guide).
 
-<div style="page-break-after: always;">
-</div>
-
 ### Entraver l'Analyse Dynamique et la Modification
 
 | # | MSTG-ID | Description | R |
-| --- | --- | --- | -- |
-| **8.1** | MSTG‑RESILIENCE‑1 | L'application détecte et réagit à la présence d'appareils rootés ou jailbreakés soit en alertant l'utilisateur ou en mettant fin à l'application. | ✓ |
-| **8.2** | MSTG‑RESILIENCE‑2 | L'application empêche le déboggage et / ou réagit à la présence d'un déboggeur. Tous les protocoles de déboggage disponibles doivent être couverts. | ✓ |
-| **8.3** | MSTG‑RESILIENCE‑3 | L'application détecte et réagit à la modification de fichiers exécutables et de données critiques au sein de son bac à sable. | ✓ |
-| **8.4** | MSTG‑RESILIENCE‑4 | L'application détecte et réagit à la présence d'outils et de frameworks de rétro-ingénierie courants sur l'appareil.| ✓ |
-| **8.5** | MSTG‑RESILIENCE‑5 | L'application détecte et réagit à son exécution dans un émulateur.  | ✓ |
-| **8.6** | MSTG‑RESILIENCE‑6 | L'application détecte et réagit à la modification de code et de données dans son espace mémoire. | ✓ |
-| **8.7** | MSTG‑RESILIENCE‑7 | L'application implémente plusieurs mécanismes parmi les catégories de défense (8.1 à 8.6). Il convient de noter que la résilience augmente avec la quantité et la diversité de l'originalité des mécanismes utilisés. | ✓ |
-| **8.8** | MSTG‑RESILIENCE‑8 | Les mécanismes de détection déclenchent des réponses de différents types, notamment des réponses invisibles de retardement de l'attaque. | ✓ |
-| **8.9** | MSTG‑RESILIENCE‑9 | L'obscurcissement est mis en oeuvre par des défenses programmatiques qui, à leur tour, entravent le dé-obscurcissement via l'analyse dynamique.  | ✓ |
+| -- | -------- | ---------------------- | - |
+| **8.1** | MSTG-RESILIENCE-1 | L'application détecte et réagit à la présence d'appareils rootés ou jailbreakés soit en alertant l'utilisateur ou en mettant fin à l'application. | ✓ |
+| **8.2** | MSTG-RESILIENCE-2 | L'application empêche le déboggage et / ou réagit à la présence d'un déboggeur. Tous les protocoles de déboggage disponibles doivent être couverts. | ✓ |
+| **8.3** | MSTG-RESILIENCE-3 | L'application détecte et réagit à la modification de fichiers exécutables et de données critiques au sein de son bac à sable. | ✓ |
+| **8.4** | MSTG-RESILIENCE-4 | L'application détecte et réagit à la présence d'outils et de frameworks de rétro-ingénierie courants sur l'appareil.| ✓ |
+| **8.5** | MSTG-RESILIENCE-5 | L'application détecte et réagit à son exécution dans un émulateur.  | ✓ |
+| **8.6** | MSTG-RESILIENCE-6 | L'application détecte et réagit à la modification de code et de données dans son espace mémoire. | ✓ |
+| **8.7** | MSTG-RESILIENCE-7 | L'application implémente plusieurs mécanismes parmi les catégories de défense (8.1 à 8.6). Il convient de noter que la résilience augmente avec la quantité et la diversité de l'originalité des mécanismes utilisés. | ✓ |
+| **8.8** | MSTG-RESILIENCE-8 | Les mécanismes de détection déclenchent des réponses de différents types, notamment des réponses invisibles de retardement de l'attaque. | ✓ |
+| **8.9** | MSTG-RESILIENCE-9 | L'obscurcissement est mis en oeuvre par des défenses programmatiques qui, à leur tour, entravent le dé-obscurcissement via l'analyse dynamique.  | ✓ |
 
 ### Liaison avec un Appareil
 
 | # | MSTG-ID | Description | R |
-| --- | --- | --- | -- |
-| **8.10** | MSTG‑RESILIENCE‑10 | L'application implémente un mécanisme de 'liaison avec l'appareil' utilisant une empreinte de l'appareil dérivée de multiples propriétés uniques à cet appareil. | ✓ |
+| -- | -------- | ---------------------- | - |
+| **8.10** | MSTG-RESILIENCE-10 | L'application implémente un mécanisme de 'liaison avec l'appareil' utilisant une empreinte de l'appareil dérivée de multiples propriétés uniques à cet appareil. | ✓ |
 
 ### Entraver la Compréhension
 
 | # | MSTG-ID | Description | R |
-| --- | --- | --- | -- |
-| **8.11** | MSTG‑RESILIENCE‑11 |Tous les fichiers exécutables et les librairies appartenant à l'application sont soit chiffrés au niveau du fichier et / ou le code important et les segments de données à l'intérieur des exécutables sont chiffrés ou compactés. Une analyse statique triviale ne révèle pas de code important ou de données. | ✓ |
-| **8.12** | MSTG‑RESILIENCE‑12 | Si le but de l'obscurcissement est de protéger des traitements sensibles, le schéma d'obscurcissement utilisé est à la fois approprié à la tâche considérée et est résistant envers les méthodes de dé-obscurcissement manuelles et automatiques, en prenant en considération les recherches disponibles. L'efficacité du schéma d'obscurcissement doit être validée à travers du test manuel. Il convient de noter que les fonctionnalités d'isolation au niveau matériel doivent être mises en pratique de préférence à l'obscurcissement toutes les fois que cela est possible. | ✓ |
+| -- | -------- | ---------------------- | - |
+| **8.11** | MSTG-RESILIENCE-11 |Tous les fichiers exécutables et les librairies appartenant à l'application sont soit chiffrés au niveau du fichier et / ou le code important et les segments de données à l'intérieur des exécutables sont chiffrés ou compactés. Une analyse statique triviale ne révèle pas de code important ou de données. | ✓ |
+| **8.12** | MSTG-RESILIENCE-12 | Si le but de l'obscurcissement est de protéger des traitements sensibles, le schéma d'obscurcissement utilisé est à la fois approprié à la tâche considérée et est résistant envers les méthodes de dé-obscurcissement manuelles et automatiques, en prenant en considération les recherches disponibles. L'efficacité du schéma d'obscurcissement doit être validée à travers du test manuel. Il convient de noter que les fonctionnalités d'isolation au niveau matériel doivent être mises en pratique de préférence à l'obscurcissement toutes les fois que cela est possible. | ✓ |
 
 ### Entraver l'écoute
 
 | # | MSTG-ID | Description | R |
-| --- | --- | --- | -- |
-| **8.13** | MSTG‑RESILIENCE‑13 | Pour une défense en profondeur, en plus d'avoir un durcissement efficace des parties communicantes, le chiffrement des données utilisées au niveau de l'application peut être appliqué pour entraver l'écoute. | ✓ |
-
-<br/>
+| -- | -------- | ---------------------- | - |
+| **8.13** | MSTG-RESILIENCE-13 | Pour une défense en profondeur, en plus d'avoir un durcissement efficace des parties communicantes, le chiffrement des données utilisées au niveau de l'application peut être appliqué pour entraver l'écoute. | ✓ |
 
 ## Références
 
@@ -65,7 +60,7 @@ Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobi
 
 Pour de plus amples informations, il est possible de consulter aussi :
 
-- OWASP Mobile Top 10: M8 (Modification du Code) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M8-Code_Tampering>
-- OWASP Mobile Top 10: M9 (Rétro-Ingénierie) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M9-Reverse_Engineering>
-- OWASP Reverse Engineering Threats - <https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification>
-- OWASP Reverse Engineering and Code Modification Prevention - <https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project>
+- OWASP Mobile Top 10: M8 (Modification du Code) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m8-code-tampering>
+- OWASP Mobile Top 10: M9 (Rétro-Ingénierie) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m9-reverse-engineering>
+- OWASP Reverse Engineering Threats - <https://wiki.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification>
+- OWASP Reverse Engineering and Code Modification Prevention - <https://wiki.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project>

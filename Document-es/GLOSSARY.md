@@ -10,31 +10,31 @@ La seguridad a nivel de aplicación se centra en el análisis de los componentes
 
 ## Verificación de la Seguridad de una Aplicación
 
-La evaluación técnica de una aplicación contra el OWASP MASVS.
+La evaluación técnica de una aplicación utilizando el OWASP MASVS.
 
-## Reporte de la Verificación de la Seguridad de una aplicación
+## Informe de la Verificación de la Seguridad de una Aplicación
 
-Un informe que documenta los resultados generales y el análisis de apoyo producido por el verificador para una aplicación particular.
+Un informe que documenta los resultados generales y el análisis detallado producido por el verificador para una aplicación particular.
 
 ## Autenticación
 
-La verificación de la identidad pretendida por un usuario de una aplicación.
+La verificación de la identidad alegada por el usuario de una aplicación.
 
 ## Verificación Automatizada
 
-El uso de herramientas automatizadas (herramientas de análisis dinámico, herramientas de análisis estático o ambas) que utilizan firmas de vulnerabilidades para encontrar problemas.
+El uso de herramientas automatizadas (herramientas de análisis dinámico, estático o ambas) que utilizan firmas de vulnerabilidades para encontrar problemas.
 
-## Verificación de Caja Negra
+## Verificación de tipo Back-box
 
-Es un método de verificación de software que examina la funcionalidad de una aplicación sin fijarse en sus estructuras internas ni en su funcionamiento.
+Es un método de verificación de software que examina la funcionalidad de una aplicación sin tener en cuenta sus estructuras internas ni su funcionamiento.
 
 ## Componente
 
-Una unidad de código autónoma, asociado con un disco e interfaces de red que se comunican con otros componentes.
+Una unidad de código autónoma, con un disco asociado e interfaces de red que se comunican con otros componentes.
 
 ## Cross-Site Scripting (XSS)
 
-Una vulnerabilidad de seguridad que normalmente se encuentra en las aplicaciones web que permiten la inyección de scripts del lado del cliente en el contenido.
+Una vulnerabilidad de seguridad que normalmente se encuentra en las aplicaciones web que permiten la inyección de scripts en el contenido del lado del cliente.
 
 ## Módulo Criptográfico
 
@@ -42,11 +42,11 @@ Hardware, software y/o firmware que implementa algoritmos criptográficos y/o ge
 
 ## CWE
 
-CWE es una lista desarrollada por la comunidad de debilidades comunes de seguridad de software. Sirve como un lenguaje común, un instrumento de medición para las herramientas de seguridad de software, y como una línea base para la identificación de debilidades, mitigación y esfuerzos de prevención.
+CWE es una lista de debilidades comunes de seguridad de software desarrollada por la comunidad. Sirve como un lenguaje común, un instrumento de medición para las herramientas de seguridad de software, y como una línea base para la identificación de debilidades, mitigación y esfuerzos de prevención.
 
-## DAST
+## Pruebas Dinámicas de Seguridad de Aplicaciones (DAST)
 
-Las tecnologías de Pruebas de Seguridad de Aplicaciones Dinámicas (DAST) están diseñadas para detectar condiciones indicativas de una vulnerabilidad de seguridad en una aplicación mientras se está ejecutando.
+Las tecnologías de Pruebas Dinámicas de Seguridad de Aplicaciones (DAST, por sus siglas en inglés) están diseñadas para detectar indicios de vulnerabilidades de seguridad en una aplicación mientras se está ejecutando.
 
 ## Verificaciones de Diseño
 
@@ -56,21 +56,21 @@ La evaluación técnica de la seguridad de la arquitectura de una aplicación.
 
 El uso de herramientas automatizadas que utilizan firmas de vulnerabilidades para encontrar problemas durante la ejecución de una aplicación.
 
-## Identificado Único Global (GUID)
+## Identificador Único Global (GUID)
 
 Un número de referencia único utilizado como identificador en el software.
 
 ## Hyper Text Transfer Protocol (HTTP)
 
-Un protocolo de aplicación para sistemas de información distribuidos, colaborativos. Es la base de la comunicación de datos para la World Wide Web.
+Un protocolo de aplicación para sistemas de información distribuidos y colaborativos. Es la base de la comunicación de datos para la World Wide Web.
 
-## Claves a fuego (Hardcoded keys)
+## Claves Grabadas (Hardcoded keys)
 
-Claves Criptográficas que se encuentran almacenadas en el código en el dispositivo.
+Claves criptográficas que se encuentran almacenadas directamente en el dispositivo.
 
-## IPC
+## Comunicación Entre Procesos
 
-Comunicación Entre Procesos (Inter Process Communications), En la Comunicación Entre Procesos un proceso se comunica con otro a través del kernel del dispositivo para coordinar sus actividades.
+La comunicación entre procesos (IPC, por sus siglas en inglés) es un método mediante el cual un proceso se comunica con otro a través del kernel del dispositivo para coordinar sus actividades.
 
 ## Validación de la Entrada
 
@@ -78,43 +78,43 @@ La canonización y validación de las entradas de usuario no confiables.
 
 ## JAVA Bytecode
 
-Java bytecode es el conjunto de instrucciones de la máquina virtual Java (JVM). Cada bytecode está compuesto por uno, o en algunos casos dos bytes que representan la instrucción (opcode), junto con cero o más bytes para pasar parámetros.
+_Java bytecode_ es el conjunto de instrucciones de la máquina virtual Java (JVM). Cada _bytecode_ está compuesto por uno, o en algunos casos dos bytes que representan la instrucción (_opcode_), junto con cero o más bytes para pasar parámetros.
 
 ## Código Malicioso
 
-Código introducido en una aplicación durante su desarrollo desconocido para el propietario de la aplicación, que elude la política de seguridad pretendida de la aplicación. ¡No es lo mismo que malware o un virus o gusano!
+Código introducido en una aplicación durante su desarrollo que es desconocido para el propietario de la aplicación y que elude la política de seguridad alegada por la misma. ¡No es lo mismo que malware, virus o gusano!
 
 ## Malware
 
-Código ejecutable que se introduce en una aplicación durante el tiempo de ejecución sin el conocimiento del usuario o administrador de la aplicación.
+Código ejecutable que se introduce en una aplicación durante el tiempo de ejecución sin el conocimiento del usuario o administrador de la misma.
 
 ## Open Web Application Security Project (OWASP)
 
-El Open Web Application Security Project (OWASP) es una comunidad abierta y gratuita a nivel mundial enfocada en mejorar la seguridad del software de aplicaciones. Nuestra misión es hacer que la seguridad de las aplicaciones sea "visible" para que las personas y las organizaciones puedan tomar decisiones informadas sobre los riesgos de seguridad de las aplicaciones. Ver: <https://www.owasp.org/>
+OWASP es una comunidad abierta a nivel mundial y sin ánimo de lucro enfocada en mejorar la seguridad del software de aplicaciones. Nuestra misión es hacer que la seguridad de las aplicaciones sea "visible" para que las personas y las organizaciones puedan tomar decisiones informadas sobre los riesgos de seguridad de las aplicaciones. Ver: <https://www.owasp.org/>
 
-## Información de Identificación Personal (Personally Identifiable Information - PII)
+## Información de Identificación Personal (PII)**
 
-es la información que se puede utilizar por sí sola o con otra información para identificar, contactar o localizar a una sola persona, o para identificar a un individuo en su contexto.
+La información de identificación personal (PII, por sus siglas en inglés) es la información que se puede utilizar por sí sola o junto con otra información para identificar, contactar o localizar a una sola persona, o para identificar a un individuo en su contexto
 
-## PIE
+## Ejecutable de Posición Independiente (PIE)
 
-es un código máquina que, al ser colocado en algún lugar de la memoria, se ejecuta correctamente independientemente de su dirección absoluta.
+Es un ejecutable que, al ser cargado en memoria, se ejecuta correctamente independientemente de su dirección absoluta.
 
-## PKI
+## Infraestructura de Clave Pública (PKI)
 
-PKI es un acuerdo que vincula claves públicas con las identidades respectivas de las entidades. La vinculación se establece mediante un proceso de registro y expedición de certificados en y por una autoridad de certificación (CA).
+Una PKI es un acuerdo que vincula claves públicas con las identidades respectivas de las entidades. La vinculación se establece mediante un proceso de registro y expedición de certificados realizado por una autoridad de certificación (CA).
 
-## SAST
+## Pruebas Estáticas de Seguridad de Aplicaciones (SAST)
 
-Las pruebas de seguridad de aplicaciones estáticas (SAST) son un conjunto de tecnologías diseñadas para analizar el código fuente de la aplicación, el bytecode y los binarios del código y las condiciones del diseño que son indicativas de las vulnerabilidades de seguridad. Las soluciones SAST analizan una aplicación desde "dentro hacia fuera" en un estado reposo.
+Las pruebas estáticas de seguridad de aplicaciones (SAST) son un conjunto de tecnologías diseñadas para analizar el código fuente de la aplicación, el _bytecode_, los binarios del código y las condiciones del diseño para detectar indicios de vulnerabilidades de seguridad. Las soluciones SAST analizan una aplicación desde "dentro hacia fuera" en un estado reposo, i.e., cuando no se está ejecutando.
 
 ## SDLC
 
-Ciclo de desarrollo de una aplicación.
+Ciclo de vida de desarrollo software.
 
 ## Seguridad de la Arquitectura
 
-Una abstracción del diseño de una aplicación que identifica y describe dónde y cómo se utilizaran los controles de seguridad, e identifica y describe la ubicación y sensibilidad de los datos tanto del usuario como de la aplicación.
+Una abstracción del diseño de una aplicación que identifica y describe dónde y cómo se utilizaran los controles de seguridad, además de la ubicación y sensibilidad de los datos tanto del usuario como de la aplicación.
 
 ## Configuración de Seguridad
 
@@ -122,7 +122,7 @@ La configuración en tiempo de ejecución de una aplicación que afecta a la for
 
 ## Control de Seguridad
 
-Una función o componente que realiza un chequeo de seguridad (por ejemplo, una verificación del control de acceso) o cuando se llama produce un evento de seguridad (por ejemplo, al generar un registro de auditoría).
+Una función o componente que realiza un chequeo de seguridad (por ejemplo, una verificación del control de acceso) o que cuando es invocado produce un evento de seguridad (por ejemplo, al generar un registro de auditoría).
 
 ## Inyección SQL (SQLi)
 
@@ -130,7 +130,7 @@ Una técnica de inyección de código utilizada para atacar aplicaciones basadas
 
 ## Autenticación SSO
 
-Single Sign On(SSO) se produce cuando un usuario inicia sesión en un Cliente y luego se conecta a otros Clientes automáticamente, independientemente de la plataforma, tecnología o dominio que esté utilizando el usuario. Por ejemplo, cuando te conectas en Google, automáticamente accedes al servicio de YouTube, Drive y Gmail.
+La Autenticación de inicio de sesión único (SSO, por sus siglas en inglés) se produce cuando un usuario inicia sesión en un cliente y luego se conecta desde otros servicios automáticamente, independientemente de la plataforma, tecnología o dominio que esté utilizando el usuario. Por ejemplo, un inicio de sesión en Google dará acceso automáticamente a los servicios de YouTube, Drive y Gmail.
 
 ## Modelado de Amenazas
 
@@ -142,7 +142,7 @@ Protocolos criptográficos que proporcionan seguridad en las comunicaciones a tr
 
 ## URI y URL
 
-Un Identificador Uniforme de Recursos es una cadena de caracteres que se utiliza para identificar un nombre o un recurso web. Un Localizador Uniforme de Recursos se utiliza a menudo como referencia a un recurso.
+Un Identificador Uniforme de Recursos (URI) es una cadena de caracteres que se utiliza para identificar un nombre o un recurso web. Un Localizador Uniforme de Recursos (URL) se utiliza a menudo como referencia a un recurso.
 
 ## Pruebas de Aceptación de Usuario (UAT)
 
@@ -150,7 +150,7 @@ Tradicionalmente un entorno de pruebas que se comporta como el entorno de produc
 
 ## Verificador
 
-La persona o equipo que está revisando una aplicación contra los requerimientos del MASVS de OWASP.
+La persona o equipo que está revisando una aplicación usando los requerimientos del MASVS de OWASP.
 
 ## Lista Blanca
 
@@ -158,4 +158,4 @@ Una lista de datos u operaciones permitidas, por ejemplo, una lista de caractere
 
 ## Certificado X.509
 
-Un certificado X. 509 es un certificado digital que utiliza el estándar internacional de infraestructura de clave pública (PKI) X. 509 ampliamente aceptada para verificar que una clave pública pertenece a la identidad de usuario, computadora o servicio contenida en el certificado.
+Un certificado X.509 es un certificado digital que utiliza el estándar internacional de infraestructura de clave pública (PKI) X.509 ampliamente aceptado para verificar que una clave pública pertenece a la identidad de usuario, dispositivo o servicio contenida en el certificado.

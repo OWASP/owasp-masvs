@@ -12,9 +12,11 @@ MASVS定義了兩個嚴格的資訊安全驗證等級(L1和L2), 還有一系列�
 
 落實MASVS-L1可以確保行動應用的安全，使開發流程符合資訊安全的最佳實踐方法，並且確保行動應用可以防範常見的資訊安全弱點。MASVS-L2則是增加了更多的防禦縱深(defense-in-depth)，例如憑證綁定(SSL pinning)。因此，MASVS-L2可以使中行動應用能夠更好的防範複雜的攻擊行為 - 假設行動裝置作業系統的資訊安全管控完好，並且用戶端使用者並不被視為潛在的惡意用戶。落實全部或部分MASVS-R的軟體防護要求，可以幫助防止當用戶端使用者是惡意使用者或行動裝置作業系統被入侵時的特定用戶端威脅(client-side threats)。
 
-**請注意MASVS-R和OWASP Mobile Testing Guide(OWASP行動應用測試指南)中提到的軟體防護管控方法，無法確保不會被繞過，並且永遠不應該被視為資訊安全管控的替代方法。相反的，這些軟體防護管控方法旨在增加已落實MASVS L1或L2的行動應用，對特定威脅的額外防護。**
+**I: 雖然我們建議在每個行動應用程式中規劃符合 MASVS-L1 的標準，但是是否要執行這些控制項目最終仍須是風險控管的決定，也必須是要與企業業主溝通協調。**
 
-![Verification Levels](images/masvs-levels-new.jpg)
+**II: 請注意在 MASVS-R 以及 OWASP 行動應用安全測試指南(OWASP Mobile Security Testing Guide)當中所提及的軟體保護控制項目中的軟體保護控制項目最終仍有可能被攻破，因此不能以此文件及指南當為資安控制的替代方案。本文件及指南之目的是依 MASVS-L1 及 MASVS-L2 為提供行動應用程式因威脅標準及保護層次不同對應至 MASVS 中。**
+
+<img src="images/masvs-levels-new.jpg" title="Verification Levels" width="600px" height="253px" />
 
 ### 文檔結構
 

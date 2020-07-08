@@ -1,0 +1,325 @@
+name: Document Build
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        fetch-depth: 1
+
+    - name: Pull the Docker image
+      run: docker pull owasp/masvs-docgenerator:0.2
+    # only use below when testing new container builds
+    # - name: Build the Docker image
+    #   run: docker build ./tools/docker --tag masvs-generator:latest
+
+    - name: Generate python scripts (csv)
+      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-SNAPSHOT.csv'
+    - name: Generate python scripts (json)
+      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-SNAPSHOT.json'
+    - name: Generate python scripts (xml)
+      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-SNAPSHOT.xml'
+    - name: Upload CSV export
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT.csv
+        path: tools/OWASP_MASVS-SNAPSHOT.csv
+    - name: Upload JSON export
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT.json
+        path: tools/OWASP_MASVS-SNAPSHOT.json
+    - name: Upload XML export
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT.xml
+        path: tools/OWASP_MASVS-SNAPSHOT.xml
+
+    - name: Generate Brazilian Portuguese PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-ptbr SNAPSHOT'
+    - name: Upload ptbr PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ptbr.pdf
+        path: OWASP_MASVS-SNAPSHOT-ptbr.pdf
+    - name: Upload Brazilian Portuguese EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ptbr.epub
+        path: OWASP_MASVS-SNAPSHOT-ptbr.epub
+    - name: Upload Brazilian Portuguese DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ptbr_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-ptbr_WIP_.docx
+    - name: Upload Brazilian Portuguese MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ptbr.mobi
+        path: OWASP_MASVS-SNAPSHOT-ptbr.mobi
+
+    - name: Generate English PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document SNAPSHOT'
+    - name: Upload English PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-en.pdf
+        path: OWASP_MASVS-SNAPSHOT-en.pdf
+    - name: Upload English EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-en.epub
+        path: OWASP_MASVS-SNAPSHOT-en.epub
+    - name: Upload English DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-en_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-en_WIP_.docx
+    - name: Upload English MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-en.mobi
+        path: OWASP_MASVS-SNAPSHOT-en.mobi
+
+    - name: Generate French PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-fr SNAPSHOT'
+    - name: Upload French PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-fr.pdf
+        path: OWASP_MASVS-SNAPSHOT-fr.pdf
+    - name: Upload French EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-fr.epub
+        path: OWASP_MASVS-SNAPSHOT-fr.epub
+    - name: Upload French DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-fr_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-fr_WIP_.docx
+    - name: Upload French MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-fr.mobi
+        path: OWASP_MASVS-SNAPSHOT-fr.mobi
+
+    - name: Generate German PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-de SNAPSHOT'
+    - name: Upload German PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-de.pdf
+        path: OWASP_MASVS-SNAPSHOT-de.pdf
+    - name: Upload German EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-de.epub
+        path: OWASP_MASVS-SNAPSHOT-de.epub
+    - name: Upload German DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-de_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-de_WIP_.docx
+    - name: Upload German MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-de.mobi
+        path: OWASP_MASVS-SNAPSHOT-de.mobi
+
+    - name: Generate Hindi PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-hi SNAPSHOT'
+    - name: Upload Hindi PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-hi.pdf
+        path: OWASP_MASVS-SNAPSHOT-hi.pdf
+    - name: Upload Hindi EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-hi.epub
+        path: OWASP_MASVS-SNAPSHOT-hi.epub
+    - name: Upload Hindi DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-hi_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-hi_WIP_.docx
+    - name: Upload Korean MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-hi.mobi
+        path: OWASP_MASVS-SNAPSHOT-hi.mobi
+
+    - name: Generate Japanese PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-ja SNAPSHOT'
+    - name: Upload Japanese PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ja.pdf
+        path: OWASP_MASVS-SNAPSHOT-ja.pdf
+    - name: Upload Japanese EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ja.epub
+        path: OWASP_MASVS-SNAPSHOT-ja.epub
+    - name: Upload Japanese DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ja_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-ja_WIP_.docx
+    - name: Upload Japanese MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ja.mobi
+        path: OWASP_MASVS-SNAPSHOT-ja.mobi
+
+    - name: Generate Korean PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-ko SNAPSHOT'
+    - name: Upload Korean PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ko.pdf
+        path: OWASP_MASVS-SNAPSHOT-ko.pdf
+    - name: Upload Korean EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ko.epub
+        path: OWASP_MASVS-SNAPSHOT-ko.epub
+    - name: Upload Korean DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ko_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-ko_WIP_.docx
+    - name: Upload Korean MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ko.mobi
+        path: OWASP_MASVS-SNAPSHOT-ko.mobi
+
+    - name: Generate Persian documents
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-fa SNAPSHOT'
+    - name: Convert Persian docx to Persian PDF
+      run: mkdir /tmp/unoconv && cp OWASP_MASVS-SNAPSHOT-fa_WIP_.docx /tmp/unoconv/ && docker run -d -e FILEEXT=docx -e TIMETOEXIT=300 -v /tmp/unoconv:/tmp --name unoconv sfoxdev/unoconv-alpine && sleep 10s
+    - name: Upload Persian EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-fa.epub
+        path: OWASP_MASVS-SNAPSHOT-fa.epub
+    - name: Upload Persian DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-fa_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-fa_WIP_.docx
+    - name: Upload Persian MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-fa.mobi
+        path: OWASP_MASVS-SNAPSHOT-fa.mobi
+    - name: List stuff in tmp
+      run: echo "dir tmp:" && ls /tmp && echo "dir tmp/unoconv" && ls /tmp/unoconv
+    - name: Upload convert log
+      uses: actions/upload-artifact@v1
+      with:
+        name: convert.log
+        path: /tmp/unoconv/convert.log
+    - name: Upload Persian PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-fa_WIP_.pdf
+        path: /tmp/unoconv/OWASP_MASVS-SNAPSHOT-fa_WIP_.pdf
+
+    - name: Generate Russian PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-ru SNAPSHOT'
+    - name: Upload Russian PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ru.pdf
+        path: OWASP_MASVS-SNAPSHOT-ru.pdf
+    - name: Upload Russian EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ru.epub
+        path: OWASP_MASVS-SNAPSHOT-ru.epub
+    - name: Upload Russian DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ru_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-ru_WIP_.docx
+    - name: Upload Russian MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ru.mobi
+        path: OWASP_MASVS-SNAPSHOT-ru.mobi
+
+    - name: Generate Spanish PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-es SNAPSHOT'
+    - name: Upload Spanish PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-es.pdf
+        path: OWASP_MASVS-SNAPSHOT-es.pdf
+    - name: Upload Spanish EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-es.epub
+        path: OWASP_MASVS-SNAPSHOT-es.epub
+    - name: Upload Spanish DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-es_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-es_WIP_.docx
+    - name: Upload Spanish MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-es.mobi
+        path: OWASP_MASVS-SNAPSHOT-es.mobi
+
+    - name: Generate Simplified Chinese PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-zhcn SNAPSHOT'
+    - name: Upload Simplified Chinese PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-zhcn.pdf
+        path: OWASP_MASVS-SNAPSHOT-zhcn.pdf
+    - name: Upload Simplified Chinese EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-zhcn.epub
+        path: OWASP_MASVS-SNAPSHOT-zhcn.epub
+    - name: Upload Simplified Chinese DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-zhcn_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-zhcn_WIP_.docx
+    - name: Upload Simplified Chinese MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-zhcn.mobi
+        path: OWASP_MASVS-SNAPSHOT-zhcn.mobi
+
+    - name: Generate Traditional Chinese PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-zhtw SNAPSHOT'
+    - name: Upload Traditional Chinese PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-zhtw.pdf
+        path: OWASP_MASVS-SNAPSHOT-zhtw.pdf
+    - name: Upload Traditional Chinese EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-zhtw.epub
+        path: OWASP_MASVS-SNAPSHOT-zhtw.epub
+    - name: Upload Traditional Chinese DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-zhtw_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-zhtw_WIP_.docx
+    - name: Upload Traditional Chinese MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-zhtw.mobi
+        path: OWASP_MASVS-SNAPSHOT-zhtw.mobi

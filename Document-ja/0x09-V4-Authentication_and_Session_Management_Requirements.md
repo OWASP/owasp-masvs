@@ -7,22 +7,19 @@
 ## セキュリティ検証要件
 
 | # | MSTG-ID | 説明 | L1 | L2 |
-| --- | --- | --- | --- | --- |
-| **4.1** | MSTG‑AUTH‑1 | アプリがユーザーにリモートサービスへのアクセスを提供する場合、ユーザー名/パスワード認証など何らかの形態の認証がリモートエンドポイントで実行されている。 | ✓ | ✓ |
-| **4.2** | MSTG‑AUTH‑2 | ステートフルなセッション管理を使用する場合、リモートエンドポイントはランダムに生成されたセッション識別子を使用し、ユーザーの資格情報を送信せずにクライアントリクエストを認証している。 | ✓ | ✓ |
-| **4.3** | MSTG‑AUTH‑3 | ステートレスなトークンベースの認証を使用する場合、サーバーはセキュアなアルゴリズムを使用して署名されたトークンを提供している。 | ✓ | ✓ |
-| **4.4** | MSTG‑AUTH‑4 | ユーザーがログアウトする際に、リモートエンドポイントは既存のセッションを終了している。 | ✓ | ✓ |
-| **4.5** | MSTG‑AUTH‑5 | パスワードポリシーが存在し、リモートエンドポイントで実施されている。 | ✓ | ✓ |
-| **4.6** | MSTG‑AUTH‑6 | リモートエンドポイントは過度な資格情報の送信に対する保護を実装している。 | ✓ | ✓ |
-| **4.7** | MSTG‑AUTH‑7 | 事前に定義された非アクティブ期間およびアクセストークンの有効期限が切れた後に、セッションはリモートエンドポイントで無効にしている。 | ✓ | ✓ |
-| **4.8** | MSTG‑AUTH‑8 | 生体認証が使用される場合は（単に「true」や「false」を返すAPIを使うなどの）イベントバインディングは使用しない。代わりに、キーチェーンやキーストアのアンロックに基づいている。 |  | ✓ |
-| **4.9** | MSTG‑AUTH‑9 | リモートエンドポイントに二要素認証が存在し、リモートエンドポイントで二要素認証要件が一貫して適用されている。 |  | ✓ |
-| **4.10** | MSTG‑AUTH‑10 | 機密トランザクションはステップアップ認証を必要としている。 |  | ✓ |
-| **4.11** | MSTG‑AUTH‑11 | アプリはユーザーのアカウントでのすべての機密アクティビティをユーザーに通知している。ユーザーはデバイスの一覧を表示したり、コンテキスト情報 (IP アドレス、位置情報など) を表示したり、特定のデバイスをブロックすることができる。 |  | ✓ |
-| **4.12** | MSTG‑AUTH‑12 | 認可モデルはリモートエンドポイントで定義および実施されている。 | ✓ | ✓ |
-
-<div style="page-break-after: always;">
-</div>
+| -- | -------- | ---------------------- | - | - |
+| **4.1** | MSTG-AUTH-1 | アプリがユーザーにリモートサービスへのアクセスを提供する場合、ユーザー名/パスワード認証など何らかの形態の認証がリモートエンドポイントで実行されている。 | ✓ | ✓ |
+| **4.2** | MSTG-AUTH-2 | ステートフルなセッション管理を使用する場合、リモートエンドポイントはランダムに生成されたセッション識別子を使用し、ユーザーの資格情報を送信せずにクライアントリクエストを認証している。 | ✓ | ✓ |
+| **4.3** | MSTG-AUTH-3 | ステートレスなトークンベースの認証を使用する場合、サーバーはセキュアなアルゴリズムを使用して署名されたトークンを提供している。 | ✓ | ✓ |
+| **4.4** | MSTG-AUTH-4 | ユーザーがログアウトする際に、リモートエンドポイントは既存のセッションを終了している。 | ✓ | ✓ |
+| **4.5** | MSTG-AUTH-5 | パスワードポリシーが存在し、リモートエンドポイントで実施されている。 | ✓ | ✓ |
+| **4.6** | MSTG-AUTH-6 | リモートエンドポイントは過度な資格情報の送信に対する保護を実装している。 | ✓ | ✓ |
+| **4.7** | MSTG-AUTH-7 | 事前に定義された非アクティブ期間およびアクセストークンの有効期限が切れた後に、セッションはリモートエンドポイントで無効にしている。 | ✓ | ✓ |
+| **4.8** | MSTG-AUTH-8 | 生体認証が使用される場合は（単に「true」や「false」を返すAPIを使うなどの）イベントバインディングは使用しない。代わりに、キーチェーンやキーストアのアンロックに基づいている。 |  | ✓ |
+| **4.9** | MSTG-AUTH-9 | リモートエンドポイントに二要素認証が存在し、リモートエンドポイントで二要素認証要件が一貫して適用されている。 |  | ✓ |
+| **4.10** | MSTG-AUTH-10 | 機密トランザクションはステップアップ認証を必要としている。 |  | ✓ |
+| **4.11** | MSTG-AUTH-11 | アプリはユーザーのアカウントでのすべての機密アクティビティをユーザーに通知している。ユーザーはデバイスの一覧を表示したり、コンテキスト情報 (IP アドレス、位置情報など) を表示したり、特定のデバイスをブロックすることができる。 |  | ✓ |
+| **4.12** | MSTG-AUTH-12 | 認可モデルはリモートエンドポイントで定義および実施されている。 | ✓ | ✓ |
 
 ## 参考情報
 
@@ -34,6 +31,11 @@ OWASP モバイルセキュリティテストガイドでは、このセクシ�
 
 詳しくは以下の情報を参照してください。
 
-- OWASP Mobile Top 10: M4 (Insecure Authentication) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M4-Insecure_Authentication>
-- OWASP Mobile Top 10: M6 (Insecure Authorization) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M6-Insecure_Authorization>
+- OWASP Mobile Top 10: M4 (Insecure Authentication) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m4-insecure-authentication>
+- OWASP Mobile Top 10: M6 (Insecure Authorization) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m6-insecure-authorization>
 - CWE 287 (Improper Authentication) - <https://cwe.mitre.org/data/definitions/287.html>
+- CWE 307 (Improper Restriction of Excessive Authentication Attempts) - <https://cwe.mitre.org/data/definitions/307.html>
+- CWE 308 (Use of Single-factor Authentication) - <https://cwe.mitre.org/data/definitions/308.html>
+- CWE 521 (Weak Password Requirements) - <https://cwe.mitre.org/data/definitions/521.html>
+- CWE 604 (Use of Client-Side Authentication) - <https://cwe.mitre.org/data/definitions/604.html>
+- CWE 613 (Insufficient Session Expiration) - <https://cwe.mitre.org/data/definitions/613.html>

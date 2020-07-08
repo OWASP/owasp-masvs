@@ -1,0 +1,6 @@
+# V1.2 International Release
+
+With a little bit of delay we are happy to present version 1.2 of the MASVS!
+Changes:
+- Created international version of V1.2: the MASVS is now translated into German, Spanish, French, Japanese, Korean, Russian, Simplified Chinese, and Traditional Chinese.
+- New build and release systems based on Github Actions and Docker containers resulting in better looking PDF, Mobi, Epub and Docx documents.

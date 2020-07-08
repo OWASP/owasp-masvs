@@ -16,7 +16,7 @@ El cumplimiento de los requerimientos de MASVS-L1 dará como resultado una aplic
 
 **II: Los controles de protección de software listados en MASVS-R y descritos en la MSTG pueden ser eludidos y no deben nunca reemplazar los demás controles de seguridad. Al contrario, su intención es añadir controles de protección adicionales (específicos a ciertas amenazas) para las aplicaciones que ya de por sí cumplen los requerimientos MASVS-L1 y/o MASVS-L2.**
 
-![Verification Levels](images/masvs-levels-new.jpg)
+<img src="images/masvs-levels-new.jpg" title="Verification Levels" width="600px" height="253px" />
 
 ### Estructura del Documento
 
@@ -51,9 +51,6 @@ En resumen, los siguientes tipos de verificación están disponibles:
 - MASVS-L2+R
 
 Las diferentes combinaciones reflejan diferentes grados de seguridad y resistencia. El objetivo es permitir la flexibilidad: por ejemplo, un juego móvil puede no requerir controles de seguridad MASVS-L2, como la autenticación de doble factor por razones de usabilidad, pero seguramente deba intentar prevenir la manipulación del código por razones de negocio.
-
-<div style="page-break-after: always;">
-</div>
 
 #### Cómo Elegir el Tipo de Verificación
 

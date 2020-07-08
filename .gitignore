@@ -6,3 +6,9 @@ node_modules
 .vscode
 Generated/
 Pipfile.lock
+*.pdf
+*.epub
+tmp_*.tex
+OWASP_MASVS-SNAPSHOT*.docx
+*.mobi
+*.docx

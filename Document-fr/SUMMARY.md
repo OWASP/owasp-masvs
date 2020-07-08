@@ -1,6 +1,6 @@
 # Résumé
 
-- [Avant-Propos](Foreword.md)
+- [Avant-Propos](0x01-Foreword.md)
 - [Changelog](CHANGELOG.md)
 - [Frontispice](0x02-Frontispiece.md)
 - [Utiliser le MASVS](0x03-Using_the_MASVS.md)

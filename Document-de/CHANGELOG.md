@@ -1,27 +1,33 @@
 # Versionshistorie
 
-Dieses Dokument wurde automatisch erstellt am {{gitbook.time}}.
+## V1.2 - 7 März 2020 - Internationale Veröffentlichung
 
-## V1.2-RC - Pre-Release
+Die folgenden Änderungen sind Teil von Version 1.2:
+
+- Übersetzung des MASVS in verinfachtes Chinesisch verfügbar.
+- Änderung des Titles auf dem Cover des MASVS.
+- Mobile Top 10 und CWE Referenzen wurden aus dem MSTG entfernt und zu existierenden Referenzen im MASVS hinzugefügt.
+
+## V1.2-RC - 5 Oktober 2019 - Pre-Release
 
 Die folgenden Änderungen sind Teil von Version 1.2-RC:
 
 - "Flagship Status" von OWASP erhalten.
 - Anforderung MSTG-Storage-1 verändert.
 - Anforderung MSTG-STORAGE-13, MSTG-STORAGE-14 und MSTG-STORAGE-15 wurden hinzugefügt mit Fokus auf Datenschutz.
-- Anforderung MSTG‑CODE‑4 wurde aktualisiert um mehr Fälle als nur Debugging abzudecken.
+- Anforderung MSTG-CODE-4 wurde aktualisiert um mehr Fälle als nur Debugging abzudecken.
 - Anforderung MSTG-AUTH-11 wurde aktualisiert um "kontextbezogene Informationen".
-- Anforderung MSTG‑PLATFORM‑10 wurde hinzugefügt für einen weiteren Fall um WebViews sicher zu verwenden.
-- Anforderung MSTG‑AUTH‑12 wurde hinzugefügt um Entwickler daran zu erinnern Autorisierung zu implementieren, vor allem im Fall von multi-user Apps.
+- Anforderung MSTG-PLATFORM-10 wurde hinzugefügt für einen weiteren Fall um WebViews sicher zu verwenden.
+- Anforderung MSTG-AUTH-12 wurde hinzugefügt um Entwickler daran zu erinnern Autorisierung zu implementieren, vor allem im Fall von multi-user Apps.
 - Beschreibung hinzugefügt, wie der MASVS in einem Risk Assessment verwendet werden sollte.
 - Beschreibung hinzugefügt für Bezahl-Inhalte.
-- Anforderung MSTG‑ARCH‑11 wurde hinzugefügt um Responsible Disclosure Policies zu implementieren.
-- Anforderung MSTG‑ARCH‑12 wurde hinzugefügt um Datenschutzgesetze zu befolgen.
-- Anforderung MSTG‑PLATFORM‑11 wurde hinzugefügt um 3rd Party Tastaturen zu verbieten.
-- Anforderung MSTG‑RESILIENCE‑13 wurde hinzugefügt um das Abhören von Apps zu erschweren.
+- Anforderung MSTG-ARCH-11 wurde hinzugefügt um Responsible Disclosure Policies zu implementieren.
+- Anforderung MSTG-ARCH-12 wurde hinzugefügt um Datenschutzgesetze zu befolgen.
+- Anforderung MSTG-PLATFORM-11 wurde hinzugefügt um 3rd Party Tastaturen zu verbieten.
+- Anforderung MSTG-RESILIENCE-13 wurde hinzugefügt um das Abhören von Apps zu erschweren.
 - Die folgenden Sprachen in denen der MASVS verfügbar ist wurden aktualisiert: Chinesisch (ZHTW), Englisch, Deutsch, Französisch, Russisch, Spanisch und Japanisch
 
-## V1.1.4 4 Juli 2019 - Summit edition
+## V1.1.4 - 4 Juli 2019 - Summit edition
 
 Die folgenden Änderungen sind Teil von Version 1.1.4:
 
@@ -37,7 +43,7 @@ Die folgenden Änderungen sind Teil von Version 1.1.4:
 - Die Skripte zum Erzeugen von XML/JSON/CSV von allen Sprachen wurden aktualisiert.
 - Das Vorwort wurde in Chinesisch (ZHTW) übersetzt.
 
-## V1.1.3 9 Januar 2019 - Kleine Fehlerbehebungen
+## V1.1.3 - 9 Januar 2019 - Kleine Fehlerbehebungen
 
 Die folgenden Änderungen sind Teil von Version 1.1.3:
 
@@ -45,7 +51,7 @@ Die folgenden Änderungen sind Teil von Version 1.1.3:
 - Neue Tabelle für Übersetzer in Danksagungen.
 - Kleine fixes in der Japanischen Version.
 
-## V1.1.2 3 Januar 2019 - Sponsoren und Internationalisierung
+## V1.1.2 - 3 Januar 2019 - Sponsoren und Internationalisierung
 
 Die folgenden Änderungen sind Teil von Version 1.1.2:
 
@@ -59,7 +65,7 @@ Die folgenden Änderungen sind Teil von Version 1.1.2:
 - Dokument vereinfacht um Übersetzung zu erleichtern.
 - Anleitung für automatische Erstellung von neuen MASVS Versionen hinzugefügt.
 
-## V1.1.0 14 Juli 2018
+## V1.1.0 - 14 Juli 2018
 
 Die folgenden Änderungen sind Teil von Version 1.1:
 
@@ -67,7 +73,7 @@ Die folgenden Änderungen sind Teil von Version 1.1:
 - Anforderung 2.2 "Es werden keine sensiblen Daten außerhalb des App-Containers oder außerhalb des vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismus abgelegt." wurde hinzugefügt.
 - Anforderung 2.1 wurde umformuliert zu "Die App speichert sensible Daten wie personenbezogene Daten, Anmeldedaten oder kryptographische Schlüssel unter Nutzung der vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismen.".
 
-## V1.0 12 Januar 2018
+## V1.0 - 12 Januar 2018
 
 Die folgenden Änderungen sind Teil von Version 1.0:
 
