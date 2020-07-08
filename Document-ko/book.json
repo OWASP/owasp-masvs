@@ -2,7 +2,7 @@
   "root" : ".",
 
   "structure": {
-    "readme": "Foreword.md"
+    "readme": "0x01-Foreword.md"
   },
 
   "language": "ko"

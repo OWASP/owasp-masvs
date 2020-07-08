@@ -16,7 +16,7 @@ Fulfilling the requirements in MASVS-L1 results in a secure app that follows sec
 
 **II: Note that the software protection controls listed in MASVS-R and described in the OWASP Mobile Security Testing Guide can ultimately be bypassed and must never be used as a replacement for security controls. Instead, they are intended to add additional threat-specific, protective controls to apps that also fulfill the MASVS requirements in MASVS-L1 or MASVS-L2.**
 
-![Verification Levels](images/masvs-levels-new.jpg)
+<img src="images/masvs-levels-new.jpg" title="Verification Levels" width="600px" height="253px" />
 
 ### Document Structure
 
@@ -33,7 +33,7 @@ A mobile app that achieves MASVS-L1 adheres to mobile application security best 
 
 #### MASVS-L2: Defense-in-Depth
 
-MASVS-L2 introduces advanced security controls that go beyond the standard requirements. To fulfill MASVS-L2, a threat model must exist, and security must be an integral part of the app's architecture and design. Based on the threat model, the right MASVS-L2 controls should have been selected and implemented succesfully. This level is appropriate for apps that handle highly sensitive data, such as mobile banking apps.
+MASVS-L2 introduces advanced security controls that go beyond the standard requirements. To fulfill MASVS-L2, a threat model must exist, and security must be an integral part of the app's architecture and design. Based on the threat model, the right MASVS-L2 controls should have been selected and implemented successfully. This level is appropriate for apps that handle highly sensitive data, such as mobile banking apps.
 
 #### MASVS-R: Resiliency Against Reverse Engineering and Tampering
 
@@ -51,8 +51,6 @@ In summary, the following verification types are available:
 - MASVS-L2+R
 
 The different combinations reflect different grades of security and resiliency. The goal is to allow for flexibility: For example, a mobile game might not warrant adding MASVS-L2 security controls such as 2-factor authentication for usability reasons, but have a strong business need for tamper prevention.
-<div style="page-break-after: always;">
-</div>
 
 #### Which Verification Type to Choose
 
@@ -63,6 +61,8 @@ Implementing the requirements of MASVS L2 increases security, while at the same 
 ###### MASVS-L1
 
 - All mobile apps. MASVS-L1 lists security best practices that can be followed with a reasonable impact on development cost and user experience. Apply the requirements in MASVS-L1 for any app that don't qualify for one of the higher levels.
+
+<!-- \pagebreak -->
 
 ###### MASVS-L2
 

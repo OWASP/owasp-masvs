@@ -20,9 +20,6 @@ Eine Zertifizierungsstelle muss in jedem Report den Scope der Überprüfung (ins
 
 Der OWASP MSTG ist eine Anleitung zum Testen der Sicherheit von mobilen Apps. Der Guide beschreibt den technischen Prozess zur Überprüfung der Anforderungen aus dem MASVS. Der MSTG enthält eine Liste von Testfällen. Jeder Testfall referenziert eine einzelne Anforderung im MASVS. Während der MASVS eher grobe und generische Anforderungen enthält, bietet der MSTG detaillierte Empfehlungen und Testprozeduren je mobilem Betriebssystem.
 
-<div style="page-break-after: always;">
-</div>
-
 ### Die Rolle von Werkzeugen für automatisierte Security Tests
 
 Die Nutzung von Quellcode-Scannern und Black-Box-Test-Werkzeugen erhöht die Effizienz und wird klar empfohlen. Allerdings ist eine vollständige MASVS Überprüfung allein mit automatisierten Werkzeugen unmöglich. Jede mobile App ist unterschiedlich und ein Verständnis der Gesamtarchitektur, der Geschäftslogik und technischer Fallstricke genutzter Technologien und Frameworks ist eine zwingende Voraussetzung um die Sicherheit einer App zu prüfen.

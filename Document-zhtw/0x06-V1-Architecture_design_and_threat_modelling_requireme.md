@@ -11,28 +11,26 @@
 以下列出了 MASVS-L1 和 MASVS-L2 的要求。
 
 | # | MSTG-ID | 描述 | L1 | L2 |
-| --- | --- | --- | --- | --- |
-| **1.1** | MSTG‑ARCH‑1 | 所有應用程式組成元件都已歸類並且已知是必需的。 | ✓ | ✓ |
-| **1.2** | MSTG‑ARCH‑2 | 安全控制永遠不會僅僅在客戶端強制執行，而是在相對應的遠程端點上也必須強制執行。 | ✓ | ✓ |
-| **1.3** | MSTG‑ARCH‑3 | 行動應用程式的高級架構和所有連接的遠程服務已經被定義，並且該架構已解決了安全性的問題。 | ✓ | ✓ |
-| **1.4** | MSTG‑ARCH‑4 | 在行動應用程式環境中被認為敏感的資料已被明確歸類。 | ✓ | ✓ |
-| **1.5** | MSTG‑ARCH‑5 | 所有應用程式的組成都根據它們提供的業務功能 和/或 安全功能進行定義。 |   | ✓ |
-| **1.6** | MSTG‑ARCH‑6 | 行動應用程式和相關遠程服務的威脅模型已經制定，以識別潛在的威脅和對策。 |   | ✓ |
-| **1.7** | MSTG‑ARCH‑7 | 所有安全控制都有一個集中的管理。 |   | ✓ |
-| **1.8** | MSTG‑ARCH‑8 | 如何管理加密金鑰（如果有）有明確方針，而且加密金鑰生命週期需強制實施。 理想情況下，遵循 NIST SP 800-57 等鑰匙管理標準。 |   | ✓ |
-| **1.9** | MSTG‑ARCH‑9 | 存在強制行動應用程式更新的機制。 |   | ✓ |
-| **1.10** | MSTG‑ARCH‑10 | 安全性在軟體開發生命週期的所有階段中仔細納入考量。 |   | ✓ |
-
-<div style="page-break-after: always;">
-</div>
+| -- | -------- | ---------------------- | - | - |
+| **1.1** | MSTG-ARCH-1 | 所有應用程式組成元件都已歸類並且已知是必需的。 | ✓ | ✓ |
+| **1.2** | MSTG-ARCH-2 | 安全控制永遠不會僅僅在客戶端強制執行，而是在相對應的遠程端點上也必須強制執行。 | ✓ | ✓ |
+| **1.3** | MSTG-ARCH-3 | 行動應用程式的高級架構和所有連接的遠程服務已經被定義，並且該架構已解決了安全性的問題。 | ✓ | ✓ |
+| **1.4** | MSTG-ARCH-4 | 在行動應用程式環境中被認為敏感的資料已被明確歸類。 | ✓ | ✓ |
+| **1.5** | MSTG-ARCH-5 | 所有應用程式的組成都根據它們提供的業務功能 和/或 安全功能進行定義。 |   | ✓ |
+| **1.6** | MSTG-ARCH-6 | 行動應用程式和相關遠程服務的威脅模型已經制定，以識別潛在的威脅和對策。 |   | ✓ |
+| **1.7** | MSTG-ARCH-7 | 所有安全控制都有一個集中的管理。 |   | ✓ |
+| **1.8** | MSTG-ARCH-8 | 如何管理加密金鑰（如果有）有明確方針，而且加密金鑰生命週期需強制實施。 理想情況下，遵循 NIST SP 800-57 等鑰匙管理標準。 |   | ✓ |
+| **1.9** | MSTG-ARCH-9 | 存在強制行動應用程式更新的機制。 |   | ✓ |
+| **1.10** | MSTG-ARCH-10 | 安全性在軟體開發生命週期的所有階段中仔細納入考量。 |   | ✓ |
+| **1.11** | MSTG-ARCH-11 | 需要一個有效的責任披露政策被執行。 |  | ✓ |
+| **1.12** | MSTG-ARCH-12 | 應用程式需遵守隱私法規及政策。 | ✓ | ✓ |
 
 ## 參考
 
 更多資訊請參閱：
 
-- OWASP Mobile Top 10: M10 (Extraneous Functionality) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M10-Extraneous_Functionality>
-- OWASP Security Architecture cheat sheet - <https://www.owasp.org/index.php/Application_Security_Architecture_Cheat_Sheet>
-- OWASP Thread modelling - <https://www.owasp.org/index.php/Application_Threat_Modeling>
-- OWASP Secure SDLC Cheat Sheet - <https://www.owasp.org/index.php/Secure_SDLC_Cheat_Sheet>
+- OWASP Mobile Top 10: M10 (Extraneous Functionality) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m10-extraneous-functionality>
+- OWASP Thread modelling - <https://owasp.org/www-community/Application_Threat_Modeling>
+- OWASP Secure SDLC Cheat Sheet - <https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets_excluded/Secure_SDLC_Cheat_Sheet.md>
 - Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
 - NIST SP 800-57 - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>

@@ -18,44 +18,38 @@
 
 3. 保護の有効性は使用される特定のタイプの耐タンパ性および難読化のテストの経験を有する人間の専門家によって常に検証される必要があります（モバイルセキュリティテストガイドの「リバースエンジニアリング」および「ソフトウェア保護の評価」の章も参照してください）。
 
-<div style="page-break-after: always;">
-</div>
-
 ### 動的解析と改竄の阻止
 
 | # | MSTG-ID | 説明 | R |
-| --- | --- | --- | --- |
-| **8.1** | MSTG‑RESILIENCE‑1 | アプリはユーザーに警告するかアプリを終了することでルート化デバイスや脱獄済みデバイスの存在を検知し応答している。 | ✓ |
-| **8.2** | MSTG‑RESILIENCE‑2 | アプリはデバッグを防止し、デバッガのアタッチを検知し応答している。利用可能なすべてのデバッグプロトコルを網羅している必要がある。 | ✓ |
-| **8.3** | MSTG‑RESILIENCE‑3 | アプリはそれ自身のサンドボックス内の実行ファイルや重要なデータの改竄を検知し応答している。 | ✓ |
-| **8.4** | MSTG‑RESILIENCE‑4 | アプリはそのデバイスで広く使用されるリバースエンジニアリングツールやフレームワークの存在を検知し応答している。 | ✓ |
-| **8.5** | MSTG‑RESILIENCE‑5 | アプリは任意の方法を使用してエミュレータ内で動作しているかどうかを検知し応答している。 | ✓ |
-| **8.6** | MSTG‑RESILIENCE‑6 | アプリはそれ自身のメモリ空間内のコードとデータの改竄を検知し応答している。 | ✓ |
-| **8.7** | MSTG‑RESILIENCE‑7 | アプリは各防御カテゴリ(8.1から8.6)で複数のメカニズムを実装している。耐性は使用されるメカニズムのオリジナリティの量、多様性と比例することに注意する。 | ✓ |
-| **8.8** | MSTG‑RESILIENCE‑8 | 検知メカニズムは遅延応答やステルス応答を含むさまざまな種類の応答をトリガーしている。 | ✓ |
-| **8.9** | MSTG‑RESILIENCE‑9 | 難読化はプログラムの防御に適用されており、動的解析による逆難読化を妨げている。 | ✓ |
+| -- | -------- | ---------------------- | - |
+| **8.1** | MSTG-RESILIENCE-1 | アプリはユーザーに警告するかアプリを終了することでルート化デバイスや脱獄済みデバイスの存在を検知し応答している。 | ✓ |
+| **8.2** | MSTG-RESILIENCE-2 | アプリはデバッグを防止し、デバッガのアタッチを検知し応答している。利用可能なすべてのデバッグプロトコルを網羅している必要がある。 | ✓ |
+| **8.3** | MSTG-RESILIENCE-3 | アプリはそれ自身のサンドボックス内の実行ファイルや重要なデータの改竄を検知し応答している。 | ✓ |
+| **8.4** | MSTG-RESILIENCE-4 | アプリはそのデバイスで広く使用されるリバースエンジニアリングツールやフレームワークの存在を検知し応答している。 | ✓ |
+| **8.5** | MSTG-RESILIENCE-5 | アプリは任意の方法を使用してエミュレータ内で動作しているかどうかを検知し応答している。 | ✓ |
+| **8.6** | MSTG-RESILIENCE-6 | アプリはそれ自身のメモリ空間内のコードとデータの改竄を検知し応答している。 | ✓ |
+| **8.7** | MSTG-RESILIENCE-7 | アプリは各防御カテゴリ(8.1から8.6)で複数のメカニズムを実装している。耐性は使用されるメカニズムのオリジナリティの量、多様性と比例することに注意する。 | ✓ |
+| **8.8** | MSTG-RESILIENCE-8 | 検知メカニズムは遅延応答やステルス応答を含むさまざまな種類の応答をトリガーしている。 | ✓ |
+| **8.9** | MSTG-RESILIENCE-9 | 難読化はプログラムの防御に適用されており、動的解析による逆難読化を妨げている。 | ✓ |
 
 ### デバイスバインディング
 
 | # | MSTG-ID | 説明 | R |
-| --- | --- | --- | --- |
-| **8.10** | MSTG‑RESILIENCE‑10 | アプリはデバイスに固有の複数のプロパティから由来するデバイスフィンガープリントを使用して「デバイスバインディング」機能を実装している。 | ✓ |
+| -- | -------- | ---------------------- | - |
+| **8.10** | MSTG-RESILIENCE-10 | アプリはデバイスに固有の複数のプロパティから由来するデバイスフィンガープリントを使用して「デバイスバインディング」機能を実装している。 | ✓ |
 
 ### 理解の阻止
 
 | # | MSTG-ID | 説明 | R |
-| --- | --- | --- | --- |
-| **8.11** | MSTG‑RESILIENCE‑11 | アプリに属するすべての実行可能ファイルとライブラリはファイルレベルで暗号化されているか、実行可能ファイル内の重要なコードやデータセグメントが暗号化またはパック化されている。簡単な静的解析では重要なコードやデータは明らかにならない。 | ✓ |
-| **8.12** | MSTG‑RESILIENCE‑12 | 難読化の目的が機密性の高い計算を保護することである場合、現在公開されている研究を考慮して、特定のタスクに適しており手動および自動の逆難読化メソッドに対して堅牢な難読化スキームを使用している。難読化スキームの有効性は手動テストにより検証する必要がある。可能であればハードウェアベースの隔離機能が難読化より優先されることに注意する。 | ✓ |
+| -- | -------- | ---------------------- | - |
+| **8.11** | MSTG-RESILIENCE-11 | アプリに属するすべての実行可能ファイルとライブラリはファイルレベルで暗号化されているか、実行可能ファイル内の重要なコードやデータセグメントが暗号化またはパック化されている。簡単な静的解析では重要なコードやデータは明らかにならない。 | ✓ |
+| **8.12** | MSTG-RESILIENCE-12 | 難読化の目的が機密性の高い計算を保護することである場合、現在公開されている研究を考慮して、特定のタスクに適しており手動および自動の逆難読化メソッドに対して堅牢な難読化スキームを使用している。難読化スキームの有効性は手動テストにより検証する必要がある。可能であればハードウェアベースの隔離機能が難読化より優先されることに注意する。 | ✓ |
 
 ### 盗聴防止
 
 | # | MSTG-ID | Description | R |
-| --- | --- | --- | -- |
-| **8.13** | MSTG‑RESILIENCE‑13 | 多層防御として、通信相手の堅牢化に加えて、アプリケーションレベルのペイロード暗号化を適用して、盗聴をより一層防止している。 | ✓ |
-
-<div style="page-break-after: always;">
-</div>
+| -- | -------- | ---------------------- | - |
+| **8.13** | MSTG-RESILIENCE-13 | 多層防御として、通信相手の堅牢化に加えて、アプリケーションレベルのペイロード暗号化を適用して、盗聴をより一層防止している。 | ✓ |
 
 ## 参考情報
 
@@ -66,7 +60,7 @@ OWASP モバイルセキュリティテストガイドでは、このセクシ�
 
 詳しくは以下の情報を参照してください。
 
-- OWASP Mobile Top 10: M8 (Code Tampering) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M8-Code_Tampering>
-- OWASP Mobile Top 10: M9 (Reverse Engineering) - <https://www.owasp.org/index.php/Mobile_Top_10_2016-M9-Reverse_Engineering>
-- OWASP Reverse Engineering Threats - <https://www.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification>
-- OWASP Reverse Engineering and Code Modification Prevention - <https://www.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project>
+- OWASP Mobile Top 10: M8 (Code Tampering) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m8-code-tampering>
+- OWASP Mobile Top 10: M9 (Reverse Engineering) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m9-reverse-engineering>
+- OWASP Reverse Engineering Threats - <https://wiki.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification>
+- OWASP Reverse Engineering and Code Modification Prevention - <https://wiki.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project>

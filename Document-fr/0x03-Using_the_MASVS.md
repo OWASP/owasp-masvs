@@ -16,7 +16,7 @@ Atteindre les exigences du niveau MASVS-L1 amène à une application qui suit le
 
 **II: Il faut noter que les contrôles de protection des logiciels présentés dans le MASVS-R et décrits dans l'OWASP MSTG peuvent finalement être contournés et ne doivent jamais être utilisés comme alternative aux contrôles de sécurité. Par contre, ils sont conçus pour ajouter des contrôles supplémentaires envers des menaces spécifiques pour les applications qui satisfont aux exigences de MASVS-L1 et MASVS-L2.**
 
-![Verification Levels](images/masvs-levels-new_fr.jpg)
+<img src="images/masvs-levels-new.jpg" title="Verification Levels" width="600px" height="253px" />
 
 ### Structure du Document
 
@@ -55,6 +55,8 @@ Les différents combinaisons reflètent différents niveaux de sécurité et de 
 #### Determiner la Typologie de Validation à Utiliser
 
 L'implémentation des exigences MASVS L2 améliore la sécurité, mais peut en même temps augmenter les coûts de développement et dégrader potentiellement l'expérience utilisateur (un compromis classique). En général, L2 devrait être utilisé pour toute application où l'analyse risques vs coûts démontre le besoin d'atteindre ce niveau (i.e. lorsque les pertes potentielles causées par la compromission de la confidentialité ou de l'intégrité sont supérieures au coût induit par l'implémentation des contrôles de sécurité supplémentaires). L'évaluation des risques devrait être la première étape avant l'implémentation du MASVS.
+
+<!-- \pagebreak -->
 
 ##### Exemples
 
