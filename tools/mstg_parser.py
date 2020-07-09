@@ -53,12 +53,12 @@ import re
 import json
 from typing import Dict, List
 
-import requests
+# import requests # TODO for beta live check (not yet working on remote)
 
 MSTG_PATH = "../../owasp-mstg/Document"
 MASVS_PATH = "../Document"
 
-DO_URL_LIVE_CHECK = False # If set to True, it will take considerable time
+# DO_URL_LIVE_CHECK = False # If set to True, it will take considerable time
 
 def get_masvs_dict() -> Dict[str, List[str]]:
 
@@ -87,18 +87,18 @@ def get_masvs_dict() -> Dict[str, List[str]]:
                     masvs_dict[x] = []
                 masvs_dict[x].append(url) 
 
-                if DO_URL_LIVE_CHECK:
-                    beta_live_check(url)
+                # if DO_URL_LIVE_CHECK:
+                #     beta_live_check(url)
 
     return masvs_dict
 
-def beta_live_check(url):
+# def beta_live_check(url):
 
-    ret = requests.get(url)
-    if ret.status_code == 200:
-        print("Exists")
-    else:
-        print("Failed")
+#     ret = requests.get(url)
+#     if ret.status_code == 200:
+#         print("Exists")
+#     else:
+#         print("Failed")
 
 def get_mstg_ids_from_masvs() -> List[str]:
 
