@@ -5,6 +5,7 @@ node_modules
 .idea
 .vscode
 Generated/
+Pipfile.lock
 *.pdf
 *.epub
 tmp_*.tex

@@ -1,0 +1,71 @@
+{
+  "en": {
+    "Dashboard": {
+      "worksheet": "Dashboard",
+      "title": "OWASP Mobile Application Security Checklist \n \n \nBased on the OWASP Mobile Application Security Verification Standard",
+      "table_info": {
+        "title": "General Testing Information",
+        "MASVS_version": "MASVS VERSION",
+        "link_MASVS": "Online version of the MASVS:",
+        "MSTG_version": "MSTG Version",
+        "link_MSTG": "Online version of the MSTG:",
+        "explanation": "The two rows above are used to construct the base for all hyperlinks in the Android and iOS cehcklists.\nAdjust to your specific use case to update all hyperlinks to a specific version of the MSTG",
+        "Client_Name:": "Client Name:",
+        "Test-Location:": "Test Location:",
+        "Start_Date:": "Start Date:",
+        "Closing_Date:": "Closing Date:",
+        "Name_Tester:": "Name of Tester:",
+        "Testing_Scope": "Testing Scope",
+        "Verification_Level": "Verification Level"
+      },
+      "table_Android": {
+        "title": "Testing information Android"
+      },
+      "table_iOS": {
+        "title": "Testing information iOS"
+      },
+      "table_contacts": {
+        "title": "Client Representatives and Contact Information"
+      }
+    },
+    "ManagementSummary": {
+      "worksheet": "Management Summary",
+      "title": "Management Summary"
+    },
+    "SecurityRequirementsAndroid": {
+      "worksheet": "Security Requirements - Android",
+      "title": "Mobile Application Security Requirements - Android",
+      "ID": "ID",
+      "MSTG-ID": "MSTG-ID",
+      "DetailedVerificationRequirement": "Detailed Verification Requirement",
+      "Level1": "Level 1",
+      "Level2": "Level 2",
+      "Status": "Status",
+      "TestingProcedure": "Testing Procedure(s)",
+      "Comment": "Comment"
+    },
+    "Anti-REAndroid": {
+      "worksheet": "Anti-RE - Android",
+      "title": "Resiliency against Reverse Engineering - Android",
+      "ID": "ID",
+      "MSTG-ID": "MSTG-ID",
+      "ResiliencyAgainstReverseEngineeringRequirements": "Resiliency Against Reverse Engineering Requirements,",
+      "R": "R",
+      "Status":  "Status",
+      "TestingProcedure":  "Testing Procedure(s)",
+      "Comment": "Comment"
+    },
+    "SecurityRequirementsiOS": {
+      "worksheet": "Security Requirements - iOS",
+      "title": "Mobile Application Security Requirements - iOS"
+    },
+    "Anti-REiOS": {
+      "worksheet": "Anti-RE - iOS",
+      "title": "Resiliency Against Reverse Engineering - iOS"
+    },
+    "VersionHistory": {
+      "worksheet": "Version history",
+      "title": "XLS Version History"
+    }
+  }
+}
