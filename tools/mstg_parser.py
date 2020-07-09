@@ -1,7 +1,7 @@
 # coding: utf-8
 
 """ 
-    This script must be run using Python 3.7+ and from its containing folder, i.e. "python3 generate_mstgid_links.py"
+    This script must be run using Python 3.7+ and from its containing folder, i.e. "python3 mstg_parser.py"
     It required the MSTG (owasp-mstg) to be in a folder next to the MASVS (owasp-masvs).
 
     1. generates a MASVS dict containing GitHub links to MSTG markdown sections containing MSTG IDs.

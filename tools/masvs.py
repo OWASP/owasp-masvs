@@ -32,7 +32,7 @@ import json
 from xml.sax.saxutils import escape
 import csv
 
-import generate_mstgid_links
+import mstg_parser
 
 try:
     from StringIO import StringIO
@@ -78,7 +78,7 @@ class MASVS:
 
                         self.requirements.append(req)
         
-        masvs_dict = generate_mstgid_links.get_masvs_dict()
+        masvs_dict = mstg_parser.get_masvs_dict()
 
         for r in self.requirements:
             if r.get('category') in masvs_dict:
@@ -86,6 +86,10 @@ class MASVS:
                 r['links'] = masvs_dict[r.get('category')]
             else:
                 r['covered'] = False
+            
+            # TODO Description will contain the first paragraph from each MSTG section related to MASVS reqs.
+            # This will be added as part of a new PR. The MSTG has to be enhanced to have those "first paragraphs" everywhere.
+            r['description'] = ""
 
     def to_json(self):
         ''' Returns a JSON-formatted string '''
