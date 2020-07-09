@@ -64,7 +64,7 @@ def get_masvs_dict() -> Dict[str, List[str]]:
 
     # TODO update container to have at least Python 3.7. The next line does not work on the remote container.
     # parsed = subprocess.run(["egrep", "-r", r"^### (.*\(MSTG-.*-.*\)$)", MSTG_PATH], capture_output=True)
-    parsed = subprocess.check_output(["egrep", "-r", r"^### (.*\(MSTG-.*-.*\)$)", MSTG_PATH])
+    parsed = subprocess.check_output(["grep", "-Er", r"^### (.*\(MSTG-.*-.*\)$)", MSTG_PATH])
     # parsed = parsed.stdout
 
     masvs_dict = {}
