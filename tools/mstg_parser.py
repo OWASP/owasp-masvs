@@ -62,11 +62,16 @@ MASVS_PATH = "../Document"
 
 def get_masvs_dict() -> Dict[str, List[str]]:
 
-    parsed = subprocess.run(["egrep", "-r", r"^### (.*\(MSTG-.*-.*\)$)", MSTG_PATH], capture_output=True)
+    # TODO update container to have at least Python 3.7. The next line does not work on the remote container.
+    # parsed = subprocess.run(["egrep", "-r", r"^### (.*\(MSTG-.*-.*\)$)", MSTG_PATH], capture_output=True)
+    parsed = subprocess.run(["egrep", "-r", r"^### (.*\(MSTG-.*-.*\)$)", MSTG_PATH], check=True, stdout=subprocess.PIPE, universal_newlines=True)
+    # parsed = parsed.stdout
 
     masvs_dict = {}
 
-    for line in parsed.stdout.split(b"\n"):
+    # TODO update container to have at least Python 3.7. The next line does not work on the remote container.
+    # for line in parsed.stdout.split(b"\n"):
+    for line in parsed.stdout.split("\n"):
         line = str(line)
         regex = re.compile(r".*/(.*\.md):### (.*) \((MSTG-.*-.*)\)")
         match = re.search(regex, line)
