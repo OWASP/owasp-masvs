@@ -64,14 +64,14 @@ def get_masvs_dict() -> Dict[str, List[str]]:
 
     # TODO update container to have at least Python 3.7. The next line does not work on the remote container.
     # parsed = subprocess.run(["egrep", "-r", r"^### (.*\(MSTG-.*-.*\)$)", MSTG_PATH], capture_output=True)
-    parsed = subprocess.run(["egrep", "-r", r"^### (.*\(MSTG-.*-.*\)$)", MSTG_PATH], check=True, stdout=subprocess.PIPE, universal_newlines=True)
+    parsed = subprocess.check_output(["egrep", "-r", r"^### (.*\(MSTG-.*-.*\)$)", MSTG_PATH])
     # parsed = parsed.stdout
 
     masvs_dict = {}
 
     # TODO update container to have at least Python 3.7. The next line does not work on the remote container.
     # for line in parsed.stdout.split(b"\n"):
-    for line in parsed.stdout.split("\n"):
+    for line in parsed.split(b"\n"):
         line = str(line)
         regex = re.compile(r".*/(.*\.md):### (.*) \((MSTG-.*-.*)\)")
         match = re.search(regex, line)
