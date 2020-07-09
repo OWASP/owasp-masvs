@@ -122,7 +122,10 @@ def masvs_coverage(masvs_dict, mstg_ids):
 
     for mstg_id in mstg_ids:
         if mstg_id not in masvs_dict:
-            print(f"{mstg_id} not covered")
+            # TODO replace the following lines once the remote container has Python +3.7
+            # print(f"{mstg_id} not covered")
+            message = mstg_id + " not covered"
+            print(message)
 
 if __name__ == "__main__":
     print("## MASVS Dict ##\n")
