@@ -1,28 +1,50 @@
 # coding: utf-8
 
 """ 
-This script must be run using Python 3.7+ and from its containing folder, i.e. "python3 generate_mstgid_links.py"
-It required the MSTG (owasp-mstg) to be in a folder next to the MASVS (owasp-masvs).
+    This script must be run using Python 3.7+ and from its containing folder, i.e. "python3 generate_mstgid_links.py"
+    It required the MSTG (owasp-mstg) to be in a folder next to the MASVS (owasp-masvs).
 
-1. generates a MASVS dict containing GitHub links to MSTG markdown sections containing MSTG IDs.
-2. optionally checks the availability of those links.
-3. parses the MSTG-IDs from the current MASVS and calculates coverage: prints all MSTG-IDs not yet covered in the MSTG.
+    1. generates a MASVS dict containing GitHub links to MSTG markdown sections containing MSTG IDs.
+    2. optionally checks the availability of those links.
+    3. parses the MSTG-IDs from the current MASVS and calculates coverage: prints all MSTG-IDs not yet covered in the MSTG.
 
-Example:
+    Example:
 
-## MASVS Dict ##
-{
-    "MSTG-NETWORK-3": [
-        "https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md#testing-endpoint-identify-verification-mstg-network-3",
-        "https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md#testing-custom-certificate-stores-and-certificate-pinning-mstg-network-3-and-mstg-network-4"
-    ],
-    "MSTG-NETWORK-4": [
-        ...
-## COVERAGE ##
-MSTG-RESILIENCE-4 not covered
-MSTG-RESILIENCE-5 not covered
-MSTG-RESILIENCE-6 not covered
-...
+    ## MASVS Dict ##
+    {
+        "MSTG-NETWORK-3": [
+            "https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md#testing-endpoint-identify-verification-mstg-network-3",
+            "https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md#testing-custom-certificate-stores-and-certificate-pinning-mstg-network-3-and-mstg-network-4"
+        ],
+        "MSTG-NETWORK-4": [
+            ...
+    ## COVERAGE ##
+    MSTG-RESILIENCE-4 not covered
+    MSTG-RESILIENCE-5 not covered
+    MSTG-RESILIENCE-6 not covered
+    ...
+
+    By Carlos Holguera
+
+    Copyright (c) 2020 OWASP Foundation
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
 
 """
 

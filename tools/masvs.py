@@ -2,9 +2,9 @@
 
 ''' MASVS document parser and converter class.
 
-    By Bernhard Mueller, updated by Jeroen Beckers and Martin Marsicano
+    By Bernhard Mueller, updated by Jeroen Beckers and Carlos Holguera
 
-    Copyright (c) 2019 OWASP Foundation
+    Copyright (c) 2020 OWASP Foundation
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
