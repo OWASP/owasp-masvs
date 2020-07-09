@@ -15,6 +15,7 @@ Files:
 - Apply_Lint_Check.sh: Tool to inspect the markdown files their markup in the document folders for every language.
 - export.py: Python script to generate a CSV, JSON or XML version of the MASVS.
 - masvs.py: Python script used by export.py
+- mstg_parser.py: Python script used by masvs.py to parse the MSTG and generate links to the implementation of MASVS requirements (can be also used standalone).
 - reference.docx: Template file used for generating the word doc using `generate_document.sh`.
 
 ## Release process
