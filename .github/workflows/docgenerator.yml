@@ -16,8 +16,6 @@ jobs:
     # only use below when testing new container builds
     # - name: Build the Docker image
     #   run: docker build ./tools/docker --tag masvs-generator:latest
-    - name: Install Python Dependencies
-      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 -m pip install -r requirements.txt'
     - name: Generate python scripts (csv)
       run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-SNAPSHOT.csv'
     - name: Generate python scripts (json)
