@@ -76,7 +76,9 @@ def get_masvs_dict() -> Dict[str, List[str]]:
             anchor = match.group(2).replace(" ", "-").lower()
             mstg_ids_list = [element for element in match.group(3).split() if element.startswith("MSTG")]
             mstg_ids = match.group(3).replace(" ", "-").lower()
-            url = f"https://github.com/OWASP/owasp-mstg/blob/master/Document/{file_name}#{anchor}-{mstg_ids}"
+            # TODO update container to have at least Python 3.7. The next line does not work on the remote container.
+            # url = f"https://github.com/OWASP/owasp-mstg/blob/master/Document/{file_name}#{anchor}-{mstg_ids}"
+            url = "https://github.com/OWASP/owasp-mstg/blob/master/Document/" + file_name + "#" + anchor + "-" + mstg_ids
 
             for x in mstg_ids_list:
                 if x.endswith(','):
