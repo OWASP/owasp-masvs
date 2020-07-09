@@ -2,7 +2,7 @@
 
 ''' Tool for converting the MASVS requirements to various formats.
 
-    Usage: ./export.py [--format <csv/xml/json>] [--lang <es/ru/en/fr/de/zhtw/ja>]
+    Usage: ./export.py [--format <json/xml/csv>] [--lang <de/en/es/fa/fr/hi/ja/ko/ru/zhcn/zhtw>]
 
     By Bernhard Mueller, updated by Jeroen Beckers and Carlos Holguera
 
@@ -31,7 +31,7 @@
 import argparse
 from masvs import MASVS
 
-parser = argparse.ArgumentParser(description='Export the MASVS requirements. Default language is en.')
+parser = argparse.ArgumentParser(description='Export the MASVS requirements. Default language is en. Default format is json.')
 parser.add_argument('-f', '--format', choices=['json', 'xml', 'csv'], required=True)
 parser.add_argument('-l', '--lang', choices=['de', 'en', 'es', 'fa', 'fr', 'hi', 'ja', 'ko', 'ru', 'zhcn', 'zhtw'], default='en')
 
