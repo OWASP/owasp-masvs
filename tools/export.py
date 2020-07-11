@@ -34,10 +34,12 @@ from masvs import MASVS
 parser = argparse.ArgumentParser(description='Export the MASVS requirements. Default language is en. Default format is json.')
 parser.add_argument('-f', '--format', choices=['json', 'xml', 'csv'], required=True)
 parser.add_argument('-l', '--lang', choices=['de', 'en', 'es', 'fa', 'fr', 'hi', 'ja', 'ko', 'ru', 'zhcn', 'zhtw'], default='en')
+''' include headers on export '''
+parser.add_argument('-c', '--categories', choices=['without', 'with'], default='without')
 
 args = parser.parse_args()
 
-m = MASVS(args.lang)
+m = MASVS(args.lang, args.categories)
 
 if args.format == "csv":
     print(m.to_csv())
