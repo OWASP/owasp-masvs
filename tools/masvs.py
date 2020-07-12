@@ -2,7 +2,7 @@
 
 ''' MASVS document parser and converter class.
 
-    By Bernhard Mueller, updated by Jeroen Beckers and Carlos Holguera
+    By Bernhard Mueller, updated by Jeroen Beckers, Carlos Holguera and Martin Marsicano
 
     Copyright (c) 2020 OWASP Foundation
 
@@ -45,16 +45,13 @@ class MASVS:
     requirements = []
 
     def __init__(self, lang, includeCategoriesHeader):
-
         if lang == "en":
             target = "../Document"
         else:
             target = "../Document-{}".format(lang)
 
-
         for file in sorted(os.listdir(target)):
-
-            if re.match("0x\d{2}-V", file):
+            if re.match(r"0x\d{2}-V", file):
                 cat = {}
                 catRequirements = []
                 for line in open(os.path.join(target, file)):
@@ -70,9 +67,10 @@ class MASVS:
                             cat['text'] = m.group(2).strip()
 
 
-                    regex = re.compile(r'\*\*(\d\.\d+)\*\*\s\|\s{0,1}(.*?)\s{0,1}\|\s{0,1}(.*?)\s{0,1}\|\s{0,1}(.*?)\s{0,1}\|(\s{0,1}(.*?)\s{0,1}\|)?')
-                    if lang=="fa" :
-                        line=line.decode('utf-8')
+                    regex = re.compile(
+                        r"\*\*(\d\.\d+)\*\*\s\|\s{0,1}(.*?)\s{0,1}\|\s{0,1}(.*?)\s{0,1}\|\s{0,1}(.*?)\s{0,1}\|(\s{0,1}(.*?)\s{0,1}\|)?")
+                    if lang == "fa" :
+                        line = line.decode('utf-8')
                     m = re.search(regex, line)
 
                     if m:
@@ -109,12 +107,11 @@ class MASVS:
             for r in self.requirements:
                 self.add_mstg_info(r, masvs_dict)
 
-
-
-    def add_mstg_info(self, r, masvs_dict):
-        if r.get('category') in masvs_dict:
+    @staticmethod
+    def add_mstg_info(r, masvs_dict):
+        if r['category'] in masvs_dict:
             r['covered'] = True
-            r['links'] = masvs_dict[r.get('category')]
+            r['links'] = masvs_dict[r['category']]
         else:
             r['covered'] = False
 
@@ -128,24 +125,64 @@ class MASVS:
         ''' Returns a JSON-formatted string '''
         return json.dumps(self.requirements)
 
-
-    def to_xml(self):
+    def to_xml(self, includecategoriesheader):
         ''' Returns XML '''
-        xml = '<requirements>'
+        xml = ''
 
-        # TODO add categorie tag
-        for r in self.requirements:
-            xml += "<requirement id='{}' category='{}' L1='{}' L2='{}' R='{}'>{}</requirement>\n".format(r['id'], r['category'], int(r['L1']), int(r['L2']), int(r['R']), escape(r['text']))
-        
-        xml += '</requirements>'
+        if includecategoriesheader == "with":
+            xml += '<masvs>\n'
+
+            for cat in self.requirements:
+                xml += "<category>\n"
+                xml += "<id>{}</id>\n".format(cat['id'])
+                xml += "<text>{}</text>\n".format(cat['text'])
+
+                xml += "<requirements>\n"
+                for r in cat['requirements']:
+                    self.xml_requirement(xml, r)
+
+                xml += "</requirements>\n"
+                xml += '</category>\n'
+
+            xml += '</masvs>'
+
+        else:
+            xml += '<requirements>\n'
+            for r in self.requirements:
+                self.xml_requirement(xml, r)
+
+            xml += '</requirements>'
+
         return xml
 
+    @staticmethod
+    def xml_requirement(xml, r):
+        xml += "<requirement>\n"
+        xml += "<id>{}</id>\n".format(r['id'])
+        xml += "<category>{}</category>\n".format(r['category'])
+        xml += "<L1>{}</L1>\n".format(int(r['L1']))
+        xml += "<L2>{}</L2>\n".format(int(r['L2']))
+        xml += "<R>{}</R>\n".format(int(r['R']))
+        xml += "<text>{}</text>\n".format(r['text'])
+        xml += "<description>{}</description>\n".format(r['description'])
+        xml += "<solution>{}</solution>\n".format(r['solution'])
+        xml += "<covered>{}</covered>\n".format(r['covered'])
+
+        if r['covered']:
+            xml += "<links>\n"
+            for link in r['links']:
+                xml += "<link>{}</link>\n".format(link)
+            xml += "</links>\n"
+
+        else:
+            xml += "<links/>\n"
+
+        xml += "</requirement>"
 
     def to_csv(self):
         ''' Returns CSV '''
         si = StringIO()
 
-        # TODO add categorie tag ?
         writer = csv.DictWriter(si, ['id', 'text', 'category', 'L1', 'L2', 'R'], extrasaction='ignore')
         writer.writeheader()
         writer.writerows(self.requirements)

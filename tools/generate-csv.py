@@ -26,12 +26,12 @@ def parsemd(filename):
             start = fromFilenameToArea(filename)
             line = line.replace("*", "")
             line = line.split("|")
-            print start[0] + "|",
-            print start[1] + "|",
-            print line[1] + "|",
-            print line[2] + "|",
-            print line[3] + "|",
-            print line[4] + "|"
+            print(start[0] + "|", end=' ')
+            print(start[1] + "|", end=' ')
+            print(line[1] + "|", end=' ')
+            print(line[2] + "|", end=' ')
+            print(line[3] + "|", end=' ')
+            print(line[4] + "|")
 
 
 def main():
