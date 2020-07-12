@@ -4,7 +4,7 @@
 
     Usage: ./export.py [--format <json/xml/csv>] [--lang <de/en/es/fa/fr/hi/ja/ko/ru/zhcn/zhtw>]
 
-    By Bernhard Mueller, updated by Jeroen Beckers and Carlos Holguera
+    By Bernhard Mueller, updated by Jeroen Beckers, Carlos Holguera and Martin Marsicano
 
     Copyright (c) 2020 OWASP Foundation
 
@@ -39,11 +39,15 @@ parser.add_argument('-c', '--categories', choices=['without', 'with'], default='
 
 args = parser.parse_args()
 
+if args.format == "csv" and args.categories == "with":
+    args.categories = "without"
+    print("Argument \"--categories with\" being ignored, categories export is only valid for json and xml format")
+
 m = MASVS(args.lang, args.categories)
 
 if args.format == "csv":
     print(m.to_csv())
 elif args.format == "xml":
-    print(m.to_xml())
+    print(m.to_xml(args.categories))
 else:
     print(m.to_json())
