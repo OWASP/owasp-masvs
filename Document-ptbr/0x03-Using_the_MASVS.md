@@ -77,7 +77,7 @@ A implementação dos requisitos do MASVS L2 aumenta a segurança, ao mesmo temp
 
 - Indústria de Jogos: Jogos com uma necessidade essencial para evitar modificações e trapaças, como jogos _online_ competitivos. Trapacear é uma questão importante nos jogos _online_, já que uma grande quantidade de usuários trapaceiros leva a uma base de jogadores descontentes e pode, em última instância, fazer com que um jogo perca usuários e acabe perdendo popularidade. O MASVS-R fornece controles básicos contra adulteração para ajudar a aumentar o esforço que os trapaceiros terão.
 
-####### MASVS L2+R
+###### MASVS L2+R
 
 - Indústria Financeira: Aplicativos bancários _online_ que permitem ao usuário movimentar fundos, onde técnicas como injeção de código e instrumentação em dispositivos comprometidos representam um risco. Nesse caso, os controles do MASVS-R podem ser usados para impedir a adulteração, aumentando a complexidade para desenvolvedores de _malware_.
 
