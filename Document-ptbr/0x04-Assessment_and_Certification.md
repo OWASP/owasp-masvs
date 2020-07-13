@@ -8,7 +8,7 @@ Todas essas afirmações de garantia, marcas de confiança ou certificações n�
 
 Isso não deve dificultar as organizações de oferecer tais serviços de garantia, desde que não reivindiquem a certificação Oficial OWASP.
 
-## Orientação para Certificação de aplicativos Móveis
+## Orientação para Certificação de Aplicativos Móveis
 
 A maneira recomendada de verificar a conformidade de um aplicativo móvel com o MASVS é realizando uma revisão do tipo "_open book_", o que significa que os testadores têm acesso a recursos-chave, como arquitetos e desenvolvedores do aplicativo, documentação do projeto, código-fonte e acesso autenticado a terminais, incluindo acesso a pelo menos uma conta de usuário para cada função.
 
