@@ -2,7 +2,7 @@
 
 <img src="images/OWASP_logo.png" title="OWASP LOGO" />
 
-Benvindo ao Mobile Application Security Verification Standard (MASVS) 1.2. O MASVS é uma comunidade que reúne esforços no sentido de estabelecer uma framework de requisitos de segurança necessários para o design, desenvolvimento e teste de aplicações mobile seguras, em iOS e Android.
+Bem-vindo ao Mobile Application Security Verification Standard (MASVS) 1.2. O MASVS é uma comunidade que reúne esforços no sentido de estabelecer uma framework de requisitos de segurança necessários para o design, desenvolvimento e teste de aplicações móveis seguras, em iOS e Android.
 
 O MASVS é o culminar do esforço comunitário aleado ao feedback da própria indústria. A nossa expectativa é que este conjunto de normas evolua ao logo do tempo e encorajamos toda a comunidade a dar o seu feedback.
 
@@ -40,11 +40,11 @@ Copyright © 2020 The OWASP Foundation.Este documento está licenciado pela [Cre
 | Espanhol | Martin Marsicano, Carlos Holguera |
 | Portugês | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
 
-Este documento é um fork do OWASP Application Security Verification Standard produzido por Jim Manico.
+Este documento começou como um fork do OWASP Application Security Verification Standard produzido por Jim Manico.
 
 ## Patrocinadores
 
-Apesar de tanto o MASVS como o MSTG terem sido criados e mantidos por uma equipa de voluntários, por vezes é necessária alguma ajuda externa. Nesse sentido, queremos agradecer a todos os patrocinadores que contribuíram com os fundos necessários para a contratação de recursos humanos com conhecimento técnico. O patrocínio disponibilizado não influencia, no entanto, o conteúdo publicado quer no MASVS ou no  MSTG em nenhuma forma. Os patrocínios estão descritos em [OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages").
+Apesar de tanto o MASVS como o MSTG terem sido criados e mantidos por uma equipa de voluntários, por vezes é necessária alguma ajuda externa. Nesse sentido, queremos agradecer a todos os patrocinadores que contribuíram com os fundos necessários para a contratação de editores técnicos. O patrocínio disponibilizado não influencia, no entanto, o conteúdo publicado quer no MASVS ou no  MSTG em nenhuma forma. Os patrocínios estão descritos em [OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
 ### Benfeitores Honoráveis
 
