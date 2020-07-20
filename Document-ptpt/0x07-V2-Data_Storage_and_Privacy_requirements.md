@@ -1,20 +1,21 @@
-# V2: Data Storage and Privacy Requirements
+# V2: Armazenamento de Dados e Requisitos de Privacidade
 
-## Control Objective
+## Objectivo
 
-The protection of sensitive data, such as user credentials and private information, is a key focus in mobile security. Firstly, sensitive data can be unintentionally exposed to other apps running on the same device if operating system mechanisms like IPC are used improperly. Data may also unintentionally leak to cloud storage, backups, or the keyboard cache. Additionally, mobile devices can be lost or stolen more easily compared to other types of devices, so an adversary gaining physical access is a more likely scenario. In that case, additional protections can be implemented to make retrieving the sensitive data more difficult.
+A protecção de informação sensível, como por exemplo as credenciais do utilizador, assim como outros dados privados, é fulcral em segurança de dispositivos móveis. Informação sensível pode ser exposta, de forma não intenional, a outras aplicações em funcionamento no mesmo dispositivo se os mecanismos que comunicam com o sistema operativo não o fazem de acordo com as boas práticas.  Para além disso, existe a possibilidads de informação privada ser exposta em armazenamento remoto (cloud), ou através de cópias de segurança, ou mesmo em memória (keyboard cache). Existe também a possibilidade dos dispositivos móveis serem perdidos ou roubados, sendo que atacantes podem ganhar acesso físico ao sistema. Para evitar estes casos, e de forma a proteger informação privada, é necessário implementar estratégias de segurança adicionais.
 
-Note that, as the MASVS is app-centric, it does not cover device-level policies such as those enforced by MDM solutions. We encourage the use of such policies in an Enterprise context to further enhance data security.
+Repare que, a MASVS é focada na aplicação, sendo que neste documento não são referidas estratégias de segurança que podem ser implementadas ao nível do dispositivo móvel. A adaptação desse tipo de estratégias é de todo recomendado. para uma melhoria da camada de segurança das aplicações móveis.
 
-### Definition of Sensitive Data
+### Definição de Informação Sensível
 
-Sensitive data in the context of the MASVS pertains to both user credentials and any other data considered sensitive in the particular context, such as:
+Informação privada, neste contexto, diz respeito não só às credenciais do utilizador mas também a outros dados sensíveis, como por  exemplo:
 
-- Personally identifiable information (PII) that can be abused for identity theft:  Social security numbers, credit card numbers, bank account numbers, health information;
-- Highly sensitive data that would lead to reputational harm and/or financial costs if compromised: Contractual information, information covered by non-disclosure agreements, management information;
-- Any data that must be protected by law or for compliance reasons.
+- Informação de Identificação Pessoal (Personally identifiable information, PII)) que pode ser usada para roubo de identificação, o que inclui desde números de segurança social, números de cartões de crédito a números de conta bancária, ou mesmo dados identificadores de estados de saúde;
+- Informação altamente sensível que pode pôr em causa a reputação do indivíduo, ou ao estado financeiro do mesmo, se comprometida: Informação contractual, ou outra informação de gestão individual;
+- Quaisquer dados que devem ser protegidos por lei ou outras razões.
 
-## Security Verification Requirements
+
+## Requisitos para Verificação de Segurança
 
 The vast majority of data disclosure issues can be prevented by following simple rules. Most of the controls listed in this chapter are mandatory for all verification levels.
 
