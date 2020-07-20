@@ -50,7 +50,7 @@ Apesar de tanto o MASVS como o MSTG terem sido criados e mantidos por uma equipa
 
 [<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
 
-### Good Samaritan Benefactor
+### Bons Samaritanos Benfeitores
 
 [<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
