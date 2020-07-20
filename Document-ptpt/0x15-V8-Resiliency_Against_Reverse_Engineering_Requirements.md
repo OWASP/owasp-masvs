@@ -60,7 +60,7 @@ As seguintes considerações são aplicadas:
 
 ## Referencias
 
-A OWASP MOBILE SECURITY TESTING GUIDE fornece instruções detalhadas para verificar os requisitos listados nesta secção:
+A OWASP Mobile Security Testing Guide fornece instruções detalhadas para verificar os requisitos listados nesta secção:
 
 - Android: Testing Resiliency Against Reverse Engineering - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
 - iOS: Testing Resiliency Against Reverse Engineering - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
