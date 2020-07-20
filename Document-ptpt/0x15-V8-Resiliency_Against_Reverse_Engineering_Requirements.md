@@ -47,7 +47,7 @@ As seguintes considerações são aplicadas:
 
 | # | MSTG-ID | Descriçao | R |
 | -- | -------- | ---------------------- | - |
-| **8.11** | MSTG-RESILIENCE-11 | Todos os ficheiros executáveis e bibliotecas pertencentes à aplicação são ou encriptados ao nível do ficheiro, e/ou código importante ou segmentos de informação dentro dos executáveis são encriptados ou embalados. Analise estática básica não revela código ou informação importante. | ✓ |
+| **8.11** | MSTG-RESILIENCE-11 | Todos os ficheiros executáveis e bibliotecas pertencentes à aplicação são ou cifrados ao nível do ficheiro, e/ou código importante ou segmentos de informação dentro dos executáveis são cifrados ou embalados. Analise estática básica não revela código ou informação importante. | ✓ |
 | **8.12** | MSTG-RESILIENCE-12 | Se o objetivo da ofuscação ]e proteger computações sensíveis, um esquema de ofuscação é usado que seja tanto apropriado para a tarefa em particular como robusto contro métodos de desofuscação manuais e automáticos, considerando investigações publicadas. A efetividade do esquema de ofuscação deve ser verificada com testes manuais. É de notar que características de isolamento baseado em hardware são preferidas em relação a ofuscação sempre que possível. | ✓ |
 
 ### Impedimento de espionagem
