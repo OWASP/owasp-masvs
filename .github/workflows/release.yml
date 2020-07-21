@@ -28,6 +28,8 @@ jobs:
         run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.xml'
       - name: Generate Brazilian Portuguese PDF
         run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-ptbr ${{ steps.get_version.outputs.VERSION }}'
+      - name: Generate Portugal Portuguese PDF
+        run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-ptpt ${{ steps.get_version.outputs.VERSION }}'
       - name: Generate English docs
         run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document ${{ steps.get_version.outputs.VERSION }}'
       - name: Generate French docs
@@ -94,6 +96,10 @@ jobs:
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ptbr.mobi
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ptbr.pdf
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ptbr_WIP_.docx
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ptpt.epub
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ptpt.mobi
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ptpt.pdf
+            OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ptpt_WIP_.docx
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ru.epub
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ru.mobi
             OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}-ru.pdf
