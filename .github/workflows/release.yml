@@ -28,7 +28,7 @@ jobs:
         run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{ steps.get_version.outputs.VERSION }}.xml'
       - name: Generate Brazilian Portuguese PDF
         run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-ptbr ${{ steps.get_version.outputs.VERSION }}'
-      - name: Generate Portuguese Portuguese PDF
+      - name: Generate Portugal Portuguese PDF
         run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-ptpt ${{ steps.get_version.outputs.VERSION }}'
       - name: Generate English docs
         run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document ${{ steps.get_version.outputs.VERSION }}'
