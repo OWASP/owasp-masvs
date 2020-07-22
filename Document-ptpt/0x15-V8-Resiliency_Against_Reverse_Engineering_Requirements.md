@@ -8,7 +8,7 @@ Os controlos nesta secção devem ser aplicados quando necessários, baseados na
 
 Para que qualquer um dos controlos da lista em baixo seja efetivo, a aplicação deve cumprir pelo menos com todos os requisitos de MASVS-L1 (Ex: Fortes controlos de segurança devem ser implementados) assim como todos os requisitos numerados com um valor baixo em V8. Para exemplificar, os controlos listados em "Impedimento compreensão" devem ser combinados com "Impedimento analise dinâmica e manipulação" e Device Binding
 
-**É de notar que proteções de software nunca devem de ser usadas como alternativa a controlos de segurança. Os controlos listados em MASVR-R são planeados para adicionar controlos de proteção adicionais, específicos para ameaças, que também preenchem os requisitos de segurança de MASVS**
+**É de notar que proteções de software nunca devem de ser usadas como alternativa a controlos de segurança. Os controlos listados em MASVR-R são planeados para adicionar controlos de proteção adicionais, específicos para ameaças, que também preenchem os requisitos de segurança de MASVS.**
 
 As seguintes considerações são aplicadas:
 
