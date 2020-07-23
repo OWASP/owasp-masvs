@@ -6,6 +6,7 @@
 O objetivo dos controlos detalhados nesta secção é de garantir a confidencialidade e integridade da informação trocada entre a aplicação móvel e os pontos de acesso do serviço remoto. No mínimo, a aplicação móvel deve de usar um canal seguro e cifrados para as comunicações em rede, usando o protocolo TLS com configurações apropriadas. o Nível 2 (L2) lista medidas de defesas em profundidade como 'SSL pinnning'
 
 ## Requisitos de verificação de segurança
+
 | # | MSTG-ID | Descrição | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
 | **5.1** | MSTG-NETWORK-1 | Os dados são cifrados na rede usando TLS. Este canal seguro é usado com consistência ao longo da aplicação. | ✓ | ✓ |
