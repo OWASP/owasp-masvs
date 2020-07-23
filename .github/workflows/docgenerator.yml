@@ -62,6 +62,29 @@ jobs:
         name: OWASP_MASVS-SNAPSHOT-ptbr.mobi
         path: OWASP_MASVS-SNAPSHOT-ptbr.mobi
 
+    - name: Generate Portugal Portuguese PDF
+      run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document-ptpt SNAPSHOT'
+    - name: Upload ptpt PDF
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ptpt.pdf
+        path: OWASP_MASVS-SNAPSHOT-ptpt.pdf
+    - name: Upload Portugal Portuguese EPUB
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ptpt.epub
+        path: OWASP_MASVS-SNAPSHOT-ptpt.epub
+    - name: Upload Portugal Portuguese DOCX
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ptpt_WIP_.docx
+        path: OWASP_MASVS-SNAPSHOT-ptpt_WIP_.docx
+    - name: Upload Portugal Portuguese MOBI
+      uses: actions/upload-artifact@v1
+      with:
+        name: OWASP_MASVS-SNAPSHOT-ptpt.mobi
+        path: OWASP_MASVS-SNAPSHOT-ptpt.mobi
+
     - name: Generate English PDF
       run: docker run --rm -u `id -u`:`id -g` -v ${PWD}:/pandoc owasp/masvs-docgenerator:0.2 '/pandoc_makedocs.sh Document SNAPSHOT'
     - name: Upload English PDF
