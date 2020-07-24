@@ -20,7 +20,7 @@ Cumprir os requisitos em MASVS-L1 resulta numa aplicação segura que segue as m
 
 ### Estrutura do Documento
 
-A primeira parte do MASVS contaem uma descrição do modelo de segurança e respectivos níveis de verificaçãos disponiveis, seguido de recomendações acerca da utilização do modelo na prática. Os requisitos de segurança detalhados, bem como o mapeamento com os níveis de verificação, estão listados na segunda parte. Os requsitos foram agrupados em oito categorias (V1 ao V8) consoante os objectivos tecnicos e o âmbito. A seguinte numencatura é usada ao longo do MASVS e do MSTG: 
+A primeira parte do MASVS contaem uma descrição do modelo de segurança e respectivos níveis de verificaçãos disponiveis, seguido de recomendações acerca da utilização do modelo na prática.  Os requisitos de segurança detalhados, bem como o mapeamento com os níveis de verificação, estão listados na segunda parte. Os requsitos foram agrupados em oito categorias (V1 ao V8) consoante os objectivos tecnicos e o âmbito. A seguinte numencatura é usada ao longo do MASVS e do MSTG: 
 - *Categoria do requisito:* MASVS-Vx, e.g. MASVS-V2: Armazenamento de dados e privacidade
 - *Requisito:* MASVS-Vx.y, e.g. MASVS-V2.2: "Nenhuma informação sensível está a ser escrita nos logs."  
 
@@ -28,7 +28,7 @@ A primeira parte do MASVS contaem uma descrição do modelo de segurança e resp
 
 #### MASVS-L1: Padrão de Segurança
 
-Uma apllicação móvel que atinga o MASVS-L1 aceita as melhores práticas de segurança. Preenche requisitos básicos em termos de qualidade de código, tratamento de informação sensível, e interação com o ambiente móvel. Deve ser implementado um processo de teste para verifacr os controlos de segurança. 
+Uma apllicação móvel que atinga o MASVS-L1 aceita as melhores práticas de segurança. Preenche requisitos básicos em termos de qualidade de código, tratamento de informação sensível, e interação com o ambiente móvel. Deve ser implementado um processo de teste para verifacr os controlos de segurança.
 
 #### MASVS-L2: Defesa em Profundidade
 
