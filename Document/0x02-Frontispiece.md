@@ -35,7 +35,7 @@ Copyright © 2020 The OWASP Foundation.This work is licensed under a [Creative C
 | Hindi | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
 | Japanese | Koki Takeyama, Riotaro Okada (Review) |
 | Korean | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
-| Persian | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari |
+| Persian | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
 | Russian | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | Spanish | Martin Marsicano, Carlos Holguera |
 
