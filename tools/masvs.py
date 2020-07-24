@@ -123,7 +123,7 @@ class MASVS:
 
     def to_json(self):
         ''' Returns a JSON-formatted string '''
-        return json.dumps(self.requirements)
+        return json.dumps(self.requirements, indent=4)
 
     def to_xml(self, includecategoriesheader):
         ''' Returns XML '''
