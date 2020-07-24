@@ -1,16 +1,16 @@
 # O Mobile Application Security Verification Standard
 
-O MASVS pode ser usado para estabelecer um nível de confiança em aplicações móveis. Os requisitos foram estabelecidos tendo em conta os seguintes objetivos:
+O MASVS pode ser usado para estabelecer um nível de confiança na segurança de aplicações móveis. Os requisitos foram estabelecidos tendo em conta os seguintes objetivos:
 
 - Usar como uma métrica - Para providenciar um padrão de segurança com o qual as aplicações móveis podem ser comparadas pelos programadores e proprietários das aplicações;
 - Usar como um guia - Para orientar durante todas as fases de desenvolvimento e teste das aplicações móveis;
-- Usar durante a aquisição - Para fornecer uma linha de base para a verificação da segurança das aplicações móveis.
+- Usar durante o aprovisionamento - Para fornecer um ponto de partida para a verificação da segurança das aplicações móveis.
 
 ## Modelo de AppSec em Aplicações Móveis
 
 O MASVS define dois níveis de verificação de segurança (MASVS-L1 e MASVS-L2), bem como um conjunto de requisitos de resiliência de engenharia reversa (MASVS-R). O MASVS-L1 contém requisitos de segurança genéricos recomendados para todas as aplicações móveis, enquanto que o MASVS-L2 deve ser aplicado a aplicações que lidam com dados extremamente sensíveis. O MASVS-R cobre os controlos de proteção adicional que podem ser aplicados se o objetivo for prevenir vulnerabilidades do lado do cliente.
 
-Cumprir os requisitos em MASVS-L1 resulta numa aplicação segura que segue as melhores práticas de segurança e que não sofre de nenhuma vulnerabilidade comum. o MASVS-L2 adiciona controlos para uma maior profundidade na defesa como SSL pinning, que resulta numa aplicação resiliente contra ataques mais sofisticados - assumindo que os controles de segurança do sistema operativo móvel estão intactod e que o utilizador final não é visto como um potencial adversário. Satisfazer todos os requsitos de proteção do software em MASVS-R, ou subsets, ajuda a impedir riscos especificos nos quais o utilzador final é malicioso ou/e o sistema operativo móvel está comprometido.
+Cumprir os requisitos em MASVS-L1 resulta numa aplicação segura que segue as melhores práticas de segurança e que não sofre vulnerabilidades comuns. o MASVS-L2 adiciona controlos para uma maior profundidade na defesa como SSL pinning, que resulta numa aplicação resiliente contra ataques mais sofisticados - assumindo que os controles de segurança do sistema operativo móvel estão intactod e que o utilizador final não é visto como um potencial adversário. Satisfazer todos os requsitos de proteção do software em MASVS-R, ou subsets, ajuda a impedir riscos especificos nos quais o utilzador final é malicioso ou/e o sistema operativo móvel está comprometido.
 
 
 **I: Ainda que a nossa recomendação seja implementar os controlos MASVS-L1 em todas as aplicações, fazê-lo efectivamente ou não deverá ser em último caso uma decisão baseada no risco, que é decidida/comunicada com os seus proprietários.**
