@@ -12,7 +12,6 @@ O MASVS define dois níveis de verificação de segurança (MASVS-L1 e MASVS-L2)
 
 Cumprir os requisitos em MASVS-L1 resulta numa aplicação segura que segue as melhores práticas de segurança e que não sofre vulnerabilidades comuns. o MASVS-L2 adiciona controlos para uma maior profundidade na defesa como SSL pinning, que resulta numa aplicação resiliente contra ataques mais sofisticados - assumindo que os controles de segurança do sistema operativo móvel estão intactod e que o utilizador final não é visto como um potencial adversário. Satisfazer todos os requsitos de proteção do software em MASVS-R, ou subsets, ajuda a impedir riscos especificos nos quais o utilzador final é malicioso ou/e o sistema operativo móvel está comprometido.
 
-
 **I: Ainda que a nossa recomendação seja implementar os controlos MASVS-L1 em todas as aplicações, fazê-lo efectivamente ou não deverá ser em último caso uma decisão baseada no risco, que é decidida/comunicada com os seus proprietários.**
 
 **II: De notar que os controlos de proteção de software listados em MASVS-R e descritos no OWASP Mobile Security Testing Guide podem em últmia instância ser contornados e não devem nunca ser usados como substitutos para os controlos d segurança. Em vez disso, eles têm como propósito adicionarameças controles de proteção a ameaças especificas em aplicações que também cumpram os requistos MASVS em MASVS-L1 e MASVS-L2.**
@@ -22,7 +21,6 @@ Cumprir os requisitos em MASVS-L1 resulta numa aplicação segura que segue as m
 ### Estrutura do Documento
 
 A primeira parte do MASVS contaem uma descrição do modelo de segurança e respectivos níveis de verificaçãos disponiveis, seguido de recomendações acerca da utilização do modelo na prática. Os requisitos de segurança detalhados, bem como o mapeamento com os níveis de verificação, estão listados na segunda parte. Os requsitos foram agrupados em oito categorias (V1 ao V8) consoante os objectivos tecnicos e o âmbito. A seguinte numencatura é usada ao longo do MASVS e do MSTG: 
-
 - *Categoria do requisito:* MASVS-Vx, e.g. MASVS-V2: Armazenamento de dados e privacidade
 - *Requisito:* MASVS-Vx.y, e.g. MASVS-V2.2: "Nenhuma informação sensível está a ser escrita nos logs."  
 
@@ -84,5 +82,3 @@ Implementar os requisitos do MASVS L2 aumenta a segurança, enquanto que ao mesm
 - Todas as aplicações móveis que, propositamdamente, necessitem de guardadar dados sensniveis no eqipamento móvel, e ao mesmo tempo suportam um leque alargado de equipamentos e versões do sistema operativo. Neste caso, os controlos de resiliencia podem ser usados como uma medida da profundidade da defesa para aumentar o esforço para atacantes que queiram extrair dados sensiveis.
 
 - Aplicações que incluem compras de serviços no seu interior devem usar controloes no lado do servidor e controlos MASVS-L2 para proteger conteúdo pago. Contudo, poderão haver casos em que não haja possibilidade de proteção no lado do servidor. Nestes casos, os controlos MASVS-R devem ser aplicados adicionalmente para aumentar o esforço da engenharia reversa e adulteração.
-
-
