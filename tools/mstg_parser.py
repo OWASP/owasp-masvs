@@ -4,20 +4,34 @@
     This script must be run using Python 3.7+ and from its containing folder, i.e. "python3 mstg_parser.py"
     It required the MSTG (owasp-mstg) to be in a folder next to the MASVS (owasp-masvs).
 
-    1. generates a MASVS dict containing GitHub links to MSTG markdown sections containing MSTG IDs.
+    1. generates a MASVS list of dicts containing GitHub links to MSTG markdown sections containing MSTG IDs (incl. all other info that the export.py script provides).
     2. optionally checks the availability of those links.
-    3. parses the MSTG-IDs from the current MASVS and calculates coverage: prints all MSTG-IDs not yet covered in the MSTG.
+    3. parses the MSTG-IDs from the current MASVS and evaluates coverage: prints all MSTG-IDs not yet covered in the MSTG.
 
     Example:
 
-    ## MASVS Dict ##
-    {
-        "MSTG-NETWORK-3": [
-            "https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md#testing-endpoint-identify-verification-mstg-network-3",
-            "https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md#testing-custom-certificate-stores-and-certificate-pinning-mstg-network-3-and-mstg-network-4"
-        ],
-        "MSTG-NETWORK-4": [
+    ## MASVS Requirements ##
+    [
+        {
+            "id": "2.4",
+            "text": "No sensitive data is shared with third parties unless it is a necessary part of the architecture.",
+            "category": "MSTG-STORAGE-4",
+            "L1": true,
+            "L2": true,
+            "R": false,
+            "covered": true,
+            "links": [
+                "https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md#determining-whether-sensitive-data-is-sent-to-third-parties-mstg-storage-4",
+                "https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md#determining-whether-sensitive-data-is-sent-to-third-parties-mstg-storage-4"
+            ],
+            "description": ""
+        },
+        {
+            "id": "2.5",
+            "text": "The keyboard cache is disabled on text inputs that process sensitive data.",
+            "category": "MSTG-STORAGE-5",
             ...
+    ]
     ## COVERAGE ##
     MSTG-RESILIENCE-4 not covered
     MSTG-RESILIENCE-5 not covered
@@ -52,26 +66,20 @@ import subprocess
 import re
 import json
 from typing import Dict, List
+# from masvs import MASVS
 
-# import requests # TODO for beta live check (not yet working on remote)
-
-MSTG_PATH = "../../owasp-mstg/Document"
+MSTG_PATH = "../owasp-mstg/Document"
 MASVS_PATH = "../Document"
 
-# DO_URL_LIVE_CHECK = False # If set to True, it will take considerable time
+DO_URL_LIVE_CHECK = False # If set to True, it will take considerable time
 
 def get_masvs_dict() -> Dict[str, List[str]]:
 
-    # TODO update container to have at least Python 3.7. The next line does not work on the remote container.
-    # parsed = subprocess.run(["egrep", "-r", r"^### (.*\(MSTG-.*-.*\)$)", MSTG_PATH], capture_output=True)
-    parsed = subprocess.check_output(["grep", "-Er", r"^### (.*\(MSTG-.*-.*\)$)", MSTG_PATH])
-    # parsed = parsed.stdout
+    parsed = subprocess.run(["egrep", "-r", r"^### (.*\(MSTG-.*-.*\)$)", MSTG_PATH], capture_output=True)
 
     masvs_dict = {}
 
-    # TODO update container to have at least Python 3.7. The next line does not work on the remote container.
-    # for line in parsed.stdout.split(b"\n"):
-    for line in parsed.split(b"\n"):
+    for line in parsed.stdout.split(b"\n"):
         line = str(line)
         regex = re.compile(r".*/(.*\.md):### (.*) \((MSTG-.*-.*)\)")
         match = re.search(regex, line)
@@ -81,9 +89,7 @@ def get_masvs_dict() -> Dict[str, List[str]]:
             anchor = match.group(2).replace(" ", "-").lower()
             mstg_ids_list = [element for element in match.group(3).split() if element.startswith("MSTG")]
             mstg_ids = match.group(3).replace(" ", "-").lower()
-            # TODO update container to have at least Python 3.7. The next line does not work on the remote container.
-            # url = f"https://github.com/OWASP/owasp-mstg/blob/master/Document/{file_name}#{anchor}-{mstg_ids}"
-            url = "https://github.com/OWASP/owasp-mstg/blob/master/Document/" + file_name + "#" + anchor + "-" + mstg_ids
+            url = f"https://github.com/OWASP/owasp-mstg/blob/master/Document/{file_name}#{anchor}-{mstg_ids}"
 
             for x in mstg_ids_list:
                 if x.endswith(','):
@@ -92,18 +98,18 @@ def get_masvs_dict() -> Dict[str, List[str]]:
                     masvs_dict[x] = []
                 masvs_dict[x].append(url) 
 
-                # if DO_URL_LIVE_CHECK:
-                #     beta_live_check(url)
+                if DO_URL_LIVE_CHECK:
+                    beta_live_check(url)
 
     return masvs_dict
 
-# def beta_live_check(url):
-
-#     ret = requests.get(url)
-#     if ret.status_code == 200:
-#         print("Exists")
-#     else:
-#         print("Failed")
+def beta_live_check(url):
+    import requests # TODO for beta live check
+    ret = requests.get(url)
+    if ret.status_code == 200:
+        print(f"Exists -> {url}")
+    else:
+        print(f"Failed -> {url}")
 
 def get_mstg_ids_from_masvs() -> List[str]:
 
@@ -127,10 +133,7 @@ def masvs_coverage(masvs_dict, mstg_ids):
 
     for mstg_id in mstg_ids:
         if mstg_id not in masvs_dict:
-            # TODO replace the following lines once the remote container has Python +3.7
-            # print(f"{mstg_id} not covered")
-            message = mstg_id + " not covered"
-            print(message)
+            print(f"{mstg_id} not covered")
 
 if __name__ == "__main__":
     print("## MASVS Dict ##\n")
