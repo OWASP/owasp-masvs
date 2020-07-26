@@ -13,7 +13,7 @@ As seguintes alterações fazem parte do lançamento da versão 1.2:
 As seguintes alterações fazem parte do pré lançamento da versão 1.2:
 
 - Promovido a posição líder.
-- Requisito alterado: MSTG-STORAGE-1 "precisa de ser usado".
+- Requisito alterado: MSTG-STORAGE-1 "need to be used".
 - Requisitos MSTG-STORAGE-13, MSTG-STORAGE-14, e MSTG-STORAGE-15 foram adicionados, com foco na proteção de dados.
 - Requisito MSTG-AUTH-11 foi atualizado para preservar a informação contextual.
 - Requisito MSTG-CODE-4 foi atualizado para suportar mais do que somente depuração.
@@ -31,7 +31,7 @@ As seguintes alterações fazem parte do pré lançamento da versão 1.2:
 
 As seguintes alterações fazem parte do lançamento da versão 1.1.4:
 
-- Corrigidos todos os problemas de remarcação.
+- Corrigidos todos os problemas de markdown.
 - Atualizações em traduções para Francês e Espanhol.
 - Registo de alterações traduzido para Chinês (ZHTW) e Japonês.
 - Verificação automática da sintaxe da margem e acessibilidade de URLs.
