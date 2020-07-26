@@ -30,6 +30,7 @@ Copyright © 2020 The OWASP Foundation. 本文檔在 Creative Commons Attributio
 | 简体中文 | Bob Peng, Harold Zang, Jack S |
 | 法文 | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | 德文 | Rocco Gränitz, Sven Schleier (Review) |
+| 印地語 | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
 | 西班牙文 | Martin Marsicano, Carlos Holguera |
 | 日文 | Koki Takeyama, Riotaro Okada (Review) |
 | 韓文 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
