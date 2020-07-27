@@ -1,18 +1,18 @@
 # Apêndice A: Glossário
 
 - **Aleatorização da disposição do espaço de endereços (ASLR)** - Uma técnica que dificulta a exploração de defeitos relacionados com a corrupção de memória.
-- **Segurança de aplicações** - Segurança ao nível da aplicação focada na analise de componentes que constituem a camada aplicaçional do modelo OSI (acrónimo do inglês Open System Interconnection), em vez de se focar por exemplo no sistema operativo que suporta as aplicaçõess ou as redes às quais estão ligadas.
+- **Segurança de aplicações** - Segurança ao nível da aplicação focada na analise de componentes que constituem a camada aplicaçional do modelo OSI (acrónimo do inglês Open System Interconnection), em vez de se focar por exemplo no sistema operativo que suporta as aplicações ou as redes às quais estão ligadas.
 - **Verificação de Segurança de Aplicações** - A avaliação técnica de uma aplicação de acordo com o OWASP MASVS.
 - **Relatório de Verificação de Segurança de Aplicações** - Um relatório que documenta os resultados gerais e a análise de suporte produzida pelo verificador para uma aplicação específica.
 - **Autenticação** – A verificação da identidade reivindicada de um utilizador da aplicação.
 - **Verificação Automatizada** – O uso de ferramentas automatizadas (ferramentas de análise dinâmica, ferramentas de análise estática ou ambas) que usam assinaturas de vulnerabilidade para encontrar problemas.
-- **Black Box Testing** – É um método de teste de software que examina a funcionalidade de um aplicativo sem examinar suas estruturas ou trabalhos internos.
-- **Componente** – Uma unidade de código independente, com interfaces de disco e rede associadas que se comunicam com outros componentes.
+- **Black Box Testing** – É um método de teste de software que examina a funcionalidade de uma aplicação sem examinar suas estruturas ou trabalhos internos.
+- **Componente** – Uma unidade de código independente, com interfaces de disco e rede associadas que comunicam com outros componentes.
 - **Cross-Site Scripting (XSS)** – Uma vulnerabilidade de segurança normalmente encontrada em aplicações Web, permitindo a injeção de scripts do lado do cliente no conteúdo.
 - **Modulo Criptográfico** – Hardware, software, e/ou firmware que implementa algoritmos critpográficos e/ou gera chaves criptográficas.
-- **CWE** – O CWE é uma lista desenvolvida pela comunidade de fraquezas comuns de segurança de software. Ele serve como uma linguagem comum, uma vara de medição para ferramentas de segurança de software e como um ponto de partida para os esforços de identificação, mitigação e prevenção de fraquezas.
+- **CWE** – O CWE é uma lista de fraquezas comuns de segurança de software desenvolvida pela comunidade. Serve como uma linguagem comum, uma vara de medição para ferramentas de segurança de software e como um ponto de partida para os esforços de identificação, mitigação e prevenção de fraquezas.
 - **Dynamic Application Security Testing (DAST)** – As tecnologias DAST foram projetadas para detetar condições indicativas de uma vulnerabilidade de segurança numa aplicação durante o seu estado de execução.
-- **Design Verification** – A avaliação técnica da arquitetura de segurança de um aplicativo.
+- **Design Verification** – A avaliação técnica da arquitetura de segurança de uma aplicação.
 - **Dynamic Verification** – O uso de ferramentas automáticas que usam assinaturas de vulnerabilidade para encontrar problemas durante a execução de uma aplicação.
 - **Globally Unique Identifier (GUID)** – Um número de referência único usado como um identificador no software.
 - **Hyper Text Transfer Protocol (HTTP)** – Um protocolo de aplicação para sistemas de informação hipermédia distribuídos, colaborativos. É a base da comunicação de dados para a World Wide Web.
