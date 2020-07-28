@@ -1,6 +1,6 @@
 # Apêndice B: Referências
 
-Os projetos OWASP seguintes são muito provavelmente uteis aos utilizadores/adotantes deste padrão:
+Os projetos OWASP seguintes são muito provavelmente úteis aos utilizadores/adotantes deste padrão:
 
 - OWASP Mobile Security Project - [https://owasp.org/www-project-mobile-security/](https://owasp.org/www-project-mobile-security/)
 - OWASP Mobile Security Testing Guide - [https://owasp.org/www-project-mobile-security-testing-guide/](https://owasp.org/www-project-mobile-security-testing-guide/)
