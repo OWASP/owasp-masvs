@@ -6,7 +6,7 @@
 - **Relatório de Verificação de Segurança de Aplicações** - Um relatório que documenta os resultados gerais e a análise de suporte produzida pelo verificador para uma aplicação específica.
 - **Autenticação** – A verificação da identidade reivindicada de um utilizador da aplicação.
 - **Verificação Automatizada** – O uso de ferramentas automatizadas (ferramentas de análise dinâmica, ferramentas de análise estática ou ambas) que usam assinaturas de vulnerabilidade para encontrar problemas.
-- **Testes de Caixa Fechada** – É um método de teste de software que examina a funcionalidade de uma aplicação sem examinar suas estruturas ou trabalhos internos.
+- **Black Box Testing** – É um método de teste de software que examina a funcionalidade de uma aplicação sem examinar suas estruturas ou trabalhos internos.
 - **Componente** – Uma unidade de código independente, com interfaces de disco e rede associadas que comunicam com outros componentes.
 - **Cross-Site Scripting (XSS)** – Uma vulnerabilidade de segurança normalmente encontrada em aplicações Web, permitindo a injeção de scripts do lado do cliente no conteúdo.
 - **Modulo Criptográfico** – Hardware, software, e/ou firmware que implementa algoritmos critpográficos e/ou gera chaves criptográficas.
