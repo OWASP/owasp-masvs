@@ -19,7 +19,7 @@
 - **Chaves Escritas em Código Imutável** – Chaves criptográficas que são armazenadas no próprio dispositivo.
 - **IPC** – Comunicações entre processos, no IPC os processos comunicam entre eles e com o kernel para coordenar suas atividades.
 - **Validação de Input** – A canonicalização e validação de entrada não confiável do utilizador.
-- **Java Bytecode** – Java bytecode é o conjunto de instruções da Java virtual machine (JVM). Cada bytecode é composto por um ou, em alguns casos, dois bytes que representam a instrução (código de operação), juntamente com zero ou mais bytes para a passagem de parâmetros.
+- **Bytecode Java** – Bytecode Java é o conjunto de instruções da máquina virtual de Java (JVM). Cada bytecode é composto por um ou, em alguns casos, dois bytes que representam a instrução (código de operação), juntamente com zero ou mais bytes para a passagem de parâmetros.
 - **Codigo Malicioso** – Código introduzido numa aplicação durante seu desenvolvimento sem o conhecimento do proprietário da mesma, que contorna a política de segurança pretendida da aplicação. Não é o mesmo que malware tal como vírus ou worm!
 - **Malware** – Código executável que é introduzido numa aplicação durante o tempo de execução sem o conhecimento do utilizador ou administrador da aplicação.
 - **Open Web Application Security Project (OWASP)** – O Projeto Aberto de Segurança de Aplicações Web (OWASP) é uma comunidade aberta e gratuita em todo o mundo, focada em melhorar a segurança de aplicações. Nossa missão é tornar a segurança de aplicações "visível", para que pessoas e organizações possam tomar decisões informadas sobre os riscos da segurança de aplicações. Veja: <https://www.owasp.org/>
