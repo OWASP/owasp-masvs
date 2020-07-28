@@ -16,7 +16,7 @@
 - **Verificação Dinâmica** – O uso de ferramentas automáticas que usam assinaturas de vulnerabilidade para encontrar problemas durante a execução de uma aplicação.
 - **Globally Unique Identifier (GUID)** – Um número de referência único usado como um identificador no software.
 - **Hyper Text Transfer Protocol (HTTP)** – Um protocolo de aplicação para sistemas de informação hipermédia distribuídos, colaborativos. É a base da comunicação de dados para a World Wide Web.
-- **Hardcoded Keys** – Chaves criptográficas que são armazenadas no próprio dispositivo.
+- **Chaves Escritas em Código Imutável** – Chaves criptográficas que são armazenadas no próprio dispositivo.
 - **IPC** – Comunicações entre processos, no IPC os processos comunicam entre eles e com o kernel para coordenar suas atividades.
 - **Validação de Input** – A canonicalização e validação de entrada não confiável do utilizador.
 - **Java Bytecode** – Java bytecode é o conjunto de instruções da Java virtual machine (JVM). Cada bytecode é composto por um ou, em alguns casos, dois bytes que representam a instrução (código de operação), juntamente com zero ou mais bytes para a passagem de parâmetros.
