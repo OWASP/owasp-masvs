@@ -33,10 +33,10 @@
 - **Controlo de Segurança** – Uma função ou componente que executa uma verificação de segurança (por exemplo, uma verificação de controlo de acesso) ou quando chamada resulta num efeito de segurança (por exemplo, gerar um registro de auditoria).
 - **SQL Injection (SQLi)** – Uma técnica de injeção de código usada para atacar aplicações orientadas a dados, nos quais instruções SQL maliciosas são inseridas num ponto de entrada.
 - **Autenticação SSO** – Single Sign On (SSO) ocorre quando um utilizador efetua login num cliente e é automaticamente conectado noutros clientes, independentemente da plataforma, tecnologia ou domínio que o utilizador está a usar. Por exemplo, ao fazer login no google, você faz login automaticamente no youtube, documentos e serviço de email.
-- **Threat Modeling** – Uma técnica que consiste em desenvolver arquiteturas de segurança cada vez mais refinadas para identificar agentes de ameaças, zonas de segurança, controlos de segurança, ativos técnicos e de negócio importantes.
+- **Modelação de Ameaças** – Uma técnica que consiste em desenvolver arquiteturas de segurança cada vez mais refinadas para identificar agentes de ameaças, zonas de segurança, controlos de segurança, ativos técnicos e de negócio importantes.
 - **Transport Layer Security** – Protocolos criptográficos que fornecem segurança de comunicação pela Internet.
 - **URI and URL** – Um identificador uniforme de recursos é uma sequência de caracteres usada para identificar um nome ou um recurso da web. Um localizador uniforme de recursos é frequentemente usado como referência a um recurso.
 - **User Acceptance Testing (UAT)** – Tradicionalmente, um ambiente de teste que se comporta como o ambiente de produção, onde todos os testes de software são realizados antes de serem lançados.
 - **Verifier** – A pessoa ou equipa que está a rever uma aplicação em relação aos requisitos do OWASP MASVS.
 - **Whitelist** – Uma lista de dados ou operações permitidas, por exemplo, uma lista de caracteres com permissão para executar a validação de entrada.
-- **X.509 Certificate** – Um certificado X.509 é um certificado digital que usa o padrão de chave pública (PKI) X.509, internacionalmente aceite para verificar se uma chave pública pertence a um utilizador, computador ou serviço contido no certificado.
+- **Certificado X.509** – Um certificado X.509 é um certificado digital que usa o padrão de chave pública (PKI) X.509, internacionalmente aceite para verificar que uma chave pública pertence a um utilizador, computador ou serviço contido no certificado.
