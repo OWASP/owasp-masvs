@@ -37,6 +37,6 @@
 - **Transport Layer Security** – Protocolos criptográficos que fornecem segurança de comunicação pela Internet.
 - **URI and URL** – Um identificador uniforme de recursos é uma sequência de caracteres usada para identificar um nome ou um recurso da web. Um localizador uniforme de recursos é frequentemente usado como referência a um recurso.
 - **User Acceptance Testing (UAT)** – Tradicionalmente, um ambiente de teste que se comporta como o ambiente de produção, onde todos os testes de software são realizados antes de serem lançados.
-- **Verifier** – A pessoa ou equipa que está a rever uma aplicação em relação aos requisitos do OWASP MASVS.
+- **Verificador** – A pessoa ou equipa que está a rever uma aplicação em relação aos requisitos do OWASP MASVS.
 - **Lista Branca** – Uma lista de dados ou operações permitidas, por exemplo, uma lista de caracteres com permissão para executar a validação de entrada.
 - **Certificado X.509** – Um certificado X.509 é um certificado digital que usa o padrão de chave pública (PKI) X.509, internacionalmente aceite para verificar que uma chave pública pertence a um utilizador, computador ou serviço contido no certificado.
