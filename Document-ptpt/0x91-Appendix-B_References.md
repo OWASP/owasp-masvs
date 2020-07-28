@@ -7,7 +7,7 @@ Os projetos OWASP seguintes são muito provavelmente úteis aos utilizadores/ado
 - OWASP Mobile Top 10 Risks - [https://owasp.org/www-project-mobile-top-10/](https://owasp.org/www-project-mobile-top-10/)
 - OWASP Reverse Engineering and Code Modification Prevention - [https://wiki.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project](https://wiki.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project)
 
-De forma idêntica, os seguintes sites web são muito provavelmente uteis aos utilizadores/adotantes deste padrão:
+De forma idêntica, os seguintes sites web são muito provavelmente úteis aos utilizadores/adotantes deste padrão:
 
 - MITRE Common Weakness Enumeration - [http://cwe.mitre.org/](http://cwe.mitre.org/)
 - PCI Security Standards Council - [https://www.pcisecuritystandards.org](https://www.pcisecuritystandards.org)
