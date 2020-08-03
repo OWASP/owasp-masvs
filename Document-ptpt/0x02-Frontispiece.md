@@ -4,7 +4,7 @@
 
 Bem-vindo ao Mobile Application Security Verification Standard (MASVS) 1.2. O MASVS é uma comunidade que reúne esforços no sentido de estabelecer uma framework de requisitos de segurança necessários para o design, desenvolvimento e teste de aplicações móveis seguras, em iOS e Android.
 
-O MASVS é o culminar do esforço comunitário aleado ao feedback da própria indústria. A nossa expectativa é que este conjunto de normas evolua ao logo do tempo e encorajamos toda a comunidade a dar o seu feedback.
+O MASVS é o culminar do esforço comunitário aliado ao feedback da própria indústria. A nossa expectativa é que este conjunto de normas evolua ao logo do tempo e encorajamos toda a comunidade a dar o seu feedback.
 
 A melhor forma de entrar em contacto connosco é através do canal de slack OWASP Mobile Project: <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
 
@@ -26,7 +26,7 @@ Copyright © 2020 The OWASP Foundation.Este documento está licenciado pela [Cre
 
 <br/>
 
-| Edioma | Tradutores & Revisores |
+| Idioma | Tradutores & Revisores |
 | --- | ------------------------------ |
 | Chinês (Traditonal) | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | Chinês (Simplificado) | Bob Peng, Harold Zang, Jack S |
