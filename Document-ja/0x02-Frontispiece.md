@@ -10,7 +10,7 @@ MASVS はコミュニティにおける取組みと業界からのフィード�
 
 アカウントは以下の URL で作成できます。
 
-[https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/)
+[https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/)
 
 ## 著作権とライセンス
 
