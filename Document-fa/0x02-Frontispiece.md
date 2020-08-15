@@ -11,7 +11,7 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 بهترین راه برای ارتباط با ما از طریق کانال Slack پروژه موبایل OWASP است:
 <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
 
-حساب‌های کاربری می توانند در این آدرس ایجاد شوند: [https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/).
+حساب‌های کاربری می توانند در این آدرس ایجاد شوند: [https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/).
 
 ## حق تکثیر و مجوز
 

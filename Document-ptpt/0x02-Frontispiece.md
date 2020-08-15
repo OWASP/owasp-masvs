@@ -8,7 +8,7 @@ O MASVS é o culminar do esforço comunitário aliado ao feedback da própria in
 
 A melhor forma de entrar em contacto connosco é através do canal de slack OWASP Mobile Project: <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
 
-Para criar uma conta basta clicar no seguinte URL: [https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/).
+Para criar uma conta basta clicar no seguinte URL: [https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/).
 
 ## Direitos de autor e Licença
 
