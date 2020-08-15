@@ -10,7 +10,7 @@ MASVS - итог усилий сообщества и обратной связ�
 
 Аккаунты можно создать по этому адресу:
 
-[https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/).
+[https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/).
 
 ## Авторское право и лицензия
 
@@ -34,6 +34,7 @@ Copyright © 2020 The OWASP Foundation. Данный документ выпущ
 | упрощенный китайский | Bob Peng, Harold Zang, Jack S |
 | Французский | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | Немецкий | Rocco Gränitz, Sven Schleier (Review) |
+| хинди | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
 | Испанский | Martin Marsicano, Carlos Holguera |
 | Японский | Koki Takeyama, Riotaro Okada (Review) |
 | Корейский | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |

@@ -21,13 +21,15 @@ The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https
 
 PDF/Mobi/Epub/Docx downloads are available on the [Releases page](https://github.com/OWASP/owasp-masvs/releases "Releases"). The documents were created by using [pandocker](https://github.com/dalibo/pandocker/ "pandocker").
 
-The current release of the [MASVS is version 1.2](https://github.com/OWASP/owasp-masvs/releases/tag/v1.2 "MASVS version 1.2"). Want to have the latest `snapshot` version? Check [the latest Github build action](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22CI+Build%22). The MASVS is also available in different languages:
+The current release of the [MASVS is version 1.2](https://github.com/OWASP/owasp-masvs/releases/tag/v1.2 "MASVS version 1.2"). Want to have the latest `snapshot` version? Check [the latest Github build action](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Document+Build%22). The MASVS is also available in different languages:
 
+- [Brazilian Portuguese (in progress)](https://github.com/OWASP/owasp-masvs/tree/master/Document-ptbr "Brazilian Portuguese")
 - [Chinese (Simplified) - ZHCN](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhcn "Simplified Chinese (ZHCN)")
 - [Chinese (Traditional) - ZHTW](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhtw "Traditional Chinese (ZHTW)")
 - [English](https://github.com/OWASP/owasp-masvs/tree/master/Document "English")
 - [French](https://github.com/OWASP/owasp-masvs/tree/master/Document-fr "French")
 - [German](https://github.com/OWASP/owasp-masvs/tree/master/Document-de "German")
+- [Hindi (in progress)](https://github.com/OWASP/owasp-masvs/tree/master/Document-hi "Hindi")
 - [Japanese](https://github.com/OWASP/owasp-masvs/tree/master/Document-ja "Japanese")
 - [Korean](https://github.com/OWASP/owasp-masvs/tree/master/Document-ko "Korean")
 - [Persian](https://github.com/OWASP/owasp-masvs/tree/master/Document-fa "Persian")
@@ -68,7 +70,7 @@ The MASVS is an open source effort and we welcome contributions and feedback. If
 
 You can sign up here:
 
-[https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/)
+[https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/)
 
 Before you start contributing, please check our [contribution guide](https://github.com/OWASP/owasp-masvs/blob/master/CONTRIBUTING.md "Contribution Guide") which should get you started.
 

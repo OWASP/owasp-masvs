@@ -6,7 +6,7 @@
 
 MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期望這份標準能夠隨著時間演進不斷更新，也十分歡迎來自社群的意見反饋。透過OWASP Mobile Project的Slack channel與我們連絡是聯絡我們的最佳方式，以下是我們的Slack channel連結: <https://owasp.slack.com/messages/project-mobile_omtg/details/>
 
-可以從以下的網址創建帳號：[https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/).
+可以從以下的網址創建帳號：[https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/).
 
 ## 版權和許可
 
@@ -30,6 +30,7 @@ Copyright © 2020 The OWASP Foundation. 本文檔在 Creative Commons Attributio
 | 简体中文 | Bob Peng, Harold Zang, Jack S |
 | 法文 | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | 德文 | Rocco Gränitz, Sven Schleier (Review) |
+| 印地語 | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
 | 西班牙文 | Martin Marsicano, Carlos Holguera |
 | 日文 | Koki Takeyama, Riotaro Okada (Review) |
 | 韓文 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
