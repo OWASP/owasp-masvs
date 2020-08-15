@@ -70,7 +70,7 @@ The MASVS is an open source effort and we welcome contributions and feedback. If
 
 You can sign up here:
 
-[https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/)
+[https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/)
 
 Before you start contributing, please check our [contribution guide](https://github.com/OWASP/owasp-masvs/blob/master/CONTRIBUTING.md "Contribution Guide") which should get you started.
 
