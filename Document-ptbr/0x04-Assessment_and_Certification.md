@@ -1,49 +1,49 @@
-# Assessment and Certification
+# Avaliação e Certificação
 
-## OWASP's Stance on MASVS Certifications and Trust Marks
+## Posição da OWASP sobre Certificações e Marcas de Confiança do MASVS
 
-OWASP, as a vendor-neutral not-for-profit organization, does not certify any vendors, verifiers or software.
+A OWASP, como uma organização neutra e sem fins lucrativos, não certifica nenhum fornecedor, testador ou _software_.
 
-All such assurance assertions, trust marks, or certifications are not officially vetted, registered, or certified by OWASP, so an organization relying upon such a view needs to be cautious of the trust placed in any third party or trust mark claiming (M)ASVS certification.
+Todas essas afirmações de garantia, marcas de confiança ou certificações não são oficialmente examinadas, registradas ou certificadas pela OWASP. Portanto, uma organização que dependa de tal visão precisa ser cautelosa com a confiança depositada em qualquer órgão terceirizado ou certificado de confiança (M)ASVS.
 
-This should not inhibit organizations from offering such assurance services, as long as they do not claim official OWASP certification.
+Isso não deve dificultar as organizações de oferecer tais serviços de garantia, desde que não reivindiquem a certificação Oficial OWASP.
 
-## Guidance for Certifying Mobile Apps
+## Orientação para Certificação de Aplicativos Móveis
 
-The recommended way of verifying compliance of a mobile app with the MASVS is by performing an "open book" review, meaning that the testers are granted access to key resources such as architects and developers of the app, project documentation, source code, and authenticated access to endpoints, including access to at least one user account for each role.
+A maneira recomendada de verificar a conformidade de um aplicativo móvel com o MASVS é realizando uma revisão do tipo "_open book_", o que significa que os testadores têm acesso a recursos-chave, como arquitetos e desenvolvedores do aplicativo, documentação do projeto, código-fonte e acesso autenticado a terminais, incluindo acesso a pelo menos uma conta de usuário para cada função.
 
-It is important to note that the MASVS only covers security of the (client-side) mobile app and the network communication between the app and its remote endpoint(s), as well as a few basic and generic requirements related to user authentication and session management. It does not contain specific requirements for the remote services (e.g. web services) associated with the app other than a limited set of generic requirements pertaining to authorization, authentication, control verification, and session management. However, MASVS V1 specifies that remote services must be covered by the overall threat model, and be verified against appropriate standards, such as the OWASP ASVS.
+É importante notar que o MASVS abrange apenas a segurança do aplicativo móvel (lado do cliente) e a comunicação de rede entre o aplicativo e seus terminais remotos, bem como alguns requisitos básicos e genéricos relacionados à autenticação do usuário e gerenciamento de sessões. Ele não contém requisitos específicos para os serviços remotos (por exemplo, serviços _web_) associados ao aplicativo, além de um conjunto limitado de requisitos genéricos relativos à autorização, autenticação, verificação de controle e gerenciamento de sessões. No entanto, o MASVS V1 especifica que os serviços remotos devem estar seguros usando o modelo global de ameaças e devem ser analisados em relação à utilização dos padrões apropriados como o OWASP ASVS.
 
-A certifying organization must include in any report the scope of the verification (particularly if a key component is out of scope), a summary of verification findings, including passed and failed tests, with clear indications of how to resolve the failed tests. Keeping detailed work papers, screenshots or movies, scripts to reliably and repeatedly exploit an issue, and electronic records of testing, such as intercepting proxy logs and associated notes such as a cleanup list, is considered standard industry practice. It is not sufficient to simply run a tool and report on the failures; this does not provide sufficient evidence that all issues at a certifying level have been tested and tested thoroughly. In case of dispute, there should be sufficient supportive evidence to demonstrate that every verified requirement has indeed been tested.
+Uma organização certificadora deve incluir em qualquer relatório o escopo da verificação (particularmente se um componente-chave estiver fora do escopo), um resumo dos resultados de verificação, incluindo testes aprovados e reprovados, com indicações claras de como corrigir os testes em que houve falha. Manter documentação detalhada, captura de tela ou vídeo, _scripts_ para explorar de forma confiável e repetidamente um problema e registros eletrônicos de testes, como interceptar registros de _logs_ de um _proxy_ e notas associadas, como uma lista de limpeza, é considerada prática padrão do setor. Não basta simplesmente executar uma ferramenta e relatar as falhas; isso não fornece evidências suficientes de que todas as questões em nível de certificação foram testadas e testadas minuciosamente. Em caso de contestação, deve haver evidências suficientes para demonstrar que todos os requisitos verificados foram de fato testados.
 
 <!-- \pagebreak -->
 
-### Using the OWASP Mobile Security Testing Guide (MSTG)
+### Usando o Guia de Testes de Segurança Móvel (MSTG) da OWASP
 
-The OWASP MSTG is a manual for testing the security of mobile apps. It describes the technical processes for verifying the requirements listed in the MASVS. The MSTG includes a list of test cases, each of which map to a requirement in the MASVS. While the MASVS requirements are high-level and generic, the MSTG provides in-depth recommendations and testing procedures on a per-mobile-OS basis.
+O OWASP MSTG é um manual para testar a segurança dos aplicativos móveis. Descreve os processos técnicos para verificar os requisitos listados no MASVS. O MSTG inclui uma lista de casos de teste, cada um dos quais mapeia para um requisito no MASVS. Embora os requisitos do MASVS sejam de alto nível e genéricos, o MSTG fornece recomendações e procedimentos de teste em profundidade por sistema operacional móvel.
 
-### The Role of Automated Security Testing Tools
+### O papel das Ferramentas Automatizadas de Teste de Segurança
 
-The use of source code scanners and black-box testing tools is encouraged in order to increase efficiency whenever possible. It is however not possible to complete MASVS verification using automated tools alone: Every mobile app is different, and understanding the overall architecture, business logic, and technical pitfalls of the specific technologies and frameworks being used, is a mandatory requirement to verify security of the app.
+O uso de escâneres de código-fonte e ferramentas de teste de caixa preta é incentivado a fim de aumentar a eficiência, sempre que possível. No entanto, não é possível concluir a verificação do MASVS usando apenas ferramentas automatizadas: cada aplicativo móvel é diferente e entender a arquitetura geral, a lógica de negócios e os artifícios técnicos das tecnologias e _frameworks_ específicos que estão sendo usados é um requisito obrigatório para verificar a segurança do aplicativo.
 
-## Other Uses
+## Outros Usos
 
-### As Detailed Security Architecture Guidance
+### Como Orientação Detalhada da Arquitetura de Segurança
 
-One of the more common uses for the Mobile Application Security Verification Standard is as a resource for security architects. The two major security architecture frameworks, SABSA or TOGAF, are missing a great deal of information that is necessary to complete mobile application security architecture reviews. MASVS can be used to fill in those gaps by allowing security architects to choose better controls for issues common to mobile apps.
+Um dos usos mais comuns para o Padrão de Verificação de Segurança de Aplicativos Móveis é a utilização como um recurso para arquitetos de segurança. As duas principais estruturas de arquitetura de segurança, SABSA ou TOGAF, carecem de uma grande quantidade de informações necessárias para concluir as avaliações de arquitetura de segurança de aplicativos móveis. O MASVS pode ser usado para preencher essas lacunas, permitindo que arquitetos de segurança escolham melhores controles para problemas comuns em aplicativos móveis.
 
-### As a Replacement for Off-the-shelf Secure Coding Checklists
+### Como Substituto para _Checklists_ de Desenvolvimento Seguro de Aplicativos Móveis
 
-Many organizations can benefit from adopting the MASVS, by choosing one of the two levels, or by forking MASVS and changing what is required for each application's risk level in a domain-specific way. We encourage this type of forking as long as traceability is maintained, so that if an app has passed requirement 4.1, this means the same thing for forked copies as the standard evolves.
+Muitas organizações podem se beneficiar da adoção do MASVS, escolhendo um dos dois níveis, ou fazendo seu próprio _fork_ do MASVS e alterando o que for necessário para o contexto e o nível de risco de cada aplicativo. Nós estimulamos esse tipo de _fork_ enquanto a rastreabilidade for mantida, de modo que se um aplicativo cumprir o requisito 4.1, o mesmo ocorra nos _forks_ do padrão à medida que ele evolui.
 
-### As a Basis for Security Testing Methodologies
+### Como Base para Metodologias de Testes de Segurança
 
-A good mobile app security testing methodology should cover all requirements listed in the MASVS. The OWASP Mobile Security Testing Guide (MSTG) describes black-box and white-box test cases for each verification requirement.
+Uma boa metodologia de teste de segurança de aplicativos móveis deve cobrir todos os requisitos listados no MASVS. O Guia de Teste de Segurança Móvel OWASP (MSTG) descreve os casos de teste de caixa preta e caixa branca para cada requisito de verificação.
 
-### As a Guide for Automated Unit and Integration Tests
+### Como Guia para Testes Automatizados de Unidade e Integração
 
-The MASVS is designed to be highly testable, with the sole exception of architectural requirements. Automated unit, integration and acceptance testing based on the MASVS requirements can be integrated in the continuous development lifecycle. This not only increases developer security awareness, but also improves the overall quality of the resulting apps, and reduces the amount of findings during security testing in the pre-release phase.
+O MASVS foi projetado para ser altamente testável, com a única exceção dos requisitos de arquitetura. Os testes automatizados unitários, integração e aceitação com base nos requisitos do MASVS podem ser integrados ao ciclo de vida de desenvolvimento contínuo. Isso não só aumenta a consciência de segurança do desenvolvedor, mas também melhora a qualidade geral dos aplicativos resultantes e reduz a quantidade de descobertas durante os testes de segurança na fase prévia ao _release_.
 
-### For Secure Development Training
+### Para Treinamento de Desenvolvimento Seguro
 
-MASVS can also be used to define characteristics of secure mobile apps. Many "secure coding" courses are simply ethical hacking courses with a light smear of coding tips. This does not help developers. Instead, secure development courses can use the MASVS, with a strong focus on the proactive controls documented in the MASVS, rather than e.g. the Top 10 code security issues.
+O MASVS também pode ser usado para definir características de aplicativos móveis seguros. Muitos cursos de "desenvolvimento seguro" são simplesmente cursos de _ethical hacking_ com poucas dicas de codificação segura. Isso não ajuda os desenvolvedores. Em vez disso, cursos de desenvolvimento seguro podem usar o MASVS, com um forte foco nos controles proativos documentados no MASVS, em vez de, por exemplo, os 10 principais problemas de segurança de desenvolvimento.
