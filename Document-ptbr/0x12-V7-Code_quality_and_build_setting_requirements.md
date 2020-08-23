@@ -4,7 +4,6 @@
 
 O objetivo deste controle é garantir que práticas básicas de codificação segura são seguidas no desenvolvimento do aplicativo móvel e que as funcionalidades de segurança "gratuitas" do compilador estão habilitadas.
 
-
 ## Requisitos de Verificação de Segurança
 
 | # | MSTG-ID | Descrição | L1 | L2 |
