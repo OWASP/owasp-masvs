@@ -20,7 +20,6 @@ Os controles deste grupo garantem que o aplicativo use APIs da plataforma e comp
 | **6.10** | MSTG-PLATAFORMA-10 | O _cache_, o armazenamento e os recursos carregados (JavaScript, etc.) devem ser eliminados antes que o _WebView_ seja destruído. |  | ✓  |
 | **6.11** | MSTG-PLATAFORMA-11 | Verifique se o aplicativo impede o uso de teclados de terceiros personalizados sempre que dados confidenciais são inseridos. | | ✓  |
 
-
 ## References
 
 O Guia de Teste de Segurança Móvel da OWASP fornece instruções detalhadas para verificar os requisitos listados nesta seção (em inglês).
