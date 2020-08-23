@@ -1,0 +1,42 @@
+# Apêndice A: Glossário
+
+- **Aleatorização da disposição do espaço de endereços (ASLR)** - Uma técnica que dificulta a exploração de defeitos relacionados com a corrupção de memória.
+- **Segurança de aplicações** - Segurança ao nível da aplicação focada na analise de componentes que constituem a camada aplicaçional do modelo OSI (acrónimo do inglês Open System Interconnection), em vez de se focar por exemplo no sistema operativo que suporta as aplicações ou as redes às quais estão ligadas.
+- **Verificação de Segurança de Aplicações** - A avaliação técnica de uma aplicação de acordo com o OWASP MASVS.
+- **Relatório de Verificação de Segurança de Aplicações** - Um relatório que documenta os resultados gerais e a análise de suporte produzida pelo verificador para uma aplicação específica.
+- **Autenticação** – A verificação da identidade reivindicada de um utilizador da aplicação.
+- **Verificação Automatizada** – O uso de ferramentas automatizadas (ferramentas de análise dinâmica, ferramentas de análise estática ou ambas) que usam assinaturas de vulnerabilidade para encontrar problemas.
+- **Black Box Testing** – É um método de teste de software que examina a funcionalidade de uma aplicação sem examinar suas estruturas ou trabalhos internos.
+- **Componente** – Uma unidade de código independente, com interfaces de disco e rede associadas que comunicam com outros componentes.
+- **Cross-Site Scripting (XSS)** – Uma vulnerabilidade de segurança normalmente encontrada em aplicações Web, permitindo a injeção de scripts do lado do cliente no conteúdo.
+- **Modulo Criptográfico** – Hardware, software, e/ou firmware que implementa algoritmos critpográficos e/ou gera chaves criptográficas.
+- **CWE** – O CWE é uma lista de fraquezas comuns de segurança de software desenvolvida pela comunidade. Serve como uma linguagem comum, uma vara de medição para ferramentas de segurança de software e como um ponto de partida para os esforços de identificação, mitigação e prevenção de fraquezas.
+- **Dynamic Application Security Testing (DAST)** – As tecnologias DAST foram projetadas para detetar condições indicativas de uma vulnerabilidade de segurança numa aplicação durante o seu estado de execução.
+- **Design Verification** – A avaliação técnica da arquitetura de segurança de uma aplicação.
+- **Verificação Dinâmica** – O uso de ferramentas automáticas que usam assinaturas de vulnerabilidade para encontrar problemas durante a execução de uma aplicação.
+- **Globally Unique Identifier (GUID)** – Um número de referência único usado como um identificador no software.
+- **Hyper Text Transfer Protocol (HTTP)** – Um protocolo de aplicação para sistemas de informação hipermédia distribuídos, colaborativos. É a base da comunicação de dados para a World Wide Web.
+- **Chaves Escritas em Código Imutável** – Chaves criptográficas que são armazenadas no próprio dispositivo.
+- **IPC** – Comunicações entre processos, no IPC os processos comunicam entre eles e com o kernel para coordenar suas atividades.
+- **Validação de Input** – A canonicalização e validação de entrada não confiável do utilizador.
+- **Bytecode Java** – Bytecode Java é o conjunto de instruções da máquina virtual de Java (JVM). Cada bytecode é composto por um ou, em alguns casos, dois bytes que representam a instrução (código de operação), juntamente com zero ou mais bytes para a passagem de parâmetros.
+- **Codigo Malicioso** – Código introduzido numa aplicação durante seu desenvolvimento sem o conhecimento do proprietário da mesma, que contorna a política de segurança pretendida da aplicação. Não é o mesmo que malware tal como vírus ou worm!
+- **Malware** – Código executável que é introduzido numa aplicação durante o tempo de execução sem o conhecimento do utilizador ou administrador da aplicação.
+- **Open Web Application Security Project (OWASP)** – O Projeto Aberto de Segurança de Aplicações Web (OWASP) é uma comunidade aberta e gratuita em todo o mundo, focada em melhorar a segurança de aplicações. A nossa missão é tornar a segurança de aplicações "visível", para que pessoas e organizações possam tomar decisões informadas sobre os riscos da segurança de aplicações. Veja: <https://www.owasp.org/>
+- **Informação de Identificação Pessoal (PII)** – PII é informação que pode ser usada por si só ou com outra informação para identificar,contactar ou localizar uma única pessoa ou para identificar uma pessoa no contexto.
+- **Position-Independent Executable (PIE)** – Um PIE é o fragmento de código de máquina que, sendo colocado nalgum lugar na memória primária, é executado corretamente, independentemente de seu endereço absoluto.
+- **Infraetrutura de Chave Pública (PKI)** – Uma PKI é um arranjo que vincula chaves públicas às respectivas identidades de entidades. A ligação é estabelecida por meio de um processo de registo e emissão de certificados na e por uma autoridade de certificação (CA).
+- **Static Application Security Testing (SAST)** – SAST é um conjunto de tecnologias projetadas para analisar o código-fonte de aplicações, byte code e binários para codificar e projetar condições indicativas de vulnerabilidades de segurança. As soluções SAST analisam uma aplicação de “dentro para fora” num estado de não execução.
+- **SDLC** – Ciclo de vida de desenvolvimento de software.
+- **Arquitectura de Segurança** – Uma abstração do design de aplicações que identifica e descreve onde e como os controlos de segurança são usados, além de identificar e descrever o local e a sensibilidade dos dados do utilizador e da aplicação.
+- **Configuração de Segurança** – A configuração em tempo de execução de uma aplicação que afeta como os controlos de segurança são usados.
+- **Controlo de Segurança** – Uma função ou componente que executa uma verificação de segurança (por exemplo, uma verificação de controlo de acesso) ou quando chamada resulta num efeito de segurança (por exemplo, gerar um registro de auditoria).
+- **SQL Injection (SQLi)** – Uma técnica de injeção de código usada para atacar aplicações orientadas a dados, nos quais instruções SQL maliciosas são inseridas num ponto de entrada.
+- **Autenticação SSO** – Single Sign On (SSO) ocorre quando um utilizador efetua login num cliente e é automaticamente conectado noutros clientes, independentemente da plataforma, tecnologia ou domínio que o utilizador está a usar. Por exemplo, ao fazer login no google, você faz login automaticamente no youtube, documentos e serviço de email.
+- **Modelação de Ameaças** – Uma técnica que consiste em desenvolver arquiteturas de segurança cada vez mais refinadas para identificar agentes de ameaças, zonas de segurança, controlos de segurança, ativos técnicos e de negócio importantes.
+- **Transport Layer Security** – Protocolos criptográficos que fornecem segurança de comunicação pela Internet.
+- **URI and URL** – Um identificador uniforme de recursos é uma sequência de caracteres usada para identificar um nome ou um recurso da web. Um localizador uniforme de recursos é frequentemente usado como referência a um recurso.
+- **User Acceptance Testing (UAT)** – Tradicionalmente, um ambiente de teste que se comporta como o ambiente de produção, onde todos os testes de software são realizados antes de serem lançados.
+- **Verificador** – A pessoa ou equipa que está a rever uma aplicação em relação aos requisitos do OWASP MASVS.
+- **Lista Branca** – Uma lista de dados ou operações permitidas, por exemplo, uma lista de caracteres com permissão para executar a validação de entrada.
+- **Certificado X.509** – Um certificado X.509 é um certificado digital que usa o padrão de chave pública (PKI) X.509, internacionalmente aceite para verificar que uma chave pública pertence a um utilizador, computador ou serviço contido no certificado.

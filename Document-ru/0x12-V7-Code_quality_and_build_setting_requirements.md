@@ -23,7 +23,7 @@
 OWASP MSTG содержит подробные инструкции по проверке требований, перечисленных в этом разделе.
 
 - Android: Тестирование качества кода и настроек сборки - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
-- iOS: Тестирование качества кода и настроек сборки - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- iOS: Тестирование качества кода и настроек сборки - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
 
 Для получения дополнительной информации смотрите также:
 

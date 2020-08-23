@@ -8,7 +8,7 @@ MASVS는 커뮤니티 활동과 업계 피드백의 성과입니다. 우리는 �
 
 우리와 연락하는 가장 좋은 방법은 OWASP Mobile Project Slack 채널을 이용하는 것입니다: <https://owasp.slack.com/messages/project-mobile_omtg/details/>
 
-계정은 다음의 URL에서 만들 수 있습니다: [https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/)
+계정은 다음의 URL에서 만들 수 있습니다: [https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/)
 
 ## 저작권 및 라이센스
 
@@ -35,6 +35,7 @@ Copyright © 2020 The OWASP Foundation. 본 저작물은 [Creative Commons Attri
 | 스페인어 | Martin Marsicano, Carlos Holguera |
 | 일본어 | Koki Takeyama, Riotaro Okada (Review) |
 | 러시어아 | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| 힌디 어 | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
 | 한국어 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 
 본 문서는 Jim Manico가 작성한 OWASP 애플리케이션 보안 검증 표준의 포크로 시작되었습니다.

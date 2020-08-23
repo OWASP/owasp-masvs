@@ -1,22 +1,23 @@
 <div dir="rtl" markdown="1">
 
-# درباره استاندارد
+# درباره‌ی استاندارد
 
 <img src="images/OWASP_logo.png" title="OWASP LOGO" />
 
-به استاندارد وارسی امنیت برنامه کاربردی موبایل (MASVS) نسخه 1.1 خوش آمدید. MASVS یک تلاش جمعی برای برپاسازی چارچوبی از نیازمندی‌های امنیتی مربوط به طراحی، توسعه و آزمون اپلیکیشن‌های امن موبایل بر روی iOS و اندروید است.
+به استاندارد وارسی امنیت برنامه‌ی کاربردی موبایل (MASVS) نسخه 1.1 خوش آمدید. MASVS یک تلاش جمعی برای برپاسازی چارچوبی از الزامات امنیتی مربوط به طراحی، توسعه و آزمون برنامه‌های کاربردی امن موبایل بر روی iOS و اندروید است.
 
 MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. ما انتظار داریم که این استاندارد در طی زمان تکامل پیدا کرده و از بازخورد اجتماع استقبال می‌کنیم.
 
-بهترین راه برای ارتباط با ما از طریق کانال Slack پروژه موبایل OWASP است: <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
+بهترین راه برای ارتباط با ما از طریق کانال Slack پروژه موبایل OWASP است:
+<https://owasp.slack.com/messages/project-mobile_omtg/details/> .
 
-حساب‌های کاربری می توانند در این آدرس ایجاد شوند: [https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/).
+حساب‌های کاربری می توانند در این آدرس ایجاد شوند: [https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/).
 
 ## حق تکثیر و مجوز
 
 [<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
 
-حق تکثیر محفوظ است © 2020 بنیاد OWASP. این اثر تحت یک مجوز [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) منتشر می‌شود. جهت هرگونه استفاده مجدد یا توزیع، شما باید شرایط مجوز این اثر را برای دیگران روشن سازید.
+حق تکثیر © 2020 توسط بنیاد OWASP محفوظ است. این اثر تحت یک مجوز [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) منتشر می‌شود. جهت هرگونه استفاده مجدد یا توزیع، شما باید شرایط مجوز این اثر را برای دیگران روشن سازید.
 
 <!-- \pagebreak -->
 
@@ -32,7 +33,7 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 | --- | ------------------------------ |
 | چینی (سنتی) | Peter Chi, Lex Chien, Henry Hu, Leo Wang |
 | چینی (ساده‌شده) | Bob Peng, Harold Zang, Jack S |
-| فارسی | Ramin Atefinia, Hamed Salimian, Bardiya Akbari, Dorna Azhirak, Mahsa Omidvar, Alireza Mazhari |
+| فارسی | Ramin Atefinia, Hamed Salimian, Bardiya Akbari, Dorna Azhirak, Mahsa Omidvar, Alireza Mazhari, Mehran Seifalinia, Milad Khoshdel |
 | فرانسوی | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | آلمانی | Rocco Gränitz, Sven Schleier (Review) |
 | ژاپنی | Koki Takeyama, Riotaro Okada (Review) |
@@ -40,11 +41,11 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 | روسی | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | اسپانیایی | Martin Marsicano, Carlos Holguera |
 
- این سند به عنوان یک fork از استاندارد وارسی برنامه کاربردی موبایل نوشته شده توسط Jim Manico آغاز شده است.
+ این سند به‌عنوان یک fork از استاندارد وارسی برنامه‌ی کاربردی موبایل نوشته شده توسط Jim Manico آغاز شده است.
 
 ## حامیان
 
-بااینکه هر دو استاندارد MASVS و MSTG به‌طور داوطلبانه توسط جامعه تولید و نگهداری می‌شوند، اما گاهی اوقات به اندکی کمک خارجی نیاز است. بنابراین، از حامیان مالی‌مان بخاطر فراهم آوردن بودجه برای استخدام ویراستارهای فنی تشکر می‌کنیم. توجه داشته باشید که حمایت مالی آنان محتوای استاندارد MASVS یا MSTG را تحت تأثیر قرار نمی‌دهد. بسته‌های حمایت مالی در [OWASP Project Wiki](<https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship> "OWASP Mobile Security Testing Guide Sponsorship Packages") شرح داده‌شده‌اند.
+با اینکه هر دو استاندارد MASVS و MSTG به‌طور داوطلبانه توسط جامعه تولید و نگهداری می‌شوند، اما گاهی اوقات به اندکی کمک خارجی نیاز است. بنابراین، از حامیان مالی‌مان بخاطر فراهم آوردن بودجه برای استخدام ویراستارهای فنی تشکر می‌کنیم. توجه داشته باشید که حمایت مالی آنان محتوای استاندارد MASVS یا MSTG را تحت تأثیر قرار نمی‌دهد. بسته‌های حمایت مالی در [OWASP Project Wiki](<https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship> "OWASP Mobile Security Testing Guide Sponsorship Packages") شرح داده‌شده‌اند.
 
 ### نیکوکاران محترم
 
