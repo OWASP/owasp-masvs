@@ -4,7 +4,6 @@
 
 Os controles deste grupo garantem que o aplicativo use APIs da plataforma e componentes padrão de forma segura. Além disso, os controles cobrem a comunicação entre aplicativos (IPC).
 
-
 ## Requisitos de Verificação de Segurança
 
 | # | MSTG-ID | Descrição | L1 | L2 |
