@@ -6,7 +6,7 @@ Bem-vindo ao Padrão de Verificação de Segurança de Aplicativos Móveis (MASV
 
 O MASVS é o resultado de esforços da comunidade e do retorno da indústria. Esperamos que esse padrão evolua com o tempo e recebamos retorno da comunidade.
 
-A melhor forma de entrar em contato com a gente é por meio do canal OWASP para Dispositivos Móveis: <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
+A melhor forma de entrar em contato com a gente é por meio do canal OWASP para Dispositivos Móveis: <https://owasp.slack.com/messages/project-mobile_omtg/details/>.
 
 Contas podem ser criadas a partir da seguinte URL: [https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/).
 
