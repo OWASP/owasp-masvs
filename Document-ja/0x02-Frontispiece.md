@@ -10,7 +10,7 @@ MASVS はコミュニティにおける取組みと業界からのフィード�
 
 アカウントは以下の URL で作成できます。
 
-[https://owasp-slack.herokuapp.com/](https://owasp-slack.herokuapp.com/)
+[https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/)
 
 ## 著作権とライセンス
 
@@ -36,6 +36,7 @@ Copyright © 2020 The OWASP Foundation. 本著作物は [Creative Commons Attrib
 | ドイツ語 | Rocco Gränitz, Sven Schleier (Review) |
 | 日本語 | Koki Takeyama, Riotaro Okada (Review) |
 | 韓国語 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
+| ヒンディー語 | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
 | ロシア語 | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | スペイン語 | Martin Marsicano, Carlos Holguera |
 
