@@ -64,7 +64,6 @@ A implementação dos requisitos do MASVS L2 aumenta a segurança, ao mesmo temp
 
 <!-- \pagebreak -->
 
-
 ###### MASVS-L2
 
 - Indústria de Saúde: Aplicativos móveis que armazenam informações pessoais identificáveis que podem ser usadas para roubo de identidade, pagamentos fraudulentos ou uma variedade de esquemas de fraude. Para o setor de saúde dos EUA, as considerações de conformidade incluem a Lei de Portabilidade e Responsabilização de Seguros de Saúde (HIPAA, em inglês), Privacidade, Segurança, Regras de Notificação de Violações e Regra de Segurança do Paciente.
