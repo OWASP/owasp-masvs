@@ -1,6 +1,6 @@
 # V3: Requisitos de Criptografia
 
-## Objectivo
+## Objetivo de Controlo
 
 A criptografia é um conjunto de práticas/ protocolos essenciais no processo de protecção de dados em dispositivos móveis. Quando esses protocolos não são correctamente implementados, tornam-se pouco seguros e possivelmente exploráveis. O propósito deste capítulo é assegurar a aplicação das boas práticas da criptografia, o que inclui:
 

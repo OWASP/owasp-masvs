@@ -1,23 +1,23 @@
 # V2: Armazenamento de Dados e Requisitos de Privacidade
 
-## Objectivo
+## Objetivo de Controlo
 
-A protecção de informação sensível, como por exemplo as credenciais do utilizador, assim como outros dados privados, é fulcral em segurança de dispositivos móveis. Informação sensível pode ser exposta, de forma não intencional, a outras aplicações em funcionamento no mesmo dispositivo se os mecanismos que comunicam com o sistema operativo não o fazem de acordo com as boas práticas.  Para além disso, existe a possibilidade de informação privada ser exposta em armazenamento remoto (cloud), ou através de cópias de segurança, ou mesmo em memória (keyboard cache). Existe também a possibilidade dos dispositivos móveis serem perdidos ou roubados, sendo que atacantes podem ganhar acesso físico ao sistema. Para evitar estes casos, e de forma a proteger informação privada, é necessário implementar estratégias de segurança adicionais. cras
+A protecção de informação sensível, como por exemplo as credenciais do utilizador, assim como outros dados privados, é fulcral em segurança de dispositivos móveis. Informação sensível pode ser exposta, de forma não intencional, a outras aplicações em funcionamento no mesmo dispositivo se os mecanismos do sistema operativo, como o IPC, não são usados de forma apropriada.  Para além disso, existe a possibilidade de informação privada ser exposta em armazenamento remoto (cloud), ou através de cópias de segurança, ou mesmo em memória (keyboard cache). Existe também a possibilidade dos dispositivos móveis serem perdidos ou roubados, sendo que atacantes podem ganhar acesso físico ao sistema. Para evitar estes casos, e de forma a proteger informação privada, é necessário implementar estratégias de segurança adicionais.
 
-Repare que, a MASVS é focada na aplicação, sendo que neste documento não são referidas estratégias de segurança que podem ser implementadas ao nível do dispositivo móvel. A adaptação desse tipo de estratégias é de todo recomendado. para uma melhoria da camada de segurança das aplicações móveis.
+Repare que, a MASVS é focada na aplicação, sendo que neste documento não são referidas estratégias de segurança que podem ser implementadas ao nível do dispositivo móvel. A adoção desse tipo de estratégias é de todo recomendado. para uma melhoria da camada de segurança das aplicações móveis.
 
 ### Definição de Informação Sensível
 
-Informação privada, neste contexto, diz respeito não só às credenciais do utilizador mas também a outros dados sensíveis, como por  exemplo:
+Informação privada, neste contexto, diz respeito não só às credenciais do utilizador mas também a outros dados sensíveis, como por exemplo:
 
-- Informação de Identificação Pessoal (Personally identifiable information, PII)) que pode ser usada para roubo de identificação, o que inclui desde números de segurança social, números de cartões de crédito a números de conta bancária, ou mesmo dados identificadores de estados de saúde;
-- Informação altamente sensível que pode pôr em causa a reputação do indivíduo, ou ao estado financeiro do mesmo, se comprometida: Informação contractual, ou outra informação de gestão individual;
+- Informação de Identificação Pessoal (Personally identifiable information, PII)) que pode ser abusada para roubo de identidade, o que inclui: números de segurança social, números de cartões de crédito, números de conta bancária, ou mesmo dados identificadores de estados de saúde;
+- Informação altamente sensível que pode pôr em causa a reputação do indivíduo, e/ou o estado financeiro do mesmo, se comprometida: Informação de não divulgação, ou outra informação de gestão individual;
 - Quaisquer dados que devem ser protegidos por lei ou outras razões.
 
 
 ## Requisitos para Verificação de Segurança
 
-A grande maioria de exposição de dados privados pode ser evitada através da aplicação de boas práticas. A maioria das regras listadas neste capítulo são obrigatórias para todos os níveis de verificação.  o The vast majority of data disclosure issues can be prevented by following simple rules. Most of the controls listed in this chapter are mandatory for all verification levels.
+A grande maioria de exposição de dados privados pode ser evitada através da aplicação de regras simples. A maioria das diretrizes listadas neste capítulo são obrigatórias para todos os níveis de verificação.
 
 | # | MSTG-ID | Descrição | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
@@ -35,7 +35,7 @@ A grande maioria de exposição de dados privados pode ser evitada através da a
 | **2.12** | MSTG-STORAGE-12 | A aplicação indica ao utilizador os tipos de informação privada processada, assim como as boas práticas a seguir durante a utilização da mesma. |  | ✓ |
 | **2.13** | MSTG-STORAGE-13 | Nenhuma informação sensível é guardada localmente no dispositivo móvel. Esses mesmos dados são obtidos através de um pedido a um servidor externo quando necessário, sendo mantidos em memória enquanto necessário. |  | ✓ |
 | **2.14** | MSTG-STORAGE-14 | Caso seja necessário guardar localmente informação sensível, esta deve ser encriptada com uma chave proveniente de um dispositivo de armazenamento que exija autenticação para o acesso ao mesmo. |  | ✓ |
-| **2.15** | MSTG-STORAGE-15 | O armazenamento local da aplicação deve ser limpo após uma excessiva quantidade de tentativas de autenticaçãos. |  | ✓ |
+| **2.15** | MSTG-STORAGE-15 | O armazenamento local da aplicação deve ser limpo após uma excessiva quantidade de tentativas de autenticação. |  | ✓ |
 
 ## Referências
 

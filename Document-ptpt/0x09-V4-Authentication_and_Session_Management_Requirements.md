@@ -1,26 +1,26 @@
 # V4: Autenticação e Requisitos para a Gestão da Sessão
 
-## Objectivo
+## Objetivo de Controlo
 
-De acordo com a arquitectura da grande maioria das aplicações, a autenticação dos utilizadores é realizada num serviço remoto. Ainda que a maior parte da lógica aplicacional seja feita no ponto de acesso remoto, MASVS define alguns requisitos relativos à gestão da sessão e da conta dos utilizadores..
+De acordo com a arquitectura da grande maioria das aplicações, a autenticação dos utilizadores é realizada num serviço remoto. Ainda que a maior parte da lógica aplicacional seja feita no ponto de acesso remoto, MASVS define alguns requisitos relativos à gestão da sessão e da conta dos utilizadores.
 
 ## Requisitos para a Verificação de Segurança
 
-| # | MSTG-ID | | # | MSTG-ID | Descrição| L1 | L2 |
+| # | MSTG-ID | Descrição| L1 | L2 |
  | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
 | **4.1** | MSTG-AUTH-1 | Se a aplicação providencia ao utilizador acesso a um serviço remoto, é necessário garantir a autenticação do utilizador no ponto de acesso remoto, a partir do nome de utilizador e respectiva palavra-passe, ou de alguma outra forma válida. | ✓ | ✓ |
-| **4.2** | MSTG-AUTH-2 | Se a gestão da sessão é feita com persistência de estado, o acesso remoto deve fazer uso de identificador de sessão gerado aleatoriamente, para garantir a autenticação do cliente/utilizador a cada pedido ao servidor, sem que seja necessário o repetitivo fornecimento das credenciais do utilizador. | ✓ | ✓ |
+| **4.2** | MSTG-AUTH-2 | Se a gestão da sessão é feita com persistência de estado, o acesso remoto deve fazer uso do identificador de sessão gerado aleatoriamente, para garantir a autenticação do cliente/utilizador a cada pedido ao servidor, sem que seja necessário o repetitivo fornecimento das credenciais do utilizador. | ✓ | ✓ |
 | **4.3** | MSTG-AUTH-3 | Se a gestão da sessão é baseada num passe (token), sem persistência de estado, o servidor providencia o passe assinado através de um algoritmo seguro. | ✓ | ✓ |
 | **4.4** | MSTG-AUTH-4 | O ponto de acesso remoto termina a existente sessão quando o utilizador sai da aplicação (logout). | ✓ | ✓ |
-| **4.5** | MSTG-AUTH-5 | Deve ser definida uma colecção de regras para a definição da palavra-passe, e é necessário garantir que essas regras são cumpridas a nível do ponto de acesso/servidor. | ✓ | ✓ |
-| **4.6** | MSTG-AUTH-6 | O ponto de acesso / servidor deve implementar um mecanismo que permita proteger a aplicação de uma submissão excessiva de tentativas de autenticação. | ✓ | ✓ |
-| **4.7** | MSTG-AUTH-7 | As sessões devem ser invalidadas ao nível do endpoint / servidor após um período de inactividade pré-definido, ao fim do qual, os passes de acesso (access token) expiram. | ✓ | ✓ |
+| **4.5** | MSTG-AUTH-5 | Ao nível do ponto de acesso, deve existir uma colecção de regras para a definição da palavra-passe. | ✓ | ✓ |
+| **4.6** | MSTG-AUTH-6 | O ponto de acesso deve implementar um mecanismo que permita proteger a aplicação de uma submissão excessiva de tentativas de autenticação. | ✓ | ✓ |
+| **4.7** | MSTG-AUTH-7 | As sessões devem ser invalidadas ao nível do ponto de acesso após um período de inactividade pré-definido, ao fim do qual, os passes de acesso (access token) expiram. | ✓ | ✓ |
 | **4.8** | MSTG-AUTH-8 | A autenticação biométrica, se aplicável, não deve ser implementada através de uma API que retorna Verdadeiro ou Falso. Deve ser baseada no desbloqueio de um gestor de credenciais (keychain/keystore). | | ✓ |
-| **4.9** | MSTG-AUTH-9 | Existe uma autenticação reforçada (second factor authentication, 2FA) no ponto de acesso / servidor e esse modo de autenticação é reforçado.  | | ✓ |
+| **4.9** | MSTG-AUTH-9 | Existe uma segunda autenticação (second factor authentication, 2FA) no ponto de acesso/ servidor e esse modo de autenticação é reforçado.  | | ✓ |
 | **4.10** | MSTG-AUTH-10 | A transmissão de informação sensível deve ser feita após o reforço da autenticação. | | ✓ |
-| **4.11** | MSTG-AUTH-11 | A aplicação informa o utilizador de qualquer actividade sensível efectuada com a sua conta. Aos utilizadores é providenciada uma lista de dispositivos onde a sua conta está a ser utilizada, assim como outras informações contextuais (localização, identificador respectivo à conexão da internet, entre outras). É também providenciado o bloqueamento dessas mesmas sessões. | | ✓ |
-| **4.12** | MSTG-AUTH-12 | Os modelos de autorização devem ser definidos e aplicados ao nível do ponto de acesso/ servidor. | ✓ | ✓ |
+| **4.11** | MSTG-AUTH-11 | A aplicação informa o utilizador de qualquer actividade sensível efectuada com a sua conta. Aos utilizadores é providenciada uma lista de dispositivos onde a sua conta está a ser utilizada, assim como outras informações contextuais (localização, identificador respectivo à conexão da internet, entre outras), e também o bloqueio desses mesmos dispositivos. | | ✓ |
+| **4.12** | MSTG-AUTH-12 | Os modelos de autorização devem ser definidos e aplicados ao nível do ponto de acesso. | ✓ | ✓ |
 
 ## Referências
 
