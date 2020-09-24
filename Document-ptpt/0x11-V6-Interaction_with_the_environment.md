@@ -14,13 +14,13 @@ Os controlos neste grupo asseguram que a aplicação utiliza Interfaces de Progr
 | **6.4** | MSTG-PLATFORM-4 | A aplicação não exporta qualquer informação sensível via comunicação inter-processos (IPC), excepto nos casos em que esses mecanismos estão devidamente protegidos. | ✓ | ✓ |
 | **6.5** | MSTG-PLATFORM-5 | JavaScript está inactivo nas vistas da aplicação excepto nos casos em que é estritamente necessário. | ✓ | ✓ |
 | **6.6** | MSTG-PLATFORM-6 | As vistas da aplicação estão configuradas de forma a suportar o número mínimo de protocolos , idealmente só https deve ser suportado.  Potentially dangerous handlers, such as file, tel and app-id, are disabled. | ✓ | ✓ |
-| **6.7** | MSTG-PLATFORM-7 | No caso de métodos nativos da aplicação estarem expostos na vista, verificar que esta apenas renderiza o JavaScript contido na aplicação. | ✓ | ✓ |
+| **6.7** | MSTG-PLATFORM-7 | Se métodos nativos da aplicação estarem expostos na vista web, verificar que esta apenas renderiza o JavaScript contido na aplicação. | ✓ | ✓ |
 | **6.8** | MSTG-PLATFORM-8 | A deserialização de objectos, se necessária, é implementada através do uso de interfaces (APIs) de serialização seguras. | ✓ | ✓ |
 | **6.9** | MSTG-PLATFORM-9 | A aplicação protege-se contra ataques de sobreposição de ecrãs. (Apenas em Android) |  | ✓ |
-| **6.10** | MSTG-PLATFORM-10 | A memória da vista web, o armazenamento da mesma e os recursos utilizados (JavaScript, etc.) devem ser limpos após a destruição da vista web. |  | ✓ |
-| **6.11** | MSTG-PLATFORM-11 | Verificar que a aplicação previne o uso de teclados externos customizados, nos casos de manipulação de dados privados. | | ✓ |
+| **6.10** | MSTG-PLATFORM-10 | A cache da vista web, o armazenamento e os recursos utilizados (JavaScript, etc.) devem ser limpos antes da destruição da vista web. |  | ✓ |
+| **6.11** | MSTG-PLATFORM-11 | Verificar que a aplicação previne o uso de teclados externos customizados, nos casos em que informação sensivel é inserida. | | ✓ |
 
-## References
+## Referências
 
 O OWASP Mobile Security Testing Guide providencia instruções detalhadas para verificação dos requisitos listados nesta secção.
 
