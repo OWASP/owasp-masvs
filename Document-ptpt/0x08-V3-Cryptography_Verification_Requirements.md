@@ -2,20 +2,20 @@
 
 ## Objetivo de Controlo
 
-A criptografia é um conjunto de práticas/ protocolos essenciais no processo de protecção de dados em dispositivos móveis. Quando esses protocolos não são correctamente implementados, tornam-se pouco seguros e possivelmente exploráveis. O propósito deste capítulo é assegurar a aplicação das boas práticas da criptografia, o que inclui:
+A criptografia é um ingrediente essencial no que toca à protecção de dados em dispositivos móveis. É também uma categoria onde as coisas podem correr horrivelmente mal, especialmente quando convenções padrão não são seguidas. O propósito dos controlos neste capítulo é assegurar que a aplicação usa criptografia de acordo com as melhores práticas da indústria, o que inclui:
 
 - O uso de bibliotecas de criptografia verificadas;
-- A configuração correta das primitivas criptográficas;
-- O uso de um gerador de números aleatórios adequado.
+- A escolha e configuração corretas das primitivas criptográficas;
+- O uso de um gerador de números aleatórios adequado sempre que aleatoriedade é necessária.
 
 ## Requisitos para verificação de segurança
 
 | # | MSTG-ID | Descrição | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
-| **3.1** | MSTG-CRYPTO-1 | A aplicação não se baseia em criptografia simétrica com chaves escritas em código imutável (hardcoded) como método único de encriptação. | ✓ | ✓ |
+| **3.1** | MSTG-CRYPTO-1 | A aplicação não se baseia em criptografia simétrica com chaves hardcoded como método único de encriptação. | ✓ | ✓ |
 | **3.2** | MSTG-CRYPTO-2 | A aplicação faz uso de primitivas criptográficas verificadas. | ✓ | ✓ |
-| **3.3** | MSTG-CRYPTO-3 | A aplicação faz uso de primitivas criptográficas apropriadas ao caso específico, configuradas de acordo com as boas práticas. | ✓ | ✓ |
-| **3.4** | MSTG-CRYPTO-4 | A aplicação não faz uso de protocolos ou algoritmos criptográficos que são considerados descontinuados. | ✓ | ✓ |
+| **3.3** | MSTG-CRYPTO-3 | A aplicação faz uso de primitivas criptográficas apropriadas ao caso específico, configuradas de acordo com as boas práticas da indústria. | ✓ | ✓ |
+| **3.4** | MSTG-CRYPTO-4 | A aplicação não faz uso de protocolos ou algoritmos criptográficos que são amplamente considerados descontinuados por motivos de segurança. | ✓ | ✓ |
 | **3.5** | MSTG-CRYPTO-5 | A aplicação não faz uso da mesma chave para múltiplos propósitos. | ✓ | ✓ |
 | **3.6** | MSTG-CRYPTO-6 | Todos os valores aleatórios são gerados a partir de um gerador de números aleatórios seguro. | ✓ | ✓ |
 

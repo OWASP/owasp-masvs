@@ -2,14 +2,14 @@
 
 ## Objetivo de Controlo
 
-De acordo com a arquitectura da grande maioria das aplicações, a autenticação dos utilizadores é realizada num serviço remoto. Ainda que a maior parte da lógica aplicacional seja feita no ponto de acesso remoto, MASVS define alguns requisitos relativos à gestão da sessão e da conta dos utilizadores.
+Na grande maioria dos casos, a autenticação dos utilizadores em serviços remotos é uma parte integral da arquitetura da aplicação no geral. Ainda que a maior parte da lógica seja feita no ponto de acesso remoto, MASVS define alguns requisitos relativos à gestão da sessão e da conta dos utilizadores.
 
 ## Requisitos para a Verificação de Segurança
 
 | # | MSTG-ID | Descrição| L1 | L2 |
  | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
-| **4.1** | MSTG-AUTH-1 | Se a aplicação providencia ao utilizador acesso a um serviço remoto, é necessário garantir a autenticação do utilizador no ponto de acesso remoto, a partir do nome de utilizador e respectiva palavra-passe, ou de alguma outra forma válida. | ✓ | ✓ |
+| **4.1** | MSTG-AUTH-1 | Se a aplicação providencia ao utilizador acesso a um serviço remoto, algum tipo de autenticação, como autenticação por nome de utilizador/palavra passe, é realizada no ponto de acesso remoto. | ✓ | ✓ |
 | **4.2** | MSTG-AUTH-2 | Se a gestão da sessão é feita com persistência de estado, o acesso remoto deve fazer uso do identificador de sessão gerado aleatoriamente, para garantir a autenticação do cliente/utilizador a cada pedido ao servidor, sem que seja necessário o repetitivo fornecimento das credenciais do utilizador. | ✓ | ✓ |
 | **4.3** | MSTG-AUTH-3 | Se a gestão da sessão é baseada num passe (token), sem persistência de estado, o servidor providencia o passe assinado através de um algoritmo seguro. | ✓ | ✓ |
 | **4.4** | MSTG-AUTH-4 | O ponto de acesso remoto termina a existente sessão quando o utilizador sai da aplicação (logout). | ✓ | ✓ |
