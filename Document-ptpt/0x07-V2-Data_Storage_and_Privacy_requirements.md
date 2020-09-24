@@ -2,18 +2,17 @@
 
 ## Objetivo de Controlo
 
-A protecção de informação sensível, como por exemplo as credenciais do utilizador, assim como outros dados privados, é fulcral em segurança de dispositivos móveis. Informação sensível pode ser exposta, de forma não intencional, a outras aplicações em funcionamento no mesmo dispositivo se os mecanismos do sistema operativo, como o IPC, não são usados de forma apropriada.  Para além disso, existe a possibilidade de informação privada ser exposta em armazenamento remoto (cloud), ou através de cópias de segurança, ou mesmo em memória (keyboard cache). Existe também a possibilidade dos dispositivos móveis serem perdidos ou roubados, sendo que atacantes podem ganhar acesso físico ao sistema. Para evitar estes casos, e de forma a proteger informação privada, é necessário implementar estratégias de segurança adicionais.
+A proteção de informação sensível, como por exemplo as credenciais do utilizador, e informação privada, é fulcral em segurança de dispositivos móveis. Informação sensível pode ser exposta de forma não intencional a outras aplicações em funcionamento no mesmo dispositivo se os mecanismos do sistema operativo, como o IPC, não são usados de forma apropriada.  A informação também pode de forma não intencional vazar para armazenamento na nuvem, cópias de segurança ou cache to teclado. Adicionalmente os dispositivos móveis podem serem perdidos ou roubados mais facilmente comparados a outros dispositivos, então um atacante ganhar acesso fisico ao sistema é um cenário mais provável. Para evitar estes casos proteções adicionais podem ser implementadas forma a tornar a obtenção de informação sensível mais difícil.
 
-Repare que, a MASVS é focada na aplicação, sendo que neste documento não são referidas estratégias de segurança que podem ser implementadas ao nível do dispositivo móvel. A adoção desse tipo de estratégias é de todo recomendado. para uma melhoria da camada de segurança das aplicações móveis.
+Repare que, a MASVS é focada na aplicação, e não cobre políticas a nível do dispositivo tais como as impostas por soluções MDM . Nós recomendamos o uso de tais políticas num contexto empresarial para melhorar a proteção da informação.
 
 ### Definição de Informação Sensível
 
-Informação privada, neste contexto, diz respeito não só às credenciais do utilizador mas também a outros dados sensíveis, como por exemplo:
+Informação privada, no contexto da MASVS, diz respeito não só às credenciais do utilizador mas também a outros dados sensíveis, como por exemplo:
 
-- Informação de Identificação Pessoal (Personally identifiable information, PII)) que pode ser abusada para roubo de identidade, o que inclui: números de segurança social, números de cartões de crédito, números de conta bancária, ou mesmo dados identificadores de estados de saúde;
-- Informação altamente sensível que pode pôr em causa a reputação do indivíduo, e/ou o estado financeiro do mesmo, se comprometida: Informação de não divulgação, ou outra informação de gestão individual;
+- Informação de Identificação Pessoal (PII) que pode ser abusada para roubo de identidade: números de segurança social, números de cartões de crédito, números de conta bancária, informação de saúde;
+- Informação altamente sensível que pode pôr em causa a reputação do indivíduo, e/ou custos financeiros se comprometida: Informação contratual, Informação de não divulgação, informação de gestão;
 - Quaisquer dados que devem ser protegidos por lei ou outras razões.
-
 
 ## Requisitos para Verificação de Segurança
 
