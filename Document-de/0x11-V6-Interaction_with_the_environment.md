@@ -18,7 +18,7 @@ Die Anforderungen aus dieser Kategorie sollen sicherstellen, dass Plattform-Komp
 | **6.8** | MSTG-PLATFORM-8 | Objektserialisierung wird, falls vorhanden, über eine sichere Serialisierungs-API implementiert. | ✓ | ✓ |
 | **6.9** | MSTG-PLATFORM-9 | Die App verwendet Mechanismen um sich vor Screen Overlay Angriffen zu schützen (nur Android). |  | ✓ |
 | **6.10** | MSTG-PLATFORM-10 | Cache, Speicher und geladene Ressourcen (JavaScript usw.) eines WebViews sollten gelöscht werden bevor der WebView geschlossen wird.  |  | ✓ |
-| **6.11** | MSTG-PLATFORM-11 | Die App sollte verhindern das 3rd Party Tastaturen verwendet werden, wenn sensible Daten eingegeben werden. |  | ✓ |
+| **6.11** | MSTG-PLATFORM-11 | Die App sollte verhindern das 3rd Party Tastaturen verwendet werden, wenn sensible Daten eingegeben werden (nur iOS). |  | ✓ |
 
 ## Referenzen
 
