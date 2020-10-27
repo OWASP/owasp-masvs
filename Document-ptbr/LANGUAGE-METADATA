@@ -1,3 +1,3 @@
 export LANGUAGE="ptbr"
-export LANGUAGETEXT=""
-export TOC_TITLE="índice analítico"
+export LANGUAGETEXT="(Brazilian Portuguese Translation)"
+export TOC_TITLE="Índice"
