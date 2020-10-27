@@ -1,35 +1,35 @@
-# V4: Authentication and Session Management Requirements
+# V4: Requisitos de Autenticação e Gerenciamento de Sessão
 
-## Control Objective
+## Objetivo do Controle
 
-In most cases, users logging into a remote service is an integral part of the overall mobile app architecture. Even though most of the logic happens at the endpoint, MASVS defines some basic requirements regarding how user accounts and sessions are to be managed.
+Na maioria dos casos, o _login_ de usuários a um serviço remoto é parte integrante da arquitetura global das aplicações móveis. Embora a maior parte da lógica aconteça no terminal, o MASVS define alguns requisitos básicos sobre a forma como as contas e sessões dos usuários devem ser gerenciadas.
 
-## Security Verification Requirements
+## Requisitos de Verificação de Segurança
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | Descrição | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
-| **4.1** | MSTG-AUTH-1 | If the app provides users access to a remote service, some form of authentication, such as username/password authentication, is performed at the remote endpoint. | ✓ | ✓ |
-| **4.2** | MSTG-AUTH-2 | If stateful session management is used, the remote endpoint uses randomly generated session identifiers to authenticate client requests without sending the user's credentials. | ✓ | ✓ |
-| **4.3** | MSTG-AUTH-3 | If stateless token-based authentication is used, the server provides a token that has been signed using a secure algorithm. | ✓ | ✓ |
-| **4.4** | MSTG-AUTH-4 | The remote endpoint terminates the existing session when the user logs out. | ✓ | ✓ |
-| **4.5** | MSTG-AUTH-5 | A password policy exists and is enforced at the remote endpoint. | ✓ | ✓ |
-| **4.6** | MSTG-AUTH-6 | The remote endpoint implements a mechanism to protect against the submission of credentials an excessive number of times. | ✓ | ✓ |
-| **4.7** | MSTG-AUTH-7 | Sessions are invalidated at the remote endpoint after a predefined period of inactivity and access tokens expire. | ✓ | ✓ |
-| **4.8** | MSTG-AUTH-8 | Biometric authentication, if any, is not event-bound (i.e. using an API that simply returns "true" or "false"). Instead, it is based on unlocking the keychain/keystore. | | ✓ |
-| **4.9** | MSTG-AUTH-9 | A second factor of authentication exists at the remote endpoint and the 2FA requirement is consistently enforced.  | | ✓ |
-| **4.10** | MSTG-AUTH-10 | Sensitive transactions require step-up authentication. | | ✓ |
-| **4.11** | MSTG-AUTH-11 | The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices. | | ✓ |
-| **4.12** | MSTG-AUTH-12 | Authorization models should be defined and enforced at the remote endpoint. | ✓ | ✓ |
+| **4.1** | MSTG-AUTH-1 | Se o aplicativo fornecer aos usuários acesso a um serviço remoto, alguma forma de autenticação, como autenticação de nome de usuário e senha, será executada no terminal remoto. | ✓ | ✓ |
+| **4.2** | MSTG-AUTH-2 | Se o gerenciamento de sessão com estado for usado _(stateful session management)_, o terminal remoto usará identificadores de sessão gerados aleatoriamente para autenticar as solicitações de clientes, sem que as credenciais do usuário sejam enviadas. | ✓ | ✓ |
+| **4.3** | MSTG-AUTH-3 | Se a autenticação baseada em _token_ sem estado for usada _(stateless token-based authentication)_, o servidor fornecerá um _token_ que foi assinado usando um algoritmo seguro. | ✓ | ✓ |
+| **4.4** | MSTG-AUTH-4 | O _endpoint_ remoto termina a sessão existente quando o usuário efetuar _logout_. | ✓ | ✓ |
+| **4.5** | MSTG-AUTH-5 | Uma política de senha existe e é imposta no terminal remoto. | ✓ | ✓ |
+| **4.6** | MSTG-AUTH-6 | O terminal remoto implementa um mecanismo para proteger contra o envio de credenciais em um número excessivo. | ✓ | ✓ |
+| **4.7** | MSTG-AUTH-7 | As sessões são invalidadas pelo terminal remoto após um período predefinido de inatividade e os _tokens_ de acessos expiram. | ✓ | ✓ |
+| **4.8** | MSTG-AUTH-8 | A autenticação biométrica, se houver, não é vinculada a eventos (ou seja, usando uma API que simplesmente retorna "verdadeiro" ou "falso"). Em vez disso, é baseado no desbloqueio do _keychain/keystore_ (armazenamento seguro). | | ✓ |
+| **4.9** | MSTG-AUTH-9 | Existe um segundo fator de autenticação no terminal remoto e o requisito de 2FA é aplicado de maneira consistente. | | ✓ |
+| **4.10** | MSTG-AUTH-10 | Transações confidenciais requerem autenticação adicional. | | ✓ |
+| **4.11** | MSTG-AUTH-11 | O aplicativo informa o usuário de todas as atividades confidenciais com a sua conta. Os usuários podem visualizar uma lista de dispositivos, exibir informações contextuais (endereço IP, local etc.) e é capaz de bloquear dispositivos específicos. | | ✓ |
+| **4.12** | MSTG-AUTH-12 | Os modelos de autorização devem ser definidos e aplicados no terminal remoto. | ✓ | ✓ |
 
-## References
+## Referências
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed above.
+O Guia de Teste de Segurança de Aplicações Móveis da OWASP fornece instruções detalhadas para verificar os requisitos listados nesta seção (em inglês).
 
 - General: Authentication and Session Management - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
 - Android: Testing Local Authentication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
 - iOS: Testing Local Authentication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
 
-For more information, see also:
+Para mais informações, consulte também (em inglês):
 
 - OWASP Mobile Top 10: M4 (Insecure Authentication) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m4-insecure-authentication>
 - OWASP Mobile Top 10: M6 (Insecure Authorization) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m6-insecure-authorization>
