@@ -18,7 +18,7 @@ The controls in this group ensure that the app uses platform APIs and standard c
 | **6.8** | MSTG-PLATFORM-8 | Object deserialization, if any, is implemented using safe serialization APIs. | ✓ | ✓ |
 | **6.9** | MSTG-PLATFORM-9 | The app protects itself against screen overlay attacks. (Android only) |  | ✓ |
 | **6.10** | MSTG-PLATFORM-10 | A WebView's cache, storage, and loaded resources (JavaScript, etc.) should be cleared before the WebView is destroyed. |  | ✓ |
-| **6.11** | MSTG-PLATFORM-11 | Verify that the app prevents usage of custom third-party keyboards whenever sensitive data is entered. | | ✓ |
+| **6.11** | MSTG-PLATFORM-11 | Verify that the app prevents usage of custom third-party keyboards whenever sensitive data is entered (iOS only). | | ✓ |
 
 ## References
 

@@ -1,3 +1,3 @@
-export LANGUAGE="en"
-export LANGUAGETEXT=""
-export TOC_TITLE="Table of Contents"
+export LANGUAGE="ptpt"
+export LANGUAGETEXT="(Portuguese Translation)"
+export TOC_TITLE="Índice"

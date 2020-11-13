@@ -8,7 +8,7 @@ Der MASVS vereint Community Engagement und Feedback aus der Praxis. Wir gehen da
 [https://owasp.slack.com/messages/](https://owasp.slack.com/messages/project-mobile_omtg/details/).
 
 Nutzerkonten können unter folgender URL angelegt werden:
-[https://owasp.slack.com/join](https://owasp-slack.herokuapp.com/).
+[https://owasp.slack.com/join](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/).
 
 ## Copyright and License
 
