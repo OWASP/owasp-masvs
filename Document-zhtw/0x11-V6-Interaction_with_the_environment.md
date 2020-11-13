@@ -16,9 +16,9 @@
 | **6.6** | MSTG-PLATFORM-6 | WebViews被設置為僅允許所需最少量協議處理程序（理想情況下，僅支援https）。 潛在危險的處理程序，例如f ile、tel 和 app-id 則不能使用。 | ✓ | ✓ |
 | **6.7** | MSTG-PLATFORM-7 | 如果應用程式的 native 方法被暴露給 WebView，請驗證 WebView 是否僅提供應用程式套件中包含的JavaScript。 | ✓ | ✓ |
 | **6.8** | MSTG-PLATFORM-8 | 如果有任何物件反序列化，要使用安全序列化 API 執行。 | ✓ | ✓ |
-| **6.9** | MSTG-PLATFORM-9 | 行動應用程式需保護自己防衛螢幕覆蓋攻擊 (Screen Overlay Attack)。（僅針對 Android 系統） |  | ✓ |
+| **6.9** | MSTG-PLATFORM-9 | 行動應用程式需保護自己防衛螢幕覆蓋攻擊 (Screen Overlay Attack)。（僅針對 Android 系統）|  | ✓ |
 | **6.10** | MSTG-PLATFORM-10 | WebView 的暫存，儲存，以及其他讀取的資源（如 JavaScript 等），需在 WebView 結束前全數清除。  |  | ✓ |
-| **6.11** | MSTG-PLATFORM-11 | 確認當機敏資料被輸入前，並沒有使用任何其他廠商所製作的客製鍵盤應用程式。 | | ✓ |
+| **6.11** | MSTG-PLATFORM-11 | 確認當機敏資料被輸入前，並沒有使用任何其他廠商所製作的客製鍵盤應用程式。（僅針對 iOS 系統）| | ✓ |
 
 ## 參考
 

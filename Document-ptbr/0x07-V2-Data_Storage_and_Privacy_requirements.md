@@ -1,49 +1,49 @@
-# V2: Data Storage and Privacy Requirements
+# V2: Requisitos de Armazenamento de Dados e Privacidade
 
-## Control Objective
+## Objetivo do Controle
 
-The protection of sensitive data, such as user credentials and private information, is a key focus in mobile security. Firstly, sensitive data can be unintentionally exposed to other apps running on the same device if operating system mechanisms like IPC are used improperly. Data may also unintentionally leak to cloud storage, backups, or the keyboard cache. Additionally, mobile devices can be lost or stolen more easily compared to other types of devices, so an adversary gaining physical access is a more likely scenario. In that case, additional protections can be implemented to make retrieving the sensitive data more difficult.
+A proteção de dados sensíveis, como credenciais de usuário e informações pessoais, é um foco chave na segurança de dispositivos móveis. Primeiramente, dados sensíveis podem ser expostos de forma não-intencional a outros aplicativos rodando no mesmo dispositivo se os mecanismos do sistema operacional como o IPC estiverem sendo usados de forma incorreta. Os dados também podem ser vazados não-intencionalmente no armazenamento em nuvem, *backups* ou no *cache* do teclado. Além disso, dispositivos móveis podem ser perdidos ou roubados de forma mais comum que outros tipos de dispositivos, então um atacante conseguindo acesso físico ao equipamento é um cenário mais possível. Nesse caso, proteções adicionais podem ser implementadas para tornar a recuperação de dados sensíveis mais difícil.
 
-Note that, as the MASVS is app-centric, it does not cover device-level policies such as those enforced by MDM solutions. We encourage the use of such policies in an Enterprise context to further enhance data security.
+Note que, como o MASVS é centrado no aplicativo, ele não cobre políticas a nível de dispositivo, como aquelas aplicadas por soluções MDM. Nós encorajamos a utilização dessas políticas em contexto corporativo para melhorar ainda mais a segurança dos dados.
 
-### Definition of Sensitive Data
+### Definição de Dados Sensíveis
 
-Sensitive data in the context of the MASVS pertains to both user credentials and any other data considered sensitive in the particular context, such as:
+Dados sensíveis no contexto do MASVS incluem tanto as credenciais do usuário quanto quaisquer outros dados considerados sensíveis em contextos particulares, por exemplo:
 
-- Personally identifiable information (PII) that can be abused for identity theft:  Social security numbers, credit card numbers, bank account numbers, health information;
-- Highly sensitive data that would lead to reputational harm and/or financial costs if compromised: Contractual information, information covered by non-disclosure agreements, management information;
-- Any data that must be protected by law or for compliance reasons.
+- Informação de Identificação Pessoal (*Personally Identifiable Information* - PII) que possa ser utilizada para roubo de identidade: números de seguro social, números de cartão de crédito, dados de conta bancária, informações de saúde;
+- Dados altamente sensíveis que podem causar danos à reputação e/ou custos financeiros se comprometidos: informações de contrato, informações protegidas por acordos de não divulgação (NDA), informações gerenciais;
+- Quaisquer dados que sejam protegidos por lei ou regulações de conformidade.
 
-## Security Verification Requirements
+## Requerimentos de Verificação de Segurança
 
-The vast majority of data disclosure issues can be prevented by following simple rules. Most of the controls listed in this chapter are mandatory for all verification levels.
+A ampla maioria dos problemas de vazamento de dados podem ser prevenidos seguindo regras simples. A maior parte dos controles listados neste capítulo são mandatórios para todos os níveis de verificação.
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | Descrição | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
-| **2.1** | MSTG-STORAGE-1 | System credential storage facilities need to be used to store sensitive data, such as PII, user credentials or cryptographic keys. | ✓ | ✓ |
-| **2.2** | MSTG-STORAGE-2 | No sensitive data should be stored outside of the app container or system credential storage facilities. | ✓ | ✓ |
-| **2.3** | MSTG-STORAGE-3 | No sensitive data is written to application logs. | ✓ | ✓ |
-| **2.4** | MSTG-STORAGE-4 | No sensitive data is shared with third parties unless it is a necessary part of the architecture. | ✓ | ✓ |
-| **2.5** | MSTG-STORAGE-5 | The keyboard cache is disabled on text inputs that process sensitive data. | ✓ | ✓ |
-| **2.6** | MSTG-STORAGE-6 | No sensitive data is exposed via IPC mechanisms. | ✓ | ✓ |
-| **2.7** | MSTG-STORAGE-7 | No sensitive data, such as passwords or pins, is exposed through the user interface. | ✓ | ✓ |
-| **2.8** | MSTG-STORAGE-8 | No sensitive data is included in backups generated by the mobile operating system. |   | ✓ |
-| **2.9** | MSTG-STORAGE-9 | The app removes sensitive data from views when moved to the background. |  | ✓ |
-| **2.10** | MSTG-STORAGE-10 | The app does not hold sensitive data in memory longer than necessary, and memory is cleared explicitly after use. |  | ✓ |
-| **2.11** | MSTG-STORAGE-11 | The app enforces a minimum device-access-security policy, such as requiring the user to set a device passcode. |  | ✓ |
-| **2.12** | MSTG-STORAGE-12 | The app educates the user about the types of personally identifiable information processed, as well as security best practices the user should follow in using the app. |  | ✓ |
-| **2.13** | MSTG-STORAGE-13 | No sensitive data should be stored locally on the mobile device. Instead, data should be retrieved from a remote endpoint when needed and only be kept in memory. |  | ✓ |
-| **2.14** | MSTG-STORAGE-14 | If sensitive data is still required to be stored locally, it should be encrypted using a key derived from hardware backed storage which requires authentication. |  | ✓ |
-| **2.15** | MSTG-STORAGE-15 | The app’s local storage should be wiped after an excessive number of failed authentication attempts. |  | ✓ |
+| **2.1** | MSTG-STORAGE-1 | Recursos de armazenamento de credenciais do sistema devem ser utilizados para armazenar dados sensíveis, como dados pessoais (PII), credenciais de usuário ou chaves criptográficas. | ✓ | ✓ |
+| **2.2** | MSTG-STORAGE-2 | Dados sensíveis não devem ser armazenados fora do contêiner do aplicativo ou de recursos de armazenamento de credenciais do sistema. | ✓ | ✓ |
+| **2.3** | MSTG-STORAGE-3 | Dados sensíveis não podem aparecer nos *logs* de aplicação. | ✓ | ✓ |
+| **2.4** | MSTG-STORAGE-4 | Dados sensíveis não devem ser compartilhados com terceiros exceto se for uma parte necessária da arquitetura. | ✓ | ✓ |
+| **2.5** | MSTG-STORAGE-5 | O _cache_ do teclado deve estar desabilitado nas entradas de usuário que processam dados sensíveis. | ✓ | ✓ |
+| **2.6** | MSTG-STORAGE-6 | Dados sensíveis não devem ser expostos através de mecanismos IPC. | ✓ | ✓ |
+| **2.7** | MSTG-STORAGE-7 | Dados sensíveis, como senhas ou PINs, não devem ser expostos através da interface de usuário. | ✓ | ✓ |
+| **2.8** | MSTG-STORAGE-8 | Dados sensíveis não devem ser incluídos nos _backups_ gerados pelo sistema operacional móvel. |   | ✓ |
+| **2.9** | MSTG-STORAGE-9 | O aplicativo deve remover dados sensíveis da visualização quando ficar em segundo plano. |  | ✓ |
+| **2.10** | MSTG-STORAGE-10 | O aplicativo não deve manter dados sensíveis em memória mais tempo do que o necessário, e a memória deve ser completamente limpa depois do uso. |  | ✓ |
+| **2.11** | MSTG-STORAGE-11 | O aplicativo deve reforçar o uso de políticas mínimas de segurança no acesso ao dispositivo, como pedir que o usuário defina um código de acesso ao dispositivo. |  | ✓ |
+| **2.12** | MSTG-STORAGE-12 | O aplicativo deve ensinar o usuário sobre os tipos de Informação de Identificação Pessoal (PII) que são processadas, assim como melhores práticas de segurança que o usuário deve seguir quando utilizar o aplicativo. |  | ✓ |
+| **2.13** | MSTG-STORAGE-13 | Dados sensíveis não devem ser armazenados localmente no dispositivo móvel. Em vez disso, os dados devem ser recuperados de um _terminal_ remoto quando necessário e mantidos apenas em memória. |  | ✓ |
+| **2.14** | MSTG-STORAGE-14 | Se ainda assim for necessário armazenar dados pessoais localmente, eles devem ser cifrados utilizando uma chave derivada do armazenamento suportado pelo _hardware_ que requeira autenticação. |  | ✓ |
+| **2.15** | MSTG-STORAGE-15 | O armazenamento local do aplicativo deve ser completamente apagado (_wipe_) após um número excessivo de tentativas de autenticação sem sucesso. |  | ✓ |
 
-## References
+## Referências
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+O Guia de Teste de Segurança de Aplicações Móveis da OWASP provê instruções detalhadas para verificar os requerimentos listados nesta seção (em inglês).
 
 - Android: Testing Data Storage - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
 - iOS: Testing Data Storage - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
 
-For more information, see also:
+Para mais informações, veja também (em inglês):
 
 - OWASP Mobile Top 10: M1 (Improper Platform Usage) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m1-improper-platform-usage>
 - OWASP Mobile Top 10: M2 (Insecure Data Storage) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m2-insecure-data-storage>
