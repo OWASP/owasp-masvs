@@ -1,4 +1,3 @@
-
 # V8: Requisitos de Resiliência
 
 ## Objetivo de controlo
