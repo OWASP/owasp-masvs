@@ -18,7 +18,7 @@ Le but des contrôles de ce groupe est de garantir que l'application utilise les
 | **6.8** | MSTG-PLATFORM-8 | La désérialisation des objets, s'il en existe, est implémentée à l'aide d'API de sérialisation de confiance. | ✓ | ✓ |
 | **6.9** | MSTG-PLATFORM-9 | L'application doit se protéger contre les attaques par recouvrement. (Android seulement) |  | ✓ |
 | **6.10** | MSTG-PLATFORM-10 | Le cache, le stockage et les ressources téléchargées (JavaScript, etc.) d'une WebView doivent être supprimés avant que la WebView soit détruite. |  | ✓ |
-| **6.11** | MSTG-PLATFORM-11 | Vérifier que l'application n'autorise pas l'utilisation des claviers tiers personnalisés lors de la saisie des données sensibles. |  | ✓ |
+| **6.11** | MSTG-PLATFORM-11 | Vérifier que l'application n'autorise pas l'utilisation des claviers tiers personnalisés lors de la saisie des données sensibles. (iOS seulement) |  | ✓ |
 
 ## Références
 

@@ -1,32 +1,32 @@
-# V3: Cryptography Requirements
+# V3: Requisitos de Criptografia
 
-## Control Objective
+## Objetivo de Controlo
 
-Cryptography is an essential ingredient when it comes to protecting data stored on a mobile device. It is also a category where things can go horribly wrong, especially when standard conventions are not followed. The purpose of the controls in this chapter is to ensure that the verified application uses cryptography according to industry best practices, including:
+A criptografia é um ingrediente essencial no que toca à protecção de dados em dispositivos móveis. É também uma categoria onde as coisas podem correr horrivelmente mal, especialmente quando convenções padrão não são seguidas. O propósito dos controlos neste capítulo é assegurar que a aplicação usa criptografia de acordo com as melhores práticas da indústria, o que inclui:
 
-- Use of proven cryptographic libraries;
-- Proper choice and configuration of cryptographic primitives;
-- A suitable random number generator wherever randomness is required.
+- O uso de bibliotecas de criptografia verificadas;
+- A escolha e configuração corretas das primitivas criptográficas;
+- O uso de um gerador de números aleatórios adequado sempre que aleatoriedade é necessária.
 
-## Security Verification Requirements
+## Requisitos para verificação de segurança
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | Descrição | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
-| **3.1** | MSTG-CRYPTO-1 | The app does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption.| ✓ | ✓ |
-| **3.2** | MSTG-CRYPTO-2 | The app uses proven implementations of cryptographic primitives. | ✓ | ✓ |
-| **3.3** | MSTG-CRYPTO-3 | The app uses cryptographic primitives that are appropriate for the particular use-case, configured with parameters that adhere to industry best practices. | ✓ | ✓ |
-| **3.4** | MSTG-CRYPTO-4 | The app does not use cryptographic protocols or algorithms that are widely considered deprecated for security purposes. | ✓ | ✓ |
-| **3.5** | MSTG-CRYPTO-5 | The app doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ |
-| **3.6** | MSTG-CRYPTO-6 | All random values are generated using a sufficiently secure random number generator. | ✓ | ✓ |
+| **3.1** | MSTG-CRYPTO-1 | A aplicação não se baseia em criptografia simétrica com chaves hardcoded como método único de encriptação. | ✓ | ✓ |
+| **3.2** | MSTG-CRYPTO-2 | A aplicação faz uso de primitivas criptográficas verificadas. | ✓ | ✓ |
+| **3.3** | MSTG-CRYPTO-3 | A aplicação faz uso de primitivas criptográficas apropriadas ao caso específico, configuradas de acordo com as boas práticas da indústria. | ✓ | ✓ |
+| **3.4** | MSTG-CRYPTO-4 | A aplicação não faz uso de protocolos ou algoritmos criptográficos que são amplamente considerados descontinuados por motivos de segurança. | ✓ | ✓ |
+| **3.5** | MSTG-CRYPTO-5 | A aplicação não faz uso da mesma chave para múltiplos propósitos. | ✓ | ✓ |
+| **3.6** | MSTG-CRYPTO-6 | Todos os valores aleatórios são gerados a partir de um gerador de números aleatórios seguro. | ✓ | ✓ |
 
-## References
+## Referências
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+O OWASP Mobile Security Testing Guide providencia instruções detalhadas para a verificação dos requisitos listados abaixo.
 
 - Android: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
 - iOS: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
 
-For more information, see also:
+Para mais informação:
 
 - OWASP Mobile Top 10: M5 (Insufficient Cryptography) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m5-insufficient-cryptography>
 - CWE 310 (Cryptographic Issues) - <https://cwe.mitre.org/data/definitions/310.html>

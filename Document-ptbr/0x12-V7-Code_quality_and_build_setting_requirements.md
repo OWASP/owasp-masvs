@@ -1,31 +1,31 @@
-# V7: Code Quality and Build Setting Requirements
+# V7: Requisitos de Qualidade de Código e Configuração do Compilador
 
-## Control Objective
+## Objetivo do Controle
 
-The goal of this control is to ensure that basic security coding practices are followed in developing the app, and that "free" security features offered by the compiler are activated.
+O objetivo deste controle é garantir que práticas básicas de codificação segura são seguidas no desenvolvimento do aplicativo móvel e que as funcionalidades de segurança "gratuitas" do compilador estão habilitadas.
 
-## Security Verification Requirements
+## Requisitos de Verificação de Segurança
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | Descrição | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
-| **7.1** | MSTG-CODE-1 | The app is signed and provisioned with a valid certificate, of which the private key is properly protected. | ✓ | ✓ |
-| **7.2** | MSTG-CODE-2 | The app has been built in release mode, with settings appropriate for a release build (e.g. non-debuggable). | ✓ | ✓ |
-| **7.3** | MSTG-CODE-3 | Debugging symbols have been removed from native binaries. | ✓ | ✓ |
-| **7.4** | MSTG-CODE-4 | Debugging code and developer assistance code (e.g. test code, backdoors, hidden settings) have been removed. The app does not log verbose errors or debugging messages. | ✓ | ✓ |
-| **7.5** | MSTG-CODE-5 | All third party components used by the mobile app, such as libraries and frameworks, are identified, and checked for known vulnerabilities. | ✓ | ✓ |
-| **7.6** | MSTG-CODE-6 | The app catches and handles possible exceptions.| ✓ | ✓ |
-| **7.7** | MSTG-CODE-7 | Error handling logic in security controls denies access by default. | ✓ | ✓ |
-| **7.8** | MSTG-CODE-8 | In unmanaged code, memory is allocated, freed and used securely.  | ✓ | ✓ |
-| **7.9** | MSTG-CODE-9 | Free security features offered by the toolchain, such as byte-code minification, stack protection, PIE support and automatic reference counting, are activated. | ✓ | ✓ |
+| **7.1** | MSTG-CODE-1 | O aplicativo é assinado e disponibilizado com um certificado válido e cuja chave privada está devidamente protegida. | ✓ | ✓ |
+| **7.2** | MSTG-CODE-2 | O aplicativo foi criado em modo de _release_ e com as configurações apropriadas para ela (ex.: _non-debuggable_). | ✓ | ✓ |
+| **7.3** | MSTG-CODE-3 | Os símbolos de depuração foram removidos dos binários nativos. | ✓ | ✓ |
+| **7.4** | MSTG-CODE-4 | Todo código de depuração e de assistência ao desenvolvedor (ex.: código de teste, _backdoors_, configurações ocultas) deve ser eliminado. O aplicativo não tem logs detalhados de erros e nem mensagens de depuração. | ✓ | ✓ |
+| **7.5** | MSTG-CODE-5 | Todos componentes de terceiros utilizados pelo aplicativo móvel, como blibliotecas e _frameworks_, são identificados e revisados quanto às vulnerabilidades conhecidas. | ✓ | ✓ |
+| **7.6** | MSTG-CODE-6 | O aplicativo captura e trata devidamente as possíveis exceções. | ✓ | ✓ |
+| **7.7** | MSTG-CODE-7 | Os controles de segurança não permitem acesso por padrão no tratamento de erros. | ✓ | ✓ |
+| **7.8** | MSTG-CODE-8 | No código não gerenciado a memória é alocada, liberada e usada com segurança.  | ✓ | ✓ |
+| **7.9** | MSTG-CODE-9 | As funcionalidades de segurança gratuitas das ferramentas, tais como minificação do _byte-code_, proteção de pilha, suporte PIE e contagem automática de referência, devem estar habilitadas. | ✓ | ✓ |
 
-## References
+## Referências
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed above.
+O Guia de Teste de Segurança de Dispositivos Móveis do OWASP disponibiliza instruções detalhadas para verificar os requisitos listados nesta seção (em inglês).
 
 - Android: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
 - iOS: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
 
-For more information, see also:
+Para mais informações, veja também (em inglês):
 
 - OWASP Mobile Top 10: M7 (Poor Code Quality) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality>
 - CWE 20 (Improper Input Validation) - <https://cwe.mitre.org/data/definitions/20.html>
