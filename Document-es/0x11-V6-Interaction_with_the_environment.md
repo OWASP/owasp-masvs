@@ -18,7 +18,7 @@ Estos controles revisan que se utilicen las APIs de la plataforma y componentes 
 | **6.8** | MSTG-PLATFORM-8 | La serialización de objetos, si se realiza, debe implementarse utilizando API seguras. | ✓ | ✓ |
 | **6.9** | MSTG-PLATFORM-9 | La aplicación se protege contra ataques de tipo screen overlay. (sólo Android) |  | ✓ |
 | **6.10** | MSTG-PLATFORM-10 | La caché, el almacenamiento y los recursos cargados (JavaScript, etc.) de las WebViews deben de borrarse antes de destruir la WebView. |  | ✓ |
-| **6.11** | MSTG-PLATFORM-11 | Verificar que la aplicación impide el uso de teclados de terceros siempre que se introduzca información sensible. |  | ✓ |
+| **6.11** | MSTG-PLATFORM-11 | Verificar que la aplicación impide el uso de teclados de terceros siempre que se introduzca información sensible. (sólo iOS) |  | ✓ |
 
 ## Referencias
 
