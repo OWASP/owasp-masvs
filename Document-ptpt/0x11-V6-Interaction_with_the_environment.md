@@ -1,4 +1,4 @@
-# V6: Requisitos para Interacção com a plataforma
+# V6: Requisitos de Interacção com a plataforma
 
 ## Objetivo de Controlo
 
