@@ -33,6 +33,7 @@ The current release of the [MASVS is version 1.2](https://github.com/OWASP/owasp
 - [Japanese](https://github.com/OWASP/owasp-masvs/tree/master/Document-ja "Japanese")
 - [Korean](https://github.com/OWASP/owasp-masvs/tree/master/Document-ko "Korean")
 - [Persian](https://github.com/OWASP/owasp-masvs/tree/master/Document-fa "Persian")
+- [Portuguese](https://github.com/OWASP/owasp-masvs/tree/master/Document-ptpt "Portuguese")
 - [Russian](https://github.com/OWASP/owasp-masvs/tree/master/Document-ru "Russian")
 - [Spanish](https://github.com/OWASP/owasp-masvs/tree/master/Document-es "Spanish")  
 
