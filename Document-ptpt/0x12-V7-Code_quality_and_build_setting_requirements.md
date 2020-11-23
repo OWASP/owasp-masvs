@@ -1,4 +1,4 @@
-# V7: Requisitos de Qualidade de Codigo e DistribuiçãoRequisitos de Qualidade de Codigo e Configuração de Distribuição
+# V7: Requisitos de Qualidade de Codigo e Distribuição
 
 ## Objetivo de Controlo
 
