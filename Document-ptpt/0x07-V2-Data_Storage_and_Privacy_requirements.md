@@ -1,4 +1,4 @@
-# V2: Armazenamento de Dados e Requisitos de Privacidade
+# V2: Requisitos de Armazenamento de Dados e de Privacidade
 
 ## Objetivo de Controlo
 
@@ -32,8 +32,8 @@ A grande maioria dos problemas de exposição de dados pode ser evitada através
 | **2.10** | MSTG-STORAGE-10 | A aplicação não guarda em memória informação sensível durante um período maior que o necessário, sendo que essa mesma informação é apagada findo o respectivo uso. |  | ✓ |
 | **2.11** | MSTG-STORAGE-11 | A aplicação reforça uma política mínima de segurança no acesso ao dispositivo, como por exemplo a necessidade do utilizador definir um código-passe. |  | ✓ |
 | **2.12** | MSTG-STORAGE-12 | A aplicação educa o utilizador sobre os tipos de informação de identificação pessoal processada, assim como as práticas de segurança que o utilizador deve seguir durante a utilização da mesma. |  | ✓ |
-| **2.13** | MSTG-STORAGE-13 | Nenhuns dados sensível são guardados localmente no dispositivo móvel. Em vez disso, os dados devem de ser obtidos através de um pedido a um servidor remoto quando necessário e apenas serem mantidos em memória. |  | ✓ |
-| **2.14** | MSTG-STORAGE-14 | Caso seja necessário guardar localmente dados sensíveis, estes devem ser encriptados com uma chave derivada de armazenamento em hardware que exija autenticação. |  | ✓ |
+| **2.13** | MSTG-STORAGE-13 | Nenhuns dados sensível são guardados localmente no dispositivo móvel. Em vez disso, os dados devem de ser obtidos através de um pedido a um ponto de acesso remoto quando necessário e apenas serem mantidos em memória. |  | ✓ |
+| **2.14** | MSTG-STORAGE-14 | Caso seja necessário guardar localmente dados sensíveis, estes devem ser cifrados com uma chave derivada de armazenamento em hardware que exija autenticação. |  | ✓ |
 | **2.15** | MSTG-STORAGE-15 | O armazenamento local da aplicação deve ser limpo após uma excessiva quantidade de tentativas de autenticação. |  | ✓ |
 
 ## Referências

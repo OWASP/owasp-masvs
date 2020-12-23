@@ -1,4 +1,4 @@
-# V4: Autenticação e Requisitos para a Gestão da Sessão
+# V4: Requisitos de Autenticação e Gestão da Sessão
 
 ## Objetivo de Controlo
 
