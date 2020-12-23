@@ -1,4 +1,4 @@
-# V7: Code Quality and Build Setting Requirements
+# V7: Requisitos de Qualidade de Codigo e Distribuição
 
 ## Objetivo de Controlo
 

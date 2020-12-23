@@ -27,7 +27,7 @@ As seguintes considerações são aplicadas:
 | **8.1** | MSTG-RESILIENCE-1 | A aplicação deteta, e responde à presença de um dispositivo 'rooted' ou com 'jailbreak' alertando o utilizador ou por fechar a aplicação. | ✓ |
 | **8.2** | MSTG-RESILIENCE-2 | A aplicação previne depuração e/ou deteta e responde a um depurador ligado à aplicação. Todos os protocolos de depuração devem de ser tidos em conta. | ✓ |
 | **8.3** | MSTG-RESILIENCE-3 | A aplicação deteta e responde a manipulação de ficheiros executáveis e informação critica dentro da sua sandbox. | ✓ |
-| **8.4** | MSTG-RESILIENCE-4 | A aplicação deteta e responde à presença de ferramentas ou estruturas de engenharia reversa amplamente usadas no dispositivo. | ✓ |
+| **8.4** | MSTG-RESILIENCE-4 | A aplicação deteta e responde à presença de ferramentas ou frameworks de engenharia reversa amplamente usadas no dispositivo. | ✓ |
 | **8.5** | MSTG-RESILIENCE-5 | A aplicação deteta e responde a ser corrida num emulador.  | ✓ |
 | **8.6** | MSTG-RESILIENCE-6 | A aplicação deteta e responde a manipulação de código e informação no seu próprio espaço de memória. | ✓ |
 | **8.7** | MSTG-RESILIENCE-7 | A aplicação implementa vários mecanismos em cada categoria de defesa(8.1 to 8.6). É de notar que a resiliência aumenta com o número, diversidade e originalidade dos sistemas usados. | ✓ |

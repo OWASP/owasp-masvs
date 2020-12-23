@@ -27,7 +27,7 @@ O OWASP MSTG é um manual para testar a segurança de aplicações móveis. Desc
 
 O uso de scanners de código fonte e ferramentas de blackbox é aconselhado de forma a aumentar a eficiência sempre que possível. Não é, no entanto, possível completar a verificação MASVS usando apenas ferramentas automatizadas:
 
-Cada aplicação móvel é diferente, e perceber a arquitetura no geral, lógica de negócio, e problemas técnicos das tecnologias e linguagens específicas usadas, é um requisito obrigatório para verificar a segurança da aplicação.
+Cada aplicação móvel é diferente, e perceber a arquitetura no geral, lógica de negócio, e problemas técnicos das tecnologias e frameworks específicas usadas, é um requisito obrigatório para verificar a segurança da aplicação.
 
 ## Outros usos
 
