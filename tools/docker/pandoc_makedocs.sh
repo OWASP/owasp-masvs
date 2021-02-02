@@ -1,106 +1,99 @@
 #!/bin/bash
 
-# NOTE: This script is not meant to be run locally on your machine (e.g. macOS). Docker will run it for you.
+set -eo pipefail
 
-set -euo pipefail
+# Input variables
+FOLDER=${1:-Document}
+VERSION=${2:-SNAPSHOT}
 
-FOLDER=$1
-VERSION=$2
+# You can also use the environment variables below to adapt the build process
+IMG=${IMG:-dalibo/pandocker}
+TAG=${TAG:-stable} # /!\ use stable-full for non-european languages
+LATEX_TEMPLATE=${LATEX_TEMPLATE:-eisvogel}
+TITLE=${TITLE:-OWASP Mobile Application Security Verification Standard ${VERSION}}
 
-echo "FOLDER=${FOLDER}"
-echo "VERSION=${VERSION}"
+PANDOC_PARAMS=${PANDOC_PARAMS:-}
+PANDOC_PARAMS+="--resource-path=.:${FOLDER} "
+PANDOC_PARAMS+="--metadata version=${VERSION} "
 
-# Load the language metadata (env. vars)
-. $FOLDER/LANGUAGE-METADATA
+[ ! -z "${VERBOSE}" ] && PANDOC_PARAMS+="--verbose "
 
-OUTPUT_BASE_NAME="OWASP_MASVS-${VERSION}"
+PANDOCKER="docker run --rm --volume `pwd`:/pandoc ${IMG}:${TAG} ${PANDOC_PARAMS}"
 
-# Put all chapters in order and CHANGELOG at the end
+# Use pandocker PANDOCKER by default, unless `export PANDOC=pandoc`
+# this is useful for CI, because we can run the script directly inside the container
+PANDOC=${PANDOC:-${PANDOCKER}}
+
+if [ ${FOLDER} == "Document" ]; then
+  LANGUAGE='en'
+else
+  LANGUAGE=$(echo ${FOLDER} | sed 's/Document-//')
+fi
+
+METADATA="Document/metadata.md ${FOLDER}/metadata.md"
 CHAPTERS="${FOLDER}/0x*.md ${FOLDER}/CHANGELOG.md"
+OUTPUT_BASE_NAME="OWASP_MASVS-${VERSION}-${LANGUAGE}"
 
-# Use per-language tmp files for the cover and the first page
-# Replace the placeholder {{MASVS-VERSION}} with the given VERSION and {{MASVS-LANGUAGE}} with the given LANGUAGETEXT
-sed -e "s/{{MASVS-VERSION}}/$VERSION/g" -e "s/{{MASVS-LANGUAGE}}/$LANGUAGETEXT/g" ./tools/docker/cover.tex > tmp_cover-$LANGUAGE.tex
-sed -e "s/{{MASVS-VERSION}}/$VERSION/g" ./tools/docker/first_page.tex > tmp_first_page-$LANGUAGE.tex
+[ ! -z "${VERBOSE}" ] && echo "Create PDF"
 
-# latex-header.tex contains 2 placeholders for "using CJK fonts" and for the language itself: JP,SC,TC,KR (part of the font name)
-# The following does the replacement and writes to a tmp file
-if [ $LANGUAGE == "ja" ]; then
-  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/JP/g" ./tools/docker/latex-header.tex > tmp_1_latex-header-$LANGUAGE.tex
-  sed 's/^%%//' tmp_1_latex-header-$LANGUAGE.tex > tmp_latex-header-$LANGUAGE.tex
-elif [ $LANGUAGE == "ko" ]; then
-  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/KR/g" ./tools/docker/latex-header.tex > tmp_1_latex-header-$LANGUAGE.tex
-  sed 's/^%%//' tmp_1_latex-header-$LANGUAGE.tex > tmp_latex-header-$LANGUAGE.tex
-elif [ $LANGUAGE == "zhcn" ]; then
-  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/SC/g" ./tools/docker/latex-header.tex > tmp_1_latex-header-$LANGUAGE.tex
-  sed 's/^%%//' tmp_1_latex-header-$LANGUAGE.tex > tmp_latex-header-$LANGUAGE.tex
-elif [ $LANGUAGE == "zhtw" ]; then
-  sed -e "s/%%{{CJK}}//g" -e "s/{{CJK-LANG}}/TC/g" ./tools/docker/latex-header.tex > tmp_1_latex-header-$LANGUAGE.tex
-  sed 's/^%%//' tmp_1_latex-header-$LANGUAGE.tex > tmp_latex-header-$LANGUAGE.tex
-elif [ $LANGUAGE == "fa" ]; then
-  sed 's/^%%%%//g' ./tools/docker/latex-header.tex > tmp_latex-header-$LANGUAGE.tex
-else
-  cp ./tools/docker/latex-header.tex tmp_latex-header-$LANGUAGE.tex
-fi
+# header
+${PANDOC} \
+  --output tmp_latex-header.latex \
+  --template tools/docker/latex-header.tex \
+  ${METADATA}
 
-# given that the formats below require markdown images instead of image tags: let's parse the files:
-echo "processing image tags in $FOLDER/0x*.md"
-for FILE in $FOLDER/0x*.md
-do
-  [ -f temp-$LANGUAGE ] && rm temp-$LANGUAGE
-  sed -f tools/docker/imagereplace.sed -f tools/docker/pagebreakreplace.sed $FILE > temp-$LANGUAGE
-  cat temp-$LANGUAGE > $FILE
-  [ -f temp-$LANGUAGE ] && rm temp-$LANGUAGE
-done
-# --columns 60 -> pandoc will attempt to wrap lines to the column width specified by --columns (default 72). We need it because of ZHCN.
-# --toc to create a Table of Contents with the title from the loaded env. vars.
-# -H to apply our customizations in the .tex header file
-# --include-before-body -> to include the auto-generated cover and first page as the very beginning
-if [ $LANGUAGE == "fa" ]; then
-  pandoc --resource-path=.:${FOLDER} \
-    --template=/.pandoc/templates/eisvogel.latex \
-    --pdf-engine=wkhtmltopdf \
-    --columns 60 \
-    --toc -V toc-title:"${TOC_TITLE}" --toc-depth=1 \
-    --metadata title="OWASP Mobile Application Security Verification Standard $VERSION" \
-    -H tmp_latex-header-$LANGUAGE.tex -V linkcolor:blue \
-    --include-before-body tmp_cover-$LANGUAGE.tex --include-before-body tmp_first_page-$LANGUAGE.tex \
-    -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.pdf $CHAPTERS
-else
-  pandoc --resource-path=.:${FOLDER} \
-    --pdf-engine=xelatex --template=eisvogel \
-    --columns 60 \
-    --toc -V toc-title:"${TOC_TITLE}" --toc-depth=1 \
-    --metadata title="OWASP Mobile Application Security Verification Standard $VERSION" \
-    -H tmp_latex-header-$LANGUAGE.tex -V linkcolor:blue \
-    --include-before-body tmp_cover-$LANGUAGE.tex --include-before-body tmp_first_page-$LANGUAGE.tex \
-    -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.pdf $CHAPTERS
-fi
+# cover
+${PANDOC} \
+  --output tmp_cover.latex \
+  --template tools/docker/cover.tex \
+  ${METADATA}
 
+# first_page
+${PANDOC} \
+  --output tmp_first_page.latex \
+  --template tools/docker/first_page.tex \
+  ${METADATA}
 
-pandoc --resource-path=.:${FOLDER} \
-    -f markdown \
-    -t epub \
-    --metadata title="OWASP Mobile Application Security Verification Standard" \
-    --metadata lang="${LANGUAGE}" \
-    --metadata author="Bernhard Mueller, Sven Schleier, Jeroen Willemsen, and Carlos Holguera" \
-    --epub-cover-image=cover.jpg \
-    -o ${OUTPUT_BASE_NAME}-${LANGUAGE}.epub $CHAPTERS 
+# PDF
+${PANDOC} \
+  --template=${LATEX_TEMPLATE} \
+  --pdf-engine=xelatex \
+  --columns 72 \
+  --highlight-style=tango \
+  --metadata title="${TITLE}" \
+  --include-in-header tmp_latex-header.latex \
+  --include-before-body tmp_cover.latex \
+  --include-before-body tmp_first_page.latex \
+  --output ${OUTPUT_BASE_NAME}.pdf \
+  ${METADATA} \
+  ${CHAPTERS}
 
-pandoc --resource-path=.:${FOLDER} \
-    -f markdown \
-    -t docx \
-    --toc -N --columns 10000 --self-contained -s \
-    --reference-doc tools/custom-reference.docx \
-    -o ${OUTPUT_BASE_NAME}-${LANGUAGE}_WIP_.docx $CHAPTERS 
+# EPUB
+${PANDOC} \
+  --metadata title="${TITLE}" \
+  --metadata author="Bernhard Mueller, Sven Schleier, Jeroen Willemsen, and Carlos Holguera" \
+  --epub-cover-image=cover.jpg \
+  -o ${OUTPUT_BASE_NAME}.epub \
+  ${METADATA} \
+  ${CHAPTERS}
 
-kindlegen ${OUTPUT_BASE_NAME}-${LANGUAGE}.epub
+# MOBI
+# kindlegen is deprecated
+#kindlegen ${OUTPUT_BASE_NAME}.epub
 
-rm tmp_first_page-$LANGUAGE.tex
-rm tmp_cover-$LANGUAGE.tex
-rm tmp_latex-header-$LANGUAGE.tex
+# DOCX
+${PANDOC} \
+  --metadata title="${TITLE}" \
+  --toc \
+  --number-sections \
+  --columns 10000 \
+  --self-contained \
+  --standalone \
+  --reference-doc tools/custom-reference.docx \
+  -o ${OUTPUT_BASE_NAME}_WIP_.docx \
+  ${METADATA} \
+  ${CHAPTERS}
 
 
-if [[ "$LANGUAGE" = "ja" || "$LANGUAGE" = "ko" ||  "$LANGUAGE" = "zhcn" ||  "$LANGUAGE" = "zhtw" ]]; then
-  rm tmp_1_latex-header-$LANGUAGE.tex
-fi
+# clean temp files
+rm -f tmp_latex-header.latex tmp_cover.latex tmp_first_page.latex
