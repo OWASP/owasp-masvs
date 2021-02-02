@@ -2,9 +2,14 @@
 % cover.jpg is in the root folder (owasp-masvs/)
 % Version text is written at (X,Y), where (0, 0) is the lower left corner of the page.
 
+% This file requires the following pandoc metadata variables:
+% * $languagetext$
+% * $version$
+% * $a$
+
 \thispagestyle{empty} % remove page numbers
 
 % https://tex.stackexchange.com/questions/136900/insert-a-full-page-image
 \incgraph[documentpaper, 
-    overlay={\node[white] at (page.center) {\huge {{MASVS-LANGUAGE}}};\node[white] at (18.3,11.7) {\Huge Version {{MASVS-VERSION}}};}]
+    overlay={\node[white] at (page.center) {\huge $languagetext$};\node[white] at (18.3,11.7) {\Huge Version $version$};}]
     [width=\paperwidth,height=\paperheight]{cover.jpg}
