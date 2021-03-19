@@ -6,7 +6,7 @@ This directory is for tools that are used to generate the necessary files for ou
 
 Channels:
 
-- Gitbook: currenlty using @sushi2k's repository which is synced manually.
+- Gitbook: currenlty using @sushi2k's repository (https://github.com/sushi2k/owasp-masvs which is synced automatically via https://github.com/apps/pull.
 - Github actions & Github releases: We use Github actions to build and verify the documents in an automated fashion as well as build releases.
 
 Files:
