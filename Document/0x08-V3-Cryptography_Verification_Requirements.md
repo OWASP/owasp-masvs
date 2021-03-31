@@ -18,6 +18,7 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 | **3.4** | MSTG-CRYPTO-4 | The app does not use cryptographic protocols or algorithms that are widely considered deprecated for security purposes. | ✓ | ✓ |
 | **3.5** | MSTG-CRYPTO-5 | The app doesn't re-use the same cryptographic key for multiple purposes. | ✓ | ✓ |
 | **3.6** | MSTG-CRYPTO-6 | All random values are generated using a sufficiently secure random number generator. | ✓ | ✓ |
+| **3.7** | MSTG-CRYPTO-7 | The app should comply with cryptography regulations. | ✓ | ✓ |
 
 ## References
 
