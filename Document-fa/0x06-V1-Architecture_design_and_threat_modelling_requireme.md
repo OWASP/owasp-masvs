@@ -35,7 +35,7 @@
 - مدلسازی تهدید (OWASP) - <https://owasp.org/www-community/Application_Threat_Modeling>
 - راهنمای چرخه‌ی حیات توسعه‌ی امن نرم‌افزار (OWASP) - <https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets_excluded/Secure_SDLC_Cheat_Sheet.md>
 - راهنمای چرخه‌ی حیات توسعه‌ی نرم‌افزار مایکروسافت - <https://www.microsoft.com/en-us/sdl/>
-- استاندارد (NIST SP 800-57) - <http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57-Part1-revised2_Mar08-2007.pdf>
+- استاندارد (NIST SP 800-57) - <https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-5/final>
 - (security.txt) - <https://securitytxt.org>
 
 </div>
