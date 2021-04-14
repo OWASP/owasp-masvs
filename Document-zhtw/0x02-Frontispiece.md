@@ -12,7 +12,7 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 
 [<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Copyright © 2020 The OWASP Foundation. 本文檔在 Creative Commons Attribution ShareAlike 3.0 協議許可下發布。 對於任何二次使用或發布，你必須向其他人說明清楚這項成果的版權。
+Copyright © 2021 The OWASP Foundation. 本文檔在 Creative Commons Attribution ShareAlike 3.0 協議許可下發布。 對於任何二次使用或發布，你必須向其他人說明清楚這項成果的版權。
 
 <!-- \pagebreak -->
 
@@ -47,4 +47,4 @@ Copyright © 2020 The OWASP Foundation. 本文檔在 Creative Commons Attributio
 [<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
 [<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
-接下來，我們要感謝OWASP灣區分會的讚助。 最後，我們要感謝所有從Leanpub購買這本書並以這種方式贊助我們的人。
+接下來，我們要感謝OWASP灣區分會的讚助。 最後，我們要感謝所有從[Leanpub](https://leanpub.com/mobile-security-testing-guide)購買這本書並以這種方式贊助我們的人。

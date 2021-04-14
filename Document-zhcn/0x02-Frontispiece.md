@@ -14,7 +14,7 @@ MASVS是社区努力和行业反馈的成果。我们希望该标准会随着时
 
 [<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
 
-版权所有©2020 OWASP基金会。本作品是根据[知识共享署名-相同方式共享 4.0 国际许可](https://creativecommons.org/licenses/by-sa/4.0/)。对于任何重复使用或分发，您必须向他人明确此作品的许可条款。
+版权所有©2021 OWASP基金会。本作品是根据[知识共享署名-相同方式共享 4.0 国际许可](https://creativecommons.org/licenses/by-sa/4.0/)。对于任何重复使用或分发，您必须向他人明确此作品的许可条款。
 
 <!-- \pagebreak -->
 
@@ -52,4 +52,4 @@ MASVS是社区努力和行业反馈的成果。我们希望该标准会随着时
 
 [<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
-接下来，我们要感谢OWASP湾区分会的赞助。最后，我们要感谢每一位从Leanpub购买了这本书并以这种方式赞助我们的人。
+接下来，我们要感谢OWASP湾区分会的赞助。最后，我们要感谢每一位从[Leanpub](https://leanpub.com/mobile-security-testing-guide)购买了这本书并以这种方式赞助我们的人。
