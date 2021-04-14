@@ -16,7 +16,7 @@ MASVS はコミュニティにおける取組みと業界からのフィード�
 
 [<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Copyright © 2020 The OWASP Foundation. 本著作物は [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) に基づいてライセンスされています。再使用または配布する場合は、他者に対し本著作物のライセンス条項を明らかにする必要があります。
+Copyright © 2021 The OWASP Foundation. 本著作物は [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) に基づいてライセンスされています。再使用または配布する場合は、他者に対し本著作物のライセンス条項を明らかにする必要があります。
 
 <!-- \pagebreak -->
 
@@ -54,4 +54,4 @@ MASVS と MSTG のいずれもコミュニティにより無償奉仕で作成�
 
 [<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
-次に、OWASPベイエリア支部の後援に感謝します。 最後に、Leanpubからこの本を購入し私たちを支援してくれた皆様に感謝します。
+次に、OWASPベイエリア支部の後援に感謝します。 最後に、[Leanpub](https://leanpub.com/mobile-security-testing-guide)からこの本を購入し私たちを支援してくれた皆様に感謝します。

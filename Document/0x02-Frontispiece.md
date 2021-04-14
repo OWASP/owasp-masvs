@@ -14,7 +14,7 @@ Accounts can be created at the following URL: [https://owasp.slack.com/join/shar
 
 [<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Copyright © 2020 The OWASP Foundation.This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
+Copyright © 2021 The OWASP Foundation.This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
 
 <!-- \pagebreak -->
 
@@ -51,6 +51,7 @@ While both the MASVS and the MSTG are created and maintained by the community on
 
 ### Good Samaritan Benefactor
 
-[<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
+<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px"/>
+[RandoriSec](https://www.randorisec.fr/ "RandoriSec")
 
-Next, we would like to thank the OWASP Bay Area Chapter for their sponsorship. Last, we would like to thank everybody that bought the book from Leanpub and sponsored us that way.
+Next, we would like to thank the OWASP Bay Area Chapter for their sponsorship. Last, we would like to thank everybody that bought the book from [Leanpub](https://leanpub.com/mobile-security-testing-guide) and sponsored us that way.

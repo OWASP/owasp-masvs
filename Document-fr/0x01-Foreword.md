@@ -1,6 +1,5 @@
 # Avant-propos
 
-Par Bernhard Mueller, OWASP Mobile Project.
 Les révolutions technologiques peuvent arriver vite. Il y a moins de dix ans, les smartphones n'étaient que des appareils poussifs avec de petits claviers - des jouets onéreux pour hommes d'affaire passionés par la tech. Pourtant, aujourd'hui, les smartphones font partie intégrante de notre vie. Nous dépendons d'eux pour les informations, la navigation et la communication, et ils sont omniprésents aussi bien dans notre vie professionnelle que dans notre vie sociale.
 
 Chaque nouvelle technologie introduit de nouveaux risques liés à la sécurité, et se maintenir à l'état de l'art est l'un des principaux défis de l'industrie de la sécurité. Le côté défensif est toujours un peu en retard. Par exemple, le réflexe naturel de beaucoup est d'appliquer toujours les mêmes recettes : les smartphones ressemblant à de petits ordinateurs et les applications mobiles étant du logiciel assez classique, les exigences de sécurité doivent donc être à peu près identiques? Hélas, cela ne marche pas comme ça. Les systèmes d'exploitation des smartphones sont différents de ceux des ordinateurs traditionnels et les applications mobiles sont différentes des applications web. Par exemple, la méthode classique consistant à scanner un appareil à la recherche de virus en se basant sur leur signature n'a pas de sens dans les environnements mobiles modernes : ceci est non seulement incompatible avec le modèle de distribution des applications mobiles, mais c'est aussi techniquement impossible à réaliser en raison des restrictions "bac à sable". Par ailleurs, certaines classes de vulnérabilité telles que les débordements de tampon et autres failles XSS, sont moins pertinentes dans le contexte des applications mobiles ordinaires que, disons, pour les applications PC ou web (toutefois avec certaines exceptions).
@@ -23,3 +22,5 @@ Le but général du MASVS est de proposer un cadre de base pour la sécurité de
 - Fournir des recommendations spécifiques concernant le niveau de sécurité à viser en fonction du cas d'utilisation.
 
 Nous sommes conscients du fait qu'un consensus à 100% de la part de l'industrie est impossible à atteindre. Néanmoins, nous espérons que le MASVS sera utile dans les directions qu'il fournit le long de toutes les phases de développement et de test des applications mobiles. En tant que standard ouvert, le MASVS évoluera au fil du temps et toutes les contributions et les suggestions sont les bienvenues.
+
+Par Bernhard Mueller

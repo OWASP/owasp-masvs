@@ -55,7 +55,7 @@ Die folgenden Änderungen sind Teil von Version 1.1.3:
 
 Die folgenden Änderungen sind Teil von Version 1.1.2:
 
-- Danksagung für alle Käufer, die das Buch von Leanpub gekauft haben.
+- Danksagung für alle Käufer, die das Buch von [Leanpub](https://leanpub.com/mobile-security-testing-guide) gekauft haben.
 - Fehlender link für Authentifizierung und Session Management hinzugefügt und kaputten link in V4 aktualisiert.
 - Anforderung 4.7 und 4.8 ausgetauscht in englischer Version.
 - Erste internationale Version!

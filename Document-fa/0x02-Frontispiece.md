@@ -53,6 +53,6 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 
 [<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
-در ادامه مایلیم از OWASP Bay Area Chapter به خاطر حمایتشان قدردانی نماییم. در پایان مایلیم از تمام کسانی که کتاب را از Leanpub خریداری کرده و ما را حمایت کردند تشکر و قدردانی نماییم.
+در ادامه مایلیم از OWASP Bay Area Chapter به خاطر حمایتشان قدردانی نماییم. در پایان مایلیم از تمام کسانی که کتاب را از [Leanpub](https://leanpub.com/mobile-security-testing-guide) خریداری کرده و ما را حمایت کردند تشکر و قدردانی نماییم.
 
 </div>

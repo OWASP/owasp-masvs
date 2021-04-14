@@ -14,7 +14,7 @@ Para criar uma conta basta clicar no seguinte URL: [https://owasp.slack.com/join
 
 [<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Copyright © 2020 The OWASP Foundation.Este documento está licenciado pela [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). Para reutilização e distribuição é necessário expor de forma clara os termos da licença.
+Copyright © 2021 The OWASP Foundation.Este documento está licenciado pela [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). Para reutilização e distribuição é necessário expor de forma clara os termos da licença.
 
 <!-- \pagebreak -->
 
@@ -54,4 +54,4 @@ Apesar de tanto o MASVS como o MSTG terem sido criados e mantidos por uma equipa
 
 [<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
 
-Gostaríamos de agradecer à OWASP Bay Area Chapter pelo seu patricínio. E por fim, gostaríamos, ainda, de agradecer a todos aqueles que nos patrocinaram de forma indireta, adquirindo o livro através da Leanpub.
+Gostaríamos de agradecer à OWASP Bay Area Chapter pelo seu patricínio. E por fim, gostaríamos, ainda, de agradecer a todos aqueles que nos patrocinaram de forma indireta, adquirindo o livro através da [Leanpub](https://leanpub.com/mobile-security-testing-guide).
