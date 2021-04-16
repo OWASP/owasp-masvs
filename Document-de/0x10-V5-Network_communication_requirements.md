@@ -7,7 +7,7 @@ Der Zweck dieser Kategorie ist es die Vertraulichkeit und Integrität übertrage
 ## Anforderungen
 
 | # | MSTG-ID | Beschreibung | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **5.1** | MSTG-NETWORK-1 | Daten werden zur Netzwerkkommunikation innerhalb der App durchgängig mit TLS verschlüsselt. | ✓ | ✓ |
 | **5.2** | MSTG-NETWORK-2 | Die TLS-Einstellungen entsprechen aktuellen Best Practices, oder erfüllen die Best Practices so gut wie möglich falls das mobile Betriebssystem die Empfehlung nicht unterstützt. | ✓ | ✓ |
 | **5.3** | MSTG-NETWORK-3 | Die App überprüft das X.509-Zertifikat des Servers beim TLS-Handshake. Die App akzeptiert nur Zertifikate die von einer vertrauenswürdigen Zertifizierungsstelle signiert wurden.  | ✓ | ✓ |

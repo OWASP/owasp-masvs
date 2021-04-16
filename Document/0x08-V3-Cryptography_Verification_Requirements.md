@@ -11,7 +11,7 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 ## Security Verification Requirements
 
 | # | MSTG-ID | Description | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **3.1** | MSTG-CRYPTO-1 | The app does not rely on symmetric cryptography with hardcoded keys as a sole method of encryption.| ✓ | ✓ |
 | **3.2** | MSTG-CRYPTO-2 | The app uses proven implementations of cryptographic primitives. | ✓ | ✓ |
 | **3.3** | MSTG-CRYPTO-3 | The app uses cryptographic primitives that are appropriate for the particular use-case, configured with parameters that adhere to industry best practices. | ✓ | ✓ |

@@ -7,7 +7,7 @@ O objetivo deste controle é garantir que práticas básicas de codificação se
 ## Requisitos de Verificação de Segurança
 
 | # | MSTG-ID | Descrição | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **7.1** | MSTG-CODE-1 | O aplicativo é assinado e disponibilizado com um certificado válido e cuja chave privada está devidamente protegida. | ✓ | ✓ |
 | **7.2** | MSTG-CODE-2 | O aplicativo foi criado em modo de _release_ e com as configurações apropriadas para ela (ex.: _non-debuggable_). | ✓ | ✓ |
 | **7.3** | MSTG-CODE-3 | Os símbolos de depuração foram removidos dos binários nativos. | ✓ | ✓ |

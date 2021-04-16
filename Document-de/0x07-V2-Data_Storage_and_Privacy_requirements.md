@@ -18,7 +18,7 @@ Sensible Daten im Kontext des MASVS sind jegliche Nutzer-Anmeldedaten sowie alle
 Ein Großteil von Datenpannen kann bereits durch Einhaltung einfacher Regeln vermieden werden. Die meisten der Sicherheitsmaßnahmen in dieser Kategorie sind deshalb für alle Prüf-Levels zwingend erforderlich.
 
 | # | MSTG-ID | Beschreibung | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **2.1** | MSTG-STORAGE-1 | Die App verwendet die vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismen, um sensible Daten zu speichern wie personenbezogene Daten, Anmeldedaten oder kryptographische Schlüssel. | ✓ | ✓ |
 | **2.2** | MSTG-STORAGE-2 | Es werden keine sensiblen Daten außerhalb des App-Containers oder außerhalb des vom jeweiligen Betriebssystem angebotenen sicheren Speichermechanismus abgelegt. | ✓ | ✓ |
 | **2.3** | MSTG-STORAGE-3 | Es werden keine sensiblen Daten in die Logfiles der App geschrieben. | ✓ | ✓ |

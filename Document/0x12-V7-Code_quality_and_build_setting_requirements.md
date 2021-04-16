@@ -7,7 +7,7 @@ The goal of this control is to ensure that basic security coding practices are f
 ## Security Verification Requirements
 
 | # | MSTG-ID | Description | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **7.1** | MSTG-CODE-1 | The app is signed and provisioned with a valid certificate, of which the private key is properly protected. | ✓ | ✓ |
 | **7.2** | MSTG-CODE-2 | The app has been built in release mode, with settings appropriate for a release build (e.g. non-debuggable). | ✓ | ✓ |
 | **7.3** | MSTG-CODE-3 | Debugging symbols have been removed from native binaries. | ✓ | ✓ |

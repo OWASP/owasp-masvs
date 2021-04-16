@@ -7,7 +7,7 @@ The purpose of the controls listed in this section is to ensure the confidential
 ## Security Verification Requirements
 
 | # | MSTG-ID | Description | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **5.1** | MSTG-NETWORK-1 | Data is encrypted on the network using TLS. The secure channel is used consistently throughout the app. | ✓ | ✓ |
 | **5.2** | MSTG-NETWORK-2 | The TLS settings are in line with current best practices, or as close as possible if the mobile operating system does not support the recommended standards. | ✓ | ✓ |
 | **5.3** | MSTG-NETWORK-3 | The app verifies the X.509 certificate of the remote endpoint when the secure channel is established. Only certificates signed by a trusted CA are accepted. | ✓ | ✓ |

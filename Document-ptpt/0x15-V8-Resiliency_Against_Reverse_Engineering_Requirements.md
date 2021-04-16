@@ -23,7 +23,7 @@ As seguintes considerações são aplicadas:
 ### Impedimento de análise dinâmica e manipulação
 
 | # | MSTG-ID | Descrição| R |
-| -- | -------- | ---------------------- | - |
+| -- | ----------- | ---------------------- | - |
 | **8.1** | MSTG-RESILIENCE-1 | A aplicação deteta, e responde à presença de um dispositivo 'rooted' ou com 'jailbreak' alertando o utilizador ou por fechar a aplicação. | ✓ |
 | **8.2** | MSTG-RESILIENCE-2 | A aplicação previne depuração e/ou deteta e responde a um depurador ligado à aplicação. Todos os protocolos de depuração devem de ser tidos em conta. | ✓ |
 | **8.3** | MSTG-RESILIENCE-3 | A aplicação deteta e responde a manipulação de ficheiros executáveis e informação critica dentro da sua sandbox. | ✓ |
@@ -37,7 +37,7 @@ As seguintes considerações são aplicadas:
 ### Device Binding
 
 | # | MSTG-ID | Descrição| R |
-| -- | -------- | ---------------------- | - |
+| -- | ----------- | ---------------------- | - |
 | **8.10** | MSTG-RESILIENCE-10 | A aplicação implementa uma funcionalidade de 'DEVICE BINDING' usando uma impressão digital do dispositivo derivada de várias propriedades únicas do mesmo. | ✓ |
 
 <!-- \pagebreak -->
@@ -45,14 +45,14 @@ As seguintes considerações são aplicadas:
 ### Impedimento de Compreensão
 
 | # | MSTG-ID | Descrição | R |
-| -- | -------- | ---------------------- | - |
+| -- | ----------- | ---------------------- | - |
 | **8.11** | MSTG-RESILIENCE-11 | Todos os ficheiros executáveis e bibliotecas pertencentes à aplicação são ou cifrados ao nível do ficheiro, e/ou código importante ou segmentos de informação dentro dos executáveis são cifrados ou embalados. Analise estática básica não revela código ou informação importante. | ✓ |
 | **8.12** | MSTG-RESILIENCE-12 | Se o objetivo da ofuscação é proteger contra computações sensíveis, um esquema de ofuscação é usado que seja tanto apropriado para a tarefa em particular como robusto contro métodos de desofuscação manuais e automáticos, considerando investigações publicadas. A efetividade do esquema de ofuscação deve ser verificada com testes manuais. É de notar que características de isolamento baseado em hardware são preferidas em relação a ofuscação sempre que possível. | ✓ |
 
 ### Impedimento de espionagem
 
 | # | MSTG-ID | Descrição | R |
-| -- | -------- | ---------------------- | - |
+| -- | ----------- | ---------------------- | - |
 | **8.13** | MSTG-RESILIENCE-13 | Como uma defesa em profundidade a seguir a ter uma comunicação entre as várias entidades bem protegida, encriptação a nível aplicacional pode ser usada para impedir ainda mais a espionagem. | ✓ |
 
 <!-- \pagebreak -->

@@ -7,7 +7,7 @@ Das Ziel dieser Kategorie ist, sicherzustellen, dass bei der App-Entwicklung Bas
 ## Anforderungen
 
 | # | MSTG-ID | Beschreibung | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **7.1** | MSTG-CODE-1 | Die App ist signiert und mit einem gültigen Zertifikat provisioniert dessen privater Schlüssel angemessen geschützt ist. | ✓ | ✓ |
 | **7.2** | MSTG-CODE-2 | Die App wurde im Release-Modus gebaut und mit passenden Release-Einstellungen (kein Debugging). | ✓ | ✓ |
 | **7.3** | MSTG-CODE-3 | Debugging Symbole wurden von nativen Binärdateien entfernt. | ✓ | ✓ |

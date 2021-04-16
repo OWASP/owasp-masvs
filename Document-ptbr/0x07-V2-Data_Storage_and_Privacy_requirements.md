@@ -19,7 +19,7 @@ Dados sensíveis no contexto do MASVS incluem tanto as credenciais do usuário q
 A ampla maioria dos problemas de vazamento de dados podem ser prevenidos seguindo regras simples. A maior parte dos controles listados neste capítulo são mandatórios para todos os níveis de verificação.
 
 | # | MSTG-ID | Descrição | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **2.1** | MSTG-STORAGE-1 | Recursos de armazenamento de credenciais do sistema devem ser utilizados para armazenar dados sensíveis, como dados pessoais (PII), credenciais de usuário ou chaves criptográficas. | ✓ | ✓ |
 | **2.2** | MSTG-STORAGE-2 | Dados sensíveis não devem ser armazenados fora do contêiner do aplicativo ou de recursos de armazenamento de credenciais do sistema. | ✓ | ✓ |
 | **2.3** | MSTG-STORAGE-3 | Dados sensíveis não podem aparecer nos *logs* de aplicação. | ✓ | ✓ |

@@ -19,7 +19,7 @@ Informação privada, no contexto da MASVS, diz respeito não só às credenciai
 A grande maioria dos problemas de exposição de dados pode ser evitada através da aplicação de regras simples. A maioria das controlos listados neste capítulo são obrigatórios para todos os níveis de verificação.
 
 | # | MSTG-ID | Descrição | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **2.1** | MSTG-STORAGE-1 | Sistemas para armazenamento de credenciais têm ser utilizados para guardar informação sensível como PII, credenciais de utilizador ou chaves criptográficas. | ✓ | ✓ |
 | **2.2** | MSTG-STORAGE-2 | Nunca guardar informação privada fora do contexto da aplicação ou dos sistemas para armazenamento de credenciais. | ✓ | ✓ |
 | **2.3** | MSTG-STORAGE-3 | Nenhuma informação sensível é exposta nos registos de actividade (logs) da aplicação. | ✓ | ✓ |

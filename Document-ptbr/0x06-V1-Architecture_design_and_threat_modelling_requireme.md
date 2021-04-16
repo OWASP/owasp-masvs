@@ -11,7 +11,7 @@ A categoria "V1" lista os requisitos referentes à arquitetura e _design_ do apl
 Os requisitos para MASVS-L1 e MASVS-L2 estão listados abaixo.
 
 | # | MSTG-ID | Descrição | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **1.1** | MSTG-ARCH-1 | Todos os componentes do aplicativo são identificados e conhecidos como necessários. | ✓ | ✓ |
 | **1.2** | MSTG-ARCH-2 | Os controles de segurança nunca são aplicados apenas no lado do cliente, mas nos respectivos terminais remotos. | ✓ | ✓ |
 | **1.3** | MSTG-ARCH-3 | Uma arquitetura de alto nível para o aplicativo móvel e todos os serviços remotos conectados foi definida e a segurança foi abordada nessa arquitetura. | ✓ | ✓ |

@@ -7,7 +7,7 @@ Dans la plupart des cas, la connexion des utilisateurs à un service distant doi
 ## Exigences pour la Validation de la Sécurité
 
 | # | MSTG-ID | Description | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **4.1** | MSTG-AUTH-1 | Si l'application donne accès aux utilisateurs à un service distant, un certain niveau d'authentification, tel que l'authentification par nom d'utilisateur / mot de passe, est faite sur le point terminal distant. | ✓ | ✓ |
 | **4.2** | MSTG-AUTH-2 | Si des sessions avec état sont utilisées, le point terminal distant utilise des identifiants de session aléatoirement générés pour authentifier les requêtes des clients sans avoir à envoyer les références des utilisateurs.  | ✓ | ✓ |
 | **4.3** | MSTG-AUTH-3 | Si l'authentification sans état basée sur des jetons est utilisée, le serveur fournit des jetons qui ont été signés par un algorithme à la sécurité éprouvée. | ✓ | ✓ |
