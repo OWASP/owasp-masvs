@@ -27,7 +27,7 @@ Copyright © 2021 The OWASP Foundation. Este documento é licenciado sob a licen
 <br/>
 
 | Linguagem | Tradutores e Revisores |
-| --- | ------------------------------ |
+| --------------- | ------------------------------------------------------------ |
 | Alemão | Rocco Gränitz, Sven Schleier (Revisão) |
 | Chinês (Simplificado) | Bob Peng, Harold Zang, Jack S |
 | Chinês (Tradicional) | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |

@@ -11,7 +11,7 @@ La catégorie “V1” liste les exigences relatives à l'architecture et au des
 Les exigences pour MASVS-L1 et MASVS-L2 sont listées ci-dessous.
 
 | # | MSTG-ID | Description | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **1.1** | MSTG-ARCH-1 | Tous les composants de l'application sont identifiés et leur besoin est confirmé. | ✓ | ✓ |
 | **1.2** | MSTG-ARCH-2 | Les contrôles de sécurité ne sont jamais mis en oeuvre seulement côté client, mais aussi sur les points terminaux distants. | ✓ | ✓ |
 | **1.3** | MSTG-ARCH-3 | Une architecture de haut niveau concernant l'application mobile et tous les services distants utilisés a été définie et la sécurité a été prise en compte dans cette architecture. | ✓ | ✓ |

@@ -19,7 +19,7 @@ Dans le contexte du MASVS, les données sensibles ont trait aux deux aspects que
 La grande majorité des problèmes de divulgation de données peuvent être empêchés en suivant des règles simples. La plupart des contrôles listés dans ce chapitre sont obligatoires pour tous les niveaux de validation.
 
 | # | MSTG-ID | Description | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **2.1** | MSTG-STORAGE-1 | Les fonctions de stockage sécurisées proposées par les systèmes doivent être utilisées de manière appropriée pour stocker les données sensibles tels que les informations personnellement identifiables (PII), les références des utilisateurs ou les clés cryptographiques. | ✓ | ✓ |
 | **2.2** | MSTG-STORAGE-2 | Aucune donnée sensible ne devrait être stockée hors du conteneur de l'application ou des fonctions de stockage sécurisées proposées par le système. | ✓ | ✓ |
 | **2.3** | MSTG-STORAGE-3 | Aucune donnée sensible n'est écrite dans les journaux applicatifs. | ✓ | ✓ |

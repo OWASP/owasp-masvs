@@ -8,7 +8,7 @@ Na grande maioria dos casos, a autenticação dos utilizadores em serviços remo
 
 | # | MSTG-ID | Descrição| L1 | L2 |
  | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **4.1** | MSTG-AUTH-1 | Se a aplicação providencia ao utilizador acesso a um serviço remoto, algum tipo de autenticação, como autenticação por nome de utilizador/palavra passe, é realizada no ponto de acesso remoto. | ✓ | ✓ |
 | **4.2** | MSTG-AUTH-2 | Se a gestão da sessão é feita com persistência de estado, o acesso remoto deve fazer uso do identificador de sessão gerado aleatoriamente, para garantir a autenticação do cliente/utilizador a cada pedido ao servidor, sem que seja necessário o repetitivo fornecimento das credenciais do utilizador. | ✓ | ✓ |
 | **4.3** | MSTG-AUTH-3 | Se a gestão da sessão é baseada num passe (token), sem persistência de estado, o servidor providencia o passe assinado através de um algoritmo seguro. | ✓ | ✓ |

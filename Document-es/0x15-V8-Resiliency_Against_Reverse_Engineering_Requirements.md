@@ -23,7 +23,7 @@ Se aplican las siguientes consideraciones:
 ### Impedir el Análisis Dinámico y la Manipulación
 
 | # | MSTG-ID | Descripción | R |
-| -- | -------- | ---------------------- | - |
+| -- | ----------- | ---------------------- | - |
 | **8.1** | MSTG-RESILIENCE-1 | La aplicación detecta y responde a la presencia de un dispositivo rooteado, ya sea alertando al usuario o finalizando la ejecución de la aplicación. | ✓ |
 | **8.2** | MSTG-RESILIENCE-2 | La aplicación impide la depuración o detecta y responde a la misma. Se deben cubrir todos los protocolos de depuración. | ✓ |
 | **8.3** | MSTG-RESILIENCE-3 | La aplicación detecta y responde a cualquier modificación de ejecutables y datos críticos de la propia aplicación. | ✓ |
@@ -37,7 +37,7 @@ Se aplican las siguientes consideraciones:
 ### Asociación del Dispositivo
 
 | # | MSTG-ID | Descripción | R |
-| -- | -------- | ---------------------- | - |
+| -- | ----------- | ---------------------- | - |
 | **8.10** | MSTG-RESILIENCE-10 | La aplicación implementa un “enlace al dispositivo” utilizando una huella del dispositivo derivado de varias propiedades únicas al mismo. | ✓ |
 
 <!-- \pagebreak -->
@@ -45,14 +45,14 @@ Se aplican las siguientes consideraciones:
 ### Impedir la Comprensión
 
 | # | MSTG-ID | Descripción | R |
-| -- | -------- | ---------------------- | - |
+| -- | ----------- | ---------------------- | - |
 | **8.11** | MSTG-RESILIENCE-11 | Todos los archivos ejecutables y bibliotecas correspondientes a la aplicación se encuentran cifrados, o bien los segmentos importantes de código se encuentran cifrados o "empaquetados" (packed). De este modo cualquier análisis estático trivial no revelará código o datos importantes. | ✓ |
 | **8.12** | MSTG-RESILIENCE-12 | Si el objetivo de la ofuscación es proteger código propietario, debe utilizarse un esquema de ofuscación apropiado para la tarea particular y robusto contra métodos de desofuscación manual y automatizada, considerando la investigación actual publicada. La eficacia del esquema de ofuscación debe verificarse mediante pruebas manuales. Nótese que, siempre que sea posible, las características de aislamiento basadas en hardware son preferibles a la ofuscación. | ✓ |
 
 ### Impedir el Eavesdropping
 
 | # | MSTG-ID | Descripción | R |
-| -- | -------- | ---------------------- | - |
+| -- | ----------- | ---------------------- | - |
 | **8.13** | MSTG-RESILIENCE-13 | A modo de defensa en profundidad, además de incluir un refuerzo (hardening) sólido de la comunicación, puede implementarse el cifrado de datos (payloads) a nivel de aplicación como medida adicional contra ataques de eavesdropping. | ✓ |
 
 ## Referencias

@@ -7,7 +7,7 @@ O objetivo deste controlo é garantir que as práticas básicas de segurança em
 ## Verificação de Requisitos de Segurança
 
 | # | MSTG-ID | Descrição | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **7.1** | MSTG-CODE-1 | A aplicação é fornecida e assinada com um certificado válido, do qual a chave privada se encontra devidamente protegida. | ✓ | ✓ |
 | **7.2** | MSTG-CODE-2 | A aplicação é desenvolvida em modo de distribuição, com configurações apropriadas para a implementação de uma nova versão de produção (ex. não depurável). | ✓ | ✓ |
 | **7.3** | MSTG-CODE-3 | Os símbolos de depuração são removidos dos binários nativos. | ✓ | ✓ |

@@ -11,7 +11,7 @@ La cryptographie est un ingrédient essentiel pour la protection des données st
 ## Exigences pour la Validation de la Sécurité
 
 | # | MSTG-ID | Description | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **3.1** | MSTG-CRYPTO-1 | L'application n'utilise pas la cryptographie symétrique avec des clés codées en dur comme seule méthode de chiffrement.| ✓ | ✓ |
 | **3.2** | MSTG-CRYPTO-2 | L'application utilise des implémentations de primitives cryptographiques éprouvées. | ✓ | ✓ |
 | **3.3** | MSTG-CRYPTO-3 | L'application utilise des primitives cryptographiques appropriées au cas d'utilisation, configurées en adéquation avec les bonnes pratiques de l'industrie. | ✓ | ✓ |

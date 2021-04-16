@@ -7,7 +7,7 @@ Le but de ce contrôle est d'assurer que les pratiques de codage de base concern
 ## Exigences pour la Validation de la Sécurité
 
 | # | MSTG-ID | Description | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **7.1** | MSTG-CODE-1 | L'application est signée et livrée avec un certificat en cours de validité, dont la clé privée est correctement protégée. | ✓ | ✓ |
 | **7.2** | MSTG-CODE-2 | L'application a été générée en mode release avec des réglages appropriés à ce mode (c.a.d. sans les possibilités de déboggage). | ✓ | ✓ |
 | **7.3** | MSTG-CODE-3 | Les symboles pour le déboggage ont été enlevés des binaires natifs. | ✓ | ✓ |

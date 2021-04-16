@@ -27,7 +27,7 @@ Copyright © 2021 The OWASP Foundation. 본 저작물은 [Creative Commons Attri
 <br/>
 
 | 언어 | 번역자 및 검토자 |
-| --- | ------------------------------ |
+| --------------- | ------------------------------------------------------------ |
 | 중국어 전통 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | 중국어 간체 | Bob Peng, Harold Zang, Jack S |
 | 프랑스어 | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |

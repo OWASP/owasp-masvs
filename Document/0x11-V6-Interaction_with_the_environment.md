@@ -7,7 +7,7 @@ The controls in this group ensure that the app uses platform APIs and standard c
 ## Security Verification Requirements
 
 | # | MSTG-ID | Description | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **6.1** | MSTG-PLATFORM-1 | The app only requests the minimum set of permissions necessary. | ✓ | ✓ |
 | **6.2** | MSTG-PLATFORM-2 | All inputs from external sources and the user are validated and if necessary sanitized. This includes data received via the UI, IPC mechanisms such as intents, custom URLs, and network sources.| ✓ | ✓ |
 | **6.3** | MSTG-PLATFORM-3 | The app does not export sensitive functionality via custom URL schemes, unless these mechanisms are properly protected. | ✓ | ✓ |

@@ -7,7 +7,7 @@ Los controles enumerados en esta categoría tienen por objetivo asegurar la conf
 ## Requerimientos de Verificación de Seguridad
 
 | # | MSTG-ID | Descripción | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **5.1** | MSTG-NETWORK-1 | La información es enviada cifrada utilizando TLS. El canal seguro es usado consistentemente en la aplicación. | ✓ | ✓ |
 | **5.2** | MSTG-NETWORK-2 | Las configuraciones del protocolo TLS siguen las mejores prácticas de la industria, o lo hacen lo mejor posible en caso de que el sistema operativo del dispositivo no soporte los estándares recomendados. | ✓ | ✓ |
 | **5.3** | MSTG-NETWORK-3 | La aplicación verifica el certificado X.509 del sistema remoto al establecer el canal seguro y sólo se aceptan certificados firmados por una CA de confianza. | ✓ | ✓ |

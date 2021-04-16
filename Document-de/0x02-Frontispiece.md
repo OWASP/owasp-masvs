@@ -27,7 +27,7 @@ Copyright © 2021 The OWASP Foundation. Dieses Dokument ist veröffentlicht unte
 <br/>
 
 | Sprache | Übersetzer und Gutachter |
-| --- | ------------------------------ |
+| --------------- | ------------------------------------------------------------ |
 | Chinesisch (Traditionell) | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | Chinesisch (Vereinfacht) | Bob Peng, Harold Zang, Jack S |
 | Französisch | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |

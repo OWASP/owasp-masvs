@@ -7,7 +7,7 @@ En la mayoría de los casos, una parte esencial de la arquitectura global de apl
 ## Requerimientos de Verificación de Seguridad
 
 | # | MSTG-ID | Descripción | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **4.1** | MSTG-AUTH-1 | Si la aplicación provee acceso a un servicio remoto, un mecanismo aceptable de autenticación como usuario y contraseña es realizado en el servidor remoto. | ✓ | ✓ |
 | **4.2** | MSTG-AUTH-2 | Si se utiliza la gestión de sesión por estado, el servidor remoto usa tokens de acceso aleatorios para autenticar los pedidos del cliente sin requerir el envío de las credenciales del usuario en cada uno. | ✓ | ✓ |
 | **4.3** | MSTG-AUTH-3 | Si se utiliza la autenticación basada en tokens sin estado, el servidor proporciona un token que se ha firmado utilizando un algoritmo seguro. | ✓ | ✓ |

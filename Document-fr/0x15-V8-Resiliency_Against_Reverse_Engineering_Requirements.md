@@ -21,7 +21,7 @@ Il convient de prendre en compte les considérations suivantes :
 ### Entraver l'Analyse Dynamique et la Modification
 
 | # | MSTG-ID | Description | R |
-| -- | -------- | ---------------------- | - |
+| -- | ----------- | ---------------------- | - |
 | **8.1** | MSTG-RESILIENCE-1 | L'application détecte et réagit à la présence d'appareils rootés ou jailbreakés soit en alertant l'utilisateur ou en mettant fin à l'application. | ✓ |
 | **8.2** | MSTG-RESILIENCE-2 | L'application empêche le déboggage et / ou réagit à la présence d'un déboggeur. Tous les protocoles de déboggage disponibles doivent être couverts. | ✓ |
 | **8.3** | MSTG-RESILIENCE-3 | L'application détecte et réagit à la modification de fichiers exécutables et de données critiques au sein de son bac à sable. | ✓ |
@@ -35,20 +35,20 @@ Il convient de prendre en compte les considérations suivantes :
 ### Liaison avec un Appareil
 
 | # | MSTG-ID | Description | R |
-| -- | -------- | ---------------------- | - |
+| -- | ----------- | ---------------------- | - |
 | **8.10** | MSTG-RESILIENCE-10 | L'application implémente un mécanisme de 'liaison avec l'appareil' utilisant une empreinte de l'appareil dérivée de multiples propriétés uniques à cet appareil. | ✓ |
 
 ### Entraver la Compréhension
 
 | # | MSTG-ID | Description | R |
-| -- | -------- | ---------------------- | - |
+| -- | ----------- | ---------------------- | - |
 | **8.11** | MSTG-RESILIENCE-11 |Tous les fichiers exécutables et les librairies appartenant à l'application sont soit chiffrés au niveau du fichier et / ou le code important et les segments de données à l'intérieur des exécutables sont chiffrés ou compactés. Une analyse statique triviale ne révèle pas de code important ou de données. | ✓ |
 | **8.12** | MSTG-RESILIENCE-12 | Si le but de l'obscurcissement est de protéger des traitements sensibles, le schéma d'obscurcissement utilisé est à la fois approprié à la tâche considérée et est résistant envers les méthodes de dé-obscurcissement manuelles et automatiques, en prenant en considération les recherches disponibles. L'efficacité du schéma d'obscurcissement doit être validée à travers du test manuel. Il convient de noter que les fonctionnalités d'isolation au niveau matériel doivent être mises en pratique de préférence à l'obscurcissement toutes les fois que cela est possible. | ✓ |
 
 ### Entraver l'écoute
 
 | # | MSTG-ID | Description | R |
-| -- | -------- | ---------------------- | - |
+| -- | ----------- | ---------------------- | - |
 | **8.13** | MSTG-RESILIENCE-13 | Pour une défense en profondeur, en plus d'avoir un durcissement efficace des parties communicantes, le chiffrement des données utilisées au niveau de l'application peut être appliqué pour entraver l'écoute. | ✓ |
 
 ## Références

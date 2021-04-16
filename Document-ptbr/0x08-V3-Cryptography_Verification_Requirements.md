@@ -11,7 +11,7 @@ A criptografia é um componente essencial quando se trata da proteção dos dado
 ## Requisitos de Verificação de Segurança
 
 | # | MSTG-ID | Descrição | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **3.1** | MSTG-CRYPTO-1 | O aplicativo não se baseia em criptografia simétrica com chaves fixas no código fonte como único método de criptografia. | ✓ | ✓ |
 | **3.2** | MSTG-CRYPTO-2 | O aplicativo usa implementações comprovadas de primitivas criptográficas. | ✓ | ✓ |
 | **3.3** | MSTG-CRYPTO-3 | O aplicativo usa primitivas criptográficas que são apropriadas para o caso de uso em questão, configurado com parâmetros que são aderentes às melhores práticas da indústria. | ✓ | ✓ |

@@ -7,7 +7,7 @@ Na maioria dos casos, o _login_ de usuários a um serviço remoto é parte integ
 ## Requisitos de Verificação de Segurança
 
 | # | MSTG-ID | Descrição | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **4.1** | MSTG-AUTH-1 | Se o aplicativo fornecer aos usuários acesso a um serviço remoto, alguma forma de autenticação, como autenticação de nome de usuário e senha, será executada no terminal remoto. | ✓ | ✓ |
 | **4.2** | MSTG-AUTH-2 | Se o gerenciamento de sessão com estado for usado _(stateful session management)_, o terminal remoto usará identificadores de sessão gerados aleatoriamente para autenticar as solicitações de clientes, sem que as credenciais do usuário sejam enviadas. | ✓ | ✓ |
 | **4.3** | MSTG-AUTH-3 | Se a autenticação baseada em _token_ sem estado for usada _(stateless token-based authentication)_, o servidor fornecerá um _token_ que foi assinado usando um algoritmo seguro. | ✓ | ✓ |

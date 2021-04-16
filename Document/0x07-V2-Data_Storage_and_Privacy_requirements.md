@@ -19,7 +19,7 @@ Sensitive data in the context of the MASVS pertains to both user credentials and
 The vast majority of data disclosure issues can be prevented by following simple rules. Most of the controls listed in this chapter are mandatory for all verification levels.
 
 | # | MSTG-ID | Description | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **2.1** | MSTG-STORAGE-1 | System credential storage facilities need to be used to store sensitive data, such as PII, user credentials or cryptographic keys. | ✓ | ✓ |
 | **2.2** | MSTG-STORAGE-2 | No sensitive data should be stored outside of the app container or system credential storage facilities. | ✓ | ✓ |
 | **2.3** | MSTG-STORAGE-3 | No sensitive data is written to application logs. | ✓ | ✓ |

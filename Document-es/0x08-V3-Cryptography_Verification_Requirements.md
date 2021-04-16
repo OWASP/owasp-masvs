@@ -11,7 +11,7 @@ La criptografía es un componente esencial a la hora de proteger los datos almac
 ## Requerimientos de Verificación de Seguridad
 
 | # | MSTG-ID | Descripción | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **3.1** | MSTG-CRYPTO-1 | La aplicación no depende únicamente de criptografía simétrica cuyas claves se encuentran directamente en el código fuente de la misma.| ✓ | ✓ |
 | **3.2** | MSTG-CRYPTO-2 | La aplicación utiliza implementaciones de criptografía probadas. | ✓ | ✓ |
 | **3.3** | MSTG-CRYPTO-3 | La aplicación utiliza primitivas de seguridad que son apropiadas para el caso particular y su configuración y parámetros siguen las mejores prácticas de la industria. | ✓ | ✓ |

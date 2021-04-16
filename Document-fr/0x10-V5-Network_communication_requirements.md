@@ -7,7 +7,7 @@ Le but des contrôles listés dans cette section est de garantir la confidential
 ## Exigences pour la Validation de la Sécurité
 
 | # | MSTG-ID | Description | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **5.1** | MSTG-NETWORK-1 | Les données sont cryptées sur le réseau en utilisant TLS. Le canal sécurisé est utilisé systématiquement à travers toute l'application. | ✓ | ✓ |
 | **5.2** | MSTG-NETWORK-2 | Les réglages de TLS sont en ligne avec les meilleures pratiques, ou aussi proches que possible dans le cas où le système d'exploitation ne supporte pas les standards recommandés. | ✓ | ✓ |
 | **5.3** | MSTG-NETWORK-3 | L'application valide le certificat X.509 du point terminal distant lors de l'établissement du canal sécurisé. Seuls les certificats signés par une CA de confiance sont acceptés. | ✓ | ✓ |

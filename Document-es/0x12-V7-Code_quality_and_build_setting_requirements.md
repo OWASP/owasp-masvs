@@ -7,7 +7,7 @@ Estos controles buscan asegurar que se siguieron las prácticas de seguridad bá
 ## Requerimientos de Verificación de Seguridad
 
 | # | MSTG-ID | Descripción | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **7.1** | MSTG-CODE-1 | La aplicación es firmada y provista con un certificado válido, cuya clave privada está debidamente protegida. | ✓ | ✓ |
 | **7.2** | MSTG-CODE-2 | La aplicación fue publicada en modo release y con las configuraciones apropiadas para el mismo (por ejemplo, non-debuggable). | ✓ | ✓ |
 | **7.3** | MSTG-CODE-3 | Los símbolos de depuración fueron eliminados de los binarios nativos. | ✓ | ✓ |

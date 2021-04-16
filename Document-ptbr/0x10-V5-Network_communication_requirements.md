@@ -7,7 +7,7 @@ O propósito dos controles listados nessa seção é garantir a confidencialidad
 ## Requisitos de Verificação de Segurança
 
 | # | MSTG-ID | Descrição | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
+| -- | ---------- | ---------------------- | - | - |
 | **5.1** | MSTG-NETWORK-1 | Os dados são criptografados na rede utilizando TLS. O canal seguro é utilizado de forma consistente através do aplicativo. | ✓ | ✓ |
 | **5.2** | MSTG-NETWORK-2 | As configurações do TLS estão alinhadas com as melhores práticas atuais, ou o mais próximas possível se o sistema operacional móvel não oferece suporte aos padrões recomendados. | ✓ | ✓ |
 | **5.3** | MSTG-NETWORK-3 | O aplicativo verifica o certificado X.509 do terminal remoto quando o canal seguro é estabelecido. Apenas certificados assinados por uma CA confiável são aceitos. | ✓ | ✓ |
