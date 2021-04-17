@@ -16,7 +16,7 @@ Cumprir os requisitos do MASVS-L1 resulta em uma aplicação segura que segue as
 
 **II: Observe que os controles de proteção de _software_ listados no MASVS-R e descritos no _OWASP Mobile Security Testing Guide_ podem ser ignorados e nunca devem ser usados como substitutos de controles adicionais de proteção e específicos para ameaças a aplicativos que também atendem aos requisitos do MASVS no MASVS-L1 ou MASVS-L2.**
 
-<img src="images/masvs-levels-new.jpg" title="Níveis de Verificação" width="600px" height="253px" />
+![Níveis de Verificação](images/masvs-levels-new.jpg)
 
 ### Estrutura do Documento
 

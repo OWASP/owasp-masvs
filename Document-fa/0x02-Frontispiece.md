@@ -2,7 +2,7 @@
 
 # درباره‌ی استاندارد
 
-<img src="images/OWASP_logo.png" title="OWASP LOGO" />
+![OWASP Logo](images/OWASP_logo.png)
 
 به استاندارد وارسی امنیت برنامه‌ی کاربردی موبایل (MASVS) نسخه 1.1 خوش آمدید. MASVS یک تلاش جمعی برای برپاسازی چارچوبی از الزامات امنیتی مربوط به طراحی، توسعه و آزمون برنامه‌های کاربردی امن موبایل بر روی iOS و اندروید است.
 
@@ -15,7 +15,7 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 
 ## حق تکثیر و مجوز
 
-[<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Creative Commons License](images/CC-license.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 حق تکثیر © 2020 توسط بنیاد OWASP محفوظ است. این اثر تحت یک مجوز [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) منتشر می‌شود. جهت هرگونه استفاده مجدد یا توزیع، شما باید شرایط مجوز این اثر را برای دیگران روشن سازید.
 
@@ -49,9 +49,9 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 
 ### نیکوکاران محترم
 
-[<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
+[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/)
 
-[<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
+[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/)
 
 در ادامه مایلیم از OWASP Bay Area Chapter به خاطر حمایتشان قدردانی نماییم. در پایان مایلیم از تمام کسانی که کتاب را از [Leanpub](https://leanpub.com/mobile-security-testing-guide) خریداری کرده و ما را حمایت کردند تشکر و قدردانی نماییم.
 

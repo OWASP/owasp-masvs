@@ -1,8 +1,8 @@
 # Über den Standard
 
-<img src="images/OWASP_logo.png" title="OWASP LOGO" />
+![OWASP Logo](images/OWASP_logo.png)
 
-Willkommen beim Mobile Application Security Verification Standard (MASVS) 1.2. Der MASVS ist eine Community-Initiative mit dem Ziel ein Rahmenwerk von Security-Anforderungen für Design, Entwicklung und Test von mobilen Apps unter iOS und Android zu etablieren.
+Willkommen beim Mobile Application Security Verification Standard (MASVS). Der MASVS ist eine Community-Initiative mit dem Ziel ein Rahmenwerk von Security-Anforderungen für Design, Entwicklung und Test von mobilen Apps unter iOS und Android zu etablieren.
 
 Der MASVS vereint Community Engagement und Feedback aus der Praxis. Wir gehen davon aus dass der Standard sich über die Zeit weiter entwickelt und begrüßen jedes Feedback aus der Community. Der beste Weg mit uns in Kontakt zu treten ist der OWASP Mobile Project Slack Channel:
 [https://owasp.slack.com/messages/](https://owasp.slack.com/messages/project-mobile_omtg/details/).
@@ -12,7 +12,7 @@ Nutzerkonten können unter folgender URL angelegt werden:
 
 ## Copyright and License
 
-[<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Creative Commons License](images/CC-license.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Copyright © 2021 The OWASP Foundation. Dieses Dokument ist veröffentlicht unter der Creative Commons Attribution ShareAlike 3.0 Lizenz. Für jedwede Wiederverwendung oder Vertrieb müssen diese Lizenzbestimmungen klar kommuniziert werden.
 
@@ -46,10 +46,10 @@ Obwohl beide Projekte, der MASVS und der MSTG, auf freiwilliger Basis im Rahmen 
 
 ### "Honourable Benefactor" Sponsor
 
-[<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
+[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/)
 
 ### "Good Samaritan" Sponsor
 
-[<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
+[![RandoriSec MSTG](images/Randorisec_logo.png)](https://www.randorisec.fr/)
 
 Als nächstes möchten wir uns beim OWASP Bay Area Chapter für das Sponsoring bedanken. Zum Schluss möchten wir uns bei allen bedanken, die das Buch von [Leanpub](https://leanpub.com/mobile-security-testing-guide) gekauft und uns auf diese Weise gesponsert haben.

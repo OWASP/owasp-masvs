@@ -1,8 +1,8 @@
 # A Propos du Standard
 
-<img src="images/OWASP_logo.png" title="OWASP LOGO" />
+![OWASP Logo](images/OWASP_logo.png)
 
-Bienvenue sur le Mobile Application Security Verification Standard (MASVS) 1.2, le Standard de Validation de la Sécurité des Applications Mobiles. Le MASVS est un effort communautaire dont le but est d'établir un cadre concernant les exigences de sécurité pour le design, le développement et le test de sécurité des applications mobiles sur iOS et Android.
+Bienvenue sur le Mobile Application Security Verification Standard (MASVS), le Standard de Validation de la Sécurité des Applications Mobiles. Le MASVS est un effort communautaire dont le but est d'établir un cadre concernant les exigences de sécurité pour le design, le développement et le test de sécurité des applications mobiles sur iOS et Android.
 
 Le MASVS est l'aboutissement d'un effort communautaire et de retours d'expérience venant du monde de l'industrie. Le but de ce standard est d'évoluer dans le temps et, dans ce cadre, tout retour est le bienvenu. Le meilleur moyen de rentrer en contact avec nous est via le canal Slack OWASP Mobile Project: <https://owasp.slack.com/messages/project-mobile_omtg/details/>
 
@@ -10,7 +10,7 @@ Un compte peut être créé à l'endroit suivant: <https://owasp.slack.com/join/
 
 ## Copyright et Licence
 
-[<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Creative Commons License](images/CC-license.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Copyright © 2021 The OWASP Foundation. Ce document est publié sous la licence Creative Commons Attribution ShareAlike 4.0 International. Pour toute ré-utilisation ou distribution, il est obligatoire d'attribuer la licence de ce travail aux auteurs.
 
@@ -44,10 +44,10 @@ Tant le MASVS que le MSTG ont été créés et sont maintenus par la communauté
 
 ### Honorable Benefactor
 
-[<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
+[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/)
 
 ### Good Samaritan
 
-[<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
+[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/)
 
 Nous aimerions ensuite remercier le chapitre de la région OWASP Bay Area pour son parrainage. Enfin, nous voudrions remercier toutes les personnes qui ont acheté le livre à [Leanpub](https://leanpub.com/mobile-security-testing-guide) et qui nous ont parrainé de cette manière.

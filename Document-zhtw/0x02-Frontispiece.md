@@ -1,8 +1,8 @@
 # 關於本標準
 
-<img src="images/OWASP_logo.png" title="OWASP LOGO" />
+![OWASP Logo](images/OWASP_logo.png)
 
-歡迎參閱 Mobile Application Security Verification Standard (MASVS) 1.2 版. MASVS 是一個社群的成果，目的在於建立一個安全需求的架構給人們去設計、開發和測試iOS跟Android的安全行動應用程式。
+歡迎參閱 Mobile Application Security Verification Standard (MASVS). MASVS 是一個社群的成果，目的在於建立一個安全需求的架構給人們去設計、開發和測試iOS跟Android的安全行動應用程式。
 
 MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期望這份標準能夠隨著時間演進不斷更新，也十分歡迎來自社群的意見反饋。透過OWASP Mobile Project的Slack channel與我們連絡是聯絡我們的最佳方式，以下是我們的Slack channel連結: <https://owasp.slack.com/messages/project-mobile_omtg/details/>
 
@@ -10,7 +10,7 @@ MASVS是結合社群的努力和業界意見反饋來訂定的標準。我們期
 
 ## 版權和許可
 
-[<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Creative Commons License](images/CC-license.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Copyright © 2021 The OWASP Foundation. 本文檔在 Creative Commons Attribution ShareAlike 3.0 協議許可下發布。 對於任何二次使用或發布，你必須向其他人說明清楚這項成果的版權。
 
@@ -44,7 +44,7 @@ Copyright © 2021 The OWASP Foundation. 本文檔在 Creative Commons Attributio
 
 ### 特別感謝
 
-[<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
-[<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
+[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/)
+[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/)
 
 接下來，我們要感謝OWASP灣區分會的讚助。 最後，我們要感謝所有從[Leanpub](https://leanpub.com/mobile-security-testing-guide)購買這本書並以這種方式贊助我們的人。
