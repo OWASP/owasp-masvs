@@ -16,7 +16,7 @@ El cumplimiento de los requerimientos de MASVS-L1 dará como resultado una aplic
 
 **II: Los controles de protección de software listados en MASVS-R y descritos en la MSTG pueden ser eludidos y no deben nunca reemplazar los demás controles de seguridad. Al contrario, su intención es añadir controles de protección adicionales (específicos a ciertas amenazas) para las aplicaciones que ya de por sí cumplen los requerimientos MASVS-L1 y/o MASVS-L2.**
 
-<img src="images/masvs-levels-new.jpg" title="Verification Levels" width="600px" height="253px" />
+![Verification Levels](images/masvs-levels-new.jpg)
 
 ### Estructura del Documento
 

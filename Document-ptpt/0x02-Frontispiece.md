@@ -1,8 +1,8 @@
 # Sobre as Normas
 
-<img src="images/OWASP_logo.png" title="OWASP LOGO" />
+![OWASP Logo](images/OWASP_logo.png)
 
-Bem-vindo ao Mobile Application Security Verification Standard (MASVS) 1.2. O MASVS é uma comunidade que reúne esforços no sentido de estabelecer uma framework de requisitos de segurança necessários para o design, desenvolvimento e teste de aplicações móveis seguras, em iOS e Android.
+Bem-vindo ao Mobile Application Security Verification Standard (MASVS). O MASVS é uma comunidade que reúne esforços no sentido de estabelecer uma framework de requisitos de segurança necessários para o design, desenvolvimento e teste de aplicações móveis seguras, em iOS e Android.
 
 O MASVS é o culminar do esforço comunitário aliado ao feedback da própria indústria. A nossa expectativa é que este conjunto de normas evolua ao logo do tempo e encorajamos toda a comunidade a dar o seu feedback.
 
@@ -12,7 +12,7 @@ Para criar uma conta basta clicar no seguinte URL: [https://owasp.slack.com/join
 
 ## Direitos de autor e Licença
 
-[<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Creative Commons License](images/CC-license.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Copyright © 2021 The OWASP Foundation.Este documento está licenciado pela [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). Para reutilização e distribuição é necessário expor de forma clara os termos da licença.
 
@@ -48,10 +48,10 @@ Apesar de tanto o MASVS como o MSTG terem sido criados e mantidos por uma equipa
 
 ### Benfeitores Honoráveis
 
-[<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
+[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/)
 
 ### Bons Samaritanos Benfeitores
 
-[<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
+[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/)
 
 Gostaríamos de agradecer à OWASP Bay Area Chapter pelo seu patricínio. E por fim, gostaríamos, ainda, de agradecer a todos aqueles que nos patrocinaram de forma indireta, adquirindo o livro através da [Leanpub](https://leanpub.com/mobile-security-testing-guide).

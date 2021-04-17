@@ -16,7 +16,7 @@ MASVS-L1 の要件を満たすことで、セキュリティベストプラク�
 
 **II: 注意。MASVS-R や OWASP Mobile Security Testing Guide に列挙されているソフトウェア保護対策は、根本的にバイパスできないわけではありません。それで、種々のセキュリティコントロールの代用として使用すべきではありません。むしろ、MASVS-L1 もしくは MASVS-L2 として示した MASVS 要件をも満たす、脅威に対応した、適切なソフトウェア保護対策を施してください。**
 
-<img src="images/masvs-levels-new.jpg" title="検証レベル" width="600px" height="253px" />
+![Verification Levels](images/masvs-levels-new.jpg)
 
 ### ドキュメントの構成
 
