@@ -35,6 +35,9 @@ Copyright © 2021 The OWASP Foundation. 本文檔在 Creative Commons Attributio
 | 日文 | Koki Takeyama, Riotaro Okada (Review) |
 | 韓文 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | 俄文 | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| 波斯語 | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
+| 葡萄牙語 | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
+| 巴西葡萄牙語 | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
 
 本文檔最初是 Jim Manico 撰寫的 OWASP Application Security Verification Standard 的一個分支。
 

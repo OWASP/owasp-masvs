@@ -36,10 +36,13 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 | فارسی | Ramin Atefinia, Hamed Salimian, Bardiya Akbari, Dorna Azhirak, Mahsa Omidvar, Alireza Mazhari, Mehran Seifalinia, Milad Khoshdel |
 | فرانسوی | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | آلمانی | Rocco Gränitz, Sven Schleier (Review) |
+| هندی | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
 | ژاپنی | Koki Takeyama, Riotaro Okada (Review) |
 | کره‌ای | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | روسی | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | اسپانیایی | Martin Marsicano, Carlos Holguera |
+| پرتغالی (برزیلی) | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
+| پرتغالی | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
 
  این سند به‌عنوان یک fork از استاندارد وارسی برنامه‌ی کاربردی موبایل نوشته شده توسط Jim Manico آغاز شده است.
 
