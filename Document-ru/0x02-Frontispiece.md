@@ -39,6 +39,9 @@ Copyright © 2021 The OWASP Foundation. Данный документ выпущ
 | Японский | Koki Takeyama, Riotaro Okada (Review) |
 | Корейский | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | Русский | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| Персидский | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
+| португальский | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
+| бразильский португальский | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
 
 Работа над документом была начата как ответвление OWASP Application Security Verification Standard, написанного Jim Manico.
 

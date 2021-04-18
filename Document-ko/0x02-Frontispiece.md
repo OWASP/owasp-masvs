@@ -28,6 +28,7 @@ Copyright © 2021 The OWASP Foundation. 본 저작물은 [Creative Commons Attri
 
 | 언어 | 번역자 및 검토자 |
 | --------------- | ------------------------------------------------------------ |
+| 브라질 포르투갈어 | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
 | 중국어 전통 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | 중국어 간체 | Bob Peng, Harold Zang, Jack S |
 | 프랑스어 | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
@@ -37,6 +38,8 @@ Copyright © 2021 The OWASP Foundation. 본 저작물은 [Creative Commons Attri
 | 러시어아 | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | 힌디 어 | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
 | 한국어 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
+| 페르시아 인 | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
+| 포르투갈 인 | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
 
 본 문서는 Jim Manico가 작성한 OWASP 애플리케이션 보안 검증 표준의 포크로 시작되었습니다.
 

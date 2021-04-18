@@ -1,8 +1,8 @@
 # About the Standard
 
-![OWASP Logo](./images/OWASP_logo.png)
+![OWASP Logo](images/OWASP_logo.png)
 
-Welcome to the Mobile Application Security Verification Standard (MASVS) 1.2. The MASVS is a community effort to establish a framework of security requirements needed to design, develop and test secure mobile apps on iOS and Android.
+Welcome to the Mobile Application Security Verification Standard (MASVS). The MASVS is a community effort to establish a framework of security requirements needed to design, develop and test secure mobile apps on iOS and Android.
 
 The MASVS is a culmination of community effort and industry feedback. We expect this standard to evolve over time and welcome feedback from the community.
 
@@ -28,6 +28,7 @@ Copyright © 2020 The OWASP Foundation.This work is licensed under a [Creative C
 
 | Language | Translators & Reviewers |
 | --------------- | ------------------------------------------------------------ |
+| Brazilian Portuguese | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
 | Chinese (Traditonal) | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | Chinese (Simplified) | Bob Peng, Harold Zang, Jack S |
 | French | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
@@ -36,6 +37,7 @@ Copyright © 2020 The OWASP Foundation.This work is licensed under a [Creative C
 | Japanese | Koki Takeyama, Riotaro Okada (Review) |
 | Korean | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | Persian | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
+| Portuguese | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
 | Russian | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | Spanish | Martin Marsicano, Carlos Holguera |
 

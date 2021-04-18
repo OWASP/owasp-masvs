@@ -37,6 +37,7 @@ Copyright © 2021 The OWASP Foundation. Este documento é licenciado sob a licen
 | Hindi | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
 | Japonês | Koki Takeyama, Riotaro Okada (Revisão) |
 | Persa | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari |
+| Português | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
 | Português (Brasileiro) | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
 | Russo | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Revisão), Oprya Egor (Revisão), Tereshin Dmitry (Revisão) |
 

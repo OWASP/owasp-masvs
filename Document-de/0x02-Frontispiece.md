@@ -30,13 +30,16 @@ Copyright © 2021 The OWASP Foundation. Dieses Dokument ist veröffentlicht unte
 | --------------- | ------------------------------------------------------------ |
 | Chinesisch (Traditionell) | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | Chinesisch (Vereinfacht) | Bob Peng, Harold Zang, Jack S |
-| Französisch | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | Deutsch | Rocco Gränitz, Sven Schleier (Review) |
+| Französisch | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | Hindi | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
-| Spanisch | Martin Marsicano, Carlos Holguera |
 | Japanisch | Koki Takeyama, Riotaro Okada (Review) |
-| Russisch | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | Koreanisch | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
+| Persisch (Farsi) | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
+| Portugiesisch (Brasilien) | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
+| Portugiesisch | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
+| Russisch | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| Spanisch | Martin Marsicano, Carlos Holguera |
 
 Dieses Dokument basiert auf einem Fork des OWASP Application Security Verification Standard verfasst von Jim Manico.
 

@@ -30,6 +30,7 @@ Copyright © 2021 The OWASP Foundation. 本著作物は [Creative Commons Attrib
 
 | 言語 | 翻訳者およびレビュー担当者 |
 | --------------- | ------------------------------------------------------------ |
+| ブラジルポルトガル語 | Mateus Polastro, Humberto Junior, Rodrigo 
 | 繁体字中国語 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | 簡体字中国語 | Bob Peng, Harold Zang, Jack S |
 | フランス語 | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
@@ -37,6 +38,8 @@ Copyright © 2021 The OWASP Foundation. 本著作物は [Creative Commons Attrib
 | 日本語 | Koki Takeyama, Riotaro Okada (Review) |
 | 韓国語 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | ヒンディー語 | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
+| ペルシア語 | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
+| ポルトガル語 | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
 | ロシア語 | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | スペイン語 | Martin Marsicano, Carlos Holguera |
 
