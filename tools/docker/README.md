@@ -6,11 +6,24 @@ The MASVS document generation is based on pandocker: [https://github.com/dalibo/
 
 - Install Docker
 - `cd` to the MASVS root folder `owasp-masvs/`
-- Run the following and give a version number (**do not `cd` into `tools/docker` to run it**):
+- Run the `pandoc_makedocs.sh` script with the language folder and an optional version number (**do not `cd` into `tools/docker` to run it**):
 
     ```sh
-    $ ./tools/docker/run_docker_masvs_generation_on_local.sh 1.2
+    $ ./tools/docker/pandoc_makedocs.sh Document-es 1.2
     ```
+
+- You can set `VERBOSE=1` for a more detailed output
+
+- For non-european languages (Hindi, Persion, CJK, etc.) you need to use the `stable-full`
+  version of the docker image. Define the `TAG` variable like this :
+
+  ```sh
+  $ TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-ja
+  ```
+
+> __NOTE:__ The size `stable-full` docker image is approx. 800MB whereas the
+> regular `stable` version is 330MB.
+
 
 ## On GitHub
 
@@ -45,12 +58,10 @@ See the results in: <https://github.com/OWASP/owasp-masvs/actions>
 
 Given a new version:
 
-- Pull the image from docker hub (`docker pull owasp/masvs-generator:latest`)
 - Run Docker container which will run the generation script (`pandoc_makedocs.sh`).
 - The script should be self explanatory, it basically:
-  - Reads the LANGUAGE-METADATA for the given VERSION and language folder
+  - Reads the `metadata.md` for the given language folder
   - Using that metadata creates the cover dynamically including language and version (no GIMP required anymore!)
-  - For the CJK languages it configures the latex-header file using the right packages and fonts.
   - For more details, read the inline comments in `pandoc_makedocs.sh`.
 - The PDFs will be generated in the MASVS root folder.
 
