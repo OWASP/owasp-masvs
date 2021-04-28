@@ -17,7 +17,7 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 
 [![Creative Commons License](images/CC-license.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-حق تکثیر © 2020 توسط بنیاد OWASP محفوظ است. این اثر تحت یک مجوز [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) منتشر می‌شود. جهت هرگونه استفاده مجدد یا توزیع، شما باید شرایط مجوز این اثر را برای دیگران روشن سازید.
+حق تکثیر © 2021 توسط بنیاد OWASP محفوظ است. این اثر تحت یک مجوز [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) منتشر می‌شود. جهت هرگونه استفاده مجدد یا توزیع، شما باید شرایط مجوز این اثر را برای دیگران روشن سازید.
 
 <!-- \pagebreak -->
 
