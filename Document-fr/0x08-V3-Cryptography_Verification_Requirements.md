@@ -12,12 +12,12 @@ La cryptographie est un ingrédient essentiel pour la protection des données st
 
 | # | MSTG-ID | Description | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
-| **3.1** | MSTG-CRYPTO-1 | L'application n'utilise pas la cryptographie symétrique avec des clés codées en dur comme seule méthode de chiffrement.| ✓ | ✓ |
-| **3.2** | MSTG-CRYPTO-2 | L'application utilise des implémentations de primitives cryptographiques éprouvées. | ✓ | ✓ |
-| **3.3** | MSTG-CRYPTO-3 | L'application utilise des primitives cryptographiques appropriées au cas d'utilisation, configurées en adéquation avec les bonnes pratiques de l'industrie. | ✓ | ✓ |
-| **3.4** | MSTG-CRYPTO-4 | L'application n'utilise pas de protocole ou d'algorithme de cryptographie considéré par la communauté comme déprécié pour des raisons de sécurité. | ✓ | ✓ |
-| **3.5** | MSTG-CRYPTO-5 | L'application ne ré-utilise pas la même clé de cryptographie à des fins différentes. | ✓ | ✓ |
-| **3.6** | MSTG-CRYPTO-6 | Toute valeur aléatoire est générée par un générateur de nombres aléatoires offrant un bon niveau de sécurité. | ✓ | ✓ |
+| **3.1** | MSTG-CRYPTO-1 | L'application n'utilise pas la cryptographie symétrique avec des clés codées en dur comme seule méthode de chiffrement.| x | x |
+| **3.2** | MSTG-CRYPTO-2 | L'application utilise des implémentations de primitives cryptographiques éprouvées. | x | x |
+| **3.3** | MSTG-CRYPTO-3 | L'application utilise des primitives cryptographiques appropriées au cas d'utilisation, configurées en adéquation avec les bonnes pratiques de l'industrie. | x | x |
+| **3.4** | MSTG-CRYPTO-4 | L'application n'utilise pas de protocole ou d'algorithme de cryptographie considéré par la communauté comme déprécié pour des raisons de sécurité. | x | x |
+| **3.5** | MSTG-CRYPTO-5 | L'application ne ré-utilise pas la même clé de cryptographie à des fins différentes. | x | x |
+| **3.6** | MSTG-CRYPTO-6 | Toute valeur aléatoire est générée par un générateur de nombres aléatoires offrant un bon niveau de sécurité. | x | x |
 
 ## Références
 

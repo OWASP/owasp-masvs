@@ -24,21 +24,21 @@ The following considerations apply:
 
 | # | MSTG-ID | Description | R |
 | -- | ----------- | ---------------------- | - |
-| **8.1** | MSTG-RESILIENCE-1 | The app detects, and responds to, the presence of a rooted or jailbroken device either by alerting the user or terminating the app. | ✓ |
-| **8.2** | MSTG-RESILIENCE-2 | The app prevents debugging and/or detects, and responds to, a debugger being attached. All available debugging protocols must be covered. | ✓ |
-| **8.3** | MSTG-RESILIENCE-3 | The app detects, and responds to, tampering with executable files and critical data within its own sandbox. | ✓ |
-| **8.4** | MSTG-RESILIENCE-4 | The app detects, and responds to, the presence of widely used reverse engineering tools and frameworks on the device.| ✓ |
-| **8.5** | MSTG-RESILIENCE-5 | The app detects, and responds to, being run in an emulator.  | ✓ |
-| **8.6** | MSTG-RESILIENCE-6 | The app detects, and responds to, tampering the code and data in its own memory space. | ✓ |
-| **8.7** | MSTG-RESILIENCE-7 | The app implements multiple mechanisms in each defense category (8.1 to 8.6). Note that resiliency scales with the amount, diversity of the originality of the mechanisms used. | ✓ |
-| **8.8** | MSTG-RESILIENCE-8 | The detection mechanisms trigger responses of different types, including delayed and stealthy responses. | ✓ |
-| **8.9** | MSTG-RESILIENCE-9 | Obfuscation is applied to programmatic defenses, which in turn impede de-obfuscation via dynamic analysis.  | ✓ |
+| **8.1** | MSTG-RESILIENCE-1 | The app detects, and responds to, the presence of a rooted or jailbroken device either by alerting the user or terminating the app. | x |
+| **8.2** | MSTG-RESILIENCE-2 | The app prevents debugging and/or detects, and responds to, a debugger being attached. All available debugging protocols must be covered. | x |
+| **8.3** | MSTG-RESILIENCE-3 | The app detects, and responds to, tampering with executable files and critical data within its own sandbox. | x |
+| **8.4** | MSTG-RESILIENCE-4 | The app detects, and responds to, the presence of widely used reverse engineering tools and frameworks on the device.| x |
+| **8.5** | MSTG-RESILIENCE-5 | The app detects, and responds to, being run in an emulator.  | x |
+| **8.6** | MSTG-RESILIENCE-6 | The app detects, and responds to, tampering the code and data in its own memory space. | x |
+| **8.7** | MSTG-RESILIENCE-7 | The app implements multiple mechanisms in each defense category (8.1 to 8.6). Note that resiliency scales with the amount, diversity of the originality of the mechanisms used. | x |
+| **8.8** | MSTG-RESILIENCE-8 | The detection mechanisms trigger responses of different types, including delayed and stealthy responses. | x |
+| **8.9** | MSTG-RESILIENCE-9 | Obfuscation is applied to programmatic defenses, which in turn impede de-obfuscation via dynamic analysis.  | x |
 
 ### Device Binding
 
 | # | MSTG-ID | Description | R |
 | -- | ----------- | ---------------------- | - |
-| **8.10** | MSTG-RESILIENCE-10 | The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device. | ✓ |
+| **8.10** | MSTG-RESILIENCE-10 | The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device. | x |
 
 <!-- \pagebreak -->
 
@@ -46,14 +46,14 @@ The following considerations apply:
 
 | # | MSTG-ID | Description | R |
 | -- | ----------- | ---------------------- | - |
-| **8.11** | MSTG-RESILIENCE-11 |All executable files and libraries belonging to the app are either encrypted on the file level and/or important code and data segments inside the executables are encrypted or packed. Trivial static analysis does not reveal important code or data. | ✓ |
-| **8.12** | MSTG-RESILIENCE-12 | If the goal of obfuscation is to protect sensitive computations, an obfuscation scheme is used that is both appropriate for the particular task and robust against manual and automated de-obfuscation methods, considering currently published research. The effectiveness of the obfuscation scheme must be verified through manual testing. Note that hardware-based isolation features are preferred over obfuscation whenever possible. | ✓ |
+| **8.11** | MSTG-RESILIENCE-11 |All executable files and libraries belonging to the app are either encrypted on the file level and/or important code and data segments inside the executables are encrypted or packed. Trivial static analysis does not reveal important code or data. | x |
+| **8.12** | MSTG-RESILIENCE-12 | If the goal of obfuscation is to protect sensitive computations, an obfuscation scheme is used that is both appropriate for the particular task and robust against manual and automated de-obfuscation methods, considering currently published research. The effectiveness of the obfuscation scheme must be verified through manual testing. Note that hardware-based isolation features are preferred over obfuscation whenever possible. | x |
 
 ### Impede Eavesdropping
 
 | # | MSTG-ID | Description | R |
 | -- | ----------- | ---------------------- | - |
-| **8.13** | MSTG-RESILIENCE-13 | As a defense in depth, next to having solid hardening of the communicating parties, application level payload encryption can be applied to further impede eavesdropping. | ✓ |
+| **8.13** | MSTG-RESILIENCE-13 | As a defense in depth, next to having solid hardening of the communicating parties, application level payload encryption can be applied to further impede eavesdropping. | x |
 
 <!-- \pagebreak -->
 

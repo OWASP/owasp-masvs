@@ -20,21 +20,21 @@ A ampla maioria dos problemas de vazamento de dados podem ser prevenidos seguind
 
 | # | MSTG-ID | Descrição | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
-| **2.1** | MSTG-STORAGE-1 | Recursos de armazenamento de credenciais do sistema devem ser utilizados para armazenar dados sensíveis, como dados pessoais (PII), credenciais de usuário ou chaves criptográficas. | ✓ | ✓ |
-| **2.2** | MSTG-STORAGE-2 | Dados sensíveis não devem ser armazenados fora do contêiner do aplicativo ou de recursos de armazenamento de credenciais do sistema. | ✓ | ✓ |
-| **2.3** | MSTG-STORAGE-3 | Dados sensíveis não podem aparecer nos *logs* de aplicação. | ✓ | ✓ |
-| **2.4** | MSTG-STORAGE-4 | Dados sensíveis não devem ser compartilhados com terceiros exceto se for uma parte necessária da arquitetura. | ✓ | ✓ |
-| **2.5** | MSTG-STORAGE-5 | O _cache_ do teclado deve estar desabilitado nas entradas de usuário que processam dados sensíveis. | ✓ | ✓ |
-| **2.6** | MSTG-STORAGE-6 | Dados sensíveis não devem ser expostos através de mecanismos IPC. | ✓ | ✓ |
-| **2.7** | MSTG-STORAGE-7 | Dados sensíveis, como senhas ou PINs, não devem ser expostos através da interface de usuário. | ✓ | ✓ |
-| **2.8** | MSTG-STORAGE-8 | Dados sensíveis não devem ser incluídos nos _backups_ gerados pelo sistema operacional móvel. |   | ✓ |
-| **2.9** | MSTG-STORAGE-9 | O aplicativo deve remover dados sensíveis da visualização quando ficar em segundo plano. |  | ✓ |
-| **2.10** | MSTG-STORAGE-10 | O aplicativo não deve manter dados sensíveis em memória mais tempo do que o necessário, e a memória deve ser completamente limpa depois do uso. |  | ✓ |
-| **2.11** | MSTG-STORAGE-11 | O aplicativo deve reforçar o uso de políticas mínimas de segurança no acesso ao dispositivo, como pedir que o usuário defina um código de acesso ao dispositivo. |  | ✓ |
-| **2.12** | MSTG-STORAGE-12 | O aplicativo deve ensinar o usuário sobre os tipos de Informação de Identificação Pessoal (PII) que são processadas, assim como melhores práticas de segurança que o usuário deve seguir quando utilizar o aplicativo. |  | ✓ |
-| **2.13** | MSTG-STORAGE-13 | Dados sensíveis não devem ser armazenados localmente no dispositivo móvel. Em vez disso, os dados devem ser recuperados de um _terminal_ remoto quando necessário e mantidos apenas em memória. |  | ✓ |
-| **2.14** | MSTG-STORAGE-14 | Se ainda assim for necessário armazenar dados pessoais localmente, eles devem ser cifrados utilizando uma chave derivada do armazenamento suportado pelo _hardware_ que requeira autenticação. |  | ✓ |
-| **2.15** | MSTG-STORAGE-15 | O armazenamento local do aplicativo deve ser completamente apagado (_wipe_) após um número excessivo de tentativas de autenticação sem sucesso. |  | ✓ |
+| **2.1** | MSTG-STORAGE-1 | Recursos de armazenamento de credenciais do sistema devem ser utilizados para armazenar dados sensíveis, como dados pessoais (PII), credenciais de usuário ou chaves criptográficas. | x | x |
+| **2.2** | MSTG-STORAGE-2 | Dados sensíveis não devem ser armazenados fora do contêiner do aplicativo ou de recursos de armazenamento de credenciais do sistema. | x | x |
+| **2.3** | MSTG-STORAGE-3 | Dados sensíveis não podem aparecer nos *logs* de aplicação. | x | x |
+| **2.4** | MSTG-STORAGE-4 | Dados sensíveis não devem ser compartilhados com terceiros exceto se for uma parte necessária da arquitetura. | x | x |
+| **2.5** | MSTG-STORAGE-5 | O _cache_ do teclado deve estar desabilitado nas entradas de usuário que processam dados sensíveis. | x | x |
+| **2.6** | MSTG-STORAGE-6 | Dados sensíveis não devem ser expostos através de mecanismos IPC. | x | x |
+| **2.7** | MSTG-STORAGE-7 | Dados sensíveis, como senhas ou PINs, não devem ser expostos através da interface de usuário. | x | x |
+| **2.8** | MSTG-STORAGE-8 | Dados sensíveis não devem ser incluídos nos _backups_ gerados pelo sistema operacional móvel. |   | x |
+| **2.9** | MSTG-STORAGE-9 | O aplicativo deve remover dados sensíveis da visualização quando ficar em segundo plano. |  | x |
+| **2.10** | MSTG-STORAGE-10 | O aplicativo não deve manter dados sensíveis em memória mais tempo do que o necessário, e a memória deve ser completamente limpa depois do uso. |  | x |
+| **2.11** | MSTG-STORAGE-11 | O aplicativo deve reforçar o uso de políticas mínimas de segurança no acesso ao dispositivo, como pedir que o usuário defina um código de acesso ao dispositivo. |  | x |
+| **2.12** | MSTG-STORAGE-12 | O aplicativo deve ensinar o usuário sobre os tipos de Informação de Identificação Pessoal (PII) que são processadas, assim como melhores práticas de segurança que o usuário deve seguir quando utilizar o aplicativo. |  | x |
+| **2.13** | MSTG-STORAGE-13 | Dados sensíveis não devem ser armazenados localmente no dispositivo móvel. Em vez disso, os dados devem ser recuperados de um _terminal_ remoto quando necessário e mantidos apenas em memória. |  | x |
+| **2.14** | MSTG-STORAGE-14 | Se ainda assim for necessário armazenar dados pessoais localmente, eles devem ser cifrados utilizando uma chave derivada do armazenamento suportado pelo _hardware_ que requeira autenticação. |  | x |
+| **2.15** | MSTG-STORAGE-15 | O armazenamento local do aplicativo deve ser completamente apagado (_wipe_) após um número excessivo de tentativas de autenticação sem sucesso. |  | x |
 
 ## Referências
 
