@@ -8,7 +8,6 @@ Os controlos neste grupo asseguram que a aplicação utiliza Interfaces de Progr
 
 | # | MSTG-ID | Descrição | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
-
 | **6.1** | MSTG-PLATFORM-1 | A aplicação apenas requer o conjunto mínimo de permissões necessárias. | x | x |
 | **6.2** | MSTG-PLATFORM-2 | Quaisquer dados obtidos por fonte externa (utilizador e outros) são validados e, se necessário, sanitizados. Aqui estão incluídos quaisquer dados obtidos através de interface visual (UI), via comunicação inter-processos (IPC), incorporados nos localizadores de instâncias (URL), assim como por recursos de rede.| x | x |
 | **6.3** | MSTG-PLATFORM-3 | A aplicação não exporta qualquer informação sensível via esquemas de localizadores de instâncias (URL) customizados, excepto nos casos em que esses mecanismos estão devidamente protegidos. | x | x |
