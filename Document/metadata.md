@@ -14,8 +14,8 @@ monofont: 'DejaVu Sans Mono'
 # General variables
 toc: true
 toc-depth: 2
-numbersections: true
-secnumdepth: 2
+# numbersections: true
+# secnumdepth: 2
 linkcolor: blue
 
 # Language variables
@@ -27,4 +27,5 @@ lang: 'en'
 # https://github.com/Wandmalfarbe/pandoc-latex-template#custom-template-variables
 code-block-font-size: '\tiny'
 
+table-use-row-colors: true
 ---
