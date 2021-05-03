@@ -8,12 +8,12 @@ O propósito dos controles listados nessa seção é garantir a confidencialidad
 
 | # | MSTG-ID | Descrição | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
-| **5.1** | MSTG-NETWORK-1 | Os dados são criptografados na rede utilizando TLS. O canal seguro é utilizado de forma consistente através do aplicativo. | ✓ | ✓ |
-| **5.2** | MSTG-NETWORK-2 | As configurações do TLS estão alinhadas com as melhores práticas atuais, ou o mais próximas possível se o sistema operacional móvel não oferece suporte aos padrões recomendados. | ✓ | ✓ |
-| **5.3** | MSTG-NETWORK-3 | O aplicativo verifica o certificado X.509 do terminal remoto quando o canal seguro é estabelecido. Apenas certificados assinados por uma CA confiável são aceitos. | ✓ | ✓ |
-| **5.4** | MSTG-NETWORK-4 | O aplicativo utiliza seu próprio armazenamento de certificados, ou define um certificado ou chave pública do terminal e, posteriormente, não estabelece conexões com terminais que ofereçam um certificado ou chave diferente, mesmo que assinados por uma CA confiável. |   | ✓ |
-| **5.5** | MSTG-NETWORK-5 | O aplicativo não confia em um único canal de comunicações inseguro (email ou SMS) para operações críticas, como registros/cadastros ou recuperação de conta. |  | ✓ |
-| **5.6** | MSTG-NETWORK-6 | O aplicativo depende de conectividade e bibliotecas de segurança atualizadas. |  | ✓ |
+| **5.1** | MSTG-NETWORK-1 | Os dados são criptografados na rede utilizando TLS. O canal seguro é utilizado de forma consistente através do aplicativo. | x | x |
+| **5.2** | MSTG-NETWORK-2 | As configurações do TLS estão alinhadas com as melhores práticas atuais, ou o mais próximas possível se o sistema operacional móvel não oferece suporte aos padrões recomendados. | x | x |
+| **5.3** | MSTG-NETWORK-3 | O aplicativo verifica o certificado X.509 do terminal remoto quando o canal seguro é estabelecido. Apenas certificados assinados por uma CA confiável são aceitos. | x | x |
+| **5.4** | MSTG-NETWORK-4 | O aplicativo utiliza seu próprio armazenamento de certificados, ou define um certificado ou chave pública do terminal e, posteriormente, não estabelece conexões com terminais que ofereçam um certificado ou chave diferente, mesmo que assinados por uma CA confiável. |   | x |
+| **5.5** | MSTG-NETWORK-5 | O aplicativo não confia em um único canal de comunicações inseguro (email ou SMS) para operações críticas, como registros/cadastros ou recuperação de conta. |  | x |
+| **5.6** | MSTG-NETWORK-6 | O aplicativo depende de conectividade e bibliotecas de segurança atualizadas. |  | x |
 
 ## Referências
 

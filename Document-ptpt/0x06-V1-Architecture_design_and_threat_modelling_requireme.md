@@ -13,18 +13,18 @@ Os requisitos para MASVS-L1 e MASVS-L2 estão listados em baixo.
 
 | # | MSTG-ID | Descrição| L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
-| **1.1** | MSTG-ARCH-1 | Todos os componentes da aplicação estão identificados e são necessários. | ✓ | ✓ |
-| **1.2** | MSTG-ARCH-2 | Controlos de segurança nunca são forçados apenas no lado do cliente, mas também no respetivo ponto de acesso remoto. | ✓ | ✓ |
-| **1.3** | MSTG-ARCH-3 | Uma arquitetura de alto nível para a aplicação móvel e todos os serviços remotos foi definida e a segurança foi endereçada nessa arquitetura. | ✓ | ✓ |
-| **1.4** | MSTG-ARCH-4 | Informação considerada sensível no contexto da aplicação móvel está claramente identificada. | ✓ | ✓ |
-| **1.5** | MSTG-ARCH-5 | Todos os componentes da aplicação estão definidos em termos de funções negócio e/ou funções de segurança que os mesmos providenciam. |  | ✓ |
-| **1.6** | MSTG-ARCH-6 | Modelação de ameaças para a aplicação móvel e os serviços remotos associados que identifica potenciais ameaças e contramedidas foi produzido. |  | ✓ |
-| **1.7** | MSTG-ARCH-7 | Todos os controlos de segurança têm uma implementação centralizada. |  | ✓ |
-| **1.8** | MSTG-ARCH-8 | Existe uma política explicita de como chaves de criptografia (caso existam) são geridas, e o ciclo de vida das chaves de criptografia é imposto. O ideal é seguir um padrão para gestão de chaves, como o NIST SP 800-57. |  | ✓ |
-| **1.9** | MSTG-ARCH-9 | Existe um mecanismo para impor atualizações da aplicação móvel. |  | ✓ |
-| **1.10** | MSTG-ARCH-10 | Segurança é endereçada em todas as partes do ciclo de vida do software. |  | ✓ |
-| **1.11** | MSTG-ARCH-11 | Uma política de divulgação responsável é usada e aplicada de forma efetiva. |  | ✓ |
-| **1.12** | MSTG-ARCH-12 | A aplicação deverá ser compatível com leis de privacidade e regulações. | ✓ | ✓ |
+| **1.1** | MSTG-ARCH-1 | Todos os componentes da aplicação estão identificados e são necessários. | x | x |
+| **1.2** | MSTG-ARCH-2 | Controlos de segurança nunca são forçados apenas no lado do cliente, mas também no respetivo ponto de acesso remoto. | x | x |
+| **1.3** | MSTG-ARCH-3 | Uma arquitetura de alto nível para a aplicação móvel e todos os serviços remotos foi definida e a segurança foi endereçada nessa arquitetura. | x | x |
+| **1.4** | MSTG-ARCH-4 | Informação considerada sensível no contexto da aplicação móvel está claramente identificada. | x | x |
+| **1.5** | MSTG-ARCH-5 | Todos os componentes da aplicação estão definidos em termos de funções negócio e/ou funções de segurança que os mesmos providenciam. |  | x |
+| **1.6** | MSTG-ARCH-6 | Modelação de ameaças para a aplicação móvel e os serviços remotos associados que identifica potenciais ameaças e contramedidas foi produzido. |  | x |
+| **1.7** | MSTG-ARCH-7 | Todos os controlos de segurança têm uma implementação centralizada. |  | x |
+| **1.8** | MSTG-ARCH-8 | Existe uma política explicita de como chaves de criptografia (caso existam) são geridas, e o ciclo de vida das chaves de criptografia é imposto. O ideal é seguir um padrão para gestão de chaves, como o NIST SP 800-57. |  | x |
+| **1.9** | MSTG-ARCH-9 | Existe um mecanismo para impor atualizações da aplicação móvel. |  | x |
+| **1.10** | MSTG-ARCH-10 | Segurança é endereçada em todas as partes do ciclo de vida do software. |  | x |
+| **1.11** | MSTG-ARCH-11 | Uma política de divulgação responsável é usada e aplicada de forma efetiva. |  | x |
+| **1.12** | MSTG-ARCH-12 | A aplicação deverá ser compatível com leis de privacidade e regulações. | x | x |
 
 ## Referências
 

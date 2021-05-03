@@ -8,17 +8,17 @@ Estos controles revisan que se utilicen las APIs de la plataforma y componentes 
 
 | # | MSTG-ID | Descripción | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
-| **6.1** | MSTG-PLATFORM-1 | La aplicación requiere la cantidad de permisos mínimamente necesaria. | ✓ | ✓ |
-| **6.2** | MSTG-PLATFORM-2 | Todo dato ingresado por el usuario o cualquier fuente externa debe ser validado y, si es necesario, saneado. Esto incluye información recibida por la UI o mecanismos IPC como los Intents, URLs y datos provenientes de la red. | ✓ | ✓ |
-| **6.3** | MSTG-PLATFORM-3 | La aplicación no expone ninguna funcionalidad sensible a través esquemas de URL salvo que dichos mecanismos estén debidamente protegidos. | ✓ | ✓ |
-| **6.4** | MSTG-PLATFORM-4 | La aplicación no expone ninguna funcionalidad sensible a través de mecanismos IPC salvo que dichos mecanismos estén debidamente protegidos. | ✓ | ✓ |
-| **6.5** | MSTG-PLATFORM-5 | JavaScript se encuentra deshabilitado en los WebViews salvo que sea necesario. | ✓ | ✓ |
-| **6.6** | MSTG-PLATFORM-6 | Las WebViews se configuran para permitir el mínimo de los esquemas (idealmente, sólo https). Esquemas peligrosos como file, tel y app-id están deshabilitados. | ✓ | ✓ |
-| **6.7** | MSTG-PLATFORM-7 | Si objetos nativos son expuestos en WebViews, debe verificarse que cualquier componente JavaScript se carga exclusivamente desde el contenedor de la aplicación. | ✓ | ✓ |
-| **6.8** | MSTG-PLATFORM-8 | La serialización de objetos, si se realiza, debe implementarse utilizando API seguras. | ✓ | ✓ |
-| **6.9** | MSTG-PLATFORM-9 | La aplicación se protege contra ataques de tipo screen overlay. (sólo Android) |  | ✓ |
-| **6.10** | MSTG-PLATFORM-10 | La caché, el almacenamiento y los recursos cargados (JavaScript, etc.) de las WebViews deben de borrarse antes de destruir la WebView. |  | ✓ |
-| **6.11** | MSTG-PLATFORM-11 | Verificar que la aplicación impide el uso de teclados de terceros siempre que se introduzca información sensible. (sólo iOS) |  | ✓ |
+| **6.1** | MSTG-PLATFORM-1 | La aplicación requiere la cantidad de permisos mínimamente necesaria. | x | x |
+| **6.2** | MSTG-PLATFORM-2 | Todo dato ingresado por el usuario o cualquier fuente externa debe ser validado y, si es necesario, saneado. Esto incluye información recibida por la UI o mecanismos IPC como los Intents, URLs y datos provenientes de la red. | x | x |
+| **6.3** | MSTG-PLATFORM-3 | La aplicación no expone ninguna funcionalidad sensible a través esquemas de URL salvo que dichos mecanismos estén debidamente protegidos. | x | x |
+| **6.4** | MSTG-PLATFORM-4 | La aplicación no expone ninguna funcionalidad sensible a través de mecanismos IPC salvo que dichos mecanismos estén debidamente protegidos. | x | x |
+| **6.5** | MSTG-PLATFORM-5 | JavaScript se encuentra deshabilitado en los WebViews salvo que sea necesario. | x | x |
+| **6.6** | MSTG-PLATFORM-6 | Las WebViews se configuran para permitir el mínimo de los esquemas (idealmente, sólo https). Esquemas peligrosos como file, tel y app-id están deshabilitados. | x | x |
+| **6.7** | MSTG-PLATFORM-7 | Si objetos nativos son expuestos en WebViews, debe verificarse que cualquier componente JavaScript se carga exclusivamente desde el contenedor de la aplicación. | x | x |
+| **6.8** | MSTG-PLATFORM-8 | La serialización de objetos, si se realiza, debe implementarse utilizando API seguras. | x | x |
+| **6.9** | MSTG-PLATFORM-9 | La aplicación se protege contra ataques de tipo screen overlay. (sólo Android) |  | x |
+| **6.10** | MSTG-PLATFORM-10 | La caché, el almacenamiento y los recursos cargados (JavaScript, etc.) de las WebViews deben de borrarse antes de destruir la WebView. |  | x |
+| **6.11** | MSTG-PLATFORM-11 | Verificar que la aplicación impide el uso de teclados de terceros siempre que se introduzca información sensible. (sólo iOS) |  | x |
 
 ## Referencias
 

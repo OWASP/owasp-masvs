@@ -12,12 +12,12 @@ La criptografía es un componente esencial a la hora de proteger los datos almac
 
 | # | MSTG-ID | Descripción | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
-| **3.1** | MSTG-CRYPTO-1 | La aplicación no depende únicamente de criptografía simétrica cuyas claves se encuentran directamente en el código fuente de la misma.| ✓ | ✓ |
-| **3.2** | MSTG-CRYPTO-2 | La aplicación utiliza implementaciones de criptografía probadas. | ✓ | ✓ |
-| **3.3** | MSTG-CRYPTO-3 | La aplicación utiliza primitivas de seguridad que son apropiadas para el caso particular y su configuración y parámetros siguen las mejores prácticas de la industria. | ✓ | ✓ |
-| **3.4** | MSTG-CRYPTO-4 | La aplicación no utiliza protocolos o algoritmos criptográficos ampliamente considerados obsoletos para su uso en seguridad. | ✓ | ✓ |
-| **3.5** | MSTG-CRYPTO-5 | La aplicación no reutiliza una misma clave criptográfica para varios propósitos. | ✓ | ✓ |
-| **3.6** | MSTG-CRYPTO-6 | Los valores aleatorios son generados utilizando un generador de números aleatorios suficientemente seguro. | ✓ | ✓ |
+| **3.1** | MSTG-CRYPTO-1 | La aplicación no depende únicamente de criptografía simétrica cuyas claves se encuentran directamente en el código fuente de la misma.| x | x |
+| **3.2** | MSTG-CRYPTO-2 | La aplicación utiliza implementaciones de criptografía probadas. | x | x |
+| **3.3** | MSTG-CRYPTO-3 | La aplicación utiliza primitivas de seguridad que son apropiadas para el caso particular y su configuración y parámetros siguen las mejores prácticas de la industria. | x | x |
+| **3.4** | MSTG-CRYPTO-4 | La aplicación no utiliza protocolos o algoritmos criptográficos ampliamente considerados obsoletos para su uso en seguridad. | x | x |
+| **3.5** | MSTG-CRYPTO-5 | La aplicación no reutiliza una misma clave criptográfica para varios propósitos. | x | x |
+| **3.6** | MSTG-CRYPTO-6 | Los valores aleatorios son generados utilizando un generador de números aleatorios suficientemente seguro. | x | x |
 
 ## Referencias
 

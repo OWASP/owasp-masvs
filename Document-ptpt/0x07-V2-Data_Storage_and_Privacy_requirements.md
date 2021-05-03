@@ -20,21 +20,21 @@ A grande maioria dos problemas de exposição de dados pode ser evitada através
 
 | # | MSTG-ID | Descrição | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
-| **2.1** | MSTG-STORAGE-1 | Sistemas para armazenamento de credenciais têm ser utilizados para guardar informação sensível como PII, credenciais de utilizador ou chaves criptográficas. | ✓ | ✓ |
-| **2.2** | MSTG-STORAGE-2 | Nunca guardar informação privada fora do contexto da aplicação ou dos sistemas para armazenamento de credenciais. | ✓ | ✓ |
-| **2.3** | MSTG-STORAGE-3 | Nenhuma informação sensível é exposta nos registos de actividade (logs) da aplicação. | ✓ | ✓ |
-| **2.4** | MSTG-STORAGE-4 | Nenhuma informação sensível é partilhada com aplicações externas excepto se seja necessário por parte da arquitetura. | ✓ | ✓ |
-| **2.5** | MSTG-STORAGE-5 | A cache do teclado está desativada nos controlos de entrada de texto relativos a dados sensíveis. | ✓ | ✓ |
-| **2.6** | MSTG-STORAGE-6 | Nenhuma informação sensível é exposta via comunicação inter-processos (IPC). | ✓ | ✓ |
-| **2.7** | MSTG-STORAGE-7 | Nenhuma informação sensível, nomeadamente palavras-passe, é exposta na interface apresentada ao utilizador. | ✓ | ✓ |
-| **2.8** | MSTG-STORAGE-8 | MSTG-STORAGE-8 | Nenhuma informação sensível é incluída nas cópias de segurança geradas pelo sistema operativo móvel. |   | ✓ |
-| **2.9** | MSTG-STORAGE-9 | A aplicação remove informação sensível das vistas, quando a aplicação é enviada para segundo plano. |  | ✓ |
-| **2.10** | MSTG-STORAGE-10 | A aplicação não guarda em memória informação sensível durante um período maior que o necessário, sendo que essa mesma informação é apagada findo o respectivo uso. |  | ✓ |
-| **2.11** | MSTG-STORAGE-11 | A aplicação reforça uma política mínima de segurança no acesso ao dispositivo, como por exemplo a necessidade do utilizador definir um código-passe. |  | ✓ |
-| **2.12** | MSTG-STORAGE-12 | A aplicação educa o utilizador sobre os tipos de informação de identificação pessoal processada, assim como as práticas de segurança que o utilizador deve seguir durante a utilização da mesma. |  | ✓ |
-| **2.13** | MSTG-STORAGE-13 | Nenhuns dados sensível são guardados localmente no dispositivo móvel. Em vez disso, os dados devem de ser obtidos através de um pedido a um ponto de acesso remoto quando necessário e apenas serem mantidos em memória. |  | ✓ |
-| **2.14** | MSTG-STORAGE-14 | Caso seja necessário guardar localmente dados sensíveis, estes devem ser cifrados com uma chave derivada de armazenamento em hardware que exija autenticação. |  | ✓ |
-| **2.15** | MSTG-STORAGE-15 | O armazenamento local da aplicação deve ser limpo após uma excessiva quantidade de tentativas de autenticação. |  | ✓ |
+| **2.1** | MSTG-STORAGE-1 | Sistemas para armazenamento de credenciais têm ser utilizados para guardar informação sensível como PII, credenciais de utilizador ou chaves criptográficas. | x | x |
+| **2.2** | MSTG-STORAGE-2 | Nunca guardar informação privada fora do contexto da aplicação ou dos sistemas para armazenamento de credenciais. | x | x |
+| **2.3** | MSTG-STORAGE-3 | Nenhuma informação sensível é exposta nos registos de actividade (logs) da aplicação. | x | x |
+| **2.4** | MSTG-STORAGE-4 | Nenhuma informação sensível é partilhada com aplicações externas excepto se seja necessário por parte da arquitetura. | x | x |
+| **2.5** | MSTG-STORAGE-5 | A cache do teclado está desativada nos controlos de entrada de texto relativos a dados sensíveis. | x | x |
+| **2.6** | MSTG-STORAGE-6 | Nenhuma informação sensível é exposta via comunicação inter-processos (IPC). | x | x |
+| **2.7** | MSTG-STORAGE-7 | Nenhuma informação sensível, nomeadamente palavras-passe, é exposta na interface apresentada ao utilizador. | x | x |
+| **2.8** | MSTG-STORAGE-8 | MSTG-STORAGE-8 | Nenhuma informação sensível é incluída nas cópias de segurança geradas pelo sistema operativo móvel. |   | x |
+| **2.9** | MSTG-STORAGE-9 | A aplicação remove informação sensível das vistas, quando a aplicação é enviada para segundo plano. |  | x |
+| **2.10** | MSTG-STORAGE-10 | A aplicação não guarda em memória informação sensível durante um período maior que o necessário, sendo que essa mesma informação é apagada findo o respectivo uso. |  | x |
+| **2.11** | MSTG-STORAGE-11 | A aplicação reforça uma política mínima de segurança no acesso ao dispositivo, como por exemplo a necessidade do utilizador definir um código-passe. |  | x |
+| **2.12** | MSTG-STORAGE-12 | A aplicação educa o utilizador sobre os tipos de informação de identificação pessoal processada, assim como as práticas de segurança que o utilizador deve seguir durante a utilização da mesma. |  | x |
+| **2.13** | MSTG-STORAGE-13 | Nenhuns dados sensível são guardados localmente no dispositivo móvel. Em vez disso, os dados devem de ser obtidos através de um pedido a um ponto de acesso remoto quando necessário e apenas serem mantidos em memória. |  | x |
+| **2.14** | MSTG-STORAGE-14 | Caso seja necessário guardar localmente dados sensíveis, estes devem ser cifrados com uma chave derivada de armazenamento em hardware que exija autenticação. |  | x |
+| **2.15** | MSTG-STORAGE-15 | O armazenamento local da aplicação deve ser limpo após uma excessiva quantidade de tentativas de autenticação. |  | x |
 
 ## Referências
 

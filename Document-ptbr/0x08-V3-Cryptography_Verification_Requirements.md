@@ -12,12 +12,12 @@ A criptografia é um componente essencial quando se trata da proteção dos dado
 
 | # | MSTG-ID | Descrição | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
-| **3.1** | MSTG-CRYPTO-1 | O aplicativo não se baseia em criptografia simétrica com chaves fixas no código fonte como único método de criptografia. | ✓ | ✓ |
-| **3.2** | MSTG-CRYPTO-2 | O aplicativo usa implementações comprovadas de primitivas criptográficas. | ✓ | ✓ |
-| **3.3** | MSTG-CRYPTO-3 | O aplicativo usa primitivas criptográficas que são apropriadas para o caso de uso em questão, configurado com parâmetros que são aderentes às melhores práticas da indústria. | ✓ | ✓ |
-| **3.4** | MSTG-CRYPTO-4 | O aplicativo não utiliza protocolos criptográficos ou algoritmos que são considerados amplamente obsoletos para uso em segurança. | ✓ | ✓ |
-| **3.5** | MSTG-CRYPTO-5 | O aplicativo não reutiliza a mesma chave criptográfica para vários fins. | ✓ | ✓ |
-| **3.6** | MSTG-CRYPTO-6 | Todos os valores aleatórios são gerados usando um gerador de números aleatórios suficientemente seguro. | ✓ | ✓ |
+| **3.1** | MSTG-CRYPTO-1 | O aplicativo não se baseia em criptografia simétrica com chaves fixas no código fonte como único método de criptografia. | x | x |
+| **3.2** | MSTG-CRYPTO-2 | O aplicativo usa implementações comprovadas de primitivas criptográficas. | x | x |
+| **3.3** | MSTG-CRYPTO-3 | O aplicativo usa primitivas criptográficas que são apropriadas para o caso de uso em questão, configurado com parâmetros que são aderentes às melhores práticas da indústria. | x | x |
+| **3.4** | MSTG-CRYPTO-4 | O aplicativo não utiliza protocolos criptográficos ou algoritmos que são considerados amplamente obsoletos para uso em segurança. | x | x |
+| **3.5** | MSTG-CRYPTO-5 | O aplicativo não reutiliza a mesma chave criptográfica para vários fins. | x | x |
+| **3.6** | MSTG-CRYPTO-6 | Todos os valores aleatórios são gerados usando um gerador de números aleatórios suficientemente seguro. | x | x |
 
 ## Referências
 

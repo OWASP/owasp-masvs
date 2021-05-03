@@ -8,12 +8,12 @@ The purpose of the controls listed in this section is to ensure the confidential
 
 | # | MSTG-ID | Description | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
-| **5.1** | MSTG-NETWORK-1 | Data is encrypted on the network using TLS. The secure channel is used consistently throughout the app. | ✓ | ✓ |
-| **5.2** | MSTG-NETWORK-2 | The TLS settings are in line with current best practices, or as close as possible if the mobile operating system does not support the recommended standards. | ✓ | ✓ |
-| **5.3** | MSTG-NETWORK-3 | The app verifies the X.509 certificate of the remote endpoint when the secure channel is established. Only certificates signed by a trusted CA are accepted. | ✓ | ✓ |
-| **5.4** | MSTG-NETWORK-4 | The app either uses its own certificate store, or pins the endpoint certificate or public key, and subsequently does not establish connections with endpoints that offer a different certificate or key, even if signed by a trusted CA. |   | ✓ |
-| **5.5** | MSTG-NETWORK-5 | The app doesn't rely on a single insecure communication channel (email or SMS) for critical operations, such as enrollments and account recovery. |  | ✓ |
-| **5.6** | MSTG-NETWORK-6 | The app only depends on up-to-date connectivity and security libraries. |  | ✓ |
+| **5.1** | MSTG-NETWORK-1 | Data is encrypted on the network using TLS. The secure channel is used consistently throughout the app. | x | x |
+| **5.2** | MSTG-NETWORK-2 | The TLS settings are in line with current best practices, or as close as possible if the mobile operating system does not support the recommended standards. | x | x |
+| **5.3** | MSTG-NETWORK-3 | The app verifies the X.509 certificate of the remote endpoint when the secure channel is established. Only certificates signed by a trusted CA are accepted. | x | x |
+| **5.4** | MSTG-NETWORK-4 | The app either uses its own certificate store, or pins the endpoint certificate or public key, and subsequently does not establish connections with endpoints that offer a different certificate or key, even if signed by a trusted CA. |   | x |
+| **5.5** | MSTG-NETWORK-5 | The app doesn't rely on a single insecure communication channel (email or SMS) for critical operations, such as enrollments and account recovery. |  | x |
+| **5.6** | MSTG-NETWORK-6 | The app only depends on up-to-date connectivity and security libraries. |  | x |
 
 ## References
 

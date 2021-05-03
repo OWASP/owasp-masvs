@@ -8,17 +8,17 @@ Os controles deste grupo garantem que o aplicativo use APIs da plataforma e comp
 
 | # | MSTG-ID | Descrição | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
-| **6.1** | MSTG-PLATFORM-1 | O aplicativo só solicita o conjunto mínimo de permissões necessárias. | ✓ | ✓ |
-| **6.2** | MSTG-PLATFORM-2 | Todas as entradas de fontes externas e do usuário são validadas e, se necessário, sanitizadas. Isso inclui dados recebidos através da UI, mecanismos de IPC como intenções, URLs personalizados e origens pela rede.| ✓ | ✓ |
-| **6.3** | MSTG-PLATAFORMA-3 | O aplicativo não exporta funcionalidades sensíveis através de esquemas de URL personalizado, a menos que esses mecanismos estejam devidamente protegidos. | ✓  |  ✓  |
-| **6.4** | MSTG-PLATAFORMA-4 | O aplicativo não exporta funcionalidades sensíveis através do IPC, a menos que esses mecanismos estejam devidamente protegidos. | ✓  |  ✓  |
-| **6.5** | MSTG-PLATAFORMA-5 | Código JavaScript é desativado nos _WebViews_, a menos que explicitamente necessário. | ✓  |  ✓  |
-| **6.6** | MSTG-PLATAFORMA-6 | O _WebViews_ está configurado para permitir apenas o conjunto mínimo de manipuladores de protocolo necessários (preferencialmente, apenas https). Manipuladores potencialmente perigosos, como um arquivo, tel e app-id estão desabilitados. | ✓  |  ✓  |
-| **6.7** | MSTG-PLATAFORMA-7 | Se os métodos nativos do aplicativo forem expostos a um _WebView_, verifique se o _WebView_ só renderiza o código JavaScript contido no pacote do aplicativo. | ✓  |  ✓  |
-| **6.8** | MSTG-PLATAFORMA-8 | A desserialização de objetos, se houver, é implementada usando APIs de serialização seguras. | ✓  |  ✓  |
-| **6.9** | MSTG-PLATAFORMA-9 | O aplicativo se protege contra ataques de sobreposição de tela. (somente para Android) |  | ✓  |
-| **6.10** | MSTG-PLATAFORMA-10 | O _cache_, o armazenamento e os recursos carregados (JavaScript, etc.) devem ser eliminados antes que o _WebView_ seja destruído. |  | ✓  |
-| **6.11** | MSTG-PLATAFORMA-11 | Verifique se o aplicativo impede o uso de teclados de terceiros personalizados sempre que dados confidenciais são inseridos. (somente para iOS) | | ✓  |
+| **6.1** | MSTG-PLATFORM-1 | O aplicativo só solicita o conjunto mínimo de permissões necessárias. | x | x |
+| **6.2** | MSTG-PLATFORM-2 | Todas as entradas de fontes externas e do usuário são validadas e, se necessário, sanitizadas. Isso inclui dados recebidos através da UI, mecanismos de IPC como intenções, URLs personalizados e origens pela rede.| x | x |
+| **6.3** | MSTG-PLATAFORMA-3 | O aplicativo não exporta funcionalidades sensíveis através de esquemas de URL personalizado, a menos que esses mecanismos estejam devidamente protegidos. | x  |  x  |
+| **6.4** | MSTG-PLATAFORMA-4 | O aplicativo não exporta funcionalidades sensíveis através do IPC, a menos que esses mecanismos estejam devidamente protegidos. | x  |  x  |
+| **6.5** | MSTG-PLATAFORMA-5 | Código JavaScript é desativado nos _WebViews_, a menos que explicitamente necessário. | x  |  x  |
+| **6.6** | MSTG-PLATAFORMA-6 | O _WebViews_ está configurado para permitir apenas o conjunto mínimo de manipuladores de protocolo necessários (preferencialmente, apenas https). Manipuladores potencialmente perigosos, como um arquivo, tel e app-id estão desabilitados. | x  |  x  |
+| **6.7** | MSTG-PLATAFORMA-7 | Se os métodos nativos do aplicativo forem expostos a um _WebView_, verifique se o _WebView_ só renderiza o código JavaScript contido no pacote do aplicativo. | x  |  x  |
+| **6.8** | MSTG-PLATAFORMA-8 | A desserialização de objetos, se houver, é implementada usando APIs de serialização seguras. | x  |  x  |
+| **6.9** | MSTG-PLATAFORMA-9 | O aplicativo se protege contra ataques de sobreposição de tela. (somente para Android) |  | x  |
+| **6.10** | MSTG-PLATAFORMA-10 | O _cache_, o armazenamento e os recursos carregados (JavaScript, etc.) devem ser eliminados antes que o _WebView_ seja destruído. |  | x  |
+| **6.11** | MSTG-PLATAFORMA-11 | Verifique se o aplicativo impede o uso de teclados de terceiros personalizados sempre que dados confidenciais são inseridos. (somente para iOS) | | x  |
 
 ## References
 
