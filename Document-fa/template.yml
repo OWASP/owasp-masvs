@@ -1,6 +1,0 @@
----
-title: Hello, 🌍
-header-includes: |
-    \usepackage{xltxtra}
-    \usepackage{xelatexemoji}
----
