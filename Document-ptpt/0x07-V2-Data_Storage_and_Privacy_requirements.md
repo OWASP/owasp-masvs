@@ -27,7 +27,7 @@ A grande maioria dos problemas de exposição de dados pode ser evitada através
 | **2.5** | MSTG-STORAGE-5 | A cache do teclado está desativada nos controlos de entrada de texto relativos a dados sensíveis. | x | x |
 | **2.6** | MSTG-STORAGE-6 | Nenhuma informação sensível é exposta via comunicação inter-processos (IPC). | x | x |
 | **2.7** | MSTG-STORAGE-7 | Nenhuma informação sensível, nomeadamente palavras-passe, é exposta na interface apresentada ao utilizador. | x | x |
-| **2.8** | MSTG-STORAGE-8 | MSTG-STORAGE-8 | Nenhuma informação sensível é incluída nas cópias de segurança geradas pelo sistema operativo móvel. |   | x |
+| **2.8** | MSTG-STORAGE-8 | Nenhuma informação sensível é incluída nas cópias de segurança geradas pelo sistema operativo móvel. |   | x |
 | **2.9** | MSTG-STORAGE-9 | A aplicação remove informação sensível das vistas, quando a aplicação é enviada para segundo plano. |  | x |
 | **2.10** | MSTG-STORAGE-10 | A aplicação não guarda em memória informação sensível durante um período maior que o necessário, sendo que essa mesma informação é apagada findo o respectivo uso. |  | x |
 | **2.11** | MSTG-STORAGE-11 | A aplicação reforça uma política mínima de segurança no acesso ao dispositivo, como por exemplo a necessidade do utilizador definir um código-passe. |  | x |
