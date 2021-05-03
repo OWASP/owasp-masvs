@@ -30,7 +30,7 @@ Copyright © 2021 The OWASP Foundation. 本著作物は [Creative Commons Attrib
 
 | 言語 | 翻訳者およびレビュー担当者 |
 | --------------- | ------------------------------------------------------------ |
-| ブラジルポルトガル語 | Mateus Polastro, Humberto Junior, Rodrigo 
+| ブラジルポルトガル語 | Mateus Polastro, Humberto Junior, Rodrigo |
 | 繁体字中国語 | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | 簡体字中国語 | Bob Peng, Harold Zang, Jack S |
 | フランス語 | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
