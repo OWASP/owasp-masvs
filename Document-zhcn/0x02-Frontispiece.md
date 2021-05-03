@@ -22,7 +22,7 @@ MASVS是社区努力和行业反馈的成果。我们希望该标准会随着时
 
 | 项目负责人 | 主要作者 | 贡献者和审稿人
 | ------- | --- | ----------------- |
-| Sven Schleier，Jeroen Willemsen和Carlos Holguera | Bernhard Mueller |亚历山大·安图克（Alexander Antukh），梅谢里亚科夫（Meshyayakov Aleksey），巴切夫斯基·阿特姆（Bachevsky Artem），耶隆·贝克斯（Jeroen Beckers），弗拉迪斯拉夫·切尔诺科夫（Fladislav Chelnokov），本·切尼（Ben Cheney），彼得·奇（Lex Chien），史蒂芬·科比奥克斯（Stephen Corbiaux），曼努埃尔·德尔加多（Manuel Delgado），拉切科·丹尼斯（Ratchenko Denis），瑞安·德赫斯特（Ryan Dewhurst），泰瑞辛·德米特里（Tereshin Dmitry），克里斯蒂安·东（Christian Dong），奥普拉·埃戈尔（Bry Gardiner） ，亨利·胡（Henry Hu），舍尔·兰格坎珀（Sjoerd Langkemper），维尼修斯·亨利克·马兰戈尼（ViníciusHenrique Marangoni），马丁·马西卡诺（Roberto Martelloni），加尔·马克西姆（Gall Maxim），冈田里奥塔罗·冈田（Riotaro Okada），阿比纳夫·塞普帕尔（Afhinav Sejpal），史蒂芬·塞伊斯（Stefaan Seys），尤格什·夏尔马（Yogesh Sharma），普拉汉（Prabhant Singh），斯文·史莱尔（Sven Schleier），尼基·索尼（Nanhil Soni），安南·斯里瓦斯塔库（Anant Shrivastava），弗朗切斯科·斯蒂瓦拉托（Francesco Stillavato） Abdessamad Temmar，Koki Takeyama，Celnokov Vladislav，Leo Wang |
+| Sven Schleier and Carlos Holguera | Bernhard Mueller, Sven Schleier, Jeroen Willemsen and Carlos Holguera | Alexander Antukh, Mesheryakov Aleksey, Elderov Ali, Bachevsky Artem, Jeroen Beckers, Jon-Anthoney de Boer, Damien Clochard, Ben Cheney, Will Chilcutt, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, @empty_jack, Ben Gardiner, Anton Glezman, Josh Grossman, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, @PierrickV, Julia Potapenko, Andrew Orobator, Mehrad Rafii, Javier Ruiz, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Abdessamad Temmar, Pauchard Thomas, Lukasz Wierzbicki |
 
 <br/>
 
