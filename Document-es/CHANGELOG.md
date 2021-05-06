@@ -1,6 +1,6 @@
 # Changelog
 
-## V1.3 - 5 May 2021
+## V1.3 - 10 May 2021
 
 We are proud to announce the introduction of a new document build pipeline, which is major milestone for our project. The build pipeline is based on [Pandocker](https://github.com/dalibo/pandocker) and [Github Actions](https://github.com/OWASP/owasp-masvs/tree/master/.github/workflows). This significantly reduces the time spent on creating new releases. We would like to thank:
 
