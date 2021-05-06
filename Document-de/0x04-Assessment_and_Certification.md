@@ -1,4 +1,4 @@
-# Bewertung and Zertifizierung
+# Bewertung und Zertifizierung
 
 ## OWASP's Standpunkt zu MASVS Zertifizierungen und Gütesiegeln
 
@@ -28,11 +28,11 @@ Die Nutzung von Quellcode-Scannern und Black-Box-Test-Werkzeugen erhöht die Eff
 
 ### Als detaillierter Security-Architektur-Guide
 
-Der MASVS ist eine wertvolle Ressource für Security Architekten. Den 2 wichtigsten Security-Architektur-Frameworks SABSA und TOGAF fehlen wesentliche Teile um Security-Architektur-Reviews für mobile Apps durchführen zu können. Der MASVS kann genutzt werden um diese Lücken zu schließen und ist eine wertvolle Hilfe bei der Auswahl geeigneter Security Maßnahmen im Bereich mobiler Apps.
+Der MASVS ist eine wertvolle Ressource für Security Architekten. Den 2 wichtigsten Security-Architektur-Frameworks SABSA und TOGAF fehlen wesentliche Teile um Security-Architektur-Reviews für mobile Apps durchführen zu können. Der MASVS kann genutzt werden, um diese Lücken zu schließen und ist eine wertvolle Hilfe bei der Auswahl geeigneter Security Maßnahmen im Bereich mobiler Apps.
 
 ### Als Ersatz für pauschale Secure Coding Checklisten
 
-Viele Organisationen können davon profitieren, den MASVS zu adaptieren indem Sie einen geeigneten Level wählen oder den MASVS als Ausgangsbasis nutzen (Forking) und die Inhalte entsprechend zum Risikoprofil und Domänen-Kontext der jeweiligen App anpassen. Dieser Weg des Forkens wird empfohlen wobei darauf zu achten ist, die Nachverfolgbarkeit der einzelnen Themenpunkte zu gewährleisten. So sollte z.B. Anforderung 4.1 auch nach zukünftigen Änderungen die gleiche semantische Bedeutung behalten.
+Viele Organisationen können davon profitieren, den MASVS zu adaptieren, indem Sie einen geeigneten Level wählen oder den MASVS als Ausgangsbasis nutzen (Forking) und die Inhalte entsprechend zum Risikoprofil und Domänen-Kontext der jeweiligen App anpassen. Dieser Weg des Forkens wird empfohlen wobei darauf zu achten ist, die Nachverfolgbarkeit der einzelnen Themenpunkte zu gewährleisten. So sollte z.B. Anforderung 4.1 auch nach zukünftigen Änderungen die gleiche semantische Bedeutung behalten.
 
 ### Als Basis für Security Tests
 
@@ -40,8 +40,8 @@ Eine gute Testmethodik für Security Tests mobiler Apps sollte alle Anforderunge
 
 ### Als Vorgabe für automatisierte Unit- und Integrationstests
 
-Um die Anzahl von Findings in der Vorproduktions-Phase zu reduzieren sollten bereits während der Entwicklung automatische Unit-, Integrations- und Akzeptanztests durchgeführt werden. Um dies zu unterstützen wurde der MASVS mit starkem Fokus auf Testbarkeit entwickelt. Eine Ausnahme bilden die Anforderungen aus dem Bereich Architektur. Teams die die Anforderungen aus dem ASVS (über automatisierte Tests) umsetzen erhöhen dadurch nicht nur die Qualität der entwickelten Apps sondern verbessern auch die Security Awareness der Entwickler.
+Um die Anzahl von Findings in der Vorproduktions-Phase zu reduzieren, sollten bereits während der Entwicklung automatische Unit-, Integrations- und Akzeptanztests durchgeführt werden. Um dies zu unterstützen wurde der MASVS mit starkem Fokus auf Testbarkeit entwickelt. Eine Ausnahme bilden die Anforderungen aus dem Bereich Architektur. Teams, die die Anforderungen aus dem ASVS (über automatisierte Tests) umsetzen erhöhen dadurch nicht nur die Qualität der entwickelten Apps, sondern verbessern auch die Security Awareness der Entwickler.
 
 ### Zum Training für sichere Software-Entwicklung
 
-Der MASVS kann darüber hinaus genutzt werden um die Merkmale zu beschreiben, die eine sichere mobile App haben sollte. Viele Kurse für "sichere Softwareentwicklung" sind simple Kurse über Hacking-Techniken und bieten kaum wertvolle Tipps für Entwickler. Kurse die auf Basis des MASVS proaktive Schutz-Maßnahmen in den Vordergrund stellen, anstatt z.B. die Top 10 Schwachstellen zu behandeln, bieten wesentlichen Mehrwert für Entwickler.
+Der MASVS kann darüber hinaus genutzt werden, um die Merkmale zu beschreiben, die eine sichere mobile App haben sollte. Viele Kurse für "sichere Softwareentwicklung" sind simple Kurse über Hacking-Techniken und bieten kaum wertvolle Tipps für Entwickler. Kurse die auf Basis des MASVS proaktive Schutz-Maßnahmen in den Vordergrund stellen, anstatt z.B. die Top 10 Schwachstellen zu behandeln, bieten wesentlichen Mehrwert für Entwickler.

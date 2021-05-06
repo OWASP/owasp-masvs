@@ -12,15 +12,15 @@ Das Ziel dieser Kategorie ist, sicherzustellen, dass bei der App-Entwicklung Bas
 | **7.2** | MSTG-CODE-2 | Die App wurde im Release-Modus gebaut und mit passenden Release-Einstellungen (kein Debugging). | ✓ | ✓ |
 | **7.3** | MSTG-CODE-3 | Debugging Symbole wurden von nativen Binärdateien entfernt. | ✓ | ✓ |
 | **7.4** | MSTG-CODE-4 | Debugging Code und "Entwicklerüberbleibsel" (z.B. Test Code, backdoors oder versteckte Einstellungen) wurden entfernt und die App-Logdateien enthalten keine ausführlichen Fehler oder Debug-Meldungen. | ✓ | ✓ |
-| **7.5** | MSTG-CODE-5 | Bibliotheken und Frameworks von Drittanbietern die die App nutzt wurden auf Schwachstellen geprüft. | ✓ | ✓ |
-| **7.6** | MSTG-CODE-6 | Die App führt eine sichere Fehlerbehandlung durch indem sie Exceptions abfängt und kontrolliert behandelt.| ✓ | ✓ |
-| **7.7** | MSTG-CODE-7 | Treten in Sicherheitsfunktionen Fehler auf lehnt die App-Fehlerbehandlung die Zugriffe standardmäßig ab. | ✓ | ✓ |
+| **7.5** | MSTG-CODE-5 | Bibliotheken und Frameworks von Drittanbietern, die die App nutzt, wurden auf Schwachstellen geprüft. | ✓ | ✓ |
+| **7.6** | MSTG-CODE-6 | Die App führt eine sichere Fehlerbehandlung durch, indem sie Exceptions abfängt und kontrolliert behandelt.| ✓ | ✓ |
+| **7.7** | MSTG-CODE-7 | Treten in Sicherheitsfunktionen Fehler auf, lehnt die App-Fehlerbehandlung die Zugriffe standardmäßig ab. | ✓ | ✓ |
 | **7.8** | MSTG-CODE-8 | Das Speichermanagement (Allokation und Freigabe von Speicher) erfolgt in unmanaged code auf sichere Weise. | ✓ | ✓ |
 | **7.9** | MSTG-CODE-9 | Angebotene Sicherheitsfunktionen der Entwicklungsumgebung wie Byte-Code Minimierung, Stack-Protection, PIE-Support und automatisches Reference-Counting sind aktiviert. | ✓ | ✓ |
 
 ## Referenzen
 
-Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die Anforderungen aus dieser Kategorie zu überprüfen.
+Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen, um die Anforderungen aus dieser Kategorie zu überprüfen.
 
 - Android: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
 - iOS: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>

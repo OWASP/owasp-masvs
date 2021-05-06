@@ -8,12 +8,12 @@ Ein integraler Teil der Architektur einer mobilen App ist der Login eines Nutzer
 
 | # | MSTG-ID | Beschreibung | L1 | L2 |
 | -- | -------- | ---------------------- | - | - |
-| **4.1** | MSTG-AUTH-1 | Falls die App Nutzern Zugriff auf entfernte Service APIs bietet wird am API-Endpunkt eine Authentifizierung z.B. mit Nutzername/Passwort durchgeführt. | ✓ | ✓ |
-| **4.2** | MSTG-AUTH-2 | Kommt Session-Management am API-Endpunkt zum Einsatz, so werden zufällig generierte Session-IDs erzeugt um Client-Anfragen zu authentifizieren und keine Nutzer-Anmeldedaten versandt. | ✓ | ✓ |
+| **4.1** | MSTG-AUTH-1 | Falls die App Nutzern Zugriff auf entfernte Service APIs bietet, wird am API-Endpunkt eine Authentifizierung z.B. mit Nutzername/Passwort durchgeführt. | ✓ | ✓ |
+| **4.2** | MSTG-AUTH-2 | Kommt Session-Management am API-Endpunkt zum Einsatz, so werden zufällig generierte Session-IDs erzeugt, um Client-Anfragen zu authentifizieren und keine Nutzer-Anmeldedaten versandt. | ✓ | ✓ |
 | **4.3** | MSTG-AUTH-3 | Kommt statuslose Token-basierte Authentifizierung zum Einsatz, so werden die Token am Server mit einem sicheren Algorithmus signiert. | ✓ | ✓ |
-| **4.4** | MSTG-AUTH-4 | Der API-Endpunkt beendet die existierende Nutzersitzung sobald sich der Nutzer abmeldet. | ✓ | ✓ |
-| **4.5** | MSTG-AUTH-5 | Es existiert eine Passwort-Richtlinie die am entfernten API-Endpunkt erzwungen wird. | ✓ | ✓ |
-| **4.6** | MSTG-AUTH-6 | Der entfernte API-Endpunkt implementiert einen Mechanismus um sich gegen eine exzessive Anzahl von Login-Versuchen zu schützen. | ✓ | ✓ |
+| **4.4** | MSTG-AUTH-4 | Der API-Endpunkt beendet die existierende Nutzersitzung, sobald sich der Nutzer abmeldet. | ✓ | ✓ |
+| **4.5** | MSTG-AUTH-5 | Es existiert eine Passwort-Richtlinie, die am entfernten API-Endpunkt erzwungen wird. | ✓ | ✓ |
+| **4.6** | MSTG-AUTH-6 | Der entfernte API-Endpunkt implementiert einen Mechanismus, um sich gegen eine exzessive Anzahl von Login-Versuchen zu schützen. | ✓ | ✓ |
 | **4.7** | MSTG-AUTH-7 | Nach einer definierten Inaktivitätsdauer werden Nutzersitzungen am entfernten API-Endpunkt beendet und Zugriffs-Tokens werden nach Ablauf der Gültigkeitsdauer abgelehnt. | ✓ | ✓ |
 | **4.8** | MSTG-AUTH-8 | Biometrische Authentifizierung basiert auf dem Betriebssystem-basierten Entsperren des Keystores (Android)/der Keychain (iOS) und nicht auf einer z.B. event-basierten API die einfach "true" oder "false" zurück liefert. |   | ✓ |
 | **4.9** | MSTG-AUTH-9 | Es gibt einen 2. Authentifizierungsfaktor und er wird am entfernten API-Endpunkt konsistent erzwungen. |   | ✓ |
@@ -23,7 +23,7 @@ Ein integraler Teil der Architektur einer mobilen App ist der Login eines Nutzer
 
 ## Referenzen
 
-Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen um die Anforderungen aus dieser Kategorie zu überprüfen.
+Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen, um die Anforderungen aus dieser Kategorie zu überprüfen.
 
 - General: Authentication and Session Management - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
 - Android: Testing Local Authentication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
