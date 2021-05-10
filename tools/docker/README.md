@@ -9,7 +9,7 @@ The MASVS document generation is based on pandocker: [https://github.com/dalibo/
 - Run the `pandoc_makedocs.sh` script with the language folder and an optional version number (**do not `cd` into `tools/docker` to run it**):
 
     ```sh
-    $ ./tools/docker/pandoc_makedocs.sh Document-es 1.2
+    $ ./tools/docker/pandoc_makedocs.sh Document 1.3
     ```
 
 - You can set `VERBOSE=1` for a more detailed output

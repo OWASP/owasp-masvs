@@ -1,8 +1,8 @@
 # Sobre el Estándar
 
-<img src="images/OWASP_logo.png" title="OWASP LOGO" />
+![OWASP Logo](images/OWASP_logo.png)
 
-Bienvenido al Estándar de Verificación de Seguridad de Aplicaciones Móviles (MASVS) 1.2. El MASVS es un esfuerzo comunitario para establecer un marco de requisitos de seguridad necesarios para diseñar, desarrollar y probar la seguridad de aplicaciones móviles iOS y Android.
+Bienvenido al Estándar de Verificación de Seguridad de Aplicaciones Móviles (MASVS). El MASVS es un esfuerzo comunitario para establecer un marco de requisitos de seguridad necesarios para diseñar, desarrollar y probar la seguridad de aplicaciones móviles iOS y Android.
 
 El MASVS es la culminación del esfuerzo de la comunidad y la retroalimentación con la industria. Esperamos que este estándar evolucione con el tiempo y agradecemos todo _feedback_ que la comunidad pueda darnos.
 
@@ -12,9 +12,9 @@ Las cuentas se pueden crear en la siguiente URL: [https://owasp.slack.com/join/s
 
 ## Copyright y Licencia
 
-[<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Creative Commons License](images/CC-license.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Copyright © 2020 The OWASP Foundation. Este documento está licenciado bajo la licencia Internacional 4.0 de [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Para cualquier reutilización o distribución, debe dejar claro los términos de la licencia de esta obra.
+Copyright © 2021 The OWASP Foundation. Este documento está licenciado bajo la licencia Internacional 4.0 de [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Para cualquier reutilización o distribución, debe dejar claro los términos de la licencia de esta obra.
 
 <!-- \pagebreak -->
 
@@ -22,12 +22,12 @@ Copyright © 2020 The OWASP Foundation. Este documento está licenciado bajo la 
 
 | Líderes del proyecto | Autor principal | Colaboradores y revisores
 | ------- | --- | ----------------- |
-| Sven Schleier, Jeroen Willemsen y Carlos Holguera | Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Eugen Martynov, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abderrahmane Aftahi, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang |
+| Sven Schleier and Carlos Holguera | Bernhard Mueller, Sven Schleier, Jeroen Willemsen and Carlos Holguera | Alexander Antukh, Mesheryakov Aleksey, Elderov Ali, Bachevsky Artem, Jeroen Beckers, Jon-Anthoney de Boer, Damien Clochard, Ben Cheney, Will Chilcutt, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, @empty_jack, Ben Gardiner, Anton Glezman, Josh Grossman, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, @PierrickV, Julia Potapenko, Andrew Orobator, Mehrad Rafii, Javier Ruiz, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Abdessamad Temmar, Pauchard Thomas, Lukasz Wierzbicki |
 
 <br/>
 
 | Idioma | Traductores y revisores |
-| --- | ------------------------------ |
+| --------------- | ------------------------------------------------------------ |
 | Alemán | Rocco Gränitz, Sven Schleier (revisor) |
 | Chino (Tradicional)| Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | Chino (Simplificada) | Bob Peng, Harold Zang, Jack S |
@@ -36,6 +36,9 @@ Copyright © 2020 The OWASP Foundation. Este documento está licenciado bajo la 
 | Francés | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (revisor) |
 | Hindi | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
 | Japonés | Koki Takeyama, Riotaro Okada (revisor) |
+| Persa | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
+| Portugués (brasilera) | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
+| Portugués | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
 | Ruso | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (revisor), Oprya Egor (revisor), Tereshin Dmitry (revisor) |
 
 Este documento comenzó como un _fork_ del Estándar de Verificación de Seguridad de Aplicaciones de OWASP escrito por Jim Manico.
@@ -46,10 +49,10 @@ Aunque tanto el MASVS como la MSTG fueron creados y son mantenidos por la comuni
 
 ### Honorable Benefactor
 
-[<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
+[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/)
 
 ### Good Samaritan
 
-[<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
+[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/)
 
-También nos gustaría agradecer al Capítulo del Área de la Bahía de OWASP por su patrocinio. Por último, nos gustaría agradecer a todos los que compraron el libro en Leanpub y nos patrocinaron de esa manera.
+También nos gustaría agradecer al Capítulo del Área de la Bahía de OWASP por su patrocinio. Por último, nos gustaría agradecer a todos los que compraron el libro en [Leanpub](https://leanpub.com/mobile-security-testing-guide) y nos patrocinaron de esa manera.

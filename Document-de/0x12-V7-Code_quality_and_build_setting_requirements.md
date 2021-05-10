@@ -7,16 +7,16 @@ Das Ziel dieser Kategorie ist, sicherzustellen, dass bei der App-Entwicklung Bas
 ## Anforderungen
 
 | # | MSTG-ID | Beschreibung | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
-| **7.1** | MSTG-CODE-1 | Die App ist signiert und mit einem gültigen Zertifikat provisioniert dessen privater Schlüssel angemessen geschützt ist. | ✓ | ✓ |
-| **7.2** | MSTG-CODE-2 | Die App wurde im Release-Modus gebaut und mit passenden Release-Einstellungen (kein Debugging). | ✓ | ✓ |
-| **7.3** | MSTG-CODE-3 | Debugging Symbole wurden von nativen Binärdateien entfernt. | ✓ | ✓ |
-| **7.4** | MSTG-CODE-4 | Debugging Code und "Entwicklerüberbleibsel" (z.B. Test Code, backdoors oder versteckte Einstellungen) wurden entfernt und die App-Logdateien enthalten keine ausführlichen Fehler oder Debug-Meldungen. | ✓ | ✓ |
-| **7.5** | MSTG-CODE-5 | Bibliotheken und Frameworks von Drittanbietern die die App nutzt wurden auf Schwachstellen geprüft. | ✓ | ✓ |
-| **7.6** | MSTG-CODE-6 | Die App führt eine sichere Fehlerbehandlung durch indem sie Exceptions abfängt und kontrolliert behandelt.| ✓ | ✓ |
-| **7.7** | MSTG-CODE-7 | Treten in Sicherheitsfunktionen Fehler auf lehnt die App-Fehlerbehandlung die Zugriffe standardmäßig ab. | ✓ | ✓ |
-| **7.8** | MSTG-CODE-8 | Das Speichermanagement (Allokation und Freigabe von Speicher) erfolgt in unmanaged code auf sichere Weise. | ✓ | ✓ |
-| **7.9** | MSTG-CODE-9 | Angebotene Sicherheitsfunktionen der Entwicklungsumgebung wie Byte-Code Minimierung, Stack-Protection, PIE-Support und automatisches Reference-Counting sind aktiviert. | ✓ | ✓ |
+| -- | ---------- | ---------------------- | - | - |
+| **7.1** | MSTG-CODE-1 | Die App ist signiert und mit einem gültigen Zertifikat provisioniert dessen privater Schlüssel angemessen geschützt ist. | x | x |
+| **7.2** | MSTG-CODE-2 | Die App wurde im Release-Modus gebaut und mit passenden Release-Einstellungen (kein Debugging). | x | x |
+| **7.3** | MSTG-CODE-3 | Debugging Symbole wurden von nativen Binärdateien entfernt. | x | x |
+| **7.4** | MSTG-CODE-4 | Debugging Code und "Entwicklerüberbleibsel" (z.B. Test Code, backdoors oder versteckte Einstellungen) wurden entfernt und die App-Logdateien enthalten keine ausführlichen Fehler oder Debug-Meldungen. | x | x |
+| **7.5** | MSTG-CODE-5 | Bibliotheken und Frameworks von Drittanbietern die die App nutzt wurden auf Schwachstellen geprüft. | x | x |
+| **7.6** | MSTG-CODE-6 | Die App führt eine sichere Fehlerbehandlung durch indem sie Exceptions abfängt und kontrolliert behandelt.| x | x |
+| **7.7** | MSTG-CODE-7 | Treten in Sicherheitsfunktionen Fehler auf lehnt die App-Fehlerbehandlung die Zugriffe standardmäßig ab. | x | x |
+| **7.8** | MSTG-CODE-8 | Das Speichermanagement (Allokation und Freigabe von Speicher) erfolgt in unmanaged code auf sichere Weise. | x | x |
+| **7.9** | MSTG-CODE-9 | Angebotene Sicherheitsfunktionen der Entwicklungsumgebung wie Byte-Code Minimierung, Stack-Protection, PIE-Support und automatisches Reference-Counting sind aktiviert. | x | x |
 
 ## Referenzen
 

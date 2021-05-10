@@ -16,7 +16,7 @@ MASVS定義了兩個嚴格的資訊安全驗證等級(L1和L2), 還有一系列�
 
 **II: 請注意在 MASVS-R 以及 OWASP 行動應用安全測試指南(OWASP Mobile Security Testing Guide)當中所提及的軟體保護控制項目中的軟體保護控制項目最終仍有可能被攻破，因此不能以此文件及指南當為資安控制的替代方案。本文件及指南之目的是依 MASVS-L1 及 MASVS-L2 為提供行動應用程式因威脅標準及保護層次不同對應至 MASVS 中。**
 
-<img src="images/masvs-levels-new.jpg" title="Verification Levels" width="600px" height="253px" />
+![Verification Levels](images/masvs-levels-new.jpg)
 
 ### 文檔結構
 
