@@ -7,19 +7,18 @@ Os controlos neste grupo asseguram que a aplicação utiliza Interfaces de Progr
 ## Requisitos para Verificação de Segurança
 
 | # | MSTG-ID | Descrição | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
-
-| **6.1** | MSTG-PLATFORM-1 | A aplicação apenas requer o conjunto mínimo de permissões necessárias. | ✓ | ✓ |
-| **6.2** | MSTG-PLATFORM-2 | Quaisquer dados obtidos por fonte externa (utilizador e outros) são validados e, se necessário, sanitizados. Aqui estão incluídos quaisquer dados obtidos através de interface visual (UI), via comunicação inter-processos (IPC), incorporados nos localizadores de instâncias (URL), assim como por recursos de rede.| ✓ | ✓ |
-| **6.3** | MSTG-PLATFORM-3 | A aplicação não exporta qualquer informação sensível via esquemas de localizadores de instâncias (URL) customizados, excepto nos casos em que esses mecanismos estão devidamente protegidos. | ✓ | ✓ |
-| **6.4** | MSTG-PLATFORM-4 | A aplicação não exporta qualquer informação sensível via comunicação inter-processos (IPC), excepto nos casos em que esses mecanismos estão devidamente protegidos. | ✓ | ✓ |
-| **6.5** | MSTG-PLATFORM-5 | JavaScript está inactivo nas vistas da aplicação excepto nos casos em que é estritamente necessário. | ✓ | ✓ |
-| **6.6** | MSTG-PLATFORM-6 | As vistas da aplicação estão configuradas de forma a suportar o número mínimo de protocolos , idealmente só https deve ser suportado.  Potentially dangerous handlers, such as file, tel and app-id, are disabled. | ✓ | ✓ |
-| **6.7** | MSTG-PLATFORM-7 | Se métodos nativos da aplicação estarem expostos na vista web, verificar que esta apenas renderiza o JavaScript contido na aplicação. | ✓ | ✓ |
-| **6.8** | MSTG-PLATFORM-8 | A deserialização de objectos, se necessária, é implementada através do uso de interfaces (APIs) de serialização seguras. | ✓ | ✓ |
-| **6.9** | MSTG-PLATFORM-9 | A aplicação protege-se contra ataques de sobreposição de ecrãs. (Apenas em Android) |  | ✓ |
-| **6.10** | MSTG-PLATFORM-10 | A cache da vista web, o armazenamento e os recursos utilizados (JavaScript, etc.) devem ser limpos antes da destruição da vista web. |  | ✓ |
-| **6.11** | MSTG-PLATFORM-11 | Verificar que a aplicação previne o uso de teclados externos customizados, nos casos em que informação sensivel é inserida. | | ✓ |
+| -- | ---------- | ---------------------- | - | - |
+| **6.1** | MSTG-PLATFORM-1 | A aplicação apenas requer o conjunto mínimo de permissões necessárias. | x | x |
+| **6.2** | MSTG-PLATFORM-2 | Quaisquer dados obtidos por fonte externa (utilizador e outros) são validados e, se necessário, sanitizados. Aqui estão incluídos quaisquer dados obtidos através de interface visual (UI), via comunicação inter-processos (IPC), incorporados nos localizadores de instâncias (URL), assim como por recursos de rede.| x | x |
+| **6.3** | MSTG-PLATFORM-3 | A aplicação não exporta qualquer informação sensível via esquemas de localizadores de instâncias (URL) customizados, excepto nos casos em que esses mecanismos estão devidamente protegidos. | x | x |
+| **6.4** | MSTG-PLATFORM-4 | A aplicação não exporta qualquer informação sensível via comunicação inter-processos (IPC), excepto nos casos em que esses mecanismos estão devidamente protegidos. | x | x |
+| **6.5** | MSTG-PLATFORM-5 | JavaScript está inactivo nas vistas da aplicação excepto nos casos em que é estritamente necessário. | x | x |
+| **6.6** | MSTG-PLATFORM-6 | As vistas da aplicação estão configuradas de forma a suportar o número mínimo de protocolos , idealmente só https deve ser suportado.  Potentially dangerous handlers, such as file, tel and app-id, are disabled. | x | x |
+| **6.7** | MSTG-PLATFORM-7 | Se métodos nativos da aplicação estarem expostos na vista web, verificar que esta apenas renderiza o JavaScript contido na aplicação. | x | x |
+| **6.8** | MSTG-PLATFORM-8 | A deserialização de objectos, se necessária, é implementada através do uso de interfaces (APIs) de serialização seguras. | x | x |
+| **6.9** | MSTG-PLATFORM-9 | A aplicação protege-se contra ataques de sobreposição de ecrãs. (Apenas em Android) |  | x |
+| **6.10** | MSTG-PLATFORM-10 | A cache da vista web, o armazenamento e os recursos utilizados (JavaScript, etc.) devem ser limpos antes da destruição da vista web. |  | x |
+| **6.11** | MSTG-PLATFORM-11 | Verificar que a aplicação previne o uso de teclados externos customizados, nos casos em que informação sensivel é inserida. | | x |
 
 ## Referências
 

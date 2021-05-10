@@ -58,7 +58,7 @@ ${PANDOC} \
 ${PANDOC} \
   --template=${LATEX_TEMPLATE} \
   --pdf-engine=xelatex \
-  --columns 72 \
+  --columns 50 \
   --highlight-style=tango \
   --metadata title="${TITLE}" \
   --include-in-header tmp_latex-header.latex \

@@ -7,19 +7,19 @@ Na maioria dos casos, o _login_ de usuários a um serviço remoto é parte integ
 ## Requisitos de Verificação de Segurança
 
 | # | MSTG-ID | Descrição | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
-| **4.1** | MSTG-AUTH-1 | Se o aplicativo fornecer aos usuários acesso a um serviço remoto, alguma forma de autenticação, como autenticação de nome de usuário e senha, será executada no terminal remoto. | ✓ | ✓ |
-| **4.2** | MSTG-AUTH-2 | Se o gerenciamento de sessão com estado for usado _(stateful session management)_, o terminal remoto usará identificadores de sessão gerados aleatoriamente para autenticar as solicitações de clientes, sem que as credenciais do usuário sejam enviadas. | ✓ | ✓ |
-| **4.3** | MSTG-AUTH-3 | Se a autenticação baseada em _token_ sem estado for usada _(stateless token-based authentication)_, o servidor fornecerá um _token_ que foi assinado usando um algoritmo seguro. | ✓ | ✓ |
-| **4.4** | MSTG-AUTH-4 | O _endpoint_ remoto termina a sessão existente quando o usuário efetuar _logout_. | ✓ | ✓ |
-| **4.5** | MSTG-AUTH-5 | Uma política de senha existe e é imposta no terminal remoto. | ✓ | ✓ |
-| **4.6** | MSTG-AUTH-6 | O terminal remoto implementa um mecanismo para proteger contra o envio de credenciais em um número excessivo. | ✓ | ✓ |
-| **4.7** | MSTG-AUTH-7 | As sessões são invalidadas pelo terminal remoto após um período predefinido de inatividade e os _tokens_ de acessos expiram. | ✓ | ✓ |
-| **4.8** | MSTG-AUTH-8 | A autenticação biométrica, se houver, não é vinculada a eventos (ou seja, usando uma API que simplesmente retorna "verdadeiro" ou "falso"). Em vez disso, é baseado no desbloqueio do _keychain/keystore_ (armazenamento seguro). | | ✓ |
-| **4.9** | MSTG-AUTH-9 | Existe um segundo fator de autenticação no terminal remoto e o requisito de 2FA é aplicado de maneira consistente. | | ✓ |
-| **4.10** | MSTG-AUTH-10 | Transações confidenciais requerem autenticação adicional. | | ✓ |
-| **4.11** | MSTG-AUTH-11 | O aplicativo informa o usuário de todas as atividades confidenciais com a sua conta. Os usuários podem visualizar uma lista de dispositivos, exibir informações contextuais (endereço IP, local etc.) e é capaz de bloquear dispositivos específicos. | | ✓ |
-| **4.12** | MSTG-AUTH-12 | Os modelos de autorização devem ser definidos e aplicados no terminal remoto. | ✓ | ✓ |
+| -- | ---------- | ---------------------- | - | - |
+| **4.1** | MSTG-AUTH-1 | Se o aplicativo fornecer aos usuários acesso a um serviço remoto, alguma forma de autenticação, como autenticação de nome de usuário e senha, será executada no terminal remoto. | x | x |
+| **4.2** | MSTG-AUTH-2 | Se o gerenciamento de sessão com estado for usado _(stateful session management)_, o terminal remoto usará identificadores de sessão gerados aleatoriamente para autenticar as solicitações de clientes, sem que as credenciais do usuário sejam enviadas. | x | x |
+| **4.3** | MSTG-AUTH-3 | Se a autenticação baseada em _token_ sem estado for usada _(stateless token-based authentication)_, o servidor fornecerá um _token_ que foi assinado usando um algoritmo seguro. | x | x |
+| **4.4** | MSTG-AUTH-4 | O _endpoint_ remoto termina a sessão existente quando o usuário efetuar _logout_. | x | x |
+| **4.5** | MSTG-AUTH-5 | Uma política de senha existe e é imposta no terminal remoto. | x | x |
+| **4.6** | MSTG-AUTH-6 | O terminal remoto implementa um mecanismo para proteger contra o envio de credenciais em um número excessivo. | x | x |
+| **4.7** | MSTG-AUTH-7 | As sessões são invalidadas pelo terminal remoto após um período predefinido de inatividade e os _tokens_ de acessos expiram. | x | x |
+| **4.8** | MSTG-AUTH-8 | A autenticação biométrica, se houver, não é vinculada a eventos (ou seja, usando uma API que simplesmente retorna "verdadeiro" ou "falso"). Em vez disso, é baseado no desbloqueio do _keychain/keystore_ (armazenamento seguro). | | x |
+| **4.9** | MSTG-AUTH-9 | Existe um segundo fator de autenticação no terminal remoto e o requisito de 2FA é aplicado de maneira consistente. | | x |
+| **4.10** | MSTG-AUTH-10 | Transações confidenciais requerem autenticação adicional. | | x |
+| **4.11** | MSTG-AUTH-11 | O aplicativo informa o usuário de todas as atividades confidenciais com a sua conta. Os usuários podem visualizar uma lista de dispositivos, exibir informações contextuais (endereço IP, local etc.) e é capaz de bloquear dispositivos específicos. | | x |
+| **4.12** | MSTG-AUTH-12 | Os modelos de autorização devem ser definidos e aplicados no terminal remoto. | x | x |
 
 ## Referências
 

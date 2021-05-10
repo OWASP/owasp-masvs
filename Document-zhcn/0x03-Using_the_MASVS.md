@@ -16,7 +16,7 @@ MASVS定义了两个安全验证级别（MASVS-L1 和 MASVS-L2），以及一系
 
 **II: 请注意，MASVS-R和<OWASP移动安全性测试指南>中所提到的软件保护准则无法确保不被绕过，绝对不能用作安全管控的替代品。相反的，这些软件保护准则旨在增加已落实MASVS-L1或MASVS- L2的移动应用程序，针对特定的威胁提供额外的防御。**
 
-<img src="images/masvs-levels-new.jpg" title="Verification Levels" width="600px" height="253px" />
+![Verification Levels](images/masvs-levels-new.jpg)
 
 ### 文档结构
 
