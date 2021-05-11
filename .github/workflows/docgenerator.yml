@@ -272,4 +272,15 @@ jobs:
       with:
         name: OWASP_MASVS-${{env.VERSION}}.xml
         path: tools/OWASP_MASVS-${{env.VERSION}}.xml
+    
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/') && (github.actor == 'cpholguera' || github.actor == 'sushi2k')
+      with:
+        body_path: tools/RECENT_CHANGES.TXT
+        files: |
+          OWASP_MASVS-*
+          tools/OWASP_MASVS-*
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
