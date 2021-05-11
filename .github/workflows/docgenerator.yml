@@ -22,7 +22,7 @@ jobs:
       if: startsWith(github.ref, 'refs/tags/')
       run: ${{env.VERSION}}=${GITHUB_REF/refs\/tags\//}
     - name: Get the SNAPSHOT version
-      if: ! startsWith(github.ref, 'refs/tags/')
+      if: ${{! startsWith(github.ref, 'refs/tags/')}}
       run: ${{env.VERSION}}=SNAPSHOT
 
   en:
