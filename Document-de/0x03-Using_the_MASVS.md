@@ -62,8 +62,6 @@ Die Anforderungen aus MASVS L2 zu implementieren erhöht die Sicherheit - dies k
 
 - Geeignet für alle mobilen Apps. MASVS-L1 benennt Security Best Practices mit akzeptablen Auswirkungen auf Entwicklungskosten und Nutzererlebnis. Sollte für jede App genutzt werden die keinen höheren Level erfordert.
 
-<!-- \pagebreak -->
-
 ###### MASVS-L2
 
 - Gesundheitswesen: Mobile Apps, die personenbezogene Daten speichern, die für Identitätsdiebstahl, Zahlungsbetrug und eine Reihe anderer Betrugsvorhaben genutzt werden können. Zu den für den US-Gesundheitsbereich geltenden Compliance-Regeln gehören der Health Insurance Portability and Accountability Act (HIPAA), Datenschutz, Security und Vorgaben/Regeln zur Benachrichtigung bei Datenpannen sowie Patientensicherheit.
