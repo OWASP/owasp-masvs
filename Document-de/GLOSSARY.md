@@ -22,7 +22,7 @@ Die Nutzung automatisierter Werkzeuge (dynamische/statische Analyse oder beides)
 
 ## Bedrohungsanalyse
 
-Eine Methodik die dazu dient Sicherheitsschwachstellen im Design einer Anwendung zu identifizieren und Gegenmaßnahmen zu entwickeln um die Sicherheitsarchitektur zu verbessern. Dabei werden relevante Gruppen von Angreifern, Sicherheitszonen, Sicherheitsmechanismen sowie technische und fachliche Wertgegenstände identifiziert und einbezogen.
+Eine Methodik die dazu dient Sicherheitsschwachstellen im Design einer Anwendung zu identifizieren und Gegenmaßnahmen zu entwickeln, um die Sicherheitsarchitektur zu verbessern. Dabei werden relevante Gruppen von Angreifern, Sicherheitszonen, Sicherheitsmechanismen sowie technische und fachliche Wertgegenstände identifiziert und einbezogen.
 
 ## Black box Tests
 
@@ -30,11 +30,11 @@ Ist eine Testmethode bei der die Funktionalität einer Komponente oder Anwendung
 
 ## Cross-Site Scripting (XSS)
 
-Eine Sicherheitsschwachstelle die typischerweise in Web-Applikationen vorkommt die das Einschleusen von Client-seitigem Script-Code in den Seiteninhalt zulassen.
+Eine Sicherheitsschwachstelle die typischerweise in Web-Applikationen vorkommt, die das Einschleusen von Client-seitigem Script-Code in den Seiteninhalt zulassen.
 
 ## CWE
 
-Common Weaknesses Enumeration - CWE ist eine Community-basierte Sammlung von allgemeinen Software Security Schwächen. Die Sammlung stellt eine Basis darf zur Identifikation, Mitigierung und zur Vermeidung von Schwachstellen und definiert so eine gemeinsame Sprache für alle Nutzer sowie für Bereitsteller von Security-Werkzeugen.
+Common Weaknesses Enumeration - CWE ist eine Community-basierte Sammlung von allgemeinen Software Security Schwächen. Sie dient als gemeinsame Sprache, als Messlatte für Software-Sicherheits-Tools und als Grundlage für die Identifizierung von Schwachstellen sowie für Maßnahmen zur Schadensbegrenzung und -vermeidung.
 
 ## DAST
 
@@ -54,7 +54,7 @@ Eine einzigartige Referenz-Nummer die als Identifikator in einer Software genutz
 
 ## Hartcodierte Schlüssel
 
-Kryptographische Schlüssel die auf unsichere Weise direkt im Quellcode oder der Anwendungskonfiguration hinterlegt sind.
+Kryptografische Schlüssel die auf unsichere Weise direkt im Quellcode oder der Anwendungskonfiguration hinterlegt sind.
 
 ## Hyper Text Transfer Protocol (HTTP)
 
@@ -74,7 +74,7 @@ Eine Zusammenfassung einzelner Code-Elemente zu einer eigenständigen Einheit mi
 
 ## Kryptographisches Modul
 
-Hardware, Software, und/oder Firmware die kryptographische Algorithmen und/oder erzeugte kryptographische Schlüssel nutzt.
+Hardware, Software, und/oder Firmware, die kryptografische Algorithmen und/oder erzeugte kryptografische Schlüssel nutzt.
 
 ## Malicious Code
 
@@ -86,7 +86,7 @@ Ausführbarer Code der zur Laufzeit ohne Wissen des Nutzers oder Administrators 
 
 ## Open Web Application Security Project (OWASP)
 
-Open Web Application Security Project (OWASP) ist eine weltweite freie, offene und herstellerunabhängige Community mit Fokus auf Verbesserung der Applikationssicherheit. Unsere Mission ist es Applikationssicherheit sichtbar zu machen so dass Einzelpersonen und Organisationen klare und bewußte Entscheidungen über Sicherheitsrisiken treffen können. Mehr unter: <https://www.owasp.org/>
+Open Web Application Security Project (OWASP) ist eine weltweite freie, offene und herstellerunabhängige Community mit Fokus auf Verbesserung der Applikationssicherheit. Unsere Mission ist es Applikationssicherheit sichtbar zu machen, sodass Einzelpersonen und Organisationen klare und bewusste Entscheidungen über Sicherheitsrisiken treffen können. Mehr unter: <https://www.owasp.org/>
 
 ## Personenbezogene Daten
 
@@ -98,7 +98,7 @@ Position-independent executable (PIE) - Positionsunabhängiger Code ist Maschine
 
 ## PKI
 
-Public Key Infrastruktur - PKI basiert darauf, dass öffentliche Schlüssel an eine Identität gebunden werden. Die Bindung erfolgt durch einen Registrierungsprozess und das Ausstellen eines Zertifikats durch eine Zertifizierungsstelle, in englisch Certificate Authority (CA).
+Public Key Infrastruktur - PKI basiert darauf, dass öffentliche Schlüssel an eine Identität gebunden werden. Die Bindung erfolgt durch einen Registrierungsprozess und das Ausstellen eines Zertifikats durch eine Zertifizierungsstelle, in Englisch Certificate Authority (CA).
 
 ## Prüfer
 
@@ -114,7 +114,7 @@ Ein Prüfbericht, für eine Applikation, der die Analyseschritte eines Prüfers 
 
 ## SAST
 
-Statische Applikations-Security-Tests (SAST) sind eine Reihe von Techniken, die dazu genutzt werden können potentielle Sicherheitsschwachstellen in Quellcode, Bytecode und Binärdateien zu identifizieren. SAST Lösungen analysieren eine Applikation typischerweise zur Entwicklungs- oder Buildzeit jedoch nicht zur Laufzeit.
+Statische Applikations-Security-Tests (SAST) sind eine Reihe von Techniken, die dazu genutzt werden können, potenzielle Sicherheitsschwachstellen in Quellcode, Bytecode und Binärdateien zu identifizieren. SAST Lösungen analysieren eine Applikation typischerweise zur Entwicklungs- oder Buildzeit jedoch nicht zur Laufzeit.
 
 ## SDLC
 
@@ -146,7 +146,7 @@ Single Sign On(SSO) bedeutet, ein Nutzer muss sich an einer Applikation einlogge
 
 ## Transport Layer Security (TLS)
 
-Kryptographisches Protokoll um die Vertraulichkeit, Integrität und Authentizität von Daten während der Übertragung im Internet abzusichern.
+Kryptografisches Protokoll um die Vertraulichkeit, Integrität und Authentizität von Daten während der Übertragung im Internet abzusichern.
 
 ## URI/URL/URL Fragmente
 
@@ -158,4 +158,4 @@ Eine Liste erlaubter Operationen zum Beispiel eine Liste erlaubter Buchstaben di
 
 ## X.509 Zertifikat
 
-Ein X.509 Zertifikat ist ein digitales Zertifikat das eine international standardisierten PKI-Standard nutzt um nachzuweisen dass ein öffentlicher Schlüssel zu einem Nutzer, einem Computer oder einer Serviceidentität, aufgeführt in dem Zertifikat, gehört.
+Ein X.509 Zertifikat ist ein digitales Zertifikat das eine international standardisierten PKI-Standard nutzt, um nachzuweisen, dass ein öffentlicher Schlüssel zu einem Nutzer, einem Computer oder einer Serviceidentität, aufgeführt in dem Zertifikat, gehört.
