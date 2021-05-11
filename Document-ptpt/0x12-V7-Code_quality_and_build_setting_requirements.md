@@ -7,16 +7,16 @@ O objetivo deste controlo é garantir que as práticas básicas de segurança em
 ## Verificação de Requisitos de Segurança
 
 | # | MSTG-ID | Descrição | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
-| **7.1** | MSTG-CODE-1 | A aplicação é fornecida e assinada com um certificado válido, do qual a chave privada se encontra devidamente protegida. | ✓ | ✓ |
-| **7.2** | MSTG-CODE-2 | A aplicação é desenvolvida em modo de distribuição, com configurações apropriadas para a implementação de uma nova versão de produção (ex. não depurável). | ✓ | ✓ |
-| **7.3** | MSTG-CODE-3 | Os símbolos de depuração são removidos dos binários nativos. | ✓ | ✓ |
-| **7.4** | MSTG-CODE-4 | Código de depuração e código de assistência ao programador (ex. código de teste, conteúdo secreto, configurações ocultas) são removidos. A aplicação não regista mensagens de erro detalhadas ou de depuração. | ✓ | ✓ |
-| **7.5** | MSTG-CODE-5 | Todos os componentes de terceiros usados pela aplicação móvel, como bibliotecas e frameworks, são identificados e analisados para deteção de vulnerabilidades conhecidas. | ✓ | ✓ |
-| **7.6** | MSTG-CODE-6 | A aplicação identifica e trata possíveis exceções. | ✓ | ✓ |
-| **7.7** | MSTG-CODE-7 | A lógica de tratamento de erros em controlos de segurança, nega o acesso por defeito. | ✓ | ✓ |
-| **7.8** | MSTG-CODE-8 | Em código não administrado, a memória é alocada, libertada e usada de forma segura. | ✓ | ✓ |
-| **7.9** | MSTG-CODE-9 | Recursos de segurança gratuitos oferecidos pelo conjunto de ferramentas de programação, como minificação de bytes de código, proteção da pilha (stack), suporte ao PIE e contagem automática de referência, são ativados. | ✓ | ✓ |
+| -- | ---------- | ---------------------- | - | - |
+| **7.1** | MSTG-CODE-1 | A aplicação é fornecida e assinada com um certificado válido, do qual a chave privada se encontra devidamente protegida. | x | x |
+| **7.2** | MSTG-CODE-2 | A aplicação é desenvolvida em modo de distribuição, com configurações apropriadas para a implementação de uma nova versão de produção (ex. não depurável). | x | x |
+| **7.3** | MSTG-CODE-3 | Os símbolos de depuração são removidos dos binários nativos. | x | x |
+| **7.4** | MSTG-CODE-4 | Código de depuração e código de assistência ao programador (ex. código de teste, conteúdo secreto, configurações ocultas) são removidos. A aplicação não regista mensagens de erro detalhadas ou de depuração. | x | x |
+| **7.5** | MSTG-CODE-5 | Todos os componentes de terceiros usados pela aplicação móvel, como bibliotecas e frameworks, são identificados e analisados para deteção de vulnerabilidades conhecidas. | x | x |
+| **7.6** | MSTG-CODE-6 | A aplicação identifica e trata possíveis exceções. | x | x |
+| **7.7** | MSTG-CODE-7 | A lógica de tratamento de erros em controlos de segurança, nega o acesso por defeito. | x | x |
+| **7.8** | MSTG-CODE-8 | Em código não administrado, a memória é alocada, libertada e usada de forma segura. | x | x |
+| **7.9** | MSTG-CODE-9 | Recursos de segurança gratuitos oferecidos pelo conjunto de ferramentas de programação, como minificação de bytes de código, proteção da pilha (stack), suporte ao PIE e contagem automática de referência, são ativados. | x | x |
 
 ## Referências
 

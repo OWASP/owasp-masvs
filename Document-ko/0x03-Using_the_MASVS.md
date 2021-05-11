@@ -16,7 +16,7 @@ MASVS-L1의 요구사항을 충족하면 보안 모범 사례에 따라 일반�
 
 **II: MASVS-R에 나열되고 OWASP Mobile Security Testing Guide에 설명된 소프트웨어 보호 통제는 궁극적으로 우회될 수 있으며, 보안 통제의 대체 수단으로 사용되어서는 안됩니다. 다만, 신규 위협을 명시하고 MASVS-L1 또는 MASVS-L2에 명시된 MASVS 요구사항을 충족하는 앱의 보호 통제를 추가하기 위한 것입니다.**
 
-<img src="images/masvs-levels-new.jpg" title="Verification Levels" width="600px" height="253px" />
+![Verification Levels](images/masvs-levels-new.jpg)
 
 ### 문서의 구성
 

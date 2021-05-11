@@ -7,16 +7,16 @@ Le but de ce contrôle est d'assurer que les pratiques de codage de base concern
 ## Exigences pour la Validation de la Sécurité
 
 | # | MSTG-ID | Description | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
-| **7.1** | MSTG-CODE-1 | L'application est signée et livrée avec un certificat en cours de validité, dont la clé privée est correctement protégée. | ✓ | ✓ |
-| **7.2** | MSTG-CODE-2 | L'application a été générée en mode release avec des réglages appropriés à ce mode (c.a.d. sans les possibilités de déboggage). | ✓ | ✓ |
-| **7.3** | MSTG-CODE-3 | Les symboles pour le déboggage ont été enlevés des binaires natifs. | ✓ | ✓ |
-| **7.4** | MSTG-CODE-4 | Le code de déboggage et le code d'assistance au développement (e.g. code de test, portes dérobées, paramètres cachés) ont été enlevés de l'application et celle-ci ne journalise ni de messages d'erreur inutilement longs ni de messages de déboggage. | ✓ | ✓ |
-| **7.5** | MSTG-CODE-5 | Tous les composants utilisés par l'application provenant de sources externes, notamment les librairies et les frameworks, ont été identifiés et analysés à la recherche de vulnérabilités connues. | ✓ | ✓ |
-| **7.6** | MSTG-CODE-6 | L'application intercepte et gère les exceptions potentielles.| ✓ | ✓ |
-| **7.7** | MSTG-CODE-7 | La logique de gestion des erreurs dans les contrôles de sécurité refuse tout accès par défaut. | ✓ | ✓ |
-| **7.8** | MSTG-CODE-8 | Dans le code non-géré, la mémoire est allouée, libérée et utilisée de façon sécurisée.  | ✓ | ✓ |
-| **7.9** | MSTG-CODE-9 | Les fonctionnalités de sécurité intégrées dans les outils de la chaîne de génération, par exemple ceux pour la minification de byte-code, pour la protection de la pile, pour le support PIE ou le comptage de références automatiques, sont activées. | ✓ | ✓ |
+| -- | ---------- | ---------------------- | - | - |
+| **7.1** | MSTG-CODE-1 | L'application est signée et livrée avec un certificat en cours de validité, dont la clé privée est correctement protégée. | x | x |
+| **7.2** | MSTG-CODE-2 | L'application a été générée en mode release avec des réglages appropriés à ce mode (c.a.d. sans les possibilités de déboggage). | x | x |
+| **7.3** | MSTG-CODE-3 | Les symboles pour le déboggage ont été enlevés des binaires natifs. | x | x |
+| **7.4** | MSTG-CODE-4 | Le code de déboggage et le code d'assistance au développement (e.g. code de test, portes dérobées, paramètres cachés) ont été enlevés de l'application et celle-ci ne journalise ni de messages d'erreur inutilement longs ni de messages de déboggage. | x | x |
+| **7.5** | MSTG-CODE-5 | Tous les composants utilisés par l'application provenant de sources externes, notamment les librairies et les frameworks, ont été identifiés et analysés à la recherche de vulnérabilités connues. | x | x |
+| **7.6** | MSTG-CODE-6 | L'application intercepte et gère les exceptions potentielles.| x | x |
+| **7.7** | MSTG-CODE-7 | La logique de gestion des erreurs dans les contrôles de sécurité refuse tout accès par défaut. | x | x |
+| **7.8** | MSTG-CODE-8 | Dans le code non-géré, la mémoire est allouée, libérée et utilisée de façon sécurisée.  | x | x |
+| **7.9** | MSTG-CODE-9 | Les fonctionnalités de sécurité intégrées dans les outils de la chaîne de génération, par exemple ceux pour la minification de byte-code, pour la protection de la pile, pour le support PIE ou le comptage de références automatiques, sont activées. | x | x |
 
 ## Références
 

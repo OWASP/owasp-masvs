@@ -8,7 +8,7 @@ toc-title: 'Table of Content'
 
 #
 # The Nazli font also embeds latin characters
-# BUT it does not contain dash ( - ) and tick ( ✓ )
+# BUT it does not contain dash ( - ) and tick ( x )
 #
 # see https://fontlibrary.org/fr/font/nazli
 #
