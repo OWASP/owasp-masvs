@@ -15,16 +15,6 @@ jobs:
 ## TAG=stable-full ./tools/docker/pandoc_makedocs.sh ....
 ##
 
-  # get_version:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #   - name: Get the RELEASE version
-  #     if: startsWith(github.ref, 'refs/tags/')
-  #     run: echo "VERSION=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_ENV
-  #   - name: Get the SNAPSHOT version
-  #     if: ${{! startsWith(github.ref, 'refs/tags/')}}
-  #     run: echo "VERSION=SNAPSHOT" >> $GITHUB_ENV
-
   en:
     runs-on: ubuntu-latest
     steps:
