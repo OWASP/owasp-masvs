@@ -16,7 +16,7 @@ Atteindre les exigences du niveau MASVS-L1 amène à une application qui suit le
 
 **II: Il faut noter que les contrôles de protection des logiciels présentés dans le MASVS-R et décrits dans l'OWASP MSTG peuvent finalement être contournés et ne doivent jamais être utilisés comme alternative aux contrôles de sécurité. Par contre, ils sont conçus pour ajouter des contrôles supplémentaires envers des menaces spécifiques pour les applications qui satisfont aux exigences de MASVS-L1 et MASVS-L2.**
 
-<img src="images/masvs-levels-new.jpg" title="Verification Levels" width="600px" height="253px" />
+![Verification Levels](images/masvs-levels-new.jpg)
 
 ### Structure du Document
 

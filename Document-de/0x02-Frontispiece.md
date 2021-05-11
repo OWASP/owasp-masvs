@@ -1,8 +1,8 @@
 # Über den Standard
 
-<img src="images/OWASP_logo.png" title="OWASP LOGO" />
+![OWASP Logo](images/OWASP_logo.png)
 
-Willkommen beim Mobile Application Security Verification Standard (MASVS) 1.2. Der MASVS ist eine Community-Initiative mit dem Ziel ein Rahmenwerk von Security-Anforderungen für Design, Entwicklung und Test von mobilen Apps unter iOS und Android zu etablieren.
+Willkommen beim Mobile Application Security Verification Standard (MASVS). Der MASVS ist eine Community-Initiative mit dem Ziel ein Rahmenwerk von Security-Anforderungen für Design, Entwicklung und Test von mobilen Apps unter iOS und Android zu etablieren.
 
 Der MASVS vereint Community Engagement und Feedback aus der Praxis. Wir gehen davon aus, dass der Standard sich über die Zeit weiter entwickelt und begrüßen jedes Feedback aus der Community. Der beste Weg mit uns in Kontakt zu treten ist der OWASP Mobile Project Slack Channel:
 [https://owasp.slack.com/messages/](https://owasp.slack.com/messages/project-mobile_omtg/details/).
@@ -12,9 +12,9 @@ Nutzerkonten können unter folgender URL angelegt werden:
 
 ## Copyright and License
 
-[<img src="images/CC-license.png" title="License" width="200px" height="45px" />](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Creative Commons License](images/CC-license.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Copyright © 2020 The OWASP Foundation. Dieses Dokument ist veröffentlicht unter der Creative Commons Attribution ShareAlike 3.0 Lizenz. Für jedwede Wiederverwendung oder Vertrieb müssen diese Lizenzbestimmungen klar kommuniziert werden.
+Copyright © 2021 The OWASP Foundation. Dieses Dokument ist veröffentlicht unter der Creative Commons Attribution ShareAlike 3.0 Lizenz. Für jedwede Wiederverwendung oder Vertrieb müssen diese Lizenzbestimmungen klar kommuniziert werden.
 
 <!-- \pagebreak -->
 
@@ -22,21 +22,24 @@ Copyright © 2020 The OWASP Foundation. Dieses Dokument ist veröffentlicht unte
 
 | Project Lead | Lead Author | Mitwirkende and Reviewer |
 | ------- | --- | ----------------- |
-| Sven Schleier, Jeroen Willemsen and Carlos Holguera| Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Eugen Martynov, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald Szkudlarek, Abderrahmane Aftahi, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
+| Sven Schleier and Carlos Holguera | Bernhard Mueller, Sven Schleier, Jeroen Willemsen and Carlos Holguera | Alexander Antukh, Mesheryakov Aleksey, Elderov Ali, Bachevsky Artem, Jeroen Beckers, Jon-Anthoney de Boer, Damien Clochard, Ben Cheney, Will Chilcutt, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, @empty_jack, Ben Gardiner, Anton Glezman, Josh Grossman, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, @PierrickV, Julia Potapenko, Andrew Orobator, Mehrad Rafii, Javier Ruiz, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Abdessamad Temmar, Pauchard Thomas, Lukasz Wierzbicki |
 
 <br/>
 
 | Sprache | Übersetzer und Gutachter |
-| --- | ------------------------------ |
+| --------------- | ------------------------------------------------------------ |
 | Chinesisch (Traditionell) | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
 | Chinesisch (Vereinfacht) | Bob Peng, Harold Zang, Jack S |
-| Französisch | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | Deutsch | Rocco Gränitz, Sven Schleier (Review) |
+| Französisch | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
 | Hindi | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
-| Spanisch | Martin Marsicano, Carlos Holguera |
 | Japanisch | Koki Takeyama, Riotaro Okada (Review) |
-| Russisch | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | Koreanisch | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
+| Persisch (Farsi) | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
+| Portugiesisch (Brasilien) | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
+| Portugiesisch | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
+| Russisch | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| Spanisch | Martin Marsicano, Carlos Holguera |
 
 Dieses Dokument basiert auf einem Fork des OWASP Application Security Verification Standard verfasst von Jim Manico.
 
@@ -46,10 +49,10 @@ Obwohl beide Projekte, der MASVS und der MSTG, auf freiwilliger Basis im Rahmen 
 
 ### "Honourable Benefactor" Sponsor
 
-[<img src="images/NowSecure_logo.png" title="NowSecure" width="200px" height="58px" />](https://www.nowsecure.com/ "NowSecure")
+[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/)
 
 ### "Good Samaritan" Sponsor
 
-[<img src="images/Randorisec_logo.png" title="Randorisec" width="200px" height="58px" />](https://www.randorisec.fr/ "RandoriSec")
+[![RandoriSec MSTG](images/Randorisec_logo.png)](https://www.randorisec.fr/)
 
 Als Nächstes möchten wir uns beim OWASP Bay Area Chapter für das Sponsoring bedanken. Zum Schluss möchten wir uns bei allen bedanken, die das Buch von Leanpub gekauft und uns auf diese Weise gesponsert haben.

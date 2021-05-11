@@ -16,7 +16,7 @@ Eine App die alle Anforderungen aus MASVS-L1 erfüllt, folgt Security Best Pract
 
 **II: Bitte beachte das alle Anforderungen, die in MASVS-R aufgelistet und im OWASP Mobile Security Testing Guide beschrieben sind, immer umgangen werden können. Daher sollten diese auch nie als Ersatz für Sicherheitsmaßnahmen verwendet werden. Stattdessen ist die Intention von MASVS-R zusätzliche bedrohungsspezifische Gegenmaßnahmen für Apps zu definieren, die bereits die Anforderungen in MASVS-L1 oder MASVS-L2 erfüllen.**
 
-<img src="images/masvs-levels-new.jpg" title="Prüf-Level" width="600px" height="253px" />
+![Prüf-Level](images/masvs-levels-new.jpg)
 
 ### Dokumentstruktur
 

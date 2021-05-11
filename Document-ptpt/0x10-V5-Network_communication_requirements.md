@@ -8,13 +8,13 @@ O objetivo dos controlos detalhados nesta secção é de garantir a confidencial
 ## Requisitos de verificação de segurança
 
 | # | MSTG-ID | Descrição | L1 | L2 |
-| -- | -------- | ---------------------- | - | - |
-| **5.1** | MSTG-NETWORK-1 | Os dados são cifrados na rede usando TLS. Este canal seguro é usado com consistência ao longo da aplicação. | ✓ | ✓ |
-| **5.2** | MSTG-NETWORK-2 | As configurações de TLS estão de acordo com as melhores praticas atuais, ou o mais próximo possível caso o sistema operativo movel não suporte os padrões recomendados. | ✓ | ✓ |
-| **5.3** | MSTG-NETWORK-3 | A aplicação verifica o certificado X.509 do ponto de acesso remoto quando o canal seguro é estabelecido. Apenas certificados assinados por uma autoridade certificadora de confiança são aceites. | ✓ | ✓ |
-| **5.4** | MSTG-NETWORK-4 | A aplicação ou usa a sua própria loja de certificados ou fixa o certificado da ou chave pública do ponto de acesso, e subsequentemente não estabelece ligações a pontos de acesso que ofereçam um certificado ou chave diferentes, mesmo que assinados por uma Autoridade de Certificação de confiança |   | ✓ |
-| **5.5** | MSTG-NETWORK-5 | A aplicação não depende apenas de um único canal de comunicação inseguro (email ou SMS) para operações críticas, tais como inscrições e recuperação de contas. |  | ✓ |
-| **5.6** | MSTG-NETWORK-6 | A aplicação depende apenas de conetividade atualizada e bibliotecas seguras. |  | ✓ |
+| -- | ---------- | ---------------------- | - | - |
+| **5.1** | MSTG-NETWORK-1 | Os dados são cifrados na rede usando TLS. Este canal seguro é usado com consistência ao longo da aplicação. | x | x |
+| **5.2** | MSTG-NETWORK-2 | As configurações de TLS estão de acordo com as melhores praticas atuais, ou o mais próximo possível caso o sistema operativo movel não suporte os padrões recomendados. | x | x |
+| **5.3** | MSTG-NETWORK-3 | A aplicação verifica o certificado X.509 do ponto de acesso remoto quando o canal seguro é estabelecido. Apenas certificados assinados por uma autoridade certificadora de confiança são aceites. | x | x |
+| **5.4** | MSTG-NETWORK-4 | A aplicação ou usa a sua própria loja de certificados ou fixa o certificado da ou chave pública do ponto de acesso, e subsequentemente não estabelece ligações a pontos de acesso que ofereçam um certificado ou chave diferentes, mesmo que assinados por uma Autoridade de Certificação de confiança |   | x |
+| **5.5** | MSTG-NETWORK-5 | A aplicação não depende apenas de um único canal de comunicação inseguro (email ou SMS) para operações críticas, tais como inscrições e recuperação de contas. |  | x |
+| **5.6** | MSTG-NETWORK-6 | A aplicação depende apenas de conetividade atualizada e bibliotecas seguras. |  | x |
 
 ## Referencias
 
