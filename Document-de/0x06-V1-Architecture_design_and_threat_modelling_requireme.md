@@ -13,14 +13,14 @@ Die Anforderungen für MASVS-L1 und MASVS-L2 sind nachfolgend aufgelistet.
 | # | MSTG-ID | Beschreibung | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
 | **1.1** | MSTG-ARCH-1 | Alle Komponenten der mobilen App sind identifiziert und für den Betrieb der App erforderlich. | x | x |
-| **1.2** | MSTG-ARCH-2 | Sicherheitsfunktionen sind niemals nur auf Client-Seite implementiert sondern immer auch im entsprechenden entfernten API-Endpunkt. | x | x |
+| **1.2** | MSTG-ARCH-2 | Sicherheitsfunktionen sind niemals nur auf Client-Seite implementiert, sondern immer auch im entsprechenden entfernten API-Endpunkt. | x | x |
 | **1.3** | MSTG-ARCH-3 | Es existiert eine Architekturübersicht über die mobile App und alle verbundenen API-Endpunkte und Security wurde in der Gesamtarchitektur berücksichtigt. | x | x |
 | **1.4** | MSTG-ARCH-4 | Alle sensiblen Daten im Kontext der mobilen App wurden klar identifiziert. | x | x |
 | **1.5** | MSTG-ARCH-5 | Für jede Komponente der App ist der angebotene fachliche Funktionsumfang und/oder Sicherheitsfunktionen/-mechanismen klar definiert.  |   | x |
-| **1.6** | MSTG-ARCH-6 | Für die mobile App und die genutzten API-Endpunkte wurde eine Bedrohungsanalyse durchgeführt und potentielle Bedrohungen und Gegenmaßnahmen identifiziert. |   | x |
+| **1.6** | MSTG-ARCH-6 | Für die mobile App und die genutzten API-Endpunkte wurde eine Bedrohungsanalyse durchgeführt und potenzielle Bedrohungen und Gegenmaßnahmen identifiziert. |   | x |
 | **1.7** | MSTG-ARCH-7 | Alle Sicherheitsfunktionen wurden in Form von zentralen Komponenten implementiert. |   | x |
-| **1.8** | MSTG-ARCH-8 | Eine dedizierte Richtlinie zum Management von kryptographischen Schlüsseln (falls in der App genutzt) beschreibt den sicheren Umgang mit Schlüsseln über den gesamten Lebenszyklus, idealerweise basierend auf Standards wie NIST SP 800-57. |   | x |
-| **1.9** | MSTG-ARCH-9 | Es gibt einen Mechanismus in der mobilen App um App-Aktualisierungen zu erzwingen. |   | x |
+| **1.8** | MSTG-ARCH-8 | Eine dedizierte Richtlinie zum Management von kryptografischen Schlüsseln (falls in der App genutzt) beschreibt den sicheren Umgang mit Schlüsseln über den gesamten Lebenszyklus, idealerweise basierend auf Standards wie NIST SP 800-57. |   | x |
+| **1.9** | MSTG-ARCH-9 | Es gibt einen Mechanismus in der mobilen App, um App-Aktualisierungen zu erzwingen. |   | x |
 | **1.10** | MSTG-ARCH-10 | Security wird in allen Teilen des Softwareentwicklungszyklus berücksichtigt. |   | x |
 | **1.11** | MSTG-ARCH-11 | Eine "Responsible Disclosure Policy" ist vorhanden und wird umgesetzt. |   | x |
 | **1.12** | MSTG-ARCH-12 | Die App sollte Datenschutzgesetze und Regulierungen befolgen. | x | x |
