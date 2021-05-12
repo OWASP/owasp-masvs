@@ -276,25 +276,25 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/') && (github.actor == 'cpholguera' || github.actor == 'sushi2k')
     steps:
       - uses: actions/download-artifact@v2
-      - name: List ES
+      - name: List Downloaded Spanish Translation (sampling of download-artifact)
         run: ls -l OWASP_MASVS-*-es
-      - name: Unpack
+      - name: Move all translations (pdf, epub and docx) to root
         run: mv OWASP_MASVS-*-*/* .
-      - name: List
+      - name: Listing of root directory
         run: ls -l
-      - name: Cleanup 
-        run: rm -rf OWASP_MASVS-*/
+      # - name: Cleanup - Remove all downloaded documents
+      #   run: rm -rf OWASP_MASVS-*/
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          body_path: RECENT_CHANGES.md
+          body_path: RECENT_CHANGES.md/RECENT_CHANGES.md
           files: |
             OWASP_MASVS-*.pdf
             OWASP_MASVS-*.epub
             OWASP_MASVS-*.docx
-            OWASP_MASVS-*.csv
-            OWASP_MASVS-*.json
-            OWASP_MASVS-*.xml
+            OWASP_MASVS-*.csv/OWASP_MASVS-*.csv
+            OWASP_MASVS-*.json/OWASP_MASVS-*.json
+            OWASP_MASVS-*.xml/OWASP_MASVS-*.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
