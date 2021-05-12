@@ -280,7 +280,11 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           body_path: RECENT_CHANGES.TXT
-          files: OWASP_MASVS-*
+          files: | 
+            OWASP_MASVS-*.csv
+            OWASP_MASVS-*.json
+            OWASP_MASVS-*.xml
+            OWASP_MASVS-*/*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
