@@ -279,7 +279,7 @@ jobs:
       - name: List ES
         run: ls -l OWASP_MASVS-*-es
       - name: Unpack
-        run: mv OWASP_MASVS-*-*/*.zip .
+        run: mv OWASP_MASVS-*-*/* .
       - name: List
         run: ls -l
       - name: Cleanup 
