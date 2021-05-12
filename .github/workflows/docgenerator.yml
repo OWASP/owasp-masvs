@@ -276,15 +276,13 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/') && (github.actor == 'cpholguera' || github.actor == 'sushi2k')
     steps:
       - uses: actions/download-artifact@v2
+      - name: Unpack
+        run: mv */* . && rm -rf OWASP_MASVS-*/
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
           body_path: RECENT_CHANGES.TXT
-          files: | 
-            OWASP_MASVS-*.csv
-            OWASP_MASVS-*.json
-            OWASP_MASVS-*.xml
-            OWASP_MASVS-*/*
+          files: OWASP_MASVS-*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
