@@ -1,18 +1,20 @@
 # Registo de Alterações
 
-## V1.3 - 11 May 2021
+## V1.3 - 13 May 2021
 
-We are proud to announce the introduction of a new document build pipeline, which is major milestone for our project. The build pipeline is based on [Pandocker](https://github.com/dalibo/pandocker) and [Github Actions](https://github.com/OWASP/owasp-masvs/tree/master/.github/workflows). This significantly reduces the time spent on creating new releases. We would like to thank:
+We are proud to announce the introduction of a new document build pipeline, which is a major milestone for our project. The build pipeline is based on [Pandocker](https://github.com/dalibo/pandocker) and [Github Actions](https://github.com/OWASP/owasp-masvs/tree/master/.github/workflows).
+This significantly reduces the time spent on creating new releases and will also be the foundation for the OWASP MSTG and will be made available for the OWASP ASVS project.
 
-- Jeroen Willemsen for kick-starting this initiative last year!
-- Damien Clochard and Dalibo for supporting and professionalizing the build pipeline.
-
-The build pipeline will also be the foundation for the OWASP MSTG and will be made available for the OWASP ASVS project.
-
-The following changes are part of release 1.3:
+### Changes
 
 - 4 more translations are available, which are Hindi, Farsi, Portuguese and Brazilian Portuguese
 - Added requirement MSTG-PLATFORM-11
+
+### Special Thanks
+
+- Jeroen Willemsen for kick-starting this initiative last year!
+- Damien Clochard and Dalibo for supporting and professionalizing the build pipeline.
+- All our Hindi, Farsi, Portuguese and Brazilian Portuguese collaborators for the excellent translation work.
 
 ## V1.2 - 7 de Março de 2020 - Lançamento da versão Internacional
 
