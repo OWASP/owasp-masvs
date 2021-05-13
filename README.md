@@ -41,15 +41,37 @@ Want to have the latest `snapshot` version? Check [the latest Github build actio
 
 Read the English version on [Gitbook](https://mobile-security.gitbook.io/masvs/ "GitBook Mobile AppSec Verification Standard"). The book is automatically synchronized with the main repo.
 
-## Create new PDF, Epub, Mobi, and Word document
+## Create new PDF, EPUB and Word document
 
-You can find the documents in the release page. If you want to generate the documents yourself, execute the following steps. Clone the repository and run the document generator. This produces PDF, Epub and Docx files in the root of the project.
+> These steps were tested on macOS, Kali and Ubuntu 18
+
+You can find the documents on the [release page](https://github.com/OWASP/owasp-masvs/releases). If you want to generate the documents yourself, execute the following steps:
+
+- The document creation uses a Docker container, so make sure that you have [Docker installed](https://www.docker.com/products/docker-desktop).
+
+- If using macOS, install `gnu-sed` via brew.
+
+```shell
+$ brew install gnu-sed
+```
+
+- Clone the MASVS repository:
 
 ```shell
 $ git clone https://github.com/OWASP/owasp-masvs/
-$ cd owasp-masvs/tools/docker
-$ ./run_docker_masvs_generation_on_local.sh LATEST
+$ cd owasp-masvs/
 ```
+
+- Run the document generation script for the chosen language:
+
+```shell
+$ ./tools/docker/pandoc_makedocs_local.sh Document-de LATEST
+```
+
+- "Document-de" specifies the folder of the language that is used to generate the documents. Simply replace it with the language you want to use.
+- "LATEST" is the string that will be printed on the cover.
+
+This produces PDF, EPUB and DOCX files in the root of the project.
 
 ## Exporting to JSON, XML and CSV
 
