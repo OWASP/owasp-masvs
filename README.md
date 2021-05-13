@@ -74,7 +74,7 @@ $ git checkout -b local_masvs_creation
 $ ./tools/docker/pandoc_makedocs_local.sh Document-de LATEST
 ```
 
-- "Document-de" is specifying the folder of the language that is being used to generate the documents. Simply replace with the one you want to create.
+- "Document-de" specifies the folder of the language that is used to generate the documents. Simply replace it with the language you want to use.
 - "LATEST" is the string that will be printed on the cover.
 
 This produces PDF, EPUB and DOCX files in the root of the project.
