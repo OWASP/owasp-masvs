@@ -43,13 +43,13 @@ Read the English version on [Gitbook](https://mobile-security.gitbook.io/masvs/ 
 
 ## Create new PDF, EPUB and Word document
 
-> The steps were tested on macOS only!
+> The steps were tested on macOS, Kali and Ubuntu 18
 
 You can find the documents on the [release page](https://github.com/OWASP/owasp-masvs/releases). If you want to generate the documents yourself, execute the following steps:
 
 - The document creation uses a Docker container, so make sure that you have [Docker installed](https://www.docker.com/products/docker-desktop).
 
-- Install `gnu-sed` via brew. This will add the command `gsed` which is used to remove the comment from the `\pagebreak` LaTeX command.
+- If using macOS, install `gnu-sed` via brew.
 
 ```shell
 $ brew install gnu-sed
@@ -59,13 +59,7 @@ $ brew install gnu-sed
 
 ```shell
 $ git clone https://github.com/OWASP/owasp-masvs/
-```
-
-- Create a new branch, as files will be changed when removing the comment from the `\pagebreak` LaTeX command:
-
-```shell
 $ cd owasp-masvs/
-$ git checkout -b local_masvs_creation
 ```
 
 - Run the document generation script for the chosen language:
