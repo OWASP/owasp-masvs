@@ -43,7 +43,7 @@ Read the English version on [Gitbook](https://mobile-security.gitbook.io/masvs/ 
 
 ## Create new PDF, EPUB and Word document
 
-> The steps were tested on macOS, Kali and Ubuntu 18
+> These steps were tested on macOS, Kali and Ubuntu 18
 
 You can find the documents on the [release page](https://github.com/OWASP/owasp-masvs/releases). If you want to generate the documents yourself, execute the following steps:
 
