@@ -47,7 +47,7 @@ Read the English version on [Gitbook](https://mobile-security.gitbook.io/masvs/ 
 
 You can find the documents on the [release page](https://github.com/OWASP/owasp-masvs/releases). If you want to generate the documents yourself, execute the following steps:
 
-- The document creation is using a Docker container, so make sure that you have [Docker installed](https://www.docker.com/products/docker-desktop).
+- The document creation uses a Docker container, so make sure that you have [Docker installed](https://www.docker.com/products/docker-desktop).
 
 - Install `gnu-sed` via brew. This will add the command `gsed` which is used to remove the comment from the `\pagebreak` LaTeX command.
 
