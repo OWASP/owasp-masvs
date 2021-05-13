@@ -45,7 +45,7 @@ Read the English version on [Gitbook](https://mobile-security.gitbook.io/masvs/ 
 
 > The steps were tested on macOS only!
 
-You can find the documents in the [release page](https://github.com/OWASP/owasp-masvs/releases). If you want to generate the documents yourself, execute the following steps:
+You can find the documents on the [release page](https://github.com/OWASP/owasp-masvs/releases). If you want to generate the documents yourself, execute the following steps:
 
 - The document creation is using a Docker container, so make sure that you have [Docker installed](https://www.docker.com/products/docker-desktop).
 
