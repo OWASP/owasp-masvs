@@ -18,8 +18,6 @@ Folgende Eckpunkte gelten:
 
 3. Die Effektivität der Schutzmaßnahmen sollte immer von einem Experten mit ausgewiesener Erfahrung im Bereich Anti-Code-Manipulation und Code-Obfuskierung überprüft werden (siehe auch Kapitel "reverse engineering" and "assessing software protections" im Mobile Security Testing Guide).
 
-<!-- \pagebreak -->
-
 ### Dynamische Analyse und Manipulation verhindern
 
 | # | MSTG-ID | Beschreibung | R |
