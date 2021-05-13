@@ -20,9 +20,14 @@ PANDOC_PARAMS+="--metadata version=${VERSION} "
 
 PANDOCKER="docker run --rm --volume `pwd`:/pandoc ${IMG}:${TAG} ${PANDOC_PARAMS}"
 
-
 # remove the comment from \pagebreak
-gsed -i 's#<!-- \(.*\) -->#\1#g' Document*/*.md
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  gsed -i 's#<!-- \(.*\) -->#\1#g' Document*/*.md
+else
+  sed -i 's#<!-- \(.*\) -->#\1#g' Document*/*.md
+fi
+
+
 
 
 # Use pandocker PANDOCKER by default, unless `export PANDOC=pandoc`
