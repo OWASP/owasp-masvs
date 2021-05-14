@@ -4,7 +4,7 @@
 
 Em um mundo perfeito, a segurança seria considerada em todas as fases do desenvolvimento. Na realidade, porém, a segurança geralmente é apenas uma consideração em uma fase tardia no SDLC. Além dos controles técnicos, o MASVS exige que os processos estejam em um local que garanta que a segurança tenha sido explicitamente abordada ao planejar a arquitetura do aplicativo móvel e que as funções funcionais e de segurança, de todos os componentes, sejam conhecidas. Como a maioria dos aplicativos móveis atua como clientes de serviços remotos, deve-se assegurar que os padrões de segurança adequados também são aplicadas a esses serviços, não bastando testar o aplicativo móvel isoladamente.
 
-A categoria "V1" lista os requisitos referentes à arquitetura e _design_ do aplicativo. Como tal, esta é a única categoria que não é mapeada para casos de teste técnicos no _OWASP Mobile Testing Guide_. Para cobrir tópicos como modelagem de ameaças, SDLC seguro ou gerenciamento de chaves; os usuários do MASVS devem consultar os respectivos projetos da OWASP e/ou outros padrões, como os relacionados abaixo.
+A categoria "V1" lista os requisitos referentes à arquitetura e _design_ do aplicativo. Como tal, esta é a única categoria que não é mapeada para casos de testes técnicos no _OWASP Mobile Testing Guide_. Para cobrir tópicos como modelagem de ameaças, SDLC seguro ou gerenciamento de chaves; os usuários do MASVS devem consultar os respectivos projetos da OWASP e/ou outros padrões, como os relacionados abaixo.
 
 ## Requisitos de Verificação de Segurança
 
