@@ -4,7 +4,7 @@
 
 Esta seção cobre as medidas de proteção recomendadas para aplicativos móveis que processam, ou dão acesso para, dados ou funcionalidades sensíveis. A falta de qualquer um desses controles não causa uma vulnerabilidade. Em vez disso, eles destinam-se a aumentar a resiliência do aplicativo móvel contra engenharia reversa e ataques específicos do lado do cliente.
 
-Os controles desta seção devem ser aplicados conforme necessário, com base em uma avaliação dos riscos causados por manipulação não autorizada do aplicativo móvel e/ou engenharia reversa do código. Sugerimos que seja consultado os documentos "_Technical Risks of Reverse Engineering and Unauthorized Code Modification_" e "_Reverse Engineering and Code Modification Prevention_" do OWASP (veja referência abaixo) para uma lista dos riscos de negócio, assim como as ameaças técnicas associadas.
+Os controles desta seção devem ser aplicados conforme necessário, com base em uma avaliação dos riscos causados por manipulação não autorizada do aplicativo móvel e/ou engenharia reversa do código. Sugerimos que sejam consultados os documentos "_Technical Risks of Reverse Engineering and Unauthorized Code Modification_" e "_Reverse Engineering and Code Modification Prevention_" do OWASP (veja referência abaixo) para uma lista dos riscos de negócio, assim como as ameaças técnicas associadas.
 
 Para que qualquer controle da lista abaixo ser efetivo, o aplicativo móvel deve cumprir pelo menos todas as MASVS-L1 (ou seja, devem existir controles sólidos de segurança), assim como todos os requisitos de número inferior no V8. Por exemplo, os controles de ofuscação listados em "impedir a compreensão" devem ser combinados com "impedir a análise dinâmica e a manipulação" e "vinculação ao dispositivo".
 
