@@ -1,9 +1,8 @@
 # Controle de Alterações
 
-## V1.3 - 13 May 2021
+## V1.3 - 13 de Maio de 2021
 
-We are proud to announce the introduction of a new document build pipeline, which is a major milestone for our project. The build pipeline is based on [Pandocker](https://github.com/dalibo/pandocker) and [Github Actions](https://github.com/OWASP/owasp-masvs/tree/master/.github/workflows).
-This significantly reduces the time spent on creating new releases and will also be the foundation for the OWASP MSTG and will be made available for the OWASP ASVS project.
+Temos o orgulho de anunciar a introdução do novo compilador segmentado de documentos, este recurso é um marco importante para o nosso projeto. O compilador  segmentado é baseado em ações [Pandocker](https://github.com/dalibo/pandocker) e [Github Actions.](https://github.com/OWASP/owasp-masvs/tree/master/.github/workflows) Isso reduz significativamente o tempo gasto na criação de novos lançamentos e também será a base para o OWASP MSTG e será disponibilizado para o projeto OWASP ASVS.
 
 ### Alterações
 
