@@ -65,7 +65,7 @@ $ cd owasp-masvs/
 - Run the document generation script for the chosen language with latin-fonts:
 
 ```shell
-$ ./tools/docker/pandoc_makedocs_local.sh Document-de LATEST
+$ ./tools/docker/pandoc_makedocs.sh Document-de LATEST
 ```
 
 - "Document-de" specifies the folder of the language that is used to generate the documents. Simply replace it with the language you want to use.
