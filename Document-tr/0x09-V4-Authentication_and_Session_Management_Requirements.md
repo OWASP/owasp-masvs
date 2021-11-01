@@ -6,7 +6,7 @@
 
 ## Güvenlik Doğrulama Gereksinimleri
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | Açıklama | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
 | **4.1** | MSTG-AUTH-1 | Uygulama, kullanıcılara uzak bir servise erişim sağlıyorsa, uzak uç noktada kullanıcı adı/parola kimlik doğrulaması gibi bir tür kimlik doğrulama gerçekleştirilir. | x | x |
 | **4.2** | MSTG-AUTH-2 | Durum bilgisi olan (stateful) oturum yönetimi kullanılıyorsa, uzak uç nokta, kullanıcının kimlik bilgilerini göndermeden istemci isteklerinin kimliğini doğrulamak için rastgele oluşturulmuş oturum tanımlayıcılarını kullanır. | x | x |
