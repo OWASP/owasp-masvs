@@ -18,7 +18,7 @@ MASVS bağlamındaki hassas veriler, hem kullanıcı kimlik bilgileriyle hem de 
 
 Veri ifşa sorunlarının büyük çoğunluğu basit kurallara uyarak önlenebilir. Bu bölümde listelenen kontrollerin çoğu tüm doğrulama seviyeleri için zorunludur.
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | Açıklama | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
 | **2.1** | MSTG-STORAGE-1 | Kişisel tanımlanabilir bilgiler (PII), kullanıcı kimlik bilgileri veya kriptografik anahtarlar gibi hassas verileri depolamak için sistem kimlik bilgileri depolama tesislerinin kullanılması gerekir. | x | x |
 | **2.2** | MSTG-STORAGE-2 | Hassas veriler, uygulama alanı veya sistem kimlik depolama alanları dışındaki alanlarda saklanmamalıdır. | x | x |
