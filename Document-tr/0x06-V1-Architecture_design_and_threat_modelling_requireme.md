@@ -10,7 +10,7 @@ Kusursuz bir dünyada, güvenlik, geliştirmenin tüm aşamalarında dikkate al�
 
 MASVS-L1 ve MASVS-L2 gereksinimleri aşağıda listelenmiştir.
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | Açıklama | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
 | **1.1** | MSTG-ARCH-1 | Tüm uygulama bileşenleri tanımlanır ve ihtiyaç duyulduğu bilinir. | x | x |
 | **1.2** | MSTG-ARCH-2 | Güvenlik denetimleri yalnızca istemci tarafında değil, ilgili uzak uç noktalarda da zorlanır. | x | x |
