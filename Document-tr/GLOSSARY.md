@@ -1,4 +1,4 @@
-# Appendix A: Glossary
+# Ek A: Sözlük
 
 ## Address Space Layout Randomization (ASLR)
 
