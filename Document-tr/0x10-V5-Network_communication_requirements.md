@@ -2,11 +2,11 @@
 
 ## Kontrol Hedefi
 
-Bu bölümde listelenen kontrollerin amacı, mobil uygulama ile uzak servis uç noktaları arasında aktarılan edilen bilgilerin gizliliğini ve bütünlüğünü sağlamaktır. En azından bir mobil uygulama, uygun ayarlarla TLS protokolünü kullanarak ağ iletişimi için güvenli, şifreli bir kanal kurmalıdır. Seviye 2, SSL sabitleme gibi ek derinlemesine savunma önlemlerini listeler.
+Bu bölümde listelenen kontrollerin amacı, mobil uygulama ile uzak servis uç noktaları arasında aktarılan bilgilerin gizliliğini ve bütünlüğünü sağlamaktır. En azından bir mobil uygulama, uygun ayarlarla TLS protokolünü kullanarak ağ iletişimi için güvenli, şifreli bir kanal kurmalıdır. Seviye 2, SSL sabitleme gibi ek derinlemesine savunma önlemlerini listeler.
 
 ## Güvenlik Doğrulama Gereksinimleri
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | Açıklama | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
 | **5.1** | MSTG-NETWORK-1 | Veriler ağda TLS kullanılarak şifrelenir. Güvenli kanal, uygulama boyunca tutarlı bir şekilde kullanılır. | x | x |
 | **5.2** | MSTG-NETWORK-2 | TLS ayarları, mevcut en iyi uygulamalarla uyumludur veya mobil işletim sistemi önerilen standartları desteklemiyorsa mümkün olduğunca yakındır. | x | x |

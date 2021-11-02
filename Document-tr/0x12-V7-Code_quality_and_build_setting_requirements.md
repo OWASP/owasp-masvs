@@ -6,7 +6,7 @@ Bu kontrolün amacı, uygulamanın geliştirilmesinde temel güvenlik kodlama uy
 
 ## Güvenlik Doğrulama Gereksinimleri
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | Açıklama | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
 | **7.1** | MSTG-CODE-1 | Uygulama, özel anahtarın uygun şekilde korunduğu geçerli bir sertifika ile imzalanır ve sağlanır. | x | x |
 | **7.2** | MSTG-CODE-2 | Uygulama, yayına uygun ayarlarla (ör. hata ayıklanamaz) yayın modunda oluşturulmuştur. | x | x |

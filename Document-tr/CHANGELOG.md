@@ -1,95 +1,91 @@
-# Changelog
+# Değişiklik günlüğü
 
-## V1.3 - 13 May 2021
+## V1.3 - 13 Mayıs 2021
 
-We are proud to announce the introduction of a new document build pipeline, which is a major milestone for our project. The build pipeline is based on [Pandocker](https://github.com/dalibo/pandocker) and [Github Actions](https://github.com/OWASP/owasp-masvs/tree/master/.github/workflows).
-This significantly reduces the time spent on creating new releases and will also be the foundation for the OWASP MSTG and will be made available for the OWASP ASVS project.
+Projemiz için önemli bir kilometre taşı olan yeni bir belge oluşturma hattının tanıtıldığını duyurmaktan gurur duyuyoruz. Derleme işlem hattı, Pandocker ve Github Eylemlerine dayanmaktadır. Bu, yeni sürümlerin oluşturulması için harcanan zamanı önemli ölçüde azaltır ve ayrıca OWASP MSTG'nin temeli olacak ve OWASP ASVS projesi için kullanıma sunulacaktır.
 
-### Changes
+### Değişiklikler
+- Hintçe, Farsça, Portekizce ve Brezilya Portekizcesi olmak üzere 4 çeviri eklendi
+- Gereksinim eklemesi: MSTG-PLATFORM-11
+### Özel teşekkür
+- Jeroen Willemsen, geçen yıl bu girişimi başlattığı için!
+- Damien Clochard ve Dalibo, pipeline desteklemek ve profesyonelleştirmek için.
+- Mükemmel çeviri çalışmaları için tüm Hintçe, Farsça, Portekizce ve Brezilya Portekizcesi ortak çalışanlarımız.
 
-- 4 more translations are available, which are Hindi, Farsi, Portuguese and Brazilian Portuguese
-- Added requirement MSTG-PLATFORM-11
+## V1.2 - 7 Mart 2020 - Uluslararası Sürüm
 
-### Special Thanks
+Aşağıdaki değişiklikler 1.2 sürümünün parçasıdır:
 
-- Jeroen Willemsen for kick-starting this initiative last year!
-- Damien Clochard and Dalibo for supporting and professionalizing the build pipeline.
-- All our Hindi, Farsi, Portuguese and Brazilian Portuguese collaborators for the excellent translation work.
+- Mevcut MASVS'nin basitleştirilmiş Çince çevirisi.
+- MASVS kitap kapağında başlık değişikliği.
+- Mobile Top 10 ve CWE, MSTG'den kaldırıldı ve MASVS'deki mevcut referanslarla birleştirildi.
 
-## V1.2 - 7 March 2020 - International Release
+## V1.2-RC - 5 Ekim 2019 - Ön sürüm (yalnızca İngilizce)
 
-The following changes are part of release 1.2:
+Aşağıdaki değişiklikler ön sürüm 1.2'nin parçasıdır:
 
-- Translation in simplified Chinese of the MASVS available.
-- Change of title in MASVS book cover.
-- Removed Mobile Top 10 and CWE from MSTG and merged to existing references in MASVS.
+- "Flagship" statüsüne yükseltildi.
+- Gereksinim değişti: MSTG-STORAGE-1 "kullanılması gerekiyor".
+- Veri korumaya odaklanılarak MSTG-STORAGE-13, MSTG-STORAGE-14 ve MSTG-STORAGE-15 gereksinimleri eklendi.
+- Gereksinim MSTG-AUTH-11, bağlamsal bilgileri korumak için güncellenmiştir.
+- Gereksinim MSTG-CODE-4, hata ayıklamadan daha fazlasını kapsayacak şekilde güncellenmiştir.
+- WebView yapılarının daha güvenli kullanımı için gereksinim MSTG-PLATFORM-10 eklendi.
+- Gereksinim MSTG-AUTH-12, geliştiricilere, özellikle çok kullanıcılı uygulamalar durumunda, yetkilendirmelerin uygulandığını hatırlatmak için eklendi.
+- Bir risk değerlendirmesi verildiğinde MASVS'nin nasıl kullanılması gerektiğine dair biraz daha açıklama eklendi.
+- Ücretli içerik hakkında biraz daha açıklama eklendi.
+- Gereksinim MSTG-ARCH-11, L2 uygulamaları için sorumlu ifşa politikasını içerecek şekilde eklendi.
+- Gereksinim MSTG-ARCH-12, uygulama geliştiricilerine ilgili uluslararası gizlilik yasalarına uyulması gerektiğini göstermek için eklendi.
+- İngilizce sürümdeki tüm referanslar için tutarlı bir stil oluşturdu.
+- Gereksinim MSTG-PLATFORM-11, üçüncü taraf klavyeler aracılığıyla casusluğa karşı koymak için eklendi.
+- Gereksinim MSTG-MSTG-RESILIENCE-13, bir uygulamada gizli dinlemeyi engellemek için eklendi.
 
-## V1.2-RC - 5 October 2019 - Pre-release (English only)
+## V1.1.4 - 4 Temmuz 2019 - Zirve sürümü
 
-The following changes are part of pre-release 1.2:
+Aşağıdaki değişiklikler 1.1.4 sürümünün bir parçasıdır:
 
-- Promoted to flagship status.
-- Requirement changed: MSTG-STORAGE-1 "need to be used".
-- Requirements MSTG-STORAGE-13, MSTG-STORAGE-14, and MSTG-STORAGE-15 are added with a focus on data protection.
-- Requirement MSTG-AUTH-11 is updated to preserve contextual information.
-- Requirement MSTG-CODE-4 is updated to cover more than just debugging.
-- Requirement MSTG-PLATFORM-10 added to further secure usage of WebViews.
-- Requirement MSTG-AUTH-12 added to remind developers of having authorizations implemented, especially in case of multi-user apps.
-- Added a little more description on how the MASVS should be used given a risk assessment.
-- Added a little more description on paid content.
-- Requirement MSTG-ARCH-11 added to include a Responsible Disclosure policy for L2 applications.
-- Requirement MSTG-ARCH-12 added to show application developers that relevant international privacy laws should be followed.
-- Created a consistent style for all references in the English version.
-- Requirement MSTG-PLATFORM-11 added to counter spying via third party keyboards.
-- Requirement MSTG-MSTG-RESILIENCE-13 added to impede eavesdropping at an application.
+- Tüm markdown sorunları düzeltildi.
+- Fransızca ve İspanyolca çevirilerinde güncellemeler.
+- Değişiklik günlüğü Çince (ZHTW) ve Japoncaya çevrildi.
+- Markdown söz diziminin ve URL'lerin erişilebilirliğinin otomatik olarak doğrulanması.
+- Önerileri ve test durumlarını kolayca bulmak için MSTG'nin gelecekteki sürümüne dahil edilecek olan gereksinimlere kimlik kodları eklendi.
+- Depo boyutu küçültüldü ve .gitignore eklendi.
+- Davranış Kuralları ve Katkıda Bulunma kuralları eklendi.
+- Pull-Request şablonu eklendi.
+- Gitbook web sitesini barındırmak için kullanılan depo ile senkronizasyon güncellendi.
+- Tüm çeviriler için XML / JSON / CSV oluşturmak için komut dosyaları güncellendi.
+- Önsöz Çince'ye (ZHTW) çevrildi.
 
-## V1.1.4 - 4 July 2019 - Summit edition
+## V1.1.3 - 9 Ocak 2019 - Küçük düzeltmeler
 
-The following changes are part of release 1.1.4:
+- İspanyolca sürümde gereksinim 7.1'in çeviri sorunu düzeltildi.
+- Teşekkürler bölümünde yeni çevirmen düzeni
 
-- Fix all markdown issues.
-- Updates in the French and Spanish translations.
-- Translated the changelog to Chinese (ZHTW) and Japanese.
-- Automated verification of the the markdown syntax and reachability of the URLs.
-- Added identification codes to the requirements, which will be included in the future version of the MSTG in order to find the recommendations and testcases easily.
-- Reduced the repo size and added Generated to the .gitignore.
-- Added a Code of Conduct & Contributing guidelines.
-- Added a Pull-Request template.
-- Updated the sync with the repo in use for hosting the Gitbook website.
-- Updated the scripts to generate XML/JSON/CSV for all the translations.
-- Translated the Foreword to Chinese (ZHTW).
+## V1.1.2 - 3 Ocak 2019 - Sponsorluk ve uluslararasılaştırma
 
-## V1.1.3 - 9 January 2019 - Small fixes
+Aşağıdaki değişiklikler 1.1.2 sürümünün bir parçasıdır:
 
-- Fix translation issue of requirement 7.1 in the Spanish version
-- New setup of translators in acknowledgements
+- E-kitabın alıcıları için teşekkür notu eklendi.
+- V4'te eksik kimlik doğrulama bağlantısı eklendi ve bozuk kimlik doğrulama bağlantısı güncellendi.
+- İngilizce 4.7 ve 4.8'in değiştirilmesi düzeltildi.
+- İlk uluslararası sürüm!
+  - İspanyolca çeviride düzeltmeler. Çeviri artık İngilizce (1.1.2) ile uyumludur.
+  - Rusça çeviride düzeltmeler. Çeviri artık İngilizce (1.1.2) ile uyumludur.
+  - Çince (ZHTW) Fransızca, Almanca ve Japonca'nın ilk sürümü eklendi!
+- Çeviri kolaylığı için basitleştirilmiş belge.
+- Otomatik sürümler için talimatlar eklendi.
 
-## V1.1.2 - 3 January 2019 - Sponsorship and internationalization
+## V1.1.0 - 14 Temmuz 2018
 
-The following changes are part of release 1.1.2:
+Aşağıdaki değişiklikler 1.1 sürümünün bir parçasıdır:
 
-- Added thank you note for buyers of the e-book.
-- Added missing authentication link & updated broken authentication link in V4.
-- Fixed swap of 4.7 and 4.8 in English.
-- First international release!
-  - Fixes in Spanish translation. Translation is now in sync with English (1.1.2).
-  - Fixes in Russian translation. Translation is now in sync with English (1.1.2).
-  - Added first release of Chinese (ZHTW) French, German, and Japanese!
-- Simplified document for ease of translation.
-- Added instructions for automated releases.
+- Gereksinim 2.6 "Pano, hassas veriler içerebilecek metin alanlarında devre dışı bırakılır." kaldırıldı.
+- Gereksinim 2.2 "Hassas veriler, uygulama alanı veya sistem kimlik depolama alanları dışındaki alanlarda saklanmamalıdır." eklendi.
+- Gereksinim 2.1, "Sistem kimlik bilgileri depolama olanakları, PII, kullanıcı kimlik bilgileri veya kriptografik anahtarlar gibi hassas verileri depolamak için uygun şekilde kullanılır." olarak yeniden ifade edildi.
 
-## V1.1.0 - 14 July 2018
+## V1.0 12 - Ocak 2018
 
-The following changes are part of release 1.1:
+Aşağıdaki değişiklikler 1.0 sürümünün bir parçasıdır:
 
-- Requirement 2.6 "The clipboard is deactivated on text fields that may contain sensitive data." was removed.
-- Requirement 2.2 "No sensitive data should be stored outside of the app container or system credential storage facilities." was added.
-- Requirement 2.1 was reworded to "System credential storage facilities are used appropriately to store sensitive data, such as PII, user credentials or cryptographic keys.".
-
-## V1.0 12 - January 2018
-
-The following changes are part of release 1.0:
-
-- Delete 8.9 as the same as 8.12
-- Made 4.6 more generic
-- Minor fixes (typos etc.)
+- 8.12 ile aynı olan 8.9 silindi.
+- 4.6 daha genel hale getirildi.
+- Küçük düzeltmeler (yazım hataları vb.)

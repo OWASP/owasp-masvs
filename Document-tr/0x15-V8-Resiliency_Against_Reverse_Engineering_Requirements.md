@@ -12,7 +12,7 @@ Aşağıdaki listedeki kontrollerden herhangi birinin etkili olması için, uygu
 
 Aşağıdaki hususlar geçerlidir:
 
-1. Savunulması gereken istemci tarafı tehditlerini açıkça ortaya koyan bir tehdit modeli tanımlanmalıdır. Ek olarak, planın sağlaması amaçlanan koruma derecesi belirtilmelidir.Örneğin, belirtilen bir hedef, uygulamayı önemli ölçüde manuel tersine mühendislik çabasına yatırım yapmaya zorlamak isteyen hedeflenen kötü amaçlı yazılım yazarlarını zorlamak olabilir.
+1. Savunulması gereken istemci tarafı tehditlerini açıkça ortaya koyan bir tehdit modeli tanımlanmalıdır. Ek olarak, planın sağlaması amaçlanan koruma derecesi belirtilmelidir. Örneğin, belirtilen bir hedef, uygulamayı önemli ölçüde manuel tersine mühendislik çabasına yatırım yapmaya zorlamak isteyen hedeflenen kötü amaçlı yazılım yazarlarını zorlamak olabilir.
 
 2. Tehdit modeli güvenilir ve ilgili olmalıdır. Örneğin, bir beyaz kutu uygulamasında bir şifreleme anahtarının gizlenmesi, bir saldırgan beyaz kutuyu bir bütün olarak basitçe kodla kaldırabiliyorsa gereksiz olabilir.
 
@@ -20,11 +20,11 @@ Aşağıdaki hususlar geçerlidir:
 
 <!-- \pagebreak -->
 
-### Dinamik Analizi ve Kurcalanmayı Engelleme
+### Dinamik Analizi ve Kurcalamayı Engelleme
 
-| # | MSTG-ID | Description | R |
+| # | MSTG-ID | Açıklama | R |
 | -- | ----------- | ---------------------- | - |
-| **8.1** | MSTG-RESILIENCE-1 | MSTG-RESILIENCE-1 | Uygulama, kullanıcıyı uyararak veya uygulamayı sonlandırarak root veya jailbreak yapılmış bir cihazın varlığını algılar ve yanıt verir. | x |
+| **8.1** | MSTG-RESILIENCE-1 | Uygulama, kullanıcıyı uyararak veya uygulamayı sonlandırarak root veya jailbreak yapılmış bir cihazın varlığını algılar ve yanıt verir. | x |
 | **8.2** | MSTG-RESILIENCE-2 | Uygulama, hata ayıklamayı önler ve/veya eklenen bir hata ayıklayıcıyı algılar ve yanıt verir. Mevcut tüm hata ayıklama protokolleri kapsanmalıdır. | x |
 | **8.3** | MSTG-RESILIENCE-3 | Uygulama, kendi sanal alanı içindeki yürütülebilir dosyalar ve kritik verilerle kurcalamayı algılar ve bunlara yanıt verir. | x |
 | **8.4** | MSTG-RESILIENCE-4 | Uygulama, cihazda yaygın olarak kullanılan tersine mühendislik araçlarının ve çerçevelerinin varlığını algılar ve yanıt verir. | x |
@@ -36,7 +36,7 @@ Aşağıdaki hususlar geçerlidir:
 
 ### Cihaz Bağlama (Device Binding)
 
-| # | MSTG-ID | Description | R |
+| # | MSTG-ID | Açıklama | R |
 | -- | ----------- | ---------------------- | - |
 | **8.10** | MSTG-RESILIENCE-10 | Uygulama, cihaza özgü birden çok özellikten türetilen bir cihaz parmak izi kullanarak bir 'cihaz bağlama' işlevi uygular. | x |
 
@@ -44,14 +44,14 @@ Aşağıdaki hususlar geçerlidir:
 
 ### Anlamayı Engelleme
 
-| # | MSTG-ID | Description | R |
+| # | MSTG-ID | Açıklama | R |
 | -- | ----------- | ---------------------- | - |
 | **8.11** | MSTG-RESILIENCE-11 | Uygulamaya ait tüm yürütülebilir dosyalar ve kitaplıklar ya dosya düzeyinde şifrelenir ve/veya yürütülebilir dosyaların içindeki önemli kod ve veri bölümleri şifrelenir veya paketlenir. Statik analiz, önemli kodu veya verileri ortaya çıkarmamalıdır. | x |
 | **8.12** | MSTG-RESILIENCE-12 | Gizlemenin amacı hassas hesaplamaları korumaksa, şu anda yayınlanmış araştırmalar dikkate alınarak hem belirli görev için uygun hem de manuel ve otomatik gizleme yöntemlerine karşı dayanıklı olan bir gizleme şeması kullanılır. Gizleme planının etkinliği manuel test yoluyla doğrulanmalıdır. Donanım tabanlı yalıtım özelliklerinin, mümkün olduğunda gizleme yerine tercih edildiğini unutmayın. | x |
 
 ### Dinlemeyi Engelleme
 
-| # | MSTG-ID | Description | R |
+| # | MSTG-ID | Açıklama | R |
 | -- | ----------- | ---------------------- | - |
 | **8.13** | MSTG-RESILIENCE-13 | Derinlemesine bir savunma olarak, iletişim kuran tarafların sağlam bir şekilde sağlamlaştırılmasının yanı sıra, gizli dinlemeyi daha fazla engellemek için uygulama düzeyinde veri yükü şifrelemesi uygulanabilir. | x |
 
