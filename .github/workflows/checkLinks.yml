@@ -1,4 +1,4 @@
-name: Check Markdown Links
+name: URLs Checker
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
         with:
           fetch-depth: 1
       - name: link-check
-        uses: gaurav-nelson/github-action-markdown-link-check@0f8975d33c4555ebd148e2cd39176b3add9639dc
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:
           use-quiet-mode: 'yes'
           use-verbose-mode: 'yes'
