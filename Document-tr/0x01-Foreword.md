@@ -1,4 +1,4 @@
-# Foreword
+# Önsöz
 
 Teknolojik devrimler hızlı bir şekilde gerçekleşebilir. On yıldan daha kısa bir süre önce, akıllı telefonlar küçük klavyeleri olan hantal cihazlardı - teknoloji meraklısı iş insanları için pahalı oyuncaklardı. Günümüzde ise akıllı telefonlar hayatımızın önemli bir parçası. Bilgi, navigasyon ve iletişim için onlara güvenmeye başladık ve hem iş hayatımızda hem de sosyal hayatımızda her yerde bulunuyorlar.
 

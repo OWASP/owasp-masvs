@@ -6,7 +6,7 @@ Bu gruptaki kontroller, uygulamanın platform API'lerini ve standart bileşenler
 
 ## Güvenlik Doğrulama Gereksinimleri
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | Açıklama | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
 | **6.1** | MSTG-PLATFORM-1 | Uygulama, yalnızca gerekli olan minimum izin grubunu ister. | x | x |
 | **6.2** | MSTG-PLATFORM-2 | Harici kaynaklardan ve kullanıcıdan gelen tüm girdiler doğrulanır ve gerekirse sterilize edilir. Bu, kullanıcı arayüzü aracılığıyla alınan verileri, amaçlar, özel URL'ler ve ağ kaynakları gibi IPC mekanizmalarını içerir. | x | x |

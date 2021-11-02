@@ -10,7 +10,7 @@ Kriptografi, bir mobil cihazda depolanan verilerin korunması söz konusu olduğ
 
 ## Güvenlik Doğrulama Gereksinimleri
 
-| # | MSTG-ID | Description | L1 | L2 |
+| # | MSTG-ID | Açıklama | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
 | **3.1** | MSTG-CRYPTO-1 | Uygulama, tek şifreleme yöntemi olarak sabit kodlanmış anahtarlarla simetrik şifrelemeye dayanmaz. | x | x |
 | **3.2** | MSTG-CRYPTO-2 | Uygulama, kriptografik temellerin, kanıtlanmış uygulamalarını kullanır. | x | x |

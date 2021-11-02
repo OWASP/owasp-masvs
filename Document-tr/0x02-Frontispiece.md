@@ -46,7 +46,7 @@ Bu doküman, Jim Manico tarafından yazılan OWASP Uygulama Güvenliği Doğrula
 
 ## Sponsorlar
 
-Hem MASVS hem de MSTG gönüllü olarak topluluk tarafından oluşturulup sürdürülürken, bazı zamanlarda biraz dışarıdan yardım gerekir. Bu nedenle sponsorlarımıza teknik editörleri işe alabilmeleri için fon sağladıkları için teşekkür ederiz. Sponsorluklarının MASVS veya MSTG içeriğini hiçbir şekilde etkilemediği unutulmamalıdır. Sponsorluk paketleri şu sayfada açıklanmıştır:[OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages").
+Hem MASVS hem de MSTG gönüllü olarak topluluk tarafından oluşturulup sürdürülürken, bazı zamanlarda biraz dışarıdan yardım gerekir. Bu nedenle sponsorlarımıza teknik editörleri işe alabilmeleri için fon sağladıkları için teşekkür ederiz. Sponsorluklarının MASVS veya MSTG içeriğini hiçbir şekilde etkilemediği unutulmamalıdır. Sponsorluk paketleri şu sayfada açıklanmıştır: [OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
 ### "Honourable Benefactor" Sponsoru
 
