@@ -1,4 +1,4 @@
-name: Check Markdown Markup
+name: Markdown Linter
 
 on: [push, pull_request]
 
@@ -11,8 +11,8 @@ jobs:
         with:
           fetch-depth: 1
       - name: markdownlint-cli
-        uses: nosborn/github-action-markdown-cli@9fc95163471d6460c35cccad13645912aaa25d5f
+        uses: nosborn/github-action-markdown-cli@v2.0.0
         with:
-          files: Document Document-de Document-es Document-fa Document-fr Document-hi Document-ja Document-ko Document-ptbr Document-ptpt Document-ru Document-zhtw Document-zhcn
+          files: '.'
           config_file: ".markdownlint.json"
           ignore_files: "Tools, node_modules"
