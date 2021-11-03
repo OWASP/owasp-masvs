@@ -5,9 +5,12 @@
 Projemiz için önemli bir kilometre taşı olan yeni bir belge oluşturma hattının tanıtıldığını duyurmaktan gurur duyuyoruz. Derleme işlem hattı, Pandocker ve Github Eylemlerine dayanmaktadır. Bu, yeni sürümlerin oluşturulması için harcanan zamanı önemli ölçüde azaltır ve ayrıca OWASP MSTG'nin temeli olacak ve OWASP ASVS projesi için kullanıma sunulacaktır.
 
 ### Değişiklikler
+
 - Hintçe, Farsça, Portekizce ve Brezilya Portekizcesi olmak üzere 4 çeviri eklendi
 - Gereksinim eklemesi: MSTG-PLATFORM-11
+
 ### Özel teşekkür
+
 - Jeroen Willemsen, geçen yıl bu girişimi başlattığı için!
 - Damien Clochard ve Dalibo, pipeline desteklemek ve profesyonelleştirmek için.
 - Mükemmel çeviri çalışmaları için tüm Hintçe, Farsça, Portekizce ve Brezilya Portekizcesi ortak çalışanlarımız.
