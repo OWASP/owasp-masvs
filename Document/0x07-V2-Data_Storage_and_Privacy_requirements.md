@@ -14,6 +14,7 @@ Sensitive data in the context of the MASVS pertains to both user credentials and
 - Highly sensitive data that would lead to reputational harm and/or financial costs if compromised: Contractual information, information covered by non-disclosure agreements, management information;
 - Any data that must be protected by law or for compliance reasons.
 
+<!-- \pagebreak -->
 ## Security Verification Requirements
 
 The vast majority of data disclosure issues can be prevented by following simple rules. Most of the controls listed in this chapter are mandatory for all verification levels.
