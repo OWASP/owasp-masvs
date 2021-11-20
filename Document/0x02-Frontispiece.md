@@ -43,16 +43,26 @@ Copyright © 2021 The OWASP Foundation. This work is licensed under a [Creative 
 
 This document started as a fork of the OWASP Application Security Verification Standard written by Jim Manico.
 
-## Sponsors
+### Donators
 
-While both the MASVS and the MSTG are created and maintained by the community on a voluntary basis, sometimes a little bit of outside help is required. We therefore thank our sponsors for providing the funds to be able to hire technical editors. Note that their sponsorship does not influence the content of the MASVS or MSTG in any way. The sponsorship packages are described on the [OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages").
+While both the MASVS and the MSTG are created and maintained by the community on a voluntary basis, sometimes a little bit of outside help is required. We therefore thank our donators for providing the funds to be able to hire technical editors. Note that their donation does not influence the content of the MASVS or MSTG in any way. The Donation Packages are described on the [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Donation Packages").
 
-### Honourable Benefactor
+### God Mode Donators
 
-[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/)
+[OWASP Bay Area Chapter](https://twitter.com/OWASPBayArea?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor "Twitter Bay Area")
 
-### Good Samaritan Benefactor
+#### Honorable Benefactor
 
-[![Randorisec](images/Randorisec_logo.png)](https://www.randorisec.fr/)
+![OWASP MSTG](Images/Donators/NowSecure_logo.png) \
 
-Next, we would like to thank the OWASP Bay Area Chapter for their sponsorship. Last, we would like to thank everybody that bought the book from [Leanpub](https://leanpub.com/mobile-security-testing-guide) and sponsored us that way.
+![OWASP MSTG](Images/Donators/SEC_Consult_logo.png) \
+
+![OWASP MSTG](Images/Donators/ZIMPERIUM_logo.png) \
+
+#### Good Samaritan Benefactor
+
+![OWASP MSTG](Images/Donators/Randorisec_logo.png) \
+
+#### Other Donators
+
+We would like to thank everybody that bought the book from [Leanpub](https://leanpub.com/mobile-security-testing-guide) and sponsored us that way.
