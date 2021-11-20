@@ -53,15 +53,15 @@ While both the MASVS and the MSTG are created and maintained by the community on
 
 #### Honorable Benefactor
 
-![OWASP MSTG](Images/Donators/NowSecure_logo.png) \
+![OWASP MSTG](images/Donators/NowSecure_logo.png) \
 
-![OWASP MSTG](Images/Donators/SEC_Consult_logo.png) \
+![OWASP MSTG](images/Donators/SEC_Consult_logo.png) \
 
-![OWASP MSTG](Images/Donators/ZIMPERIUM_logo.png) \
+![OWASP MSTG](images/Donators/ZIMPERIUM_logo.png) \
 
 #### Good Samaritan Benefactor
 
-![OWASP MSTG](Images/Donators/Randorisec_logo.png) \
+![OWASP MSTG](images/Donators/Randorisec_logo.png) \
 
 #### Other Donators
 
