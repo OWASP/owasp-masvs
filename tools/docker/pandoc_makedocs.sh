@@ -30,7 +30,7 @@ PANDOC=${PANDOC:-${PANDOCKER}}
 if [ ${FOLDER} == "Document" ]; then
   LANGUAGE='en'
 else
-  LANGUAGE=$(echo ${FOLDER} | sed 's/Document-//')
+  LANGUAGE=$(echo ${FOLDER} | cut -d '-' -f 2)
 fi
 
 METADATA="Document/metadata.md ${FOLDER}/metadata.md"
