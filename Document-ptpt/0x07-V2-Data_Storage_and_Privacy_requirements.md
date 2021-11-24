@@ -31,7 +31,7 @@ A grande maioria dos problemas de exposição de dados pode ser evitada através
 | **2.9** | MSTG-STORAGE-9 | A aplicação remove informação sensível das vistas, quando a aplicação é enviada para segundo plano. |  | x |
 | **2.10** | MSTG-STORAGE-10 | A aplicação não guarda em memória informação sensível durante um período maior que o necessário, sendo que essa mesma informação é apagada findo o respectivo uso. |  | x |
 | **2.11** | MSTG-STORAGE-11 | A aplicação reforça uma política mínima de segurança no acesso ao dispositivo, como por exemplo a necessidade do utilizador definir um código-passe. |  | x |
-| **2.12** | MSTG-STORAGE-12 | A aplicação educa o utilizador sobre os tipos de informação de identificação pessoal processada, assim como as práticas de segurança que o utilizador deve seguir durante a utilização da mesma. |  | x |
+| **2.12** | MSTG-STORAGE-12 | A aplicação educa o utilizador sobre os tipos de informação de identificação pessoal processada, assim como as práticas de segurança que o utilizador deve seguir durante a utilização da mesma. | x | x |
 | **2.13** | MSTG-STORAGE-13 | Nenhuns dados sensível são guardados localmente no dispositivo móvel. Em vez disso, os dados devem de ser obtidos através de um pedido a um ponto de acesso remoto quando necessário e apenas serem mantidos em memória. |  | x |
 | **2.14** | MSTG-STORAGE-14 | Caso seja necessário guardar localmente dados sensíveis, estes devem ser cifrados com uma chave derivada de armazenamento em hardware que exija autenticação. |  | x |
 | **2.15** | MSTG-STORAGE-15 | O armazenamento local da aplicação deve ser limpo após uma excessiva quantidade de tentativas de autenticação. |  | x |

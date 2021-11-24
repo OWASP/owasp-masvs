@@ -31,7 +31,7 @@ A ampla maioria dos problemas de vazamento de dados podem ser prevenidos seguind
 | **2.9** | MSTG-STORAGE-9 | O aplicativo deve remover dados sensíveis da visualização quando ficar em segundo plano. |  | x |
 | **2.10** | MSTG-STORAGE-10 | O aplicativo não deve manter dados sensíveis em memória mais tempo do que o necessário, e a memória deve ser completamente limpa depois do uso. |  | x |
 | **2.11** | MSTG-STORAGE-11 | O aplicativo deve reforçar o uso de políticas mínimas de segurança no acesso ao dispositivo, como pedir que o usuário defina um código de acesso ao dispositivo. |  | x |
-| **2.12** | MSTG-STORAGE-12 | O aplicativo deve ensinar o usuário sobre os tipos de Informação de Identificação Pessoal (PII) que são processadas, assim como melhores práticas de segurança que o usuário deve seguir quando utilizar o aplicativo. |  | x |
+| **2.12** | MSTG-STORAGE-12 | O aplicativo deve ensinar o usuário sobre os tipos de Informação de Identificação Pessoal (PII) que são processadas, assim como melhores práticas de segurança que o usuário deve seguir quando utilizar o aplicativo. | x | x |
 | **2.13** | MSTG-STORAGE-13 | Dados sensíveis não devem ser armazenados localmente no dispositivo móvel. Em vez disso, os dados devem ser recuperados de um _terminal_ remoto quando necessário e mantidos apenas em memória. |  | x |
 | **2.14** | MSTG-STORAGE-14 | Se ainda assim for necessário armazenar dados pessoais localmente, eles devem ser cifrados utilizando uma chave derivada do armazenamento suportado pelo _hardware_ que requeira autenticação. |  | x |
 | **2.15** | MSTG-STORAGE-15 | O armazenamento local do aplicativo deve ser completamente apagado (_wipe_) após um número excessivo de tentativas de autenticação sem sucesso. |  | x |
