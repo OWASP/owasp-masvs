@@ -31,7 +31,7 @@ La gran mayoría de las cuestiones relativas a la divulgación de datos pueden p
 | **2.9** | MSTG-STORAGE-9 | La aplicación elimina toda información sensible de la vista cuando la aplicación pasa a un segundo plano. |  | x |
 | **2.10** | MSTG-STORAGE-10 | La aplicación no conserva ninguna información sensible en memoria más de lo necesario y la memoria se limpia trás su uso. |  | x |
 | **2.11** | MSTG-STORAGE-11 | La aplicación obliga a que exista una política mínima de seguridad en el dispositivo, como que el usuario deba configurar un código de acceso. |  | x |
-| **2.12** | MSTG-STORAGE-12 | La aplicación educa al usuario acerca de los tipos de información personal que procesa y de las mejores prácticas en seguridad que el usuario debería seguir al utilizar la aplicación. |  | x |
+| **2.12** | MSTG-STORAGE-12 | La aplicación educa al usuario acerca de los tipos de información personal que procesa y de las mejores prácticas en seguridad que el usuario debería seguir al utilizar la aplicación. | x | x |
 | **2.13** | MSTG-STORAGE-13 | No se guarda ningún tipo de información sensible de forma local en el dispositivo móvil. En su lugar, esa información debería ser obtenida desde un sistema remoto sólo cuando es necesario y únicamente residir en memoria. |  | x |
 | **2.14** | MSTG-STORAGE-14 | En caso de ser necesario guardar información sensible de forma local, ésta debe de ser cifrada usando una clave derivada del hardware de almacenamiento seguro, el cual debe requerir autenticación previa. |  | x |
 | **2.15** | MSTG-STORAGE-15 | El almacenamiento local de la aplicación debe de ser borrado trás un número excesivo de intentos fallidos de autenticación. |  | x |
