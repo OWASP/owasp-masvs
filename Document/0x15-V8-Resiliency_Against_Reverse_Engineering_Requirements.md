@@ -34,13 +34,12 @@ The following considerations apply:
 | **8.8** | MSTG-RESILIENCE-8 | The detection mechanisms trigger responses of different types, including delayed and stealthy responses. | x |
 | **8.9** | MSTG-RESILIENCE-9 | Obfuscation is applied to programmatic defenses, which in turn impede de-obfuscation via dynamic analysis.  | x |
 
+<!-- \pagebreak -->
 ### Device Binding
 
 | # | MSTG-ID | Description | R |
 | -- | ----------- | ---------------------- | - |
 | **8.10** | MSTG-RESILIENCE-10 | The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device. | x |
-
-<!-- \pagebreak -->
 
 ### Impede Comprehension
 
