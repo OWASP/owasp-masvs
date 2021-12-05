@@ -49,12 +49,6 @@ You can find the documents on the [release page](https://github.com/OWASP/owasp-
 
 - The document creation uses a Docker container, so make sure that you have [Docker installed](https://www.docker.com/products/docker-desktop).
 
-- If using macOS, install `gnu-sed` via brew.
-
-```shell
-$ brew install gnu-sed
-```
-
 - Clone the MASVS repository:
 
 ```shell
