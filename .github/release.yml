@@ -5,7 +5,7 @@ changelog:
   categories:
     - title: MASVS Requirements Changes
       labels:
-        - "masvs-change"
+        - "change-masvs"
     - title: Other Changes
       labels:
         - "*"
