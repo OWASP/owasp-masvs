@@ -1,5 +1,9 @@
 # Changelog
 
+## V1.3.1 and newer
+
+All our Changelogs are available online at the OWASP MASVS GitHub repository, see the [Releases page](https://github.com/OWASP/owasp-masvs/releases).
+
 ## V1.3 - 13 May 2021
 
 We are proud to announce the introduction of a new document build pipeline, which is a major milestone for our project. The build pipeline is based on [Pandocker](https://github.com/dalibo/pandocker) and [Github Actions](https://github.com/OWASP/owasp-masvs/tree/master/.github/workflows).
