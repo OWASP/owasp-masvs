@@ -3,7 +3,7 @@ changelog:
     labels:
       - ignore-for-release
   categories:
-    - title: MASVS Requirements Changes
+    - title: Changes in MASVS Requirements
       labels:
         - "change-masvs"
     - title: Other Changes
