@@ -3,9 +3,9 @@ changelog:
     labels:
       - ignore-for-release
   categories:
-    - title: MASVS Requirements Changes 🎉
+    - title: MASVS Requirements Changes
       labels:
-        - "MASVS-*"
+        - "change-masvs"
     - title: Other Changes
       labels:
         - "*"
