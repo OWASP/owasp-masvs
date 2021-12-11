@@ -2,9 +2,6 @@ name: Documents Build
 
 on: [push, workflow_dispatch]
 
-env:
-  VERSION: "${{GITHUB_REF##*/}}"
-
 jobs:
 
 ##
