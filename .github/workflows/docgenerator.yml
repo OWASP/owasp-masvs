@@ -50,13 +50,13 @@ jobs:
         fetch-depth: 1
 
     - name: Generate German PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document-de ${{env.VERSION}}
+      run: ./tools/docker/pandoc_makedocs.sh Document-de ${GITHUB_REF#refs/heads/}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${{env.VERSION}}-de
-        path: OWASP_MASVS-${{env.VERSION}}-de*
+        name: OWASP_MASVS-${GITHUB_REF#refs/heads/}-de
+        path: OWASP_MASVS-${GITHUB_REF#refs/heads/}-de*
 
   fa:
     runs-on: ubuntu-latest
