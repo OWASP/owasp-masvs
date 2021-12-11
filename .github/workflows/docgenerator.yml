@@ -50,7 +50,7 @@ jobs:
         fetch-depth: 1
 
     - name: Generate German PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document-de ${GITHUB_REF#refs/heads/}
+      run: ./tools/docker/pandoc_makedocs.sh Document-de "${GITHUB_REF#refs/heads/}"
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
