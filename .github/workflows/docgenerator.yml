@@ -2,6 +2,9 @@ name: Documents Build
 
 on: [push, workflow_dispatch]
 
+env:
+  VERSION: "${{ github.ref_name }}"
+
 jobs:
 
 ##
@@ -19,28 +22,14 @@ jobs:
       with:
         fetch-depth: 1
 
-    - name: Prints the current branch name
-      run: echo "${GITHUB_BRANCH##*/}"
-      env:
-        GITHUB_BRANCH: ${{ github.ref }}
-
-    - name: Get the current branch name
-      shell: bash
-      run: echo "::set-output name=branch::${GITHUB_REF#refs/heads/}"
-      id: myref
-
-    - name: Prints branch name from step
-      run: echo "${{ steps.myref.outputs.branch }}"
-
-
     - name: Generate English PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document ${{ steps.myref.outputs.branch }}
+      run: ./tools/docker/pandoc_makedocs.sh Document ${{env.VERSION}}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${{ steps.myref.outputs.branch }}-en
-        path: OWASP_MASVS-${{ steps.myref.outputs.branch }}-en*
+        name: OWASP_MASVS-${{env.VERSION}}-en
+        path: OWASP_MASVS-${{env.VERSION}}-en*
 
   de:
     runs-on: ubuntu-latest
@@ -50,13 +39,13 @@ jobs:
         fetch-depth: 1
 
     - name: Generate German PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document-de "${GITHUB_REF#refs/heads/}"
+      run: ./tools/docker/pandoc_makedocs.sh Document-de ${{env.VERSION}}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_REF#refs/heads/}-de
-        path: OWASP_MASVS-${GITHUB_REF#refs/heads/}-de*
+        name: OWASP_MASVS-${{env.VERSION}}-de
+        path: OWASP_MASVS-${{env.VERSION}}-de*
 
   fa:
     runs-on: ubuntu-latest
