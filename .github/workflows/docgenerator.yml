@@ -3,7 +3,7 @@ name: Documents Build
 on: [push, workflow_dispatch]
 
 env:
-  VERSION: "1.4.0"
+  VERSION: "${{ github.ref_name }}"
 
 jobs:
 
