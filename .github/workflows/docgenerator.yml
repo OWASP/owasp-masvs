@@ -19,14 +19,28 @@ jobs:
       with:
         fetch-depth: 1
 
+    - name: Prints the current branch name
+      run: echo "${GITHUB_BRANCH##*/}"
+      env:
+        GITHUB_BRANCH: ${{ github.ref }}
+
+    - name: Get the current branch name
+      shell: bash
+      run: echo "::set-output name=branch::${GITHUB_REF#refs/heads/}"
+      id: myref
+
+    - name: Prints branch name from step
+      run: echo "${{ steps.myref.outputs.branch }}"
+
+
     - name: Generate English PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document ${GITHUB_BRANCH##*/}
+      run: ./tools/docker/pandoc_makedocs.sh Document ${{ steps.myref.outputs.branch }}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}-en
-        path: OWASP_MASVS-${GITHUB_BRANCH##*/}-en*
+        name: OWASP_MASVS-${{ steps.myref.outputs.branch }}-en
+        path: OWASP_MASVS-${{ steps.myref.outputs.branch }}-en*
 
   de:
     runs-on: ubuntu-latest
@@ -36,13 +50,13 @@ jobs:
         fetch-depth: 1
 
     - name: Generate German PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document-de ${GITHUB_BRANCH##*/}
+      run: ./tools/docker/pandoc_makedocs.sh Document-de ${{env.VERSION}}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}-de
-        path: OWASP_MASVS-${GITHUB_BRANCH##*/}-de*
+        name: OWASP_MASVS-${{env.VERSION}}-de
+        path: OWASP_MASVS-${{env.VERSION}}-de*
 
   fa:
     runs-on: ubuntu-latest
@@ -52,15 +66,15 @@ jobs:
         fetch-depth: 1
 
     - name: Generate Persian PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-fa ${GITHUB_BRANCH##*/}
+      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-fa ${{env.VERSION}}
       env:
         LATEX_TEMPLATE: default # there's a bug in the eisvogel template
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}-fa
-        path: OWASP_MASVS-${GITHUB_BRANCH##*/}-fa*
+        name: OWASP_MASVS-${{env.VERSION}}-fa
+        path: OWASP_MASVS-${{env.VERSION}}-fa*
 
   es:
     runs-on: ubuntu-latest
@@ -70,13 +84,13 @@ jobs:
         fetch-depth: 1
 
     - name: Generate Spanish PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document-es ${GITHUB_BRANCH##*/}
+      run: ./tools/docker/pandoc_makedocs.sh Document-es ${{env.VERSION}}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}-es
-        path: OWASP_MASVS-${GITHUB_BRANCH##*/}-es*
+        name: OWASP_MASVS-${{env.VERSION}}-es
+        path: OWASP_MASVS-${{env.VERSION}}-es*
 
   fr:
     runs-on: ubuntu-latest
@@ -86,13 +100,13 @@ jobs:
         fetch-depth: 1
 
     - name: Generate French PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document-fr ${GITHUB_BRANCH##*/}
+      run: ./tools/docker/pandoc_makedocs.sh Document-fr ${{env.VERSION}}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}-fr 
-        path: OWASP_MASVS-${GITHUB_BRANCH##*/}-fr*
+        name: OWASP_MASVS-${{env.VERSION}}-fr 
+        path: OWASP_MASVS-${{env.VERSION}}-fr*
 
   hi:
     runs-on: ubuntu-latest
@@ -102,13 +116,13 @@ jobs:
         fetch-depth: 1
 
     - name: Generate Hindi PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-hi ${GITHUB_BRANCH##*/}
+      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-hi ${{env.VERSION}}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}-hi
-        path: OWASP_MASVS-${GITHUB_BRANCH##*/}-hi*
+        name: OWASP_MASVS-${{env.VERSION}}-hi
+        path: OWASP_MASVS-${{env.VERSION}}-hi*
 
   ja:
     runs-on: ubuntu-latest
@@ -118,13 +132,13 @@ jobs:
         fetch-depth: 1
 
     - name: Generate Japanese PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-ja ${GITHUB_BRANCH##*/}
+      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-ja ${{env.VERSION}}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}-ja
-        path: OWASP_MASVS-${GITHUB_BRANCH##*/}-ja*
+        name: OWASP_MASVS-${{env.VERSION}}-ja
+        path: OWASP_MASVS-${{env.VERSION}}-ja*
 
   ko:
     runs-on: ubuntu-latest
@@ -134,13 +148,13 @@ jobs:
         fetch-depth: 1
 
     - name: Generate Korean PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-ko ${GITHUB_BRANCH##*/}
+      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-ko ${{env.VERSION}}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}-ko
-        path: OWASP_MASVS-${GITHUB_BRANCH##*/}-ko*
+        name: OWASP_MASVS-${{env.VERSION}}-ko
+        path: OWASP_MASVS-${{env.VERSION}}-ko*
 
   pt-br:
     runs-on: ubuntu-latest
@@ -150,13 +164,13 @@ jobs:
         fetch-depth: 1
 
     - name: Generate Brazilian Portuguese PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document-ptbr ${GITHUB_BRANCH##*/}
+      run: ./tools/docker/pandoc_makedocs.sh Document-ptbr ${{env.VERSION}}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}-ptbr
-        path: OWASP_MASVS-${GITHUB_BRANCH##*/}-ptbr*
+        name: OWASP_MASVS-${{env.VERSION}}-ptbr
+        path: OWASP_MASVS-${{env.VERSION}}-ptbr*
 
 
   pt-pt:
@@ -167,13 +181,13 @@ jobs:
         fetch-depth: 1
 
     - name: Generate Portugal Portuguese PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document-ptpt ${GITHUB_BRANCH##*/}
+      run: ./tools/docker/pandoc_makedocs.sh Document-ptpt ${{env.VERSION}}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}-ptpt
-        path: OWASP_MASVS-${GITHUB_BRANCH##*/}-ptpt*
+        name: OWASP_MASVS-${{env.VERSION}}-ptpt
+        path: OWASP_MASVS-${{env.VERSION}}-ptpt*
 
 
   ru:
@@ -184,13 +198,13 @@ jobs:
         fetch-depth: 1
 
     - name: Generate Russian PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-ru ${GITHUB_BRANCH##*/}
+      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-ru ${{env.VERSION}}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}-ru
-        path: OWASP_MASVS-${GITHUB_BRANCH##*/}-ru*
+        name: OWASP_MASVS-${{env.VERSION}}-ru
+        path: OWASP_MASVS-${{env.VERSION}}-ru*
 
   zhcn:
     runs-on: ubuntu-latest
@@ -200,13 +214,13 @@ jobs:
         fetch-depth: 1
 
     - name: Generate Simplified Chinese PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-zhcn ${GITHUB_BRANCH##*/}
+      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-zhcn ${{env.VERSION}}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}-zhcn
-        path: OWASP_MASVS-${GITHUB_BRANCH##*/}-zhcn*
+        name: OWASP_MASVS-${{env.VERSION}}-zhcn
+        path: OWASP_MASVS-${{env.VERSION}}-zhcn*
 
   zhtw:
     runs-on: ubuntu-latest
@@ -216,13 +230,13 @@ jobs:
         fetch-depth: 1
 
     - name: Generate Traditional Chinese PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-zhtw ${GITHUB_BRANCH##*/}
+      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-zhtw ${{env.VERSION}}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}-zhtw
-        path: OWASP_MASVS-${GITHUB_BRANCH##*/}-zhtw*
+        name: OWASP_MASVS-${{env.VERSION}}-zhtw
+        path: OWASP_MASVS-${{env.VERSION}}-zhtw*
 
 
   export:
@@ -239,26 +253,26 @@ jobs:
     #   run: docker build ./tools/docker --tag masvs-generator:latest
 
     - name: Generate python scripts (csv)
-      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-${GITHUB_BRANCH##*/}.csv'
+      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-${{env.VERSION}}.csv'
     - name: Generate python scripts (json)
-      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-${GITHUB_BRANCH##*/}.json'
+      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-${{env.VERSION}}.json'
     - name: Generate python scripts (xml)
-      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-${GITHUB_BRANCH##*/}.xml'
+      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{env.VERSION}}.xml'
     - name: Upload CSV export
       uses: actions/upload-artifact@v1
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}.csv
-        path: tools/OWASP_MASVS-${GITHUB_BRANCH##*/}.csv
+        name: OWASP_MASVS-${{env.VERSION}}.csv
+        path: tools/OWASP_MASVS-${{env.VERSION}}.csv
     - name: Upload JSON export
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}.json
-        path: tools/OWASP_MASVS-${GITHUB_BRANCH##*/}.json
+        name: OWASP_MASVS-${{env.VERSION}}.json
+        path: tools/OWASP_MASVS-${{env.VERSION}}.json
     - name: Upload XML export
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${GITHUB_BRANCH##*/}.xml
-        path: tools/OWASP_MASVS-${GITHUB_BRANCH##*/}.xml
+        name: OWASP_MASVS-${{env.VERSION}}.xml
+        path: tools/OWASP_MASVS-${{env.VERSION}}.xml
 
   release:
     runs-on: ubuntu-latest
