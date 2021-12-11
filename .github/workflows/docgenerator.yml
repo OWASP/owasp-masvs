@@ -22,14 +22,28 @@ jobs:
       with:
         fetch-depth: 1
 
+    - name: Prints the current branch name
+      run: echo "${GITHUB_BRANCH##*/}"
+      env:
+        GITHUB_BRANCH: ${{ github.ref }}
+
+    - name: Get the current branch name
+      shell: bash
+      run: echo "::set-output name=branch::${GITHUB_REF#refs/heads/}"
+      id: myref
+
+    - name: Prints branch name from step
+      run: echo "${{ steps.myref.outputs.branch }}""
+
+
     - name: Generate English PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document ${{env.VERSION}}
+      run: ./tools/docker/pandoc_makedocs.sh Document ${{ steps.myref.outputs.branch }}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${{env.VERSION}}-en
-        path: OWASP_MASVS-${{env.VERSION}}-en*
+        name: OWASP_MASVS-${{ steps.myref.outputs.branch }}-en
+        path: OWASP_MASVS-${{ steps.myref.outputs.branch }}-en*
 
   de:
     runs-on: ubuntu-latest
