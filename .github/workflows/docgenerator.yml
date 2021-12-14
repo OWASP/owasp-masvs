@@ -243,11 +243,11 @@ jobs:
     - name: Install pyyaml
       run: pip3 install pyyaml
     - name: Generate python scripts (csv)
-      run: cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-${{env.VERSION}}.csv
+      run: cd tools && python3 export.py --format csv --lang en > OWASP_MASVS-${{env.VERSION}}.csv
     - name: Generate python scripts (json)
-      run: cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-${{env.VERSION}}.json
+      run: cd tools && python3 export.py --format json --lang en > OWASP_MASVS-${{env.VERSION}}.json
     - name: Generate python scripts (xml)
-      run: cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{env.VERSION}}.xml
+      run: cd tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{env.VERSION}}.xml
 
     - name: Upload CSV export
       uses: actions/upload-artifact@v1
