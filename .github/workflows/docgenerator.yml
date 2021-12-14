@@ -235,18 +235,20 @@ jobs:
       with:
         fetch-depth: 1
 
-    - name: Pull the Docker image
-      run: docker pull owasp/masvs-docgenerator:0.2
+    # - name: Pull the Docker image
+    #   run: docker pull owasp/masvs-docgenerator:0.2
     # only use below when testing new container builds
     # - name: Build the Docker image
     #   run: docker build ./tools/docker --tag masvs-generator:latest
-
+    - name: Install pyyaml
+      run: pip3 install pyyaml
     - name: Generate python scripts (csv)
-      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-${{env.VERSION}}.csv'
+      run: cd /documents/tools && python3 export.py --format csv --lang en > OWASP_MASVS-${{env.VERSION}}.csv
     - name: Generate python scripts (json)
-      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-${{env.VERSION}}.json'
+      run: cd /documents/tools && python3 export.py --format json --lang en > OWASP_MASVS-${{env.VERSION}}.json
     - name: Generate python scripts (xml)
-      run: docker run -v ${PWD}:/documents owasp/masvs-docgenerator:0.2 'cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{env.VERSION}}.xml'
+      run: cd /documents/tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{env.VERSION}}.xml
+
     - name: Upload CSV export
       uses: actions/upload-artifact@v1
       with:
