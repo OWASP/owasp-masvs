@@ -4,9 +4,9 @@
 
     Usage: ./export.py [--format <csv/xml/json>] [--lang <es/ru/en/fr/de/zhtw/ja>]
 
-    By Bernhard Mueller, updated by Jeroen Beckers
+    By Bernhard Mueller, updated by Jeroen Beckers and Carlos Holguera
 
-    Copyright (c) 2019 OWASP Foundation
+    Copyright (c) 2021 OWASP Foundation
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -32,7 +32,7 @@ import argparse
 from masvs import MASVS
 
 parser = argparse.ArgumentParser(description='Export the MASVS requirements. Default language is en.')
-parser.add_argument('-f', '--format', choices=['json', 'xml', 'csv'], required=True)
+parser.add_argument('-f', '--format', choices=['json', 'xml', 'csv', 'yaml'], required=True)
 parser.add_argument('-l', '--lang', choices=['de', 'en', 'es', 'fa', 'fr', 'hi', 'ja', 'ko', 'ru', 'zhcn', 'zhtw'], default='en')
 
 args = parser.parse_args()
@@ -43,8 +43,7 @@ if args.format == "csv":
     print(m.to_csv())
 elif args.format == "xml":
     print(m.to_xml())
-else:
+elif args.format == "json":
     print(m.to_json())
-
-
-
+else:
+    print(m.to_yaml())
