@@ -235,35 +235,38 @@ jobs:
       with:
         fetch-depth: 1
 
-    # - name: Pull the Docker image
-    #   run: docker pull owasp/masvs-docgenerator:0.2
-    # only use below when testing new container builds
-    # - name: Build the Docker image
-    #   run: docker build ./tools/docker --tag masvs-generator:latest
     - name: Install pyyaml
       run: pip3 install pyyaml
-    - name: Generate python scripts (csv)
-      run: cd tools && python3 export.py --format csv --lang en > OWASP_MASVS-${{env.VERSION}}.csv
-    - name: Generate python scripts (json)
-      run: cd tools && python3 export.py --format json --lang en > OWASP_MASVS-${{env.VERSION}}.json
-    - name: Generate python scripts (xml)
-      run: cd tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{env.VERSION}}.xml
 
-    - name: Upload CSV export
-      uses: actions/upload-artifact@v1
+    - name: Generate CSV
+      run: cd tools && python3 export.py --format csv --lang en > OWASP_MASVS-${{env.VERSION}}.csv
+    - name: Generate JSON
+      run: cd tools && python3 export.py --format json --lang en > OWASP_MASVS-${{env.VERSION}}.json
+    - name: Generate XML
+      run: cd tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{env.VERSION}}.xml
+    - name: Generate MASVS YAML
+      run: cd tools && python3 export.py --format yaml --lang en > OWASP_MASVS-${{env.VERSION}}.yaml
+
+    - name: Upload CSV
+      uses: actions/upload-artifact@v2
       with:
         name: OWASP_MASVS-${{env.VERSION}}.csv
         path: tools/OWASP_MASVS-${{env.VERSION}}.csv
-    - name: Upload JSON export
+    - name: Upload JSON
       uses: actions/upload-artifact@v2
       with:
         name: OWASP_MASVS-${{env.VERSION}}.json
         path: tools/OWASP_MASVS-${{env.VERSION}}.json
-    - name: Upload XML export
+    - name: Upload XML
       uses: actions/upload-artifact@v2
       with:
         name: OWASP_MASVS-${{env.VERSION}}.xml
         path: tools/OWASP_MASVS-${{env.VERSION}}.xml
+    - name: Upload YAML
+      uses: actions/upload-artifact@v2
+      with:
+        name: OWASP_MASVS-${{env.VERSION}}.yaml
+        path: tools/OWASP_MASVS-${{env.VERSION}}.yaml
 
   release:
     runs-on: ubuntu-latest
