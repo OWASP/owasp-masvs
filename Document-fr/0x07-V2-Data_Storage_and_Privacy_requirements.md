@@ -31,7 +31,7 @@ La grande majorité des problèmes de divulgation de données peuvent être emp�
 | **2.9** | MSTG-STORAGE-9 | L'application enlève les données sensibles des vues lors de son passage en arrière-plan. |  | x |
 | **2.10** | MSTG-STORAGE-10 | L'application ne garde pas les données sensibles en mémoire plus longtemps que nécessaire et la mémoire est explicitement nettoyée après son utilisation. |  | x |
 | **2.11** | MSTG-STORAGE-11 | L'application met en oeuvre un minimum de politique concernant la sécurité de l'accès à l'appareil tel que l'obligation pour l'utilisateur de définir un code d'accès à l'appareil. |  | x |
-| **2.12** | MSTG-STORAGE-12 | L'application instruit l'utilisateur sur les types d'information personnellement identifiable traités ainsi que sur les bonnes pratiques que l'utilisateur devrait suivre en utilisant l'application. |  | x |
+| **2.12** | MSTG-STORAGE-12 | L'application instruit l'utilisateur sur les types d'information personnellement identifiable traités ainsi que sur les bonnes pratiques que l'utilisateur devrait suivre en utilisant l'application. | x | x |
 | **2.13** | MSTG-STORAGE-13 | Aucune donnée sensible ne doit être stockée localement sur l'appareil mobile. Par contre, les données doivent être extraites à partir d'un point terminal distant et stockées seulement en mémoire. |  | x |
 | **2.14** | MSTG-STORAGE-14 | Si le stockage des données sensibles localement est encore exigé, ces dernières doivent être chiffrées par une clé dérivée d'un stockage matériel qui exige l'authentification. |  | x |
 | **2.15** | MSTG-STORAGE-15 | Le stockage local de l'application doit être effacé après un nombre excessif de tentatives d'authentification erronées. |  | x |

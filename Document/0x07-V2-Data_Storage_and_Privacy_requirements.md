@@ -14,6 +14,7 @@ Sensitive data in the context of the MASVS pertains to both user credentials and
 - Highly sensitive data that would lead to reputational harm and/or financial costs if compromised: Contractual information, information covered by non-disclosure agreements, management information;
 - Any data that must be protected by law or for compliance reasons.
 
+<!-- \pagebreak -->
 ## Security Verification Requirements
 
 The vast majority of data disclosure issues can be prevented by following simple rules. Most of the controls listed in this chapter are mandatory for all verification levels.
@@ -31,7 +32,7 @@ The vast majority of data disclosure issues can be prevented by following simple
 | **2.9** | MSTG-STORAGE-9 | The app removes sensitive data from views when moved to the background. |  | x |
 | **2.10** | MSTG-STORAGE-10 | The app does not hold sensitive data in memory longer than necessary, and memory is cleared explicitly after use. |  | x |
 | **2.11** | MSTG-STORAGE-11 | The app enforces a minimum device-access-security policy, such as requiring the user to set a device passcode. |  | x |
-| **2.12** | MSTG-STORAGE-12 | The app educates the user about the types of personally identifiable information processed, as well as security best practices the user should follow in using the app. |  | x |
+| **2.12** | MSTG-STORAGE-12 | The app educates the user about the types of personally identifiable information processed, as well as security best practices the user should follow in using the app. | x | x |
 | **2.13** | MSTG-STORAGE-13 | No sensitive data should be stored locally on the mobile device. Instead, data should be retrieved from a remote endpoint when needed and only be kept in memory. |  | x |
 | **2.14** | MSTG-STORAGE-14 | If sensitive data is still required to be stored locally, it should be encrypted using a key derived from hardware backed storage which requires authentication. |  | x |
 | **2.15** | MSTG-STORAGE-15 | The app’s local storage should be wiped after an excessive number of failed authentication attempts. |  | x |

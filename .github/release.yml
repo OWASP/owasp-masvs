@@ -1,0 +1,11 @@
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+  categories:
+    - title: Changes in MASVS Requirements
+      labels:
+        - "change-masvs"
+    - title: Other Changes
+      labels:
+        - "*"

@@ -8,7 +8,7 @@
 
 ## Требования безопасности
 
-- [V1: Требования к архитектуре, проектированию и моделированию угроз](0x06-V1-Architecture_design_and_threat_modelling_requireme.md)
+- [V1: Требования к архитектуре, проектированию и моделированию угроз](0x06-V1-Architecture_design_and_threat_modelling_requirements.md)
 - [V2: Хранение данных и требования конфиденциальности](0x07-V2-Data_Storage_and_Privacy_requirements.md)
 - [V3: Требования к криптографии](0x08-V3-Cryptography_Verification_Requirements.md)
 - [V4: Аутентификация и требования к управлению сессиями](0x09-V4-Authentication_and_Session_Management_Requirements.md)
