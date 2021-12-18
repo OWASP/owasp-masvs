@@ -28,16 +28,8 @@ jobs:
       with:
         fetch-depth: 1
 
-    - name: Get previous tag
-      id: previoustag
-      uses: "WyriHaximus/github-action-get-previous-tag@v1"
-
-    - name: Set VERSION to local job env
-      run: echo "VERSION=${{ steps.previoustag.outputs.tag }}" >> $GITHUB_ENV
-
-    # - name: Set dev version
-    #   if: ${{ !startsWith(github.ref, 'refs/tags/') }}
-    #   run: echo "VERSION=${{ steps.previoustag.outputs.tag }}-dev" >> $GITHUB_ENV
+    - name: Set VERSION to env 
+      run: echo "VERSION=$(git describe)" >> $GITHUB_ENV
 
     - name: Generate ${{ inputs.language }} PDF
       run: ${{ inputs.pandocker-tag }} ${{ inputs.pandocker-template }} ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} ${{ env.VERSION }}

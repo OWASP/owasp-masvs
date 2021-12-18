@@ -114,12 +114,10 @@ jobs:
       with:
         fetch-depth: 1
 
-    - name: Set VERSION to env # tag name with the number of additional commits on top of the tagged object # and the abbreviated object name of the most recent commit
-      run: echo "VERSION=$(git describe --tags `git rev-list --tags --max-count=1`)" >> $GITHUB_ENV
-
-    # - name: Set dev version
-    #   if: ${{ !startsWith(github.ref, 'refs/tags/') }}
-    #   run: echo "VERSION=${{ steps.previoustag.outputs.tag }}-dev" >> $GITHUB_ENV
+    # tag name with the number of additional commits on top of the tagged object 
+    # and the abbreviated object name of the most recent commit
+    - name: Set VERSION to env 
+      run: echo "VERSION=$(git describe)" >> $GITHUB_ENV
 
     - name: Install pyyaml
       run: pip3 install pyyaml
