@@ -9,49 +9,49 @@ jobs:
 ##
 
   en:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml
     with:
       folder: Document
       language: English
       lang: en
 
   de:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml
     with:
       folder: Document-de
       language: German
       lang: de
 
   es:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml
     with:
       folder: Document-es
       language: Spanish
       lang: es
 
   fr:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml
     with:
       folder: Document-fr
       language: French
       lang: fr
 
   ptbr:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml
     with:
       folder: Document-ptbr
       language: Brazilian Portuguese
       lang: ptbr
 
   ptpt:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml
     with:
       folder: Document-ptpt
       language: Portugal Portuguese
       lang: ptpt
 
   hi:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml
     with:
       folder: Document-hi
       language: Hindi
@@ -59,7 +59,7 @@ jobs:
       pandocker-tag: TAG=stable-full
 
   ja:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml
     with:
       folder: Document-ja
       language: Japanese
@@ -67,7 +67,7 @@ jobs:
       pandocker-tag: TAG=stable-full
 
   ko:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml
     with:
       folder: Document-ko
       language: Korean
@@ -75,7 +75,7 @@ jobs:
       pandocker-tag: TAG=stable-full
 
   ru:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml
     with:
       folder: Document-ru
       language: Russian
@@ -83,7 +83,7 @@ jobs:
       pandocker-tag: TAG=stable-full
 
   fa:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml
     with:
       folder: Document-fa
       language: Persian
@@ -92,7 +92,7 @@ jobs:
       pandocker-template: LATEX_TEMPLATE=default # there's a bug for fa in the eisvogel template, we have to use default
 
   zhcn:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml
     with:
       folder: Document-zhcn
       language: Simplified Chinese
@@ -100,7 +100,7 @@ jobs:
       pandocker-tag: TAG=stable-full
 
   zhtw:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml
     with:
       folder: Document-zhtw
       language: Traditional Chinese
