@@ -2,18 +2,12 @@ name: Documents Build
 
 on: [push, workflow_dispatch]
 
-# env:
-#   VERSION: "${{ github.ref_name }}"
-
 jobs:
 
 ##
-## For langs that require the special fonts ( Russian, Chinese, etc.)
-## The `stable-full` version of pandocker is required, you can activate
-## it with the `TAG` environment variable, like this
+## Use `pandocker-tag: TAG=stable-full` for langs that require the special fonts (Russian, Chinese, etc.)
 ##
-## TAG=stable-full ./tools/docker/pandoc_makedocs.sh ....
-##
+
   en:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
     with:
@@ -28,15 +22,6 @@ jobs:
       language: German
       lang: de
 
-  fa:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
-    with:
-      folder: Document-fa
-      language: Persian
-      lang: fa
-      pandocker-tag: TAG=stable-full
-      pandocker-template: LATEX_TEMPLATE=default # there's a bug for fa in the eisvogel template, we have to use default
-
   es:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
     with:
@@ -50,6 +35,20 @@ jobs:
       folder: Document-fr
       language: French
       lang: fr
+
+  ptbr:
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-ptbr
+      language: Brazilian Portuguese
+      lang: ptbr
+
+  ptpt:
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-ptpt
+      language: Portugal Portuguese
+      lang: ptpt
 
   hi:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -75,20 +74,6 @@ jobs:
       lang: ko
       pandocker-tag: TAG=stable-full
 
-  ptbr:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
-    with:
-      folder: Document-ptbr
-      language: Brazilian Portuguese
-      lang: ptbr
-
-  ptpt:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
-    with:
-      folder: Document-ptpt
-      language: Portugal Portuguese
-      lang: ptpt
-
   ru:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
     with:
@@ -96,6 +81,15 @@ jobs:
       language: Russian
       lang: ru
       pandocker-tag: TAG=stable-full
+
+  fa:
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-fa
+      language: Persian
+      lang: fa
+      pandocker-tag: TAG=stable-full
+      pandocker-template: LATEX_TEMPLATE=default # there's a bug for fa in the eisvogel template, we have to use default
 
   zhcn:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -112,7 +106,6 @@ jobs:
       language: Traditional Chinese
       lang: zhtw
       pandocker-tag: TAG=stable-full
-
 
   export:
     runs-on: ubuntu-latest
