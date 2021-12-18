@@ -82,21 +82,21 @@ jobs:
       version: ${{ github.ref_name }}
       pandocker-tag: TAG=stable-full
 
-  pt-br:
+  ptbr:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
     with:
-      folder: Document-pt-br
+      folder: Document-ptbr
       language: Brazilian Portuguese
-      lang: pt-br
+      lang: ptbr
       version: ${{ github.ref_name }}
 
 
-  pt-pt:
+  ptpt:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
     with:
-      folder: Document-pt-pt
+      folder: Document-ptpt
       language: Portugal Portuguese
-      lang: pt-pt
+      lang: ptpt
       version: ${{ github.ref_name }}
 
   ru:
