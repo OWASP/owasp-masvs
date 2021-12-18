@@ -35,9 +35,9 @@ jobs:
     - name: Set VERSION to local job env
       run: echo "VERSION=${{ steps.previoustag.outputs.tag }}" >> $GITHUB_ENV
 
-    - name: Set dev version
-      if: ${{ !startsWith(github.ref, 'refs/tags/') }}
-      run: echo "VERSION=${{ steps.previoustag.outputs.tag }}-dev" >> $GITHUB_ENV
+    # - name: Set dev version
+    #   if: ${{ !startsWith(github.ref, 'refs/tags/') }}
+    #   run: echo "VERSION=${{ steps.previoustag.outputs.tag }}-dev" >> $GITHUB_ENV
 
     - name: Generate ${{ inputs.language }} PDF
       run: ${{ inputs.pandocker-tag }} ${{ inputs.pandocker-template }} ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} ${{ env.VERSION }}
