@@ -25,9 +25,9 @@ jobs:
   de:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
     with:
-      folder: Document-${{ github.job }}
+      folder: Document-de
       language: German
-      lang: ${{ github.job }}
+      lang: de
       version: ${{ github.ref_name }}
 
   fa:
@@ -88,69 +88,36 @@ jobs:
 
 
   pt-pt:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate Portugal Portuguese PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document-ptpt ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-ptpt
-        path: OWASP_MASVS-${{env.VERSION}}-ptpt*
-
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-pt-pt
+      language: Portugal Portuguese
+      lang: pt-pt
+      version: ${{ github.ref_name }}
 
   ru:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate Russian PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-ru ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-ru
-        path: OWASP_MASVS-${{env.VERSION}}-ru*
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-ru
+      language: Russian
+      lang: ru
+      version: ${{ github.ref_name }}
 
   zhcn:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate Simplified Chinese PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-zhcn ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-zhcn
-        path: OWASP_MASVS-${{env.VERSION}}-zhcn*
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-zhcn
+      language: Simplified Chinese
+      lang: zhcn
+      version: ${{ github.ref_name }}
 
   zhtw:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate Traditional Chinese PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-zhtw ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-zhtw
-        path: OWASP_MASVS-${{env.VERSION}}-zhtw*
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-zhtw
+      language: Traditional Chinese
+      lang: zhtw
+      version: ${{ github.ref_name }}
 
 
   export:
