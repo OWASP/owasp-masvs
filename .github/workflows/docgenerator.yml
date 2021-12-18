@@ -9,7 +9,7 @@ jobs:
 ##
 
   en:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
     with:
       folder: Document
       language: English
