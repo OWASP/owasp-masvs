@@ -117,7 +117,7 @@ jobs:
     # tag name with the number of additional commits on top of the tagged object 
     # and the abbreviated object name of the most recent commit
     - name: Set VERSION to env 
-      run: echo "VERSION=$(git describe)" >> $GITHUB_ENV
+      run: echo "VERSION=$(git describe --tags `git rev-list --tags --max-count=1`)" >> $GITHUB_ENV
 
     - name: Install pyyaml
       run: pip3 install pyyaml
