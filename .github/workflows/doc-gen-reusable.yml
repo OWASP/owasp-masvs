@@ -34,11 +34,14 @@ jobs:
     - name: get ref in reusable
       run: echo ${{ github.ref_name }}
 
+    - name: Set DOC_VERSION to env
+      run: echo "DOC_VERSION=$(echo ${{ github.ref_name }} | cut -c 1-6)" >> $GITHUB_ENV
+
     - name: Generate ${{ inputs.language }} PDF
-      run: ${{ inputs.pandocker-tag }} ${{ inputs.pandocker-template }} ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} ${{ inputs.version }}
+      run: ${{ inputs.pandocker-tag }} ${{ inputs.pandocker-template }} ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} $DOC_VERSION
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${{ inputs.version }}-${{ inputs.lang }}
-        path: OWASP_MASVS-${{ inputs.version }}-${{ inputs.lang }}*
+        name: OWASP_MASVS-$DOC_VERSION-${{ inputs.lang }}
+        path: OWASP_MASVS-$DOC_VERSION-${{ inputs.lang }}*
