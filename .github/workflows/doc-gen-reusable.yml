@@ -31,11 +31,8 @@ jobs:
       with:
         fetch-depth: 1
 
-    - name: Set REF_VERSION to local job env
-      run: echo "REF_VERSION=$([[ ${{ github.ref_name }} = v* ]] && echo ${{ github.ref_name }})" >> $GITHUB_ENV
-
     - name: Set DOC_VERSION to local job env
-      run: echo "DOC_VERSION=${${{ env.REF_VERSION }}:-SNAP}" >> $GITHUB_ENV
+      run: echo "DOC_VERSION=${$([[ ${{ github.ref_name }} = v* ]] && echo ${{ github.ref_name }} || echo SNAP)}" >> $GITHUB_ENV
 
     - name: Generate ${{ inputs.language }} PDF
       run: ${{ inputs.pandocker-tag }} ${{ inputs.pandocker-template }} ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} ${{ env.DOC_VERSION }}
