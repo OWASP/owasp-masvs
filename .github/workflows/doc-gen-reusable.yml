@@ -6,10 +6,13 @@ on:
       language:         # English, German, Spanish, etc.
         required: true
         type: string
-      language-short:   # en, de, es , etc.
+      lang:   # en, de, es , etc.
         required: true
         type: string
       folder:
+        required: true
+        type: string
+      version:
         required: true
         type: string
 
@@ -23,10 +26,10 @@ jobs:
         fetch-depth: 1
 
     - name: Generate ${{ inputs.language }} PDF
-      run: ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} ${{env.VERSION}}
+      run: ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} ${{ inputs.version }}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${{env.VERSION}}-${{ inputs.language-short }}
-        path: OWASP_MASVS-${{env.VERSION}}-${{ inputs.language-short }}*
+        name: OWASP_MASVS-${{ inputs.version }}-${{ inputs.lang }}
+        path: OWASP_MASVS-${{ inputs.version }}-${{ inputs.lang }}*

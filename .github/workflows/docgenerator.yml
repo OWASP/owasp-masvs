@@ -19,7 +19,8 @@ jobs:
     with:
       folder: Document
       language: English
-      language-short: en
+      lang: en
+      version: ${{env.VERSION}}
   # en:
   #   runs-on: ubuntu-latest
   #   steps:
