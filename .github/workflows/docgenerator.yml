@@ -20,7 +20,7 @@ jobs:
       folder: Document
       language: English
       lang: en
-      version: ${{env.VERSION}}
+      version: ${{ github.ref_name }}
   # en:
   #   runs-on: ubuntu-latest
   #   steps:
