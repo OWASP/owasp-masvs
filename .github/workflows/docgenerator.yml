@@ -20,7 +20,6 @@ jobs:
       folder: Document
       language: English
       lang: en
-      version: ${{ github.ref_name }}
 
   de:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -28,7 +27,6 @@ jobs:
       folder: Document-de
       language: German
       lang: de
-      version: ${{ github.ref_name }}
 
   fa:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -36,7 +34,6 @@ jobs:
       folder: Document-fa
       language: Persian
       lang: fa
-      version: ${{ github.ref_name }}
       pandocker-tag: TAG=stable-full
       pandocker-template: LATEX_TEMPLATE=default # there's a bug for fa in the eisvogel template, we have to use default
 
@@ -46,7 +43,6 @@ jobs:
       folder: Document-es
       language: Spanish
       lang: es
-      version: ${{ github.ref_name }}
 
   fr:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -54,7 +50,6 @@ jobs:
       folder: Document-fr
       language: French
       lang: fr
-      version: ${{ github.ref_name }}
 
   hi:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -62,7 +57,6 @@ jobs:
       folder: Document-hi
       language: Hindi
       lang: hi
-      version: ${{ github.ref_name }}
       pandocker-tag: TAG=stable-full
 
   ja:
@@ -71,7 +65,6 @@ jobs:
       folder: Document-ja
       language: Japanese
       lang: ja
-      version: ${{ github.ref_name }}
       pandocker-tag: TAG=stable-full
 
   ko:
@@ -80,7 +73,6 @@ jobs:
       folder: Document-ko
       language: Korean
       lang: ko
-      version: ${{ github.ref_name }}
       pandocker-tag: TAG=stable-full
 
   ptbr:
@@ -89,8 +81,6 @@ jobs:
       folder: Document-ptbr
       language: Brazilian Portuguese
       lang: ptbr
-      version: ${{ github.ref_name }}
-
 
   ptpt:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -98,7 +88,6 @@ jobs:
       folder: Document-ptpt
       language: Portugal Portuguese
       lang: ptpt
-      version: ${{ github.ref_name }}
 
   ru:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -106,7 +95,6 @@ jobs:
       folder: Document-ru
       language: Russian
       lang: ru
-      version: ${{ github.ref_name }}
       pandocker-tag: TAG=stable-full
 
   zhcn:
@@ -115,7 +103,6 @@ jobs:
       folder: Document-zhcn
       language: Simplified Chinese
       lang: zhcn
-      version: ${{ github.ref_name }}
       pandocker-tag: TAG=stable-full
 
   zhtw:
@@ -124,7 +111,6 @@ jobs:
       folder: Document-zhtw
       language: Traditional Chinese
       lang: zhtw
-      version: ${{ github.ref_name }}
       pandocker-tag: TAG=stable-full
 
 
@@ -141,6 +127,10 @@ jobs:
 
     - name: Set VERSION to local job env
       run: echo "VERSION=${{ steps.previoustag.outputs.tag }}" >> $GITHUB_ENV
+
+    - name: Set dev version
+      if: ${{ !startsWith(github.ref, 'refs/tags/') }}
+      run: echo "VERSION=${{ steps.previoustag.outputs.tag }}-dev" >> $GITHUB_ENV
 
     - name: Install pyyaml
       run: pip3 install pyyaml
