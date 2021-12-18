@@ -35,7 +35,7 @@ jobs:
       run: echo ${{ github.ref_name }}
 
     - name: Set DOC_VERSION to local job env
-      run: echo "DOC_VERSION=$(echo ${{ github.ref_name }} | cut -c 1-6)" >> $GITHUB_ENV
+      run: echo "DOC_VERSION=${$([[ ${{ github.ref_name }} = v* ]] && echo ${{ github.ref_name }}):-SNAP}" >> $GITHUB_ENV
 
     - name: Generate ${{ inputs.language }} PDF
       run: ${{ inputs.pandocker-tag }} ${{ inputs.pandocker-template }} ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} ${{ env.DOC_VERSION }}
