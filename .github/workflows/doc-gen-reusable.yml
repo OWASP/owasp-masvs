@@ -18,6 +18,9 @@ on:
       pandocker-tag:
         required: false
         type: string
+      pandocker-template:
+        required: false
+        type: string
 
 
 jobs:
@@ -29,7 +32,7 @@ jobs:
         fetch-depth: 1
 
     - name: Generate ${{ inputs.language }} PDF
-      run: ${{ inputs.pandocker-tag }} ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} ${{ inputs.version }}
+      run: ${{ inputs.pandocker-tag }} ${{ inputs.pandocker-template }} ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} ${{ inputs.version }}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2

@@ -38,6 +38,7 @@ jobs:
       lang: fa
       version: ${{ github.ref_name }}
       pandocker-tag: TAG=stable-full
+      pandocker-template: LATEX_TEMPLATE=default
 
   es:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
