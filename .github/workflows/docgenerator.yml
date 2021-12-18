@@ -2,8 +2,8 @@ name: Documents Build
 
 on: [push, workflow_dispatch]
 
-env:
-  VERSION: "${{ github.ref_name }}"
+# env:
+#   VERSION: "${{ github.ref_name }}"
 
 jobs:
 
@@ -134,6 +134,13 @@ jobs:
     - uses: actions/checkout@v1
       with:
         fetch-depth: 1
+
+    - name: Get previous tag
+      id: previoustag
+      uses: "WyriHaximus/github-action-get-previous-tag@v1"
+
+    - name: Set VERSION to local job env
+      run: echo "VERSION=${{ steps.previoustag.outputs.tag }}" >> $GITHUB_ENV
 
     - name: Install pyyaml
       run: pip3 install pyyaml

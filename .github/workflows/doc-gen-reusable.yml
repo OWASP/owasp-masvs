@@ -35,14 +35,14 @@ jobs:
       id: previoustag
       uses: "WyriHaximus/github-action-get-previous-tag@v1"
 
-    - name: Set DOC_VERSION to local job env
-      run: echo "DOC_VERSION=${{ steps.previoustag.outputs.tag }}" >> $GITHUB_ENV
+    - name: Set VERSION to local job env
+      run: echo "VERSION=${{ steps.previoustag.outputs.tag }}" >> $GITHUB_ENV
 
     - name: Generate ${{ inputs.language }} PDF
-      run: ${{ inputs.pandocker-tag }} ${{ inputs.pandocker-template }} ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} ${{ env.DOC_VERSION }}
+      run: ${{ inputs.pandocker-tag }} ${{ inputs.pandocker-template }} ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} ${{ env.VERSION }}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${{ env.DOC_VERSION }}-${{ inputs.lang }}
-        path: OWASP_MASVS-${{ env.DOC_VERSION }}-${{ inputs.lang }}*
+        name: OWASP_MASVS-${{ env.VERSION }}-${{ inputs.lang }}
+        path: OWASP_MASVS-${{ env.VERSION }}-${{ inputs.lang }}*
