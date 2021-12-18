@@ -37,6 +37,7 @@ jobs:
       language: Persian
       lang: fa
       version: ${{ github.ref_name }}
+      pandocker-tag: TAG=stable-full
 
   es:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -61,6 +62,7 @@ jobs:
       language: Hindi
       lang: hi
       version: ${{ github.ref_name }}
+      pandocker-tag: TAG=stable-full
 
   ja:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -69,6 +71,7 @@ jobs:
       language: Japanese
       lang: ja
       version: ${{ github.ref_name }}
+      pandocker-tag: TAG=stable-full
 
   ko:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -77,6 +80,7 @@ jobs:
       language: Korean
       lang: ko
       version: ${{ github.ref_name }}
+      pandocker-tag: TAG=stable-full
 
   pt-br:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -102,6 +106,7 @@ jobs:
       language: Russian
       lang: ru
       version: ${{ github.ref_name }}
+      pandocker-tag: TAG=stable-full
 
   zhcn:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -110,6 +115,7 @@ jobs:
       language: Simplified Chinese
       lang: zhcn
       version: ${{ github.ref_name }}
+      pandocker-tag: TAG=stable-full
 
   zhtw:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -118,6 +124,7 @@ jobs:
       language: Traditional Chinese
       lang: zhtw
       version: ${{ github.ref_name }}
+      pandocker-tag: TAG=stable-full
 
 
   export:
