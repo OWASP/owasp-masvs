@@ -2,231 +2,110 @@ name: Documents Build
 
 on: [push, workflow_dispatch]
 
-env:
-  VERSION: "${{ github.ref_name }}"
-
 jobs:
 
 ##
-## For langs that require the special fonts ( Russian, Chinese, etc.)
-## The `stable-full` version of pandocker is required, you can activate
-## it with the `TAG` environment variable, like this
-##
-## TAG=stable-full ./tools/docker/pandoc_makedocs.sh ....
+## Use `pandocker-tag: TAG=stable-full` for langs that require the special fonts (Russian, Chinese, etc.)
 ##
 
   en:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate English PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-en
-        path: OWASP_MASVS-${{env.VERSION}}-en*
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document
+      language: English
+      lang: en
 
   de:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate German PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document-de ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-de
-        path: OWASP_MASVS-${{env.VERSION}}-de*
-
-  fa:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate Persian PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-fa ${{env.VERSION}}
-      env:
-        LATEX_TEMPLATE: default # there's a bug in the eisvogel template
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-fa
-        path: OWASP_MASVS-${{env.VERSION}}-fa*
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-de
+      language: German
+      lang: de
 
   es:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate Spanish PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document-es ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-es
-        path: OWASP_MASVS-${{env.VERSION}}-es*
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-es
+      language: Spanish
+      lang: es
 
   fr:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-fr
+      language: French
+      lang: fr
 
-    - name: Generate French PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document-fr ${{env.VERSION}}
+  ptbr:
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-ptbr
+      language: Brazilian Portuguese
+      lang: ptbr
 
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-fr 
-        path: OWASP_MASVS-${{env.VERSION}}-fr*
+  ptpt:
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-ptpt
+      language: Portugal Portuguese
+      lang: ptpt
 
   hi:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate Hindi PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-hi ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-hi
-        path: OWASP_MASVS-${{env.VERSION}}-hi*
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-hi
+      language: Hindi
+      lang: hi
+      pandocker-tag: TAG=stable-full
 
   ja:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate Japanese PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-ja ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-ja
-        path: OWASP_MASVS-${{env.VERSION}}-ja*
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-ja
+      language: Japanese
+      lang: ja
+      pandocker-tag: TAG=stable-full
 
   ko:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate Korean PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-ko ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-ko
-        path: OWASP_MASVS-${{env.VERSION}}-ko*
-
-  pt-br:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate Brazilian Portuguese PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document-ptbr ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-ptbr
-        path: OWASP_MASVS-${{env.VERSION}}-ptbr*
-
-
-  pt-pt:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate Portugal Portuguese PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document-ptpt ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-ptpt
-        path: OWASP_MASVS-${{env.VERSION}}-ptpt*
-
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-ko
+      language: Korean
+      lang: ko
+      pandocker-tag: TAG=stable-full
 
   ru:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-ru
+      language: Russian
+      lang: ru
+      pandocker-tag: TAG=stable-full
 
-    - name: Generate Russian PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-ru ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-ru
-        path: OWASP_MASVS-${{env.VERSION}}-ru*
+  fa:
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-fa
+      language: Persian
+      lang: fa
+      pandocker-tag: TAG=stable-full
+      pandocker-template: LATEX_TEMPLATE=default # there's a bug for fa in the eisvogel template, we have to use default
 
   zhcn:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate Simplified Chinese PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-zhcn ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-zhcn
-        path: OWASP_MASVS-${{env.VERSION}}-zhcn*
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-zhcn
+      language: Simplified Chinese
+      lang: zhcn
+      pandocker-tag: TAG=stable-full
 
   zhtw:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
-
-    - name: Generate Traditional Chinese PDF
-      run: TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-zhtw ${{env.VERSION}}
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-zhtw
-        path: OWASP_MASVS-${{env.VERSION}}-zhtw*
-
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document-zhtw
+      language: Traditional Chinese
+      lang: zhtw
+      pandocker-tag: TAG=stable-full
 
   export:
     runs-on: ubuntu-latest
@@ -234,6 +113,15 @@ jobs:
     - uses: actions/checkout@v1
       with:
         fetch-depth: 1
+
+    # tag name with the number of additional commits on top of the tagged object 
+    # and the abbreviated object name of the most recent commit
+    - name: Set VERSION to env 
+      run: echo "VERSION=$(git describe --tags `git rev-list --tags --max-count=1`)" >> $GITHUB_ENV
+
+    - name: Set DEV VERSION if it's not a tag
+      if: ${{ !startsWith(github.ref, 'refs/tags/') }}
+      run: echo "VERSION=${{env.VERSION}}-$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
     - name: Install pyyaml
       run: pip3 install pyyaml
@@ -270,7 +158,7 @@ jobs:
 
   release:
     runs-on: ubuntu-latest
-    needs: [en, de, fa, es, fr, hi, ja, ko, pt-br, pt-pt, ru, zhcn, zhtw, export]
+    needs: [en, de, fa, es, fr, hi, ja, ko, ptbr, ptpt, ru, zhcn, zhtw, export]
     if: startsWith(github.ref, 'refs/tags/') && (github.actor == 'cpholguera' || github.actor == 'sushi2k')
     steps:
       - uses: actions/download-artifact@v2
@@ -293,4 +181,3 @@ jobs:
             OWASP_MASVS-*.xml/OWASP_MASVS-*.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
