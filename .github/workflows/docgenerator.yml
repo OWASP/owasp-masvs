@@ -38,7 +38,7 @@ jobs:
       lang: fa
       version: ${{ github.ref_name }}
       pandocker-tag: TAG=stable-full
-      pandocker-template: LATEX_TEMPLATE=default
+      pandocker-template: LATEX_TEMPLATE=default # there's a bug for fa in the eisvogel template, we have to use default
 
   es:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
@@ -193,4 +193,3 @@ jobs:
             OWASP_MASVS-*.xml/OWASP_MASVS-*.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
