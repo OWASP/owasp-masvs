@@ -1,0 +1,32 @@
+# https://docs.github.com/en/actions/learn-github-actions/reusing-workflows
+
+on:
+  workflow_call:
+    inputs:
+      language:         # English, German, Spanish, etc.
+        required: true
+        type: string
+      language-short:   # en, de, es , etc.
+        required: true
+        type: string
+      folder:
+        required: true
+        type: string
+
+
+jobs:
+  doc-gen-reusable:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        fetch-depth: 1
+
+    - name: Generate ${{ inputs.language }} PDF
+      run: ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} ${{env.VERSION}}
+
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: OWASP_MASVS-${{env.VERSION}}-${{ inputs.language-short }}
+        path: OWASP_MASVS-${{env.VERSION}}-${{ inputs.language-short }}*

@@ -14,22 +14,27 @@ jobs:
 ##
 ## TAG=stable-full ./tools/docker/pandoc_makedocs.sh ....
 ##
-
   en:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-      with:
-        fetch-depth: 1
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@try-reusable-workflow
+    with:
+      folder: Document
+      language: English
+      language-short: en
+  # en:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - uses: actions/checkout@v1
+  #     with:
+  #       fetch-depth: 1
 
-    - name: Generate English PDF
-      run: ./tools/docker/pandoc_makedocs.sh Document ${{env.VERSION}}
+  #   - name: Generate English PDF
+  #     run: ./tools/docker/pandoc_makedocs.sh Document ${{env.VERSION}}
 
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}-en
-        path: OWASP_MASVS-${{env.VERSION}}-en*
+  #   - name: Upload Artifacts
+  #     uses: actions/upload-artifact@v2
+  #     with:
+  #       name: OWASP_MASVS-${{env.VERSION}}-en
+  #       path: OWASP_MASVS-${{env.VERSION}}-en*
 
   de:
     runs-on: ubuntu-latest
