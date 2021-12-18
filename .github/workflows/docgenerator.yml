@@ -114,12 +114,8 @@ jobs:
       with:
         fetch-depth: 1
 
-    - name: Get previous tag
-      id: previoustag
-      uses: "WyriHaximus/github-action-get-previous-tag@v1"
-
-    - name: Set VERSION to local job env
-      run: echo "VERSION=${{ steps.previoustag.outputs.tag }}" >> $GITHUB_ENV
+    - name: Set VERSION to env # tag name with the number of additional commits on top of the tagged object # and the abbreviated object name of the most recent commit
+      run: echo "VERSION=$(git describe --tags `git rev-list --tags --max-count=1`)" >> $GITHUB_ENV
 
     # - name: Set dev version
     #   if: ${{ !startsWith(github.ref, 'refs/tags/') }}
