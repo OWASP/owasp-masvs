@@ -31,6 +31,9 @@ jobs:
       with:
         fetch-depth: 1
 
+    - name: get ref in reusable
+      run: echo ${{ github.ref_name }}
+
     - name: Generate ${{ inputs.language }} PDF
       run: ${{ inputs.pandocker-tag }} ${{ inputs.pandocker-template }} ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} ${{ inputs.version }}
 
