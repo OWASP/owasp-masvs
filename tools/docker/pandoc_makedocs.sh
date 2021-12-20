@@ -92,7 +92,7 @@ ${PANDOC} \
   --columns 10000 \
   --self-contained \
   --standalone \
-  --reference-doc tools/custom-reference.docx \
+  --reference-doc reference.docx \
   -o ${OUTPUT_BASE_NAME}_WIP_.docx \
   ${METADATA} \
   ${CHAPTERS}
