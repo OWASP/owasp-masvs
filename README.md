@@ -1,4 +1,4 @@
-<a href="https://github.com/OWASP/owasp-masvs/releases/download/v1.3/OWASP_MASVS-v1.3-en.pdf"><img width="25%" align="right" style="float: right;" src="Document/images/masvs-mini-cover.png"></a>
+<img width="25%" align="right" style="float: right;" src="Document/images/masvs-mini-cover.png"></a>
 
 # OWASP Mobile Application Security Verification Standard [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_MSTG.svg?style=social&label=Follow)](https://twitter.com/OWASP_MSTG) [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/OWASP/owasp-masvs)
 
@@ -10,94 +10,23 @@
 
 This is the official Github Repository of the OWASP Mobile Application Security Verification Standard (MASVS). The MASVS establishes baseline security requirements for mobile apps that are useful in many scenarios, including:
 
-- In the SDLC - to establish security requirements to be followed by solution architects and developers;
-- In mobile app penetration tests - to ensure completeness and consistency in mobile app penetration tests;
-- In procurement - as a measuring stick for mobile app security, e.g. in form of questionnaire for vendors;
-- Et cetera.
+- In the SDLC - to establish security requirements to be followed by solution architects and developers.
+- In mobile app penetration tests - to ensure completeness and consistency in mobile app penetration tests.
+- In procurement - as a measuring stick for mobile app security, e.g. in form of questionnaire for vendors.
 
 The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg "OWASP Mobile Security Testing Guide").
 
-# Getting the MASVS
+## Getting the MASVS
 
-The latest version of the MASVS is available as PDF, epub and docx and can be downloaded from the [releases page](https://github.com/OWASP/owasp-masvs/releases "Releases"). The documents were created by using [pandocker](https://github.com/dalibo/pandocker/ "pandocker").
+### Read it Online in GitBook (English only)
 
-Want to have the latest `snapshot` version? Check [the latest Github build action](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Document+Build%22). The MASVS is also available in different languages:
+Start reading the MASVS on [Gitbook](https://mobile-security.gitbook.io/masvs/).
 
-- [Brazilian Portuguese](https://github.com/OWASP/owasp-masvs/tree/master/Document-ptbr "Brazilian Portuguese")
-- [Chinese (Simplified) - ZHCN](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhcn "Simplified Chinese (ZHCN)")
-- [Chinese (Traditional) - ZHTW](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhtw "Traditional Chinese (ZHTW)")
-- [English](https://github.com/OWASP/owasp-masvs/tree/master/Document "English")
-- [French](https://github.com/OWASP/owasp-masvs/tree/master/Document-fr "French")
-- [German](https://github.com/OWASP/owasp-masvs/tree/master/Document-de "German")
-- [Hindi (in progress)](https://github.com/OWASP/owasp-masvs/tree/master/Document-hi "Hindi")
-- [Japanese](https://github.com/OWASP/owasp-masvs/tree/master/Document-ja "Japanese")
-- [Korean](https://github.com/OWASP/owasp-masvs/tree/master/Document-ko "Korean")
-- [Persian](https://github.com/OWASP/owasp-masvs/tree/master/Document-fa "Persian")
-- [Portuguese](https://github.com/OWASP/owasp-masvs/tree/master/Document-ptpt "Portuguese")
-- [Russian](https://github.com/OWASP/owasp-masvs/tree/master/Document-ru "Russian")
-- [Spanish](https://github.com/OWASP/owasp-masvs/tree/master/Document-es "Spanish")  
+### Download the Latest Version
 
-## Gitbook
+You can Download the MASVS it in your preferred language and format from the [Releases Page](https://github.com/OWASP/owasp-masvs/releases).
 
-Read the English version on [Gitbook](https://mobile-security.gitbook.io/masvs/ "GitBook Mobile AppSec Verification Standard"). The book is automatically synchronized with the main repo.
-
-## Create new PDF, EPUB and Word document
-
-> These steps were tested on macOS, Kali and Ubuntu 18
-
-You can find the documents on the [release page](https://github.com/OWASP/owasp-masvs/releases). If you want to generate the documents yourself, execute the following steps:
-
-- The document creation uses a Docker container, so make sure that you have [Docker installed](https://www.docker.com/products/docker-desktop).
-
-- Clone the MASVS repository:
-
-```shell
-$ git clone https://github.com/OWASP/owasp-masvs/
-$ cd owasp-masvs/
-```
-
-- Run the document generation script for the chosen language with latin-fonts:
-
-```shell
-$ ./tools/docker/pandoc_makedocs.sh Document-de LATEST
-```
-
-- "Document-de" specifies the folder of the language that is used to generate the documents. Simply replace it with the language you want to use.
-- "LATEST" is the string that will be printed on the cover.
-
-- For languages that require non-latin fonts (Chinese, Farsi, Hindi, Japanese, Korean, Russian etc.) the `stable-full` version of Pandocker is required. You can activate it with the `TAG` environment variable, like this:
-
-```shell
-$ TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-hi LATEST
-```
-
-This produces PDF, EPUB and DOCX files in the root of the project.
-
-## Exporting to JSON, XML and CSV
-
-The repository contains a Python tool for converting the requirements into various formats. Clone the repo and run `export.py` from the tools folder.
-
-```shell
-export.py [-h] [--format {json,xml,csv}] [--lang {es/ru/en/fr/de/zhtw/ja}]
-```
-
-## Suggestions and Feedback
-
-To report and error or suggest an improvement, please create an [issue](https://github.com/OWASP/owasp-masvs/issues "Github issues") or create a Pull Request.
-
-# How to Contribute
-
-The MASVS is an open source effort and we welcome contributions and feedback. If you want to contribute additional content, or improve existing content, we suggest that you first contact us on the OWASP MSTG Slack channel:
-
-<https://owasp.slack.com/messages/project-mobile_omtg/details/>
-
-You can sign up here:
-
-[https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/)
-
-Before you start contributing, please check our [contribution guide](https://github.com/OWASP/owasp-masvs/blob/master/CONTRIBUTING.md "Contribution Guide") which should get you started.
-
-# Read Individual Sections of the MASVS Here
+### Read it Online in GitHub
 
 - [Foreword](Document/0x01-Foreword.md)
 - [Frontispiece](Document/0x02-Frontispiece.md)
@@ -114,3 +43,40 @@ Before you start contributing, please check our [contribution guide](https://git
 - [Appendix A: Glossary](Document/0x90-Appendix-A_Glossary.md)
 - [Appendix B: References](Document/0x91-Appendix-B_References.md)
 - [Release notes](CHANGELOG.md)
+
+#### Other Languages
+
+The MASVS is also available in different languages:
+
+- [Chinese (Simplified) - ZHCN](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhcn)
+- [Chinese (Traditional) - ZHTW](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhtw)
+- [French](https://github.com/OWASP/owasp-masvs/tree/master/Document-fr)
+- [German](https://github.com/OWASP/owasp-masvs/tree/master/Document-de)
+- [Hindi](https://github.com/OWASP/owasp-masvs/tree/master/Document-hi)
+- [Japanese](https://github.com/OWASP/owasp-masvs/tree/master/Document-ja)
+- [Korean](https://github.com/OWASP/owasp-masvs/tree/master/Document-ko)
+- [Persian](https://github.com/OWASP/owasp-masvs/tree/master/Document-fa)
+- [Portuguese (Brazilian)](https://github.com/OWASP/owasp-masvs/tree/master/Document-ptbr)
+- [Portuguese (Portugal)](https://github.com/OWASP/owasp-masvs/tree/master/Document-ptpt)
+- [Russian](https://github.com/OWASP/owasp-masvs/tree/master/Document-ru)
+- [Spanish](https://github.com/OWASP/owasp-masvs/tree/master/Document-es)
+
+## Suggestions and Feedback
+
+To report an error or suggest an improvement:
+
+- [Start a Discussion](https://github.com/OWASP/owasp-masvs/discussions) to share ideas and ask questions (ideas can be converted to Issues).
+- [Create an Issue](https://github.com/OWASP/owasp-masvs/issues) once you have an actionable items.
+- [Open a Pull Request](https://github.com/OWASP/owasp-masvs/pulls) if you want to submit something you've fixed yourself or you want to address an issue.
+
+## How to Contribute
+
+The MASVS is an open source effort and we welcome contributions and feedback. If you want to contribute additional content, or improve existing content, we suggest that you first contact us on the OWASP MSTG Slack channel:
+
+<https://owasp.slack.com/messages/project-mobile_omtg/details/>
+
+You can sign up here:
+
+[https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/)
+
+Before you start contributing, please check the [OWASP MSTG Contribution Guide](https://github.com/OWASP/owasp-mstg/blob/master/CONTRIBUTING.md "Contribution Guide") (valid for all of our projects).
