@@ -45,9 +45,20 @@ Copyright © 2021 The OWASP Foundation. 本文檔在 Creative Commons Attributio
 
 雖然 MASVS 和 MSTG 都是由社群自願創建和維護的，但有時仍需要一些外部的協助。因此，我們感謝我們的贊助者提供資金來聘請技術編輯。請注意，他們的贊助不會以任何方式影響 MASVS 或 MSTG 的內容。贊助方案可在[OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages")找到。
 
-### 特別感謝
+### God Mode
 
-[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/)
-[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/)
+![OWASP MSTG](images/Donators/NowSecure_logo.png) \
+
+[OWASP Bay Area Chapter](https://twitter.com/OWASPBayArea?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor "Twitter Bay Area")
+
+#### Honorable Benefactor
+
+![OWASP MSTG](images/Donators/SEC_Consult_logo.png) \
+
+![OWASP MSTG](images/Donators/ZIMPERIUM_logo.png) \
+
+#### Good Samaritan
+
+![OWASP MSTG](images/Donators/Randorisec_logo.png) \
 
 接下來，我們要感謝OWASP灣區分會的讚助。 最後，我們要感謝所有從[Leanpub](https://leanpub.com/mobile-security-testing-guide)購買這本書並以這種方式贊助我們的人。
