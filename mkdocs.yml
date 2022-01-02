@@ -1,0 +1,22 @@
+site_name: OWASP MSTG Docs
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+extra_css:
+  - stylesheets/extra.css
+repo_url: https://github.com/OWASP/owasp-masvs
+repo_name: OWASP/owasp-masvs
+plugins:
+  - search
+# markdown_extensions:
+#   - pymdownx.highlight:
+#       linenums: true
+#       anchor_linenums: true
+#   - pymdownx.superfences

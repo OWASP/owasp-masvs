@@ -12,7 +12,7 @@ The `tools/` directory contains scripts that are used to export the MASVS in dif
 
 ## Export the Documents
 
-The MASVS document generation is based on [pandocker](https://github.com/dalibo/pandocker/blob/latest/LICENSE).
+The MASVS document generation is based on [pandocker](https://github.com/dalibo/pandocker/).
 
 Each time you push to GitHub, the workflows in the [MASVS GitHub Actions](https://github.com/OWASP/owasp-masvs/actions "MASVS GitHub Actions") will be triggered. You can check what will be executed inside the folder `owasp-masvs/.github/workflows`.
 
@@ -39,17 +39,17 @@ This is completely optional, but it can help debugging some issues.
 - `cd` to the MASVS root folder `owasp-masvs/`
 - Run the `pandoc_makedocs.sh` script with the language folder and an optional version number (**do not `cd` into `tools/docker` to run it**):
 
-    ```sh
-    ./tools/docker/pandoc_makedocs.sh Document 1.4.1
-    ```
+```sh
+./tools/docker/pandoc_makedocs.sh Document 1.4.1
+```
 
 ### Notes
 
 - For non-european languages (Hindi, Persian, CJK, etc.) you need to use the `stable-full` version of the docker image. Define the `TAG` variable like this:
 
-  ```sh
-  TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-ja 1.4.1
-  ```
+```sh
+TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-ja 1.4.1
+```
 
 - You can set `VERBOSE=1` for a more detailed output
 - The size `stable-full` docker image is approx. 800MB whereas the regular `stable` version is 330MB.

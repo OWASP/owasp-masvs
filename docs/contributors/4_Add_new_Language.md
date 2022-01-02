@@ -1,16 +1,8 @@
-# MASVS Processes and Operations
+# Add a New Language
 
-## Exporting the MASVS
+To add a new language you have to follow the steps from both sections below.
 
-See ["How to Export"](HOW_TO_EXPORT.md).
-
-## Releasing the MASVS
-
-See ["How to Release"](HOW_TO_RELEASE.md).
-
-## Adding a New Language
-
-In the MASVS:
+## In the MASVS
 
 1. Create a folder with the language of choice, e.g. `Document-ja`.
 2. Copy an existing `metadata.md` from another language and modify it for the new language.
@@ -20,7 +12,9 @@ In the MASVS:
 6. Extend the `../README.md` with the newly available language.
 7. Release the MASVS.
 
-In the MSTG (after releasing the MASVS):
+## In the MSTG
+
+IMPORTANT: only after releasing the MASVS!
 
 1. Add the new language to `tools/scripts/gen_all_excel.sh`.
 2. Push and verify that the new Checklist is correctly generated for the new language.
