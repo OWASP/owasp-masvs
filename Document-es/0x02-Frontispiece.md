@@ -47,12 +47,20 @@ Este documento comenzó como un _fork_ del Estándar de Verificación de Segurid
 
 Aunque tanto el MASVS como la MSTG fueron creados y son mantenidos por la comunidad de forma voluntaria, a veces se requiere de un poco de ayuda externa. Por lo tanto, agradecemos a nuestros patrocinadores por proporcionar los fondos para poder contratar editores técnicos. Ha de notarse que su patrocinio no influye en el contenido del MASVS o la MSTG de ninguna manera. Los paquetes de patrocinio están descritos en la [Wiki del proyecto OWASP](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
-### Honorable Benefactor
+### God Mode
 
-[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/)
+![OWASP MSTG](images/Donators/NowSecure_logo.png) \
 
-### Good Samaritan
+[OWASP Bay Area Chapter](https://twitter.com/OWASPBayArea?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor "Twitter Bay Area")
 
-[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/)
+#### Honorable Benefactor
+
+![OWASP MSTG](images/Donators/SEC_Consult_logo.png) \
+
+![OWASP MSTG](images/Donators/ZIMPERIUM_logo.png) \
+
+#### Good Samaritan
+
+![OWASP MSTG](images/Donators/Randorisec_logo.png) \
 
 También nos gustaría agradecer al Capítulo del Área de la Bahía de OWASP por su patrocinio. Por último, nos gustaría agradecer a todos los que compraron el libro en [Leanpub](https://leanpub.com/mobile-security-testing-guide) y nos patrocinaron de esa manera.
