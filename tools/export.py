@@ -2,11 +2,11 @@
 
 ''' Tool for converting the MASVS requirements to various formats.
 
-    Usage: ./export.py [--format <csv/xml/json>] [--lang <es/ru/en/fr/de/zhtw/ja>]
+    Usage: ./export.py [--format <csv/xml/json>] [--lang <es/ru/en/fr/de/zhtw/ja...>]
 
     By Bernhard Mueller, updated by Jeroen Beckers and Carlos Holguera
 
-    Copyright (c) 2021 OWASP Foundation
+    Copyright (c) OWASP Foundation
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -33,7 +33,7 @@ from masvs import MASVS
 
 parser = argparse.ArgumentParser(description='Export the MASVS requirements. Default language is en.')
 parser.add_argument('-f', '--format', choices=['json', 'xml', 'csv', 'yaml'], required=True)
-parser.add_argument('-l', '--lang', choices=['de', 'en', 'es', 'fa', 'fr', 'hi', 'ja', 'ko', 'ru', 'zhcn', 'zhtw'], default='en')
+parser.add_argument('-l', '--lang', default='en')
 
 args = parser.parse_args()
 

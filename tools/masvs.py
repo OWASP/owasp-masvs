@@ -4,7 +4,7 @@
 
     By Bernhard Mueller, updated by Jeroen Beckers and Carlos Holguera
 
-    Copyright (c) 2021 OWASP Foundation
+    Copyright (c) OWASP Foundation
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -40,14 +40,16 @@ except ImportError:
     from io import StringIO
 
 def order_filenames(target):
-    keys = [f"-V{k}-" for k in range(1,9)]
-    l = [file.name for file in Path(target).glob("0x*-V*.md")]
-    ret_l = []
-    for k in keys:
-        for name in l:
-            if k in name:
-                ret_l.append(name)
-    return ret_l
+    if Path(target).exists():
+        keys = [f"-V{k}-" for k in range(1,9)]
+        l = [file.name for file in Path(target).glob("0x*-V*.md")]
+        ret_l = []
+        for k in keys:
+            for name in l:
+                if k in name:
+                    ret_l.append(name)
+        return ret_l
+    raise Exception(f"The provided path ({target}) does not exist. Does the corresponding language supported in the MASVS?")
 
 class MASVS:
     ''' Creates requirements list out of markdown files. '''
