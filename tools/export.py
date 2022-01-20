@@ -2,7 +2,7 @@
 
 ''' Tool for converting the MASVS requirements to various formats.
 
-    Usage: ./export.py [--format <csv/xml/json>] [--lang <es/ru/en/fr/de/zhtw/ja>]
+    Usage: ./export.py [--format <csv/xml/json>] [--lang <es/ru/en/fr/de/zhtw/ja...>]
 
     By Bernhard Mueller, updated by Jeroen Beckers and Carlos Holguera
 
