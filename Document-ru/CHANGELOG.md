@@ -2,19 +2,19 @@
 
 ## V1.3 - 13 May 2021
 
-We are proud to announce the introduction of a new document build pipeline, which is a major milestone for our project. The build pipeline is based on [Pandocker](https://github.com/dalibo/pandocker) and [Github Actions](https://github.com/OWASP/owasp-masvs/tree/master/.github/workflows).
-This significantly reduces the time spent on creating new releases and will also be the foundation for the OWASP MSTG and will be made available for the OWASP ASVS project.
+Мы с гордостью сообщаем о введении новой системы генерации документов, которая является важной вехой для нашего проекта. Система генерации основана на проектах [Pandocker](https://github.com/dalibo/pandocker) and [Github Actions](https://github.com/OWASP/owasp-masvs/tree/master/.github/workflows).
+Нововведение сокращает время, затрачиваемое на создание новых выпусков, а также станет основой для OWASP MSTG и будет также доступно для проекта OWASP ASVS.
 
-### Changes
+### Изменения
 
-- 4 more translations are available, which are Hindi, Farsi, Portuguese and Brazilian Portuguese
-- Added requirement MSTG-PLATFORM-11
+- Добавлено 4 новых перевода: Хинди, Персидский, Португальский и Бразильский вариант Португальского.
+- Добавлено требование MSTG-PLATFORM-11
 
-### Special Thanks
+### Специальная благодарность
 
-- Jeroen Willemsen for kick-starting this initiative last year!
-- Damien Clochard and Dalibo for supporting and professionalizing the build pipeline.
-- All our Hindi, Farsi, Portuguese and Brazilian Portuguese collaborators for the excellent translation work.
+- Jeroen Willemsen за запуск инициативы в прошлом году!
+- Damien Clochard и Dalibo за поддержку и профессионализацию системы генерации.
+- Всем нашим иностранным переводчикам за прекрасно проделанную работу.
 
 ## V1.2 - 7 марта 2020 - Международный релиз
 
@@ -29,19 +29,19 @@ This significantly reduces the time spent on creating new releases and will also
 Изменения в релизе 1.2:
 
 - Повышен до статуса флагмана.
-- Изменено трабование: MSTG-STORAGE-1 "нужно использовать".
-- Добавленны требования MSTG-STORAGE-13, MSTG-STORAGE-14, и MSTG-STORAGE-15 с акцентом на защиту данных.
+- Изменено требование: MSTG-STORAGE-1 "нужно использовать".
+- Добавлены требования MSTG-STORAGE-13, MSTG-STORAGE-14, и MSTG-STORAGE-15 с акцентом на защиту данных.
 - Изменено требование MSTG-AUTH-11 для сохранения контекстной информации.
 - Изменено требование MSTG-CODE-4 чтобы охватить больше чем просто отладка.
-- Добавлено трабование MSTG-PLATFORM-10 для более безопасного использования веб-представлений.
-- Добавлено требование MSTG-AUTH-12 added чтобы напомнить разработчикам о внедренных разрешениях пользователей, особенно в случае многопользовательских приложений.
+- Добавлено требование MSTG-PLATFORM-10 для более безопасного использования WebView.
+- Добавлено требование MSTG-AUTH-12 чтобы напомнить разработчикам о внедренных разрешениях пользователей, особенно в случае многопользовательских приложений.
 - Добавлено немного больше описания того, как следует использовать MASVS с учетом оценки риска.
 - Добавлено еще немного описания платного контента.
 - Добавлено требование MSTG-ARCH-11, чтобы включить политику раскрытия информации для приложений L2.
-- Добавлено требоавние MSTG-ARCH-12, чтобы показать разработчикам, что соответствующие международные законы о конфиденциальности должны соблюдаться.
+- Добавлено требование MSTG-ARCH-12, чтобы показать разработчикам, что соответствующие международные законы о конфиденциальности должны соблюдаться.
 - Создан согласованный стиль для всех ссылок в английской версии.
-- Добавлено требоавние MSTG-PLATFORM-11 для противодействия шпионажу с помощью сторонних клавиатур.
-- Добавлено требоавние MSTG-MSTG-RESILIENCE-13 для предотвращения перехвата данных в приложении.
+- Добавлено требование MSTG-PLATFORM-11 для противодействия шпионажу с помощью сторонних клавиатур.
+- Добавлено требование MSTG-MSTG-RESILIENCE-13 для предотвращения перехвата данных в приложении.
 
 ## V1.1.4 - 4 Июля 2019 - Саммит версия
 
@@ -54,7 +54,7 @@ This significantly reduces the time spent on creating new releases and will also
 - Для облегчения поиска рекомендаций и тест-кейсов добавлены идентификационные номера требований, которые будут включены в следующих версиях MSTG.
 - Уменьшен размер репозитория и папка Generated добавлена в .gitignore.
 - Добавлен Кодекс Поведения и Рекомендации по внесению изменений.
-- Добавлен шаблон для пул реквестов.
+- Добавлен шаблон для пул-реквестов.
 - Обновлена синхронизация с актуальным репозиторием для хостинга Gitbook сайта.
 - Обновлены скрипты для генерации XML/JSON/CSV для всех переводов.
 - Вступление переведено на китайский язык.
