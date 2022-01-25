@@ -50,22 +50,6 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 
 با اینکه هر دو استاندارد MASVS و MSTG به‌طور داوطلبانه توسط جامعه تولید و نگهداری می‌شوند، اما گاهی اوقات به اندکی کمک خارجی نیاز است. بنابراین، از حامیان مالی‌مان بخاطر فراهم آوردن بودجه برای استخدام ویراستارهای فنی تشکر می‌کنیم. توجه داشته باشید که حمایت مالی آنان محتوای استاندارد MASVS یا MSTG را تحت تأثیر قرار نمی‌دهد. بسته‌های حمایت مالی در [OWASP Project Wiki](<https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship> "OWASP Mobile Security Testing Guide Sponsorship Packages") شرح داده‌شده‌اند.
 
-### God Mode
-
-![OWASP MSTG](images/Donators/NowSecure_logo.png) \
-
-[OWASP Bay Area Chapter](https://twitter.com/OWASPBayArea?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor "Twitter Bay Area")
-
-#### Honorable Benefactor
-
-![OWASP MSTG](images/Donators/SEC_Consult_logo.png) \
-
-![OWASP MSTG](images/Donators/ZIMPERIUM_logo.png) \
-
-#### Good Samaritan
-
-![OWASP MSTG](images/Donators/Randorisec_logo.png) \
-
-در ادامه مایلیم از OWASP Bay Area Chapter به خاطر حمایتشان قدردانی نماییم. در پایان مایلیم از تمام کسانی که کتاب را از [Leanpub](https://leanpub.com/mobile-security-testing-guide) خریداری کرده و ما را حمایت کردند تشکر و قدردانی نماییم.
+![OWASP MSTG](../Document/images/Donators/donators.png) \
 
 </div>
