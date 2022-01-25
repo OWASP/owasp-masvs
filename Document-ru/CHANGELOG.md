@@ -2,7 +2,7 @@
 
 ## V1.3 - 13 May 2021
 
-Мы с гордостью сообщаем о введении новой системы генерации документов, которая является важной вехой для нашего проекта. Система генерации основана на проектах [Pandocker](https://github.com/dalibo/pandocker) и [Github Actions](https://github.com/OWASP/owasp-masvs/tree/master/.github/workflows).
+Мы с гордостью сообщаем о введении нового конвейера сборки документов, который является важной вехой для нашего проекта. Конвейер сборки основан на проектах [Pandocker](https://github.com/dalibo/pandocker) и [Github Actions](https://github.com/OWASP/owasp-masvs/tree/master/.github/workflows).
 Нововведение значительно сокращает время, затрачиваемое на создание новых сборок, а также станет основой для OWASP MSTG и будет доступно для проекта OWASP ASVS.
 
 ### Изменения
