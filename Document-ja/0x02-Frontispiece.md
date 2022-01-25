@@ -49,20 +49,6 @@ Copyright © 2021 The OWASP Foundation. 本著作物は [Creative Commons Attrib
 
 MASVS と MSTG のいずれもコミュニティにより無償奉仕で作成および維持されていますが、時にはいくらかの外的支援が必要となることもあります。したがって、テクニカルエディタを雇うことができる資金を提供したスポンサーに感謝します。彼らのスポンサーシップは MASVS や MSTG の内容にいかなる形であれ影響を与えないことに注意します。スポンサーシップパッケージは [OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages") に記載されています。
 
-### God Mode
+![OWASP MSTG](../Document/images/Donators/donators.png) \
 
-![OWASP MSTG](images/Donators/NowSecure_logo.png) \
-
-[OWASP Bay Area Chapter](https://twitter.com/OWASPBayArea?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor "Twitter Bay Area")
-
-#### Honorable Benefactor
-
-![OWASP MSTG](images/Donators/SEC_Consult_logo.png) \
-
-![OWASP MSTG](images/Donators/ZIMPERIUM_logo.png) \
-
-#### Good Samaritan
-
-![OWASP MSTG](images/Donators/Randorisec_logo.png) \
-
-次に、OWASPベイエリア支部の後援に感謝します。 最後に、[Leanpub](https://leanpub.com/mobile-security-testing-guide)からこの本を購入し私たちを支援してくれた皆様に感謝します。
+最後に、[Leanpub](https://leanpub.com/mobile-security-testing-guide)からこの本を購入し私たちを支援してくれた皆様に感謝します。

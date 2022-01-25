@@ -47,20 +47,6 @@ Copyright © 2021 The OWASP Foundation. 본 저작물은 [Creative Commons Attri
 
 MASVS와 MSTG는 모두 커뮤니티에서 자발적으로 생성되고 유지되지만, 때때로 약간의 외부 도움이 필요합니다. 따라서 기술 편집자를 고용할 수 있도록 자금을 기부해 주신 스폰서들에게 감사드립니다. 그들의 후원은 어떤식으로든 MASVS 또는 MSTG의 내용에 영향을 미치지 않는다는 점을 알려드립니다. 스폰서 패키지는 [OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages")에 설명되어 있습니다..
 
-### God Mode
+![OWASP MSTG](../Document/images/Donators/donators.png) \
 
-![OWASP MSTG](images/Donators/NowSecure_logo.png) \
-
-[OWASP Bay Area Chapter](https://twitter.com/OWASPBayArea?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor "Twitter Bay Area")
-
-#### Honorable Benefactor
-
-![OWASP MSTG](images/Donators/SEC_Consult_logo.png) \
-
-![OWASP MSTG](images/Donators/ZIMPERIUM_logo.png) \
-
-#### Good Samaritan
-
-![OWASP MSTG](images/Donators/Randorisec_logo.png) \
-
-다음으로 우리는 OWASP Bay Area Chapter의 후원에 감사의 말씀을 전합니다. 마지막으로 [Leanpub](https://leanpub.com/mobile-security-testing-guide)에서 이 책을 구입하여 후원해 주신 모든 분들께 감사드립니다.
+마지막으로 [Leanpub](https://leanpub.com/mobile-security-testing-guide)에서 이 책을 구입하여 후원해 주신 모든 분들께 감사드립니다.
