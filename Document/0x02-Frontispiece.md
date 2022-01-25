@@ -47,21 +47,7 @@ This document started as a fork of the OWASP Application Security Verification S
 
 While both the MASVS and the MSTG are created and maintained by the community on a voluntary basis, sometimes a little bit of outside help is required. We therefore thank our donators for providing the funds to be able to hire technical editors. Note that their donation does not influence the content of the MASVS or MSTG in any way. The Donation Packages are described on the [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Donation Packages").
 
-### God Mode Donators
-
-[OWASP Bay Area Chapter](https://twitter.com/OWASPBayArea?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor "Twitter Bay Area")
-
-#### Honorable Benefactor
-
-![OWASP MSTG](images/Donators/NowSecure_logo.png) \
-
-![OWASP MSTG](images/Donators/SEC_Consult_logo.png) \
-
-![OWASP MSTG](images/Donators/ZIMPERIUM_logo.png) \
-
-#### Good Samaritan Benefactor
-
-![OWASP MSTG](images/Donators/Randorisec_logo.png) \
+![OWASP MSTG](images/Donators/donators.png) \
 
 #### Other Donators
 

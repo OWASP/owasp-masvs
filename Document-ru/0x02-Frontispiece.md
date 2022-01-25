@@ -49,12 +49,20 @@ Copyright © 2021 The OWASP Foundation. Данный документ выпущ
 
 Хотя MASVS и MSTG создаются и поддерживаются сообществом на добровольной основе, иногда требуется небольшая помощь извне. Поэтому мы благодарим наших спонсоров за предоставление средств для возможности нанять технических редакторов. Обратите внимание, что их спонсорство никоим образом не влияет на содержание MASVS или MSTG. Спонсорские пакеты описаны на [OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
-### Почетный благотворитель
+### God Mode
 
-[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/)
+![OWASP MSTG](images/Donators/NowSecure_logo.png) \
 
-### Добрый самаритянин
+[OWASP Bay Area Chapter](https://twitter.com/OWASPBayArea?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor "Twitter Bay Area")
 
-[![RandoriSec](images/Randorisec_logo.png)](https://www.randorisec.fr/)
+#### Honorable Benefactor
+
+![OWASP MSTG](images/Donators/SEC_Consult_logo.png) \
+
+![OWASP MSTG](images/Donators/ZIMPERIUM_logo.png) \
+
+#### Good Samaritan
+
+![OWASP MSTG](images/Donators/Randorisec_logo.png) \
 
 Далее, мы хотели бы поблагодарить главу OWASP Bay Area за их спонсорскую поддержку. Наконец, мы хотели бы поблагодарить всех, кто купил книгу у [Leanpub](https://leanpub.com/mobile-security-testing-guide) и спонсировал нас таким образом.
