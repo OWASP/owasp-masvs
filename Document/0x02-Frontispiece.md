@@ -49,6 +49,4 @@ While both the MASVS and the MSTG are created and maintained by the community on
 
 ![OWASP MSTG](images/Donators/donators.png) \
 
-#### Other Donators
-
 We would like to thank everybody that bought the book from [Leanpub](https://leanpub.com/mobile-security-testing-guide) and sponsored us that way.

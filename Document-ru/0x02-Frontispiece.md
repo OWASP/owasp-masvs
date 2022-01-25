@@ -50,3 +50,5 @@ Copyright © 2021 The OWASP Foundation. Данный документ выпущ
 Хотя MASVS и MSTG создаются и поддерживаются сообществом на добровольной основе, иногда требуется небольшая помощь извне. Поэтому мы благодарим наших спонсоров за предоставление средств для возможности нанять технических редакторов. Обратите внимание, что их спонсорство никоим образом не влияет на содержание MASVS или MSTG. Спонсорские пакеты описаны на [OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
 ![OWASP MSTG](../Document/images/Donators/donators.png) \
+
+Наконец, мы хотели бы поблагодарить всех, кто купил книгу у [Leanpub](https://leanpub.com/mobile-security-testing-guide) и спонсировал нас таким образом.

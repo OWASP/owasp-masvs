@@ -52,4 +52,6 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 
 ![OWASP MSTG](../Document/images/Donators/donators.png) \
 
+مایلیم از تمام کسانی که کتاب را از [Leanpub](https://leanpub.com/mobile-security-testing-guide) خریداری کرده و ما را حمایت کردند تشکر و قدردانی نماییم.
+
 </div>
