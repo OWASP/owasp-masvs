@@ -1,19 +1,20 @@
-<img width="25%" align="right" style="float: right;" src="Document/images/masvs-mini-cover.png">
+<img width="180px" align="right" style="float: right;" src="Document/images/masvs-mini-cover.png">
 
-# OWASP Mobile Application Security Verification Standard [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_MSTG.svg?style=social&label=Follow)](https://twitter.com/OWASP_MSTG) [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/OWASP/owasp-masvs)
+# OWASP Mobile Application Security Verification Standard (MASVS)
 
-[![Creative Commons License](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
+[![Creative Commons License](https://img.shields.io/github/license/OWASP/owasp-masvs)](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
+
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/)
+
 [![Document Build](https://github.com/OWASP/owasp-masvs/workflows/Document%20Build/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22CI+Build%22)
 [![Check Markdown Markup](https://github.com/OWASP/owasp-masvs/workflows/Check%20Markdown%20Markup/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+markup%22)
 [![Check Markdown Links](https://github.com/OWASP/owasp-masvs/workflows/Check%20Markdown%20Links/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+Links%22)
 
-This is the official Github Repository of the OWASP Mobile Application Security Verification Standard (MASVS). The MASVS establishes baseline security requirements for mobile apps that are useful in many scenarios, including:
+This is the official Github Repository of the OWASP Mobile Application Security Verification Standard (MASVS). The MASVS establishes baseline security requirements for mobile apps that are useful in many scenarios. You can use it:
 
-- In the SDLC - to establish security requirements to be followed by solution architects and developers;
-- In mobile app penetration tests - to ensure completeness and consistency in mobile app penetration tests;
-- In procurement - as a measuring stick for mobile app security, e.g. in form of questionnaire for vendors;
-- Et cetera.
+- As a metric - To provide a security standard against which existing mobile apps can be compared by developers and application owners.
+- As guidance - To provide guidance during all phases of mobile app development and testing.
+- During procurement - To provide a baseline for mobile app security verification.
 
 The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg "OWASP Mobile Security Testing Guide").
 
@@ -21,19 +22,20 @@ The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https
 - ⬇️ [Download the latest PDF](https://github.com/OWASP/owasp-masvs/releases/latest)
 - ✅ [Get the latest Mobile App Security Checklists](https://github.com/OWASP/owasp-mstg/releases/latest)
 - ⚡ [Contribute!](#how-to-contribute)
+- 💥 [Play with Crackmes](https://github.com/OWASP/owasp-mstg/blob/master/Crackmes/README.md)
 
-The MSTG and the MASVS are being adopted by many companies, standards, and various organizations. Want to find out more? Check our [users' document listing some of the adopters](https://github.com/OWASP/owasp-mstg/Users.md).
+> The MSTG and the MASVS are being adopted by many companies, standards, and various organizations. Want to find out more? Check our [users' document listing some of the adopters](https://github.com/OWASP/owasp-mstg/Users.md).
 
 ## Connect with Us
 
 <br>
-<a href="https://github.com/OWASP/owasp-mstg/discussions"><img src="Document/Images/GitHub_logo.png" width="14px"> GitHub Discussions</a>
+<a href="https://github.com/OWASP/owasp-mstg/discussions"><img src="Document/images/GitHub_logo.png" width="14px"> GitHub Discussions</a>
 <br>
-<a href="https://owasp.slack.com/messages/project-mobile_omtg/details/"><img src="Document/Images/slack_logo.png" width="14px">  #project-mobile_omtg</a> (<a href="https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#//">Get Invitation</a>)
+<a href="https://owasp.slack.com/messages/project-mobile_omtg/details/"><img src="Document/images/slack_logo.png" width="14px">  #project-mobile_omtg</a> (<a href="https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#//">Get Invitation</a>)
 <br>
-<a href="https://twitter.com/OWASP_MSTG"><img src="Document/Images/twitter_logo.png" width="14px"> @OWASP_MSTG </a> (Official Account)
+<a href="https://twitter.com/OWASP_MSTG"><img src="Document/images/twitter_logo.png" width="14px"> @OWASP_MSTG </a> (Official Account)
 <br>
-<a href="https://twitter.com/bsd_daemon"><img src="Document/Images/twitter_logo.png" width="14px"> @bsd_daemon </a> (Sven Schleier, Project Lead) <a href="https://twitter.com/grepharder"><img src="Document/Images/twitter_logo.png" width="14px"> @grepharder </a> (Carlos Holguera, Project Lead)
+<a href="https://twitter.com/bsd_daemon"><img src="Document/images/twitter_logo.png" width="14px"> @bsd_daemon </a> (Sven Schleier, Project Lead) <a href="https://twitter.com/grepharder"><img src="Document/images/twitter_logo.png" width="14px"> @grepharder </a> (Carlos Holguera, Project Lead)
 <br>
 <br>
 
