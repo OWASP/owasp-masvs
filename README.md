@@ -22,7 +22,7 @@ The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https
 - ⬇️ [Download the latest PDF](https://github.com/OWASP/owasp-masvs/releases/latest)
 - ✅ [Get the latest Mobile App Security Checklists](https://github.com/OWASP/owasp-mstg/releases/latest)
 - ⚡ [Contribute!](#how-to-contribute)
-- 💥 [Play with Crackmes](https://github.com/OWASP/owasp-mstg/blob/master/Crackmes/README.md)
+- 💥 [Play with our Crackmes](https://github.com/OWASP/owasp-mstg/blob/master/Crackmes/README.md)
 
 > The MSTG and the MASVS are being adopted by many companies, standards, and various organizations. Want to find out more? Check our [users' document listing some of the adopters](https://github.com/OWASP/owasp-mstg/Users.md).
 
@@ -78,7 +78,7 @@ Coming soon:
 
 ## Other Formats
 
-See the [latest release](https://github.com/OWASP/owasp-masvs/releases/latest). Else you can export it yoursef in [other formats](tools/README.md#other-formats).
+See the [latest release](https://github.com/OWASP/owasp-masvs/releases/latest). Else you can export it yourself in [other formats](tools/README.md#other-formats).
 
 ## Table-of-Contents
 
