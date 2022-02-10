@@ -17,11 +17,11 @@ This is the official Github Repository of the OWASP Mobile Application Security 
 
 The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg "OWASP Mobile Security Testing Guide").
 
-- 📖 [Read it on Gitbook](https://mobile-security.gitbook.io/masvs/) (English Version, see more languages [here](#masvs-translations))
-- ⬇️ [Download the latest PDF](https://github.com/OWASP/owasp-masvs/releases/latest)
-- ✅ [Get the latest Mobile App Security Checklists](https://github.com/OWASP/owasp-mstg/releases/latest)
-- ⚡ [Contribute!](#how-to-contribute)
-- 💥 [Play with our Crackmes](https://github.com/OWASP/owasp-mstg/blob/master/Crackmes/README.md)
+📖 [Read it on Gitbook](https://mobile-security.gitbook.io/masvs/) (English Version, see more languages [here](#masvs-translations))<br>
+⬇️ [Download the latest PDF](https://github.com/OWASP/owasp-masvs/releases/latest)<br>
+✅ [Get the latest Mobile App Security Checklists](https://github.com/OWASP/owasp-mstg/releases/latest)<br>
+⚡ [Contribute!](#how-to-contribute)<br>
+💥 [Play with our Crackmes](https://github.com/OWASP/owasp-mstg/blob/master/Crackmes/README.md)<br>
 
 > The MSTG and the MASVS are being adopted by many companies, standards, and various organizations. Want to find out more? Check our [users' document listing some of the adopters](https://github.com/OWASP/owasp-mstg/Users.md).
 
