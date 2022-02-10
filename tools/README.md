@@ -66,3 +66,46 @@ When you want to add another language:
 7. Update `.github/workflows/docgenerator.yml` and add the action steps for the new language.
 8. Update `../LANGS.md` to include the new language.
 9. Extend the `../README.md` with the newly available language.
+
+
+## Other Formats
+
+### Create new PDF, EPUB and Word document
+
+> These steps were tested on macOS, Kali and Ubuntu 18
+
+You can find the documents on the [release page](https://github.com/OWASP/owasp-masvs/releases). If you want to generate the documents yourself, execute the following steps:
+
+- The document creation uses a Docker container, so make sure that you have [Docker installed](https://www.docker.com/products/docker-desktop).
+
+- Clone the MASVS repository:
+
+```shell
+$ git clone https://github.com/OWASP/owasp-masvs/
+$ cd owasp-masvs/
+```
+
+- Run the document generation script for the chosen language with latin-fonts:
+
+```shell
+$ ./tools/docker/pandoc_makedocs.sh Document-de LATEST
+```
+
+- "Document-de" specifies the folder of the language that is used to generate the documents. Simply replace it with the language you want to use.
+- "LATEST" is the string that will be printed on the cover.
+
+- For languages that require non-latin fonts (Chinese, Farsi, Hindi, Japanese, Korean, Russian etc.) the `stable-full` version of Pandocker is required. You can activate it with the `TAG` environment variable, like this:
+
+```shell
+$ TAG=stable-full ./tools/docker/pandoc_makedocs.sh Document-hi LATEST
+```
+
+This produces PDF, EPUB and DOCX files in the root of the project.
+
+### Exporting to JSON, XML and CSV
+
+The repository contains a Python tool for converting the requirements into various formats. Clone the repo and run `export.py` from the tools folder.
+
+```shell
+export.py [-h] [--format {json,xml,csv}] [--lang {es/ru/en/fr/de/zhtw/ja}]
+```
