@@ -36,15 +36,20 @@ The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https
 
 ## How to Contribute
 
-The MASVS is an open source effort and we welcome contributions and feedback. If you want to contribute with additional content, or improve existing content, we suggest that you [first contact us](#connect-with-us).
+The MASVS is an open source effort and we welcome all kinds of contributions and feedback.
+
+**Help us improve & join our community:**
 
 - 🐞 [Report an error (typos, grammar)](https://github.com/OWASP/owasp-masvs/issues) or [fix it on a Pull Request](https://github.com/OWASP/owasp-masvs/pulls).
-- 💡 [Propose ideas or suggest improvements](https://github.com/OWASP/owasp-masvs/discussions/categories/ideas) (if it qualifies we'll promote it to an [Issue](https://github.com/OWASP/owasp-masvs/issues "Github issues"))
 - 💬 [Give feedback](https://github.com/OWASP/owasp-masvs/discussions/categories/general).
 - 🙏 [Ask questions](https://github.com/OWASP/owasp-masvs/discussions/categories/q-a)
-- 📄 [Create a Pull Request](https://github.com/OWASP/owasp-masvs/pulls) for concrete fixes (e.g. grammar/typos) or content already approved by the [core team](#connect-with-us).
 
-Before you start contributing, please check our [contribution guide](https://github.com/OWASP/owasp-masvs/blob/master/CONTRIBUTING.md "Contribution Guide") which should get you started.
+**Contribute with content:**
+
+- 💡 [Propose ideas or suggest improvements](https://github.com/OWASP/owasp-masvs/discussions/categories/ideas) (if it qualifies we'll promote it to an [Issue](https://github.com/OWASP/owasp-masvs/issues "Github issues"))
+- 📄 [Create a Pull Request](https://github.com/OWASP/owasp-masvs/pulls) for concrete fixes (e.g. grammar/typos) or content already approved by the core team.
+
+Before you start contributing, please check our [contribution guide](https://github.com/OWASP/owasp-masvs/blob/master/CONTRIBUTING.md "Contribution Guide") which should get you started. If you have any doubts [please contact us](#connect-with-us).
 
 ## MASVS Translations
 
