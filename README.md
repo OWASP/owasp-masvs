@@ -1,4 +1,4 @@
-<a href="https://github.com/OWASP/owasp-masvs/discussions/categories/big-masvs-refactoring"><img width="180px" align="right" style="float: right;" src="Document/images/masvs_progress.png"></a>
+<a href="https://github.com/OWASP/owasp-masvs/discussions/categories/big-masvs-refactoring"><img width="180px" align="right" style="float: right;" src="Document/images/masvs-progress.png"></a>
 
 # OWASP Mobile Application Security Verification Standard (MASVS)
 
