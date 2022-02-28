@@ -1,6 +1,32 @@
 # Getting Started
 
-First of all **Create a GitHub account** (a free one is enough) by following [these steps](https://help.github.com/en/articles/signing-up-for-a-new-github-account "Signing up for a new GitHub account").
+First of all **Create a GitHub account** (a free one is enough) by following [these steps](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
+
+Our workflow is like this:
+
+1. **Open a [Discussion](https://docs.github.com/en/discussions)** (for questions or ideas, to ask or propose something)
+We or someone will answer or, if it the proposal qualifies for the MSTG/MASVS we'll convert it into an "Issue" (the discussion might take a while).
+
+- MASVS Example: "Add a MASVS-CRYPTO requirement on Key rotation"
+-MSTG Example: "Add a Test case for key rotation"
+
+2. **Open an Issue** (for concrete actionable things that have to / could be done)
+For instance, there's a typo, or it's clear that a certain Test case doesn't have e.g. "Dynamic Analysis" and it should be added.
+3. **Open a PR** (to add actual content)
+This could be the fix for the mentioned typo, a whole new section or some other content. Usually a PR has a "closes" sentence in its description. For example "Closes #543" so that we (and GitHub) know which Issue(s) is being addressed on that PR.
+
+Normally, contributors should follow the whole flow. But sometimes it's clear what's needed so we directly go to 2 (open an issue) or even to 3 (open a PR). **We recommend starting with a discussion or directly [contacting us](https://github.com/OWASP/owasp-mstg#connect-with-us)** to save you the hurdle of writing and submitting new content that does not qualify so we have to reject it after the work is done.
+
+If you just have an **specific question** you can post it to (you need a [GitHub Account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)):
+
+- https://github.com/OWASP/owasp-masvs/discussions/categories/q-a
+- https://github.com/OWASP/owasp-mstg/discussions/categories/q-a
+
+"GitHub Discussions" are re-posted to [our Slack channel](https://owasp.slack.com/messages/project-mobile_omtg/details/).
+
+Once you get your answer please [mark it as answered](https://docs.github.com/en/discussions/collaborating-with-your-community-using-discussions/participating-in-a-discussion#marking-a-comment-as-an-answer). When you mark a question as an answer, GitHub will highlight the comment and replies to the comment to help visitors quickly find the answer.
+
+![Answer](https://docs.github.com/assets/cb-62285/images/help/discussions/comment-marked-as-answer.png)
 
 ## Contribute Online
 
