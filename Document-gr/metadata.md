@@ -19,7 +19,7 @@ toc-depth: 2
 linkcolor: blue
 
 # Language variables
-lang: 'en'
+lang: 'gr'
 
 # Latex variables
 
