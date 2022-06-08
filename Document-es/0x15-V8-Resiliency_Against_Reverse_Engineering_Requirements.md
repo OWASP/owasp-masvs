@@ -6,17 +6,17 @@ En esta sección se cubren las protecciones recomendadas para aplicaciones que m
 
 Los controles de esta sección deben aplicarse según sea necesario, basándose en una evaluación de los riesgos causados por la manipulación no autorizada de la aplicación y/o la ingeniería inversa del código. Sugerimos consultar el documento de OWASP "Ingeniería Inversa - Amenazas de la Ingeniería Inversa de OWASP" (vea las referencias a continuación) para obtener una lista de los riesgos del negocio, así como las amenazas técnicas asociadas.
 
-Para que los controles de la lista siguiente sea eficaz, la aplicación debe cumplir todos los requerimientos del nivel MASVS-L1 (es decir, deben existir sólidos controles de seguridad), así como todos los requerimientos anteriores en V8. Por ejemplo, los controles de ofuscación listados en la sección "Impedir la comprensión" (8.11 y 8.12) deben combinarse con el "Impedir el análisis dinámico y la manipulación" (8.1 - 8.9) y "Asociación del dispositivo" (8.10).
+Para que los controles de la lista siguiente sean eficaces, la aplicación debe cumplir todos los requerimientos del nivel MASVS-L1 (es decir, deben existir sólidos controles de seguridad), así como todos los requerimientos anteriores en V8. Por ejemplo, los controles de ofuscación listados en la sección "Impedir la comprensión" (8.11 y 8.12) deben combinarse con el "Impedir el análisis dinámico y la manipulación" (8.1 - 8.9) y "Asociación del dispositivo" (8.10).
 
 **Tenga en cuenta que los controles de software nunca deben utilizarse como reemplazo de los controles de seguridad. Los controles listados en MASVR-R buscan añadir controles de protección adicionales y específicos contra las amenazas a las aplicaciones que también cumplen con los requerimientos de seguridad del MASVS.**
 
 Se aplican las siguientes consideraciones:
 
-1. Debe definirse un modelo de amenaza que defienda claramente las amenazas del lado del cliente. Además, debe especificarse el grado de protección que debe proporcionar el sistema. Por ejemplo, un objetivo podría ser obligar a los autores de malware dirigido que quieren usar la aplicación a que tengan que invertir importantes esfuerzos para realizar la ingeniería inversa.
+1. Debe definirse un modelo de amenaza que defienda claramente las amenazas del lado del cliente. Además, debe especificarse el grado de protección que debe proporcionar el sistema. Por ejemplo, un objetivo podría ser obligar a los autores que dirigen malware para obtener información de la aplicación, a que tengan que invertir importantes esfuerzos para realizar la ingeniería inversa.
 
 2. El modelo de amenaza debe ser sensato. Por ejemplo, ocultar una clave criptográfica en una implementación de caja blanca es un problema si el atacante puede simplemente utilizar la aplicación como un todo.
 
-3. La eficiencia de la protección siempre debe ser verificada por un experto con experiencia en el testeo de tipos particulares de anti-manipulación y ofuscación utilizados (ver también los capítulos "Ingeniería inversa" y "Evaluación de protecciones del software" en la Guía de Pruebas de Seguridad Móvil).
+3. La eficacia de la protección siempre debe ser verificada por un experto con experiencia en el testeo y uso de tipos específicos de anti-manipulación y ofuscación (ver también los capítulos "Ingeniería inversa" y "Evaluación de protecciones del software" en la Guía de Pruebas de Seguridad Móvil).
 
 <!-- \pagebreak -->
 
