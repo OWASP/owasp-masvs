@@ -2,11 +2,11 @@
 
 ## Objetivo de Control
 
-En esta sección se cubren protecciones recomendadas para aplicaciones que maneja o brindan acceso a información o funcionalidades sensibles. La falta de estos controles no generan vulnerabilidades - sino que, están pensados para incrementar la resistencia contra la ingeniería inversa de la aplicación, dificultándole al adversario el acceso a los datos o el entendimiento del modo de ejecución de la aplicación.
+En esta sección se cubren las protecciones recomendadas para aplicaciones que manejan o brindan acceso a información o funcionalidades sensibles. La falta de estos controles no generan vulnerabilidades sino que, están pensados para incrementar la resistencia contra la ingeniería inversa de la aplicación, dificultando al adversario el acceso a los datos o el entendimiento del modo de ejecución de la aplicación.
 
- Los controles de esta sección deben aplicarse según sea necesario, basándose en una evaluación de los riesgos causados por la manipulación no autorizada de la aplicación y/o la ingeniería inversa del código. Sugerimos consultar el documento de OWASP "Ingeniería Inversa - Amenazas de la Ingeniería Inversa de OWASP" (vea las referencias a continuación) para obtener una lista de los riesgos del negocio, así como las amenazas técnicas asociadas.
+Los controles de esta sección deben aplicarse según sea necesario, basándose en una evaluación de los riesgos causados por la manipulación no autorizada de la aplicación y/o la ingeniería inversa del código. Sugerimos consultar el documento de OWASP "Ingeniería Inversa - Amenazas de la Ingeniería Inversa de OWASP" (vea las referencias a continuación) para obtener una lista de los riesgos del negocio, así como las amenazas técnicas asociadas.
 
-Para que cualquiera de los controles de la lista siguiente sea eficaz, la aplicación debe cumplir al menos todos los requerimientos del nivel MASVS-L1 (es decir, deben existir sólidos controles de seguridad), así como todos los requerimientos de números más bajos en V8. Por ejemplo, los controles de ofuscación listados en la sección "impedir la comprensión" deben combinarse con el "impedir el análisis dinámico y la manipulación" y la "atadura al dispositivo".
+Para que los controles de la lista siguiente sea eficaz, la aplicación debe cumplir todos los requerimientos del nivel MASVS-L1 (es decir, deben existir sólidos controles de seguridad), así como todos los requerimientos anteriores en V8. Por ejemplo, los controles de ofuscación listados en la sección "Impedir la comprensión" (8.11 y 8.12) deben combinarse con el "Impedir el análisis dinámico y la manipulación" (8.1 - 8.9) y "Asociación del dispositivo" (8.10).
 
 **Tenga en cuenta que los controles de software nunca deben utilizarse como reemplazo de los controles de seguridad. Los controles listados en MASVR-R buscan añadir controles de protección adicionales y específicos contra las amenazas a las aplicaciones que también cumplen con los requerimientos de seguridad del MASVS.**
 
@@ -16,7 +16,7 @@ Se aplican las siguientes consideraciones:
 
 2. El modelo de amenaza debe ser sensato. Por ejemplo, ocultar una clave criptográfica en una implementación de caja blanca es un problema si el atacante puede simplemente utilizar la aplicación como un todo.
 
-3. La eficiencia de la protección siempre debe ser verificada por un experto con experiencia en el testeo de tipos particulares de anti-manipulación y ofuscación utilizados (ver también los capítulos "ingeniería inversa" y "evaluación de protecciones del software" en la Guía de Pruebas de Seguridad Móvil).
+3. La eficiencia de la protección siempre debe ser verificada por un experto con experiencia en el testeo de tipos particulares de anti-manipulación y ofuscación utilizados (ver también los capítulos "Ingeniería inversa" y "Evaluación de protecciones del software" en la Guía de Pruebas de Seguridad Móvil).
 
 <!-- \pagebreak -->
 
@@ -27,7 +27,7 @@ Se aplican las siguientes consideraciones:
 | **8.1** | MSTG-RESILIENCE-1 | La aplicación detecta y responde a la presencia de un dispositivo rooteado, ya sea alertando al usuario o finalizando la ejecución de la aplicación. | x |
 | **8.2** | MSTG-RESILIENCE-2 | La aplicación impide la depuración o detecta y responde a la misma. Se deben cubrir todos los protocolos de depuración. | x |
 | **8.3** | MSTG-RESILIENCE-3 | La aplicación detecta y responde a cualquier modificación de ejecutables y datos críticos de la propia aplicación. | x |
-| **8.4** | MSTG-RESILIENCE-4 | La aplicación detecta la presencia de herramientas de ingeniería inversa o frameworks comunmente utilizados. | x |
+| **8.4** | MSTG-RESILIENCE-4 | La aplicación detecta la presencia de herramientas de ingeniería inversa o frameworks comúnmente utilizados. | x |
 | **8.5** | MSTG-RESILIENCE-5 | La aplicación detecta y responde a ser ejecutada en un emulador.  | x |
 | **8.6** | MSTG-RESILIENCE-6 | La aplicación detecta y responde ante modificaciones de código o datos en su propio espacio de memoria. | x |
 | **8.7** | MSTG-RESILIENCE-7 | La aplicación implementa múltiples mecanismos de detección para los puntos del 8.1 al 8.6. Nótese que, a mayor cantidad y diversidad de mecanismos usados, mayor será la resistencia. | x |
