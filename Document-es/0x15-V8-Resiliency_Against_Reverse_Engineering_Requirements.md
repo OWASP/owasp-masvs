@@ -2,7 +2,7 @@
 
 ## Objetivo de Control
 
-En esta sección se cubren las protecciones recomendadas para aplicaciones que manejan o brindan acceso a información o funcionalidades sensibles. La falta de estos controles no generan vulnerabilidades sino que, están pensados para incrementar la resistencia contra la ingeniería inversa de la aplicación, dificultando al adversario el acceso a los datos o el entendimiento del modo de ejecución de la aplicación.
+En esta sección se cubren las protecciones recomendadas para aplicaciones que manejan o dan acceso a información o funcionalidades sensibles. La falta de estos controles no implica necesariamente que la aplicación contenga vulnerabilidades. Estos controles están pensados para incrementar la resistencia contra la ingeniería inversa, dificultando al adversario el acceso a los datos o el entendimiento del funcionamiento interno de la aplicación.
 
 Los controles de esta sección deben aplicarse según sea necesario, basándose en una evaluación de los riesgos causados por la manipulación no autorizada de la aplicación y/o la ingeniería inversa del código. Sugerimos consultar el documento de OWASP "Ingeniería Inversa - Amenazas de la Ingeniería Inversa de OWASP" (vea las referencias a continuación) para obtener una lista de los riesgos del negocio, así como las amenazas técnicas asociadas.
 
