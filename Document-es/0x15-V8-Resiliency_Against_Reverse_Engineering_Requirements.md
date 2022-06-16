@@ -10,7 +10,7 @@ Los controles de esta sección deben aplicarse según sea necesario, basándose 
 
 Se aplican las siguientes consideraciones:
 
-1. Debe definirse un modelo de amenaza que defienda claramente las amenazas del lado del cliente. Además, debe especificarse el grado de protección que debe proporcionar el sistema. Por ejemplo, un objetivo podría ser forzar a los autores de malware pensado para obtener información de la aplicación, a que tengan que invertir importantes esfuerzos para realizar la ingeniería inversa.
+1. Debe definirse un modelo de amenaza que defiende claramente las amenazas del lado del cliente. Además, debe especificarse el grado de protección que debe proporcionar el sistema. Por ejemplo, un objetivo podría ser forzar a los autores de malware pensado para obtener información de la aplicación, a que tengan que invertir importantes esfuerzos para realizar la ingeniería inversa.
 
 2. El modelo de amenaza debe ser sensato. Por ejemplo, ocultar una clave criptográfica en una implementación de caja blanca es un problema si el atacante puede simplemente utilizar la aplicación como un todo.
 
@@ -36,7 +36,7 @@ Se aplican las siguientes consideraciones:
 
 | # | MSTG-ID | Descripción | R |
 | -- | ----------- | ---------------------- | - |
-| **8.10** | MSTG-RESILIENCE-10 | La aplicación implementa un “enlace al dispositivo” utilizando una huella del dispositivo derivado de varias propiedades únicas al mismo. | x |
+| **8.10** | MSTG-RESILIENCE-10 | La aplicación implementa un “enlace al dispositivo” utilizando una huella del dispositivo derivada de varias propiedades únicas al mismo. | x |
 
 <!-- \pagebreak -->
 
