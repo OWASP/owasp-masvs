@@ -5,7 +5,7 @@ on: [push, workflow_dispatch]
 jobs:
 
 ##
-## Use `pandocker-tag: TAG=stable-full` for langs that require the special fonts (Russian, Chinese, etc.)
+## Use `pandocker-tag: TAG=21.02-full` for langs that require the special fonts (Russian, Chinese, etc.)
 ##
 
   en:
@@ -56,7 +56,7 @@ jobs:
       folder: Document-hi
       language: Hindi
       lang: hi
-      pandocker-tag: TAG=stable-full
+      pandocker-tag: TAG=21.02-full
 
   ja:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
@@ -64,7 +64,7 @@ jobs:
       folder: Document-ja
       language: Japanese
       lang: ja
-      pandocker-tag: TAG=stable-full
+      pandocker-tag: TAG=21.02-full
 
   ko:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
@@ -72,7 +72,7 @@ jobs:
       folder: Document-ko
       language: Korean
       lang: ko
-      pandocker-tag: TAG=stable-full
+      pandocker-tag: TAG=21.02-full
 
   ru:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
@@ -80,7 +80,7 @@ jobs:
       folder: Document-ru
       language: Russian
       lang: ru
-      pandocker-tag: TAG=stable-full
+      pandocker-tag: TAG=21.02-full
 
   fa:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
@@ -88,7 +88,7 @@ jobs:
       folder: Document-fa
       language: Persian
       lang: fa
-      pandocker-tag: TAG=stable-full
+      pandocker-tag: TAG=21.02-full
       pandocker-template: LATEX_TEMPLATE=default # there's a bug for fa in the eisvogel template, we have to use default
 
   zhcn:
@@ -97,7 +97,7 @@ jobs:
       folder: Document-zhcn
       language: Simplified Chinese
       lang: zhcn
-      pandocker-tag: TAG=stable-full
+      pandocker-tag: TAG=21.02-full
 
   zhtw:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
@@ -105,7 +105,7 @@ jobs:
       folder: Document-zhtw
       language: Traditional Chinese
       lang: zhtw
-      pandocker-tag: TAG=stable-full
+      pandocker-tag: TAG=21.02-full
 
   export:
     runs-on: ubuntu-latest
