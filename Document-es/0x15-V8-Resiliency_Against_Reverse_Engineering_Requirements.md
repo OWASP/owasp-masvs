@@ -12,7 +12,7 @@ Para que cualquiera de los controles de la lista siguiente sea eficaz, la aplica
 
 Se aplican las siguientes consideraciones:
 
-1. Debe definirse un modelo de amenaza que defiende claramente las amenazas del lado del cliente. Además, debe especificarse el grado de protección que debe proporcionar el sistema. Por ejemplo, un objetivo podría ser forzar a los autores de malware pensado para obtener información de la aplicación, a que tengan que invertir importantes esfuerzos para realizar la ingeniería inversa.
+1. Debe definirse un modelo de amenaza que defienda claramente las amenazas del lado del cliente. Además, debe especificarse el grado de protección que debe proporcionar el sistema. Por ejemplo, un objetivo podría ser forzar a los autores de malware pensado para obtener información de la aplicación, a que tengan que invertir importantes esfuerzos para realizar la ingeniería inversa.
 
 2. El modelo de amenaza debe ser sensato. Por ejemplo, ocultar una clave criptográfica en una implementación de caja blanca es un problema si el atacante puede simplemente utilizar la aplicación como un todo.
 
