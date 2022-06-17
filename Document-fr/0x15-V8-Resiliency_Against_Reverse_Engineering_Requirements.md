@@ -6,6 +6,8 @@ Cette section couvre des mesures de défense en profondeur recommandées dans le
 
 Les contrôles de cette section devraient être mis en oeuvre autant qu'il est nécessaire, c'est-à-dire tel que requis par une évaluation des risques dûs à une modification non-autorisée de l'application et /ou une rétro-ingénierie du code. Nous ne pouvons que suggérer la consultation du document de l'OWASP "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" ("Risques Techniques Liés à la Rétro-Ingénierie et Modification de Code Non-Autorisée Rétro-Ingénierie et Prévention de Modification de Code", voir les références ci-dessous) pour une liste des risques liés aux affaires et des menaces techniques associées.
 
+Pour que les contrôles de la liste ci-dessous soient effectifs, l'application doit implémenter au moins toutes les exigences de niveau MASVS-L1 (c'est-à-dire que des contrôles de sécurité robustes doivent être en place) ainsi que toutes les exigences de la partie V8. Par exemple, les contrôles concernant l'obscurcissement listés dans la partie "Entraver la Compréhension" doivent être combinés avec "Isolation de l'Application", "Entraver l'Analyse Dynamique et la Modification" et "Liaison avec un Appareil".
+
 **Il convient de noter que les mécanismes de protection logiciels ne doivent jamais être utilisés en tant que substituts aux contrôles de sécurité. Les contrôles listés dans le MASVR-R ont pour intention de rajouter aux applications des mécanismes de protection supplémentaires, spécifiques à une menace donnée, qui sont compatibles avec les exigences de sécurité du MASVS.**
 
 Il convient de prendre en compte les considérations suivantes :

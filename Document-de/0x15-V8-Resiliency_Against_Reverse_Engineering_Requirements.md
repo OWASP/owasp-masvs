@@ -6,6 +6,8 @@ Diese Kategorie behandelt Defense-in-Depth-Maßnahmen empfohlen für Apps, die Z
 
 Die Schutzmechanismen in diesem Abschnitt sollten nach Bedarf angewendet werden. Anhand einer Risikoprüfung sollten Risiken wie unerlaubte Manipulation der App oder Reverse Engineering des Codes bewertet werden. Es wird empfohlen das OWASP Dokument "Technical Risks of Reverse Engineering and Unauthorized Code Modification Reverse Engineering and Code Modification Prevention" (siehe Referenzen) zu nutzen um eine Liste mit Geschäftsrisiken und zugeordneten technischen Bedrohungen zu identifizieren.
 
+Um die hier aufgeführten Schutzmechanismen effektiv umsetzen zu können muss eine App mindestens alle Anforderungen aus MASVS-L1 sowie die jeweiligen Anforderungen aus Kategorie V8 in aufsteigender Reihenfolge umsetzen. So setzen die Schutzmaßnahmen unter "Nachvollziehbarkeit verhindern" voraus, dass auch die Anforderungen aus "Dynamische Analyse und Manipulation verhindern" und "Gerätebindung" umgesetzt werden.
+
 **Achtung: Diese Software-Schutzmaßnahmen sind kein Ersatz für die Umsetzung adäquater Sicherheitsmaßnahmen. Die Maßnahmen aus MASVR-R sind gedacht, um auf Basis App-spezifischer konkreter Bedrohungen zusätzliche Schutzmaßnahmen über die bereits umgesetzten Sicherheitsmaßnahmen aus MASVS hinaus umzusetzen.**
 
 Folgende Eckpunkte gelten:
