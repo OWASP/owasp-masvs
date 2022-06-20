@@ -23,7 +23,6 @@ The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https
 - ⚡ [Contribute!](#how-to-contribute)
 - 💥 [Play with our Crackmes](https://github.com/OWASP/owasp-mstg/blob/master/Crackmes/README.md)
 
-
 ## Trusted by ...
 
 The OWASP MASVS and MSTG are trusted by the following platform providers and standardization, governmental and educational institutions. [Learn more](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x02b-MASVS-MSTG-Adoption.md).
