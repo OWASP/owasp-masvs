@@ -11,4 +11,4 @@ También los siguientes sitios web serán probablemente de utilidad para los usu
 
 - Enumeración de debilidades comunes de MITRE - [http://cwe.mitre.org/](http://cwe.mitre.org/)
 - Consejo de Normas de Seguridad PCI - [https://www.pcisecuritystandards.org](https://www.pcisecuritystandards.org)
-- Estándar de seguridad de datos PCI (DSS) v3.0 Requerimientos y procedimientos de evaluación de la seguridad [https://www.pcisecuritystandards.org/documents/PCI\_DSS\_v3.pdf](https://www.pcisecuritystandards.org/documents/PCI_DSS_v3.pdf)
+- Estándar de seguridad de datos PCI (DSS) v3.0 Requisitos y procedimientos de evaluación de la seguridad [https://www.pcisecuritystandards.org/documents/PCI\_DSS\_v3.pdf](https://www.pcisecuritystandards.org/documents/PCI_DSS_v3.pdf)

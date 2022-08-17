@@ -1,14 +1,14 @@
-# V8: Requerimientos de Resistencia ante la Ingeniería Inversa
+# V8: Requisitos de Resistencia ante la Ingeniería Inversa
 
-## Objetivo de Control
+## Objetivo de la Categoría V8
 
 En esta sección se cubren las protecciones recomendadas para aplicaciones que manejan o dan acceso a información o funcionalidades sensibles. La falta de estos controles no implica necesariamente que la aplicación contenga vulnerabilidades. Estos controles están pensados para incrementar la resistencia contra la ingeniería inversa, dificultando al adversario el acceso a los datos o el entendimiento del funcionamiento interno de la aplicación.
 
-Los controles de esta sección deben aplicarse según sea necesario, basándose en una evaluación de los riesgos causados por la manipulación no autorizada de la aplicación y/o la ingeniería inversa del código. Sugerimos consultar el documento de OWASP ["Riesgos técnicos de la Ingeniería Inversa y Modificaciones de Código no Autorizadas"](https://wiki.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification) para obtener una lista de los riesgos de negocio, así como las amenazas técnicas asociadas.
+Los controles de esta sección deben aplicarse según sea necesario, basándose en una evaluación de los riesgos causados por la manipulación no autorizada de la aplicación y/o la ingeniería inversa del código. Sugerimos consultar el documento de OWASP ["Riesgos técnicos de la Ingeniería Inversa y Modificaciones de Código no Autorizadas"](https://wiki.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification) para obtener una lista de los riesgos de negocio, así como de las amenazas técnicas asociadas.
 
-Para que cualquiera de los controles de la lista siguiente sea eficaz, la aplicación debe cumplir al menos todos los requerimientos del nivel MASVS-L1 (es decir, deben existir sólidos controles de seguridad), así como todos los requerimientos de números más bajos en V8. Por ejemplo, los controles de ofuscación listados en la sección "impedir la comprensión" deben combinarse con el "impedir el análisis dinámico y la manipulación" y la "atadura al dispositivo".
+Para que cualquiera de los controles de la lista siguiente sea eficaz, la aplicación debe cumplir al menos todos los requisitos del nivel MASVS-L1 (es decir, deben existir sólidos controles de seguridad), así como todos los requisitos de números más bajos en la categoría V8. Por ejemplo, los controles de ofuscación listados en la sección "impedir la comprensión" deben combinarse con el "impedir el análisis dinámico y la manipulación" y la "atadura al dispositivo".
 
-**Tenga en cuenta que los controles de software nunca deben utilizarse como reemplazo de los controles de seguridad. Los controles listados en MASVR-R buscan añadir controles de protección adicionales y específicos contra las amenazas a las aplicaciones que también cumplen con los requerimientos de seguridad del MASVS.**
+**Tenga en cuenta que los controles de software nunca deben utilizarse como reemplazo de los controles de seguridad. Los controles listados en MASVR-R buscan añadir controles de protección adicionales y específicos contra las amenazas a las aplicaciones que también cumplen con los requisitos de seguridad del MASVS.**
 
 Se aplican las siguientes consideraciones:
 
