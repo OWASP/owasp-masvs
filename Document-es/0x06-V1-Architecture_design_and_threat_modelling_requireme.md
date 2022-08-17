@@ -1,14 +1,14 @@
 # V1: Requisitos de Arquitectura, Diseño y Modelado de Amenazas
 
-## Objetivo de Control
+## Objetivo de la Categoría V1
 
 En un mundo perfecto, la seguridad sería considerada en todas las fases del desarrollo. Sin embargo, en la realidad, la seguridad es a menudo sólo considerada en una etapa tardía del desarrollo del software. Además de los controles técnicos, el MASVS requiere que existan procesos que garanticen que la seguridad se ha abordado explícitamente al planificar la arquitectura de la aplicación móvil, y que se conocen los roles funcionales y de seguridad de todos los componentes. Dado que la mayoría de las aplicaciones móviles actúan como clientes de los servicios remotos, debe garantizarse que también se apliquen las medidas de seguridad adecuadas a dichos servicios, no basta con probar la aplicación móvil de forma aislada.
 
-La categoría V1 lista los requerimientos pertinentes a la arquitectura y al diseño de la aplicación. Debido a esto es la única categoría que no se corresponde con casos de test de la Guía de Pruebas Móviles de OWASP. Para cubrir temas tales como el modelado de amenazas, SDLC seguro, gestión de claves, los usuarios del MASVS deben consultar los respectivos proyectos de OWASP y/u otros estándares como los que se encuentran enlazados a debajo.
+La categoría V1 lista los requisitos pertinentes a la arquitectura y al diseño de la aplicación. Debido a esto es la única categoría que no se corresponde con casos de test de la Guía de Pruebas Móviles de OWASP. Para cubrir temas tales como el modelado de amenazas, SDLC seguro, gestión de claves, los usuarios del MASVS deben consultar los respectivos proyectos de OWASP y/u otros estándares como los que se encuentran enlazados debajo.
 
-## Requerimientos de Verificación de Seguridad
+## Requisitos de Verificación de Seguridad
 
-A continuación, se enumeran los requerimientos para MASVS-L1 y MASVS-L2.
+A continuación, se enumeran los requisitos para MASVS-L1 y MASVS-L2.
 
 | # | MSTG-ID | Descripción | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
