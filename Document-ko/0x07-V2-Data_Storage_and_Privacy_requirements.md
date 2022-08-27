@@ -38,7 +38,7 @@ MASVS의 민감한 데이터는 사용자 자격 증명과 특정 상황에서 �
 
 ## 참고
 
-OWASP 모바일 보안 테스트 안내서(MSTG)는 이 섹션에 나열된 요구사항을 확인하기 위한 자세한 지침을 제공합니다.
+OWASP 모바일 보안 테스트 안내서(MASTG)는 이 섹션에 나열된 요구사항을 확인하기 위한 자세한 지침을 제공합니다.
 
 - Android: 데이터 저장소 테스트 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
 - iOS: 데이터 저장소 테스트 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>

@@ -18,9 +18,9 @@ Uma organização certificadora deve incluir em qualquer relatório o escopo da 
 
 <!-- \pagebreak -->
 
-### Usando o Guia de Testes de Segurança Móvel (MSTG) da OWASP
+### Usando o Guia de Testes de Segurança Móvel (MASTG) da OWASP
 
-O OWASP MSTG é um manual para testar a segurança dos aplicativos móveis. Descreve os processos técnicos para verificar os requisitos listados no MASVS. O MSTG inclui uma lista de casos de teste, cada um dos quais mapeia para um requisito no MASVS. Embora os requisitos do MASVS sejam de alto nível e genéricos, o MSTG fornece recomendações e procedimentos de teste em profundidade por sistema operacional móvel.
+O OWASP MASTG é um manual para testar a segurança dos aplicativos móveis. Descreve os processos técnicos para verificar os requisitos listados no MASVS. O MASTG inclui uma lista de casos de teste, cada um dos quais mapeia para um requisito no MASVS. Embora os requisitos do MASVS sejam de alto nível e genéricos, o MASTG fornece recomendações e procedimentos de teste em profundidade por sistema operacional móvel.
 
 ### O papel das Ferramentas Automatizadas de Teste de Segurança
 
@@ -38,7 +38,7 @@ Muitas organizações podem se beneficiar da adoção do MASVS, escolhendo um do
 
 ### Como Base para Metodologias de Testes de Segurança
 
-Uma boa metodologia de teste de segurança de aplicativos móveis deve cobrir todos os requisitos listados no MASVS. O Guia de Teste de Segurança Móvel OWASP (MSTG) descreve os casos de teste de caixa preta e caixa branca para cada requisito de verificação.
+Uma boa metodologia de teste de segurança de aplicativos móveis deve cobrir todos os requisitos listados no MASVS. O Guia de Teste de Segurança Móvel OWASP (MASTG) descreve os casos de teste de caixa preta e caixa branca para cada requisito de verificação.
 
 ### Como Guia para Testes Automatizados de Unidade e Integração
 

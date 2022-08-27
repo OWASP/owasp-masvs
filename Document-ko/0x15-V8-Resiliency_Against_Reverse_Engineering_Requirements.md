@@ -16,7 +16,7 @@
 
 2. 위협 모델은 민감해야 합니다. 예를 들어, 공격자가 화이트박스 전체를 단순히 코드 리프팅 할 수 있다면 화이트박스 구현에서 암호화 키를 숨기는 것이 중요합니다.
 
-3. 보호의 효과는 사용된 특정 유형의 변조 방지 및 난독화를 테스트한 경험이 있는 전문가가 항상 검증해야 합니다.(모바일 보안 테스트 가이드(MSTG)의 "리버스 엔지니어링" 및 "소프트웨어 보호 평가" 부분을 참조하십시오.)
+3. 보호의 효과는 사용된 특정 유형의 변조 방지 및 난독화를 테스트한 경험이 있는 전문가가 항상 검증해야 합니다.(모바일 보안 테스트 가이드(MASTG)의 "리버스 엔지니어링" 및 "소프트웨어 보호 평가" 부분을 참조하십시오.)
 
 ### 동적 분석 및 변조 방지
 
@@ -53,7 +53,7 @@
 
 ## 참고
 
-OWASP 모바일 보안 테스트 안내서(MSTG)는 이 섹션에 나열된 요구사항을 확인하기 위한 자세한 지침을 제공합니다.
+OWASP 모바일 보안 테스트 안내서(MASTG)는 이 섹션에 나열된 요구사항을 확인하기 위한 자세한 지침을 제공합니다.
 
 - Android: 리버스 엔지니어링에 대한 복원력 테스트 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
 - iOS: 리버스 엔지니어링에 대한 복원력 테스트 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>

@@ -20,7 +20,7 @@ The goal of this control is to ensure that basic security coding practices are f
 
 ## References
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed above.
+The OWASP Mobile Application Security Testing Guide provides detailed instructions for verifying the requirements listed above.
 
 - Android: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
 - iOS: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>

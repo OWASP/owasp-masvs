@@ -38,7 +38,7 @@ La grande majorité des problèmes de divulgation de données peuvent être emp�
 
 ## Références
 
-Le Mobile Security Testing Guide de l'OWASP donne des instructions détaillées pour valider les exigences listées dans cette section.
+Le Mobile Application Security Testing Guide de l'OWASP donne des instructions détaillées pour valider les exigences listées dans cette section.
 
 - Pour Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
 - Pour iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
