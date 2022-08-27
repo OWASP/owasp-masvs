@@ -14,13 +14,13 @@ Cumprir os requisitos em MASVS-L1 resulta numa aplicação segura que segue as m
 
 **I: Ainda que a nossa recomendação seja implementar os controlos MASVS-L1 em todas as aplicações, aplicar um controlo efectivamente ou não deverá ser em último caso uma decisão baseada no risco, que é decidida/comunicada com os seus proprietários.**
 
-**II: De notar que os controlos de proteção de software listados em MASVS-R e descritos no OWASP Mobile Security Testing Guide podem em última instância ser contornados e nunca ser usados como substitutos para os controlos de segurança. Em vez disso, eles têm como propósito adicionarameças controlos de proteção a ameaças específicas em aplicações que também cumpram os requistos MASVS em MASVS-L1 e MASVS-L2.**
+**II: De notar que os controlos de proteção de software listados em MASVS-R e descritos no OWASP Mobile Application Security Testing Guide podem em última instância ser contornados e nunca ser usados como substitutos para os controlos de segurança. Em vez disso, eles têm como propósito adicionarameças controlos de proteção a ameaças específicas em aplicações que também cumpram os requistos MASVS em MASVS-L1 e MASVS-L2.**
 
 ![Níveis de Verificação](images/masvs-levels-new.jpg)
 
 ### Estrutura do Documento
 
-A primeira parte do MASVS contaem uma descrição do modelo de segurança e respectivos níveis de verificaçãos disponiveis, seguido de recomendações acerca da utilização do modelo na prática.  Os requisitos de segurança detalhados, bem como o mapeamento com os níveis de verificação, estão listados na segunda parte. Os requsitos foram agrupados em oito categorias (V1 ao V8) consoante os objectivos tecnicos e o âmbito. A seguinte numencatura é usada ao longo do MASVS e do MSTG:
+A primeira parte do MASVS contaem uma descrição do modelo de segurança e respectivos níveis de verificaçãos disponiveis, seguido de recomendações acerca da utilização do modelo na prática.  Os requisitos de segurança detalhados, bem como o mapeamento com os níveis de verificação, estão listados na segunda parte. Os requsitos foram agrupados em oito categorias (V1 ao V8) consoante os objectivos tecnicos e o âmbito. A seguinte numencatura é usada ao longo do MASVS e do MASTG:
 
 - *Categoria do requisito:* MASVS-Vx, ex MASVS-V2: Armazenamento de dados e privacidade
 - *Requisito:* MASVS-Vx.y, ex MASVS-V2.2: "Nenhuma informação sensível está a ser escrita nos logs."  

@@ -22,7 +22,7 @@ Le but des contrôles de ce groupe est de garantir que l'application utilise les
 
 ## Références
 
-Le Mobile Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.
+Le Mobile Application Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.
 
 - Android : Tester les interactions avec la plateforme - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
 - iOS : Tester les interactions avec la plateforme - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>

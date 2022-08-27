@@ -17,7 +17,7 @@ The purpose of the controls listed in this section is to ensure the confidential
 
 ## References
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+The OWASP Mobile Application Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
 
 - General: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
 - Android: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>

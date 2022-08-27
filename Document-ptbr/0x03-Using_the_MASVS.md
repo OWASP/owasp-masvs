@@ -14,13 +14,13 @@ Cumprir os requisitos do MASVS-L1 resulta em uma aplicação segura que segue as
 
 **I: Embora seja recomendado implementar controles MASVS-L1 em todos os aplicativos, a implementação ou não de um controle deve, em última opção, ser uma decisão tomada baseada em riscos e comunicada aos proprietários da empresa.**
 
-**II: Observe que os controles de proteção de _software_ listados no MASVS-R e descritos no _OWASP Mobile Security Testing Guide_ podem ser ignorados e nunca devem ser usados como substitutos de controles adicionais de proteção e específicos para ameaças a aplicativos que também atendem aos requisitos do MASVS no MASVS-L1 ou MASVS-L2.**
+**II: Observe que os controles de proteção de _software_ listados no MASVS-R e descritos no _OWASP Mobile Application Security Testing Guide_ podem ser ignorados e nunca devem ser usados como substitutos de controles adicionais de proteção e específicos para ameaças a aplicativos que também atendem aos requisitos do MASVS no MASVS-L1 ou MASVS-L2.**
 
 ![Níveis de Verificação](images/masvs-levels-new.jpg)
 
 ### Estrutura do Documento
 
-A primeira parte do MASVS contém uma descrição do modelo de segurança e os níveis de verificação disponíveis, seguidos de indicações sobre como usar o padrão na prática. Os requisitos de segurança detalhados, juntamente com um mapeamento para os níveis de verificação, estão listados na segunda parte. Os requisitos foram agrupados em oito categorias (V1 a V8) com base no objetivo/escopo técnico. A nomenclatura a seguir é usada em todo o MASVS e MSTG:
+A primeira parte do MASVS contém uma descrição do modelo de segurança e os níveis de verificação disponíveis, seguidos de indicações sobre como usar o padrão na prática. Os requisitos de segurança detalhados, juntamente com um mapeamento para os níveis de verificação, estão listados na segunda parte. Os requisitos foram agrupados em oito categorias (V1 a V8) com base no objetivo/escopo técnico. A nomenclatura a seguir é usada em todo o MASVS e MASTG:
 
 - *Categoria de Requisito:* MASVS-Vx, ex. MASVS-V2: Armazenamento de Dados e Privacidade.
 - *Requisito:* MASVS-Vx.y, e.g. MASVS-V2.2: "Nenhum dado sensível é escrito nos _logs_ da aplicação.".

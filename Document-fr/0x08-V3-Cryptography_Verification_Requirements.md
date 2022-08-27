@@ -21,7 +21,7 @@ La cryptographie est un ingrédient essentiel pour la protection des données st
 
 ## Références
 
-Le Mobile Security Testing Guide de l'OWASP donne des instructions détaillées pour valider les exigences listées dans cette section.
+Le Mobile Application Security Testing Guide de l'OWASP donne des instructions détaillées pour valider les exigences listées dans cette section.
 
 - Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
 - iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
