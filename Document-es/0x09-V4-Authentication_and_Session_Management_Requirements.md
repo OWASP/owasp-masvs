@@ -13,7 +13,7 @@ En la mayoría de los casos, una parte esencial de la arquitectura global de apl
 | **4.3** | MSTG-AUTH-3 | Si se utiliza la autenticación basada en tokens sin estado, el servidor proporciona un token que se ha firmado utilizando un algoritmo seguro. | x | x |
 | **4.4** | MSTG-AUTH-4 | Cuando el usuario cierra sesión se termina la sesión también en el servidor. | x | x |
 | **4.5** | MSTG-AUTH-5 | Debe existir una política de contraseñas y debe ser aplicada en el servidor. | x | x |
-| **4.6** | MSTG-AUTH-6 | El servidor debe implementar mecanismos cuando se excede un determinado número de intentos de inicio de sesión. Es decir, cuando se introducen erroneamente las credenciales de autenticación. | x | x |
+| **4.6** | MSTG-AUTH-6 | El servidor debe implementar mecanismos que eviten excesivos de intentos de inicio de sesión. | x | x |
 | **4.7** | MSTG-AUTH-7 | Las sesiones y los tokens de acceso deben expirar pasado un tiempo predefinido de inactividad. | x  | x |
 | **4.8** | MSTG-AUTH-8 | La autenticación biométrica, si la hay, no debe estar asociada a eventos (p. ej. usando una API que simplemente retorna "true" o "false"), sino basada en el desbloqueo del keychain/keystore (almacenamiento seguro). |   | x |
 | **4.9** | MSTG-AUTH-9 | En el dispositivo final debe existir un mecanismo de segundo factor de autenticación (2FA) y éste debe ser consistente. |   | x |
