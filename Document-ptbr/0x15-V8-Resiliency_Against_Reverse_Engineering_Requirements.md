@@ -6,8 +6,6 @@ Esta seção cobre as medidas de proteção recomendadas para aplicativos móvei
 
 Os controles desta seção devem ser aplicados conforme necessário, com base em uma avaliação dos riscos causados por manipulação não autorizada do aplicativo móvel e/ou engenharia reversa do código. Sugerimos que sejam consultados os documentos "_Technical Risks of Reverse Engineering and Unauthorized Code Modification_" e "_Reverse Engineering and Code Modification Prevention_" do OWASP (veja referência abaixo) para uma lista dos riscos de negócio, assim como as ameaças técnicas associadas.
 
-Para que qualquer controle da lista abaixo ser efetivo, o aplicativo móvel deve cumprir pelo menos todas as MASVS-L1 (ou seja, devem existir controles sólidos de segurança), assim como todos os requisitos de número inferior no V8. Por exemplo, os controles de ofuscação listados em "impedir a compreensão" devem ser combinados com "impedir a análise dinâmica e a manipulação" e "vinculação ao dispositivo".
-
 **Perceba que as proteções de software nunca devem ser usadas como substitutas dos controles de segurança. Os controles listados no MASVR-R buscam adicionar controles específicos contra ameaças aos aplicativos móveis que também atendem aos requisitos de segurança do MASVS.
 
 As seguintes considerações se aplicam:

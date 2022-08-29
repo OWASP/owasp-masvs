@@ -6,8 +6,6 @@ En esta sección se cubren las protecciones recomendadas para aplicaciones que m
 
 Los controles de esta sección deben aplicarse según sea necesario, basándose en una evaluación de los riesgos causados por la manipulación no autorizada de la aplicación y/o la ingeniería inversa del código. Sugerimos consultar el documento de OWASP ["Riesgos técnicos de la Ingeniería Inversa y Modificaciones de Código no Autorizadas"](https://wiki.owasp.org/index.php/Technical_Risks_of_Reverse_Engineering_and_Unauthorized_Code_Modification) para obtener una lista de los riesgos de negocio, así como de las amenazas técnicas asociadas.
 
-Para que cualquiera de los controles de la lista siguiente sea eficaz, la aplicación debe cumplir al menos todos los requisitos del nivel MASVS-L1 (es decir, deben existir sólidos controles de seguridad), así como todos los requisitos de números más bajos en la categoría V8. Por ejemplo, los controles de ofuscación listados en la sección "impedir la comprensión" deben combinarse con el "impedir el análisis dinámico y la manipulación" y la "atadura al dispositivo".
-
 **Tenga en cuenta que los controles de software nunca deben utilizarse como reemplazo de los controles de seguridad. Los controles listados en MASVR-R buscan añadir controles de protección adicionales y específicos contra las amenazas a las aplicaciones que también cumplen con los requisitos de seguridad del MASVS.**
 
 Se aplican las siguientes consideraciones:
