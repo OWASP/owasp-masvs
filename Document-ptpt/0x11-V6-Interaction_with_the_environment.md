@@ -22,7 +22,7 @@ Os controlos neste grupo asseguram que a aplicação utiliza Interfaces de Progr
 
 ## Referências
 
-O OWASP Mobile Security Testing Guide providencia instruções detalhadas para verificação dos requisitos listados nesta secção.
+O OWASP Mobile Application Security Testing Guide providencia instruções detalhadas para verificação dos requisitos listados nesta secção.
 
 - Android: Testing Platform Interaction - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
 - iOS: Testing Platform Interaction - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>

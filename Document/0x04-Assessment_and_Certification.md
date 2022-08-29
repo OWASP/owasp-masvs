@@ -16,9 +16,9 @@ It is important to note that the MASVS only covers security of the (client-side)
 
 A certifying organization must include in any report the scope of the verification (particularly if a key component is out of scope), a summary of verification findings, including passed and failed tests, with clear indications of how to resolve the failed tests. Keeping detailed work papers, screenshots or movies, scripts to reliably and repeatedly exploit an issue, and electronic records of testing, such as intercepting proxy logs and associated notes such as a cleanup list, is considered standard industry practice. It is not sufficient to simply run a tool and report on the failures; this does not provide sufficient evidence that all issues at a certifying level have been tested and tested thoroughly. In case of dispute, there should be sufficient supportive evidence to demonstrate that every verified requirement has indeed been tested.
 
-### Using the OWASP Mobile Security Testing Guide (MSTG)
+### Using the OWASP Mobile Application Security Testing Guide (MASTG)
 
-The OWASP MSTG is a manual for testing the security of mobile apps. It describes the technical processes for verifying the requirements listed in the MASVS. The MSTG includes a list of test cases, each of which map to a requirement in the MASVS. While the MASVS requirements are high-level and generic, the MSTG provides in-depth recommendations and testing procedures on a per-mobile-OS basis.
+The OWASP MASTG is a manual for testing the security of mobile apps. It describes the technical processes for verifying the requirements listed in the MASVS. The MASTG includes a list of test cases, each of which map to a requirement in the MASVS. While the MASVS requirements are high-level and generic, the MASTG provides in-depth recommendations and testing procedures on a per-mobile-OS basis.
 
 ### The Role of Automated Security Testing Tools
 
@@ -36,7 +36,7 @@ Many organizations can benefit from adopting the MASVS, by choosing one of the t
 
 ### As a Basis for Security Testing Methodologies
 
-A good mobile app security testing methodology should cover all requirements listed in the MASVS. The OWASP Mobile Security Testing Guide (MSTG) describes black-box and white-box test cases for each verification requirement.
+A good mobile app security testing methodology should cover all requirements listed in the MASVS. The OWASP Mobile Application Security Testing Guide (MASTG) describes black-box and white-box test cases for each verification requirement.
 
 ### As a Guide for Automated Unit and Integration Tests
 

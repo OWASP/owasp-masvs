@@ -14,7 +14,7 @@ As seguintes considerações são aplicadas:
 
 2. O modelo de ameaças deve ser credível e relevante. Por exemplo, esconder uma chave de criptografia numa implementação de caixa branca pode provar-se redundante se um atacante poder simplesmente obter o código da caixa branca como um todo.
 
-3. A eficácia da proteção deve ser verificada sempre por um humano especialista com experiência em testar particulares tipos de prevenção de adulteração e ofuscação usados (ver também os capítulos "engenharia reversa" e "Avaliação de Proteções de Software" em MOBILE SECURITY TESTING GUIDE).
+3. A eficácia da proteção deve ser verificada sempre por um humano especialista com experiência em testar particulares tipos de prevenção de adulteração e ofuscação usados (ver também os capítulos "engenharia reversa" e "Avaliação de Proteções de Software" em Mobile Application Security Testing Guide).
 
 <!-- \pagebreak -->
 
@@ -57,7 +57,7 @@ As seguintes considerações são aplicadas:
 
 ## Referências
 
-A OWASP Mobile Security Testing Guide fornece instruções detalhadas para verificar os requisitos listados nesta secção:
+A OWASP Mobile Application Security Testing Guide fornece instruções detalhadas para verificar os requisitos listados nesta secção:
 
 - Android: Testing Resiliency Against Reverse Engineering - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
 - iOS: Testing Resiliency Against Reverse Engineering - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>

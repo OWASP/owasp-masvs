@@ -3,7 +3,7 @@
 Os projetos da OWASP a seguir são provavelmente os mais úteis para usuários e seguidores desse padrão (*links* em inglês):
 
 - Projeto OWASP de Segurança em Dispositivos Móveis - [https://owasp.org/www-project-mobile-security/](https://owasp.org/www-project-mobile-security/)
-- Guia OWASP de Teste de Segurança em Dispositivos Móveis - [https://owasp.org/www-project-mobile-security-testing-guide/](https://owasp.org/www-project-mobile-security-testing-guide/)
+- Guia OWASP de Teste de Segurança em Dispositivos Móveis - [https://owasp.org/www-project-mobile-app-security/](https://owasp.org/www-project-mobile-app-security/)
 - OWASP Top 10 Riscos em Dispositivos Móveis - [https://owasp.org/www-project-mobile-top-10/](https://owasp.org/www-project-mobile-top-10/)
 - Projeto OWASP de Prevenção à Engenharia Reversa e Modificação de Código - [https://wiki.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project](https://wiki.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project)
 

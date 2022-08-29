@@ -14,7 +14,7 @@ The following considerations apply:
 
 2. The threat model must be credible and relevant. For example, hiding a cryptographic key in a white-box implementation might prove redundant if an attacker can simply code-lift the white-box as a whole.
 
-3. The effectiveness of the protection should always be verified by a human expert with experience in testing the particular types of anti-tampering and obfuscation used (see also the "reverse engineering" and "assessing software protections" chapters in the Mobile Security Testing Guide).
+3. The effectiveness of the protection should always be verified by a human expert with experience in testing the particular types of anti-tampering and obfuscation used (see also the "reverse engineering" and "assessing software protections" chapters in the Mobile Application Security Testing Guide).
 
 <!-- \pagebreak -->
 
@@ -56,7 +56,7 @@ The following considerations apply:
 
 ## References
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
+The OWASP Mobile Application Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
 
 - Android: Testing Resiliency Against Reverse Engineering - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
 - iOS: Testing Resiliency Against Reverse Engineering - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>

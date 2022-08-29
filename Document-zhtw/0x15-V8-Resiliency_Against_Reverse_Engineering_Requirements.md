@@ -16,7 +16,7 @@
 
 2. 威脅模型必須是敏感的。 例如，如果攻擊者可以簡單地將整個白箱code lift，那麼將加密金鑰隱藏在白箱中就沒有意義。
 
-3. 保護的有效性應始終由具有測試所使用的特定類型防篡改和混淆經驗的專家進行驗證（另請參閱 Mobile Security Testing Guide 中的“逆向工程”和“評估軟體保護”章節）。
+3. 保護的有效性應始終由具有測試所使用的特定類型防篡改和混淆經驗的專家進行驗證（另請參閱 Mobile Application Security Testing Guide 中的“逆向工程”和“評估軟體保護”章節）。
 
 ### 阻礙動態分析和篡改
 
@@ -53,7 +53,7 @@
 
 ## 參考
 
-OWASP Mobile Security Testing Guide 提供了有關驗證本章節中列出的準則的詳細使用說明。
+OWASP Mobile Application Security Testing Guide 提供了有關驗證本章節中列出的準則的詳細使用說明。
 
 - Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
 - iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>

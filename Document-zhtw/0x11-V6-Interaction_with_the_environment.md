@@ -22,7 +22,7 @@
 
 ## 參考
 
-OWASP Mobile Security Testing Guide 提供了有關驗證本章節中列出的準則的詳細使用說明。
+OWASP Mobile Application Security Testing Guide 提供了有關驗證本章節中列出的準則的詳細使用說明。
 
 - Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
 - iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>

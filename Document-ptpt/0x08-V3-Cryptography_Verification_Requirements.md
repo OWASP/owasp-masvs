@@ -21,7 +21,7 @@ A criptografia é um ingrediente essencial no que toca à protecção de dados e
 
 ## Referências
 
-O OWASP Mobile Security Testing Guide providencia instruções detalhadas para a verificação dos requisitos listados abaixo.
+O OWASP Mobile Application Security Testing Guide providencia instruções detalhadas para a verificação dos requisitos listados abaixo.
 
 - Android: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
 - iOS: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>

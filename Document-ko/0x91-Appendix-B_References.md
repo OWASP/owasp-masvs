@@ -3,7 +3,7 @@
 다음 OWASP 프로젝트는 이 표준의 사용자 및 채택자에게 가장 유용할 수 있습니다.
 
 - OWASP Mobile Security Project - [https://owasp.org/www-project-mobile-security/](https://owasp.org/www-project-mobile-security/)
-- OWASP Mobile Security Testing Guide - [https://owasp.org/www-project-mobile-security-testing-guide/](https://owasp.org/www-project-mobile-security-testing-guide/)
+- OWASP Mobile Application Security Testing Guide - [https://owasp.org/www-project-mobile-app-security/](https://owasp.org/www-project-mobile-app-security/)
 - OWASP Mobile Top 10 Risks - [https://owasp.org/www-project-mobile-top-10/](https://owasp.org/www-project-mobile-top-10/)
 - OWASP Reverse Engineering and Code Modification Prevention - [https://wiki.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project](https://wiki.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project)
 

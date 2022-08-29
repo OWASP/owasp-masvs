@@ -14,13 +14,13 @@ Atteindre les exigences du niveau MASVS-L1 amène à une application qui suit le
 
 **I: Il convient de noter que les contrôles de protection logiciels listés dans le MASVS-R et décrits dans le Guide de Test Mobile de l'OWASP (OWASP Mobile Testing Guide) peuvent toujours être contournés et ne doivent jamais être utilisés en tant que substituts aux contrôles de sécurité. Leur but est d'apporter des contrôles de protection supplémentaires spécifiques aux menaces d'applications qui remplissent aussi les exigences MASVS L1 ou L2.**
 
-**II: Il faut noter que les contrôles de protection des logiciels présentés dans le MASVS-R et décrits dans l'OWASP MSTG peuvent finalement être contournés et ne doivent jamais être utilisés comme alternative aux contrôles de sécurité. Par contre, ils sont conçus pour ajouter des contrôles supplémentaires envers des menaces spécifiques pour les applications qui satisfont aux exigences de MASVS-L1 et MASVS-L2.**
+**II: Il faut noter que les contrôles de protection des logiciels présentés dans le MASVS-R et décrits dans l'OWASP MASTG peuvent finalement être contournés et ne doivent jamais être utilisés comme alternative aux contrôles de sécurité. Par contre, ils sont conçus pour ajouter des contrôles supplémentaires envers des menaces spécifiques pour les applications qui satisfont aux exigences de MASVS-L1 et MASVS-L2.**
 
 ![Verification Levels](images/masvs-levels-new.jpg)
 
 ### Structure du Document
 
-La première partie du MASVS contient une description du modèle de sécurité et des niveaux de validation disponibles, suivis par des recommandations sur l'utilisation du standard en pratique. Les exigences de sécurité détaillées, ainsi que leurs associations aux niveaux de validation, sont listées dans la seconde partie. Les exigences ont été groupées en huit catégories (V1 à V8) en fonction des objectifs et des périmètres techniques. La nomenclature suivanteest utilisée tout au long du MASVS et du MSTG:
+La première partie du MASVS contient une description du modèle de sécurité et des niveaux de validation disponibles, suivis par des recommandations sur l'utilisation du standard en pratique. Les exigences de sécurité détaillées, ainsi que leurs associations aux niveaux de validation, sont listées dans la seconde partie. Les exigences ont été groupées en huit catégories (V1 à V8) en fonction des objectifs et des périmètres techniques. La nomenclature suivanteest utilisée tout au long du MASVS et du MASTG:
 
 - *Catégorie de l'exigence :* MASVS-Vx, e.g. MASVS-V2: Stockage de Données et Vie Privée
 - *Exigence :* MASVS-Vx.y, e.g. MASVS-V2.2: "Aucune donnée sensible n'est écrite dans les journaux applicatifs."  

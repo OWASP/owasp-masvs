@@ -16,9 +16,9 @@ Es ist wichtig zu erwähnen, dass der MASVS nur die Security auf der client-seit
 
 Eine Zertifizierungsstelle muss in jedem Report den Scope der Überprüfung (insbesondere wenn eine Schlüsselkomponente out of scope ist), eine Zusammenfassung der Prüfungs-Findings, inklusive einer Auflistung aller erfolgreich durchgeführten sowie gescheiterten Tests sowie klare Lösungshinweise zu allen gescheiterten Tests aufführen. Eine Sammlung detaillierter Arbeitspapiere, Screenshots oder Demo-Videos, Skripte um eine gefundene Schwachstelle zuverlässig und wiederholt zu exploiten aber auch elektronische Aufzeichnungen/Logs wie Traffic-Mitschnitte durch einen Proxy und zugehörige Notizen wie z.B. eine ToDo-Liste oder Cleanup-Liste aufzubewahren gilt als "Best Practice". Es ist unzureichend einfach nur ein Tool zu starten und die Findings zu berichten. Stattdessen ist es wichtig Beweise zu liefern, dass alle geforderten Themenpunkte gründlich getestet wurden. Für den Fall von Streitigkeiten sollten ausreichend Nachweise vorliegen um darlegen zu können, dass jede zu prüfende Anforderung tatsächlich getestet wurde.
 
-### Nutzung des OWASP Mobile Security Testing Guide (MSTG)
+### Nutzung des OWASP Mobile Application Security Testing Guide (MASTG)
 
-Der OWASP MSTG ist eine Anleitung zum Testen der Sicherheit von mobilen Apps. Der Guide beschreibt den technischen Prozess zur Überprüfung der Anforderungen aus dem MASVS. Der MSTG enthält eine Liste von Testfällen. Jeder Testfall referenziert eine einzelne Anforderung im MASVS. Während der MASVS eher grobe und generische Anforderungen enthält, bietet der MSTG detaillierte Empfehlungen und Testprozeduren je mobilem Betriebssystem.
+Der OWASP MASTG ist eine Anleitung zum Testen der Sicherheit von mobilen Apps. Der Guide beschreibt den technischen Prozess zur Überprüfung der Anforderungen aus dem MASVS. Der MASTG enthält eine Liste von Testfällen. Jeder Testfall referenziert eine einzelne Anforderung im MASVS. Während der MASVS eher grobe und generische Anforderungen enthält, bietet der MASTG detaillierte Empfehlungen und Testprozeduren je mobilem Betriebssystem.
 
 ### Die Rolle von Werkzeugen für automatisierte Security Tests
 
@@ -36,7 +36,7 @@ Viele Organisationen können davon profitieren, den MASVS zu adaptieren, indem S
 
 ### Als Basis für Security Tests
 
-Eine gute Testmethodik für Security Tests mobiler Apps sollte alle Anforderungen aus dem MASVS abdecken. Der OWASP MSTG beschreibt Black-box und White-box Testfälle für jede Anforderungen aus dem MASVS.
+Eine gute Testmethodik für Security Tests mobiler Apps sollte alle Anforderungen aus dem MASVS abdecken. Der OWASP MASTG beschreibt Black-box und White-box Testfälle für jede Anforderungen aus dem MASVS.
 
 ### Als Vorgabe für automatisierte Unit- und Integrationstests
 

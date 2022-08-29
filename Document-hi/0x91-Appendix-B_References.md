@@ -3,7 +3,7 @@
 निम्नलिखित OWASP परियोजनाएं इस मानक के उपयोगकर्ताओं / अपनाने वालों के लिए सबसे अधिक उपयोगी हैं:
 
 - OWASP मोबाइल सुरक्षा परियोजना - [https://owasp.org/www-project-mobile-security/](https://owasp.org/www-project-mobile-security/)
-- OWASP मोबाइल सुरक्षा परीक्षण गाइड - [https://owasp.org/www-project-mobile-security-testing-guide/](https://owasp.org/www-project-mobile-security-testing-guide/)
+- OWASP मोबाइल सुरक्षा परीक्षण गाइड - [https://owasp.org/www-project-mobile-app-security/](https://owasp.org/www-project-mobile-app-security/)
 - OWASP मोबाइल टॉप 10 रिस्क - [https://owasp.org/www-project-mobile-top-10/](https://owasp.org/www-project-mobile-top-10/)
 - OWASP रिवर्स इंजीनियरिंग और कोड संशोधन रोकथाम(Prevention) - [https://wiki.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project](https://wiki.owasp.org/index.php/OWASP_Reverse_Engineering_and_Code_Modification_Prevention_Project)
 

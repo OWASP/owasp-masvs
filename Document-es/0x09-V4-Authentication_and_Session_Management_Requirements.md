@@ -1,10 +1,10 @@
-# V4: Requerimientos de Autenticación y Manejo de Sesiones
+# V4: Requisitos de Autenticación y Manejo de Sesiones
 
-## Objetivo de Control
+## Objetivo de la Categoría V4
 
-En la mayoría de los casos, una parte esencial de la arquitectura global de aplicaciones móviles es que los usuarios deben inician sesión en un servicio remoto. Aunque la mayor parte de la lógica ocurre en el servidor, MASVS define algunos requerimientos básicos sobre como manejar las cuentas y sesiones del usuario.
+En la mayoría de los casos, una parte esencial de la arquitectura global de aplicaciones móviles es que los usuarios deben iniciar sesión en un servicio remoto. Aunque la mayor parte de la lógica ocurre en el servidor, MASVS define algunos requisitos básicos sobre cómo manejar las cuentas y sesiones del usuario.
 
-## Requerimientos de Verificación de Seguridad
+## Requisitos de Verificación de Seguridad
 
 | # | MSTG-ID | Descripción | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
@@ -12,13 +12,13 @@ En la mayoría de los casos, una parte esencial de la arquitectura global de apl
 | **4.2** | MSTG-AUTH-2 | Si se utiliza la gestión de sesión por estado, el servidor remoto usa tokens de acceso aleatorios para autenticar los pedidos del cliente sin requerir el envío de las credenciales del usuario en cada uno. | x | x |
 | **4.3** | MSTG-AUTH-3 | Si se utiliza la autenticación basada en tokens sin estado, el servidor proporciona un token que se ha firmado utilizando un algoritmo seguro. | x | x |
 | **4.4** | MSTG-AUTH-4 | Cuando el usuario cierra sesión se termina la sesión también en el servidor. | x | x |
-| **4.5** | MSTG-AUTH-5 | Existe una política de contraseñas y es aplicada en el servidor. | x | x |
-| **4.6** | MSTG-AUTH-6 | El servidor implementa mecanismos, cuando credenciales de autenticación son ingresadas una cantidad excesiva de veces. | x | x |
-| **4.7** | MSTG-AUTH-7 | Las sesiones y los tokens de acceso expiran luego de un tiempo predefinido de inactividad. | x  | x |
-| **4.8** | MSTG-AUTH-8 | La autenticación biométrica, si la hay, no está asociada a eventos (p. ej. usando una API que simplemente retorna "true" o "false"), sino basada en el desbloqueo del keychain/keystore (almacenamiento seguro). |   | x |
-| **4.9** | MSTG-AUTH-9 | El sistema remoto implementa un mecanismo de segundo factor de autenticación (2FA) y lo impone consistentemente. |   | x |
+| **4.5** | MSTG-AUTH-5 | Debe existir una política de contraseñas y debe ser aplicada en el servidor. | x | x |
+| **4.6** | MSTG-AUTH-6 | El servidor debe implementar mecanismos que eviten excesivos de intentos de inicio de sesión. | x | x |
+| **4.7** | MSTG-AUTH-7 | Las sesiones y los tokens de acceso deben expirar pasado un tiempo predefinido de inactividad. | x  | x |
+| **4.8** | MSTG-AUTH-8 | La autenticación biométrica, si la hay, no debe estar asociada a eventos (p. ej. usando una API que simplemente retorna "true" o "false"), sino basada en el desbloqueo del keychain/keystore (almacenamiento seguro). |   | x |
+| **4.9** | MSTG-AUTH-9 | En el servidor debe existir un mecanismo de segundo factor de autenticación (2FA) y éste debe ser aplicado de forma consistente. |   | x |
 | **4.10** | MSTG-AUTH-10 | Para realizar transacciones críticas se requiere una autenticación adicional (step-up). |   | x |
-| **4.11** | MSTG-AUTH-11 | La aplicación informa al usuario acerca de todas las actividades sensibles en su cuenta. El usuario es capaz de ver una lista de los dispositivos conectados, información contextual (dirección IP, localización, etc.), y es capaz de bloquear ciertos dispositivos. |  | x |
+| **4.11** | MSTG-AUTH-11 | La aplicación debe informar al usuario acerca de todas las actividades sensibles en su cuenta. El usuario es capaz de ver una lista de los dispositivos conectados, información contextual (dirección IP, localización, etc.), y debe ser capaz de bloquear dispositivos. |  | x |
 | **4.12** | MSTG-AUTH-12 | Los modelos de autorización deberían de ser definidos e impuestos por el sistema remoto. | x | x |
 
 ## Referencias

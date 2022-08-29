@@ -1,35 +1,35 @@
 # Estándar de Verificación de Seguridad de Aplicaciones Móviles
 
-El MASVS se puede utilizar para establecer un nivel de confianza en la seguridad de las aplicaciones móviles. Los requerimientos fueron desarrollados con los siguientes objetivos en mente:
+El MASVS se puede utilizar para establecer un nivel de confianza en la seguridad de las aplicaciones móviles. Los requisitos fueron desarrollados con los siguientes objetivos en mente:
 
-- Uso como una métrica - Proporciona un estándar dirigido tanto a desarrolladores como a propietarios de aplicaciones, el cual puede ser utilizado para comparar aplicaciones en términos de seguridad;
-- Uso como guía - Hace de guía durante todas las fases del desarrollo y pruebas de seguridad de las aplicaciones móviles;
+- Uso como una métrica - Proporciona un estándar dirigido tanto a desarrolladores como a propietarios de aplicaciones, el cual puede ser utilizado para comparar aplicaciones en términos de seguridad.
+- Uso como guía - Hace de guía durante todas las fases del desarrollo y pruebas de seguridad de las aplicaciones móviles.
 - Uso durante la compra o contratación - Proporcionar una línea base para la verificación de la seguridad de aplicaciones móviles.
 
 ## Modelo de Seguridad para una Aplicación Móvil
 
-El MASVS define dos niveles de verificación de seguridad (MASVS-L1 y MASVS-L2), así como un conjunto de requisitos de resistencia a la ingeniería inversa (MASVS-R). El nivel MASVS-L1 contiene requerimientos genéricos de seguridad recomendados para todas las aplicaciones móviles, mientras que MASVS-L2 debería aplicarse a aplicaciones que manejan datos altamente sensibles. MASVS-R cubre los controles de seguridad adicionales que se pueden aplicar si la prevención de las amenazas del lado del cliente es un objetivo de diseño.
+El MASVS define dos niveles de verificación de seguridad (MASVS-L1 y MASVS-L2), así como un conjunto de requisitos de resistencia a la ingeniería inversa (MASVS-R). El nivel MASVS-L1 contiene requisitos genéricos de seguridad recomendados para todas las aplicaciones móviles, mientras que MASVS-L2 debería aplicarse a aplicaciones que manejan datos altamente sensibles. MASVS-R cubre los controles de seguridad adicionales que se pueden aplicar si la prevención de las amenazas del lado del cliente es un objetivo de diseño.
 
-El cumplimiento de los requerimientos de MASVS-L1 dará como resultado una aplicación segura que sigue las mejores prácticas de seguridad y no sufre de las vulnerabilidades más comunes. MASVS-L2 añade controles adicionales de defensa en profundidad, tales como _SSL certificate pinning_, haciendo la aplicación resistente a ataques más sofisticados, siempre y cuando los controles de seguridad del sistema operativo móvil estén intactos y que el usuario final no sea considerado como un potencial adversario. El cumplimiento de todos o de un subconjunto de los requerimientos de protección de software del nivel MASVS-R ayuda a prevenir amenazas específicas del lado del cliente cuando el usuario final es considerado malicioso y/o el sistema operativo móvil ha sido comprometido.
+El cumplimiento de los requisitos de MASVS-L1 dará como resultado una aplicación segura que sigue las mejores prácticas de seguridad y no sufre de las vulnerabilidades más comunes. MASVS-L2 añade controles adicionales de defensa en profundidad, tales como _SSL certificate pinning_, haciendo la aplicación resistente a ataques más sofisticados, siempre y cuando los controles de seguridad del sistema operativo móvil estén intactos y que el usuario final no sea considerado como un potencial adversario. El cumplimiento de todos o de un subconjunto de los requisitos de protección de software del nivel MASVS-R ayuda a prevenir amenazas específicas del lado del cliente cuando el usuario final es considerado malicioso y/o el sistema operativo móvil ha sido comprometido.
 
-**I: Aunque recomendamos implementar los controles MASVS-L1 en toda aplicación, la implementación de uno o varios de los controles, o el no hacerlo, debería ser una decisión basada en el riesgo. Dicha decisión, deberá ser comunicada claramente o tomada directamente junto con los dueños del negocio.**
+**I: Aunque recomendamos implementar los controles MASVS-L1 en toda aplicación, la implementación de uno o varios de los controles, o el no hacerlo, debería ser una decisión basada en el riesgo. Dicha decisión deberá ser correctamente comunicada a los dueños del negocio.**
 
-**II: Los controles de protección de software listados en MASVS-R y descritos en la MSTG pueden ser eludidos y no deben nunca reemplazar los demás controles de seguridad. Al contrario, su intención es añadir controles de protección adicionales (específicos a ciertas amenazas) para las aplicaciones que ya de por sí cumplen los requerimientos MASVS-L1 y/o MASVS-L2.**
+**II: Los controles de protección de software listados en MASVS-R y descritos en la MASTG pueden ser eludidos y no deben nunca reemplazar los demás controles de seguridad. Al contrario, su intención es añadir controles de protección adicionales (específicos a ciertas amenazas) para las aplicaciones que ya de por sí cumplen los requisitos MASVS-L1 y/o MASVS-L2.**
 
 ![Verification Levels](images/masvs-levels-new.jpg)
 
 ### Estructura del Documento
 
-La primera parte del MASVS contiene una descripción del modelo de seguridad y de los niveles de verificación disponibles, seguido de recomendaciones sobre cómo utilizar el estándar en la práctica. En la segunda parte se detallan los requisitos de seguridad, junto con un mapeo a los distintos niveles de verificación. Los requerimientos se han agrupado en ocho categorías (V1 a V8) basadas en el objetivo/alcance técnico. La siguiente nomenclatura se utiliza a lo largo del MASVS y la MSTG:
+La primera parte del MASVS contiene una descripción del modelo de seguridad y de los niveles de verificación disponibles, seguido de recomendaciones sobre cómo utilizar el estándar en la práctica. En la segunda parte se detallan los requisitos de seguridad, junto con un mapeo a los distintos niveles de verificación. Los requisitos se han agrupado en ocho categorías (V1 a V8) basadas en el objetivo/alcance técnico. La siguiente nomenclatura se utiliza a lo largo del MASVS y la MASTG:
 
-- *Categoría de los requerimientos:* MASVS-Vx, p. ej. MASVS-V2: Requerimientos de Almacenamiento de datos y Privacidad.
-- *Requerimiento:* MASVS-Vx.y, p. ej. MASVS-V2.2: "No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema.".
+- *Categoría de los requisitos:* MASVS-Vx, p. ej. MASVS-V2: Requisitos de Almacenamiento de datos y Privacidad.
+- *Requisito:* MASVS-Vx.y, p. ej. MASVS-V2.2: "No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema."
 
 ### Niveles de Verificación Detallados
 
 #### MASVS-L1: Seguridad Estándar
 
-Una aplicación móvil que logra el nivel MASVS-L1 se adhiere a las mejores prácticas de seguridad en aplicaciones móviles. Cumple con los requerimientos básicos en términos de calidad de código, manejo de los datos sensibles e interacción con el entorno móvil. Debe existir un proceso de pruebas para verificar los controles de seguridad. Este nivel es apropiado para todas las aplicaciones móviles.
+Una aplicación móvil que logra el nivel MASVS-L1 se adhiere a las mejores prácticas de seguridad en aplicaciones móviles. Cumple con los requisitos básicos en términos de calidad de código, manejo de los datos sensibles e interacción con el entorno móvil. Debe existir un proceso de pruebas para verificar los controles de seguridad. Este nivel es apropiado para todas las aplicaciones móviles.
 
 #### MASVS-L2: Defensa en Profundidad
 
@@ -60,19 +60,19 @@ La implementación de los requisitos del nivel MASVS-L2 aumenta la seguridad, pe
 
 ###### MASVS-L1
 
-- Todas las aplicaciones móviles. El nivel MASVS-L1 enumera las mejores prácticas de seguridad que se pueden seguir con un impacto razonable en el coste de desarrollo y la experiencia del usuario. Los requerimientos del MASVS-L1 pueden aplicarse en cualquier aplicación no apta para los niveles superiores.
+- Todas las aplicaciones móviles. El nivel MASVS-L1 enumera las mejores prácticas de seguridad que se pueden seguir con un impacto razonable en el coste de desarrollo y la experiencia del usuario. Los requisitos del MASVS-L1 pueden aplicarse en cualquier aplicación no apta para los niveles superiores.
 
 ###### MASVS-L2
 
 - Industria de la Salud: aplicaciones móviles que almacenan información personal identificable que puede ser utilizada para el robo de identidad, pagos fraudulentos, o una variedad de esquemas de fraude. Para el sector de la salud en los Estados Unidos, las consideraciones de cumplimiento incluyen la Ley de Portabilidad y Responsabilidad del Seguro Médico (HIPAA, por sus siglas en inglés), Privacidad, Seguridad, Reglas de Notificación de Violación (Breach Notification Rules) y Reglas de Seguridad del Paciente (Patient Safety Rule).
 
-- Sector Financiero: Aplicaciones que permiten el acceso a información altamente sensible como números de tarjetas de crédito, información personal o que permiten al usuario mover fondos. Estas aplicaciones deben tener controles de seguridad adicionales para prevenir el fraude. Las aplicaciones financieras necesitan asegurar el cumplimiento de las normas de seguridad de datos de la industria de tarjetas de pago (PCI DSS), Gramm Leech Bliley Act y Sarbanes-Oxley Act (SOX).
+- Sector Financiero: aplicaciones que permiten el acceso a información altamente sensible como números de tarjetas de crédito, información personal o que permiten al usuario mover fondos. Estas aplicaciones deben tener controles de seguridad adicionales para prevenir el fraude. Las aplicaciones financieras necesitan asegurar el cumplimiento de las normas de seguridad de datos de la industria de tarjetas de pago (PCI DSS), Gramm Leech Bliley Act y Sarbanes-Oxley Act (SOX).
 
 ###### MASVS L1+R
 
 - Aplicaciones móviles donde la protección de la propiedad intelectual (IP, por sus siglas en inglés) es un claro objetivo empresarial. Los controles de resistencia listados en MASVS-R se pueden utilizar para incrementar el esfuerzo necesario para obtener el código fuente original y dificultar la manipulación / _cracking_.
 
-- Industria de los juegos: juegos con una necesidad esencial de evitar la posibilidad de _modding_ y el engaño, como los juegos competitivos _online_. Hacer trampa es un tema importante en los juegos _online_, ya que una gran cantidad de tramposos conduce a un descontento de la base de jugadores y, en última instancia, puede causar que un juego fracase. MASVS-R proporciona controles básicos contra la manipulación para ayudar a incrementar el esfuerzo que los tramposos deberían realizar.
+- Industria de los videojuegos: aplicaciones con una necesidad esencial de evitar la posibilidad de _modding_ y el engaño, como los videojuegos competitivos _online_. Hacer trampa es un tema importante en los juegos _online_, ya que una gran cantidad de tramposos conduce a un descontento de la base de jugadores y, en última instancia, puede causar que un juego fracase. MASVS-R proporciona controles básicos contra la manipulación para ayudar a incrementar el esfuerzo que los tramposos deberían realizar.
 
 ###### MASVS L2+R
 
