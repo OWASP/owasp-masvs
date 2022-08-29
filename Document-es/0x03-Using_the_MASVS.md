@@ -14,13 +14,13 @@ El cumplimiento de los requisitos de MASVS-L1 dará como resultado una aplicaci�
 
 **I: Aunque recomendamos implementar los controles MASVS-L1 en toda aplicación, la implementación de uno o varios de los controles, o el no hacerlo, debería ser una decisión basada en el riesgo. Dicha decisión deberá ser correctamente comunicada a los dueños del negocio.**
 
-**II: Los controles de protección de software listados en MASVS-R y descritos en la MSTG pueden ser eludidos y no deben nunca reemplazar los demás controles de seguridad. Es decir, la idea es añadir controles de protección adicionales (específicos a ciertas amenazas) para las aplicaciones que ya de por sí cumplen los requisitos MASVS-L1 y/o MASVS-L2.**
+**II: Los controles de protección de software listados en MASVS-R y descritos en la MASTG pueden ser eludidos y no deben nunca reemplazar los demás controles de seguridad. Al contrario, su intención es añadir controles de protección adicionales (específicos a ciertas amenazas) para las aplicaciones que ya de por sí cumplen los requisitos MASVS-L1 y/o MASVS-L2.**
 
 ![Verification Levels](images/masvs-levels-new.jpg)
 
 ### Estructura del Documento
 
-La primera parte del MASVS contiene una descripción del modelo de seguridad y de los niveles de verificación disponibles, seguido de recomendaciones sobre cómo utilizar el estándar en la práctica. En la segunda parte se detallan los requisitos de seguridad, junto con un mapeo a los distintos niveles de verificación. Los requisitos se han agrupado en ocho categorías (V1 a V8) basadas en el objetivo/alcance técnico. La siguiente nomenclatura se utiliza a lo largo del MASVS y la MSTG:
+La primera parte del MASVS contiene una descripción del modelo de seguridad y de los niveles de verificación disponibles, seguido de recomendaciones sobre cómo utilizar el estándar en la práctica. En la segunda parte se detallan los requisitos de seguridad, junto con un mapeo a los distintos niveles de verificación. Los requisitos se han agrupado en ocho categorías (V1 a V8) basadas en el objetivo/alcance técnico. La siguiente nomenclatura se utiliza a lo largo del MASVS y la MASTG:
 
 - *Categoría de los requisitos:* MASVS-Vx, p. ej. MASVS-V2: Requisitos de Almacenamiento de datos y Privacidad.
 - *Requisito:* MASVS-Vx.y, p. ej. MASVS-V2.2: "No se debe almacenar información sensible fuera del contenedor de la aplicación o del almacenamiento de credenciales del sistema."

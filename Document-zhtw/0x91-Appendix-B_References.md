@@ -4,7 +4,7 @@
 
 - OWASP 行動應用安全性專案 - [https://owasp.org/www-project-mobile-security/](https://owasp.org/www-project-mobile-security/)
 - OWASP 行動應用安全測試指南
-[https://owasp.org/www-project-mobile-security-testing-guide/](https://owasp.org/www-project-mobile-security-testing-guide/)
+[https://owasp.org/www-project-mobile-app-security/](https://owasp.org/www-project-mobile-app-security/)
 - OWASP 行動應用 Top 10 風險
  [https://owasp.org/www-project-mobile-top-10/](https://owasp.org/www-project-mobile-top-10/)
 - OWASP 逆向工程及程式碼編修防護

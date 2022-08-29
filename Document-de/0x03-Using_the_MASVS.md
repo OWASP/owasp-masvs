@@ -14,13 +14,13 @@ Eine App die alle Anforderungen aus MASVS-L1 erfüllt, folgt Security Best Pract
 
 **I: Die Schutzmaßnahmen enthalten in MASVS-R und beschrieben im OWASP Mobile Testing Guide können letztlich alle umgangen werden und dürfen nicht als Ersatz für Sicherheitsmaßnahmen (L1/L2) genutzt werden. Stattdessen sind sie dazu gedacht, um zusätzliche Threat-spezifische Schutzmaßnahmen zu Apps hinzuzufügen, die bereits die MASVS Anforderungen L1 oder L2 erfüllen.**
 
-**II: Bitte beachte das alle Anforderungen, die in MASVS-R aufgelistet und im OWASP Mobile Security Testing Guide beschrieben sind, immer umgangen werden können. Daher sollten diese auch nie als Ersatz für Sicherheitsmaßnahmen verwendet werden. Stattdessen ist die Intention von MASVS-R zusätzliche bedrohungsspezifische Gegenmaßnahmen für Apps zu definieren, die bereits die Anforderungen in MASVS-L1 oder MASVS-L2 erfüllen.**
+**II: Bitte beachte das alle Anforderungen, die in MASVS-R aufgelistet und im OWASP Mobile Application Security Testing Guide beschrieben sind, immer umgangen werden können. Daher sollten diese auch nie als Ersatz für Sicherheitsmaßnahmen verwendet werden. Stattdessen ist die Intention von MASVS-R zusätzliche bedrohungsspezifische Gegenmaßnahmen für Apps zu definieren, die bereits die Anforderungen in MASVS-L1 oder MASVS-L2 erfüllen.**
 
 ![Prüf-Level](images/masvs-levels-new.jpg)
 
 ### Dokumentstruktur
 
-Der erste Teil des MASVS enthält eine Beschreibung des Security Modells und der Prüf-Level, gefolgt von Empfehlungen zur Nutzung des Standards in der Praxis. Die detaillierten Sicherheitsanforderungen und ihre Einordnung in die Prüf-Level befinden sich im zweiten Teil. Die Anforderungen wurden in acht Kategorien (V1 bis V8), basierend auf technischen Zielen/Scopes, eingeteilt. Die folgende Nomenklatur wird durchgehend im MASVS und MSTG genutzt:
+Der erste Teil des MASVS enthält eine Beschreibung des Security Modells und der Prüf-Level, gefolgt von Empfehlungen zur Nutzung des Standards in der Praxis. Die detaillierten Sicherheitsanforderungen und ihre Einordnung in die Prüf-Level befinden sich im zweiten Teil. Die Anforderungen wurden in acht Kategorien (V1 bis V8), basierend auf technischen Zielen/Scopes, eingeteilt. Die folgende Nomenklatur wird durchgehend im MASVS und MASTG genutzt:
 
 - *Anforderungs Kategorie:* MASVS-Vx, z.B. MASVS-V2: Datenspeicherung und Datenschutz
 - *Anforderung:* MASVS-Vx.y, z.B. MASVS-V2.2: "Keine sensiblen Daten werden in Applikations Logs geschrieben."  

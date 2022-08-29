@@ -15,7 +15,7 @@ This is the official Github Repository of the OWASP Mobile Application Security 
 - As guidance - To provide guidance during all phases of mobile app development and testing.
 - During procurement - To provide a baseline for mobile app security verification.
 
-The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg "OWASP Mobile Security Testing Guide").
+The MASVS is a sister project of the [OWASP Mobile Application Security Testing Guide](https://github.com/OWASP/owasp-mstg "OWASP Mobile Application Security Testing Guide").
 
 - 📖 [Read it on Gitbook](https://mobile-security.gitbook.io/masvs/) (English Version, see more languages [here](#masvs-translations))
 - ⬇️ [Download the latest PDF](https://github.com/OWASP/owasp-masvs/releases/latest)
@@ -25,15 +25,15 @@ The MASVS is a sister project of the [OWASP Mobile Security Testing Guide](https
 
 ## Trusted by ...
 
-The OWASP MASVS and MSTG are trusted by the following platform providers and standardization, governmental and educational institutions. [Learn more](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x02b-MASVS-MSTG-Adoption.md).
+The OWASP MASVS and MASTG are trusted by the following platform providers and standardization, governmental and educational institutions. [Learn more](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x02b-MASVS-MASTG-Adoption.md).
 
-<a href="https://github.com/OWASP/owasp-mstg/blob/master/Document/0x02b-MASVS-MSTG-Adoption.md">
+<a href="https://github.com/OWASP/owasp-mstg/blob/master/Document/0x02b-MASVS-MASTG-Adoption.md">
 <img src="https://github.com/OWASP/owasp-mstg/blob/master/Document/Images/Other/trusted-by-logos.png"/>
 </a>
 
-## 🥇 MSTG Advocates
+## 🥇 MAS Advocates
 
-MSTG Advocates are industry adopters of the OWASP MASVS and MSTG who have invested a significant and consistent amount of resources to push the project forward by providing consistent high-impact contributions and continuously spreading the word. [Learn more](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x02c-Acknowledgements.md#our-mstg-advocates).
+MAS Advocates are industry adopters of the OWASP MASVS and MASTG who have invested a significant and consistent amount of resources to push the project forward by providing consistent high-impact contributions and continuously spreading the word. [Learn more](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x02c-Acknowledgements.md#our-mstg-advocates).
 
 <br>
 
@@ -48,7 +48,7 @@ MSTG Advocates are industry adopters of the OWASP MASVS and MSTG who have invest
 <ul>
 <li><a href="https://github.com/OWASP/owasp-mstg/discussions"><img src="Document/images/GitHub_logo.png" width="14px"> GitHub Discussions</a></li>
 <li><a href="https://owasp.slack.com/messages/project-mobile_omtg/details/"><img src="Document/images/slack_logo.png" width="14px">  #project-mobile_omtg</a> (<a href="https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#//">Get Invitation</a>)</li>
-<li><a href="https://twitter.com/OWASP_MSTG"><img src="Document/images/twitter_logo.png" width="14px"> @OWASP_MSTG </a> (Official Account)</li>
+<li><a href="https://twitter.com/OWASP_MAS"><img src="Document/images/twitter_logo.png" width="14px"> @OWASP_MAS </a> (Official Account)</li>
 <li><a href="https://twitter.com/bsd_daemon"><img src="Document/images/twitter_logo.png" width="14px"> @bsd_daemon </a> (Sven Schleier, Project Lead) <a href="https://twitter.com/grepharder"><img src="Document/images/twitter_logo.png" width="14px"> @grepharder </a> (Carlos Holguera, Project Lead)</li>
 </ul>
 

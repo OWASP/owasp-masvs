@@ -45,8 +45,8 @@ Este documento começou como um _fork_ do Padrão de Verificação de Segurança
 
 ## Patrocinadores
 
-Ainda que tanto o MASVS quanto o MSTG tenham sido criados e mantidos pela comunidade de forma voluntária, às vezes é necessária uma pequena ajuda externa. Nós, portanto, agradecemos nossos patrocinadores por proverem fundos para poder contratar editores técnicos. Ressalta-se que esses patrocínios não influenciam no conteúdo do MASVS ou MSTG de maneira alguma. Os pacotes de patrocínio estão descritos em [OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages").
+Ainda que tanto o MASVS quanto o MASTG tenham sido criados e mantidos pela comunidade de forma voluntária, às vezes é necessária uma pequena ajuda externa. Nós, portanto, agradecemos nossos patrocinadores por proverem fundos para poder contratar editores técnicos. Ressalta-se que esses patrocínios não influenciam no conteúdo do MASVS ou MASTG de maneira alguma. Os pacotes de patrocínio estão descritos em [OWASP Project Wiki](https://owasp.org/www-project-mobile-app-security/#div-sponsorship "OWASP Mobile Application Security Testing Guide Sponsorship Packages").
 
-![OWASP MSTG](../Document/images/Donators/donators.png) \
+![OWASP MASTG](../Document/images/Donators/donators.png) \
 
 Por fim, gostaríamos de agradecer a todos que compraram o livro no _[Leanpub](https://leanpub.com/mobile-security-testing-guide)_ e nos patrocinaram dessa maneira.

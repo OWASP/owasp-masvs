@@ -23,7 +23,7 @@ In most cases, users logging into a remote service is an integral part of the ov
 
 ## References
 
-The OWASP Mobile Security Testing Guide provides detailed instructions for verifying the requirements listed above.
+The OWASP Mobile Application Security Testing Guide provides detailed instructions for verifying the requirements listed above.
 
 - General: Authentication and Session Management - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
 - Android: Testing Local Authentication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>

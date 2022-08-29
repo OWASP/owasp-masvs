@@ -56,11 +56,11 @@ The technical assessment of the security architecture of an application.
 
 The use of automated tools that use vulnerability signatures to find problems during the execution of an application.
 
-## Globally Unique Identifier(GUID)
+## Globally Unique Identifier (GUID)
 
 a unique reference number used as an identifier in software.
 
-## Hyper Text Transfer Protocol(HTTP)
+## Hyper Text Transfer Protocol (HTTP)
 
 An application protocol for distributed, collaborative, hypermedia information systems. It is the foundation of data communication for the World Wide Web.
 

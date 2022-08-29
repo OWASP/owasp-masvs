@@ -18,7 +18,7 @@ O objetivo dos controlos detalhados nesta secção é de garantir a confidencial
 
 ## Referencias
 
-O OWASP Mobile Security Testing Guide fornece instruções detalhadas de como verificar os requisitos identificados nesta secção.
+O OWASP Mobile Application Security Testing Guide fornece instruções detalhadas de como verificar os requisitos identificados nesta secção.
 
 - General: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
 - Android: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>

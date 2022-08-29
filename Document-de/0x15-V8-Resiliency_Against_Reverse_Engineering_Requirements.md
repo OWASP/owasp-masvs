@@ -16,7 +16,7 @@ Folgende Eckpunkte gelten:
 
 2. Die Bedrohungsanalyse muss realistisch und vernünftig erfolgen. Zum Beispiel nützt es nichts, einen kryptografischen Schlüssel in einer White-Box-Implementierung zu "verbergen" wenn doch der Angreifer ohne weiteres an den Code kommt.
 
-3. Die Effektivität der Schutzmaßnahmen sollte immer von einem Experten mit ausgewiesener Erfahrung im Bereich Anti-Code-Manipulation und Code-Obfuskierung überprüft werden (siehe auch Kapitel "reverse engineering" and "assessing software protections" im Mobile Security Testing Guide).
+3. Die Effektivität der Schutzmaßnahmen sollte immer von einem Experten mit ausgewiesener Erfahrung im Bereich Anti-Code-Manipulation und Code-Obfuskierung überprüft werden (siehe auch Kapitel "reverse engineering" and "assessing software protections" im Mobile Application Security Testing Guide).
 
 ### Dynamische Analyse und Manipulation verhindern
 
@@ -53,7 +53,7 @@ Folgende Eckpunkte gelten:
 
 ## Referenzen
 
-Der OWASP Mobile Security Testing Guide bietet detaillierte Anleitungen, um die Anforderungen aus dieser Kategorie zu überprüfen.
+Der OWASP Mobile Application Security Testing Guide bietet detaillierte Anleitungen, um die Anforderungen aus dieser Kategorie zu überprüfen.
 
 - Android: Testing Resiliency Against Reverse Engineering - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
 - iOS: Testing Resiliency Against Reverse Engineering - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>

@@ -25,9 +25,9 @@ Los informes creados por organismos de certificación deberían incluir los sigu
 
 Nòtese que no basta con simplemente ejecutar una herramienta y presentar un informe sobre los fallos; esto no aporta suficientes evidencias de que se han analizado y probado a fondo todos los aspectos a nivel de una certificación. En caso de controversia, debe haber pruebas suficientes para demostrar que todos los requisitos verificados han sido efectivamente probados.
 
-### Usando la Guía de Pruebas de Seguridad Móvil de OWASP (MSTG)
+### Usando la Guía de Pruebas de Seguridad Móvil de OWASP (MASTG)
 
-La OWASP MSTG es una guía para la verificación de la seguridad de las aplicaciones móviles. Describe los procedimientos técnicos para verificar los requisitos listados en el MASVS. La MSTG incluye una lista de casos de prueba, cada uno de los cuales se corresponde con un requerimiento del MASVS. Mientras que los requisitos del MASVS son de alto nivel y genéricos, la MSTG proporciona recomendaciones detalladas y procedimientos de verificación para cada uno de los sistemas operativos móviles.
+La OWASP MASTG es una guía para la verificación de la seguridad de las aplicaciones móviles. Describe los procedimientos técnicos para verificar los requisitos listados en el MASVS. La MASTG incluye una lista de casos de prueba, cada uno de los cuales se corresponde con un requerimiento del MASVS. Mientras que los requerimientos del MASVS son de alto nivel y genéricos, la MASTG proporciona recomendaciones detalladas y procedimientos de verificación para cada uno de los sistemas operativos móviles.
 
 ### El Papel de las Herramientas de Pruebas de Seguridad Automatizadas
 
@@ -45,7 +45,7 @@ Muchas organizaciones pueden beneficiarse de la adopción del MASVS simplemente 
 
 ### Como Base para las Metodologías de Pruebas de Seguridad
 
-Una buena metodología de pruebas de seguridad para aplicaciones móviles debe cubrir todos los requisitos listados en el MASVS. La OWASP MSTG describe los casos de prueba de tipo _black-box_ y _white-box_ para cada requerimiento de verificación.
+Una buena metodología de pruebas de seguridad para aplicaciones móviles debe cubrir todos los requisitos listados en el MASVS. La OWASP MASTG describe los casos de prueba de tipo _black-box_ y _white-box_ para cada requisito de verificación.
 
 ### Como Guía para la Automatización de Pruebas Unitarias y de Integración
 
