@@ -37,6 +37,6 @@
 - **Seguridad en la Capa de Transporte (TLS)** – Protocolos criptográficos que proporcionan seguridad en las comunicaciones a través de Internet.
 - **URI y URL** – Un Identificador Uniforme de Recursos (URI) es una cadena de caracteres que se utiliza para identificar un nombre o un recurso web. Un Localizador Uniforme de Recursos (URL) se utiliza a menudo como referencia a un recurso.
 - **Pruebas de Aceptación de Usuario (UAT)** – Tradicionalmente un entorno de pruebas que se comporta como el entorno de producción donde se realizan todas las pruebas de la aplicación antes de su puesta en marcha.
-- **Verificador** – La persona o equipo que está revisando una aplicación usando los requerimientos del MASVS de OWASP.
+- **Verificador** – La persona o equipo que está revisando una aplicación usando los requisitos del MASVS de OWASP.
 - **Lista Blanca** – Una lista de datos u operaciones permitidas, por ejemplo, una lista de caracteres que permiten realizar la validación de la entrada.
 - **Certificado X.509** – Un certificado X.509 es un certificado digital que utiliza el estándar internacional de infraestructura de clave pública (PKI) X.509 ampliamente aceptado para verificar que una clave pública pertenece a la identidad de usuario, dispositivo o servicio contenida en el certificado.

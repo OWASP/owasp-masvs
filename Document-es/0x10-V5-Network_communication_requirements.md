@@ -1,19 +1,19 @@
-# V5: Requerimientos de Comunicación a través de la red
+# V5: Requisitos de Comunicación a través de la red
 
-## Objetivo de Control
+## Objetivo de la Categoría V5
 
-Los controles enumerados en esta categoría tienen por objetivo asegurar la confidencialidad e integridad de la información intercambiada entre la aplicación móvil y los servicios del servidor. Como mínimo se deben utilizar canales seguros y cifrados utilizando el protocolo TLS con las configuraciones apropiadas. En el nivel 2 se establecen medidas en profundidad como fijación de certificados SSL.
+Los controles enumerados en esta categoría tienen el objetivo de asegurar la confidencialidad e integridad de la información intercambiada entre la aplicación móvil y los servicios del servidor. Como mínimo se deben utilizar canales seguros y cifrados utilizando el protocolo TLS con las configuraciones apropiadas. En el nivel 2 se establecen medidas en profundidad como fijación de certificados SSL.
 
-## Requerimientos de Verificación de Seguridad
+## Requisitos de Verificación de Seguridad
 
 | # | MSTG-ID | Descripción | L1 | L2 |
 | -- | ---------- | ---------------------- | - | - |
-| **5.1** | MSTG-NETWORK-1 | La información es enviada cifrada utilizando TLS. El canal seguro es usado consistentemente en la aplicación. | x | x |
-| **5.2** | MSTG-NETWORK-2 | Las configuraciones del protocolo TLS siguen las mejores prácticas de la industria, o lo hacen lo mejor posible en caso de que el sistema operativo del dispositivo no soporte los estándares recomendados. | x | x |
-| **5.3** | MSTG-NETWORK-3 | La aplicación verifica el certificado X.509 del sistema remoto al establecer el canal seguro y sólo se aceptan certificados firmados por una CA de confianza. | x | x |
-| **5.4** | MSTG-NETWORK-4 | La aplicación utiliza su propio almacén de certificados o realiza _pinning_ del certificado o la clave pública del servidor. Bajo ningún concepto establecerá conexiones con servidores que ofrecen otros certificados o claves, incluso si están firmados por una CA de confianza. |   | x |
-| **5.5** | MSTG-NETWORK-5 | La aplicación no depende de un único canal de comunicaciones inseguro (email o SMS) para operaciones críticas como registro de usuarios o recuperación de cuentas. |  | x |
-| **5.6** | MSTG-NETWORK-6 | La aplicación sólo depende de bibliotecas de conectividad y seguridad actualizadas. |  | x |
+| **5.1** | MSTG-NETWORK-1 | La información se debe enviar cifrada utilizando TLS. El canal seguro es usado consistentemente en la aplicación. | x | x |
+| **5.2** | MSTG-NETWORK-2 | Las configuraciones del protocolo TLS deben seguir las buenas prácticas de la industria, o deben hacerlo lo mejor posible en caso de que el sistema operativo del dispositivo no soporte los estándares recomendados. | x | x |
+| **5.3** | MSTG-NETWORK-3 | La aplicación debe verificar el certificado X.509 del sistema remoto al establecer el canal seguro y sólo se deben aceptar certificados firmados por una autoridad certificadora (CA) de confianza. | x | x |
+| **5.4** | MSTG-NETWORK-4 | La aplicación debe utilizar su propio almacén de certificados o realiza _pinning_ del certificado o la clave pública del servidor. Bajo ningún concepto establecerá conexiones con servidores que ofrecen otros certificados o claves, incluso si están firmados por una autoridad certificadora (CA) de confianza. |   | x |
+| **5.5** | MSTG-NETWORK-5 | La aplicación no debe depender de un único canal de comunicaciones inseguro (email o SMS) para operaciones críticas como registro de usuarios o recuperación de cuentas. |  | x |
+| **5.6** | MSTG-NETWORK-6 | La aplicación sólo debe depender de bibliotecas de conectividad y seguridad actualizadas. |  | x |
 
 <!-- \pagebreak -->
 
