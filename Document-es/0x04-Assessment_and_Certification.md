@@ -31,7 +31,7 @@ La OWASP MASTG es una guía para la verificación de la seguridad de las aplicac
 
 ### El Papel de las Herramientas de Pruebas de Seguridad Automatizadas
 
-Se recomienda el uso de escáneres de código fuente y herramientas de auditoría de tipo _black-box_ para aumentar la eficiencia siempre que sea posible. Sin embargo, no es posible completar la verificación MASVS utilizando únicamente herramientas automatizadas: Cada aplicación móvil es diferente. Por tanto, la comprensión de la arquitectura general, la lógica de negocio y los problemas específicos de las tecnologías y plataformas que se utilizan es un requerimiento obligatorio para verificar la seguridad de la aplicación.
+Se recomienda el uso de escáneres de código fuente y herramientas de auditoría de tipo _black-box_ para aumentar la eficiencia siempre que sea posible. Sin embargo, no es posible completar la verificación MASVS utilizando únicamente herramientas automatizadas: cada aplicación móvil es diferente. Por tanto, la comprensión de la arquitectura general, la lógica de negocio y los problemas específicos de las tecnologías y plataformas que se utilizan es un requerimiento obligatorio para verificar la seguridad de la aplicación.
 
 ## Otros Usos
 

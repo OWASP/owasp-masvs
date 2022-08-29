@@ -50,7 +50,7 @@ En resumen, los siguientes tipos de verificación están disponibles:
 - MASVS-L2
 - MASVS-L2+R
 
-Las diferentes combinaciones reflejan diferentes grados de seguridad y resistencia. El objetivo es permitir la flexibilidad: Por ejemplo, un juego móvil puede no requerir controles de seguridad MASVS-L2, como la autenticación de doble factor por razones de usabilidad, pero seguramente deba intentar prevenir la manipulación del código por razones de negocio.
+Las diferentes combinaciones reflejan diferentes grados de seguridad y resistencia. El objetivo es permitir la flexibilidad: por ejemplo, un juego móvil puede no requerir controles de seguridad MASVS-L2, como la autenticación de doble factor por razones de usabilidad, pero seguramente deba intentar prevenir la manipulación del código por razones de negocio.
 
 #### Cómo Elegir el Tipo de Verificación
 
@@ -64,19 +64,19 @@ La implementación de los requisitos del nivel MASVS-L2 aumenta la seguridad, pe
 
 ###### MASVS-L2
 
-- Industria de la Salud: Aplicaciones móviles que almacenan información personal identificable que puede ser utilizada para el robo de identidad, pagos fraudulentos, o una variedad de esquemas de fraude. Para el sector de la salud en los Estados Unidos, las consideraciones de cumplimiento incluyen la Ley de Portabilidad y Responsabilidad del Seguro Médico (HIPAA, por sus siglas en inglés), Privacidad, Seguridad, Reglas de Notificación de Violación (Breach Notification Rules) y Reglas de Seguridad del Paciente (Patient Safety Rule).
+- Industria de la Salud: aplicaciones móviles que almacenan información personal identificable que puede ser utilizada para el robo de identidad, pagos fraudulentos, o una variedad de esquemas de fraude. Para el sector de la salud en los Estados Unidos, las consideraciones de cumplimiento incluyen la Ley de Portabilidad y Responsabilidad del Seguro Médico (HIPAA, por sus siglas en inglés), Privacidad, Seguridad, Reglas de Notificación de Violación (Breach Notification Rules) y Reglas de Seguridad del Paciente (Patient Safety Rule).
 
-- Sector Financiero: Aplicaciones que permiten el acceso a información altamente sensible como números de tarjetas de crédito, información personal o que permiten al usuario mover fondos. Estas aplicaciones deben tener controles de seguridad adicionales para prevenir el fraude. Las aplicaciones financieras necesitan asegurar el cumplimiento de las normas de seguridad de datos de la industria de tarjetas de pago (PCI DSS), Gramm Leech Bliley Act y Sarbanes-Oxley Act (SOX).
+- Sector Financiero: aplicaciones que permiten el acceso a información altamente sensible como números de tarjetas de crédito, información personal o que permiten al usuario mover fondos. Estas aplicaciones deben tener controles de seguridad adicionales para prevenir el fraude. Las aplicaciones financieras necesitan asegurar el cumplimiento de las normas de seguridad de datos de la industria de tarjetas de pago (PCI DSS), Gramm Leech Bliley Act y Sarbanes-Oxley Act (SOX).
 
 ###### MASVS L1+R
 
 - Aplicaciones móviles donde la protección de la propiedad intelectual (IP, por sus siglas en inglés) es un claro objetivo empresarial. Los controles de resistencia listados en MASVS-R se pueden utilizar para incrementar el esfuerzo necesario para obtener el código fuente original y dificultar la manipulación / _cracking_.
 
-- Industria de los videojuegos: Aquellos con una necesidad esencial de evitar la posibilidad de _modding_ y el engaño, como los videojuegos competitivos _online_. Hacer trampa es un tema importante en los juegos _online_, ya que una gran cantidad de tramposos conduce a un descontento de la base de jugadores y, en última instancia, puede causar que un juego fracase. MASVS-R proporciona controles básicos contra la manipulación para ayudar a incrementar el esfuerzo que los tramposos deberían realizar.
+- Industria de los videojuegos: aplicaciones con una necesidad esencial de evitar la posibilidad de _modding_ y el engaño, como los videojuegos competitivos _online_. Hacer trampa es un tema importante en los juegos _online_, ya que una gran cantidad de tramposos conduce a un descontento de la base de jugadores y, en última instancia, puede causar que un juego fracase. MASVS-R proporciona controles básicos contra la manipulación para ayudar a incrementar el esfuerzo que los tramposos deberían realizar.
 
 ###### MASVS L2+R
 
-- Industria Financiera: Aplicaciones de banca móvil que permiten al usuario mover fondos, donde las técnicas de inyección de código e instrumentación en dispositivos comprometidos suponen un riesgo. En este caso, los controles MASVS-R se pueden utilizar para dificultar la manipulación de código, dificultando el trabajo de potenciales autores de _malware_.
+- Industria Financiera: aplicaciones de banca móvil que permiten al usuario mover fondos, donde las técnicas de inyección de código e instrumentación en dispositivos comprometidos suponen un riesgo. En este caso, los controles MASVS-R se pueden utilizar para dificultar la manipulación de código, dificultando el trabajo de potenciales autores de _malware_.
 
 - Todas las aplicaciones móviles que, por diseño, necesitan almacenar datos sensibles en el dispositivo móvil y, al mismo tiempo, deben soportar una amplia gama de dispositivos y versiones del sistema operativo. En este caso, los controles de resistencia pueden utilizarse como una medida de defensa en profundidad para aumentar el esfuerzo de los atacantes que intentan extraer datos sensibles.
 

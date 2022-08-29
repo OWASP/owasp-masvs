@@ -13,7 +13,7 @@ Estos controles revisan que se utilicen las APIs de la plataforma y componentes 
 | **6.3** | MSTG-PLATFORM-3 | La aplicación no debe exponer ninguna funcionalidad sensible a través de esquemas de URL salvo que dichos mecanismos estén debidamente protegidos. | x | x |
 | **6.4** | MSTG-PLATFORM-4 | La aplicación no debe exponer ninguna funcionalidad sensible a través de mecanismos IPC salvo que dichos mecanismos estén debidamente protegidos. | x | x |
 | **6.5** | MSTG-PLATFORM-5 | JavaScript debe estar deshabilitado en los WebViews salvo que sea necesario. | x | x |
-| **6.6** | MSTG-PLATFORM-6 | Las WebViews se deben configurar para permitir el mínimo número de protocolos requeridos (idealmente sólo https). Aquellos considerados como peligrosos deben estar deshabilitados (file, tel y app-id). | x | x |
+| **6.6** | MSTG-PLATFORM-6 | Las WebViews se deben configurar para permitir el mínimo número de protocolos requeridos (idealmente sólo https). Aquellos considerados como peligrosos deben estar deshabilitados (p. ej. file, tel y app-id). | x | x |
 | **6.7** | MSTG-PLATFORM-7 | Si los métodos nativos son expuestos en WebViews, debe verificarse que cualquier componente JavaScript se carga exclusivamente desde el contenedor de la aplicación. | x | x |
 | **6.8** | MSTG-PLATFORM-8 | La serialización de objetos, si se realiza, debe implementarse utilizando APIs seguras. | x | x |
 | **6.9** | MSTG-PLATFORM-9 | La aplicación debe protegerse contra ataques de tipo screen overlay. (sólo en Android) |  | x |

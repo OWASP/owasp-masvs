@@ -10,7 +10,7 @@ El MASVS se centra en las aplicaciones y por esto no cubre políticas para el di
 
 Los datos sensibles en el contexto del MASVS se refieren tanto a las credenciales de usuario como a cualquier otro dato que se considere sensible en el contexto particular de los siguientes ejemplos:
 
-- Información de identificación personal que puede ser usada para el robo de identidad: Información de la Seguridad Social, números de tarjetas de crédito, números de cuentas bancarias, información médica.
+- Información de identificación personal que puede ser usada para el robo de identidad: información de la Seguridad Social, números de tarjetas de crédito, números de cuentas bancarias, información médica.
 - Datos altamente confidenciales que, en caso de que ser comprometidos, ocasionarían daños a la reputación y/o costes financieros: información contractual, información cubierta por acuerdos de confidencialidad, información de gestión.
 - Cualquier dato que debe ser protegido por ley o por razones de conformidad.
 

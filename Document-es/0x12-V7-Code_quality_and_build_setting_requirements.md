@@ -12,11 +12,11 @@ Estos controles buscan asegurar que se siguieron las prácticas de seguridad bá
 | **7.2** | MSTG-CODE-2 | La aplicación debe estar publicada en modo release y con sus configuraciones apropiadas (p. ej. non-debuggable). | x | x |
 | **7.3** | MSTG-CODE-3 | Los símbolos de depuración deben estar eliminados de los binarios nativos. | x | x |
 | **7.4** | MSTG-CODE-4 | Cualquier código de depuración y/o de asistencia al desarrollador (p. ej. código de test, backdoors, configuraciones ocultas) debe ser eliminado. La aplicación no debe hacer logs detallados de errores ni de mensajes de depuración. | x | x |
-| **7.5** | MSTG-CODE-5 | Todos los componentes de terceros (p. ej. librerías y frameworks) se encuentran identificados y sus vulnerabilidades conocidas revisadas. | x | x |
+| **7.5** | MSTG-CODE-5 | Todos los componentes de terceros deben ser identificados y revisados en busca de vulnerabilidades comunes. | x | x |
 | **7.6** | MSTG-CODE-6 | La aplicación debe capturar y gestionar debidamente las posibles excepciones. | x | x |
 | **7.7** | MSTG-CODE-7 | Un correcto control de errores debe denegar el acceso por defecto. | x | x |
 | **7.8** | MSTG-CODE-8 | En el código no administrado, la memoria solicitada debe ser utilizada y liberada de manera correcta. | x | x |
-| **7.9** | MSTG-CODE-9 | Las funcionalidades y las herramientas de seguridad gratuitas deben estar activadas para: La simplificación del código, protección de la pila, soporte PIE y conteo automático de referencias. | x | x |
+| **7.9** | MSTG-CODE-9 | Las funcionalidades y las herramientas de seguridad gratuitas deben estar activadas. Esto incluye simplificación del código, protección de la pila, soporte PIE y conteo automático de referencias. | x | x |
 
 ## Referencias
 
