@@ -1,5 +1,9 @@
 {
-    "ignorePatterns": [],
+    "ignorePatterns": [
+        {
+            "pattern": "^https://www.microsoft.com/en-us/securityengineering/sdl/"
+        }
+    ],
     "httpHeaders": [{
         "urls": [
             "https://", "http://"
