@@ -32,6 +32,6 @@ Para más información, ver también:
 - OWASP Top 10 Móvil: M10 (Funcionalidades Extrañas) - <hhttps://owasp.org/www-project-mobile-top-10/2016-risks/m10-extraneous-functionality>
 - Modelado de Amenazas (OWASP) - <https://owasp.org/www-community/Application_Threat_Modeling>
 - "Cheat Sheet" del Ciclo de Vida del Desarrollo Software Seguro (OWASP) - <https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets_excluded/Secure_SDLC_Cheat_Sheet.md>
-- Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
+- Microsoft SDL - <https://www.microsoft.com/en-us/securityengineering/sdl/>
 - NIST SP 800-57 (Recomendación de Gestión de Claves) - <https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-5/final>
 - security.txt - <https://securitytxt.org/>
