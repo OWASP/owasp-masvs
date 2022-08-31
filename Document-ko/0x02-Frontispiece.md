@@ -35,7 +35,7 @@ Copyright © 2021 The OWASP Foundation. 본 저작물은 [Creative Commons Attri
 | 독일어 | Rocco Gränitz, Sven Schleier (Review) |
 | 스페인어 | Martin Marsicano, Carlos Holguera |
 | 일본어 | Koki Takeyama, Riotaro Okada (Review) |
-| 러시어아 | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| 러시어아 | Gall Maxim, Eugen Martynov, Chelnokov Vladislav, Oprya Egor, Tereshin Dmitry |
 | 힌디 어 | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
 | 한국어 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | 페르시아 인 | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
