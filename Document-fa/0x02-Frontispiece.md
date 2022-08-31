@@ -39,7 +39,7 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 | هندی | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
 | ژاپنی | Koki Takeyama, Riotaro Okada (Review) |
 | کره‌ای | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
-| روسی | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
+| روسی | Gall Maxim, Eugen Martynov, Chelnokov Vladislav, Oprya Egor, Tereshin Dmitry |
 | اسپانیایی | Martin Marsicano, Carlos Holguera |
 | پرتغالی (برزیلی) | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
 | پرتغالی | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|

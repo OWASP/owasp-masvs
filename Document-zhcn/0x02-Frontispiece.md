@@ -35,7 +35,7 @@ MASVS是社区努力和行业反馈的成果。我们希望该标准会随着时
 | 印地语 | Mukesh Sharma, Ritesh Kumar, Atul Kunwar, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
 | 西班牙语 | Martin Marsicano, Carlos Holguera |
 | 日语 | Koki Takeyama, Riotaro Okada (审核) |
-| 俄语 | Gall Maxim, Chelnokov Vladislav (审核), Oprya Egor (审核), Tereshin Dmitry (审核) |
+| 俄语 | Gall Maxim, Chelnokov Vladislav, Oprya Egor, Tereshin Dmitry |
 | 韩语 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | 波斯语 | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
 | 葡萄牙语 | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
