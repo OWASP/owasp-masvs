@@ -34,7 +34,7 @@
 - ده تهدید برتر موبایل (OWASP) - تهدید رتبه‎ی دهم (عملکرد نامربوط) - <https://owasp.org/www-project-mobile-top-10/2016-risks/m10-extraneous-functionality>
 - مدلسازی تهدید (OWASP) - <https://owasp.org/www-community/Application_Threat_Modeling>
 - راهنمای چرخه‌ی حیات توسعه‌ی امن نرم‌افزار (OWASP) - <https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets_excluded/Secure_SDLC_Cheat_Sheet.md>
-- راهنمای چرخه‌ی حیات توسعه‌ی نرم‌افزار مایکروسافت - <https://www.microsoft.com/en-us/sdl/>
+- راهنمای چرخه‌ی حیات توسعه‌ی نرم‌افزار مایکروسافت - <https://www.microsoft.com/en-us/securityengineering/sdl/>
 - استاندارد (NIST SP 800-57) - <https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-5/final>
 - (security.txt) - <https://securitytxt.org>
 
