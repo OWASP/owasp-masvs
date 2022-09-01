@@ -25,9 +25,9 @@
 
 OWASP移动安全性测试指南提供了验证上面列出的要求的详细说明。
 
-- 常规：身份验证和会话管理 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
-- Android：测试本地身份验证 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
-- iOS：测试本地身份验证 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
+- 常规：身份验证和会话管理 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
+- Android：测试本地身份验证 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
+- iOS：测试本地身份验证 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
 
 有关更多信息，另请参见：
 

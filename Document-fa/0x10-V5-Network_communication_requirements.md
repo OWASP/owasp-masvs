@@ -21,9 +21,9 @@
 
 راهنمای وارسی امنیتی موبایل OWASP، دستورالعمل‌هایی مفصل برای تایید الزامات لیست شده در این بخش، فراهم می‌کند.
 
-- عمومی: تست ارتباطات شبکه - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
-- Android: تست ارتباطات شبکه - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
-- iOS: تست ارتباطات شبکه - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
+- عمومی: تست ارتباطات شبکه - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x04f-Testing-Network-Communication.md>
+- Android: تست ارتباطات شبکه - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05g-Testing-Network-Communication.md>
+- iOS: تست ارتباطات شبکه - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06g-Testing-Network-Communication.md>
 
 برای اطلاعات بیشتر، مشاهده کنید:
 

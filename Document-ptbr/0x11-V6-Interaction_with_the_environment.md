@@ -24,8 +24,8 @@ Os controles deste grupo garantem que o aplicativo use APIs da plataforma e comp
 
 O Guia de Teste de Segurança Móvel da OWASP fornece instruções detalhadas para verificar os requisitos listados nesta seção (em inglês).
 
-- Android: Testing Platform Interaction - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
-- iOS: Testing Platform Interaction - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
+- Android: Testing Platform Interaction - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
+- iOS: Testing Platform Interaction - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
 
 Para mais informações, veja (em inglês):
 

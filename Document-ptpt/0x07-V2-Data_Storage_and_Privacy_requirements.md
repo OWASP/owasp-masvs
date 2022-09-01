@@ -40,8 +40,8 @@ A grande maioria dos problemas de exposição de dados pode ser evitada através
 
 O OWASP Mobile Application Security Testing Guide providência instruções detalhadas para verificação dos requisitos listados nesta secção.
 
-- Android: Testing Data Storage - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
-- iOS: Testing Data Storage - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
+- Android: Testing Data Storage - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05d-Testing-Data-Storage.md>
+- iOS: Testing Data Storage - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06d-Testing-Data-Storage.md>
 
 Para mais informação:
 

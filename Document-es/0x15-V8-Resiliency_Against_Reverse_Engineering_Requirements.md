@@ -14,7 +14,7 @@ Se aplican las siguientes consideraciones:
 
 2. El modelo de amenaza debe ser sensato. Por ejemplo, ocultar una clave criptográfica en una implementación de caja blanca es un problema si el atacante puede simplemente utilizar la aplicación como un todo.
 
-3. La eficacia de la protección siempre debe ser verificada por un experto con experiencia en el testeo y uso de tipos específicos de anti-manipulación y ofuscación. Ver también el capítulo ["Ingeniería Inversa y Manipulación de Aplicaciones Móviles"](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04c-Tampering-and-Reverse-Engineering.md) en la Guía de Pruebas de Seguridad Móvil (OWASP MSTG).
+3. La eficacia de la protección siempre debe ser verificada por un experto con experiencia en el testeo y uso de tipos específicos de anti-manipulación y ofuscación. Ver también el capítulo ["Ingeniería Inversa y Manipulación de Aplicaciones Móviles"](https://github.com/OWASP/owasp-mastg/blob/master/Document/0x04c-Tampering-and-Reverse-Engineering.md) en la Guía de Pruebas de Seguridad Móvil (OWASP MSTG).
 
 <!-- \pagebreak -->
 
@@ -57,8 +57,8 @@ Se aplican las siguientes consideraciones:
 
 La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detalladas para verificar los requisitos listados en esta sección.
 
-- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
-- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- Android - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- iOS - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
 Para más información, ver también:
 

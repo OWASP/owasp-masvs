@@ -55,8 +55,8 @@
 
 OWASP MSTG содержит подробные инструкции по верификации соответствия требованиям, перечисленным в этом разделе.
 
-- Android: Тестирование устойчивости к обратной разработке - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
-- iOS: Тестирование устойчивости к обратной разработке - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- Android: Тестирование устойчивости к обратной разработке - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- iOS: Тестирование устойчивости к обратной разработке - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
 Для получения дополнительной информации смотрите также:
 

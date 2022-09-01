@@ -26,8 +26,8 @@
 
 راهنمای وارسی امنیتی موبایل OWASP، دستورالعمل‌هایی مفصل برای تایید الزامات لیست شده در این بخش، فراهم می‌کند.
 
-- Android: تست تعامل با پلتفورم - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
-- iOS: تست تعامل با پلتفورم - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
+- Android: تست تعامل با پلتفورم - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
+- iOS: تست تعامل با پلتفورم - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
 
 برای اطلاعات بیشتر همچنین مشاهده کنید:
 

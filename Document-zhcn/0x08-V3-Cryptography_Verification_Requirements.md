@@ -23,8 +23,8 @@
 
 OWASP 移动安全测试指南提供了验证本节中列出的要求的详细说明。
 
-- Android: 测试密码学 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
-- iOS: 测试密码学 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
+- Android: 测试密码学 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05e-Testing-Cryptography.md>
+- iOS: 测试密码学 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06e-Testing-Cryptography.md>
 
 测试密码学:
 

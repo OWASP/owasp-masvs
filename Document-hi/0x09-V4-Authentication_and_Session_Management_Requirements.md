@@ -25,9 +25,9 @@
 
 OWASP मोबाइल सुरक्षा परीक्षण गाइड ऊपर सूचीबद्ध आवश्यकताओं की पुष्टि करने के लिए विस्तृत निर्देश प्रदान करता है।
 
-- सामान्य: प्रमाणीकरण और सत्र प्रबंधन - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
-- Android: स्थानीय प्रमाणीकरण का परीक्षण - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
-- iOS: स्थानीय प्रमाणीकरण का परीक्षण -  <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
+- सामान्य: प्रमाणीकरण और सत्र प्रबंधन - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x04e-Testing-Authentication-and-Session-Management.md>
+- Android: स्थानीय प्रमाणीकरण का परीक्षण - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05f-Testing-Local-Authentication.md>
+- iOS: स्थानीय प्रमाणीकरण का परीक्षण -  <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06f-Testing-Local-Authentication.md>
 
 For more information, see also:
 

@@ -53,8 +53,8 @@
 
 OWASP 移动安全测试指南提供了验证本节中列出的要求的详细说明。
 
-- Android: 测试对于逆向工程的韧性 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
-- iOS: 测试对于逆向工程的韧性 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- Android: 测试对于逆向工程的韧性 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- iOS: 测试对于逆向工程的韧性 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
 有关详细信息，请参阅：
 

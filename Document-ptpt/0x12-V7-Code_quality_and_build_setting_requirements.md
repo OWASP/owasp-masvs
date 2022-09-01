@@ -22,8 +22,8 @@ O objetivo deste controlo é garantir que as práticas básicas de segurança em
 
 O OWASP Mobile Application Security Testing Guide providencia instruções detalhadas para verificação dos requisitos acima listados.
 
-- Android: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
-- iOS: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
+- Android: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- iOS: Testing Code Quality and Build Settings - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
 
 Para mais informação, consulte:
 

@@ -24,8 +24,8 @@
 
 راهنمای وارسی امنیتی موبایل OWASP، دستورالعمل‌هایی مفصل برای تایید الزامات لیست شده در این بخش، فراهم می‌کند.
 
-- Android: تست تنظیمات ساخت و کیفیت کد - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
-- iOS: تست تنظیمات ساخت و کیفیت کد - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
+- Android: تست تنظیمات ساخت و کیفیت کد - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- iOS: تست تنظیمات ساخت و کیفیت کد - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
 
 برای اطلاعات بیشتر، مشاهده کنید:
 

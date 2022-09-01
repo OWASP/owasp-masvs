@@ -61,8 +61,8 @@
 
 راهنمای وارسی امنیتی موبایل OWASP، دستورالعمل‌هایی مفصل برای تایید الزامات لیست شده در این بخش، فراهم می‌کند.
 
-- اندروید: تست انعطاف پذیری در برابر مهندسی معکوس - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
-- iOS: تست انعطاف پذیری در برابر مهندسی معکوس - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- اندروید: تست انعطاف پذیری در برابر مهندسی معکوس - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- iOS: تست انعطاف پذیری در برابر مهندسی معکوس - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
 همچنین برای اطلاعات بیشتر، مشاهده کنید:
 
