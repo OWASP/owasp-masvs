@@ -40,8 +40,8 @@ La gran mayoría de las cuestiones relativas a la divulgación de datos pueden p
 
 La Guía de Pruebas de Seguridad Móvil de OWASP proporciona instrucciones detalladas para verificar los requisitos listados en esta sección.
 
-- Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
-- iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
+- Android - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05d-Testing-Data-Storage.md>
+- iOS - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06d-Testing-Data-Storage.md>
 
 Para más información, ver también:
 

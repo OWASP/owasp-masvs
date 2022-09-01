@@ -25,8 +25,8 @@ Kryptografie ist ein wesentlicher Eckpfeiler zum Schutz von Daten, die auf mobil
 
 Der OWASP Mobile Application Security Testing Guide bietet detaillierte Anleitungen, um die Anforderungen aus dieser Kategorie zu überprüfen.
 
-- Android: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
-- iOS: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
+- Android: Testing Cryptography - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05e-Testing-Cryptography.md>
+- iOS: Testing Cryptography - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06e-Testing-Cryptography.md>
 
 Weitere Informationen unter:
 

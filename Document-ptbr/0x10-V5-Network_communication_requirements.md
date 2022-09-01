@@ -19,9 +19,9 @@ O propósito dos controles listados nessa seção é garantir a confidencialidad
 
 O Guia de Teste de Segurança de Aplicações Móveis da OWASP provê instruções detalhadas para verificar os requerimentos listados nesta seção (em inglês).
 
-- General: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
-- Android: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
-- iOS: Testing Network Communication - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
+- General: Testing Network Communication - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x04f-Testing-Network-Communication.md>
+- Android: Testing Network Communication - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05g-Testing-Network-Communication.md>
+- iOS: Testing Network Communication - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06g-Testing-Network-Communication.md>
 
 Para mais informações, veja também (em inglês):
 

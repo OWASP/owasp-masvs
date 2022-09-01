@@ -19,9 +19,9 @@
 
 OWASP移动安全测试指南提供了验证本节中列出的要求的详细说明。
 
-- 常规：测试网络通信 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
-- Android: 测试网络通信 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
-- iOS: 测试网络通信 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
+- 常规：测试网络通信 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x04f-Testing-Network-Communication.md>
+- Android: 测试网络通信 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05g-Testing-Network-Communication.md>
+- iOS: 测试网络通信 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06g-Testing-Network-Communication.md>
 
 有关更多信息，另请参见：
 

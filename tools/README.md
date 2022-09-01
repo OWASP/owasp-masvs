@@ -40,7 +40,7 @@ Files:
 
 6. Verify that Github Action was triggered. The Github action "Upload Release Asset" need to be triggered. This might take 5-10 minutes.
 7. Update OWASP Wiki if necessary
-8. Tweet about it with @OWASP-MSTG, Linkedin and OWASP Slack
+8. Tweet about it with @OWASP_MAS, Linkedin and OWASP Slack
 
 In case something went wrong and we need to remove the release:
 

@@ -22,8 +22,8 @@
 
 OWASP 移动安全测试指南提供了验证上述要求的详细说明。
 
-- Android: 测试代码质量和编译设置 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
-- iOS: 测试代码质量和编译设置 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
+- Android: 测试代码质量和编译设置 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- iOS: 测试代码质量和编译设置 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
 
 有关详细信息，请参阅：
 

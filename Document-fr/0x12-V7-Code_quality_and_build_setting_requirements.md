@@ -22,8 +22,8 @@ Le but de ce contrôle est d'assurer que les pratiques de codage de base concern
 
 Le Mobile Application Security Testing Guide de l'OWASP (guide de test de la Sécurité mobile) fournit des instructions détaillées pour valider les exigences listées dans cette section.
 
-- Android : Tester la qualité du code et les paramètres de génération - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
-- iOS : Tester la qualité du code et les paramètres de génération - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
+- Android : Tester la qualité du code et les paramètres de génération - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- iOS : Tester la qualité du code et les paramètres de génération - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
 
 Pour de plus amples informations, il est possible de consulter aussi :
 

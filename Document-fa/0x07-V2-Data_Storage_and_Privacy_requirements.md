@@ -43,8 +43,8 @@
 
 راهنمای وارسی امنیتی موبایل OWASP، دستورالعمل‌هایی مفصل را برای تایید الزامات لیست شده در این بخش، فراهم می کند.
 
-- اندروید: تست محل ذخیره‌سازی داده - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
-- iOS: تست محل ذخیره‌سازی داده - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
+- اندروید: تست محل ذخیره‌سازی داده - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05d-Testing-Data-Storage.md>
+- iOS: تست محل ذخیره‌سازی داده - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06d-Testing-Data-Storage.md>
 
 همچنین برای اطلاعات بیشتر مشاهده کنید:
 

@@ -23,8 +23,8 @@
 
 OWASP MSTG содержит подробные инструкции по верификации требований, перечисленных в этом разделе.
 
-- Android: Тестирование криптографии - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
-- iOS: Тестирование криптографии - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
+- Android: Тестирование криптографии - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05e-Testing-Cryptography.md>
+- iOS: Тестирование криптографии - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06e-Testing-Cryptography.md>
 
 Для получения дополнительной информации смотрите также:
 

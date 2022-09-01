@@ -40,8 +40,8 @@ MASVS 規範中的涉及敏感資料用戶憑證和在特定情況中被視為�
 
 OWASP 行動安全檢測指南列出相關要求，並且相關章節中有詳細說明。
 
-- For Android - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
-- For iOS - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
+- For Android - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05d-Testing-Data-Storage.md>
+- For iOS - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06d-Testing-Data-Storage.md>
 
 更多相關信息，另請參閱：
 

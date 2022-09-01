@@ -59,8 +59,8 @@
 
 OWASP मोबाइल सुरक्षा परीक्षण गाइड इस खंड में सूचीबद्ध आवश्यकताओं की पुष्टि करने के लिए विस्तृत निर्देश प्रदान करता है।
 
-- Android: रिवर्स इंजीनियरिंग के खिलाफ लचीलापन परीक्षण - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
-- iOS: रिवर्स इंजीनियरिंग के खिलाफ लचीलापन परीक्षण - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- Android: रिवर्स इंजीनियरिंग के खिलाफ लचीलापन परीक्षण - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05j-Testing-Resiliency-Against-Reverse-Engineering.md>
+- iOS: रिवर्स इंजीनियरिंग के खिलाफ लचीलापन परीक्षण - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md>
 
 अधिक जानकारी के लिए, यह भी देखें:
 

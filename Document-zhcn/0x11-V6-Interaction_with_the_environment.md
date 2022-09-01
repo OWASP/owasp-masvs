@@ -25,8 +25,8 @@
 
 OWASP移动安全测试指南提供了验证本节中列出的要求的详细说明。
 
-- Android: 测试平台交互 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
-- iOS: 测试平台交互 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
+- Android: 测试平台交互 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05h-Testing-Platform-Interaction.md>
+- iOS: 测试平台交互 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06h-Testing-Platform-Interaction.md>
 
 有关详细信息，请参阅：
 

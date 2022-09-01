@@ -19,9 +19,9 @@
 
 OWASP मोबाइल सुरक्षा परीक्षण गाइड इस खंड में सूचीबद्ध आवश्यकताओं की पुष्टि करने के लिए विस्तृत निर्देश प्रदान करता है।
 
-- जनरल: परीक्षण नेटवर्क संचार  - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
-- एंड्रॉयड: परीक्षण नेटवर्क संचार  - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
-- आईओएस: परीक्षण नेटवर्क संचार  - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
+- जनरल: परीक्षण नेटवर्क संचार  - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x04f-Testing-Network-Communication.md>
+- एंड्रॉयड: परीक्षण नेटवर्क संचार  - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05g-Testing-Network-Communication.md>
+- आईओएस: परीक्षण नेटवर्क संचार  - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06g-Testing-Network-Communication.md>
 
 अधिक जानकारी के लिए, यह भी देखें:
 

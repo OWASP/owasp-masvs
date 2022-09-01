@@ -42,8 +42,8 @@ MASVS规范中涉及的敏感信息指的是用户登录信息和在实际应用
 
 OWASP移动安全测试指南对本章节中列出的验证要求都提供了的详细说明。
 
-- Android：测试数据存储 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
-- iOS：测试数据存储 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
+- Android：测试数据存储 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05d-Testing-Data-Storage.md>
+- iOS：测试数据存储 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06d-Testing-Data-Storage.md>
 
 更多信息，另请参见:
 

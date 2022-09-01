@@ -24,8 +24,8 @@
 
 OWASP MSTG содержит подробные инструкции по верификации требований, перечисленных в этом разделе.
 
-- Android: Тестирование взаимодействия с платформой - [https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md)
-- iOS: Тестирование взаимодействия с платформой - [https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md](https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md)
+- Android: Тестирование взаимодействия с платформой - [https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05h-Testing-Platform-Interaction.md](https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05h-Testing-Platform-Interaction.md)
+- iOS: Тестирование взаимодействия с платформой - [https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06h-Testing-Platform-Interaction.md](https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06h-Testing-Platform-Interaction.md)
 
 Для получения дополнительной информации смотрите также:
 

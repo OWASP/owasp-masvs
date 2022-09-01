@@ -23,8 +23,8 @@ Cryptography is an essential ingredient when it comes to protecting data stored 
 
 The OWASP Mobile Application Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
 
-- Android: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05e-Testing-Cryptography.md>
-- iOS: Testing Cryptography - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06e-Testing-Cryptography.md>
+- Android: Testing Cryptography - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05e-Testing-Cryptography.md>
+- iOS: Testing Cryptography - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06e-Testing-Cryptography.md>
 
 For more information, see also:
 

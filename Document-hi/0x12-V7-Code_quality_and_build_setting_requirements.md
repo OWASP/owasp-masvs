@@ -22,8 +22,8 @@
 
 OWASP मोबाइल सुरक्षा परीक्षण गाइड ऊपर सूचीबद्ध आवश्यकताओं की पुष्टि करने के लिए विस्तृत निर्देश प्रदान करता है।
 
-- एंड्रॉइड: टेस्टिंग कोड क्वालिटी और बिल्ड सेटिंग्स - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
-- iOS: टेस्टिंग कोड क्वालिटी और बिल्ड सेटिंग्स - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
+- एंड्रॉइड: टेस्टिंग कोड क्वालिटी और बिल्ड सेटिंग्स - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05i-Testing-Code-Quality-and-Build-Settings.md>
+- iOS: टेस्टिंग कोड क्वालिटी और बिल्ड सेटिंग्स - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06i-Testing-Code-Quality-and-Build-Settings.md>
 
 अधिक जानकारी के लिए, यह भी देखें:
 

@@ -41,8 +41,8 @@ The vast majority of data disclosure issues can be prevented by following simple
 
 The OWASP Mobile Application Security Testing Guide provides detailed instructions for verifying the requirements listed in this section.
 
-- Android: Testing Data Storage - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
-- iOS: Testing Data Storage - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
+- Android: Testing Data Storage - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05d-Testing-Data-Storage.md>
+- iOS: Testing Data Storage - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06d-Testing-Data-Storage.md>
 
 For more information, see also:
 

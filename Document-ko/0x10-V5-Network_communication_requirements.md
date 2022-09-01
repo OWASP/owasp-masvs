@@ -19,9 +19,9 @@
 
 OWASP 모바일 보안 테스트 안내서(MASTG)는 이 섹션에 나열된 요구사항을 확인하기 위한 자세한 지침을 제공합니다.
 
-- General: 네트워크 통신 테스트 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04f-Testing-Network-Communication.md>
-- Android: 네트워크 통신 테스트 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05g-Testing-Network-Communication.md>
-- iOS: 네트워크 통신 테스트 - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06g-Testing-Network-Communication.md>
+- General: 네트워크 통신 테스트 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x04f-Testing-Network-Communication.md>
+- Android: 네트워크 통신 테스트 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x05g-Testing-Network-Communication.md>
+- iOS: 네트워크 통신 테스트 - <https://github.com/OWASP/owasp-mastg/blob/master/Document/0x06g-Testing-Network-Communication.md>
 
 자세한 내용은 다음을 참조하십시오:
 
