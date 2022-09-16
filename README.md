@@ -34,19 +34,19 @@ The MASVS is a sister project of the [OWASP Mobile Application Security Testing 
 
 ## Trusted by ...
 
-The OWASP MASVS and MASTG are trusted by the following platform providers and standardization, governmental and educational institutions. [Learn more](https://mas.owasp.org/MASTG/0x02b-MASVS-MASTG-Adoption/).
+The OWASP MASVS and MASTG are trusted by the following platform providers and standardization, governmental and educational institutions. [Learn more](https://mas.owasp.org/MASTG/Intro/0x02b-MASVS-MASTG-Adoption/).
 
-<a href="https://mas.owasp.org/MASTG/0x02b-MASVS-MASTG-Adoption/">
+<a href="https://mas.owasp.org/MASTG/Intro/0x02b-MASVS-MASTG-Adoption/">
 <img src="https://github.com/OWASP/owasp-mastg/blob/master/Document/Images/Other/trusted-by-logos.png"/>
 </a>
 
 ## 🥇 MAS Advocates
 
-MAS Advocates are industry adopters of the OWASP MASVS and MASTG who have invested a significant and consistent amount of resources to push the project forward by providing consistent high-impact contributions and continuously spreading the word. [Learn more](https://mas.owasp.org/MASTG/0x02c-Acknowledgements).
+MAS Advocates are industry adopters of the OWASP MASVS and MASTG who have invested a significant and consistent amount of resources to push the project forward by providing consistent high-impact contributions and continuously spreading the word. [Learn more](https://mas.owasp.org/MASTG/Intro/0x02c-Acknowledgements).
 
 <br>
 
-<a href="https://mas.owasp.org/MASTG/0x02c-Acknowledgements#our-mastg-advocates">
+<a href="https://mas.owasp.org/MASTG/Intro/0x02c-Acknowledgements#our-mastg-advocates">
 <img src="https://raw.githubusercontent.com/OWASP/owasp-mastg/master/Document/Images/Other/nowsecure-logo.png" width="200px;" />
 </a>
 
