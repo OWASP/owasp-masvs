@@ -34,19 +34,19 @@ The MASVS is a sister project of the [OWASP Mobile Application Security Testing 
 
 ## Trusted by ...
 
-The OWASP MASVS and MASTG are trusted by the following platform providers and standardization, governmental and educational institutions. [Learn more](https://mas.owasp.org/MASTG/0x02b-MASVS-MASTG-Adoption/).
+The OWASP MASVS and MASTG are trusted by the following platform providers and standardization, governmental and educational institutions. [Learn more](https://mas.owasp.org/MASTG/Intro/0x02b-MASVS-MASTG-Adoption/).
 
-<a href="https://mas.owasp.org/MASTG/0x02b-MASVS-MASTG-Adoption/">
+<a href="https://mas.owasp.org/MASTG/Intro/0x02b-MASVS-MASTG-Adoption/">
 <img src="https://github.com/OWASP/owasp-mastg/blob/master/Document/Images/Other/trusted-by-logos.png"/>
 </a>
 
 ## 🥇 MAS Advocates
 
-MAS Advocates are industry adopters of the OWASP MASVS and MASTG who have invested a significant and consistent amount of resources to push the project forward by providing consistent high-impact contributions and continuously spreading the word. [Learn more](https://mas.owasp.org/MASTG/0x02c-Acknowledgements).
+MAS Advocates are industry adopters of the OWASP MASVS and MASTG who have invested a significant and consistent amount of resources to push the project forward by providing consistent high-impact contributions and continuously spreading the word. [Learn more](https://mas.owasp.org/MASTG/Intro/0x02c-Acknowledgements).
 
 <br>
 
-<a href="https://mas.owasp.org/MASTG/0x02c-Acknowledgements#our-mastg-advocates">
+<a href="https://mas.owasp.org/MASTG/Intro/0x02c-Acknowledgements#our-mastg-advocates">
 <img src="https://raw.githubusercontent.com/OWASP/owasp-mastg/master/Document/Images/Other/nowsecure-logo.png" width="200px;" />
 </a>
 
@@ -109,18 +109,18 @@ See the [latest release](https://github.com/OWASP/owasp-masvs/releases/latest). 
 
 ## Table-of-Contents
 
-- [Foreword](https://mas.owasp.org/MASVS/0x01-Foreword)
-- [Frontispiece](https://mas.owasp.org/MASVS/0x02-Frontispiece)
-- [The Mobile Application Security Verification Standard](https://mas.owasp.org/MASVS/0x03-Using_the_MASVS)
-- [Assessment and Verification](https://mas.owasp.org/MASVS/0x04-Assessment_and_Certification)
-- [V1: Architecture, Design and Threat Modeling Requirements](https://mas.owasp.org/MASVS/0x06-V1-Architecture_design_and_threat_modelling_requireme)
-- [V2: Data Storage and Privacy Requirements](https://mas.owasp.org/MASVS/0x07-V2-Data_Storage_and_Privacy_requirements)
-- [V3: Cryptography Requirements](https://mas.owasp.org/MASVS/0x08-V3-Cryptography_Verification_Requirements)
-- [V4: Authentication and Session Management Requirements](https://mas.owasp.org/MASVS/0x09-V4-Authentication_and_Session_Management_Requirements)
-- [V5: Network Communication Requirements](https://mas.owasp.org/MASVS/0x10-V5-Network_communication_requirements)
-- [V6: Environmental Interaction Requirements](https://mas.owasp.org/MASVS/0x11-V6-Interaction_with_the_environment)
-- [V7: Code Quality and Build Setting Requirements](https://mas.owasp.org/MASVS/0x12-V7-Code_quality_and_build_setting_requirements)
-- [V8: Resiliency Against Reverse Engineering Requirements](https://mas.owasp.org/MASVS/0x15-V8-Resiliency_Against_Reverse_Engineering_Requirements)
-- [Appendix A: Glossary](https://mas.owasp.org/MASVS/0x90-Appendix-A_Glossary)
-- [Appendix B: References](https://mas.owasp.org/MASVS/0x91-Appendix-B_References)
+- [Foreword](https://mas.owasp.org/MASVS/Intro/0x01-Foreword)
+- [Frontispiece](https://mas.owasp.org/MASVS/Intro/0x02-Frontispiece)
+- [The Mobile Application Security Verification Standard](https://mas.owasp.org/MASVS/Intro/0x03-Using_the_MASVS)
+- [Assessment and Verification](https://mas.owasp.org/MASVS/Intro/0x04-Assessment_and_Certification)
+- [V1: Architecture, Design and Threat Modeling Requirements](https://mas.owasp.org/MASVS/Controls/0x06-V1-Architecture_design_and_threat_modelling_requireme)
+- [V2: Data Storage and Privacy Requirements](https://mas.owasp.org/MASVS/Controls/0x07-V2-Data_Storage_and_Privacy_requirements)
+- [V3: Cryptography Requirements](https://mas.owasp.org/MASVS/Controls/0x08-V3-Cryptography_Verification_Requirements)
+- [V4: Authentication and Session Management Requirements](https://mas.owasp.org/MASVS/Controls/0x09-V4-Authentication_and_Session_Management_Requirements)
+- [V5: Network Communication Requirements](https://mas.owasp.org/MASVS/Controls/0x10-V5-Network_communication_requirements)
+- [V6: Environmental Interaction Requirements](https://mas.owasp.org/MASVS/Controls/0x11-V6-Interaction_with_the_environment)
+- [V7: Code Quality and Build Setting Requirements](https://mas.owasp.org/MASVS/Controls/0x12-V7-Code_quality_and_build_setting_requirements)
+- [V8: Resiliency Against Reverse Engineering Requirements](https://mas.owasp.org/MASVS/Controls/0x15-V8-Resiliency_Against_Reverse_Engineering_Requirements)
+- [Appendix A: Glossary](https://mas.owasp.org/MASVS/Appendix/0x90-Appendix-A_Glossary)
+- [Appendix B: References](https://mas.owasp.org/MASVS/Appendix/0x91-Appendix-B_References)
 - [Release notes](CHANGELOG.md)
