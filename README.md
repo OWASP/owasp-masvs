@@ -30,7 +30,7 @@ The MASVS is a sister project of the [OWASP Mobile Application Security Testing 
 - ⬇️ [Download the latest PDF](https://github.com/OWASP/owasp-masvs/releases/latest)
 - ✅ [Get the latest Mobile App Security Checklists](https://github.com/OWASP/owasp-mastg/releases/latest)
 - ⚡ [Contribute!](#how-to-contribute)
-- 💥 [Play with our Crackmes](https://github.com/OWASP/owasp-mastg/blob/master/Crackmes/README.md)
+- 💥 [Play with our Crackmes](https://mas.owasp.org/crackmes)
 
 ## Trusted by ...
 
