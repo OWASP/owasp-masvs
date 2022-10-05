@@ -20,7 +20,7 @@ The MASVS is a sister project of the [OWASP Mobile Application Security Testing 
 <br>
 
 <center>
-<a href="https://mas.owasp.org/MASVS/0x01-Foreword/">
+<a href="https://mas.owasp.org/MASVS">
 <img width="250px" src="Document/images/open_website.png"/>
 </a>
 </center>
