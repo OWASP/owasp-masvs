@@ -41,3 +41,7 @@
 %%\usepackage[space]{xeCJK}
 %%\setCJKmainfont{Noto Sans CJK {{CJK-LANG}}} %JP,SC,TC,KR
 %%\renewcommand\CJKglue{}% get proper linebreaking if spaces are provided
+
+%% Workaround for pandoc bug #8460
+%% https://github.com/jgm/pandoc/issues/8460
+\newenvironment{RTL}{\beginR}{\endR}
