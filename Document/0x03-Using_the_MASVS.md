@@ -6,6 +6,16 @@ The MASVS can be used to establish a level of confidence in the security of mobi
 - Use as guidance - To provide guidance during all phases of mobile app development and testing;
 - Use during procurement - To provide a baseline for mobile app security verification.
 
+The MAS project has been traditionally focused on downloadable apps, and as such, all its resources refer to "apps". However, the project is also applicable to other areas of the business such as preloaded applications and SDKs. For both of these categories there are a few things to consider:
+
+**Preloads:** Preloaded apps are apps that are installed on a user's device at factory time and may have elevated privileges that leave users vulnerable to exploitative business practices. Given the large number of preloaded apps on an average user's device, it's important to measure their risk in a quantifiable way.
+
+There are hundreds of preloads that may ship on a device and as a result automation is critical, therefore a subset of MAS criteria that is automation friendly may be a good basis.
+
+**SDKs:** SDKs play a vital role in the mobile app value chain, supplying code developers need to build faster, smarter, and more profitably. Developers rely on them heavily with the average mobile app using 30 SDKs and 90% of code sourced from third parties. While this widespread use delivers significant benefits to developers, it also propagates safety and security issues.
+
+SDKs offer a variety of functionality and therefore not all MASVS categories apply to every single SDK type. As a result the SDK developer should evaluate which categories apply to their respective SDKs to ensure a lab can evaluate them properly.
+
 ## Mobile AppSec Model
 
 The MASVS defines two security verification levels (MASVS-L1 and MASVS-L2), as well as a set of reverse engineering resiliency requirements (MASVS-R). MASVS-L1 contains generic security requirements that are recommended for all mobile apps, while MASVS-L2 should be applied to apps handling highly sensitive data. MASVS-R covers additional protective controls that can be applied if preventing client-side threats is a design goal.
