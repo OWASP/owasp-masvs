@@ -47,6 +47,6 @@ Este documento começou como um fork do OWASP Application Security Verification 
 
 Apesar de tanto o MASVS como o MASTG terem sido criados e mantidos por uma equipa de voluntários, por vezes é necessária alguma ajuda externa. Nesse sentido, queremos agradecer a todos os patrocinadores que contribuíram com os fundos necessários para a contratação de editores técnicos. O patrocínio disponibilizado não influencia, no entanto, o conteúdo publicado quer no MASVS ou no  MASTG em nenhuma forma. Os patrocínios estão descritos em [OWASP Project Wiki](https://owasp.org/www-project-mobile-app-security/#div-sponsorship "OWASP Mobile Application Security Testing Guide Sponsorship Packages").
 
-![OWASP MASTG](../Document/images/Donators/donators.png) \
+<img src="https://github.com/OWASP/owasp-mastg/blob/master/Document/Images/Donators/donators.png"/>
 
 E por fim, gostaríamos, ainda, de agradecer a todos aqueles que nos patrocinaram de forma indireta, adquirindo o livro através da [Leanpub](https://leanpub.com/mobile-security-testing-guide).

@@ -47,6 +47,6 @@ MASVS是社区努力和行业反馈的成果。我们希望该标准会随着时
 
 虽然MASVS和MASTG都是由社区自愿创建和维护的，但是有时候仍然需要一点外部的帮助。因此，我们感谢我们的赞助商提供资金来聘请技术编辑。但是，他们的赞助不会以任何方式影响MASVS或MASTG的内容。赞助方案的具体细节：[OWASP项目Wiki](https://owasp.org/www-project-mobile-app-security/#div-sponsorship "OWASP Mobile Application Security Testing Guide Sponsorship Packages").
 
-![OWASP MASTG](../Document/images/Donators/donators.png) \
+<img src="https://github.com/OWASP/owasp-mastg/blob/master/Document/Images/Donators/donators.png"/>
 
 最后，我们要感谢每一位从[Leanpub](https://leanpub.com/mobile-security-testing-guide)购买了这本书并以这种方式赞助我们的人。
