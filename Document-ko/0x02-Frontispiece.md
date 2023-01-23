@@ -47,6 +47,6 @@ Copyright © 2021 The OWASP Foundation. 본 저작물은 [Creative Commons Attri
 
 MASVS와 MASTG는 모두 커뮤니티에서 자발적으로 생성되고 유지되지만, 때때로 약간의 외부 도움이 필요합니다. 따라서 기술 편집자를 고용할 수 있도록 자금을 기부해 주신 스폰서들에게 감사드립니다. 그들의 후원은 어떤식으로든 MASVS 또는 MASTG의 내용에 영향을 미치지 않는다는 점을 알려드립니다. 스폰서 패키지는 [OWASP Project Wiki](https://owasp.org/www-project-mobile-app-security/#div-sponsorship "OWASP Mobile Application Security Testing Guide Sponsorship Packages")에 설명되어 있습니다..
 
-<img src="https://github.com/OWASP/owasp-mastg/blob/master/Document/Images/Donators/donators.png"/>
+<img src="https://raw.githubusercontent.com/OWASP/owasp-mastg/master/Document/Images/Donators/donators.png"/>
 
 마지막으로 [Leanpub](https://leanpub.com/mobile-security-testing-guide)에서 이 책을 구입하여 후원해 주신 모든 분들께 감사드립니다.

@@ -45,6 +45,6 @@ Copyright © 2021 The OWASP Foundation. 本文檔在 Creative Commons Attributio
 
 雖然 MASVS 和 MASTG 都是由社群自願創建和維護的，但有時仍需要一些外部的協助。因此，我們感謝我們的贊助者提供資金來聘請技術編輯。請注意，他們的贊助不會以任何方式影響 MASVS 或 MASTG 的內容。贊助方案可在[OWASP Project Wiki](https://owasp.org/www-project-mobile-app-security/#div-sponsorship "OWASP Mobile Application Security Testing Guide Sponsorship Packages")找到。
 
-<img src="https://github.com/OWASP/owasp-mastg/blob/master/Document/Images/Donators/donators.png"/>
+<img src="https://raw.githubusercontent.com/OWASP/owasp-mastg/master/Document/Images/Donators/donators.png"/>
 
 最後，我們要感謝所有從[Leanpub](https://leanpub.com/mobile-security-testing-guide)購買這本書並以這種方式贊助我們的人。
