@@ -49,6 +49,6 @@ Copyright © 2021 The OWASP Foundation. 本著作物は [Creative Commons Attrib
 
 MASVS と MASTG のいずれもコミュニティにより無償奉仕で作成および維持されていますが、時にはいくらかの外的支援が必要となることもあります。したがって、テクニカルエディタを雇うことができる資金を提供したスポンサーに感謝します。彼らのスポンサーシップは MASVS や MASTG の内容にいかなる形であれ影響を与えないことに注意します。スポンサーシップパッケージは [OWASP Project Wiki](https://owasp.org/www-project-mobile-app-security/#div-sponsorship "OWASP Mobile Application Security Testing Guide Sponsorship Packages") に記載されています。
 
-![OWASP MASTG](../Document/images/Donators/donators.png) \
+<img src="https://github.com/OWASP/owasp-mastg/blob/master/Document/Images/Donators/donators.png"/>
 
 最後に、[Leanpub](https://leanpub.com/mobile-security-testing-guide)からこの本を購入し私たちを支援してくれた皆様に感謝します。

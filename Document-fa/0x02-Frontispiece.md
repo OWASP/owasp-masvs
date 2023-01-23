@@ -50,7 +50,7 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 
 با اینکه هر دو استاندارد MASVS و MASTG به‌طور داوطلبانه توسط جامعه تولید و نگهداری می‌شوند، اما گاهی اوقات به اندکی کمک خارجی نیاز است. بنابراین، از حامیان مالی‌مان بخاطر فراهم آوردن بودجه برای استخدام ویراستارهای فنی تشکر می‌کنیم. توجه داشته باشید که حمایت مالی آنان محتوای استاندارد MASVS یا MASTG را تحت تأثیر قرار نمی‌دهد. بسته‌های حمایت مالی در [OWASP Project Wiki](<https://owasp.org/www-project-mobile-app-security/#div-sponsorship> "OWASP Mobile Application Security Testing Guide Sponsorship Packages") شرح داده‌شده‌اند.
 
-![OWASP MASTG](../Document/images/Donators/donators.png) \
+<img src="https://github.com/OWASP/owasp-mastg/blob/master/Document/Images/Donators/donators.png"/>
 
 مایلیم از تمام کسانی که کتاب را از [Leanpub](https://leanpub.com/mobile-security-testing-guide) خریداری کرده و ما را حمایت کردند تشکر و قدردانی نماییم.
 
