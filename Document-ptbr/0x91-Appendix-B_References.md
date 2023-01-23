@@ -11,4 +11,4 @@ De forma similar, os *sites* a seguir devem ser úteis aos usuários e seguidore
 
 - Enumeração de Vulnerabilidades Comuns da MITRE (em inglês) - [http://cwe.mitre.org/](http://cwe.mitre.org/)
 - Conselho PCI de Padrões de Segurança (em português) - [https://pt.pcisecuritystandards.org/](https://pt.pcisecuritystandards.org/)
-- Padrão PCI de Segurança de Dados (PCI-DSS) v3.2.1 Requisitos e Procedimentos de Avaliação de Segurança (em português) - [https://pt.pcisecuritystandards.org/_onelink_/pcisecurity/en2pt/minisite/en/docs/PCI_DSS_v3-2-1_PT-BR.PDF](https://pt.pcisecuritystandards.org/_onelink_/pcisecurity/en2pt/minisite/en/docs/PCI_DSS_v3-2-1_PT-BR.PDF)
+- Padrão PCI de Segurança de Dados (PCI-DSS) v3.2.1 Requisitos e Procedimentos de Avaliação de Segurança - [https://www.pcisecuritystandards.org/documents/PCI\_DSS\_v3.pdf](https://www.pcisecuritystandards.org/documents/PCI_DSS_v3.pdf)
