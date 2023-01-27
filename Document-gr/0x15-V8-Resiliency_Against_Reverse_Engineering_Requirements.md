@@ -18,7 +18,6 @@
 
 3. Η αποτελεσματικότητα της προστασίας θα πρέπει πάντα να επαληθεύεται από έναν άνθρωπο, ειδικό με πείρα στη δοκιμή των συγκεκριμένων τύπων anti-tampering και obfuscation που χρησιμοποιούνται (βλ. επίσης τα κεφάλαια "reverse engineering" και "assessing software protections" στο OWASP Mobile Security Testing Guide)
 
-
 <!-- \pagebreak -->
 
 ### Παρεμπόδιση δυναμικής ανάλυσης και παραβίασης (Impede Dynamic Analysis and Tampering)

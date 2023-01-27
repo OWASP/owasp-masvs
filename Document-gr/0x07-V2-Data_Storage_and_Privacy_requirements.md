@@ -39,7 +39,7 @@
 
 ## Αναφορές
 
-Το OWASP Mobile Security Testing Guide παρέχει αναλυτικές οδηγίες για την επαλήθευση οδηγιών των απαιτήσεων που παρουσιάζονται σε αυτό το κεφάλαιο. 
+Το OWASP Mobile Security Testing Guide παρέχει αναλυτικές οδηγίες για την επαλήθευση οδηγιών των απαιτήσεων που παρουσιάζονται σε αυτό το κεφάλαιο.
 
 - Android: Testing Data Storage - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05d-Testing-Data-Storage.md>
 - iOS: Testing Data Storage - <https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06d-Testing-Data-Storage.md>
