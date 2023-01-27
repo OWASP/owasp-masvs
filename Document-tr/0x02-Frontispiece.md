@@ -57,3 +57,4 @@ Hem MASVS hem de MSTG gönüllü olarak topluluk tarafından oluşturulup sürd�
 [![Randorisec](images/Randorisec_logo.png)](https://www.randorisec.fr/)
 
 Ardından, sponsorlukları için OWASP Körfez Bölgesi Bölümüne teşekkür ederiz. Son olarak, kitabı [Leanpub'dan](https://leanpub.com/mobile-security-testing-guide) alan ve bize sponsor olan herkese teşekkür ederiz.
+

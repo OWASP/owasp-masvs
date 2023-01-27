@@ -92,3 +92,4 @@ Aşağıdaki değişiklikler 1.0 sürümünün bir parçasıdır:
 - 8.12 ile aynı olan 8.9 silindi.
 - 4.6 daha genel hale getirildi.
 - Küçük düzeltmeler (yazım hataları vb.)
+

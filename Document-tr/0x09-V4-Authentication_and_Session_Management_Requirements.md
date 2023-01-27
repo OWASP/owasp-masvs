@@ -39,3 +39,4 @@ Daha fazla bilgi için ayrıca bakınız:
 - CWE 521 (Weak Password Requirements) - <https://cwe.mitre.org/data/definitions/521.html>
 - CWE 604 (Use of Client-Side Authentication) - <https://cwe.mitre.org/data/definitions/604.html>
 - CWE 613 (Insufficient Session Expiration) - <https://cwe.mitre.org/data/definitions/613.html>
+
