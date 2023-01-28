@@ -50,6 +50,21 @@ jobs:
       language: Portugal Portuguese
       lang: ptpt
 
+  tr:
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
+    with:
+      folder: Document-tr
+      language: Turkish
+      lang: tr
+
+  gr:
+    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
+    with:
+      folder: Document-gr
+      language: Hindi
+      lang: gr
+      pandocker-tag: TAG=latest-ubuntu-full
+
   hi:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
     with:
