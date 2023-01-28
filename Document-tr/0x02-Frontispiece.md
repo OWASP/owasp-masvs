@@ -41,6 +41,7 @@ Copyright © 2021 The OWASP Foundation. Bu çalışma [Creative Commons Attribut
 | Russian | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | Spanish | Martin Marsicano, Carlos Holguera |
 | Türkçe | Anıl Baş, Haktan Emik |
+| Yunan | Panagiotis Yialouris |
 
 Bu doküman, Jim Manico tarafından yazılan OWASP Uygulama Güvenliği Doğrulama Standardının bir kolu olarak başladı.
 

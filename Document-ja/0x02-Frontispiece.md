@@ -42,6 +42,8 @@ Copyright © 2021 The OWASP Foundation. 本著作物は [Creative Commons Attrib
 | ポルトガル語 | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
 | ロシア語 | Gall Maxim, Eugen Martynov, Chelnokov Vladislav, Oprya Egor, Tereshin Dmitry |
 | スペイン語 | Martin Marsicano, Carlos Holguera |
+| トルコ語 | Anıl Baş, Haktan Emik |
+| ギリシャ語 | Panagiotis Yialouris |
 
 本ドキュメントは Jim Manico により執筆された OWASP Web アプリケーションセキュリティ検証標準のフォークとして始まりました。
 

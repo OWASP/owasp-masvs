@@ -40,6 +40,8 @@ MASVS是社区努力和行业反馈的成果。我们希望该标准会随着时
 | 波斯语 | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
 | 葡萄牙语 | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
 | 巴西葡萄牙语 | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
+| 土耳其 | Anıl Baş, Haktan Emik |
+| 希腊语 | Panagiotis Yialouris |
 
 本文档是由Jim Manico编写的OWASP Application Security Verification Standard的一个分支。
 

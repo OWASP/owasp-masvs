@@ -40,6 +40,8 @@ Copyright © 2021 The OWASP Foundation.Este documento está licenciado pela [Cre
 | Espanhol | Martin Marsicano, Carlos Holguera |
 | Portugês | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
 | Português (Brasileiro) | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
+| Turco | Anıl Baş, Haktan Emik |
+| Grego | Panagiotis Yialouris |
 
 Este documento começou como um fork do OWASP Application Security Verification Standard produzido por Jim Manico.
 

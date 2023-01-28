@@ -40,6 +40,8 @@ Copyright © 2021 The OWASP Foundation. Este documento está licenciado bajo la 
 | Portugués (brasilera) | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
 | Portugués | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
 | Ruso | Gall Maxim, Eugen Martynov, Chelnokov Vladislav, Oprya Egor, Tereshin Dmitry |
+| Turco | Anıl Baş, Haktan Emik |
+| Griego | Panagiotis Yialouris |
 
 Este documento comenzó como un _fork_ del Estándar de Verificación de Seguridad de Aplicaciones de OWASP escrito por Jim Manico.
 

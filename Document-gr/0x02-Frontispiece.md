@@ -40,6 +40,8 @@ Copyright © 2021 The OWASP Foundation. Η προσπάθεια αυτή υπό�
 | Portuguese | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
 | Russian | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | Spanish | Martin Marsicano, Carlos Holguera |
+| Turkish | Anıl Baş, Haktan Emik |
+| Greek | Panagiotis Yialouris |
 
 Αυτό το έγγραφο ξεκίνησε σαν ένα fork του OWASP Application Security Verification Standard γραμμένο από το Jim Manico.
 
