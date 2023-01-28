@@ -48,12 +48,6 @@ Bu doküman, Jim Manico tarafından yazılan OWASP Uygulama Güvenliği Doğrula
 
 Hem MASVS hem de MSTG gönüllü olarak topluluk tarafından oluşturulup sürdürülürken, bazı zamanlarda biraz dışarıdan yardım gerekir. Bu nedenle sponsorlarımıza teknik editörleri işe alabilmeleri için fon sağladıkları için teşekkür ederiz. Sponsorluklarının MASVS veya MSTG içeriğini hiçbir şekilde etkilemediği unutulmamalıdır. Sponsorluk paketleri şu sayfada açıklanmıştır: [OWASP Project Wiki](https://owasp.org/www-project-mobile-security-testing-guide/#div-sponsorship "OWASP Mobile Security Testing Guide Sponsorship Packages").
 
-### "Honourable Benefactor" Sponsoru
-
-[![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/)
-
-### "Good Samaritan Benefactor" Sponsoru
-
-[![Randorisec](images/Randorisec_logo.png)](https://www.randorisec.fr/)
+<img src="https://raw.githubusercontent.com/OWASP/owasp-mastg/master/Document/Images/Donators/donators.png"/>
 
 Ardından, sponsorlukları için OWASP Körfez Bölgesi Bölümüne teşekkür ederiz. Son olarak, kitabı [Leanpub'dan](https://leanpub.com/mobile-security-testing-guide) alan ve bize sponsor olan herkese teşekkür ederiz.
