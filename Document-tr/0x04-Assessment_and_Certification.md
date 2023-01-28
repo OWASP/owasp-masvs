@@ -47,4 +47,3 @@ MASVS, mimari gereksinimler dışında, yüksek düzeyde test edilebilir olacak 
 ### Güvenli Geliştirme Eğitimi İçin
 
 MASVS, güvenli mobil uygulamaların özelliklerini tanımlamak için de kullanılabilir. Çoğu "güvenli kodlama" kursu, üstünkörü bir şekilde kodlama ipuçlarına değinerek basitçe etik bilgisayar korsanlığı kurslarıdır. Bu, geliştiricilere yardımcı olmaz. Bunun yerine, güvenli geliştirme kursları örneğin en sık karşılaşılan 10 kod güvenlik bulgusuna odaklanmak yerine MASVS'de belgelenen proaktif kontrollere güçlü bir odaklanma ile MASVS'yi kullanabilir.
-

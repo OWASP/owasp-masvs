@@ -24,4 +24,3 @@ MASVS genel olarak, mobil uygulama güvenliği için bir temel sunmak (MASVS-L1)
 %100 endüstri mutabakatına ulaşmanın imkansız olduğunun farkındayız. Yine de, MASVS'nin mobil uygulama geliştirme ve testlerinin tüm aşamalarında rehberlik sağlamada yararlı olacağını umuyoruz. Açık kaynak standardı olarak MASVS zamanla gelişecek ve her türlü katkı ve öneriyi memnuniyetle karşılıyoruz.
 
 Bernhard Mueller tarafından
-
