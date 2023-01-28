@@ -56,6 +56,7 @@ jobs:
       folder: Document-tr
       language: Turkish
       lang: tr
+      pandocker-tag: TAG=latest-ubuntu-full
 
   gr:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
