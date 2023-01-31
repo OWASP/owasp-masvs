@@ -40,6 +40,8 @@ Copyright © 2021 The OWASP Foundation. Η προσπάθεια αυτή υπό�
 | Portuguese | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
 | Russian | Gall Maxim, Eugen Martynov, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 | Spanish | Martin Marsicano, Carlos Holguera |
+| Turkish | Anıl Baş, Haktan Emik |
+| Greek | Panagiotis Yialouris |
 
 Αυτό το έγγραφο ξεκίνησε σαν ένα fork του OWASP Application Security Verification Standard γραμμένο από το Jim Manico.
 
@@ -47,6 +49,6 @@ Copyright © 2021 The OWASP Foundation. Η προσπάθεια αυτή υπό�
 
 Ενώ τόσο το MASVS όσο και το MSTG δημιουργούνται και διατηρούνται από την κοινότητα σε εθελοντική βάση, μερικές φορές απαιτείται λίγη εξωτερική βοήθεια. Ως εκ τούτου, ευχαριστούμε τους δωρητές μας που παρείχαν τα κεφάλαια για να μπορέσουμε να προσλάβουμε τεχνικούς συντάκτες. Να σημειωθεί ότι η δωρεά τους δεν επηρεάζει με κανέναν τρόπο το περιεχόμενο του MASVS ή του MSTG. Τα πακέτα από δωρεές περιγράφονται στο [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Security Testing Guide Donation Packages").
 
-![OWASP MSTG](images/Donators/donators.png)
+<img src="https://raw.githubusercontent.com/OWASP/owasp-mastg/master/Document/Images/Donators/donators.png"/>
 
 Θα θέλαμε να ευχαριστήσουμε όσου αγόρασαν το βιβλίο από το [Leanpub](https://leanpub.com/mobile-security-testing-guide) και μας στήριξαν με αυτό το τρόπο.

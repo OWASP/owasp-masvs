@@ -83,4 +83,3 @@ MASVS L2 gereksinimlerinin uygulanması güvenliği artırırken aynı zamanda g
 - Tasarım gereği hassas verileri mobil cihazda depolaması gereken ve aynı zamanda çok çeşitli cihazları ve işletim sistemi sürümlerini desteklemesi gereken tüm mobil uygulamalarının uygulaması önerilir. Bu durumda dayanıklılık kontrolleri, hassas verileri çıkarmayı amaçlayan saldırganların çabalarını artırmak için kapsamlı bir savunma önlemi olarak kullanılabilir.
 
 - Uygulama içi satın alımları olan uygulamalar, ücretli içeriği korumak için ideal olarak sunucu tarafı ve MASVS-L2 kontrollerini kullanmalıdır. Ancak, sunucu tarafı korumasını kullanma olanağının olmadığı durumlar olabilir. Bu durumlarda, tersine mühendislik ve/veya kurcalama çabasını artırmak için MASVS-R kontrolleri ek olarak uygulanmalıdır.
-

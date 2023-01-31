@@ -40,6 +40,8 @@ Copyright © 2021 The OWASP Foundation. 본 저작물은 [Creative Commons Attri
 | 한국어 | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
 | 페르시아 인 | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
 | 포르투갈 인 | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
+| 터키어 | Anıl Baş, Haktan Emik |
+| 그리스 어 | Panagiotis Yialouris |
 
 본 문서는 Jim Manico가 작성한 OWASP 애플리케이션 보안 검증 표준의 포크로 시작되었습니다.
 

@@ -43,6 +43,8 @@ MASVS نقطه اوج یک تلاش جمعی و بازخورد صنعت است. 
 | اسپانیایی | Martin Marsicano, Carlos Holguera |
 | پرتغالی (برزیلی) | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
 | پرتغالی | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
+| ترکی | Anıl Baş, Haktan Emik |
+| یونانی | Panagiotis Yialouris |
 
  این سند به‌عنوان یک fork از استاندارد وارسی برنامه‌ی کاربردی موبایل نوشته شده توسط Jim Manico آغاز شده است.
 

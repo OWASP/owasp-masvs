@@ -35,4 +35,3 @@ Daha fazla bilgi için ayrıca bakınız:
 - Microsoft SDL - <https://www.microsoft.com/en-us/sdl/>
 - NIST SP 800-57 - <https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-5/final>
 - security.txt - <https://securitytxt.org/>
-

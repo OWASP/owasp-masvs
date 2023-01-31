@@ -38,6 +38,8 @@ Copyright © 2021 The OWASP Foundation. 本文檔在 Creative Commons Attributio
 | 波斯語 | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
 | 葡萄牙語 | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
 | 巴西葡萄牙語 | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
+| 土耳其 | Anıl Baş, Haktan Emik |
+| 希臘語 | Panagiotis Yialouris |
 
 本文檔最初是 Jim Manico 撰寫的 OWASP Application Security Verification Standard 的一個分支。
 

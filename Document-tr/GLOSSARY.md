@@ -159,4 +159,3 @@ OWASP MASVS gereksinimlerine göre bir başvuruyu inceleyen kişi veya ekip.
 ## X.509 Certificate
 
 X.509 sertifikası, genel anahtarın sertifikada bulunan kullanıcıya, bilgisayara veya hizmet kimliğine ait olduğunu doğrulamak için yaygın olarak kabul edilen uluslararası X.509 genel anahtar altyapısı (PKI) standardını kullanan dijital bir sertifikadır.
-
