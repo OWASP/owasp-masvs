@@ -95,13 +95,8 @@ The MASVS is available in different languages:
 - [Portuguese (Portugal)](https://github.com/OWASP/owasp-masvs/tree/master/Document-ptpt "Portuguese Portugal")
 - [Russian](https://github.com/OWASP/owasp-masvs/tree/master/Document-ru "Russian")
 - [Spanish](https://github.com/OWASP/owasp-masvs/tree/master/Document-es "Spanish")
-
-Coming soon:
-- [Turkish](https://github.com/OWASP/owasp-masvs/pull/561)
-- [Czech](https://github.com/OWASP/owasp-masvs/issues/622)
-- [Greek](https://github.com/OWASP/owasp-masvs/issues/625)
-
-> Your language is not here? [We'd love to add it!](tools/README.md#adding-another-language)
+- [Turkish](https://github.com/OWASP/owasp-masvs/tree/master/Document-tr "Turkish")
+- [Greek](https://github.com/OWASP/owasp-masvs/tree/master/Document-gr "Greek")
 
 ## Other Formats
 
