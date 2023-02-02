@@ -105,7 +105,6 @@ jobs:
       language: Persian
       lang: fa
       pandocker-tag: TAG=latest-ubuntu-full
-      pandocker-template: LATEX_TEMPLATE=default # there's a bug for fa in the eisvogel template, we have to use default
 
   zhcn:
     uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
