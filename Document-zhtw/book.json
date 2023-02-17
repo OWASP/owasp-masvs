@@ -1,9 +1,0 @@
-{
-  "root" : ".",
-
-  "structure": {
-    "readme": "0x01-Foreword.md"
-  },
-
-  "language": "zhtw"
-}
