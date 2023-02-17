@@ -91,3 +91,21 @@ Implementing the requirements of MASVS L2 increases security, while at the same 
 - All mobile apps that, by design, need to store sensitive data on the mobile device, and at the same time must support a wide range of devices and operating system versions. In this case, resiliency controls can be used as a defense-in-depth measure to increase the effort for attackers aiming to extract the sensitive data.
 
 - Apps with in-app purchases should ideally use server-side and MASVS-L2 controls to protect paid content. However, there may be cases where there is no possibility to use server-side protection. In those cases, MASVS-R controls should be additionally applied in order to increase the reversing and/or tampering effort.
+
+#### About Security Architecture, Design and Threat Modeling for Mobile Apps
+
+To ensure the security of a mobile app, it is essential to prioritize security measures throughout all stages of development. While many developers consider security as an afterthought, in reality, it should be explicitly addressed when planning the architecture and design of the application. The foundation of this effort should be the best practices laid out by standards such as the [OWASP Software Assurance Maturity Model (SAMM)](https://owaspsamm.org/model/) and [NIST.SP.800-218 Secure Software Development Framework (SSDF)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf) for secure architecture, design, and threat modeling.
+
+The Mobile Application Security Verification Standard (MASVS) assumes that best practices for secure architecture, design, and threat modeling have been followed as a foundation. Once this foundation is in place, the MASVS should be applied to ensure that the mobile app is secure from the perspective of an attacker.
+
+Testing for security issues involves implementing a secure SDLC, identifying and protecting sensitive data, establishing a sound security architecture, ensuring compliance with policies and regulations, and conducting threat modeling. While the MASVS mainly addresses issues that can be targeted by an attacker, all related testing activities are white box in nature and are typically addressed using surveys and questionnaires.
+
+In conclusion, building a secure mobile app requires a proactive approach that prioritizes security from the beginning. Developers should ensure that best practices for secure architecture, design, and threat modeling are followed as a foundation before applying MASVS to assess and address any security vulnerabilities. By implementing these security measures, mobile app developers can protect sensitive data, comply with regulations, and provide a secure application for their users.
+
+#### About the App Ecosystem
+
+Mobile apps often interact with multiple systems, including backend servers, third-party APIs, Bluetooth devices, cars, IoT devices, and more. Each of these systems may introduce their own security risks that must be considered as part of the mobile app's security design and threat modeling.
+
+For example, when interacting with a backend server, the OWASP Application Security Verification Standard (ASVS) should be used to ensure that the server is secure and meets the required security standards. In the case of Bluetooth devices, the app should be designed to prevent unauthorized access, while for cars, the app should be designed to protect the user's data and ensure that there are no safety issues with the car's operation.
+
+When designing a mobile app, it is essential to consider the security implications of all systems that the app interacts with. This may involve conducting a threat modeling exercise to identify potential security risks and designing security controls to mitigate these risks. In addition to using the MASVS for mobile app security, developers should also consider leveraging other relevant security standards, such as the OWASP ASVS, to ensure that all systems involved in the app's operation meet appropriate security standards.
