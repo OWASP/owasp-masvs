@@ -15,7 +15,7 @@ The controls in this group ensure that the app uses platform APIs and standard c
 | **6.5** | MSTG-PLATFORM-5 | JavaScript is disabled in WebViews unless explicitly required. | x | x |
 | **6.6** | MSTG-PLATFORM-6 | WebViews are configured to allow only the minimum set of protocol handlers required (ideally, only https is supported). Potentially dangerous handlers, such as file, tel and app-id, are disabled. | x | x |
 | **6.7** | MSTG-PLATFORM-7 | If native methods of the app are exposed to a WebView, verify that the WebView only renders JavaScript contained within the app package. | x | x |
-| **6.8** | MSTG-PLATFORM-8 | Object deserialization, if any, is implemented using safe serialization APIs. | x | x |
+| **6.8** | MSTG-PLATFORM-8 | Object serialization, if any, is implemented using safe serialization APIs. | x | x |
 | **6.9** | MSTG-PLATFORM-9 | The app protects itself against screen overlay attacks. (Android only) |  | x |
 | **6.10** | MSTG-PLATFORM-10 | A WebView's cache, storage, and loaded resources (JavaScript, etc.) should be cleared before the WebView is destroyed. |  | x |
 | **6.11** | MSTG-PLATFORM-11 | Verify that the app prevents usage of custom third-party keyboards whenever sensitive data is entered (iOS only). | | x |
