@@ -13,6 +13,8 @@
 
 **[Access the MASVS v2.0.0](https://docs.google.com/spreadsheets/d/1MZIvJ5Aze-zpyzLvQZVwyzF0bKWRPfnEd7nqFeH2PfA/edit?usp=sharing)**
 
+<br>
+
 This is the official Github Repository of the OWASP Mobile Application Security Verification Standard (MASVS). The MASVS establishes baseline security requirements for mobile apps that are useful in many scenarios. You can use it:
 
 - As a metric - To provide a security standard against which existing mobile apps can be compared by developers and application owners.
