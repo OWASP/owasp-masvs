@@ -34,6 +34,11 @@ The MASVS is a sister project of the [OWASP Mobile Application Security Testing 
 
 <br>
 
+!!! important MASVS v2.0
+    The MASVS 2.0.0 is already available as a spreadsheet. We're currently working on updating this page and the related documents. Learn more about the refactoring process [here](https://github.com/OWASP/owasp-masvs/discussions/categories/big-masvs-refactoring).
+    
+    [Access the MASVS v2.0.0](https://docs.google.com/spreadsheets/d/1MZIvJ5Aze-zpyzLvQZVwyzF0bKWRPfnEd7nqFeH2PfA/edit?usp=sharing)
+
 <div style="background-color: orange; color: white; border-radius: 10px; padding: 10px;">
     <p>The MASVS 2.0.0 is already available as a spreadsheet. We're currently working on updating this page and the related documents. Learn more about the refactoring process [here](https://github.com/OWASP/owasp-masvs/discussions/categories/big-masvs-refactoring).</p>
     <p>[MASVS v2.0.0](https://docs.google.com/spreadsheets/d/1MZIvJ5Aze-zpyzLvQZVwyzF0bKWRPfnEd7nqFeH2PfA/edit?usp=sharing)</p>
