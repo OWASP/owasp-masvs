@@ -9,6 +9,12 @@
 [![Check Markdown Markup](https://github.com/OWASP/owasp-masvs/workflows/Check%20Markdown%20Markup/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+markup%22)
 [![Check Markdown Links](https://github.com/OWASP/owasp-masvs/workflows/Check%20Markdown%20Links/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+Links%22)
 
+**NEW❗ The MASVS 2.0.0 is already available as a spreadsheet. We're currently working on updating this page and the related documents. Learn more about the refactoring process [here](https://github.com/OWASP/owasp-masvs/discussions/categories/big-masvs-refactoring).**
+
+**[Access the MASVS v2.0.0](https://docs.google.com/spreadsheets/d/1MZIvJ5Aze-zpyzLvQZVwyzF0bKWRPfnEd7nqFeH2PfA/edit?usp=sharing)**
+
+<br>
+
 This is the official Github Repository of the OWASP Mobile Application Security Verification Standard (MASVS). The MASVS establishes baseline security requirements for mobile apps that are useful in many scenarios. You can use it:
 
 - As a metric - To provide a security standard against which existing mobile apps can be compared by developers and application owners.
