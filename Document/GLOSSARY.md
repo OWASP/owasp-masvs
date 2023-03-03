@@ -88,9 +88,9 @@ Code introduced into an application during its development unbeknownst to the ap
 
 Executable code that is introduced into an application during runtime without the knowledge of the application user or administrator.
 
-## Open Web Application Security Project (OWASP)
+## Open Worldwide Application Security Project (OWASP)
 
-The Open Web Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security "visible," so that people and organizations can make informed decisions about application security risks. See: <https://www.owasp.org/>
+The Open Worldwide Application Security Project (OWASP) is a worldwide free and open community focused on improving the security of application software. Our mission is to make application security "visible," so that people and organizations can make informed decisions about application security risks. See: <https://www.owasp.org/>
 
 ## Personally Identifiable Information (PII)
 
