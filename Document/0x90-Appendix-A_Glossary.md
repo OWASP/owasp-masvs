@@ -32,7 +32,7 @@
 - **Security Configuration** – The runtime configuration of an application that affects how security controls are used.
 - **Security Control** – A function or component that performs a security check (e.g. an access control check) or when called results in a security effect (e.g. generating an audit record).
 - **SQL Injection (SQLi)** – A code injection technique used to attack data driven applications, in which malicious SQL statements are inserted into an entry point.
-- **SSO Authentication** – Single Sign On (SSO) occurs when a user logs in to one Client and is then signed in to other Clients automatically, regardless of the platform, technology, or domain the user is using. For example when you log in in google you automatically login in the youtube , docs and mail service.
+- **SSO Authentication** – Single Sign On (SSO) occurs when a user logs in to one Client and is then signed in to other Clients automatically, regardless of the platform, technology, or domain the user is using. For example when you log in in google you automatically login in the youtube, docs and mail service.
 - **Threat Modeling** – A technique consisting of developing increasingly refined security architectures to identify threat agents, security zones, security controls, and important technical and business assets.
 - **Transport Layer Security** – Cryptographic protocols that provide communication security over the Internet
 - **URI and URL** – A Uniform Resource Identifier is a string of characters used to identify a name or a web resource. A Uniform Resource Locator is often used as a reference to a resource.

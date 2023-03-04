@@ -2,19 +2,19 @@
 
 ![OWASP Logo](images/OWASP_logo.png)
 
-Welcome to the Mobile Application Security Verification Standard (MASVS). The MASVS is a community effort to establish a framework of security requirements needed to design, develop and test secure mobile apps on iOS and Android.
+The OWASP Mobile Application Security Verification Standard (MASVS) is the industry standard for mobile application security. It provides a comprehensive set of security controls that can be used to assess the security of mobile apps across various platforms (e.g., Android, iOS) and deployment scenarios (e.g., consumer, enterprise). The standard covers the key components of the mobile app attack surface including storage, cryptography, authentication and authorization, network communication, interaction with the mobile platform, code quality and resilience against reverse engineering and tampering.
 
-The MASVS is a culmination of community effort and industry feedback. We expect this standard to evolve over time and welcome feedback from the community.
+The OWASP MASVS is the result of years of community effort and industry feedback. We thank all the contributors who have helped shape this standard. We welcome your feedback on the OWASP MASVS at any time, especially as you apply it to your own organization and mobile app development projects. Getting inputs from a variety of mobile app developers will help us improve and update the standard which is revised periodically based on your inputs and feedback.
 
-The best way to get in contact with us is via the OWASP Mobile Project Slack channel: <https://owasp.slack.com/messages/project-mobile_omtg/details/> .
+<https://github.com/OWASP/owasp-masvs/discussions>
 
-Accounts can be created at the following URL: [https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/](https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#/).
+<https://www.owasp.org/contact>
 
 ## Copyright and License
 
 [![Creative Commons License](images/CC-license.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Copyright © 2021 The OWASP Foundation. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
+Copyright © 2023 The OWASP Foundation. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
 
 <!-- \pagebreak -->
 
