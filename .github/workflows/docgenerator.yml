@@ -70,6 +70,13 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/') && (github.actor == 'cpholguera' || github.actor == 'sushi2k')
     steps:
       - uses: actions/download-artifact@v2
+      - name: List Downloaded document (sampling of download-artifact)
+        run: ls -l OWASP_MASVS*
+
+      - name: print working directory
+        run: pwd 
+      - name: Listing of root directory
+        run: ls -l 
 
       - name: Move all translations (pdf, and epub) to root
         run: mv OWASP_MASVS*/* .
