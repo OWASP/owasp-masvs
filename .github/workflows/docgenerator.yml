@@ -81,10 +81,10 @@ jobs:
           generate_release_notes: true
           discussion_category_name: Announcements
           files: |
-            OWASP_MASVS-*.pdf
-            OWASP_MASVS-*.epub
-            OWASP_MASVS-*.csv/OWASP_MASVS-*.csv
-            OWASP_MASVS-*.json/OWASP_MASVS-*.json
-            OWASP_MASVS-*.xml/OWASP_MASVS-*.xml
+            OWASP_MASVS.pdf
+            OWASP_MASVS.epub
+            OWASP_MASVS.csv/OWASP_MASVS.csv
+            OWASP_MASVS.json/OWASP_MASVS.json
+            OWASP_MASVS.xml/OWASP_MASVS.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
