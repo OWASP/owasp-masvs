@@ -7,8 +7,8 @@
 version: 'SNAPSHOT' # this will overridden at build time
 languagetext: ''
 
-mainfont: 'Avenir'
-sansfont: 'Avenir'
+mainfont: 'DejaVu Sans'
+sansfont: 'DejaVu Sans'
 monofont: 'DejaVu Sans Mono'
 
 # General variables
