@@ -27,15 +27,9 @@ docker run --rm --entrypoint '/bin/sh' --volume `pwd`:/pandoc ${IMG}:${TAG} -c '
 # this is useful for CI, because we can run the script directly inside the container
 PANDOC=${PANDOC:-${PANDOCKER}}
 
-if [ ${FOLDER} == "Document" ]; then
-  LANGUAGE='en'
-else
-  LANGUAGE=$(echo ${FOLDER} | cut -d '-' -f 2)
-fi
-
 METADATA="Document/metadata.md ${FOLDER}/metadata.md"
-CHAPTERS="${FOLDER}/0x*.md ${FOLDER}/CHANGELOG.md"
-OUTPUT_BASE_NAME="OWASP_MASVS-${VERSION}-${LANGUAGE}"
+CHAPTERS="${FOLDER}/0x*.md"
+OUTPUT_BASE_NAME="OWASP_MASVS"
 
 [ ! -z "${VERBOSE}" ] && echo "Create PDF"
 
@@ -79,24 +73,6 @@ ${PANDOC} \
   -o ${OUTPUT_BASE_NAME}.epub \
   ${METADATA} \
   ${CHAPTERS}
-
-# MOBI
-# kindlegen is deprecated
-#kindlegen ${OUTPUT_BASE_NAME}.epub
-
-# DOCX
-${PANDOC} \
-  --metadata title="${TITLE}" \
-  --toc \
-  --number-sections \
-  --columns 10000 \
-  --self-contained \
-  --standalone \
-  --reference-doc tools/custom-reference.docx \
-  -o ${OUTPUT_BASE_NAME}_WIP_.docx \
-  ${METADATA} \
-  ${CHAPTERS}
-
 
 # clean temp files
 rm -f tmp_latex-header.latex tmp_cover.latex tmp_first_page.latex

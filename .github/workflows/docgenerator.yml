@@ -35,34 +35,34 @@ jobs:
       run: pip3 install pyyaml
 
     - name: Generate CSV
-      run: cd tools && python3 export.py --format csv --lang en > OWASP_MASVS-${{env.VERSION}}.csv
+      run: cd tools && python3 export.py --format csv --lang en > OWASP_MASVS.csv
     - name: Generate JSON
-      run: cd tools && python3 export.py --format json --lang en > OWASP_MASVS-${{env.VERSION}}.json
+      run: cd tools && python3 export.py --format json --lang en > OWASP_MASVS.json
     - name: Generate XML
-      run: cd tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{env.VERSION}}.xml
+      run: cd tools && python3 export.py --format xml --lang en > OWASP_MASVS.xml
     - name: Generate MASVS YAML
-      run: cd tools && python3 export.py --format yaml --lang en > OWASP_MASVS-${{env.VERSION}}.yaml
+      run: cd tools && python3 export.py --format yaml --lang en > OWASP_MASVS.yaml
 
     - name: Upload CSV
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${{env.VERSION}}.csv
-        path: tools/OWASP_MASVS-${{env.VERSION}}.csv
+        name: OWASP_MASVS.csv
+        path: tools/OWASP_MASVS.csv
     - name: Upload JSON
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${{env.VERSION}}.json
-        path: tools/OWASP_MASVS-${{env.VERSION}}.json
+        name: OWASP_MASVS.json
+        path: tools/OWASP_MASVS.json
     - name: Upload XML
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${{env.VERSION}}.xml
-        path: tools/OWASP_MASVS-${{env.VERSION}}.xml
+        name: OWASP_MASVS.xml
+        path: tools/OWASP_MASVS.xml
     - name: Upload YAML
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${{env.VERSION}}.yaml
-        path: tools/OWASP_MASVS-${{env.VERSION}}.yaml
+        name: OWASP_MASVS.yaml
+        path: tools/OWASP_MASVS.yaml
 
   release:
     runs-on: ubuntu-latest
@@ -71,7 +71,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v2
 
-      - name: Move all translations (pdf, epub and docx) to root
+      - name: Move all translations (pdf, and epub) to root
         run: mv OWASP_MASVS-*-*/* .
       - name: Release
         uses: softprops/action-gh-release@v1
@@ -83,7 +83,6 @@ jobs:
           files: |
             OWASP_MASVS-*.pdf
             OWASP_MASVS-*.epub
-            OWASP_MASVS-*.docx
             OWASP_MASVS-*.csv/OWASP_MASVS-*.csv
             OWASP_MASVS-*.json/OWASP_MASVS-*.json
             OWASP_MASVS-*.xml/OWASP_MASVS-*.xml
