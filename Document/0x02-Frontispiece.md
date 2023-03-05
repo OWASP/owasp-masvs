@@ -1,6 +1,6 @@
 # About the Standard
 
-<img src="Images/owasp_mas_header.png" width="100%" />
+<img src="images/owasp_mas_header.png" width="100%" />
 
 The OWASP Mobile Application Security Verification Standard (MASVS) is the industry standard for mobile application security. It provides a comprehensive set of security controls that can be used to assess the security of mobile apps across various platforms (e.g., Android, iOS) and deployment scenarios (e.g., consumer, enterprise). The standard covers the key components of the mobile app attack surface including storage, cryptography, authentication and authorization, network communication, interaction with the mobile platform, code quality and resilience against reverse engineering and tampering.
 
