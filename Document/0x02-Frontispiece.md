@@ -36,6 +36,8 @@ Jeroen is a principal security architect with a passion for mobile security and 
 
 Carlos is a mobile security research engineer who has gained many years of hands-on experience in the field of security testing for mobile apps and embedded systems such as automotive control units and IoT devices. He is passionate about reverse engineering and dynamic instrumentation of mobile apps and is continuously learning and sharing his knowledge.
 
+<!-- \pagebreak -->
+
 ## Acknowledgements
 
 | Project Lead | Lead Author | Contributors and Reviewers
@@ -70,6 +72,8 @@ While both the MASVS and the MASTG are created and maintained by the community o
 <img src="images/donators.png"/>
 
 We would like to thank everybody that bought the book from [Leanpub](https://leanpub.com/mobile-security-testing-guide) and sponsored us that way.
+
+<!-- \pagebreak -->
 
 ## Copyright and License
 
