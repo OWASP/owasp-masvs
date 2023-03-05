@@ -38,6 +38,14 @@ jobs:
     - name: Generate ${{ inputs.language }} PDF
       run: ${{ inputs.pandocker-tag }} ${{ inputs.pandocker-template }} ./tools/docker/pandoc_makedocs.sh ${{ inputs.folder }} ${{ env.VERSION }}
 
+    - name: List Downloaded document (sampling of download-artifact)
+      run: ls -l OWASP_MASVS*
+
+    - name: print working directory
+      run: pwd 
+    - name: Listing of root directory
+      run: ls -l 
+
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
