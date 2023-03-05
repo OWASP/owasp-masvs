@@ -13,7 +13,7 @@ monofont: 'DejaVu Sans Mono'
 
 # General variables
 toc: true
-toc-depth: 2
+toc-depth: 1
 # numbersections: true
 # secnumdepth: 2
 linkcolor: blue
