@@ -41,5 +41,5 @@ jobs:
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: OWASP_MASVS-${{ env.VERSION }}-${{ inputs.lang }}
-        path: OWASP_MASVS-${{ env.VERSION }}-${{ inputs.lang }}*
+        name: OWASP_MASVS
+        path: OWASP_MASVS*
