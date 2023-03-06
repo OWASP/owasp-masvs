@@ -43,9 +43,9 @@ def yaml_to_md(input_file, for_website):
           
         with open(filename, 'w') as f:
             f.write(f'# {group_id}: {title}\n\n')
-            f.write('## Description\n\n')
+            # f.write('## Description\n\n')
             f.write(f'{desc}\n')
-            f.write('## Controls\n\n')
+            # f.write('## Controls\n\n')
             f.write('| ID | Statement |\n')
             f.write('|----|-----------|\n')
             for control in controls:
