@@ -1,7 +1,7 @@
 catalog:
   metadata:
     title: Mobile Application Security Verification Standard (MASVS)
-    version: v2.0.0-rc
+    version: v2.0.0
     remarks: The OWASP MASVS (Mobile Application Security Verification Standard) is the industry standard for mobile app security. It can be used by mobile software architects and developers seeking to develop secure mobile apps, as well as security testers to ensure completeness and consistency of test results.
 groups:
   - id: MASVS-STORAGE
