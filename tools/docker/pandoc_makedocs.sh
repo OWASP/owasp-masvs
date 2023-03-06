@@ -4,17 +4,17 @@ set -eo pipefail
 
 # Input variables
 FOLDER=${1:-Document}
-VERSION=${2:-SNAPSHOT}
+MASVS_VERSION=${2:-SNAPSHOT}
 
 # You can also use the environment variables below to adapt the build process
 IMG=${IMG:-dalibo/pandocker}
 TAG=${TAG:-stable} # /!\ use stable-full for non-european languages
 LATEX_TEMPLATE=${LATEX_TEMPLATE:-eisvogel}
-TITLE=${TITLE:-OWASP Mobile Application Security Verification Standard ${VERSION}}
+TITLE=${TITLE:-OWASP Mobile Application Security Verification Standard ${MASVS_VERSION}}
 
 PANDOC_PARAMS=${PANDOC_PARAMS:-}
 PANDOC_PARAMS+="--resource-path=.:${FOLDER} "
-PANDOC_PARAMS+="--metadata version=${VERSION} "
+PANDOC_PARAMS+="--metadata masvs_version=${MASVS_VERSION}"
 
 [ ! -z "${VERBOSE}" ] && PANDOC_PARAMS+="--verbose "
 
