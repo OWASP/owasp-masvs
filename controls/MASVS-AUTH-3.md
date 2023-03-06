@@ -1,0 +1,9 @@
+# MASVS-AUTH-3
+
+## Statement
+
+The app secures sensitive operations with additional authentication.
+
+## Description
+
+Some additional form of authentication is often desirable for sensitive actions inside the app. This can be done in different ways (biometric, pin, MFA code generator, email, deep links, etc) and all need to be implemented securely.
