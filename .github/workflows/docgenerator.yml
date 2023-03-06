@@ -23,7 +23,10 @@ jobs:
       run: echo "VERSION=${{env.VERSION}}-$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
     - name: Generate Markdown files from MASVS yaml
-      run: python3 ./tools/generate_masvs_md.py
+      run: python3 ./tools/generate_masvs_yaml.py
+
+    - name: Populate MASVS Categories
+      run: python3 ./tools/populate_masvs_categories_md.py
 
     - name: Generate PDF
       run: ./tools/docker/pandoc_makedocs.sh Document ${{ env.VERSION }}
