@@ -57,6 +57,7 @@ def yaml_to_md(input_file, for_website):
                 f.write(f'| {control_id} | {control["statement"]} |\n')
             
             f.write('\n')
+            f.write('<!-- \pagebreak -->\n')
 
             for control in controls:
                 if for_website == True:
