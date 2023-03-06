@@ -71,9 +71,13 @@ While both the MASVS and the MASTG are created and maintained by the community o
 
 <img src="images/donators.png"/>
 
-We would like to thank everybody that bought the book from [Leanpub](https://leanpub.com/mobile-security-testing-guide) and sponsored us that way.
-
 <!-- \pagebreak -->
+
+## Changelog
+
+All our Changelogs are available online at the OWASP MASVS GitHub repository, see the Releases page:
+
+<https://github.com/OWASP/owasp-masvs/releases>
 
 ## Copyright and License
 
