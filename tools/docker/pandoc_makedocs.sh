@@ -72,7 +72,7 @@ ${PANDOC} \
 # EPUB
 ${PANDOC} \
   --metadata title="${TITLE}" \
-  --metadata author="Bernhard Mueller, Sven Schleier, Jeroen Willemsen, and Carlos Holguera" \
+  --metadata author="Bernhard Mueller, Sven Schleier, Jeroen Willemsen, Carlos Holguera and Jeroen Beckers" \
   --epub-cover-image=cover.png \
   -o ${OUTPUT_BASE_NAME}.epub \
   ${METADATA} \
