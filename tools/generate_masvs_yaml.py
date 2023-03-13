@@ -22,7 +22,7 @@ def read_md_sections(input_text):
         section_title = sections[i].strip()
         section_content = sections[i+1].strip()
 
-        if section_title == "Statement":
+        if section_title == "Control":
             sections_dict["statement"] = section_content
         elif section_title == "Description":
             sections_dict["description"] = section_content

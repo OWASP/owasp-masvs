@@ -1,6 +1,6 @@
 # MASVS-NETWORK-1
 
-## Statement
+## Control
 
 The app secures all network traffic according to the current best practices.
 

@@ -1,6 +1,6 @@
 # MASVS-PLATFORM-3
 
-## Statement
+## Control
 
 The app uses the user interface securely.
 

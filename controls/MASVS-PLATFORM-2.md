@@ -1,6 +1,6 @@
 # MASVS-PLATFORM-2
 
-## Statement
+## Control
 
 The app uses WebViews securely.
 

@@ -1,6 +1,6 @@
 # MASVS-RESILIENCE-1
 
-## Statement
+## Control
 
 The app validates the integrity of the platform.
 

@@ -1,6 +1,6 @@
 # MASVS-RESILIENCE-4
 
-## Statement
+## Control
 
 The app implements anti-dynamic analysis techniques.
 

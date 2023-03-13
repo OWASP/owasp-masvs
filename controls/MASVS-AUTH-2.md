@@ -1,6 +1,6 @@
 # MASVS-AUTH-2
 
-## Statement
+## Control
 
 The app performs local authentication securely according to the platform best practices.
 

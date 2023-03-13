@@ -1,6 +1,6 @@
 # MASVS-CODE-1
 
-## Statement
+## Control
 
 The app requires an up-to-date platform version.
 

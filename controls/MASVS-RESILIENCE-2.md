@@ -1,6 +1,6 @@
 # MASVS-RESILIENCE-2
 
-## Statement
+## Control
 
 The app implements anti-tampering mechanisms.
 

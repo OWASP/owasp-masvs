@@ -1,6 +1,6 @@
 # MASVS-PLATFORM-1
 
-## Statement
+## Control
 
 The app uses IPC mechanisms securely.
 

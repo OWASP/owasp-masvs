@@ -1,6 +1,6 @@
 # MASVS-STORAGE-2
 
-## Statement
+## Control
 
 The app prevents leakage of sensitive data.
 

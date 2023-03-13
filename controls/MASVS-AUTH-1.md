@@ -1,6 +1,6 @@
 # MASVS-AUTH-1
 
-## Statement
+## Control
 
 The app uses secure authentication and authorization protocols and follows the relevant best practices.
 

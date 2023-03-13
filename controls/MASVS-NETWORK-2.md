@@ -1,6 +1,6 @@
 # MASVS-NETWORK-2
 
-## Statement
+## Control
 
 The app performs identity pinning for all remote endpoints under the developer's control.
 

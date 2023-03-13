@@ -1,6 +1,6 @@
 # MASVS-CRYPTO-2
 
-## Statement
+## Control
 
 The app performs key management according to industry best practices.
 

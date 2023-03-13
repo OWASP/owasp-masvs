@@ -13,7 +13,7 @@ def write_controls_content(control, cf, for_website):
         final_newline = '\n'
     
     cf.write(f'{h1} {control["id"]}\n\n')
-    cf.write(f'{h2} Statement\n\n')
+    cf.write(f'{h2} Control\n\n')
     cf.write(f'{control["statement"]}\n\n')
     cf.write(f'{h2} Description\n\n')
     cf.write(f'{control["description"]}\n{final_newline}')
@@ -46,11 +46,11 @@ def yaml_to_md(input_file, for_website):
             # f.write('## Description\n\n')
             f.write(f'{desc}\n\n')
             # f.write('## Controls\n\n')
-            f.write('| ID | Statement |\n')
+            f.write('| ID | Control |\n')
             f.write('|----|-----------|\n')
             for control in controls:
                 if for_website == True:
-                    control_id = f'[{control["id"]}](controls/{control["id"]})'
+                    control_id = f'[{control["id"]}](controls/{control["id"]}.md)'
                 else:
                     control_id = control["id"]
                 

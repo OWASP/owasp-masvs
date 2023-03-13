@@ -1,6 +1,6 @@
 # MASVS-CRYPTO-1
 
-## Statement
+## Control
 
 The app employs current strong cryptography and uses it according to industry best practices.
 

@@ -1,6 +1,6 @@
 # MASVS-AUTH-3
 
-## Statement
+## Control
 
 The app secures sensitive operations with additional authentication.
 

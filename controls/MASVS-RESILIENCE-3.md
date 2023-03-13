@@ -1,6 +1,6 @@
 # MASVS-RESILIENCE-3
 
-## Statement
+## Control
 
 The app implements anti-static analysis mechanisms.
 

@@ -1,6 +1,6 @@
 # MASVS-CODE-3
 
-## Statement
+## Control
 
 The app only uses software components without known vulnerabilities.
 

@@ -1,6 +1,6 @@
 # MASVS-CODE-2
 
-## Statement
+## Control
 
 The app has a mechanism for enforcing app updates.
 

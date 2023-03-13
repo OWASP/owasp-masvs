@@ -1,6 +1,6 @@
 # MASVS-CODE-4
 
-## Statement
+## Control
 
 The app validates and sanitizes all untrusted inputs.
 

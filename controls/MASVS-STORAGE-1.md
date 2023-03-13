@@ -1,6 +1,6 @@
 # MASVS-STORAGE-1
 
-## Statement
+## Control
 
 The app securely stores sensitive data.
 
