@@ -42,34 +42,13 @@ Jeroen is a mobile security lead responsible for quality assurance on mobile sec
 
 <!-- \pagebreak -->
 
-## Acknowledgements
+## Contributors
 
-| Project Lead | Lead Author | Contributors and Reviewers
-| ------- | --- | ----------------- |
-| Sven Schleier and Carlos Holguera | Bernhard Mueller, Sven Schleier, Jeroen Willemsen and Carlos Holguera | Alexander Antukh, Mesheryakov Aleksey, Elderov Ali, Bachevsky Artem, Jeroen Beckers, Jon-Anthoney de Boer, Damien Clochard, Ben Cheney, Will Chilcutt, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, @empty_jack, Ben Gardiner, Anton Glezman, Josh Grossman, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, @PierrickV, Julia Potapenko, Andrew Orobator, Mehrad Rafii, Javier Ruiz, Abhinav Sejpal, Stefaan Seys, Yogesh Sharma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Abdessamad Temmar, Pauchard Thomas, Lukasz Wierzbicki |
+All of our contributors are listed in the Contributing section of the OWASP MAS website:
 
-<br/>
+<https://mas.owasp.org/contributing/>
 
-| Language | Translators & Reviewers |
-| --------------- | ------------------------------------------------------------ |
-| Brazilian Portuguese | Mateus Polastro, Humberto Junior, Rodrigo Araujo, Maurício Ariza, Fernando Galves |
-| Chinese (Traditonal) | Peter Chi, Lex Chien, Henry Hu, Leo Wang |
-| Chinese (Simplified) | Bob Peng, Harold Zang, Jack S |
-| French | Romuald Szkudlarek, Abderrahmane Aftahi, Christian Dong (Review) |
-| German | Rocco Gränitz, Sven Schleier (Review) |
-| Hindi | Mukesh Sharma, Ritesh Kumar, Kunwar Atul Singh, Parag Dave, Devendra Kumar Sinha, Vikrant Shah |
-| Japanese | Koki Takeyama, Riotaro Okada (Review) |
-| Korean | Youngjae Jeon, Jeongwon Cho, Jiyou Han, Jiyeon Sung |
-| Persian | Hamed Salimian, Ramin Atefinia, Dorna Azhirak, Bardiya Akbari, Mahsa Omidvar, Alireza Mazhari, Milad Khoshdel |
-| Portuguese | Ana Filipa Mota, Fernando Nogueira, Filipa Gomes, Luis Fontes, Sónia Dias|
-| Russian | Gall Maxim, Eugen Martynov, Chelnokov Vladislav, Oprya Egor, Tereshin Dmitry |
-| Spanish | Martin Marsicano, Carlos Holguera |
-| Turkish | Anıl Baş, Haktan Emik |
-| Greek | Panagiotis Yialouris |
-
-This document started as a fork of the OWASP Application Security Verification Standard written by Jim Manico.
-
-### Donators
+## Donators
 
 While both the MASVS and the MASTG are created and maintained by the community on a voluntary basis, sometimes a little bit of outside help is required. We therefore thank our donators for providing the funds to be able to hire technical editors. Note that their donation does not influence the content of the MASVS or MASTG in any way. The Donation Packages are described on the [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Application Security Testing Guide Donation Packages").
 
