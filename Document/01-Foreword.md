@@ -14,7 +14,7 @@ Furthermore, the appearance of root malware and remote administration tools has 
 
 As a result, mobile app security testing reports are all over the place: For example, some testers report a lack of obfuscation or root detection in an Android app as “security flaw”. On the other hand, measures like string encryption, debugger detection or control flow obfuscation aren't considered mandatory. However, this binary way of looking at things doesn't make sense because resilience is not a binary proposition: It depends on the particular client-side threats one aims to defend against. Software protections are not useless, but they can ultimately be bypassed, so they must never be used as a replacement for security controls.
 
-The overall goal of the MASVS is to offer a baseline for mobile application security (MASVS- L1), while also allowing for the inclusion of defense-in-depth measures (MASVS-L2) and protections against client-side threats (MASVS-R). The MASVS is meant to achieve the following:
+The overall goal of the MASVS is to offer a baseline for mobile application security, while also allowing for the inclusion of defense-in-depth measures and protections against client-side threats. The MASVS is meant to achieve the following:
 
 - Provide requirements for software architects and developers seeking to develop secure mobile applications;
 - Offer an industry standard that can be tested against in mobile app security reviews;
