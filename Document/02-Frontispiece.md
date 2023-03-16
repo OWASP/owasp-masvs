@@ -20,25 +20,25 @@ The OWASP MASVS and MASTG are trusted by the following platform providers and st
 
 ## Authors
 
-### Bernhard Mueller
-
-Bernhard is a cyber security specialist with a talent for hacking systems of all kinds. During more than a decade in the industry, he has published many zero-day exploits for software such as MS SQL Server, Adobe Flash Player, IBM Director, Cisco VOIP, and ModSecurity. If you can name it, he has probably broken it at least once. BlackHat USA commended his pioneering work in mobile security with a Pwnie Award for Best Research.
-
 ### Sven Schleier
 
-Sven is an experienced web and mobile penetration tester and assessed everything from historic Flash applications to progressive mobile apps. He is also a security engineer that supported many projects end-to-end during the SDLC to "build security in". He was speaking at local and international meetups and conferences and is conducting hands-on workshops about web application and mobile app security.
-
-### Jeroen Willemsen
-
-Jeroen is a principal security architect with a passion for mobile security and risk management. He has supported companies as a security coach, a security engineer and as a full-stack developer, which makes him a jack of all trades. He loves explaining technical subjects: from security issues to programming challenges.
+Sven is an experienced web and mobile penetration tester and assessed everything from historic Flash applications to progressive mobile apps. He is also a security engineer that supported many projects end-to-end during the SDLC. He was speaking at local and international meetups and conferences and is conducting hands-on workshops about web application and mobile app security.
 
 ### Carlos Holguera
 
-Carlos is a mobile security research engineer who has gained many years of hands-on experience in the field of security testing for mobile apps and embedded systems such as automotive control units and IoT devices. He is passionate about reverse engineering and dynamic instrumentation of mobile apps and is continuously learning and sharing his knowledge.
+Carlos is a mobile security research engineer with many years of hands-on experience in security testing for mobile apps and embedded systems such as automotive control units and IoT devices. He is passionate about reverse engineering and dynamic instrumentation of mobile apps and is continuously learning and sharing his knowledge.
 
 ### Jeroen Beckers
 
-Jeroen is a mobile security lead responsible for quality assurance on mobile security projects and for R&D on all things mobile. Although he started his career as a programmer, he found that it was more fun to take things apart than to put things together, and the switch to security was quickly made. Ever since his master's thesis on Android security, Jeroen has been interested in mobile devices and their (in)security. He loves sharing his knowledge with other people, as is demonstrated by his many talks & trainings at colleges, universities, clients and conferences.
+Jeroen is a mobile security lead responsible for quality assurance on mobile security projects and for R&D on all things mobile. Ever since his master's thesis on Android security, Jeroen has been interested in mobile devices and their (in)security. He loves sharing his knowledge with other people, as is demonstrated by his many talks & trainings at colleges, universities, clients and conferences.
+
+### Bernhard Mueller
+
+Bernhard is a cyber security specialist with a talent for hacking systems of all kinds. During more than a decade in the industry, he has published many zero-day exploits for software. BlackHat USA commended his pioneering work in mobile security with a Pwnie Award for Best Research.
+
+### Jeroen Willemsen
+
+Jeroen is a principal security architect with a passion for mobile security and risk management. He has supported companies as a security coach, a security engineer and as a full-stack developer. He loves explaining technical subjects: from security issues to programming challenges.
 
 <!-- \pagebreak -->
 
