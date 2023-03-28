@@ -6,17 +6,18 @@ The objective of the MASVS is to establish a high level of confidence in the sec
 
 By adhering to the controls outlined in the OWASP MASVS, organizations can ensure that their mobile applications are built with security in mind, reducing the risk of security breaches and protecting sensitive user data. Whether used as a metric, guidance, or baseline, the OWASP MASVS is an invaluable tool for enhancing the security of mobile applications.
 
-The OWASP MASVS is a living document and is regularly updated to reflect the changing threat landscape and new attack vectors. As such, it's important to [stay up-to-date](https://mas.owasp.org/contact/) with the latest version of the standard and adapt security measures accordingly.
+The OWASP MASVS is a living document and is regularly updated to reflect the changing threat landscape and new attack vectors. As such, it's important to [stay up-to-date](https://mas.owasp.org/MASVS/ with the latest version of the standard and adapt security measures accordingly.
 
 ## Mobile Application Security Model
 
 The standard is divided into various groups that represent the most critical areas of the mobile attack surface. These control groups, labeled **MASVS-XXXXX**, provide guidance and standards for the following areas:
 
-- **MASVS-STORAGE:** Secure storage of sensitive data on device.
+- **MASVS-STORAGE:** Secure storage of sensitive data on a device (data-at-rest).
 - **MASVS-CRYPTO:** Cryptographic functionality used to protect sensitive data.
 - **MASVS-AUTH:** Authentication and authorization mechanisms used by the mobile app.
-- **MASVS-NETWORK:** Secure network communication between the mobile app and external systems.
-- **MASVS-PLATFORM:** Secure interaction with the underlying mobile platform and co-installed apps.
+- **MASVS-NETWORK:** Secure network communication between the mobile app and remote endpoints (data-in-transit).
+- **MASVS-PLATFORM:** Secure interaction with the underlying mobile platform and other installed apps.
+- **MASVS-CODE:** Security best practices for data processing and keeping the app up-to-date.
 - **MASVS-RESILIENCE:** Resilience to reverse engineering and tampering attempts.
 
 Each of these control groups contains individual controls labeled **MASVS-XXXXX-Y**, which provide specific guidance on the particular security measures that need to be implemented to meet the standard.
@@ -33,23 +34,25 @@ However, it is important to note that implementing these profiles fully or parti
 
 When using the MASVS, it's important to keep in mind the following assumptions:
 
-- The MASVS is not a substitute for following secure development best practices, such as secure coding or secure SDLC. These practices should be followed in addition to using the MASVS.
-- The MASVS assumes that you've followed the relevant external standards for all elements of your app's ecosystem, such as backend servers, IoT, and other companion devices.
+- The MASVS is not a substitute for following secure development best practices, such as secure coding or secure SDLC. These practices should be followed holistically in your development process and the MASVS complements them specifically for mobile apps.
+- The MASVS assumes that you've followed the relevant standards of your industry and country for all elements of your app's ecosystem, such as backend servers, IoT, and other companion devices.
 - The MASVS is designed to evaluate the security of mobile apps that can be analyzed statically by obtaining the app package, dynamically by running it on a potentially compromised device, and also considers any network-based attacks such as MITM.
 
 While the OWASP MASVS is an invaluable tool for enhancing the security of mobile applications, it cannot guarantee absolute security. It should be used as a baseline for security requirements, but additional security measures should also be implemented as appropriate to address specific risks and threats to the mobile app.
 
 ### Security Architecture, Design and Threat Modeling for Mobile Apps
 
-> The OWASP MASVS assumes that best practices for secure architecture, design, and threat modeling have been followed as a foundation. Once this foundation is in place, the MASVS should be applied to ensure that the mobile app is secure from the perspective of an attacker.
+> The OWASP MASVS assumes that best practices for secure architecture, design, and threat modeling have been followed as a foundation. 
 
 Security must be a top priority throughout all stages of mobile app development, from the initial planning and design phase to deployment and ongoing maintenance. Developers need to follow secure development best practices and ensure that security measures are prioritized to protect sensitive data, comply with policies and regulations, and identify and address security issues that can be targeted by attackers.
 
-While the MASVS and MASTG focus on testable parts of app security assessment, non-testable aspects such as following best practices laid out by [OWASP Software Assurance Maturity Model (SAMM)](https://owaspsamm.org/model/) or [NIST.SP.800-218 Secure Software Development Framework (SSDF)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf) for secure architecture, design, and threat modeling are still important. To ensure that these practices are followed, developers can provide documentation or evidence of adherence to these standards, such as design documents, threat models, and security architecture diagrams. Additionally, surveys or questionnaires can be used to collect information on adherence to these practices and provide an understanding of the level of compliance with these standards.
+While the MASVS and MASTG focuses on controls and technical test cases for app security assessments, non-technical aspects such as following best practices laid out by [OWASP Software Assurance Maturity Model (SAMM)](https://owaspsamm.org/model/) or [NIST.SP.800-218 Secure Software Development Framework (SSDF)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf) for secure architecture, design, and threat modeling are still important. The MASVS can also be used as reference and input for a threat model to raise awareness of potential attacks.
+
+To ensure that these practices are followed, developers can provide documentation or evidence of adherence to these standards, such as design documents, threat models, and security architecture diagrams. Additionally, interviews can be conducted to collect information on adherence to these practices and provide an understanding of the level of compliance with these standards.
 
 ### Secure App Ecosystem
 
-> The OWASP MASVS assumes that developers are also leveraging other relevant security standards to ensure that all systems involved in the app's operation meet appropriate security standards.
+> The OWASP MASVS assumes other relevant security standards are also leveraged to ensure that all systems involved in the app's operation meet their applicable requirements.
 
 Mobile apps often interact with multiple systems, including backend servers, third-party APIs, Bluetooth devices, cars, IoT devices, and more. Each of these systems may introduce their own security risks that must be considered as part of the mobile app's security design and threat modeling. For example, when interacting with a backend server, the [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/) should be used to ensure that the server is secure and meets the required security standards. In the case of Bluetooth devices, the app should be designed to prevent unauthorized access, while for cars, the app should be designed to protect the user's data and ensure that there are no safety issues with the car's operation.
 
@@ -71,7 +74,7 @@ Native apps are written in platform-specific languages, such as Java/Kotlin for 
 
 ### Cross-Platform and Hybrid Apps
 
-Apps based on cross-platform (Flutter, React Native, Xamarin, Ionic, etc.) and hybrid (Cordova, PhoneGap, Framework7, Onsen UI, etc.) frameworks may be susceptible to platform-specific vulnerabilities that don't exist in native apps. For example, some JavaScript frameworks may introduce new security issues that don't exist in other programming languages. Code obfuscation techniques can help make it more difficult for attackers to reverse engineer the app.
+Apps based on cross-platform (Flutter, React Native, Xamarin, Ionic, etc.) and hybrid (Cordova, PhoneGap, Framework7, Onsen UI, etc.) frameworks may be susceptible to platform-specific vulnerabilities that don't exist in native apps. For example, some JavaScript frameworks may introduce new security issues that don't exist in other programming languages. It is therefore essential to follow the security best practices of the used frameworks.
 
 The MASVS is agnostic to the type of mobile application being developed. This means that the guidelines and best practices outlined in the MASVS can be applied to all types of mobile apps, including cross-platform and hybrid apps.
 
@@ -85,4 +88,4 @@ There are hundreds of preloads that may ship on a device, and as a result, autom
 
 SDKs play a vital role in the mobile app value chain, supplying code developers need to build faster, smarter, and more profitably. Developers rely on them heavily, with the average mobile app using 30 SDKs, and 90% of code sourced from third parties. While this widespread use delivers significant benefits to developers, it also propagates safety and security issues.
 
-SDKs offer a variety of functionality, and not all MASVS categories apply to every single SDK type. As a result, the SDK developer should evaluate which categories apply to their respective SDKs to ensure a lab can evaluate them properly.
+SDKs offer a variety of functionality, and should be regarded as an individual project. You should evaluate how the MASVS applies to the used SDKs to ensure the highest possible security testing coverage.

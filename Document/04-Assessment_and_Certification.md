@@ -12,7 +12,7 @@ This should not inhibit organizations from offering such assurance services, as 
 
 The recommended way of verifying compliance of a mobile app with the MASVS is by performing an "open book" review, meaning that the testers are granted access to key resources such as architects and developers of the app, project documentation, source code, and authenticated access to endpoints, including access to at least one user account for each role.
 
-It is important to note that the MASVS only covers security of the (client-side) mobile app and the network communication between the app and its remote endpoint(s), as well as a few basic and generic controls related to user authentication and session management. It does not contain specific controls for the remote services (e.g. web services) associated with the app other than a limited set of generic controls pertaining to authorization, authentication, control verification, and session management. However, MASVS V1 specifies that remote services must be covered by the overall threat model, and be verified against appropriate standards, such as the OWASP ASVS.
+It is important to note that the MASVS only covers the security of the  mobile app (client-side). It does not contain specific controls for the remote endpoints (e.g. web services) associated with the app and they should be verified against appropriate standards, such as the [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/).
 
 A certifying organization must include in any report the scope of the verification (particularly if a key component is out of scope), a summary of verification findings, including passed and failed tests, with clear indications of how to resolve the failed tests. Keeping detailed work papers, screenshots or movies, scripts to reliably and repeatedly exploit an issue, and electronic records of testing, such as intercepting proxy logs and associated notes such as a cleanup list, is considered standard industry practice. It is not sufficient to simply run a tool and report on the failures; this does not provide sufficient evidence that all issues at a certifying level have been tested and tested thoroughly. In case of dispute, there should be sufficient supportive evidence to demonstrate that every verified control has indeed been tested.
 
@@ -20,9 +20,11 @@ A certifying organization must include in any report the scope of the verificati
 
 The OWASP MASTG is a manual for testing the security of mobile apps. It describes the technical processes for verifying the controls listed in the MASVS. The MASTG includes a list of test cases, each of which map to a control in the MASVS. While the MASVS controls are high-level and generic, the MASTG provides in-depth recommendations and testing procedures on a per-mobile-OS basis.
 
+Testing the app's remote endpoints is not covered in the MASTG. The [OWASP Web Security Testing Guide (WSTG)](https://owasp.org/www-project-web-security-testing-guide/) is a comprehensive guide with detailed technical explanation and guidance for testing the security of web applications and web services holistically and can be used in addition to other relevant resources to complement the mobile app security testing exercise.
+
 ### The Role of Automated Security Testing Tools
 
-The use of source code scanners and black-box testing tools is encouraged in order to increase efficiency whenever possible. It is however not possible to complete MASVS verification using automated tools alone: Every mobile app is different, and understanding the overall architecture, business logic, and technical pitfalls of the specific technologies and frameworks being used, is a mandatory control to verify security of the app.
+The use of source code scanners and black-box testing tools is encouraged in order to increase efficiency whenever possible. It is however not possible to complete MASVS verification using automated tools alone, since every mobile app is different. In order to fully verify the security of the app it is essential to understand the overall architecture, business logic, and technical pitfalls of the specific technologies and frameworks being used.
 
 ## Other Uses
 

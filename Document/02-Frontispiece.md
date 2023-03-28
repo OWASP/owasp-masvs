@@ -6,9 +6,7 @@ The OWASP Mobile Application Security Verification Standard (MASVS) is the indus
 
 The OWASP MASVS is the result of years of community effort and industry feedback. We thank all the contributors who have helped shape this standard. We welcome your feedback on the OWASP MASVS at any time, especially as you apply it to your own organization and mobile app development projects. Getting inputs from a variety of mobile app developers will help us improve and update the standard which is revised periodically based on your inputs and feedback.
 
-<https://github.com/OWASP/owasp-masvs/discussions>
-
-<https://www.owasp.org/contact>
+You can provide feedback using GitHub Discussions in the OWASP MASVS repo <https://github.com/OWASP/owasp-masvs/discussions>, or contact the project leads directly <https://mas.owasp.org/contact/>.
 
 The OWASP MASVS and MASTG are trusted by the following platform providers and standardization, governmental and educational institutions. [Learn more](https://mas.owasp.org/MASTG/Intro/0x02b-MASVS-MASTG-Adoption/).
 
@@ -50,7 +48,7 @@ All of our contributors are listed in the Contributing section of the OWASP MAS 
 
 ## Donators
 
-While both the MASVS and the MASTG are created and maintained by the community on a voluntary basis, sometimes a little bit of outside help is required. We therefore thank our donators for providing the funds to be able to hire technical editors. Note that their donation does not influence the content of the MASVS or MASTG in any way. The Donation Packages are described on the [OWASP Project Wiki](https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide#tab=Sponsorship_Packages "OWASP Mobile Application Security Testing Guide Donation Packages").
+While both the MASVS and the MASTG are created and maintained by the community on a voluntary basis, sometimes outside help is required. We therefore thank our donators for providing the funds to be able to hire technical editors. Note that their donation does not influence the content of the MASVS or MASTG in any way. The Donation Packages are described on the [OWASP MAS Website](https://mas.owasp.org/donate/packages/).
 
 <img src="images/donators.png"/>
 
