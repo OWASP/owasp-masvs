@@ -1,4 +1,4 @@
-<a href="https://github.com/OWASP/owasp-masvs/discussions/categories/big-masvs-refactoring"><img width="180px" align="right" style="float: right;" src="Document/images/masvs-progress.png"></a>
+<img width="180px" align="right" style="float: right;" src="cover.png">
 
 # OWASP Mobile Application Security Verification Standard (MASVS)
 
@@ -62,7 +62,7 @@ MAS Advocates are industry adopters of the OWASP MASVS and MASTG who have invest
 
 <ul>
 <li><a href="https://github.com/OWASP/owasp-masvs/discussions"><img src="Document/images/GitHub_logo.png" width="14px"> GitHub Discussions</a></li>
-<li><a href="https://owasp.slack.com/messages/project-mobile_omtg/details/"><img src="Document/images/slack_logo.png" width="14px">  #project-mobile_omtg</a> (<a href="https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#//">Get Invitation</a>)</li>
+<li><a href="https://owasp.slack.com/archives/C1M6ZVC6S"><img src="Document/Images/slack_logo.png" width="14px">  #project-mobile-app-security</a> (<a href="https://owasp.slack.com/join/shared_invite/zt-g398htpy-AZ40HOM1WUOZguJKbblqkw#//">Get Invitation</a>)</li>
 <li><a href="https://twitter.com/OWASP_MAS"><img src="Document/images/twitter_logo.png" width="14px"> @OWASP_MAS </a> (Official Account)</li>
 <li><a href="https://twitter.com/bsd_daemon"><img src="Document/images/twitter_logo.png" width="14px"> @bsd_daemon </a> (Sven Schleier, Project Lead) <a href="https://twitter.com/grepharder"><img src="Document/images/twitter_logo.png" width="14px"> @grepharder </a> (Carlos Holguera, Project Lead)</li>
 </ul>
@@ -82,46 +82,4 @@ The MASVS is an open source effort and we welcome all kinds of contributions and
 - 💡 [Propose ideas or suggest improvements](https://github.com/OWASP/owasp-masvs/discussions/categories/ideas) (if it qualifies we'll promote it to an [Issue](https://github.com/OWASP/owasp-masvs/issues "Github issues"))
 - 📄 [Create a Pull Request](https://github.com/OWASP/owasp-masvs/pulls) for concrete fixes (e.g. grammar/typos) or content already approved by the core team.
 
-Before you start contributing, please check our [contribution guide](https://github.com/OWASP/owasp-masvs/blob/master/CONTRIBUTING.md "Contribution Guide") which should get you started. If you have any doubts [please contact us](#connect-with-us).
-
-## MASVS Translations
-
-The MASVS is available in different languages:
-
-- [Chinese (Simplified) - ZHCN](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhcn "Simplified Chinese (ZHCN)")
-- [Chinese (Traditional) - ZHTW](https://github.com/OWASP/owasp-masvs/tree/master/Document-zhtw "Traditional Chinese (ZHTW)")
-- [English](https://github.com/OWASP/owasp-masvs/tree/master/Document "English")
-- [French](https://github.com/OWASP/owasp-masvs/tree/master/Document-fr "French")
-- [German](https://github.com/OWASP/owasp-masvs/tree/master/Document-de "German")
-- [Hindi](https://github.com/OWASP/owasp-masvs/tree/master/Document-hi "Hindi")
-- [Japanese](https://github.com/OWASP/owasp-masvs/tree/master/Document-ja "Japanese")
-- [Korean](https://github.com/OWASP/owasp-masvs/tree/master/Document-ko "Korean")
-- [Persian](https://github.com/OWASP/owasp-masvs/tree/master/Document-fa "Persian")
-- [Portuguese (Brazil)](https://github.com/OWASP/owasp-masvs/tree/master/Document-ptbr "Brazilian Portuguese")
-- [Portuguese (Portugal)](https://github.com/OWASP/owasp-masvs/tree/master/Document-ptpt "Portuguese Portugal")
-- [Russian](https://github.com/OWASP/owasp-masvs/tree/master/Document-ru "Russian")
-- [Spanish](https://github.com/OWASP/owasp-masvs/tree/master/Document-es "Spanish")
-- [Turkish](https://github.com/OWASP/owasp-masvs/tree/master/Document-tr "Turkish")
-- [Greek](https://github.com/OWASP/owasp-masvs/tree/master/Document-gr "Greek")
-
-## Other Formats
-
-See the [latest release](https://github.com/OWASP/owasp-masvs/releases/latest). Else you can export it yourself in [other formats](tools/README.md#other-formats).
-
-## Table-of-Contents
-
-- [Foreword](https://mas.owasp.org/MASVS/Intro/0x01-Foreword)
-- [Frontispiece](https://mas.owasp.org/MASVS/Intro/0x02-Frontispiece)
-- [The Mobile Application Security Verification Standard](https://mas.owasp.org/MASVS/Intro/0x03-Using_the_MASVS)
-- [Assessment and Verification](https://mas.owasp.org/MASVS/Intro/0x04-Assessment_and_Certification)
-- [V1: Architecture, Design and Threat Modeling Requirements](https://mas.owasp.org/MASVS/Controls/0x06-V1-Architecture_design_and_threat_modelling_requireme)
-- [V2: Data Storage and Privacy Requirements](https://mas.owasp.org/MASVS/Controls/0x07-V2-Data_Storage_and_Privacy_requirements)
-- [V3: Cryptography Requirements](https://mas.owasp.org/MASVS/Controls/0x08-V3-Cryptography_Verification_Requirements)
-- [V4: Authentication and Session Management Requirements](https://mas.owasp.org/MASVS/Controls/0x09-V4-Authentication_and_Session_Management_Requirements)
-- [V5: Network Communication Requirements](https://mas.owasp.org/MASVS/Controls/0x10-V5-Network_communication_requirements)
-- [V6: Environmental Interaction Requirements](https://mas.owasp.org/MASVS/Controls/0x11-V6-Interaction_with_the_environment)
-- [V7: Code Quality and Build Setting Requirements](https://mas.owasp.org/MASVS/Controls/0x12-V7-Code_quality_and_build_setting_requirements)
-- [V8: Resiliency Against Reverse Engineering Requirements](https://mas.owasp.org/MASVS/Controls/0x15-V8-Resiliency_Against_Reverse_Engineering_Requirements)
-- [Appendix A: Glossary](https://mas.owasp.org/MASVS/Appendix/0x90-Appendix-A_Glossary)
-- [Appendix B: References](https://mas.owasp.org/MASVS/Appendix/0x91-Appendix-B_References)
-- [Release notes](CHANGELOG.md)
+Before you start contributing, please check our [contribution guide](https://mas.owasp.org/contributing/) which should get you started. If you have any doubts [please contact us](#connect-with-us).

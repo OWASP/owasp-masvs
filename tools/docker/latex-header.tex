@@ -5,7 +5,7 @@
 
 \hypersetup{
   pdftitle={OWASP Mobile Application Security Verification Standard},
-  pdfauthor={Sven Schleier, Jeroen Willemsen and Carlos Holguera},
+  pdfauthor={Bernhard Mueller, Sven Schleier, Jeroen Willemsen, Carlos Holguera and Jeroen Beckers},
   pdfsubject={The Mobile Application Security Verification Standard (MASVS) is a standard for mobile app security.},
   pdfkeywords={Mobile Security,iOS,Android,OWASP}
 }
@@ -41,6 +41,32 @@
 %%\usepackage[space]{xeCJK}
 %%\setCJKmainfont{Noto Sans CJK {{CJK-LANG}}} %JP,SC,TC,KR
 %%\renewcommand\CJKglue{}% get proper linebreaking if spaces are provided
+
+\usepackage{underscore} % Solves breaking line for **Protocol_KeyExchangeAlgorithm_WITH_BlockCipher_IntegrityCheckAlgorithm**
+
+% The next 2 block fix several issues with non-breaking texttt environments:
+% "The module app.package.attacksurface"
+% "in clear text in /data/data/<package-name>/shared_-"
+% "For example, \e search.quiet=true;"
+
+\newcommand*\justify{%
+  \fontdimen2\font=0.4em% interword space
+  \fontdimen3\font=0.2em% interword stretch
+  \fontdimen4\font=0.1em% interword shrink
+  \fontdimen7\font=0.1em% extra space
+  \hyphenchar\font=`\-% allowing hyphenation
+}
+
+\renewcommand{\texttt}[1]{%
+  \begingroup
+  \ttfamily
+  \begingroup\lccode`~=`/\lowercase{\endgroup\def~}{/\discretionary{}{}{}}%
+  \begingroup\lccode`~=`[\lowercase{\endgroup\def~}{[\discretionary{}{}{}}%
+  \begingroup\lccode`~=`.\lowercase{\endgroup\def~}{.\discretionary{}{}{}}%
+  \catcode`/=\active\catcode`[=\active\catcode`.=\active
+  \justify\scantokens{#1\noexpand}%
+  \endgroup
+}
 
 %% Workaround for pandoc bug #8460
 %% https://github.com/jgm/pandoc/issues/8460

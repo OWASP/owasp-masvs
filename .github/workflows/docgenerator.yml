@@ -8,129 +8,13 @@ jobs:
 ## Use `pandocker-tag: TAG=latest-ubuntu-full` for langs that require the special fonts (Russian, Chinese, etc.)
 ##
 
-  en:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document
-      language: English
-      lang: en
-
-  de:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document-de
-      language: German
-      lang: de
-
-  es:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document-es
-      language: Spanish
-      lang: es
-
-  fr:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document-fr
-      language: French
-      lang: fr
-
-  ptbr:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document-ptbr
-      language: Brazilian Portuguese
-      lang: ptbr
-
-  ptpt:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document-ptpt
-      language: Portugal Portuguese
-      lang: ptpt
-
-  tr:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document-tr
-      language: Turkish
-      lang: tr
-      pandocker-tag: TAG=latest-ubuntu-full
-
-  gr:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document-gr
-      language: Hindi
-      lang: gr
-      pandocker-tag: TAG=latest-ubuntu-full
-
-  hi:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document-hi
-      language: Hindi
-      lang: hi
-      pandocker-tag: TAG=latest-ubuntu-full
-
-  ja:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document-ja
-      language: Japanese
-      lang: ja
-      pandocker-tag: TAG=latest-ubuntu-full
-
-  ko:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document-ko
-      language: Korean
-      lang: ko
-      pandocker-tag: TAG=latest-ubuntu-full
-
-  ru:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document-ru
-      language: Russian
-      lang: ru
-      pandocker-tag: TAG=latest-ubuntu-full
-
-  fa:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document-fa
-      language: Persian
-      lang: fa
-      pandocker-tag: TAG=latest-ubuntu-full
-
-  zhcn:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document-zhcn
-      language: Simplified Chinese
-      lang: zhcn
-      pandocker-tag: TAG=latest-ubuntu-full
-
-  zhtw:
-    uses: OWASP/owasp-masvs/.github/workflows/doc-gen-reusable.yml@master
-    with:
-      folder: Document-zhtw
-      language: Traditional Chinese
-      lang: zhtw
-      pandocker-tag: TAG=latest-ubuntu-full
-
-  export:
+  Generate-MASVS-Documents:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         fetch-depth: 1
 
-    # tag name with the latest tag 
-    # and the abbreviated hash of the most recent commit
     - name: Set VERSION to env 
       run: echo "VERSION=$(curl -s https://api.github.com/repos/OWASP/owasp-masvs/tags | jq '.[0].name' | sed 's/\"//g')" >> $GITHUB_ENV
 
@@ -138,48 +22,43 @@ jobs:
       if: ${{ !startsWith(github.ref, 'refs/tags/') }}
       run: echo "VERSION=${{env.VERSION}}-$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
-    - name: Install pyyaml
-      run: pip3 install pyyaml
+    - name: Generate MASVS yaml
+      run: python3 ./tools/generate_masvs_yaml.py -v ${{ env.VERSION }}
 
-    - name: Generate CSV
-      run: cd tools && python3 export.py --format csv --lang en > OWASP_MASVS-${{env.VERSION}}.csv
-    - name: Generate JSON
-      run: cd tools && python3 export.py --format json --lang en > OWASP_MASVS-${{env.VERSION}}.json
-    - name: Generate XML
-      run: cd tools && python3 export.py --format xml --lang en > OWASP_MASVS-${{env.VERSION}}.xml
-    - name: Generate MASVS YAML
-      run: cd tools && python3 export.py --format yaml --lang en > OWASP_MASVS-${{env.VERSION}}.yaml
+    - name: Populate MASVS Categories Markdown Files
+      run: python3 ./tools/populate_masvs_categories_md.py
 
-    - name: Upload CSV
-      uses: actions/upload-artifact@v2
+    - name: Generate PDF
+      run: ./tools/docker/pandoc_makedocs.sh Document ${{ env.VERSION }}
+
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v3
       with:
-        name: OWASP_MASVS-${{env.VERSION}}.csv
-        path: tools/OWASP_MASVS-${{env.VERSION}}.csv
-    - name: Upload JSON
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}.json
-        path: tools/OWASP_MASVS-${{env.VERSION}}.json
-    - name: Upload XML
-      uses: actions/upload-artifact@v2
-      with:
-        name: OWASP_MASVS-${{env.VERSION}}.xml
-        path: tools/OWASP_MASVS-${{env.VERSION}}.xml
+        name: OWASP_MASVS
+        path: OWASP_MASVS*
+
     - name: Upload YAML
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
-        name: OWASP_MASVS-${{env.VERSION}}.yaml
-        path: tools/OWASP_MASVS-${{env.VERSION}}.yaml
+        name: OWASP_MASVS.yaml
+        path: masvs.yaml
 
   release:
     runs-on: ubuntu-latest
-    needs: [en, de, fa, es, fr, hi, ja, ko, ptbr, ptpt, ru, zhcn, zhtw, export]
+    needs: [Generate-MASVS-Documents]
     if: startsWith(github.ref, 'refs/tags/') && (github.actor == 'cpholguera' || github.actor == 'sushi2k')
     steps:
       - uses: actions/download-artifact@v2
+      - name: List Downloaded document (sampling of download-artifact)
+        run: ls -l OWASP_MASVS*
 
-      - name: Move all translations (pdf, epub and docx) to root
-        run: mv OWASP_MASVS-*-*/* .
+      - name: print working directory
+        run: pwd 
+      - name: Listing of root directory
+        run: ls -l 
+
+      - name: Move all translations (pdf, and epub) to root
+        run: mv OWASP_MASVS*/* .
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
@@ -188,11 +67,8 @@ jobs:
           generate_release_notes: true
           discussion_category_name: Announcements
           files: |
-            OWASP_MASVS-*.pdf
-            OWASP_MASVS-*.epub
-            OWASP_MASVS-*.docx
-            OWASP_MASVS-*.csv/OWASP_MASVS-*.csv
-            OWASP_MASVS-*.json/OWASP_MASVS-*.json
-            OWASP_MASVS-*.xml/OWASP_MASVS-*.xml
+            OWASP_MASVS.pdf
+            OWASP_MASVS.epub
+            OWASP_MASVS.yaml/OWASP_MASVS.yaml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
