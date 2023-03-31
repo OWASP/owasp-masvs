@@ -20,7 +20,7 @@ The OWASP MASVS and MASTG are trusted by the following platform providers and st
 
 ### Sven Schleier
 
-Sven is an experienced web and mobile penetration tester and assessed everything from historic Flash applications to progressive mobile apps. He is also a security engineer that supported many projects end-to-end during the SDLC. He was speaking at local and international meetups and conferences and is conducting hands-on workshops about web application and mobile app security.
+Sven is specialised in penetration testing and application security and has guided numerous projects to build security in from the start. He strongly believes in knowledge sharing and is speaking worldwide at meetups and conferences, is an adjunct professor and is conducting hands-on workshops about mobile app security to penetration testers, developers and students.
 
 ### Carlos Holguera
 
