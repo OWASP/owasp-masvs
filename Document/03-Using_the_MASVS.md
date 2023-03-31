@@ -42,7 +42,7 @@ While the OWASP MASVS is an invaluable tool for enhancing the security of mobile
 
 ### Security Architecture, Design and Threat Modeling for Mobile Apps
 
-> The OWASP MASVS assumes that best practices for secure architecture, design, and threat modeling have been followed as a foundation. 
+> The OWASP MASVS assumes that best practices for secure architecture, design, and threat modeling have been followed as a foundation.
 
 Security must be a top priority throughout all stages of mobile app development, from the initial planning and design phase to deployment and ongoing maintenance. Developers need to follow secure development best practices and ensure that security measures are prioritized to protect sensitive data, comply with policies and regulations, and identify and address security issues that can be targeted by attackers.
 
