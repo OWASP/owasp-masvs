@@ -76,18 +76,4 @@ The MASVS is an open source effort and we welcome all kinds of contributions and
 - 💡 [Propose ideas or suggest improvements](https://github.com/OWASP/owasp-masvs/discussions/categories/ideas) (if it qualifies we'll promote it to an [Issue](https://github.com/OWASP/owasp-masvs/issues "Github issues"))
 - 📄 [Create a Pull Request](https://github.com/OWASP/owasp-masvs/pulls) for concrete fixes (e.g. grammar/typos) or content already approved by the core team.
 
-Before you start contributing, please check our [contribution guide](https://github.com/OWASP/owasp-masvs/blob/master/CONTRIBUTING.md "Contribution Guide") which should get you started. If you have any doubts [please contact us](#connect-with-us).
-
-## Table of Contents
-
-- [Foreword](https://mas.owasp.org/MASVS/Intro/0x01-Foreword)
-- [Frontispiece](https://mas.owasp.org/MASVS/Intro/0x02-Frontispiece)
-- [The Mobile Application Security Verification Standard](https://mas.owasp.org/MASVS/Intro/0x03-Using_the_MASVS)
-- [Assessment and Verification](https://mas.owasp.org/MASVS/Intro/0x04-Assessment_and_Certification)
-- [MASVS-STORAGE: Storage](https://mas.owasp.org/MASVS/Controls/0x07-V2-Data_Storage_and_Privacy_requirements)
-- [MASVS-CRYPTO: Cryptography](https://mas.owasp.org/MASVS/Controls/0x08-V3-Cryptography_Verification_Requirements)
-- [MASVS-AUTH: Authentication and Authorization](https://mas.owasp.org/MASVS/Controls/0x09-V4-Authentication_and_Session_Management_Requirements)
-- [MASVS-NETWORK: Network Communication](https://mas.owasp.org/MASVS/Controls/0x10-V5-Network_communication_requirements)
-- [MASVS-PLATFORM: Platform Interaction](https://mas.owasp.org/MASVS/Controls/0x11-V6-Interaction_with_the_environment)
-- [MASVS-CODE: Code Quality](https://mas.owasp.org/MASVS/Controls/0x12-V7-Code_quality_and_build_setting_requirements)
-- [MASVS-RESILIENCE: Resilience Against Reverse Engineering and Tampering](https://mas.owasp.org/MASVS/Controls/0x15-V8-Resiliency_Against_Reverse_Engineering_Requirements)
+Before you start contributing, please check our [contribution guide](https://mas.owasp.org/contributing/) which should get you started. If you have any doubts [please contact us](#connect-with-us).
