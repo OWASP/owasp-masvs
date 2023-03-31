@@ -1,6 +1,7 @@
 import os
 import yaml
 import re
+import argparse
 
 masvs = {
     "metadata": {
@@ -9,6 +10,8 @@ masvs = {
     },
     "groups": []
 }
+
+MASVS_VERSION = ""
 
 def read_md_sections(input_text):
 
@@ -61,6 +64,7 @@ def get_masvs_dict():
     # sort masvs dict by index
     masvs["groups"] = sorted(masvs["groups"], key=lambda k: k["index"])
     
+    masvs["metadata"]["version"] = MASVS_VERSION
     return masvs
 
 masvs = get_masvs_dict()
@@ -68,3 +72,10 @@ masvs = get_masvs_dict()
 with open("masvs.yaml", "w") as f:
     yaml.dump(masvs, f, default_flow_style=False, sort_keys=False, allow_unicode=True, width=float("inf"))
     
+
+# get input arguments
+parser = argparse.ArgumentParser()
+parser.add_argument("-v", "--version", help="MASVS version", required=True, default="vx.x.x")
+args = parser.parse_args()
+
+MASVS_VERSION = args.version

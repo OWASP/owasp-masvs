@@ -1,3 +1,3 @@
 # Contributing
 
-Learn how you can contribute to the OWASP Mobile Application Security project [here](https://github.com/OWASP/owasp-mastg/blob/master/docs/contributing/1_How_Can_You_Contribute.md).
+Learn how you can contribute to the OWASP Mobile Application Security project [here](https://mas.owasp.org/contributing/).
