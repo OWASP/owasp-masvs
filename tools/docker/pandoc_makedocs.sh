@@ -61,6 +61,7 @@ ${PANDOC} \
 
 # PDF
 ${PANDOC} \
+  --css=tools/docker/custom.css \
   --template=${LATEX_TEMPLATE} \
   --pdf-engine=xelatex \
   --columns 50 \
@@ -70,7 +71,6 @@ ${PANDOC} \
   --include-before-body tmp_cover.latex \
   --include-before-body tmp_first_page.latex \
   --output ${OUTPUT_BASE_NAME}.pdf \
-  --css=tools/docker/custom.css \
   ${METADATA} \
   ${CHAPTERS}
 
