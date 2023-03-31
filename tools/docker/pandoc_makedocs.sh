@@ -14,7 +14,12 @@ TITLE=${TITLE:-OWASP Mobile Application Security Verification Standard ${MASVS_V
 
 PANDOC_PARAMS=${PANDOC_PARAMS:-}
 PANDOC_PARAMS+="--resource-path=.:${FOLDER} "
-PANDOC_PARAMS+="--metadata masvs_version=${MASVS_VERSION}"
+PANDOC_PARAMS+="--metadata masvs_version=${MASVS_VERSION} "
+
+# disable captions for images in pandoc
+PANDOC_PARAMS+="--no-wrap"
+
+
 
 [ ! -z "${VERBOSE}" ] && PANDOC_PARAMS+="--verbose "
 
