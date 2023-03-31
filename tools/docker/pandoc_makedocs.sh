@@ -61,7 +61,6 @@ ${PANDOC} \
 
 # PDF
 ${PANDOC} \
-  --css=tools/docker/custom.css \
   --template=${LATEX_TEMPLATE} \
   --pdf-engine=xelatex \
   --columns 50 \
