@@ -6,7 +6,7 @@ The objective of the MASVS is to establish a high level of confidence in the sec
 
 By adhering to the controls outlined in the OWASP MASVS, organizations can ensure that their mobile applications are built with security in mind, reducing the risk of security breaches and protecting sensitive user data. Whether used as a metric, guidance, or baseline, the OWASP MASVS is an invaluable tool for enhancing the security of mobile applications.
 
-The OWASP MASVS is a living document and is regularly updated to reflect the changing threat landscape and new attack vectors. As such, it's important to [stay up-to-date](https://mas.owasp.org/MASVS/ with the latest version of the standard and adapt security measures accordingly.
+The OWASP MASVS is a living document and is regularly updated to reflect the changing threat landscape and new attack vectors. As such, it's important to [stay up-to-date](https://mas.owasp.org/MASVS/) with the latest version of the standard and adapt security measures accordingly.
 
 ## Mobile Application Security Model
 
@@ -42,7 +42,7 @@ While the OWASP MASVS is an invaluable tool for enhancing the security of mobile
 
 ### Security Architecture, Design and Threat Modeling for Mobile Apps
 
-> The OWASP MASVS assumes that best practices for secure architecture, design, and threat modeling have been followed as a foundation. 
+> The OWASP MASVS assumes that best practices for secure architecture, design, and threat modeling have been followed as a foundation.
 
 Security must be a top priority throughout all stages of mobile app development, from the initial planning and design phase to deployment and ongoing maintenance. Developers need to follow secure development best practices and ensure that security measures are prioritized to protect sensitive data, comply with policies and regulations, and identify and address security issues that can be targeted by attackers.
 
