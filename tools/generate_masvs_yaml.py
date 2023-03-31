@@ -67,15 +67,14 @@ def get_masvs_dict():
     masvs["metadata"]["version"] = MASVS_VERSION
     return masvs
 
-masvs = get_masvs_dict()
-
-with open("masvs.yaml", "w") as f:
-    yaml.dump(masvs, f, default_flow_style=False, sort_keys=False, allow_unicode=True, width=float("inf"))
-    
-
 # get input arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("-v", "--version", help="MASVS version", required=True, default="vx.x.x")
 args = parser.parse_args()
 
 MASVS_VERSION = args.version
+
+masvs = get_masvs_dict()
+
+with open("masvs.yaml", "w") as f:
+    yaml.dump(masvs, f, default_flow_style=False, sort_keys=False, allow_unicode=True, width=float("inf"))
