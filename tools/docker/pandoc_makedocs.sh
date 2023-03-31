@@ -17,7 +17,7 @@ PANDOC_PARAMS+="--resource-path=.:${FOLDER} "
 PANDOC_PARAMS+="--metadata masvs_version=${MASVS_VERSION} "
 
 # disable captions for images in pandoc
-PANDOC_PARAMS+="--no-wrap"
+PANDOC_PARAMS+="-fmarkdown-implicit_figures"
 
 
 
