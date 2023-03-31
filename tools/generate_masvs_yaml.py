@@ -58,7 +58,7 @@ def get_masvs_dict():
                             control_sections = read_md_sections(control_content)
                             control = {"id": control_id} | control_sections
                             group["controls"].append(control)
-
+                group["controls"] = sorted(group["controls"], key=lambda k: k["id"])
                 masvs["groups"].append(group)
             index += 1
     # sort masvs dict by index
@@ -69,7 +69,7 @@ def get_masvs_dict():
 
 # get input arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("-v", "--version", help="MASVS version", required=True, default="vx.x.x")
+parser.add_argument("-v", "--version", help="MASVS version", required=False, default="vx.x.x")
 args = parser.parse_args()
 
 MASVS_VERSION = args.version

@@ -8,7 +8,7 @@ def write_controls_content(control, cf):
     final_newline = '\n'
     
     cf.write(f'{h1} {control["id"]}\n\n')
-    cf.write(f'{h2} Statement\n\n')
+    cf.write(f'{h2} Control\n\n')
     cf.write(f'{control["statement"]}\n\n')
     cf.write(f'{h2} Description\n\n')
     cf.write(f'{control["description"]}\n{final_newline}')
@@ -31,7 +31,7 @@ def yaml_to_md(input_file, for_website):
                 if group_id_in_file == group_id:
                     with open(os.path.join("Document", file), "a") as f:
                         f.write('\n')
-                        f.write('| ID | Statement |\n')
+                        f.write('| ID | Control |\n')
                         f.write('|----|-----------|\n')
                         for control in controls:
                             if for_website == True:
