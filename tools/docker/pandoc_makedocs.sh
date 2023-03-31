@@ -17,8 +17,7 @@ PANDOC_PARAMS+="--resource-path=.:${FOLDER} "
 PANDOC_PARAMS+="--metadata masvs_version=${MASVS_VERSION} "
 
 # disable captions for images in pandoc
-PANDOC_PARAMS+="-fmarkdown-implicit_figures "
-PANDOC_PARAMS+="-css=tools/docker/custom.css"
+PANDOC_PARAMS+="-fmarkdown-implicit_figures"
 
 
 [ ! -z "${VERBOSE}" ] && PANDOC_PARAMS+="--verbose "
@@ -71,6 +70,7 @@ ${PANDOC} \
   --include-before-body tmp_cover.latex \
   --include-before-body tmp_first_page.latex \
   --output ${OUTPUT_BASE_NAME}.pdf \
+  --css=tools/docker/custom.css \
   ${METADATA} \
   ${CHAPTERS}
 
