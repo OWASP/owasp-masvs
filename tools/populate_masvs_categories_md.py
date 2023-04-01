@@ -30,7 +30,7 @@ def yaml_to_md(input_file, for_website):
                
                 if group_id_in_file == group_id:
                     with open(os.path.join("Document", file), "a") as f:
-                        f.write('\n')
+                        f.write('\n\n## Controls\n')
                         f.write('| ID | Control |\n')
                         f.write('|----|-----------|\n')
                         for control in controls:

@@ -20,7 +20,6 @@ PANDOC_PARAMS+="--metadata masvs_version=${MASVS_VERSION} "
 PANDOC_PARAMS+="-fmarkdown-implicit_figures"
 
 
-
 [ ! -z "${VERBOSE}" ] && PANDOC_PARAMS+="--verbose "
 
 PANDOCKER="docker run --rm --volume `pwd`:/pandoc ${IMG}:${TAG} ${PANDOC_PARAMS}"
