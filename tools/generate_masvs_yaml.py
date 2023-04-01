@@ -76,5 +76,5 @@ MASVS_VERSION = args.version
 
 masvs = get_masvs_dict()
 
-with open("masvs.yaml", "w") as f:
+with open("OWASP_MASVS.yaml", "w") as f:
     yaml.dump(masvs, f, default_flow_style=False, sort_keys=False, allow_unicode=True, width=float("inf"))
