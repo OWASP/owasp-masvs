@@ -11,8 +11,6 @@ masvs = {
     "groups": []
 }
 
-MASVS_VERSION = ""
-
 def read_md_sections(input_text):
 
     sections_dict = {}
@@ -32,12 +30,12 @@ def read_md_sections(input_text):
     
     return sections_dict
 
-def get_masvs_dict():
+def get_masvs_dict(masvs_version, input_dir):
     index = 1
 
-    for file in sorted(os.listdir("Document")):
+    for file in sorted(os.listdir(input_dir)):
         if "-MASVS-" in file:
-            with open(os.path.join("Document", file), "r") as f:
+            with open(os.path.join(input_dir, file), "r") as f:
                 header = f.readline().replace("# ", "").strip()
                 description = f.read()
                 category_id = header.split(":")[0].strip()
@@ -64,17 +62,19 @@ def get_masvs_dict():
     # sort masvs dict by index
     masvs["groups"] = sorted(masvs["groups"], key=lambda k: k["index"])
     
-    masvs["metadata"]["version"] = MASVS_VERSION
+    masvs["metadata"]["version"] = masvs_version
     return masvs
 
 # get input arguments
 parser = argparse.ArgumentParser()
+parser.add_argument("-i", "--input", help="Input Directory", required=False, default="Document")
 parser.add_argument("-v", "--version", help="MASVS version", required=False, default="vx.x.x")
 args = parser.parse_args()
 
-MASVS_VERSION = args.version
+masvs_version = args.version
+input_dir = args.input
 
-masvs = get_masvs_dict()
+masvs = get_masvs_dict(masvs_version, input_dir)
 
 with open("OWASP_MASVS.yaml", "w") as f:
     yaml.dump(masvs, f, default_flow_style=False, sort_keys=False, allow_unicode=True, width=float("inf"))
