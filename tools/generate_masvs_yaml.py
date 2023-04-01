@@ -30,7 +30,7 @@ def read_md_sections(input_text):
     
     return sections_dict
 
-def get_masvs_dict(masvs_version, input_dir):
+def get_masvs_dict(masvs_version, input_dir, controls_dir):
     index = 1
 
     for file in sorted(os.listdir(input_dir)):
@@ -48,9 +48,9 @@ def get_masvs_dict(masvs_version, input_dir):
                     "controls": []
                 }
 
-                for control_file in os.listdir("controls"):
+                for control_file in os.listdir(controls_dir):
                     if control_file.startswith(category_id):
-                        with open(os.path.join("controls", control_file), "r") as cf:
+                        with open(os.path.join(controls_dir, control_file), "r") as cf:
                             control_id = cf.readline().replace("# ", "").strip()
                             control_content = cf.read()
                             control_sections = read_md_sections(control_content)
@@ -68,13 +68,15 @@ def get_masvs_dict(masvs_version, input_dir):
 # get input arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--input", help="Input Directory", required=False, default="Document")
+parser.add_argument("-c", "--controls", help="Controls Directory", required=False, default="controls")
 parser.add_argument("-v", "--version", help="MASVS version", required=False, default="vx.x.x")
 args = parser.parse_args()
 
 masvs_version = args.version
 input_dir = args.input
+controls_dir = args.controls
 
-masvs = get_masvs_dict(masvs_version, input_dir)
+masvs = get_masvs_dict(masvs_version, input_dir, controls_dir)
 
 with open("OWASP_MASVS.yaml", "w") as f:
     yaml.dump(masvs, f, default_flow_style=False, sort_keys=False, allow_unicode=True, width=float("inf"))
