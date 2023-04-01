@@ -30,12 +30,13 @@ def yaml_to_md(input_dir, input_file, for_website):
                
                 if group_id_in_file == group_id:
                     with open(os.path.join(input_dir, file), "a") as f:
-                        f.write('\n\n## Controls\n')
+                        if for_website == False:
+                            f.write('\n\n## Controls\n')
                         f.write('| ID | Control |\n')
                         f.write('|----|-----------|\n')
                         for control in controls:
                             if for_website == True:
-                                control_id = f'[{control["id"]}](controls/{control["id"]})'
+                                control_id = f'[{control["id"]}](/MASVS/Controls/{control["id"]})'
                             else:
                                 control_id = control["id"]
                             
