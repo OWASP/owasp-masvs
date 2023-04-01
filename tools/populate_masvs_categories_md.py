@@ -33,7 +33,7 @@ def yaml_to_md(input_dir, input_file, for_website):
                         if for_website == False:
                             f.write('\n\n## Controls\n')
                         else:
-                            f.write('\n\n')
+                            f.write('\n<style> table { width: 100%; } </style>\n\n')
                         f.write('| ID | Control |\n')
                         f.write('|----|-----------|\n')
                         for control in controls:
