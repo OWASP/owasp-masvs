@@ -51,7 +51,7 @@ def yaml_to_md(input_file, for_website):
 
 # get input arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("-i", "--input", help="Input file", required=False, default="masvs.yaml")
+parser.add_argument("-i", "--input", help="Input file", required=False, default="OWASP_MASVS.yaml")
 parser.add_argument("-w", "--website", help="Generate for website", action='store_true', required=False, default=False)
 args = parser.parse_args()
 
