@@ -10,21 +10,26 @@ jobs:
       with:
         fetch-depth: 1
 
-    - name: Set VERSION to env 
-      run: echo "VERSION=$(curl -s https://api.github.com/repos/OWASP/owasp-masvs/tags | jq '.[0].name' | sed 's/\"//g')" >> $GITHUB_ENV
+    - name: Set MASVS_VERSION to env 
+      run: echo "MASVS_VERSION=$(curl -s https://api.github.com/repos/OWASP/owasp-masvs/tags | jq '.[0].name' | sed 's/\"//g')" >> $GITHUB_ENV
 
-    - name: Set DEV VERSION if it's not a tag
+    - name: Set DEV MASVS_VERSION if it's not a tag
       if: ${{ !startsWith(github.ref, 'refs/tags/') }}
-      run: echo "VERSION=${{env.VERSION}}-$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+      run: echo "MASVS_VERSION=${{env.MASVS_VERSION}}-$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+
+    - name: Get Latest MASTG Release Tag
+      run: echo "MASTG_VERSION=$(curl -s https://api.github.com/repos/OWASP/owasp-mastg/releases/latest | jq '.tag_name' | sed 's/\"//g')" >> $GITHUB_ENV
+
+
 
     - name: Generate MASVS yaml
-      run: python3 ./tools/generate_masvs_yaml.py -v ${{ env.VERSION }}
+      run: python3 ./tools/generate_masvs_yaml.py -v ${{ env.MASVS_VERSION }}
 
     - name: Populate MASVS Categories Markdown Files
       run: python3 ./tools/populate_masvs_categories_md.py
 
     - name: Generate PDF and ePub
-      run: ./tools/docker/pandoc_makedocs.sh Document ${{ env.VERSION }}
+      run: ./tools/docker/pandoc_makedocs.sh Document ${{ env.MASVS_VERSION }} ${{ env.MASTG_VERSION }}
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v3
@@ -44,16 +49,9 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/') && (github.actor == 'cpholguera' || github.actor == 'sushi2k')
     steps:
       - uses: actions/download-artifact@v2
-      - name: List Downloaded document (sampling of download-artifact)
-        run: ls -l OWASP_MASVS*
-
-      - name: print working directory
-        run: pwd 
-      - name: Listing of root directory
-        run: ls -l 
-
-      - name: Move all translations (pdf, and epub) to root
+      - name: Move all files to the root folder
         run: mv OWASP_MASVS*/* .
+
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
@@ -64,6 +62,6 @@ jobs:
           files: |
             OWASP_MASVS.pdf
             OWASP_MASVS.epub
-            OWASP_MASVS.yaml/OWASP_MASVS.yaml
+            OWASP_MASVS.yaml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
