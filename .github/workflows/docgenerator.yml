@@ -41,7 +41,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: OWASP_MASVS.yaml
-        path: masvs.yaml
+        path: OWASP_MASVS.yaml
 
   release:
     runs-on: ubuntu-latest
