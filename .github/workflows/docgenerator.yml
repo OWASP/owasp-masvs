@@ -37,12 +37,6 @@ jobs:
         name: OWASP_MASVS
         path: OWASP_MASVS*
 
-    - name: Upload YAML
-      uses: actions/upload-artifact@v3
-      with:
-        name: OWASP_MASVS.yaml
-        path: OWASP_MASVS.yaml
-
   release:
     runs-on: ubuntu-latest
     needs: [Generate-MASVS-Documents]
