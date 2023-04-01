@@ -1,13 +1,8 @@
-name: Documents Build
+name: MASVS Build
 
 on: [push, workflow_dispatch]
 
 jobs:
-
-##
-## Use `pandocker-tag: TAG=latest-ubuntu-full` for langs that require the special fonts (Russian, Chinese, etc.)
-##
-
   Generate-MASVS-Documents:
     runs-on: ubuntu-latest
     steps:
@@ -28,7 +23,7 @@ jobs:
     - name: Populate MASVS Categories Markdown Files
       run: python3 ./tools/populate_masvs_categories_md.py
 
-    - name: Generate PDF
+    - name: Generate PDF and ePub
       run: ./tools/docker/pandoc_makedocs.sh Document ${{ env.VERSION }}
 
     - name: Upload Artifacts
