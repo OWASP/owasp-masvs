@@ -32,6 +32,8 @@ def yaml_to_md(input_dir, input_file, for_website):
                     with open(os.path.join(input_dir, file), "a") as f:
                         if for_website == False:
                             f.write('\n\n## Controls\n')
+                        else:
+                            f.write('\n\n')
                         f.write('| ID | Control |\n')
                         f.write('|----|-----------|\n')
                         for control in controls:
