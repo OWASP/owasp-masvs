@@ -14,7 +14,7 @@ def write_controls_content(control, cf):
     cf.write(f'{control["description"]}\n{final_newline}')
 
 
-def yaml_to_md(input_file, for_website):
+def yaml_to_md(input_dir, input_file, for_website):
 
     with open(input_file, 'r') as f:
         data = yaml.safe_load(f)
@@ -23,13 +23,13 @@ def yaml_to_md(input_file, for_website):
         group_id = group['id']
         controls = group['controls']
 
-        for file in sorted(os.listdir("Document")):
+        for file in sorted(os.listdir(input_dir)):
             if "-MASVS-" in file:
                 # group_id_in_file is the part of the filename after the first dash and without the extension
                 group_id_in_file = file.split("-")[1] + "-" + file.split("-")[2].split(".")[0]
                
                 if group_id_in_file == group_id:
-                    with open(os.path.join("Document", file), "a") as f:
+                    with open(os.path.join(input_dir, file), "a") as f:
                         f.write('\n\n## Controls\n')
                         f.write('| ID | Control |\n')
                         f.write('|----|-----------|\n')
@@ -51,11 +51,13 @@ def yaml_to_md(input_file, for_website):
 
 # get input arguments
 parser = argparse.ArgumentParser()
+parser.add_argument("-d", "--input-dir", help="Input Directory", required=False, default="Document")
 parser.add_argument("-i", "--input", help="Input file", required=False, default="OWASP_MASVS.yaml")
 parser.add_argument("-w", "--website", help="Generate for website", action='store_true', required=False, default=False)
 args = parser.parse_args()
 
+input_dir = args.input_dir
 input_file = args.input
 for_website = args.website
 
-yaml_to_md(input_file, for_website)
+yaml_to_md(input_dir, input_file, for_website)
