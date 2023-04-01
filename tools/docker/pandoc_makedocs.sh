@@ -5,6 +5,7 @@ set -eo pipefail
 # Input variables
 FOLDER=${1:-Document}
 MASVS_VERSION=${2:-SNAPSHOT}
+MASTG_VERSION=${3:-SNAPSHOT}
 
 # You can also use the environment variables below to adapt the build process
 IMG=${IMG:-dalibo/pandocker}
@@ -14,7 +15,7 @@ TITLE=${TITLE:-OWASP Mobile Application Security Verification Standard ${MASVS_V
 
 PANDOC_PARAMS=${PANDOC_PARAMS:-}
 PANDOC_PARAMS+="--resource-path=.:${FOLDER} "
-PANDOC_PARAMS+="--metadata masvs_version=${MASVS_VERSION} "
+PANDOC_PARAMS+="--metadata masvs_version=${MASVS_VERSION} --metadata mastg_version=${MASTG_VERSION} "
 
 # disable captions for images in pandoc
 PANDOC_PARAMS+="-fmarkdown-implicit_figures"
