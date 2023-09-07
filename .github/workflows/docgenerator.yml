@@ -32,7 +32,7 @@ jobs:
       run: ./tools/docker/pandoc_makedocs.sh Document ${{ env.MASVS_VERSION }} ${{ env.MASTG_VERSION }}
 
     - name: Generate CycloneDX JSON
-      run: ./tools/generate_masvs_cyclonedx.py
+      run: python3 ./tools/generate_masvs_cyclonedx.py
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v3
