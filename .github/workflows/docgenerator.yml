@@ -31,6 +31,9 @@ jobs:
     - name: Generate PDF and ePub
       run: ./tools/docker/pandoc_makedocs.sh Document ${{ env.MASVS_VERSION }} ${{ env.MASTG_VERSION }}
 
+    - name: Generate CycloneDX JSON
+      run: ./tools/generate_masvs_cyclonedx.py
+
     - name: Upload Artifacts
       uses: actions/upload-artifact@v3
       with:
@@ -57,5 +60,6 @@ jobs:
             OWASP_MASVS.pdf
             OWASP_MASVS.epub
             OWASP_MASVS.yaml
+            OWASP_MASVS.cdx.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
