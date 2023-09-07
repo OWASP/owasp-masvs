@@ -46,17 +46,17 @@ class CycloneDX:
     bom['metadata']['supplier'] = {}
     bom['metadata']['supplier']['name'] = "OWASP Foundation"
     bom['metadata']['supplier']['url'] = [ "https://owasp.org" ]
-    bom['declarations'] = {}
-    bom['declarations']['standards'] = []
-    bom['declarations']['standards'].append({})
+    bom['definitions'] = {}
+    bom['definitions']['standards'] = []
+    bom['definitions']['standards'].append({})
 
     def __init__(self, masvs):
         bom_ref = "MASVS-" + masvs["metadata"]["version"]
-        self.bom['declarations']['standards'][0]['bom-ref'] = bom_ref
-        self.bom['declarations']['standards'][0]['name'] = masvs["metadata"]["title"]
-        self.bom['declarations']['standards'][0]['version'] = masvs["metadata"]["version"]
-        self.bom['declarations']['standards'][0]['description'] = masvs["metadata"]["remarks"]
-        self.bom['declarations']['standards'][0]['owner'] = "OWASP Mobile Application Security Verification Standard Project"
+        self.bom['definitions']['standards'][0]['bom-ref'] = bom_ref
+        self.bom['definitions']['standards'][0]['name'] = masvs["metadata"]["title"]
+        self.bom['definitions']['standards'][0]['version'] = masvs["metadata"]["version"]
+        self.bom['definitions']['standards'][0]['description'] = masvs["metadata"]["remarks"]
+        self.bom['definitions']['standards'][0]['owner'] = "OWASP Mobile Application Security Verification Standard Project"
 
         requirements = []
         for masvs_group in masvs['groups']:
@@ -67,20 +67,20 @@ class CycloneDX:
                     control_req = self.convert_masvs_control(masvs_control, group_req['bom-ref'])
                     requirements.append(control_req)
 
-        self.bom['declarations']['standards'][0]['requirements'] = requirements
-        self.bom['declarations']['standards'][0]['externalReferences'] = []
-        self.bom['declarations']['standards'][0]['externalReferences'].append({})
-        self.bom['declarations']['standards'][0]['externalReferences'][0]['type'] = 'website'
-        self.bom['declarations']['standards'][0]['externalReferences'][0]['url'] = 'https://owasp.org/masvs'
-        self.bom['declarations']['standards'][0]['externalReferences'].append({})
-        self.bom['declarations']['standards'][0]['externalReferences'][1]['type'] = 'vcs'
-        self.bom['declarations']['standards'][0]['externalReferences'][1]['url'] = 'https://github.com/OWASP/owasp-masvs'
-        self.bom['declarations']['standards'][0]['externalReferences'].append({})
-        self.bom['declarations']['standards'][0]['externalReferences'][2]['type'] = 'issue-tracker'
-        self.bom['declarations']['standards'][0]['externalReferences'][2]['url'] = 'https://github.com/OWASP/owasp-masvs/issues'
-        self.bom['declarations']['standards'][0]['externalReferences'].append({})
-        self.bom['declarations']['standards'][0]['externalReferences'][3]['type'] = 'social'
-        self.bom['declarations']['standards'][0]['externalReferences'][3]['url'] = 'https://twitter.com/OWASP_MAS'
+        self.bom['definitions']['standards'][0]['requirements'] = requirements
+        self.bom['definitions']['standards'][0]['externalReferences'] = []
+        self.bom['definitions']['standards'][0]['externalReferences'].append({})
+        self.bom['definitions']['standards'][0]['externalReferences'][0]['type'] = 'website'
+        self.bom['definitions']['standards'][0]['externalReferences'][0]['url'] = 'https://owasp.org/masvs'
+        self.bom['definitions']['standards'][0]['externalReferences'].append({})
+        self.bom['definitions']['standards'][0]['externalReferences'][1]['type'] = 'vcs'
+        self.bom['definitions']['standards'][0]['externalReferences'][1]['url'] = 'https://github.com/OWASP/owasp-masvs'
+        self.bom['definitions']['standards'][0]['externalReferences'].append({})
+        self.bom['definitions']['standards'][0]['externalReferences'][2]['type'] = 'issue-tracker'
+        self.bom['definitions']['standards'][0]['externalReferences'][2]['url'] = 'https://github.com/OWASP/owasp-masvs/issues'
+        self.bom['definitions']['standards'][0]['externalReferences'].append({})
+        self.bom['definitions']['standards'][0]['externalReferences'][3]['type'] = 'social'
+        self.bom['definitions']['standards'][0]['externalReferences'][3]['url'] = 'https://twitter.com/OWASP_MAS'
 
     def convert_masvs_group(self, masvs_group):
         requirement = {}
