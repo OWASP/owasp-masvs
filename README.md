@@ -5,9 +5,9 @@
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/)
 [![Creative Commons License](https://img.shields.io/github/license/OWASP/owasp-masvs)](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
 
-[![Document Build](https://github.com/OWASP/owasp-masvs/workflows/Document%20Build/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22CI+Build%22)
-[![Check Markdown Markup](https://github.com/OWASP/owasp-masvs/workflows/Check%20Markdown%20Markup/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+markup%22)
-[![Check Markdown Links](https://github.com/OWASP/owasp-masvs/workflows/Check%20Markdown%20Links/badge.svg)](https://github.com/OWASP/owasp-masvs/actions?query=workflow%3A%22Check+Markdown+Links%22)
+[![MASVS Build](https://github.com/OWASP/owasp-masvs/workflows/MASVS%20Build/badge.svg)](https://github.com/OWASP/owasp-masvs/actions/workflows/docgenerator.yml)
+[![Markdown Linter](https://github.com/OWASP/owasp-masvs/workflows/Markdown%20Linter/badge.svg)](https://github.com/OWASP/owasp-masvs/actions/workflows/markdown-linter.yml)
+[![URL Checker](https://github.com/OWASP/owasp-masvs/workflows/URL%20Checker/badge.svg)](https://github.com/OWASP/owasp-masvs/actions/workflows/url-checker.yml)
 
 **NEW❗ The MASVS 2.0.0 is already available as a spreadsheet. We're currently working on updating this page and the related documents. Learn more about the refactoring process [here](https://github.com/OWASP/owasp-masvs/discussions/categories/big-masvs-refactoring).**
 
