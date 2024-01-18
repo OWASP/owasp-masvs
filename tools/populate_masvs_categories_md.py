@@ -31,7 +31,7 @@ def yaml_to_md(input_dir, input_file, for_website):
                 if group_id_in_file == group_id:
                     with open(os.path.join(input_dir, file), "a") as f:
                         if for_website == False:
-                            f.write('\n\n## Controls\n')
+                            f.write('\n## Controls\n\n')
                         else:
                             f.write('\n<style> table { width: 100%; } </style>\n\n')
                         f.write('| ID | Control |\n')

@@ -19,12 +19,13 @@ The standard is divided into various groups that represent the most critical are
 - **MASVS-PLATFORM:** Secure interaction with the underlying mobile platform and other installed apps.
 - **MASVS-CODE:** Security best practices for data processing and keeping the app up-to-date.
 - **MASVS-RESILIENCE:** Resilience to reverse engineering and tampering attempts.
+- **MASVS-PRIVACY:** Privacy controls to protect user privacy.
 
 Each of these control groups contains individual controls labeled **MASVS-XXXXX-Y**, which provide specific guidance on the particular security measures that need to be implemented to meet the standard.
 
-## Mobile Application Security Profiles
+## MAS Testing Profiles
 
-The MAS project has traditionally provided three verification levels (L1, L2 and R), which were revisited during the MASVS refactoring in 2023, and have been reworked as "security testing profiles" and moved over to the OWASP MASTG. These profiles are now aligned with the [NIST OSCAL (Open Security Controls Assessment Language)](https://pages.nist.gov/OSCAL/) standard, which is a comprehensive catalog of security controls that can be used to secure information systems.
+The MAS project has traditionally provided three verification levels (L1, L2 and R), which were revisited during the MASVS refactoring in 2023, and have been reworked as ["MAS Testing Profiles"](https://docs.google.com/document/d/1paz7dxKXHzAC9MN7Mnln1JiZwBNyg7Gs364AJ6KudEs/edit?usp=sharing) and moved over to the OWASP MASTG. These profiles are now aligned with the [NIST OSCAL (Open Security Controls Assessment Language)](https://pages.nist.gov/OSCAL/) standard, which is a comprehensive catalog of security controls that can be used to secure information systems.
 
 By aligning with OSCAL, the MASVS provides a more flexible and comprehensive approach to security testing. OSCAL provides a standard format for security control information, which allows for easier sharing and reuse of security controls across different systems and organizations. This allows for a more efficient use of resources and a more targeted approach to mobile app security testing.
 
