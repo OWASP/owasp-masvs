@@ -18,9 +18,12 @@ A certifying organization must include in any report the scope of the verificati
 
 ### Using the OWASP Mobile Application Security Testing Guide (MASTG)
 
-The OWASP MASTG is a manual for testing the security of mobile apps. It describes the technical processes for verifying the controls listed in the MASVS. The MASTG includes a list of test cases, each of which map to a control in the MASVS. While the MASVS controls are high-level and generic, the MASTG provides in-depth recommendations and testing procedures on a per-mobile-OS basis.
+The [OWASP MASTG](https://mas.owasp.org/MASTG/) is a manual for testing the security of mobile apps. It describes the technical processes for verifying the controls listed in the MASVS. The MASTG includes a list of test cases, each of which map to a control in the MASVS. While the MASVS controls are high-level and generic, the MASTG provides in-depth recommendations and testing procedures on a per-mobile-OS basis.
 
-Testing the app's remote endpoints is not covered in the MASTG. The [OWASP Web Security Testing Guide (WSTG)](https://owasp.org/www-project-web-security-testing-guide/) is a comprehensive guide with detailed technical explanation and guidance for testing the security of web applications and web services holistically and can be used in addition to other relevant resources to complement the mobile app security testing exercise.
+Testing the app's remote endpoints is not covered in the MASTG. For example:
+
+- **Remote Endpoints**: The [OWASP Web Security Testing Guide (WSTG)](https://owasp.org/www-project-web-security-testing-guide/) is a comprehensive guide with detailed technical explanation and guidance for testing the security of web applications and web services holistically and can be used in addition to other relevant resources to complement the mobile app security testing exercise.
+- **Internet of Things (IoT)**: The [OWASP IoT Security Testing Guide (ISTG)](https://owasp.org/owasp-istg/) provides a comprehensive methodology for penetration tests in the IoT field offering flexibility to adapt innovations and developments on the IoT market while still ensuring comparability of test results. The guide provides an understanding of communication between manufacturers and operators of IoT devices as well as penetration testing teams that's facilitated by establishing a common terminology.
 
 ### The Role of Automated Security Testing Tools
 
