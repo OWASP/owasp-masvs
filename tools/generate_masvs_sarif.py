@@ -7,6 +7,8 @@ MASVS_SARIF_GUID = "77cf1749-d61e-4cfe-98f7-a217e3b5448c"
 # Re-examining the YAML content for structure
 masvs_parsed = yaml.safe_load(open("OWASP_MASVS.yaml"))
 version = masvs_parsed["metadata"]["version"]
+if version.startswith("v"):
+    version = version[1:]
 current_date_str = datetime.now().strftime("%Y-%m-%d")
 
 # Creating a new SARIF template for the corrected conversion
@@ -16,9 +18,10 @@ sarif_corrected_template = {
     "runs": [{
         "tool": {
             "driver": {
-                "name": "OWASP Mobile Application Security Verification Standard (MASVS)",
+                "name": "OWASP MASVS",
+                "fullName": "OWASP Mobile Application Security Verification Standard (MASVS)",
                 "version": version,
-                "releaseDateUtc": "2024-05-08",
+                "releaseDateUtc": current_date_str,
                 "organization": "OWASP",
                 "informationUri": "https://mas.owasp.org/MASVS/",
                 "downloadUri": "https://github.com/OWASP/owasp-masvs/releases"
