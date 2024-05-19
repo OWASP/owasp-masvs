@@ -34,6 +34,9 @@ jobs:
     - name: Generate CycloneDX JSON
       run: python3 ./tools/generate_masvs_cyclonedx.py
 
+    - name: Generate SARIF
+      run: python3 ./tools/generate_masvs_sarif.py
+
     - name: Upload Artifacts
       uses: actions/upload-artifact@v3
       with:
@@ -61,5 +64,6 @@ jobs:
             OWASP_MASVS.epub
             OWASP_MASVS.yaml
             OWASP_MASVS.cdx.json
+            OWASP_MASVS.sarif
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
