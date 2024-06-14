@@ -9,7 +9,7 @@ MASTG_VERSION=${3:-SNAPSHOT}
 
 # You can also use the environment variables below to adapt the build process
 IMG=${IMG:-dalibo/pandocker}
-TAG=${TAG:-stable} # /!\ use stable-full for non-european languages
+TAG=${TAG:-23.03} # /!\ use stable-full for non-european languages
 LATEX_TEMPLATE=${LATEX_TEMPLATE:-eisvogel}
 TITLE=${TITLE:-OWASP Mobile Application Security Verification Standard ${MASVS_VERSION}}
 
