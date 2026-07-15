@@ -8,7 +8,7 @@ Defense-in-depth measures such as code obfuscation, anti-debugging, anti-tamperi
 
 Resilience measures are particularly relevant when the app needs to protect business assets or deter client-side abuse. They can help mitigate risks such as:
 
-- Theft or compromise of proprietary algorithms, trade secrets, customer data, AI or machine learning models  
+- Theft of trade secrets, customer data
 - Fraud, cheating, or revenue leakage in online games, financial apps, or subscription models  
 - Legal and reputational damage due to breach of contracts or regulations  
 - Damage to brand reputation due to negative publicity or customer dissatisfaction
@@ -17,11 +17,13 @@ These controls aim to ensure the app is running on a trusted platform, detect or
 
 ## Transparency and Open Audit Perspective
 
-In some contexts, such as government, health, or other public-interest apps, resilience measures may not be ideal due to multiple reasons:
+In some contexts, such as government, health, or other public-interest apps, resilience measures can be highly problematic due to multiple reasons:
 
 - It reduces transparency of what the compiled application is doing  
 - Independent verification of the compiled application is more difficult  
 - The diversity of smartphone operating systems can lead to false positives, potentially excluding legitimate users
+- It may infringe on user's rights to access essential public services
+- It may harm sovereignty by adding a hard dependency of public services on foreign platforms
 
 In case these concerns are valid for the target application, we recommend applying the following principles:
 
@@ -29,6 +31,7 @@ In case these concerns are valid for the target application, we recommend applyi
 - Security must rely on verifiable design, strong cryptography, and server-side validation  
 - Anti-tampering or obfuscation techniques must not be used as a substitute for proper security architecture  
 - Controls should prevent cheating or malicious modification without hindering legitimate users and legitimate analysis or oversight
+- Make sure equivalent alternative solutions are available (eg. a web application)
 
 ## Platform Lock-in
 
@@ -37,9 +40,11 @@ Runtime resilience controls focus on two things:
 - The application and its own memory and files  
 - The underlying OS
 
-While verifying the integrity of the application itself is typically OS-agnostic, the same cannot be said for verifying the underlying OS. For example, while there is an open-source version of Android (AOSP), this is typically not the OS that is installed on consumer devices. Instead, many different flavors are developed with small differences in feature sets and security controls. Some examples include Google Android, HarmonyOS, FireOS, LineageOS, /e/OS, etc. By implementing flavor-specific detection mechanisms, the application may not function on any other flavor of Android. This results in a platform lock-in, possibly excluding legitimate users from using the application.  
+While verifying the integrity of the application itself is typically OS-agnostic, the same cannot be said for verifying the underlying OS. For example, while there is an open-source version of Android (AOSP), this is typically not the OS that is installed on consumer devices. Instead, many different flavors are developed with small differences in feature sets and security controls. Some examples include Google Android, HarmonyOS, FireOS, LineageOS, /e/OS, etc. By implementing flavor-specific detection mechanisms, the application may not function on any other flavor of Android. This results in a platform lock-in, excluding legitimate users from using the application. This harms sovereignty and may reinforce anti-competitive practices.
 
-Additionally, reliance on platform services such as Google Play Integrity API or Apple's App Attestation may further reinforce lock-in and limit accessibility for certain user groups.
+Additionally, reliance on platform services such as Google Play Integrity API or Apple's App Attestation further reinforces lock-in and limit accessibility for certain user groups.
+
+Moreover, implementing platform lock-in will usually prevent execution on older version of the platform. This contributes to the planned obsolescence of the platform, force users to build new devices and contributes to e-waste.
 
 ## Malware and Testing Perspective
 
